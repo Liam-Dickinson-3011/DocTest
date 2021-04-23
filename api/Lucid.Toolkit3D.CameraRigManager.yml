@@ -1,0 +1,462 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Toolkit3D.CameraRigManager
+  commentId: T:Lucid.Toolkit3D.CameraRigManager
+  id: CameraRigManager
+  parent: Lucid.Toolkit3D
+  children:
+  - Lucid.Toolkit3D.CameraRigManager.activeCameraRig
+  - Lucid.Toolkit3D.CameraRigManager.allowInput
+  - Lucid.Toolkit3D.CameraRigManager.cameraRigs
+  - Lucid.Toolkit3D.CameraRigManager.DisableCamera(Lucid.Toolkit3D.BaseCameraRig)
+  - Lucid.Toolkit3D.CameraRigManager.DisableCamera(System.Int32)
+  - Lucid.Toolkit3D.CameraRigManager.EnableCamera(Lucid.Toolkit3D.BaseCameraRig)
+  - Lucid.Toolkit3D.CameraRigManager.EnableCamera(System.Int32)
+  - Lucid.Toolkit3D.CameraRigManager.EnableCamera(System.String)
+  - Lucid.Toolkit3D.CameraRigManager.GetCameraRigs
+  langs:
+  - csharp
+  - vb
+  name: CameraRigManager
+  nameWithType: CameraRigManager
+  fullName: Lucid.Toolkit3D.CameraRigManager
+  type: Class
+  source:
+    id: CameraRigManager
+    path: ''
+    startLine: 19693
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: 'public class CameraRigManager : MonoBehaviour'
+    content.vb: >-
+      Public Class CameraRigManager
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Toolkit3D.CameraRigManager.cameraRigs
+  commentId: P:Lucid.Toolkit3D.CameraRigManager.cameraRigs
+  id: cameraRigs
+  parent: Lucid.Toolkit3D.CameraRigManager
+  langs:
+  - csharp
+  - vb
+  name: cameraRigs
+  nameWithType: CameraRigManager.cameraRigs
+  fullName: Lucid.Toolkit3D.CameraRigManager.cameraRigs
+  type: Property
+  source:
+    id: cameraRigs
+    path: ''
+    startLine: 19697
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public List<BaseCameraRig> cameraRigs { get; set; }
+    parameters: []
+    return:
+      type: Global.List{Lucid.Toolkit3D.BaseCameraRig}
+    content.vb: Public Property cameraRigs As List(Of BaseCameraRig)
+  overload: Lucid.Toolkit3D.CameraRigManager.cameraRigs*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.CameraRigManager.activeCameraRig
+  commentId: P:Lucid.Toolkit3D.CameraRigManager.activeCameraRig
+  id: activeCameraRig
+  parent: Lucid.Toolkit3D.CameraRigManager
+  langs:
+  - csharp
+  - vb
+  name: activeCameraRig
+  nameWithType: CameraRigManager.activeCameraRig
+  fullName: Lucid.Toolkit3D.CameraRigManager.activeCameraRig
+  type: Property
+  source:
+    id: activeCameraRig
+    path: ''
+    startLine: 19713
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public BaseCameraRig activeCameraRig { get; set; }
+    parameters: []
+    return:
+      type: Lucid.Toolkit3D.BaseCameraRig
+    content.vb: Public Property activeCameraRig As BaseCameraRig
+  overload: Lucid.Toolkit3D.CameraRigManager.activeCameraRig*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.CameraRigManager.allowInput
+  commentId: P:Lucid.Toolkit3D.CameraRigManager.allowInput
+  id: allowInput
+  parent: Lucid.Toolkit3D.CameraRigManager
+  langs:
+  - csharp
+  - vb
+  name: allowInput
+  nameWithType: CameraRigManager.allowInput
+  fullName: Lucid.Toolkit3D.CameraRigManager.allowInput
+  type: Property
+  source:
+    id: allowInput
+    path: ''
+    startLine: 19723
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public bool allowInput { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property allowInput As Boolean
+  overload: Lucid.Toolkit3D.CameraRigManager.allowInput*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.CameraRigManager.GetCameraRigs
+  commentId: M:Lucid.Toolkit3D.CameraRigManager.GetCameraRigs
+  id: GetCameraRigs
+  parent: Lucid.Toolkit3D.CameraRigManager
+  langs:
+  - csharp
+  - vb
+  name: GetCameraRigs()
+  nameWithType: CameraRigManager.GetCameraRigs()
+  fullName: Lucid.Toolkit3D.CameraRigManager.GetCameraRigs()
+  type: Method
+  source:
+    id: GetCameraRigs
+    path: ''
+    startLine: 19740
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public void GetCameraRigs()
+    content.vb: Public Sub GetCameraRigs
+  overload: Lucid.Toolkit3D.CameraRigManager.GetCameraRigs*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.CameraRigManager.EnableCamera(System.Int32)
+  commentId: M:Lucid.Toolkit3D.CameraRigManager.EnableCamera(System.Int32)
+  id: EnableCamera(System.Int32)
+  parent: Lucid.Toolkit3D.CameraRigManager
+  langs:
+  - csharp
+  - vb
+  name: EnableCamera(Int32)
+  nameWithType: CameraRigManager.EnableCamera(Int32)
+  fullName: Lucid.Toolkit3D.CameraRigManager.EnableCamera(System.Int32)
+  type: Method
+  source:
+    id: EnableCamera
+    path: ''
+    startLine: 19743
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public void EnableCamera(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    content.vb: Public Sub EnableCamera(index As Integer)
+  overload: Lucid.Toolkit3D.CameraRigManager.EnableCamera*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.CameraRigManager.EnableCamera(System.String)
+  commentId: M:Lucid.Toolkit3D.CameraRigManager.EnableCamera(System.String)
+  id: EnableCamera(System.String)
+  parent: Lucid.Toolkit3D.CameraRigManager
+  langs:
+  - csharp
+  - vb
+  name: EnableCamera(String)
+  nameWithType: CameraRigManager.EnableCamera(String)
+  fullName: Lucid.Toolkit3D.CameraRigManager.EnableCamera(System.String)
+  type: Method
+  source:
+    id: EnableCamera
+    path: ''
+    startLine: 19745
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public void EnableCamera(string name)
+    parameters:
+    - id: name
+      type: System.String
+    content.vb: Public Sub EnableCamera(name As String)
+  overload: Lucid.Toolkit3D.CameraRigManager.EnableCamera*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.CameraRigManager.EnableCamera(Lucid.Toolkit3D.BaseCameraRig)
+  commentId: M:Lucid.Toolkit3D.CameraRigManager.EnableCamera(Lucid.Toolkit3D.BaseCameraRig)
+  id: EnableCamera(Lucid.Toolkit3D.BaseCameraRig)
+  parent: Lucid.Toolkit3D.CameraRigManager
+  langs:
+  - csharp
+  - vb
+  name: EnableCamera(BaseCameraRig)
+  nameWithType: CameraRigManager.EnableCamera(BaseCameraRig)
+  fullName: Lucid.Toolkit3D.CameraRigManager.EnableCamera(Lucid.Toolkit3D.BaseCameraRig)
+  type: Method
+  source:
+    id: EnableCamera
+    path: ''
+    startLine: 19747
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public void EnableCamera(BaseCameraRig cameraRig)
+    parameters:
+    - id: cameraRig
+      type: Lucid.Toolkit3D.BaseCameraRig
+    content.vb: Public Sub EnableCamera(cameraRig As BaseCameraRig)
+  overload: Lucid.Toolkit3D.CameraRigManager.EnableCamera*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.CameraRigManager.DisableCamera(System.Int32)
+  commentId: M:Lucid.Toolkit3D.CameraRigManager.DisableCamera(System.Int32)
+  id: DisableCamera(System.Int32)
+  parent: Lucid.Toolkit3D.CameraRigManager
+  langs:
+  - csharp
+  - vb
+  name: DisableCamera(Int32)
+  nameWithType: CameraRigManager.DisableCamera(Int32)
+  fullName: Lucid.Toolkit3D.CameraRigManager.DisableCamera(System.Int32)
+  type: Method
+  source:
+    id: DisableCamera
+    path: ''
+    startLine: 19758
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public void DisableCamera(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    content.vb: Public Sub DisableCamera(index As Integer)
+  overload: Lucid.Toolkit3D.CameraRigManager.DisableCamera*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.CameraRigManager.DisableCamera(Lucid.Toolkit3D.BaseCameraRig)
+  commentId: M:Lucid.Toolkit3D.CameraRigManager.DisableCamera(Lucid.Toolkit3D.BaseCameraRig)
+  id: DisableCamera(Lucid.Toolkit3D.BaseCameraRig)
+  parent: Lucid.Toolkit3D.CameraRigManager
+  langs:
+  - csharp
+  - vb
+  name: DisableCamera(BaseCameraRig)
+  nameWithType: CameraRigManager.DisableCamera(BaseCameraRig)
+  fullName: Lucid.Toolkit3D.CameraRigManager.DisableCamera(Lucid.Toolkit3D.BaseCameraRig)
+  type: Method
+  source:
+    id: DisableCamera
+    path: ''
+    startLine: 19760
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public void DisableCamera(BaseCameraRig cameraRig)
+    parameters:
+    - id: cameraRig
+      type: Lucid.Toolkit3D.BaseCameraRig
+    content.vb: Public Sub DisableCamera(cameraRig As BaseCameraRig)
+  overload: Lucid.Toolkit3D.CameraRigManager.DisableCamera*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Toolkit3D
+  commentId: N:Lucid.Toolkit3D
+  name: Lucid.Toolkit3D
+  nameWithType: Lucid.Toolkit3D
+  fullName: Lucid.Toolkit3D
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.Toolkit3D.CameraRigManager.cameraRigs*
+  commentId: Overload:Lucid.Toolkit3D.CameraRigManager.cameraRigs
+  name: cameraRigs
+  nameWithType: CameraRigManager.cameraRigs
+  fullName: Lucid.Toolkit3D.CameraRigManager.cameraRigs
+- uid: Global.List{Lucid.Toolkit3D.BaseCameraRig}
+  commentId: '!:Global.List{Lucid.Toolkit3D.BaseCameraRig}'
+  definition: Global.List`1
+  name: List<BaseCameraRig>
+  nameWithType: List<BaseCameraRig>
+  fullName: List<Lucid.Toolkit3D.BaseCameraRig>
+  nameWithType.vb: List(Of BaseCameraRig)
+  fullName.vb: List(Of Lucid.Toolkit3D.BaseCameraRig)
+  name.vb: List(Of BaseCameraRig)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Lucid.Toolkit3D.BaseCameraRig
+    name: BaseCameraRig
+    nameWithType: BaseCameraRig
+    fullName: Lucid.Toolkit3D.BaseCameraRig
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Lucid.Toolkit3D.BaseCameraRig
+    name: BaseCameraRig
+    nameWithType: BaseCameraRig
+    fullName: Lucid.Toolkit3D.BaseCameraRig
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.Toolkit3D.CameraRigManager.activeCameraRig*
+  commentId: Overload:Lucid.Toolkit3D.CameraRigManager.activeCameraRig
+  name: activeCameraRig
+  nameWithType: CameraRigManager.activeCameraRig
+  fullName: Lucid.Toolkit3D.CameraRigManager.activeCameraRig
+- uid: Lucid.Toolkit3D.BaseCameraRig
+  commentId: T:Lucid.Toolkit3D.BaseCameraRig
+  parent: Lucid.Toolkit3D
+  name: BaseCameraRig
+  nameWithType: BaseCameraRig
+  fullName: Lucid.Toolkit3D.BaseCameraRig
+- uid: Lucid.Toolkit3D.CameraRigManager.allowInput*
+  commentId: Overload:Lucid.Toolkit3D.CameraRigManager.allowInput
+  name: allowInput
+  nameWithType: CameraRigManager.allowInput
+  fullName: Lucid.Toolkit3D.CameraRigManager.allowInput
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Lucid.Toolkit3D.CameraRigManager.GetCameraRigs*
+  commentId: Overload:Lucid.Toolkit3D.CameraRigManager.GetCameraRigs
+  name: GetCameraRigs
+  nameWithType: CameraRigManager.GetCameraRigs
+  fullName: Lucid.Toolkit3D.CameraRigManager.GetCameraRigs
+- uid: Lucid.Toolkit3D.CameraRigManager.EnableCamera*
+  commentId: Overload:Lucid.Toolkit3D.CameraRigManager.EnableCamera
+  name: EnableCamera
+  nameWithType: CameraRigManager.EnableCamera
+  fullName: Lucid.Toolkit3D.CameraRigManager.EnableCamera
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Lucid.Toolkit3D.CameraRigManager.DisableCamera*
+  commentId: Overload:Lucid.Toolkit3D.CameraRigManager.DisableCamera
+  name: DisableCamera
+  nameWithType: CameraRigManager.DisableCamera
+  fullName: Lucid.Toolkit3D.CameraRigManager.DisableCamera

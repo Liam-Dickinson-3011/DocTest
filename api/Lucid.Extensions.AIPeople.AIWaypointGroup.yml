@@ -1,0 +1,318 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Extensions.AIPeople.AIWaypointGroup
+  commentId: T:Lucid.Extensions.AIPeople.AIWaypointGroup
+  id: AIWaypointGroup
+  parent: Lucid.Extensions.AIPeople
+  children:
+  - Lucid.Extensions.AIPeople.AIWaypointGroup.aiWaypoints
+  - Lucid.Extensions.AIPeople.AIWaypointGroup.GetRandomWaypoint
+  - Lucid.Extensions.AIPeople.AIWaypointGroup.GetRandomWaypoint(Lucid.Extensions.AIPeople.AIWaypoint)
+  - Lucid.Extensions.AIPeople.AIWaypointGroup.GetWaypoint(System.Int32)
+  - Lucid.Extensions.AIPeople.AIWaypointGroup.gizmoColor
+  langs:
+  - csharp
+  - vb
+  name: AIWaypointGroup
+  nameWithType: AIWaypointGroup
+  fullName: Lucid.Extensions.AIPeople.AIWaypointGroup
+  type: Class
+  source:
+    id: AIWaypointGroup
+    path: ''
+    startLine: 5068
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: 'public class AIWaypointGroup : MonoBehaviour'
+    content.vb: >-
+      Public Class AIWaypointGroup
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Extensions.AIPeople.AIWaypointGroup.aiWaypoints
+  commentId: P:Lucid.Extensions.AIPeople.AIWaypointGroup.aiWaypoints
+  id: aiWaypoints
+  parent: Lucid.Extensions.AIPeople.AIWaypointGroup
+  langs:
+  - csharp
+  - vb
+  name: aiWaypoints
+  nameWithType: AIWaypointGroup.aiWaypoints
+  fullName: Lucid.Extensions.AIPeople.AIWaypointGroup.aiWaypoints
+  type: Property
+  source:
+    id: aiWaypoints
+    path: ''
+    startLine: 5073
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: public List<AIWaypoint> aiWaypoints { get; set; }
+    parameters: []
+    return:
+      type: Global.List{Lucid.Extensions.AIPeople.AIWaypoint}
+    content.vb: Public Property aiWaypoints As List(Of AIWaypoint)
+  overload: Lucid.Extensions.AIPeople.AIWaypointGroup.aiWaypoints*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.AIPeople.AIWaypointGroup.GetWaypoint(System.Int32)
+  commentId: M:Lucid.Extensions.AIPeople.AIWaypointGroup.GetWaypoint(System.Int32)
+  id: GetWaypoint(System.Int32)
+  parent: Lucid.Extensions.AIPeople.AIWaypointGroup
+  langs:
+  - csharp
+  - vb
+  name: GetWaypoint(Int32)
+  nameWithType: AIWaypointGroup.GetWaypoint(Int32)
+  fullName: Lucid.Extensions.AIPeople.AIWaypointGroup.GetWaypoint(System.Int32)
+  type: Method
+  source:
+    id: GetWaypoint
+    path: ''
+    startLine: 5091
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: public AIWaypoint GetWaypoint(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: Lucid.Extensions.AIPeople.AIWaypoint
+    content.vb: Public Function GetWaypoint(index As Integer) As AIWaypoint
+  overload: Lucid.Extensions.AIPeople.AIWaypointGroup.GetWaypoint*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.AIPeople.AIWaypointGroup.GetRandomWaypoint
+  commentId: M:Lucid.Extensions.AIPeople.AIWaypointGroup.GetRandomWaypoint
+  id: GetRandomWaypoint
+  parent: Lucid.Extensions.AIPeople.AIWaypointGroup
+  langs:
+  - csharp
+  - vb
+  name: GetRandomWaypoint()
+  nameWithType: AIWaypointGroup.GetRandomWaypoint()
+  fullName: Lucid.Extensions.AIPeople.AIWaypointGroup.GetRandomWaypoint()
+  type: Method
+  source:
+    id: GetRandomWaypoint
+    path: ''
+    startLine: 5096
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: public AIWaypoint GetRandomWaypoint()
+    return:
+      type: Lucid.Extensions.AIPeople.AIWaypoint
+    content.vb: Public Function GetRandomWaypoint As AIWaypoint
+  overload: Lucid.Extensions.AIPeople.AIWaypointGroup.GetRandomWaypoint*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.AIPeople.AIWaypointGroup.GetRandomWaypoint(Lucid.Extensions.AIPeople.AIWaypoint)
+  commentId: M:Lucid.Extensions.AIPeople.AIWaypointGroup.GetRandomWaypoint(Lucid.Extensions.AIPeople.AIWaypoint)
+  id: GetRandomWaypoint(Lucid.Extensions.AIPeople.AIWaypoint)
+  parent: Lucid.Extensions.AIPeople.AIWaypointGroup
+  langs:
+  - csharp
+  - vb
+  name: GetRandomWaypoint(AIWaypoint)
+  nameWithType: AIWaypointGroup.GetRandomWaypoint(AIWaypoint)
+  fullName: Lucid.Extensions.AIPeople.AIWaypointGroup.GetRandomWaypoint(Lucid.Extensions.AIPeople.AIWaypoint)
+  type: Method
+  source:
+    id: GetRandomWaypoint
+    path: ''
+    startLine: 5102
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: public AIWaypoint GetRandomWaypoint(AIWaypoint exludeFromSelection)
+    parameters:
+    - id: exludeFromSelection
+      type: Lucid.Extensions.AIPeople.AIWaypoint
+    return:
+      type: Lucid.Extensions.AIPeople.AIWaypoint
+    content.vb: Public Function GetRandomWaypoint(exludeFromSelection As AIWaypoint) As AIWaypoint
+  overload: Lucid.Extensions.AIPeople.AIWaypointGroup.GetRandomWaypoint*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.AIPeople.AIWaypointGroup.gizmoColor
+  commentId: F:Lucid.Extensions.AIPeople.AIWaypointGroup.gizmoColor
+  id: gizmoColor
+  parent: Lucid.Extensions.AIPeople.AIWaypointGroup
+  langs:
+  - csharp
+  - vb
+  name: gizmoColor
+  nameWithType: AIWaypointGroup.gizmoColor
+  fullName: Lucid.Extensions.AIPeople.AIWaypointGroup.gizmoColor
+  type: Field
+  source:
+    id: gizmoColor
+    path: ''
+    startLine: 5112
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: public Color gizmoColor
+    return:
+      type: Global.Color
+    content.vb: Public gizmoColor As Color
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Extensions.AIPeople
+  commentId: N:Lucid.Extensions.AIPeople
+  name: Lucid.Extensions.AIPeople
+  nameWithType: Lucid.Extensions.AIPeople
+  fullName: Lucid.Extensions.AIPeople
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.Extensions.AIPeople.AIWaypointGroup.aiWaypoints*
+  commentId: Overload:Lucid.Extensions.AIPeople.AIWaypointGroup.aiWaypoints
+  name: aiWaypoints
+  nameWithType: AIWaypointGroup.aiWaypoints
+  fullName: Lucid.Extensions.AIPeople.AIWaypointGroup.aiWaypoints
+- uid: Global.List{Lucid.Extensions.AIPeople.AIWaypoint}
+  commentId: '!:Global.List{Lucid.Extensions.AIPeople.AIWaypoint}'
+  definition: Global.List`1
+  name: List<AIWaypoint>
+  nameWithType: List<AIWaypoint>
+  fullName: List<Lucid.Extensions.AIPeople.AIWaypoint>
+  nameWithType.vb: List(Of AIWaypoint)
+  fullName.vb: List(Of Lucid.Extensions.AIPeople.AIWaypoint)
+  name.vb: List(Of AIWaypoint)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Lucid.Extensions.AIPeople.AIWaypoint
+    name: AIWaypoint
+    nameWithType: AIWaypoint
+    fullName: Lucid.Extensions.AIPeople.AIWaypoint
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Lucid.Extensions.AIPeople.AIWaypoint
+    name: AIWaypoint
+    nameWithType: AIWaypoint
+    fullName: Lucid.Extensions.AIPeople.AIWaypoint
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.Extensions.AIPeople.AIWaypointGroup.GetWaypoint*
+  commentId: Overload:Lucid.Extensions.AIPeople.AIWaypointGroup.GetWaypoint
+  name: GetWaypoint
+  nameWithType: AIWaypointGroup.GetWaypoint
+  fullName: Lucid.Extensions.AIPeople.AIWaypointGroup.GetWaypoint
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Lucid.Extensions.AIPeople.AIWaypoint
+  commentId: T:Lucid.Extensions.AIPeople.AIWaypoint
+  parent: Lucid.Extensions.AIPeople
+  name: AIWaypoint
+  nameWithType: AIWaypoint
+  fullName: Lucid.Extensions.AIPeople.AIWaypoint
+- uid: Lucid.Extensions.AIPeople.AIWaypointGroup.GetRandomWaypoint*
+  commentId: Overload:Lucid.Extensions.AIPeople.AIWaypointGroup.GetRandomWaypoint
+  name: GetRandomWaypoint
+  nameWithType: AIWaypointGroup.GetRandomWaypoint
+  fullName: Lucid.Extensions.AIPeople.AIWaypointGroup.GetRandomWaypoint
+- uid: Global.Color
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: Color

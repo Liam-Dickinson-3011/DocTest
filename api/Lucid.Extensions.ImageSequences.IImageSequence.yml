@@ -1,0 +1,324 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Extensions.ImageSequences.IImageSequence
+  commentId: T:Lucid.Extensions.ImageSequences.IImageSequence
+  id: IImageSequence
+  parent: Lucid.Extensions.ImageSequences
+  children:
+  - Lucid.Extensions.ImageSequences.IImageSequence.bufferBundlesCount
+  - Lucid.Extensions.ImageSequences.IImageSequence.currentBundleIndex
+  - Lucid.Extensions.ImageSequences.IImageSequence.currentImageIndex
+  - Lucid.Extensions.ImageSequences.IImageSequence.reverseImageOrder
+  - Lucid.Extensions.ImageSequences.IImageSequence.SetBundleIndex(System.Int32)
+  - Lucid.Extensions.ImageSequences.IImageSequence.SetImageIndex(System.Int32)
+  - Lucid.Extensions.ImageSequences.IImageSequence.totalBundles
+  - Lucid.Extensions.ImageSequences.IImageSequence.totalImages
+  langs:
+  - csharp
+  - vb
+  name: IImageSequence
+  nameWithType: IImageSequence
+  fullName: Lucid.Extensions.ImageSequences.IImageSequence
+  type: Interface
+  source:
+    id: IImageSequence
+    path: ''
+    startLine: 3742
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public interface IImageSequence
+    content.vb: Public Interface IImageSequence
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Lucid.Extensions.ImageSequences.IImageSequence.totalBundles
+  commentId: P:Lucid.Extensions.ImageSequences.IImageSequence.totalBundles
+  id: totalBundles
+  parent: Lucid.Extensions.ImageSequences.IImageSequence
+  langs:
+  - csharp
+  - vb
+  name: totalBundles
+  nameWithType: IImageSequence.totalBundles
+  fullName: Lucid.Extensions.ImageSequences.IImageSequence.totalBundles
+  type: Property
+  source:
+    id: totalBundles
+    path: ''
+    startLine: 3744
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: int totalBundles { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property totalBundles As Integer
+  overload: Lucid.Extensions.ImageSequences.IImageSequence.totalBundles*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Lucid.Extensions.ImageSequences.IImageSequence.currentBundleIndex
+  commentId: P:Lucid.Extensions.ImageSequences.IImageSequence.currentBundleIndex
+  id: currentBundleIndex
+  parent: Lucid.Extensions.ImageSequences.IImageSequence
+  langs:
+  - csharp
+  - vb
+  name: currentBundleIndex
+  nameWithType: IImageSequence.currentBundleIndex
+  fullName: Lucid.Extensions.ImageSequences.IImageSequence.currentBundleIndex
+  type: Property
+  source:
+    id: currentBundleIndex
+    path: ''
+    startLine: 3745
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: int currentBundleIndex { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property currentBundleIndex As Integer
+  overload: Lucid.Extensions.ImageSequences.IImageSequence.currentBundleIndex*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Lucid.Extensions.ImageSequences.IImageSequence.bufferBundlesCount
+  commentId: P:Lucid.Extensions.ImageSequences.IImageSequence.bufferBundlesCount
+  id: bufferBundlesCount
+  parent: Lucid.Extensions.ImageSequences.IImageSequence
+  langs:
+  - csharp
+  - vb
+  name: bufferBundlesCount
+  nameWithType: IImageSequence.bufferBundlesCount
+  fullName: Lucid.Extensions.ImageSequences.IImageSequence.bufferBundlesCount
+  type: Property
+  source:
+    id: bufferBundlesCount
+    path: ''
+    startLine: 3746
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: int bufferBundlesCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property bufferBundlesCount As Integer
+  overload: Lucid.Extensions.ImageSequences.IImageSequence.bufferBundlesCount*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Lucid.Extensions.ImageSequences.IImageSequence.totalImages
+  commentId: P:Lucid.Extensions.ImageSequences.IImageSequence.totalImages
+  id: totalImages
+  parent: Lucid.Extensions.ImageSequences.IImageSequence
+  langs:
+  - csharp
+  - vb
+  name: totalImages
+  nameWithType: IImageSequence.totalImages
+  fullName: Lucid.Extensions.ImageSequences.IImageSequence.totalImages
+  type: Property
+  source:
+    id: totalImages
+    path: ''
+    startLine: 3748
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: int totalImages { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property totalImages As Integer
+  overload: Lucid.Extensions.ImageSequences.IImageSequence.totalImages*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Lucid.Extensions.ImageSequences.IImageSequence.currentImageIndex
+  commentId: P:Lucid.Extensions.ImageSequences.IImageSequence.currentImageIndex
+  id: currentImageIndex
+  parent: Lucid.Extensions.ImageSequences.IImageSequence
+  langs:
+  - csharp
+  - vb
+  name: currentImageIndex
+  nameWithType: IImageSequence.currentImageIndex
+  fullName: Lucid.Extensions.ImageSequences.IImageSequence.currentImageIndex
+  type: Property
+  source:
+    id: currentImageIndex
+    path: ''
+    startLine: 3749
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: int currentImageIndex { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property currentImageIndex As Integer
+  overload: Lucid.Extensions.ImageSequences.IImageSequence.currentImageIndex*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Lucid.Extensions.ImageSequences.IImageSequence.reverseImageOrder
+  commentId: P:Lucid.Extensions.ImageSequences.IImageSequence.reverseImageOrder
+  id: reverseImageOrder
+  parent: Lucid.Extensions.ImageSequences.IImageSequence
+  langs:
+  - csharp
+  - vb
+  name: reverseImageOrder
+  nameWithType: IImageSequence.reverseImageOrder
+  fullName: Lucid.Extensions.ImageSequences.IImageSequence.reverseImageOrder
+  type: Property
+  source:
+    id: reverseImageOrder
+    path: ''
+    startLine: 3750
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: bool reverseImageOrder { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property reverseImageOrder As Boolean
+  overload: Lucid.Extensions.ImageSequences.IImageSequence.reverseImageOrder*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Lucid.Extensions.ImageSequences.IImageSequence.SetBundleIndex(System.Int32)
+  commentId: M:Lucid.Extensions.ImageSequences.IImageSequence.SetBundleIndex(System.Int32)
+  id: SetBundleIndex(System.Int32)
+  parent: Lucid.Extensions.ImageSequences.IImageSequence
+  langs:
+  - csharp
+  - vb
+  name: SetBundleIndex(Int32)
+  nameWithType: IImageSequence.SetBundleIndex(Int32)
+  fullName: Lucid.Extensions.ImageSequences.IImageSequence.SetBundleIndex(System.Int32)
+  type: Method
+  source:
+    id: SetBundleIndex
+    path: ''
+    startLine: 3752
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: void SetBundleIndex(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    content.vb: Sub SetBundleIndex(index As Integer)
+  overload: Lucid.Extensions.ImageSequences.IImageSequence.SetBundleIndex*
+- uid: Lucid.Extensions.ImageSequences.IImageSequence.SetImageIndex(System.Int32)
+  commentId: M:Lucid.Extensions.ImageSequences.IImageSequence.SetImageIndex(System.Int32)
+  id: SetImageIndex(System.Int32)
+  parent: Lucid.Extensions.ImageSequences.IImageSequence
+  langs:
+  - csharp
+  - vb
+  name: SetImageIndex(Int32)
+  nameWithType: IImageSequence.SetImageIndex(Int32)
+  fullName: Lucid.Extensions.ImageSequences.IImageSequence.SetImageIndex(System.Int32)
+  type: Method
+  source:
+    id: SetImageIndex
+    path: ''
+    startLine: 3754
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: void SetImageIndex(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    content.vb: Sub SetImageIndex(index As Integer)
+  overload: Lucid.Extensions.ImageSequences.IImageSequence.SetImageIndex*
+references:
+- uid: Lucid.Extensions.ImageSequences
+  commentId: N:Lucid.Extensions.ImageSequences
+  name: Lucid.Extensions.ImageSequences
+  nameWithType: Lucid.Extensions.ImageSequences
+  fullName: Lucid.Extensions.ImageSequences
+- uid: Lucid.Extensions.ImageSequences.IImageSequence.totalBundles*
+  commentId: Overload:Lucid.Extensions.ImageSequences.IImageSequence.totalBundles
+  name: totalBundles
+  nameWithType: IImageSequence.totalBundles
+  fullName: Lucid.Extensions.ImageSequences.IImageSequence.totalBundles
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.Extensions.ImageSequences.IImageSequence.currentBundleIndex*
+  commentId: Overload:Lucid.Extensions.ImageSequences.IImageSequence.currentBundleIndex
+  name: currentBundleIndex
+  nameWithType: IImageSequence.currentBundleIndex
+  fullName: Lucid.Extensions.ImageSequences.IImageSequence.currentBundleIndex
+- uid: Lucid.Extensions.ImageSequences.IImageSequence.bufferBundlesCount*
+  commentId: Overload:Lucid.Extensions.ImageSequences.IImageSequence.bufferBundlesCount
+  name: bufferBundlesCount
+  nameWithType: IImageSequence.bufferBundlesCount
+  fullName: Lucid.Extensions.ImageSequences.IImageSequence.bufferBundlesCount
+- uid: Lucid.Extensions.ImageSequences.IImageSequence.totalImages*
+  commentId: Overload:Lucid.Extensions.ImageSequences.IImageSequence.totalImages
+  name: totalImages
+  nameWithType: IImageSequence.totalImages
+  fullName: Lucid.Extensions.ImageSequences.IImageSequence.totalImages
+- uid: Lucid.Extensions.ImageSequences.IImageSequence.currentImageIndex*
+  commentId: Overload:Lucid.Extensions.ImageSequences.IImageSequence.currentImageIndex
+  name: currentImageIndex
+  nameWithType: IImageSequence.currentImageIndex
+  fullName: Lucid.Extensions.ImageSequences.IImageSequence.currentImageIndex
+- uid: Lucid.Extensions.ImageSequences.IImageSequence.reverseImageOrder*
+  commentId: Overload:Lucid.Extensions.ImageSequences.IImageSequence.reverseImageOrder
+  name: reverseImageOrder
+  nameWithType: IImageSequence.reverseImageOrder
+  fullName: Lucid.Extensions.ImageSequences.IImageSequence.reverseImageOrder
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Lucid.Extensions.ImageSequences.IImageSequence.SetBundleIndex*
+  commentId: Overload:Lucid.Extensions.ImageSequences.IImageSequence.SetBundleIndex
+  name: SetBundleIndex
+  nameWithType: IImageSequence.SetBundleIndex
+  fullName: Lucid.Extensions.ImageSequences.IImageSequence.SetBundleIndex
+- uid: Lucid.Extensions.ImageSequences.IImageSequence.SetImageIndex*
+  commentId: Overload:Lucid.Extensions.ImageSequences.IImageSequence.SetImageIndex
+  name: SetImageIndex
+  nameWithType: IImageSequence.SetImageIndex
+  fullName: Lucid.Extensions.ImageSequences.IImageSequence.SetImageIndex

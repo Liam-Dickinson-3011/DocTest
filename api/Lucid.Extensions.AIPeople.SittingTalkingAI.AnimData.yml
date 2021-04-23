@@ -1,0 +1,191 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Extensions.AIPeople.SittingTalkingAI.AnimData
+  commentId: T:Lucid.Extensions.AIPeople.SittingTalkingAI.AnimData
+  id: SittingTalkingAI.AnimData
+  parent: Lucid.Extensions.AIPeople
+  children:
+  - Lucid.Extensions.AIPeople.SittingTalkingAI.AnimData.#ctor
+  - Lucid.Extensions.AIPeople.SittingTalkingAI.AnimData.maxWait
+  - Lucid.Extensions.AIPeople.SittingTalkingAI.AnimData.minWait
+  - Lucid.Extensions.AIPeople.SittingTalkingAI.AnimData.triggerID
+  langs:
+  - csharp
+  - vb
+  name: SittingTalkingAI.AnimData
+  nameWithType: SittingTalkingAI.AnimData
+  fullName: Lucid.Extensions.AIPeople.SittingTalkingAI.AnimData
+  type: Class
+  source:
+    id: AnimData
+    path: ''
+    startLine: 4944
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class AnimData
+    content.vb: >-
+      <Serializable>
+
+      Public Class AnimData
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Extensions.AIPeople.SittingTalkingAI.AnimData.triggerID
+  commentId: F:Lucid.Extensions.AIPeople.SittingTalkingAI.AnimData.triggerID
+  id: triggerID
+  parent: Lucid.Extensions.AIPeople.SittingTalkingAI.AnimData
+  langs:
+  - csharp
+  - vb
+  name: triggerID
+  nameWithType: SittingTalkingAI.AnimData.triggerID
+  fullName: Lucid.Extensions.AIPeople.SittingTalkingAI.AnimData.triggerID
+  type: Field
+  source:
+    id: triggerID
+    path: ''
+    startLine: 4947
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: public string triggerID
+    return:
+      type: System.String
+    content.vb: Public triggerID As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.AIPeople.SittingTalkingAI.AnimData.minWait
+  commentId: F:Lucid.Extensions.AIPeople.SittingTalkingAI.AnimData.minWait
+  id: minWait
+  parent: Lucid.Extensions.AIPeople.SittingTalkingAI.AnimData
+  langs:
+  - csharp
+  - vb
+  name: minWait
+  nameWithType: SittingTalkingAI.AnimData.minWait
+  fullName: Lucid.Extensions.AIPeople.SittingTalkingAI.AnimData.minWait
+  type: Field
+  source:
+    id: minWait
+    path: ''
+    startLine: 4948
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: public float minWait
+    return:
+      type: System.Single
+    content.vb: Public minWait As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.AIPeople.SittingTalkingAI.AnimData.maxWait
+  commentId: F:Lucid.Extensions.AIPeople.SittingTalkingAI.AnimData.maxWait
+  id: maxWait
+  parent: Lucid.Extensions.AIPeople.SittingTalkingAI.AnimData
+  langs:
+  - csharp
+  - vb
+  name: maxWait
+  nameWithType: SittingTalkingAI.AnimData.maxWait
+  fullName: Lucid.Extensions.AIPeople.SittingTalkingAI.AnimData.maxWait
+  type: Field
+  source:
+    id: maxWait
+    path: ''
+    startLine: 4949
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: public float maxWait
+    return:
+      type: System.Single
+    content.vb: Public maxWait As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.AIPeople.SittingTalkingAI.AnimData.#ctor
+  commentId: M:Lucid.Extensions.AIPeople.SittingTalkingAI.AnimData.#ctor
+  id: '#ctor'
+  parent: Lucid.Extensions.AIPeople.SittingTalkingAI.AnimData
+  langs:
+  - csharp
+  - vb
+  name: AnimData()
+  nameWithType: SittingTalkingAI.AnimData.AnimData()
+  fullName: Lucid.Extensions.AIPeople.SittingTalkingAI.AnimData.AnimData()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 4951
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: public AnimData()
+    content.vb: Public Sub New
+  overload: Lucid.Extensions.AIPeople.SittingTalkingAI.AnimData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Extensions.AIPeople
+  commentId: N:Lucid.Extensions.AIPeople
+  name: Lucid.Extensions.AIPeople
+  nameWithType: Lucid.Extensions.AIPeople
+  fullName: Lucid.Extensions.AIPeople
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Lucid.Extensions.AIPeople.SittingTalkingAI.AnimData.#ctor*
+  commentId: Overload:Lucid.Extensions.AIPeople.SittingTalkingAI.AnimData.#ctor
+  name: AnimData
+  nameWithType: SittingTalkingAI.AnimData.AnimData
+  fullName: Lucid.Extensions.AIPeople.SittingTalkingAI.AnimData.AnimData

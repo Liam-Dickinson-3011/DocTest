@@ -1,0 +1,45 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.SpriteAssetBundleUnloaded_Del
+  commentId: T:Lucid.Extensions.ImageSequences.SpriteSequence.SpriteAssetBundleUnloaded_Del
+  id: SpriteSequence.SpriteAssetBundleUnloaded_Del
+  parent: Lucid.Extensions.ImageSequences
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: SpriteSequence.SpriteAssetBundleUnloaded_Del
+  nameWithType: SpriteSequence.SpriteAssetBundleUnloaded_Del
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.SpriteAssetBundleUnloaded_Del
+  type: Delegate
+  source:
+    id: SpriteAssetBundleUnloaded_Del
+    path: ''
+    startLine: 4009
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public delegate void SpriteAssetBundleUnloaded_Del(SpriteAssetBundle bundle);
+    parameters:
+    - id: bundle
+      type: Lucid.Extensions.ImageSequences.SpriteAssetBundle
+    content.vb: Public Delegate Sub SpriteAssetBundleUnloaded_Del(bundle As SpriteAssetBundle)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Lucid.Extensions.ImageSequences
+  commentId: N:Lucid.Extensions.ImageSequences
+  name: Lucid.Extensions.ImageSequences
+  nameWithType: Lucid.Extensions.ImageSequences
+  fullName: Lucid.Extensions.ImageSequences
+- uid: Lucid.Extensions.ImageSequences.SpriteAssetBundle
+  commentId: T:Lucid.Extensions.ImageSequences.SpriteAssetBundle
+  parent: Lucid.Extensions.ImageSequences
+  name: SpriteAssetBundle
+  nameWithType: SpriteAssetBundle
+  fullName: Lucid.Extensions.ImageSequences.SpriteAssetBundle

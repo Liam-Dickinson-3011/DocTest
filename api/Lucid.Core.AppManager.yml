@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Core.AppManager
+  commentId: T:Lucid.Core.AppManager
+  id: AppManager
+  parent: Lucid.Core
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: AppManager
+  nameWithType: AppManager
+  fullName: Lucid.Core.AppManager
+  type: Class
+  source:
+    id: AppManager
+    path: ''
+    startLine: 6337
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: 'public class AppManager : SingletonMonoBehaviour<AppManager>'
+    content.vb: >-
+      Public Class AppManager
+          Inherits SingletonMonoBehaviour(Of AppManager)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Lucid.Core
+  commentId: N:Lucid.Core
+  name: Lucid.Core
+  nameWithType: Lucid.Core
+  fullName: Lucid.Core
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

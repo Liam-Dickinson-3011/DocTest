@@ -1,0 +1,504 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Toolkit2D.SwipeDetection
+  commentId: T:Lucid.Toolkit2D.SwipeDetection
+  id: SwipeDetection
+  parent: Lucid.Toolkit2D
+  children:
+  - Lucid.Toolkit2D.SwipeDetection.dragDistanceType
+  - Lucid.Toolkit2D.SwipeDetection.minDragInches
+  - Lucid.Toolkit2D.SwipeDetection.minDragPercentage
+  - Lucid.Toolkit2D.SwipeDetection.minDragPixels
+  - Lucid.Toolkit2D.SwipeDetection.onBeginDrag
+  - Lucid.Toolkit2D.SwipeDetection.OnBeginDrag(PointerEventData)
+  - Lucid.Toolkit2D.SwipeDetection.OnDrag(PointerEventData)
+  - Lucid.Toolkit2D.SwipeDetection.onDragDown
+  - Lucid.Toolkit2D.SwipeDetection.onDragLeft
+  - Lucid.Toolkit2D.SwipeDetection.onDragRight
+  - Lucid.Toolkit2D.SwipeDetection.onDragUp
+  - Lucid.Toolkit2D.SwipeDetection.onEndDrag
+  - Lucid.Toolkit2D.SwipeDetection.OnEndDrag(PointerEventData)
+  - Lucid.Toolkit2D.SwipeDetection.raycastImage
+  langs:
+  - csharp
+  - vb
+  name: SwipeDetection
+  nameWithType: SwipeDetection
+  fullName: Lucid.Toolkit2D.SwipeDetection
+  type: Class
+  source:
+    id: SwipeDetection
+    path: ''
+    startLine: 20935
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: 'public class SwipeDetection : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler'
+    content.vb: >-
+      Public Class SwipeDetection
+          Inherits MonoBehaviour
+          Implements IDragHandler, IBeginDragHandler, IEndDragHandler
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Toolkit2D.SwipeDetection.raycastImage
+  commentId: P:Lucid.Toolkit2D.SwipeDetection.raycastImage
+  id: raycastImage
+  parent: Lucid.Toolkit2D.SwipeDetection
+  langs:
+  - csharp
+  - vb
+  name: raycastImage
+  nameWithType: SwipeDetection.raycastImage
+  fullName: Lucid.Toolkit2D.SwipeDetection.raycastImage
+  type: Property
+  source:
+    id: raycastImage
+    path: ''
+    startLine: 20940
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public Image raycastImage { get; }
+    parameters: []
+    return:
+      type: Global.Image
+    content.vb: Public ReadOnly Property raycastImage As Image
+  overload: Lucid.Toolkit2D.SwipeDetection.raycastImage*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Lucid.Toolkit2D.SwipeDetection.dragDistanceType
+  commentId: F:Lucid.Toolkit2D.SwipeDetection.dragDistanceType
+  id: dragDistanceType
+  parent: Lucid.Toolkit2D.SwipeDetection
+  langs:
+  - csharp
+  - vb
+  name: dragDistanceType
+  nameWithType: SwipeDetection.dragDistanceType
+  fullName: Lucid.Toolkit2D.SwipeDetection.dragDistanceType
+  type: Field
+  source:
+    id: dragDistanceType
+    path: ''
+    startLine: 20945
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public SwipeDetection.DragDistanceType dragDistanceType
+    return:
+      type: Lucid.Toolkit2D.SwipeDetection.DragDistanceType
+    content.vb: Public dragDistanceType As SwipeDetection.DragDistanceType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.SwipeDetection.minDragPixels
+  commentId: F:Lucid.Toolkit2D.SwipeDetection.minDragPixels
+  id: minDragPixels
+  parent: Lucid.Toolkit2D.SwipeDetection
+  langs:
+  - csharp
+  - vb
+  name: minDragPixels
+  nameWithType: SwipeDetection.minDragPixels
+  fullName: Lucid.Toolkit2D.SwipeDetection.minDragPixels
+  type: Field
+  source:
+    id: minDragPixels
+    path: ''
+    startLine: 20948
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public float minDragPixels
+    return:
+      type: System.Single
+    content.vb: Public minDragPixels As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.SwipeDetection.minDragPercentage
+  commentId: F:Lucid.Toolkit2D.SwipeDetection.minDragPercentage
+  id: minDragPercentage
+  parent: Lucid.Toolkit2D.SwipeDetection
+  langs:
+  - csharp
+  - vb
+  name: minDragPercentage
+  nameWithType: SwipeDetection.minDragPercentage
+  fullName: Lucid.Toolkit2D.SwipeDetection.minDragPercentage
+  type: Field
+  source:
+    id: minDragPercentage
+    path: ''
+    startLine: 20950
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public float minDragPercentage
+    return:
+      type: System.Single
+    content.vb: Public minDragPercentage As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.SwipeDetection.minDragInches
+  commentId: F:Lucid.Toolkit2D.SwipeDetection.minDragInches
+  id: minDragInches
+  parent: Lucid.Toolkit2D.SwipeDetection
+  langs:
+  - csharp
+  - vb
+  name: minDragInches
+  nameWithType: SwipeDetection.minDragInches
+  fullName: Lucid.Toolkit2D.SwipeDetection.minDragInches
+  type: Field
+  source:
+    id: minDragInches
+    path: ''
+    startLine: 20952
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public float minDragInches
+    return:
+      type: System.Single
+    content.vb: Public minDragInches As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.SwipeDetection.onBeginDrag
+  commentId: F:Lucid.Toolkit2D.SwipeDetection.onBeginDrag
+  id: onBeginDrag
+  parent: Lucid.Toolkit2D.SwipeDetection
+  langs:
+  - csharp
+  - vb
+  name: onBeginDrag
+  nameWithType: SwipeDetection.onBeginDrag
+  fullName: Lucid.Toolkit2D.SwipeDetection.onBeginDrag
+  type: Field
+  source:
+    id: onBeginDrag
+    path: ''
+    startLine: 20964
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public UnityEvent onBeginDrag
+    return:
+      type: Global.UnityEvent
+    content.vb: Public onBeginDrag As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.SwipeDetection.onEndDrag
+  commentId: F:Lucid.Toolkit2D.SwipeDetection.onEndDrag
+  id: onEndDrag
+  parent: Lucid.Toolkit2D.SwipeDetection
+  langs:
+  - csharp
+  - vb
+  name: onEndDrag
+  nameWithType: SwipeDetection.onEndDrag
+  fullName: Lucid.Toolkit2D.SwipeDetection.onEndDrag
+  type: Field
+  source:
+    id: onEndDrag
+    path: ''
+    startLine: 20966
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public UnityEvent onEndDrag
+    return:
+      type: Global.UnityEvent
+    content.vb: Public onEndDrag As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.SwipeDetection.onDragUp
+  commentId: F:Lucid.Toolkit2D.SwipeDetection.onDragUp
+  id: onDragUp
+  parent: Lucid.Toolkit2D.SwipeDetection
+  langs:
+  - csharp
+  - vb
+  name: onDragUp
+  nameWithType: SwipeDetection.onDragUp
+  fullName: Lucid.Toolkit2D.SwipeDetection.onDragUp
+  type: Field
+  source:
+    id: onDragUp
+    path: ''
+    startLine: 20969
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public UnityEvent onDragUp
+    return:
+      type: Global.UnityEvent
+    content.vb: Public onDragUp As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.SwipeDetection.onDragDown
+  commentId: F:Lucid.Toolkit2D.SwipeDetection.onDragDown
+  id: onDragDown
+  parent: Lucid.Toolkit2D.SwipeDetection
+  langs:
+  - csharp
+  - vb
+  name: onDragDown
+  nameWithType: SwipeDetection.onDragDown
+  fullName: Lucid.Toolkit2D.SwipeDetection.onDragDown
+  type: Field
+  source:
+    id: onDragDown
+    path: ''
+    startLine: 20971
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public UnityEvent onDragDown
+    return:
+      type: Global.UnityEvent
+    content.vb: Public onDragDown As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.SwipeDetection.onDragLeft
+  commentId: F:Lucid.Toolkit2D.SwipeDetection.onDragLeft
+  id: onDragLeft
+  parent: Lucid.Toolkit2D.SwipeDetection
+  langs:
+  - csharp
+  - vb
+  name: onDragLeft
+  nameWithType: SwipeDetection.onDragLeft
+  fullName: Lucid.Toolkit2D.SwipeDetection.onDragLeft
+  type: Field
+  source:
+    id: onDragLeft
+    path: ''
+    startLine: 20973
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public UnityEvent onDragLeft
+    return:
+      type: Global.UnityEvent
+    content.vb: Public onDragLeft As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.SwipeDetection.onDragRight
+  commentId: F:Lucid.Toolkit2D.SwipeDetection.onDragRight
+  id: onDragRight
+  parent: Lucid.Toolkit2D.SwipeDetection
+  langs:
+  - csharp
+  - vb
+  name: onDragRight
+  nameWithType: SwipeDetection.onDragRight
+  fullName: Lucid.Toolkit2D.SwipeDetection.onDragRight
+  type: Field
+  source:
+    id: onDragRight
+    path: ''
+    startLine: 20975
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public UnityEvent onDragRight
+    return:
+      type: Global.UnityEvent
+    content.vb: Public onDragRight As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.SwipeDetection.OnBeginDrag(PointerEventData)
+  commentId: M:Lucid.Toolkit2D.SwipeDetection.OnBeginDrag(PointerEventData)
+  id: OnBeginDrag(PointerEventData)
+  parent: Lucid.Toolkit2D.SwipeDetection
+  langs:
+  - csharp
+  - vb
+  name: OnBeginDrag(PointerEventData)
+  nameWithType: SwipeDetection.OnBeginDrag(PointerEventData)
+  fullName: Lucid.Toolkit2D.SwipeDetection.OnBeginDrag(PointerEventData)
+  type: Method
+  source:
+    id: OnBeginDrag
+    path: ''
+    startLine: 21001
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public void OnBeginDrag(PointerEventData eventData)
+    parameters:
+    - id: eventData
+      type: Global.PointerEventData
+    content.vb: Public Sub OnBeginDrag(eventData As PointerEventData)
+  overload: Lucid.Toolkit2D.SwipeDetection.OnBeginDrag*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.SwipeDetection.OnDrag(PointerEventData)
+  commentId: M:Lucid.Toolkit2D.SwipeDetection.OnDrag(PointerEventData)
+  id: OnDrag(PointerEventData)
+  parent: Lucid.Toolkit2D.SwipeDetection
+  langs:
+  - csharp
+  - vb
+  name: OnDrag(PointerEventData)
+  nameWithType: SwipeDetection.OnDrag(PointerEventData)
+  fullName: Lucid.Toolkit2D.SwipeDetection.OnDrag(PointerEventData)
+  type: Method
+  source:
+    id: OnDrag
+    path: ''
+    startLine: 21008
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public void OnDrag(PointerEventData eventData)
+    parameters:
+    - id: eventData
+      type: Global.PointerEventData
+    content.vb: Public Sub OnDrag(eventData As PointerEventData)
+  overload: Lucid.Toolkit2D.SwipeDetection.OnDrag*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.SwipeDetection.OnEndDrag(PointerEventData)
+  commentId: M:Lucid.Toolkit2D.SwipeDetection.OnEndDrag(PointerEventData)
+  id: OnEndDrag(PointerEventData)
+  parent: Lucid.Toolkit2D.SwipeDetection
+  langs:
+  - csharp
+  - vb
+  name: OnEndDrag(PointerEventData)
+  nameWithType: SwipeDetection.OnEndDrag(PointerEventData)
+  fullName: Lucid.Toolkit2D.SwipeDetection.OnEndDrag(PointerEventData)
+  type: Method
+  source:
+    id: OnEndDrag
+    path: ''
+    startLine: 21013
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public void OnEndDrag(PointerEventData eventData)
+    parameters:
+    - id: eventData
+      type: Global.PointerEventData
+    content.vb: Public Sub OnEndDrag(eventData As PointerEventData)
+  overload: Lucid.Toolkit2D.SwipeDetection.OnEndDrag*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Toolkit2D
+  commentId: N:Lucid.Toolkit2D
+  name: Lucid.Toolkit2D
+  nameWithType: Lucid.Toolkit2D
+  fullName: Lucid.Toolkit2D
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.Toolkit2D.SwipeDetection.raycastImage*
+  commentId: Overload:Lucid.Toolkit2D.SwipeDetection.raycastImage
+  name: raycastImage
+  nameWithType: SwipeDetection.raycastImage
+  fullName: Lucid.Toolkit2D.SwipeDetection.raycastImage
+- uid: Global.Image
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: Image
+- uid: Lucid.Toolkit2D.SwipeDetection.DragDistanceType
+  commentId: T:Lucid.Toolkit2D.SwipeDetection.DragDistanceType
+  parent: Lucid.Toolkit2D
+  name: SwipeDetection.DragDistanceType
+  nameWithType: SwipeDetection.DragDistanceType
+  fullName: Lucid.Toolkit2D.SwipeDetection.DragDistanceType
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.UnityEvent
+  isExternal: true
+  name: UnityEvent
+  nameWithType: UnityEvent
+  fullName: UnityEvent
+- uid: Lucid.Toolkit2D.SwipeDetection.OnBeginDrag*
+  commentId: Overload:Lucid.Toolkit2D.SwipeDetection.OnBeginDrag
+  name: OnBeginDrag
+  nameWithType: SwipeDetection.OnBeginDrag
+  fullName: Lucid.Toolkit2D.SwipeDetection.OnBeginDrag
+- uid: Global.PointerEventData
+  isExternal: true
+  name: PointerEventData
+  nameWithType: PointerEventData
+  fullName: PointerEventData
+- uid: Lucid.Toolkit2D.SwipeDetection.OnDrag*
+  commentId: Overload:Lucid.Toolkit2D.SwipeDetection.OnDrag
+  name: OnDrag
+  nameWithType: SwipeDetection.OnDrag
+  fullName: Lucid.Toolkit2D.SwipeDetection.OnDrag
+- uid: Lucid.Toolkit2D.SwipeDetection.OnEndDrag*
+  commentId: Overload:Lucid.Toolkit2D.SwipeDetection.OnEndDrag
+  name: OnEndDrag
+  nameWithType: SwipeDetection.OnEndDrag
+  fullName: Lucid.Toolkit2D.SwipeDetection.OnEndDrag

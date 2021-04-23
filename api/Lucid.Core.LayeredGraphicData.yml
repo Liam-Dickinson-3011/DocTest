@@ -1,0 +1,238 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Core.LayeredGraphicData
+  commentId: T:Lucid.Core.LayeredGraphicData
+  id: LayeredGraphicData
+  parent: Lucid.Core
+  children:
+  - Lucid.Core.LayeredGraphicData.associatedMenuName
+  - Lucid.Core.LayeredGraphicData.baseSprite
+  - Lucid.Core.LayeredGraphicData.layerSprites
+  langs:
+  - csharp
+  - vb
+  name: LayeredGraphicData
+  nameWithType: LayeredGraphicData
+  fullName: Lucid.Core.LayeredGraphicData
+  type: Class
+  source:
+    id: LayeredGraphicData
+    path: ''
+    startLine: 5825
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class LayeredGraphicData
+    content.vb: >-
+      <Serializable>
+
+      Public Class LayeredGraphicData
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Core.LayeredGraphicData.baseSprite
+  commentId: F:Lucid.Core.LayeredGraphicData.baseSprite
+  id: baseSprite
+  parent: Lucid.Core.LayeredGraphicData
+  langs:
+  - csharp
+  - vb
+  name: baseSprite
+  nameWithType: LayeredGraphicData.baseSprite
+  fullName: Lucid.Core.LayeredGraphicData.baseSprite
+  type: Field
+  source:
+    id: baseSprite
+    path: ''
+    startLine: 5829
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public Sprite baseSprite
+    return:
+      type: Global.Sprite
+    content.vb: Public baseSprite As Sprite
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Core.LayeredGraphicData.layerSprites
+  commentId: F:Lucid.Core.LayeredGraphicData.layerSprites
+  id: layerSprites
+  parent: Lucid.Core.LayeredGraphicData
+  langs:
+  - csharp
+  - vb
+  name: layerSprites
+  nameWithType: LayeredGraphicData.layerSprites
+  fullName: Lucid.Core.LayeredGraphicData.layerSprites
+  type: Field
+  source:
+    id: layerSprites
+    path: ''
+    startLine: 5831
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public List<Sprite> layerSprites
+    return:
+      type: Global.List{Sprite}
+    content.vb: Public layerSprites As List(Of Sprite)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Core.LayeredGraphicData.associatedMenuName
+  commentId: F:Lucid.Core.LayeredGraphicData.associatedMenuName
+  id: associatedMenuName
+  parent: Lucid.Core.LayeredGraphicData
+  langs:
+  - csharp
+  - vb
+  name: associatedMenuName
+  nameWithType: LayeredGraphicData.associatedMenuName
+  fullName: Lucid.Core.LayeredGraphicData.associatedMenuName
+  type: Field
+  source:
+    id: associatedMenuName
+    path: ''
+    startLine: 5833
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public string associatedMenuName
+    return:
+      type: System.String
+    content.vb: Public associatedMenuName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Core
+  commentId: N:Lucid.Core
+  name: Lucid.Core
+  nameWithType: Lucid.Core
+  fullName: Lucid.Core
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Sprite
+  isExternal: true
+  name: Sprite
+  nameWithType: Sprite
+  fullName: Sprite
+- uid: Global.List{Sprite}
+  commentId: '!:Global.List{Sprite}'
+  definition: Global.List`1
+  name: List<Sprite>
+  nameWithType: List<Sprite>
+  fullName: List<Sprite>
+  nameWithType.vb: List(Of Sprite)
+  fullName.vb: List(Of Sprite)
+  name.vb: List(Of Sprite)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Sprite
+    name: Sprite
+    nameWithType: Sprite
+    fullName: Sprite
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Sprite
+    name: Sprite
+    nameWithType: Sprite
+    fullName: Sprite
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

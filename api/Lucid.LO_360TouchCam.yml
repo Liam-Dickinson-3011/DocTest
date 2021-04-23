@@ -1,0 +1,263 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.LO_360TouchCam
+  commentId: T:Lucid.LO_360TouchCam
+  id: LO_360TouchCam
+  parent: Lucid
+  children:
+  - Lucid.LO_360TouchCam.lerpSpeed
+  - Lucid.LO_360TouchCam.maxFOV
+  - Lucid.LO_360TouchCam.maximumTilt
+  - Lucid.LO_360TouchCam.minFOV
+  - Lucid.LO_360TouchCam.minimumTilt
+  - Lucid.LO_360TouchCam.rotationSpeed
+  - Lucid.LO_360TouchCam.zoomSpeed
+  langs:
+  - csharp
+  - vb
+  name: LO_360TouchCam
+  nameWithType: LO_360TouchCam
+  fullName: Lucid.LO_360TouchCam
+  type: Class
+  source:
+    id: LO_360TouchCam
+    path: ''
+    startLine: 26699
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid
+  syntax:
+    content: 'public class LO_360TouchCam : MonoBehaviour'
+    content.vb: >-
+      Public Class LO_360TouchCam
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.LO_360TouchCam.rotationSpeed
+  commentId: F:Lucid.LO_360TouchCam.rotationSpeed
+  id: rotationSpeed
+  parent: Lucid.LO_360TouchCam
+  langs:
+  - csharp
+  - vb
+  name: rotationSpeed
+  nameWithType: LO_360TouchCam.rotationSpeed
+  fullName: Lucid.LO_360TouchCam.rotationSpeed
+  type: Field
+  source:
+    id: rotationSpeed
+    path: ''
+    startLine: 26702
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid
+  syntax:
+    content: public float rotationSpeed
+    return:
+      type: System.Single
+    content.vb: Public rotationSpeed As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.LO_360TouchCam.lerpSpeed
+  commentId: F:Lucid.LO_360TouchCam.lerpSpeed
+  id: lerpSpeed
+  parent: Lucid.LO_360TouchCam
+  langs:
+  - csharp
+  - vb
+  name: lerpSpeed
+  nameWithType: LO_360TouchCam.lerpSpeed
+  fullName: Lucid.LO_360TouchCam.lerpSpeed
+  type: Field
+  source:
+    id: lerpSpeed
+    path: ''
+    startLine: 26703
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid
+  syntax:
+    content: public float lerpSpeed
+    return:
+      type: System.Single
+    content.vb: Public lerpSpeed As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.LO_360TouchCam.minimumTilt
+  commentId: F:Lucid.LO_360TouchCam.minimumTilt
+  id: minimumTilt
+  parent: Lucid.LO_360TouchCam
+  langs:
+  - csharp
+  - vb
+  name: minimumTilt
+  nameWithType: LO_360TouchCam.minimumTilt
+  fullName: Lucid.LO_360TouchCam.minimumTilt
+  type: Field
+  source:
+    id: minimumTilt
+    path: ''
+    startLine: 26704
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid
+  syntax:
+    content: public float minimumTilt
+    return:
+      type: System.Single
+    content.vb: Public minimumTilt As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.LO_360TouchCam.maximumTilt
+  commentId: F:Lucid.LO_360TouchCam.maximumTilt
+  id: maximumTilt
+  parent: Lucid.LO_360TouchCam
+  langs:
+  - csharp
+  - vb
+  name: maximumTilt
+  nameWithType: LO_360TouchCam.maximumTilt
+  fullName: Lucid.LO_360TouchCam.maximumTilt
+  type: Field
+  source:
+    id: maximumTilt
+    path: ''
+    startLine: 26705
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid
+  syntax:
+    content: public float maximumTilt
+    return:
+      type: System.Single
+    content.vb: Public maximumTilt As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.LO_360TouchCam.zoomSpeed
+  commentId: F:Lucid.LO_360TouchCam.zoomSpeed
+  id: zoomSpeed
+  parent: Lucid.LO_360TouchCam
+  langs:
+  - csharp
+  - vb
+  name: zoomSpeed
+  nameWithType: LO_360TouchCam.zoomSpeed
+  fullName: Lucid.LO_360TouchCam.zoomSpeed
+  type: Field
+  source:
+    id: zoomSpeed
+    path: ''
+    startLine: 26710
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid
+  syntax:
+    content: public int zoomSpeed
+    return:
+      type: System.Int32
+    content.vb: Public zoomSpeed As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.LO_360TouchCam.maxFOV
+  commentId: F:Lucid.LO_360TouchCam.maxFOV
+  id: maxFOV
+  parent: Lucid.LO_360TouchCam
+  langs:
+  - csharp
+  - vb
+  name: maxFOV
+  nameWithType: LO_360TouchCam.maxFOV
+  fullName: Lucid.LO_360TouchCam.maxFOV
+  type: Field
+  source:
+    id: maxFOV
+    path: ''
+    startLine: 26711
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid
+  syntax:
+    content: public int maxFOV
+    return:
+      type: System.Int32
+    content.vb: Public maxFOV As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.LO_360TouchCam.minFOV
+  commentId: F:Lucid.LO_360TouchCam.minFOV
+  id: minFOV
+  parent: Lucid.LO_360TouchCam
+  langs:
+  - csharp
+  - vb
+  name: minFOV
+  nameWithType: LO_360TouchCam.minFOV
+  fullName: Lucid.LO_360TouchCam.minFOV
+  type: Field
+  source:
+    id: minFOV
+    path: ''
+    startLine: 26712
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid
+  syntax:
+    content: public int minFOV
+    return:
+      type: System.Int32
+    content.vb: Public minFOV As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid
+  commentId: N:Lucid
+  name: Lucid
+  nameWithType: Lucid
+  fullName: Lucid
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

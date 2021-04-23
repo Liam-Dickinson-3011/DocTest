@@ -1,0 +1,110 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Extensions.AIPeople.RoamerAI.LoopStyle
+  commentId: T:Lucid.Extensions.AIPeople.RoamerAI.LoopStyle
+  id: RoamerAI.LoopStyle
+  parent: Lucid.Extensions.AIPeople
+  children:
+  - Lucid.Extensions.AIPeople.RoamerAI.LoopStyle.Lap
+  - Lucid.Extensions.AIPeople.RoamerAI.LoopStyle.PingPong
+  langs:
+  - csharp
+  - vb
+  name: RoamerAI.LoopStyle
+  nameWithType: RoamerAI.LoopStyle
+  fullName: Lucid.Extensions.AIPeople.RoamerAI.LoopStyle
+  type: Enum
+  source:
+    id: LoopStyle
+    path: ''
+    startLine: 5164
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: >-
+      [Serializable]
+
+      public enum LoopStyle
+    content.vb: >-
+      <Serializable>
+
+      Public Enum LoopStyle
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Lucid.Extensions.AIPeople.RoamerAI.LoopStyle.PingPong
+  commentId: F:Lucid.Extensions.AIPeople.RoamerAI.LoopStyle.PingPong
+  id: PingPong
+  parent: Lucid.Extensions.AIPeople.RoamerAI.LoopStyle
+  langs:
+  - csharp
+  - vb
+  name: PingPong
+  nameWithType: RoamerAI.LoopStyle.PingPong
+  fullName: Lucid.Extensions.AIPeople.RoamerAI.LoopStyle.PingPong
+  type: Field
+  source:
+    id: PingPong
+    path: ''
+    startLine: 5165
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: PingPong = 0
+    return:
+      type: Lucid.Extensions.AIPeople.RoamerAI.LoopStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Extensions.AIPeople.RoamerAI.LoopStyle.Lap
+  commentId: F:Lucid.Extensions.AIPeople.RoamerAI.LoopStyle.Lap
+  id: Lap
+  parent: Lucid.Extensions.AIPeople.RoamerAI.LoopStyle
+  langs:
+  - csharp
+  - vb
+  name: Lap
+  nameWithType: RoamerAI.LoopStyle.Lap
+  fullName: Lucid.Extensions.AIPeople.RoamerAI.LoopStyle.Lap
+  type: Field
+  source:
+    id: Lap
+    path: ''
+    startLine: 5165
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: Lap = 1
+    return:
+      type: Lucid.Extensions.AIPeople.RoamerAI.LoopStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Lucid.Extensions.AIPeople
+  commentId: N:Lucid.Extensions.AIPeople
+  name: Lucid.Extensions.AIPeople
+  nameWithType: Lucid.Extensions.AIPeople
+  fullName: Lucid.Extensions.AIPeople
+- uid: Lucid.Extensions.AIPeople.RoamerAI.LoopStyle
+  commentId: T:Lucid.Extensions.AIPeople.RoamerAI.LoopStyle
+  parent: Lucid.Extensions.AIPeople
+  name: RoamerAI.LoopStyle
+  nameWithType: RoamerAI.LoopStyle
+  fullName: Lucid.Extensions.AIPeople.RoamerAI.LoopStyle

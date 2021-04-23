@@ -1,0 +1,380 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Extensions.Email.EmailClient
+  commentId: T:Lucid.Extensions.Email.EmailClient
+  id: EmailClient
+  parent: Lucid.Extensions.Email
+  children:
+  - Lucid.Extensions.Email.EmailClient.appPassword
+  - Lucid.Extensions.Email.EmailClient.DecryptPassword
+  - Lucid.Extensions.Email.EmailClient.encryptedPassword
+  - Lucid.Extensions.Email.EmailClient.EncryptPassword(System.String)
+  - Lucid.Extensions.Email.EmailClient.plainTextPassword
+  - Lucid.Extensions.Email.EmailClient.SendEmail(Lucid.Extensions.Email.EmailTemplate)
+  - Lucid.Extensions.Email.EmailClient.SendEmail(MailMessage)
+  - Lucid.Extensions.Email.EmailClient.senderEmail
+  - Lucid.Extensions.Email.EmailClient.smtpClient
+  - Lucid.Extensions.Email.EmailClient.smtpPort
+  langs:
+  - csharp
+  - vb
+  name: EmailClient
+  nameWithType: EmailClient
+  fullName: Lucid.Extensions.Email.EmailClient
+  type: Class
+  source:
+    id: EmailClient
+    path: ''
+    startLine: 4841
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.Email
+  syntax:
+    content: 'public class EmailClient : SingletonScriptableObject<EmailClient>'
+    content.vb: >-
+      Public Class EmailClient
+          Inherits SingletonScriptableObject(Of EmailClient)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Extensions.Email.EmailClient.senderEmail
+  commentId: F:Lucid.Extensions.Email.EmailClient.senderEmail
+  id: senderEmail
+  parent: Lucid.Extensions.Email.EmailClient
+  langs:
+  - csharp
+  - vb
+  name: senderEmail
+  nameWithType: EmailClient.senderEmail
+  fullName: Lucid.Extensions.Email.EmailClient.senderEmail
+  type: Field
+  source:
+    id: senderEmail
+    path: ''
+    startLine: 4845
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.Email
+  syntax:
+    content: public string senderEmail
+    return:
+      type: System.String
+    content.vb: Public senderEmail As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.Email.EmailClient.appPassword
+  commentId: F:Lucid.Extensions.Email.EmailClient.appPassword
+  id: appPassword
+  parent: Lucid.Extensions.Email.EmailClient
+  langs:
+  - csharp
+  - vb
+  name: appPassword
+  nameWithType: EmailClient.appPassword
+  fullName: Lucid.Extensions.Email.EmailClient.appPassword
+  type: Field
+  source:
+    id: appPassword
+    path: ''
+    startLine: 4848
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.Email
+  syntax:
+    content: public string appPassword
+    return:
+      type: System.String
+    content.vb: Public appPassword As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.Email.EmailClient.encryptedPassword
+  commentId: F:Lucid.Extensions.Email.EmailClient.encryptedPassword
+  id: encryptedPassword
+  parent: Lucid.Extensions.Email.EmailClient
+  langs:
+  - csharp
+  - vb
+  name: encryptedPassword
+  nameWithType: EmailClient.encryptedPassword
+  fullName: Lucid.Extensions.Email.EmailClient.encryptedPassword
+  type: Field
+  source:
+    id: encryptedPassword
+    path: ''
+    startLine: 4851
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.Email
+  syntax:
+    content: public string encryptedPassword
+    return:
+      type: System.String
+    content.vb: Public encryptedPassword As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.Email.EmailClient.plainTextPassword
+  commentId: F:Lucid.Extensions.Email.EmailClient.plainTextPassword
+  id: plainTextPassword
+  parent: Lucid.Extensions.Email.EmailClient
+  langs:
+  - csharp
+  - vb
+  name: plainTextPassword
+  nameWithType: EmailClient.plainTextPassword
+  fullName: Lucid.Extensions.Email.EmailClient.plainTextPassword
+  type: Field
+  source:
+    id: plainTextPassword
+    path: ''
+    startLine: 4854
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.Email
+  syntax:
+    content: public string plainTextPassword
+    return:
+      type: System.String
+    content.vb: Public plainTextPassword As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.Email.EmailClient.smtpClient
+  commentId: F:Lucid.Extensions.Email.EmailClient.smtpClient
+  id: smtpClient
+  parent: Lucid.Extensions.Email.EmailClient
+  langs:
+  - csharp
+  - vb
+  name: smtpClient
+  nameWithType: EmailClient.smtpClient
+  fullName: Lucid.Extensions.Email.EmailClient.smtpClient
+  type: Field
+  source:
+    id: smtpClient
+    path: ''
+    startLine: 4857
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.Email
+  syntax:
+    content: public string smtpClient
+    return:
+      type: System.String
+    content.vb: Public smtpClient As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.Email.EmailClient.smtpPort
+  commentId: F:Lucid.Extensions.Email.EmailClient.smtpPort
+  id: smtpPort
+  parent: Lucid.Extensions.Email.EmailClient
+  langs:
+  - csharp
+  - vb
+  name: smtpPort
+  nameWithType: EmailClient.smtpPort
+  fullName: Lucid.Extensions.Email.EmailClient.smtpPort
+  type: Field
+  source:
+    id: smtpPort
+    path: ''
+    startLine: 4859
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.Email
+  syntax:
+    content: public int smtpPort
+    return:
+      type: System.Int32
+    content.vb: Public smtpPort As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.Email.EmailClient.SendEmail(MailMessage)
+  commentId: M:Lucid.Extensions.Email.EmailClient.SendEmail(MailMessage)
+  id: SendEmail(MailMessage)
+  parent: Lucid.Extensions.Email.EmailClient
+  langs:
+  - csharp
+  - vb
+  name: SendEmail(MailMessage)
+  nameWithType: EmailClient.SendEmail(MailMessage)
+  fullName: Lucid.Extensions.Email.EmailClient.SendEmail(MailMessage)
+  type: Method
+  source:
+    id: SendEmail
+    path: ''
+    startLine: 4863
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.Email
+  syntax:
+    content: public void SendEmail(MailMessage emailMessage)
+    parameters:
+    - id: emailMessage
+      type: Global.MailMessage
+    content.vb: Public Sub SendEmail(emailMessage As MailMessage)
+  overload: Lucid.Extensions.Email.EmailClient.SendEmail*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.Email.EmailClient.SendEmail(Lucid.Extensions.Email.EmailTemplate)
+  commentId: M:Lucid.Extensions.Email.EmailClient.SendEmail(Lucid.Extensions.Email.EmailTemplate)
+  id: SendEmail(Lucid.Extensions.Email.EmailTemplate)
+  parent: Lucid.Extensions.Email.EmailClient
+  langs:
+  - csharp
+  - vb
+  name: SendEmail(EmailTemplate)
+  nameWithType: EmailClient.SendEmail(EmailTemplate)
+  fullName: Lucid.Extensions.Email.EmailClient.SendEmail(Lucid.Extensions.Email.EmailTemplate)
+  type: Method
+  source:
+    id: SendEmail
+    path: ''
+    startLine: 4879
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.Email
+  syntax:
+    content: public void SendEmail(EmailTemplate emailTemplate)
+    parameters:
+    - id: emailTemplate
+      type: Lucid.Extensions.Email.EmailTemplate
+    content.vb: Public Sub SendEmail(emailTemplate As EmailTemplate)
+  overload: Lucid.Extensions.Email.EmailClient.SendEmail*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.Email.EmailClient.EncryptPassword(System.String)
+  commentId: M:Lucid.Extensions.Email.EmailClient.EncryptPassword(System.String)
+  id: EncryptPassword(System.String)
+  parent: Lucid.Extensions.Email.EmailClient
+  langs:
+  - csharp
+  - vb
+  name: EncryptPassword(String)
+  nameWithType: EmailClient.EncryptPassword(String)
+  fullName: Lucid.Extensions.Email.EmailClient.EncryptPassword(System.String)
+  type: Method
+  source:
+    id: EncryptPassword
+    path: ''
+    startLine: 4889
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.Email
+  syntax:
+    content: public void EncryptPassword(string plainTextPassword)
+    parameters:
+    - id: plainTextPassword
+      type: System.String
+    content.vb: Public Sub EncryptPassword(plainTextPassword As String)
+  overload: Lucid.Extensions.Email.EmailClient.EncryptPassword*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.Email.EmailClient.DecryptPassword
+  commentId: M:Lucid.Extensions.Email.EmailClient.DecryptPassword
+  id: DecryptPassword
+  parent: Lucid.Extensions.Email.EmailClient
+  langs:
+  - csharp
+  - vb
+  name: DecryptPassword()
+  nameWithType: EmailClient.DecryptPassword()
+  fullName: Lucid.Extensions.Email.EmailClient.DecryptPassword()
+  type: Method
+  source:
+    id: DecryptPassword
+    path: ''
+    startLine: 4894
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.Email
+  syntax:
+    content: public string DecryptPassword()
+    return:
+      type: System.String
+    content.vb: Public Function DecryptPassword As String
+  overload: Lucid.Extensions.Email.EmailClient.DecryptPassword*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Extensions.Email
+  commentId: N:Lucid.Extensions.Email
+  name: Lucid.Extensions.Email
+  nameWithType: Lucid.Extensions.Email
+  fullName: Lucid.Extensions.Email
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Lucid.Extensions.Email.EmailClient.SendEmail*
+  commentId: Overload:Lucid.Extensions.Email.EmailClient.SendEmail
+  name: SendEmail
+  nameWithType: EmailClient.SendEmail
+  fullName: Lucid.Extensions.Email.EmailClient.SendEmail
+- uid: Global.MailMessage
+  isExternal: true
+  name: MailMessage
+  nameWithType: MailMessage
+  fullName: MailMessage
+- uid: Lucid.Extensions.Email.EmailTemplate
+  commentId: T:Lucid.Extensions.Email.EmailTemplate
+  parent: Lucid.Extensions.Email
+  name: EmailTemplate
+  nameWithType: EmailTemplate
+  fullName: Lucid.Extensions.Email.EmailTemplate
+- uid: Lucid.Extensions.Email.EmailClient.EncryptPassword*
+  commentId: Overload:Lucid.Extensions.Email.EmailClient.EncryptPassword
+  name: EncryptPassword
+  nameWithType: EmailClient.EncryptPassword
+  fullName: Lucid.Extensions.Email.EmailClient.EncryptPassword
+- uid: Lucid.Extensions.Email.EmailClient.DecryptPassword*
+  commentId: Overload:Lucid.Extensions.Email.EmailClient.DecryptPassword
+  name: DecryptPassword
+  nameWithType: EmailClient.DecryptPassword
+  fullName: Lucid.Extensions.Email.EmailClient.DecryptPassword

@@ -1,0 +1,535 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Branding.Text.TextStyleHandler
+  commentId: T:Lucid.Branding.Text.TextStyleHandler
+  id: TextStyleHandler
+  parent: Lucid.Branding.Text
+  children:
+  - Lucid.Branding.Text.TextStyleHandler._textStyle
+  - Lucid.Branding.Text.TextStyleHandler.alignment
+  - Lucid.Branding.Text.TextStyleHandler.ApplyStyle
+  - Lucid.Branding.Text.TextStyleHandler.ApplyStyle_Editor
+  - Lucid.Branding.Text.TextStyleHandler.characterSpacing
+  - Lucid.Branding.Text.TextStyleHandler.font
+  - Lucid.Branding.Text.TextStyleHandler.fontSize
+  - Lucid.Branding.Text.TextStyleHandler.fontStyle
+  - Lucid.Branding.Text.TextStyleHandler.lineSpacing
+  - Lucid.Branding.Text.TextStyleHandler.paragraphSpacing
+  - Lucid.Branding.Text.TextStyleHandler.textStyle
+  - Lucid.Branding.Text.TextStyleHandler.tmpText
+  - Lucid.Branding.Text.TextStyleHandler.wordSpacing
+  langs:
+  - csharp
+  - vb
+  name: TextStyleHandler
+  nameWithType: TextStyleHandler
+  fullName: Lucid.Branding.Text.TextStyleHandler
+  type: Class
+  source:
+    id: TextStyleHandler
+    path: ''
+    startLine: 9736
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: 'public class TextStyleHandler : BaseStyleHandler'
+    content.vb: >-
+      Public Class TextStyleHandler
+          Inherits BaseStyleHandler
+  inheritance:
+  - System.Object
+  - Lucid.Branding.BaseStyleHandler
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Branding.Text.TextStyleHandler.tmpText
+  commentId: P:Lucid.Branding.Text.TextStyleHandler.tmpText
+  id: tmpText
+  parent: Lucid.Branding.Text.TextStyleHandler
+  langs:
+  - csharp
+  - vb
+  name: tmpText
+  nameWithType: TextStyleHandler.tmpText
+  fullName: Lucid.Branding.Text.TextStyleHandler.tmpText
+  type: Property
+  source:
+    id: tmpText
+    path: ''
+    startLine: 9741
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public TextMeshProUGUI tmpText { get; }
+    parameters: []
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public ReadOnly Property tmpText As TextMeshProUGUI
+  overload: Lucid.Branding.Text.TextStyleHandler.tmpText*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Lucid.Branding.Text.TextStyleHandler._textStyle
+  commentId: F:Lucid.Branding.Text.TextStyleHandler._textStyle
+  id: _textStyle
+  parent: Lucid.Branding.Text.TextStyleHandler
+  langs:
+  - csharp
+  - vb
+  name: _textStyle
+  nameWithType: TextStyleHandler._textStyle
+  fullName: Lucid.Branding.Text.TextStyleHandler._textStyle
+  type: Field
+  source:
+    id: _textStyle
+    path: ''
+    startLine: 9752
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: protected TextStyle _textStyle
+    return:
+      type: Lucid.Branding.Text.TextStyle
+    content.vb: Protected _textStyle As TextStyle
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Lucid.Branding.Text.TextStyleHandler.textStyle
+  commentId: P:Lucid.Branding.Text.TextStyleHandler.textStyle
+  id: textStyle
+  parent: Lucid.Branding.Text.TextStyleHandler
+  langs:
+  - csharp
+  - vb
+  name: textStyle
+  nameWithType: TextStyleHandler.textStyle
+  fullName: Lucid.Branding.Text.TextStyleHandler.textStyle
+  type: Property
+  source:
+    id: textStyle
+    path: ''
+    startLine: 9754
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public TextStyle textStyle { get; set; }
+    parameters: []
+    return:
+      type: Lucid.Branding.Text.TextStyle
+    content.vb: Public Property textStyle As TextStyle
+  overload: Lucid.Branding.Text.TextStyleHandler.textStyle*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Text.TextStyleHandler.font
+  commentId: F:Lucid.Branding.Text.TextStyleHandler.font
+  id: font
+  parent: Lucid.Branding.Text.TextStyleHandler
+  langs:
+  - csharp
+  - vb
+  name: font
+  nameWithType: TextStyleHandler.font
+  fullName: Lucid.Branding.Text.TextStyleHandler.font
+  type: Field
+  source:
+    id: font
+    path: ''
+    startLine: 9763
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public bool font
+    return:
+      type: System.Boolean
+    content.vb: Public font As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Text.TextStyleHandler.fontSize
+  commentId: F:Lucid.Branding.Text.TextStyleHandler.fontSize
+  id: fontSize
+  parent: Lucid.Branding.Text.TextStyleHandler
+  langs:
+  - csharp
+  - vb
+  name: fontSize
+  nameWithType: TextStyleHandler.fontSize
+  fullName: Lucid.Branding.Text.TextStyleHandler.fontSize
+  type: Field
+  source:
+    id: fontSize
+    path: ''
+    startLine: 9766
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public bool fontSize
+    return:
+      type: System.Boolean
+    content.vb: Public fontSize As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Text.TextStyleHandler.characterSpacing
+  commentId: F:Lucid.Branding.Text.TextStyleHandler.characterSpacing
+  id: characterSpacing
+  parent: Lucid.Branding.Text.TextStyleHandler
+  langs:
+  - csharp
+  - vb
+  name: characterSpacing
+  nameWithType: TextStyleHandler.characterSpacing
+  fullName: Lucid.Branding.Text.TextStyleHandler.characterSpacing
+  type: Field
+  source:
+    id: characterSpacing
+    path: ''
+    startLine: 9774
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public bool characterSpacing
+    return:
+      type: System.Boolean
+    content.vb: Public characterSpacing As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Text.TextStyleHandler.wordSpacing
+  commentId: F:Lucid.Branding.Text.TextStyleHandler.wordSpacing
+  id: wordSpacing
+  parent: Lucid.Branding.Text.TextStyleHandler
+  langs:
+  - csharp
+  - vb
+  name: wordSpacing
+  nameWithType: TextStyleHandler.wordSpacing
+  fullName: Lucid.Branding.Text.TextStyleHandler.wordSpacing
+  type: Field
+  source:
+    id: wordSpacing
+    path: ''
+    startLine: 9777
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public bool wordSpacing
+    return:
+      type: System.Boolean
+    content.vb: Public wordSpacing As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Text.TextStyleHandler.lineSpacing
+  commentId: F:Lucid.Branding.Text.TextStyleHandler.lineSpacing
+  id: lineSpacing
+  parent: Lucid.Branding.Text.TextStyleHandler
+  langs:
+  - csharp
+  - vb
+  name: lineSpacing
+  nameWithType: TextStyleHandler.lineSpacing
+  fullName: Lucid.Branding.Text.TextStyleHandler.lineSpacing
+  type: Field
+  source:
+    id: lineSpacing
+    path: ''
+    startLine: 9780
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public bool lineSpacing
+    return:
+      type: System.Boolean
+    content.vb: Public lineSpacing As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Text.TextStyleHandler.paragraphSpacing
+  commentId: F:Lucid.Branding.Text.TextStyleHandler.paragraphSpacing
+  id: paragraphSpacing
+  parent: Lucid.Branding.Text.TextStyleHandler
+  langs:
+  - csharp
+  - vb
+  name: paragraphSpacing
+  nameWithType: TextStyleHandler.paragraphSpacing
+  fullName: Lucid.Branding.Text.TextStyleHandler.paragraphSpacing
+  type: Field
+  source:
+    id: paragraphSpacing
+    path: ''
+    startLine: 9783
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public bool paragraphSpacing
+    return:
+      type: System.Boolean
+    content.vb: Public paragraphSpacing As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Text.TextStyleHandler.fontStyle
+  commentId: F:Lucid.Branding.Text.TextStyleHandler.fontStyle
+  id: fontStyle
+  parent: Lucid.Branding.Text.TextStyleHandler
+  langs:
+  - csharp
+  - vb
+  name: fontStyle
+  nameWithType: TextStyleHandler.fontStyle
+  fullName: Lucid.Branding.Text.TextStyleHandler.fontStyle
+  type: Field
+  source:
+    id: fontStyle
+    path: ''
+    startLine: 9791
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public bool fontStyle
+    return:
+      type: System.Boolean
+    content.vb: Public fontStyle As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Text.TextStyleHandler.alignment
+  commentId: F:Lucid.Branding.Text.TextStyleHandler.alignment
+  id: alignment
+  parent: Lucid.Branding.Text.TextStyleHandler
+  langs:
+  - csharp
+  - vb
+  name: alignment
+  nameWithType: TextStyleHandler.alignment
+  fullName: Lucid.Branding.Text.TextStyleHandler.alignment
+  type: Field
+  source:
+    id: alignment
+    path: ''
+    startLine: 9799
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public bool alignment
+    return:
+      type: System.Boolean
+    content.vb: Public alignment As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Text.TextStyleHandler.ApplyStyle
+  commentId: M:Lucid.Branding.Text.TextStyleHandler.ApplyStyle
+  id: ApplyStyle
+  parent: Lucid.Branding.Text.TextStyleHandler
+  langs:
+  - csharp
+  - vb
+  name: ApplyStyle()
+  nameWithType: TextStyleHandler.ApplyStyle()
+  fullName: Lucid.Branding.Text.TextStyleHandler.ApplyStyle()
+  type: Method
+  source:
+    id: ApplyStyle
+    path: ''
+    startLine: 9807
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public override void ApplyStyle()
+    content.vb: Public Overrides Sub ApplyStyle
+  overridden: Lucid.Branding.BaseStyleHandler.ApplyStyle
+  overload: Lucid.Branding.Text.TextStyleHandler.ApplyStyle*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Lucid.Branding.Text.TextStyleHandler.ApplyStyle_Editor
+  commentId: M:Lucid.Branding.Text.TextStyleHandler.ApplyStyle_Editor
+  id: ApplyStyle_Editor
+  parent: Lucid.Branding.Text.TextStyleHandler
+  langs:
+  - csharp
+  - vb
+  name: ApplyStyle_Editor()
+  nameWithType: TextStyleHandler.ApplyStyle_Editor()
+  fullName: Lucid.Branding.Text.TextStyleHandler.ApplyStyle_Editor()
+  type: Method
+  source:
+    id: ApplyStyle_Editor
+    path: ''
+    startLine: 9825
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public override void ApplyStyle_Editor()
+    content.vb: Public Overrides Sub ApplyStyle_Editor
+  overridden: Lucid.Branding.BaseStyleHandler.ApplyStyle_Editor
+  overload: Lucid.Branding.Text.TextStyleHandler.ApplyStyle_Editor*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Lucid.Branding.Text
+  commentId: N:Lucid.Branding.Text
+  name: Lucid.Branding.Text
+  nameWithType: Lucid.Branding.Text
+  fullName: Lucid.Branding.Text
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Lucid.Branding.BaseStyleHandler
+  commentId: T:Lucid.Branding.BaseStyleHandler
+  parent: Lucid.Branding
+  name: BaseStyleHandler
+  nameWithType: BaseStyleHandler
+  fullName: Lucid.Branding.BaseStyleHandler
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.Branding
+  commentId: N:Lucid.Branding
+  name: Lucid.Branding
+  nameWithType: Lucid.Branding
+  fullName: Lucid.Branding
+- uid: Lucid.Branding.Text.TextStyleHandler.tmpText*
+  commentId: Overload:Lucid.Branding.Text.TextStyleHandler.tmpText
+  name: tmpText
+  nameWithType: TextStyleHandler.tmpText
+  fullName: Lucid.Branding.Text.TextStyleHandler.tmpText
+- uid: Global.TextMeshProUGUI
+  isExternal: true
+  name: TextMeshProUGUI
+  nameWithType: TextMeshProUGUI
+  fullName: TextMeshProUGUI
+- uid: Lucid.Branding.Text.TextStyle
+  commentId: T:Lucid.Branding.Text.TextStyle
+  parent: Lucid.Branding.Text
+  name: TextStyle
+  nameWithType: TextStyle
+  fullName: Lucid.Branding.Text.TextStyle
+- uid: Lucid.Branding.Text.TextStyleHandler.textStyle*
+  commentId: Overload:Lucid.Branding.Text.TextStyleHandler.textStyle
+  name: textStyle
+  nameWithType: TextStyleHandler.textStyle
+  fullName: Lucid.Branding.Text.TextStyleHandler.textStyle
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Lucid.Branding.BaseStyleHandler.ApplyStyle
+  commentId: M:Lucid.Branding.BaseStyleHandler.ApplyStyle
+  parent: Lucid.Branding.BaseStyleHandler
+  name: ApplyStyle()
+  nameWithType: BaseStyleHandler.ApplyStyle()
+  fullName: Lucid.Branding.BaseStyleHandler.ApplyStyle()
+  spec.csharp:
+  - uid: Lucid.Branding.BaseStyleHandler.ApplyStyle
+    name: ApplyStyle
+    nameWithType: BaseStyleHandler.ApplyStyle
+    fullName: Lucid.Branding.BaseStyleHandler.ApplyStyle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.Branding.BaseStyleHandler.ApplyStyle
+    name: ApplyStyle
+    nameWithType: BaseStyleHandler.ApplyStyle
+    fullName: Lucid.Branding.BaseStyleHandler.ApplyStyle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.Branding.Text.TextStyleHandler.ApplyStyle*
+  commentId: Overload:Lucid.Branding.Text.TextStyleHandler.ApplyStyle
+  name: ApplyStyle
+  nameWithType: TextStyleHandler.ApplyStyle
+  fullName: Lucid.Branding.Text.TextStyleHandler.ApplyStyle
+- uid: Lucid.Branding.BaseStyleHandler.ApplyStyle_Editor
+  commentId: M:Lucid.Branding.BaseStyleHandler.ApplyStyle_Editor
+  parent: Lucid.Branding.BaseStyleHandler
+  name: ApplyStyle_Editor()
+  nameWithType: BaseStyleHandler.ApplyStyle_Editor()
+  fullName: Lucid.Branding.BaseStyleHandler.ApplyStyle_Editor()
+  spec.csharp:
+  - uid: Lucid.Branding.BaseStyleHandler.ApplyStyle_Editor
+    name: ApplyStyle_Editor
+    nameWithType: BaseStyleHandler.ApplyStyle_Editor
+    fullName: Lucid.Branding.BaseStyleHandler.ApplyStyle_Editor
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.Branding.BaseStyleHandler.ApplyStyle_Editor
+    name: ApplyStyle_Editor
+    nameWithType: BaseStyleHandler.ApplyStyle_Editor
+    fullName: Lucid.Branding.BaseStyleHandler.ApplyStyle_Editor
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.Branding.Text.TextStyleHandler.ApplyStyle_Editor*
+  commentId: Overload:Lucid.Branding.Text.TextStyleHandler.ApplyStyle_Editor
+  name: ApplyStyle_Editor
+  nameWithType: TextStyleHandler.ApplyStyle_Editor
+  fullName: Lucid.Branding.Text.TextStyleHandler.ApplyStyle_Editor

@@ -1,0 +1,208 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Animation.LAInt
+  commentId: T:Lucid.Animation.LAInt
+  id: LAInt
+  parent: Lucid.Animation
+  children:
+  - Lucid.Animation.LAInt.#ctor
+  - Lucid.Animation.LAInt.#ctor(Lucid.Animation.LAInt)
+  - Lucid.Animation.LAInt.value
+  langs:
+  - csharp
+  - vb
+  name: LAInt
+  nameWithType: LAInt
+  fullName: Lucid.Animation.LAInt
+  type: Class
+  source:
+    id: LAInt
+    path: ''
+    startLine: 24068
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class LAInt : LucidAnim
+    content.vb: >-
+      <Serializable>
+
+      Public Class LAInt
+          Inherits LucidAnim
+  inheritance:
+  - System.Object
+  - Lucid.Animation.LucidAnim
+  inheritedMembers:
+  - Lucid.Animation.LucidAnim.startDelay
+  - Lucid.Animation.LucidAnim.duration
+  - Lucid.Animation.LucidAnim.speedBased
+  - Lucid.Animation.LucidAnim.ease
+  - Lucid.Animation.LucidAnim.inCollection
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Animation.LAInt.value
+  commentId: F:Lucid.Animation.LAInt.value
+  id: value
+  parent: Lucid.Animation.LAInt
+  langs:
+  - csharp
+  - vb
+  name: value
+  nameWithType: LAInt.value
+  fullName: Lucid.Animation.LAInt.value
+  type: Field
+  source:
+    id: value
+    path: ''
+    startLine: 24075
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public int value
+    return:
+      type: System.Int32
+    content.vb: Public value As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAInt.#ctor
+  commentId: M:Lucid.Animation.LAInt.#ctor
+  id: '#ctor'
+  parent: Lucid.Animation.LAInt
+  langs:
+  - csharp
+  - vb
+  name: LAInt()
+  nameWithType: LAInt.LAInt()
+  fullName: Lucid.Animation.LAInt.LAInt()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 24077
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAInt()
+    content.vb: Public Sub New
+  overload: Lucid.Animation.LAInt.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAInt.#ctor(Lucid.Animation.LAInt)
+  commentId: M:Lucid.Animation.LAInt.#ctor(Lucid.Animation.LAInt)
+  id: '#ctor(Lucid.Animation.LAInt)'
+  parent: Lucid.Animation.LAInt
+  langs:
+  - csharp
+  - vb
+  name: LAInt(LAInt)
+  nameWithType: LAInt.LAInt(LAInt)
+  fullName: Lucid.Animation.LAInt.LAInt(Lucid.Animation.LAInt)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 24082
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAInt(LAInt copy)
+    parameters:
+    - id: copy
+      type: Lucid.Animation.LAInt
+    content.vb: Public Sub New(copy As LAInt)
+  overload: Lucid.Animation.LAInt.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Animation
+  commentId: N:Lucid.Animation
+  name: Lucid.Animation
+  nameWithType: Lucid.Animation
+  fullName: Lucid.Animation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Lucid.Animation.LucidAnim
+  commentId: T:Lucid.Animation.LucidAnim
+  parent: Lucid.Animation
+  name: LucidAnim
+  nameWithType: LucidAnim
+  fullName: Lucid.Animation.LucidAnim
+- uid: Lucid.Animation.LucidAnim.startDelay
+  commentId: F:Lucid.Animation.LucidAnim.startDelay
+  parent: Lucid.Animation.LucidAnim
+  name: startDelay
+  nameWithType: LucidAnim.startDelay
+  fullName: Lucid.Animation.LucidAnim.startDelay
+- uid: Lucid.Animation.LucidAnim.duration
+  commentId: F:Lucid.Animation.LucidAnim.duration
+  parent: Lucid.Animation.LucidAnim
+  name: duration
+  nameWithType: LucidAnim.duration
+  fullName: Lucid.Animation.LucidAnim.duration
+- uid: Lucid.Animation.LucidAnim.speedBased
+  commentId: F:Lucid.Animation.LucidAnim.speedBased
+  parent: Lucid.Animation.LucidAnim
+  name: speedBased
+  nameWithType: LucidAnim.speedBased
+  fullName: Lucid.Animation.LucidAnim.speedBased
+- uid: Lucid.Animation.LucidAnim.ease
+  commentId: F:Lucid.Animation.LucidAnim.ease
+  parent: Lucid.Animation.LucidAnim
+  name: ease
+  nameWithType: LucidAnim.ease
+  fullName: Lucid.Animation.LucidAnim.ease
+- uid: Lucid.Animation.LucidAnim.inCollection
+  commentId: F:Lucid.Animation.LucidAnim.inCollection
+  parent: Lucid.Animation.LucidAnim
+  name: inCollection
+  nameWithType: LucidAnim.inCollection
+  fullName: Lucid.Animation.LucidAnim.inCollection
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Lucid.Animation.LAInt.#ctor*
+  commentId: Overload:Lucid.Animation.LAInt.#ctor
+  name: LAInt
+  nameWithType: LAInt.LAInt
+  fullName: Lucid.Animation.LAInt.LAInt
+- uid: Lucid.Animation.LAInt
+  commentId: T:Lucid.Animation.LAInt
+  parent: Lucid.Animation
+  name: LAInt
+  nameWithType: LAInt
+  fullName: Lucid.Animation.LAInt

@@ -1,0 +1,536 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.UI.UIManager
+  commentId: T:Lucid.UI.UIManager
+  id: UIManager
+  parent: Lucid.UI
+  children:
+  - Lucid.UI.UIManager.allowMultiSceneStates
+  - Lucid.UI.UIManager.hiddenData
+  - Lucid.UI.UIManager.masterCanvasRT
+  - Lucid.UI.UIManager.offData
+  - Lucid.UI.UIManager.onData
+  - Lucid.UI.UIManager.startingState
+  - Lucid.UI.UIManager.SwapToMultiSceneState(System.String)
+  - Lucid.UI.UIManager.SwapToState(System.String,System.Boolean)
+  - Lucid.UI.UIManager.transitionStyle
+  - Lucid.UI.UIManager.views
+  - Lucid.UI.UIManager.viewStates
+  langs:
+  - csharp
+  - vb
+  name: UIManager
+  nameWithType: UIManager
+  fullName: Lucid.UI.UIManager
+  type: Class
+  source:
+    id: UIManager
+    path: ''
+    startLine: 6361
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: 'public class UIManager : SingletonMonoBehaviour<UIManager>'
+    content.vb: >-
+      Public Class UIManager
+          Inherits SingletonMonoBehaviour(Of UIManager)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.UI.UIManager.masterCanvasRT
+  commentId: F:Lucid.UI.UIManager.masterCanvasRT
+  id: masterCanvasRT
+  parent: Lucid.UI.UIManager
+  langs:
+  - csharp
+  - vb
+  name: masterCanvasRT
+  nameWithType: UIManager.masterCanvasRT
+  fullName: Lucid.UI.UIManager.masterCanvasRT
+  type: Field
+  source:
+    id: masterCanvasRT
+    path: ''
+    startLine: 6364
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public RectTransform masterCanvasRT
+    return:
+      type: Global.RectTransform
+    content.vb: Public masterCanvasRT As RectTransform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIManager.views
+  commentId: F:Lucid.UI.UIManager.views
+  id: views
+  parent: Lucid.UI.UIManager
+  langs:
+  - csharp
+  - vb
+  name: views
+  nameWithType: UIManager.views
+  fullName: Lucid.UI.UIManager.views
+  type: Field
+  source:
+    id: views
+    path: ''
+    startLine: 6368
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public List<UIView> views
+    return:
+      type: Global.List{Lucid.UI.UIView}
+    content.vb: Public views As List(Of UIView)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIManager.startingState
+  commentId: F:Lucid.UI.UIManager.startingState
+  id: startingState
+  parent: Lucid.UI.UIManager
+  langs:
+  - csharp
+  - vb
+  name: startingState
+  nameWithType: UIManager.startingState
+  fullName: Lucid.UI.UIManager.startingState
+  type: Field
+  source:
+    id: startingState
+    path: ''
+    startLine: 6417
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public string startingState
+    return:
+      type: System.String
+    content.vb: Public startingState As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIManager.viewStates
+  commentId: F:Lucid.UI.UIManager.viewStates
+  id: viewStates
+  parent: Lucid.UI.UIManager
+  langs:
+  - csharp
+  - vb
+  name: viewStates
+  nameWithType: UIManager.viewStates
+  fullName: Lucid.UI.UIManager.viewStates
+  type: Field
+  source:
+    id: viewStates
+    path: ''
+    startLine: 6422
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public List<ViewState> viewStates
+    return:
+      type: Global.List{ViewState}
+    content.vb: Public viewStates As List(Of ViewState)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIManager.allowMultiSceneStates
+  commentId: F:Lucid.UI.UIManager.allowMultiSceneStates
+  id: allowMultiSceneStates
+  parent: Lucid.UI.UIManager
+  langs:
+  - csharp
+  - vb
+  name: allowMultiSceneStates
+  nameWithType: UIManager.allowMultiSceneStates
+  fullName: Lucid.UI.UIManager.allowMultiSceneStates
+  type: Field
+  source:
+    id: allowMultiSceneStates
+    path: ''
+    startLine: 6426
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public bool allowMultiSceneStates
+    return:
+      type: System.Boolean
+    content.vb: Public allowMultiSceneStates As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIManager.transitionStyle
+  commentId: F:Lucid.UI.UIManager.transitionStyle
+  id: transitionStyle
+  parent: Lucid.UI.UIManager
+  langs:
+  - csharp
+  - vb
+  name: transitionStyle
+  nameWithType: UIManager.transitionStyle
+  fullName: Lucid.UI.UIManager.transitionStyle
+  type: Field
+  source:
+    id: transitionStyle
+    path: ''
+    startLine: 6564
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public TransitionStyle transitionStyle
+    return:
+      type: Global.TransitionStyle
+    content.vb: Public transitionStyle As TransitionStyle
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIManager.onData
+  commentId: F:Lucid.UI.UIManager.onData
+  id: onData
+  parent: Lucid.UI.UIManager
+  langs:
+  - csharp
+  - vb
+  name: onData
+  nameWithType: UIManager.onData
+  fullName: Lucid.UI.UIManager.onData
+  type: Field
+  source:
+    id: onData
+    path: ''
+    startLine: 6568
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public DefaultViewAnimData onData
+    return:
+      type: Global.DefaultViewAnimData
+    content.vb: Public onData As DefaultViewAnimData
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIManager.offData
+  commentId: F:Lucid.UI.UIManager.offData
+  id: offData
+  parent: Lucid.UI.UIManager
+  langs:
+  - csharp
+  - vb
+  name: offData
+  nameWithType: UIManager.offData
+  fullName: Lucid.UI.UIManager.offData
+  type: Field
+  source:
+    id: offData
+    path: ''
+    startLine: 6572
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public DefaultViewAnimData offData
+    return:
+      type: Global.DefaultViewAnimData
+    content.vb: Public offData As DefaultViewAnimData
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIManager.hiddenData
+  commentId: F:Lucid.UI.UIManager.hiddenData
+  id: hiddenData
+  parent: Lucid.UI.UIManager
+  langs:
+  - csharp
+  - vb
+  name: hiddenData
+  nameWithType: UIManager.hiddenData
+  fullName: Lucid.UI.UIManager.hiddenData
+  type: Field
+  source:
+    id: hiddenData
+    path: ''
+    startLine: 6576
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public DefaultViewAnimData hiddenData
+    return:
+      type: Global.DefaultViewAnimData
+    content.vb: Public hiddenData As DefaultViewAnimData
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIManager.SwapToState(System.String,System.Boolean)
+  commentId: M:Lucid.UI.UIManager.SwapToState(System.String,System.Boolean)
+  id: SwapToState(System.String,System.Boolean)
+  parent: Lucid.UI.UIManager
+  langs:
+  - csharp
+  - vb
+  name: SwapToState(String, Boolean)
+  nameWithType: UIManager.SwapToState(String, Boolean)
+  fullName: Lucid.UI.UIManager.SwapToState(System.String, System.Boolean)
+  type: Method
+  source:
+    id: SwapToState
+    path: ''
+    startLine: 6600
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public void SwapToState(string stateID, bool cut = false)
+    parameters:
+    - id: stateID
+      type: System.String
+    - id: cut
+      type: System.Boolean
+    content.vb: Public Sub SwapToState(stateID As String, cut As Boolean = False)
+  overload: Lucid.UI.UIManager.SwapToState*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIManager.SwapToMultiSceneState(System.String)
+  commentId: M:Lucid.UI.UIManager.SwapToMultiSceneState(System.String)
+  id: SwapToMultiSceneState(System.String)
+  parent: Lucid.UI.UIManager
+  langs:
+  - csharp
+  - vb
+  name: SwapToMultiSceneState(String)
+  nameWithType: UIManager.SwapToMultiSceneState(String)
+  fullName: Lucid.UI.UIManager.SwapToMultiSceneState(System.String)
+  type: Method
+  source:
+    id: SwapToMultiSceneState
+    path: ''
+    startLine: 6760
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public IEnumerator SwapToMultiSceneState(string stateID)
+    parameters:
+    - id: stateID
+      type: System.String
+    return:
+      type: Global.IEnumerator
+    content.vb: Public Function SwapToMultiSceneState(stateID As String) As IEnumerator
+  overload: Lucid.UI.UIManager.SwapToMultiSceneState*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.UI
+  commentId: N:Lucid.UI
+  name: Lucid.UI
+  nameWithType: Lucid.UI
+  fullName: Lucid.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.RectTransform
+  isExternal: true
+  name: RectTransform
+  nameWithType: RectTransform
+  fullName: RectTransform
+- uid: Global.List{Lucid.UI.UIView}
+  commentId: '!:Global.List{Lucid.UI.UIView}'
+  definition: Global.List`1
+  name: List<UIView>
+  nameWithType: List<UIView>
+  fullName: List<Lucid.UI.UIView>
+  nameWithType.vb: List(Of UIView)
+  fullName.vb: List(Of Lucid.UI.UIView)
+  name.vb: List(Of UIView)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Lucid.UI.UIView
+    name: UIView
+    nameWithType: UIView
+    fullName: Lucid.UI.UIView
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Lucid.UI.UIView
+    name: UIView
+    nameWithType: UIView
+    fullName: Lucid.UI.UIView
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.List{ViewState}
+  commentId: '!:Global.List{ViewState}'
+  definition: Global.List`1
+  name: List<ViewState>
+  nameWithType: List<ViewState>
+  fullName: List<ViewState>
+  nameWithType.vb: List(Of ViewState)
+  fullName.vb: List(Of ViewState)
+  name.vb: List(Of ViewState)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.ViewState
+    name: ViewState
+    nameWithType: ViewState
+    fullName: ViewState
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.ViewState
+    name: ViewState
+    nameWithType: ViewState
+    fullName: ViewState
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.TransitionStyle
+  commentId: '!:Global.TransitionStyle'
+  isExternal: true
+  name: TransitionStyle
+  nameWithType: TransitionStyle
+  fullName: TransitionStyle
+- uid: Global.DefaultViewAnimData
+  isExternal: true
+  name: DefaultViewAnimData
+  nameWithType: DefaultViewAnimData
+  fullName: DefaultViewAnimData
+- uid: Lucid.UI.UIManager.SwapToState*
+  commentId: Overload:Lucid.UI.UIManager.SwapToState
+  name: SwapToState
+  nameWithType: UIManager.SwapToState
+  fullName: Lucid.UI.UIManager.SwapToState
+- uid: Lucid.UI.UIManager.SwapToMultiSceneState*
+  commentId: Overload:Lucid.UI.UIManager.SwapToMultiSceneState
+  name: SwapToMultiSceneState
+  nameWithType: UIManager.SwapToMultiSceneState
+  fullName: Lucid.UI.UIManager.SwapToMultiSceneState
+- uid: Global.IEnumerator
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: IEnumerator

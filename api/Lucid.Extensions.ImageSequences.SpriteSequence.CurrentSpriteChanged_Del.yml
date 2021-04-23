@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.CurrentSpriteChanged_Del
+  commentId: T:Lucid.Extensions.ImageSequences.SpriteSequence.CurrentSpriteChanged_Del
+  id: SpriteSequence.CurrentSpriteChanged_Del
+  parent: Lucid.Extensions.ImageSequences
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: SpriteSequence.CurrentSpriteChanged_Del
+  nameWithType: SpriteSequence.CurrentSpriteChanged_Del
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.CurrentSpriteChanged_Del
+  type: Delegate
+  source:
+    id: CurrentSpriteChanged_Del
+    path: ''
+    startLine: 4003
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public delegate void CurrentSpriteChanged_Del(Sprite sprite);
+    parameters:
+    - id: sprite
+      type: Global.Sprite
+    content.vb: Public Delegate Sub CurrentSpriteChanged_Del(sprite As Sprite)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Lucid.Extensions.ImageSequences
+  commentId: N:Lucid.Extensions.ImageSequences
+  name: Lucid.Extensions.ImageSequences
+  nameWithType: Lucid.Extensions.ImageSequences
+  fullName: Lucid.Extensions.ImageSequences
+- uid: Global.Sprite
+  isExternal: true
+  name: Sprite
+  nameWithType: Sprite
+  fullName: Sprite

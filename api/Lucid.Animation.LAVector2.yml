@@ -1,0 +1,206 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Animation.LAVector2
+  commentId: T:Lucid.Animation.LAVector2
+  id: LAVector2
+  parent: Lucid.Animation
+  children:
+  - Lucid.Animation.LAVector2.#ctor
+  - Lucid.Animation.LAVector2.#ctor(Lucid.Animation.LAVector2)
+  - Lucid.Animation.LAVector2.vector
+  langs:
+  - csharp
+  - vb
+  name: LAVector2
+  nameWithType: LAVector2
+  fullName: Lucid.Animation.LAVector2
+  type: Class
+  source:
+    id: LAVector2
+    path: ''
+    startLine: 24208
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class LAVector2 : LucidAnim
+    content.vb: >-
+      <Serializable>
+
+      Public Class LAVector2
+          Inherits LucidAnim
+  inheritance:
+  - System.Object
+  - Lucid.Animation.LucidAnim
+  inheritedMembers:
+  - Lucid.Animation.LucidAnim.startDelay
+  - Lucid.Animation.LucidAnim.duration
+  - Lucid.Animation.LucidAnim.speedBased
+  - Lucid.Animation.LucidAnim.ease
+  - Lucid.Animation.LucidAnim.inCollection
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Animation.LAVector2.vector
+  commentId: F:Lucid.Animation.LAVector2.vector
+  id: vector
+  parent: Lucid.Animation.LAVector2
+  langs:
+  - csharp
+  - vb
+  name: vector
+  nameWithType: LAVector2.vector
+  fullName: Lucid.Animation.LAVector2.vector
+  type: Field
+  source:
+    id: vector
+    path: ''
+    startLine: 24214
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public Vector2 vector
+    return:
+      type: Global.Vector2
+    content.vb: Public vector As Vector2
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAVector2.#ctor
+  commentId: M:Lucid.Animation.LAVector2.#ctor
+  id: '#ctor'
+  parent: Lucid.Animation.LAVector2
+  langs:
+  - csharp
+  - vb
+  name: LAVector2()
+  nameWithType: LAVector2.LAVector2()
+  fullName: Lucid.Animation.LAVector2.LAVector2()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 24216
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAVector2()
+    content.vb: Public Sub New
+  overload: Lucid.Animation.LAVector2.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAVector2.#ctor(Lucid.Animation.LAVector2)
+  commentId: M:Lucid.Animation.LAVector2.#ctor(Lucid.Animation.LAVector2)
+  id: '#ctor(Lucid.Animation.LAVector2)'
+  parent: Lucid.Animation.LAVector2
+  langs:
+  - csharp
+  - vb
+  name: LAVector2(LAVector2)
+  nameWithType: LAVector2.LAVector2(LAVector2)
+  fullName: Lucid.Animation.LAVector2.LAVector2(Lucid.Animation.LAVector2)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 24221
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAVector2(LAVector2 copy)
+    parameters:
+    - id: copy
+      type: Lucid.Animation.LAVector2
+    content.vb: Public Sub New(copy As LAVector2)
+  overload: Lucid.Animation.LAVector2.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Animation
+  commentId: N:Lucid.Animation
+  name: Lucid.Animation
+  nameWithType: Lucid.Animation
+  fullName: Lucid.Animation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Lucid.Animation.LucidAnim
+  commentId: T:Lucid.Animation.LucidAnim
+  parent: Lucid.Animation
+  name: LucidAnim
+  nameWithType: LucidAnim
+  fullName: Lucid.Animation.LucidAnim
+- uid: Lucid.Animation.LucidAnim.startDelay
+  commentId: F:Lucid.Animation.LucidAnim.startDelay
+  parent: Lucid.Animation.LucidAnim
+  name: startDelay
+  nameWithType: LucidAnim.startDelay
+  fullName: Lucid.Animation.LucidAnim.startDelay
+- uid: Lucid.Animation.LucidAnim.duration
+  commentId: F:Lucid.Animation.LucidAnim.duration
+  parent: Lucid.Animation.LucidAnim
+  name: duration
+  nameWithType: LucidAnim.duration
+  fullName: Lucid.Animation.LucidAnim.duration
+- uid: Lucid.Animation.LucidAnim.speedBased
+  commentId: F:Lucid.Animation.LucidAnim.speedBased
+  parent: Lucid.Animation.LucidAnim
+  name: speedBased
+  nameWithType: LucidAnim.speedBased
+  fullName: Lucid.Animation.LucidAnim.speedBased
+- uid: Lucid.Animation.LucidAnim.ease
+  commentId: F:Lucid.Animation.LucidAnim.ease
+  parent: Lucid.Animation.LucidAnim
+  name: ease
+  nameWithType: LucidAnim.ease
+  fullName: Lucid.Animation.LucidAnim.ease
+- uid: Lucid.Animation.LucidAnim.inCollection
+  commentId: F:Lucid.Animation.LucidAnim.inCollection
+  parent: Lucid.Animation.LucidAnim
+  name: inCollection
+  nameWithType: LucidAnim.inCollection
+  fullName: Lucid.Animation.LucidAnim.inCollection
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: Lucid.Animation.LAVector2.#ctor*
+  commentId: Overload:Lucid.Animation.LAVector2.#ctor
+  name: LAVector2
+  nameWithType: LAVector2.LAVector2
+  fullName: Lucid.Animation.LAVector2.LAVector2
+- uid: Lucid.Animation.LAVector2
+  commentId: T:Lucid.Animation.LAVector2
+  parent: Lucid.Animation
+  name: LAVector2
+  nameWithType: LAVector2
+  fullName: Lucid.Animation.LAVector2

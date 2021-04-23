@@ -1,0 +1,1006 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Branding.Text.TextStyle
+  commentId: T:Lucid.Branding.Text.TextStyle
+  id: TextStyle
+  parent: Lucid.Branding.Text
+  children:
+  - Lucid.Branding.Text.TextStyle.BaselineAlign
+  - Lucid.Branding.Text.TextStyle.BottomAlign
+  - Lucid.Branding.Text.TextStyle.CaplineAlign
+  - Lucid.Branding.Text.TextStyle.CenterAlign
+  - Lucid.Branding.Text.TextStyle.characterSpacing
+  - Lucid.Branding.Text.TextStyle.FlushAlign
+  - Lucid.Branding.Text.TextStyle.font
+  - Lucid.Branding.Text.TextStyle.fontSize
+  - Lucid.Branding.Text.TextStyle.fontStyle
+  - Lucid.Branding.Text.TextStyle.GeometryAlign
+  - Lucid.Branding.Text.TextStyle.horizontalAlignment
+  - Lucid.Branding.Text.TextStyle.JustifiedAlign
+  - Lucid.Branding.Text.TextStyle.LeftAlign
+  - Lucid.Branding.Text.TextStyle.lineSpacing
+  - Lucid.Branding.Text.TextStyle.MiddleAlign
+  - Lucid.Branding.Text.TextStyle.MidlineAlign
+  - Lucid.Branding.Text.TextStyle.paragraphSpacing
+  - Lucid.Branding.Text.TextStyle.RightAlign
+  - Lucid.Branding.Text.TextStyle.styleName
+  - Lucid.Branding.Text.TextStyle.ToggleBold
+  - Lucid.Branding.Text.TextStyle.ToggleItalic
+  - Lucid.Branding.Text.TextStyle.ToggleLowerCase
+  - Lucid.Branding.Text.TextStyle.ToggleSmallCaps
+  - Lucid.Branding.Text.TextStyle.ToggleStrikeThrough
+  - Lucid.Branding.Text.TextStyle.ToggleUnderline
+  - Lucid.Branding.Text.TextStyle.ToggleUpperCase
+  - Lucid.Branding.Text.TextStyle.TopAlign
+  - Lucid.Branding.Text.TextStyle.verticalAlignment
+  - Lucid.Branding.Text.TextStyle.wordSpacing
+  langs:
+  - csharp
+  - vb
+  name: TextStyle
+  nameWithType: TextStyle
+  fullName: Lucid.Branding.Text.TextStyle
+  type: Class
+  source:
+    id: TextStyle
+    path: ''
+    startLine: 9498
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: 'public class TextStyle : ScriptableObject'
+    content.vb: >-
+      Public Class TextStyle
+          Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Branding.Text.TextStyle.styleName
+  commentId: F:Lucid.Branding.Text.TextStyle.styleName
+  id: styleName
+  parent: Lucid.Branding.Text.TextStyle
+  langs:
+  - csharp
+  - vb
+  name: styleName
+  nameWithType: TextStyle.styleName
+  fullName: Lucid.Branding.Text.TextStyle.styleName
+  type: Field
+  source:
+    id: styleName
+    path: ''
+    startLine: 9503
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public string styleName
+    return:
+      type: System.String
+    content.vb: Public styleName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Text.TextStyle.font
+  commentId: F:Lucid.Branding.Text.TextStyle.font
+  id: font
+  parent: Lucid.Branding.Text.TextStyle
+  langs:
+  - csharp
+  - vb
+  name: font
+  nameWithType: TextStyle.font
+  fullName: Lucid.Branding.Text.TextStyle.font
+  type: Field
+  source:
+    id: font
+    path: ''
+    startLine: 9508
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public TMP_FontAsset font
+    return:
+      type: Global.TMP_FontAsset
+    content.vb: Public font As TMP_FontAsset
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Text.TextStyle.fontSize
+  commentId: F:Lucid.Branding.Text.TextStyle.fontSize
+  id: fontSize
+  parent: Lucid.Branding.Text.TextStyle
+  langs:
+  - csharp
+  - vb
+  name: fontSize
+  nameWithType: TextStyle.fontSize
+  fullName: Lucid.Branding.Text.TextStyle.fontSize
+  type: Field
+  source:
+    id: fontSize
+    path: ''
+    startLine: 9511
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public float fontSize
+    return:
+      type: System.Single
+    content.vb: Public fontSize As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Text.TextStyle.ToggleBold
+  commentId: M:Lucid.Branding.Text.TextStyle.ToggleBold
+  id: ToggleBold
+  parent: Lucid.Branding.Text.TextStyle
+  langs:
+  - csharp
+  - vb
+  name: ToggleBold()
+  nameWithType: TextStyle.ToggleBold()
+  fullName: Lucid.Branding.Text.TextStyle.ToggleBold()
+  type: Method
+  source:
+    id: ToggleBold
+    path: ''
+    startLine: 9520
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public void ToggleBold()
+    content.vb: Public Sub ToggleBold
+  overload: Lucid.Branding.Text.TextStyle.ToggleBold*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Text.TextStyle.ToggleItalic
+  commentId: M:Lucid.Branding.Text.TextStyle.ToggleItalic
+  id: ToggleItalic
+  parent: Lucid.Branding.Text.TextStyle
+  langs:
+  - csharp
+  - vb
+  name: ToggleItalic()
+  nameWithType: TextStyle.ToggleItalic()
+  fullName: Lucid.Branding.Text.TextStyle.ToggleItalic()
+  type: Method
+  source:
+    id: ToggleItalic
+    path: ''
+    startLine: 9528
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public void ToggleItalic()
+    content.vb: Public Sub ToggleItalic
+  overload: Lucid.Branding.Text.TextStyle.ToggleItalic*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Text.TextStyle.ToggleUnderline
+  commentId: M:Lucid.Branding.Text.TextStyle.ToggleUnderline
+  id: ToggleUnderline
+  parent: Lucid.Branding.Text.TextStyle
+  langs:
+  - csharp
+  - vb
+  name: ToggleUnderline()
+  nameWithType: TextStyle.ToggleUnderline()
+  fullName: Lucid.Branding.Text.TextStyle.ToggleUnderline()
+  type: Method
+  source:
+    id: ToggleUnderline
+    path: ''
+    startLine: 9535
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public void ToggleUnderline()
+    content.vb: Public Sub ToggleUnderline
+  overload: Lucid.Branding.Text.TextStyle.ToggleUnderline*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Text.TextStyle.ToggleStrikeThrough
+  commentId: M:Lucid.Branding.Text.TextStyle.ToggleStrikeThrough
+  id: ToggleStrikeThrough
+  parent: Lucid.Branding.Text.TextStyle
+  langs:
+  - csharp
+  - vb
+  name: ToggleStrikeThrough()
+  nameWithType: TextStyle.ToggleStrikeThrough()
+  fullName: Lucid.Branding.Text.TextStyle.ToggleStrikeThrough()
+  type: Method
+  source:
+    id: ToggleStrikeThrough
+    path: ''
+    startLine: 9542
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public void ToggleStrikeThrough()
+    content.vb: Public Sub ToggleStrikeThrough
+  overload: Lucid.Branding.Text.TextStyle.ToggleStrikeThrough*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Text.TextStyle.ToggleLowerCase
+  commentId: M:Lucid.Branding.Text.TextStyle.ToggleLowerCase
+  id: ToggleLowerCase
+  parent: Lucid.Branding.Text.TextStyle
+  langs:
+  - csharp
+  - vb
+  name: ToggleLowerCase()
+  nameWithType: TextStyle.ToggleLowerCase()
+  fullName: Lucid.Branding.Text.TextStyle.ToggleLowerCase()
+  type: Method
+  source:
+    id: ToggleLowerCase
+    path: ''
+    startLine: 9549
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public void ToggleLowerCase()
+    content.vb: Public Sub ToggleLowerCase
+  overload: Lucid.Branding.Text.TextStyle.ToggleLowerCase*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Text.TextStyle.ToggleUpperCase
+  commentId: M:Lucid.Branding.Text.TextStyle.ToggleUpperCase
+  id: ToggleUpperCase
+  parent: Lucid.Branding.Text.TextStyle
+  langs:
+  - csharp
+  - vb
+  name: ToggleUpperCase()
+  nameWithType: TextStyle.ToggleUpperCase()
+  fullName: Lucid.Branding.Text.TextStyle.ToggleUpperCase()
+  type: Method
+  source:
+    id: ToggleUpperCase
+    path: ''
+    startLine: 9558
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public void ToggleUpperCase()
+    content.vb: Public Sub ToggleUpperCase
+  overload: Lucid.Branding.Text.TextStyle.ToggleUpperCase*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Text.TextStyle.ToggleSmallCaps
+  commentId: M:Lucid.Branding.Text.TextStyle.ToggleSmallCaps
+  id: ToggleSmallCaps
+  parent: Lucid.Branding.Text.TextStyle
+  langs:
+  - csharp
+  - vb
+  name: ToggleSmallCaps()
+  nameWithType: TextStyle.ToggleSmallCaps()
+  fullName: Lucid.Branding.Text.TextStyle.ToggleSmallCaps()
+  type: Method
+  source:
+    id: ToggleSmallCaps
+    path: ''
+    startLine: 9567
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public void ToggleSmallCaps()
+    content.vb: Public Sub ToggleSmallCaps
+  overload: Lucid.Branding.Text.TextStyle.ToggleSmallCaps*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Text.TextStyle.fontStyle
+  commentId: P:Lucid.Branding.Text.TextStyle.fontStyle
+  id: fontStyle
+  parent: Lucid.Branding.Text.TextStyle
+  langs:
+  - csharp
+  - vb
+  name: fontStyle
+  nameWithType: TextStyle.fontStyle
+  fullName: Lucid.Branding.Text.TextStyle.fontStyle
+  type: Property
+  source:
+    id: fontStyle
+    path: ''
+    startLine: 9576
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public FontStyles fontStyle { get; }
+    parameters: []
+    return:
+      type: Global.FontStyles
+    content.vb: Public ReadOnly Property fontStyle As FontStyles
+  overload: Lucid.Branding.Text.TextStyle.fontStyle*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Lucid.Branding.Text.TextStyle.horizontalAlignment
+  commentId: P:Lucid.Branding.Text.TextStyle.horizontalAlignment
+  id: horizontalAlignment
+  parent: Lucid.Branding.Text.TextStyle
+  langs:
+  - csharp
+  - vb
+  name: horizontalAlignment
+  nameWithType: TextStyle.horizontalAlignment
+  fullName: Lucid.Branding.Text.TextStyle.horizontalAlignment
+  type: Property
+  source:
+    id: horizontalAlignment
+    path: ''
+    startLine: 9598
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public HorizontalAlignmentOptions horizontalAlignment { get; set; }
+    parameters: []
+    return:
+      type: Global.HorizontalAlignmentOptions
+    content.vb: Public Property horizontalAlignment As HorizontalAlignmentOptions
+  overload: Lucid.Branding.Text.TextStyle.horizontalAlignment*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Text.TextStyle.LeftAlign
+  commentId: M:Lucid.Branding.Text.TextStyle.LeftAlign
+  id: LeftAlign
+  parent: Lucid.Branding.Text.TextStyle
+  langs:
+  - csharp
+  - vb
+  name: LeftAlign()
+  nameWithType: TextStyle.LeftAlign()
+  fullName: Lucid.Branding.Text.TextStyle.LeftAlign()
+  type: Method
+  source:
+    id: LeftAlign
+    path: ''
+    startLine: 9608
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public void LeftAlign()
+    content.vb: Public Sub LeftAlign
+  overload: Lucid.Branding.Text.TextStyle.LeftAlign*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Text.TextStyle.CenterAlign
+  commentId: M:Lucid.Branding.Text.TextStyle.CenterAlign
+  id: CenterAlign
+  parent: Lucid.Branding.Text.TextStyle
+  langs:
+  - csharp
+  - vb
+  name: CenterAlign()
+  nameWithType: TextStyle.CenterAlign()
+  fullName: Lucid.Branding.Text.TextStyle.CenterAlign()
+  type: Method
+  source:
+    id: CenterAlign
+    path: ''
+    startLine: 9613
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public void CenterAlign()
+    content.vb: Public Sub CenterAlign
+  overload: Lucid.Branding.Text.TextStyle.CenterAlign*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Text.TextStyle.RightAlign
+  commentId: M:Lucid.Branding.Text.TextStyle.RightAlign
+  id: RightAlign
+  parent: Lucid.Branding.Text.TextStyle
+  langs:
+  - csharp
+  - vb
+  name: RightAlign()
+  nameWithType: TextStyle.RightAlign()
+  fullName: Lucid.Branding.Text.TextStyle.RightAlign()
+  type: Method
+  source:
+    id: RightAlign
+    path: ''
+    startLine: 9617
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public void RightAlign()
+    content.vb: Public Sub RightAlign
+  overload: Lucid.Branding.Text.TextStyle.RightAlign*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Text.TextStyle.JustifiedAlign
+  commentId: M:Lucid.Branding.Text.TextStyle.JustifiedAlign
+  id: JustifiedAlign
+  parent: Lucid.Branding.Text.TextStyle
+  langs:
+  - csharp
+  - vb
+  name: JustifiedAlign()
+  nameWithType: TextStyle.JustifiedAlign()
+  fullName: Lucid.Branding.Text.TextStyle.JustifiedAlign()
+  type: Method
+  source:
+    id: JustifiedAlign
+    path: ''
+    startLine: 9621
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public void JustifiedAlign()
+    content.vb: Public Sub JustifiedAlign
+  overload: Lucid.Branding.Text.TextStyle.JustifiedAlign*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Text.TextStyle.FlushAlign
+  commentId: M:Lucid.Branding.Text.TextStyle.FlushAlign
+  id: FlushAlign
+  parent: Lucid.Branding.Text.TextStyle
+  langs:
+  - csharp
+  - vb
+  name: FlushAlign()
+  nameWithType: TextStyle.FlushAlign()
+  fullName: Lucid.Branding.Text.TextStyle.FlushAlign()
+  type: Method
+  source:
+    id: FlushAlign
+    path: ''
+    startLine: 9625
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public void FlushAlign()
+    content.vb: Public Sub FlushAlign
+  overload: Lucid.Branding.Text.TextStyle.FlushAlign*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Text.TextStyle.GeometryAlign
+  commentId: M:Lucid.Branding.Text.TextStyle.GeometryAlign
+  id: GeometryAlign
+  parent: Lucid.Branding.Text.TextStyle
+  langs:
+  - csharp
+  - vb
+  name: GeometryAlign()
+  nameWithType: TextStyle.GeometryAlign()
+  fullName: Lucid.Branding.Text.TextStyle.GeometryAlign()
+  type: Method
+  source:
+    id: GeometryAlign
+    path: ''
+    startLine: 9629
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public void GeometryAlign()
+    content.vb: Public Sub GeometryAlign
+  overload: Lucid.Branding.Text.TextStyle.GeometryAlign*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Text.TextStyle.verticalAlignment
+  commentId: P:Lucid.Branding.Text.TextStyle.verticalAlignment
+  id: verticalAlignment
+  parent: Lucid.Branding.Text.TextStyle
+  langs:
+  - csharp
+  - vb
+  name: verticalAlignment
+  nameWithType: TextStyle.verticalAlignment
+  fullName: Lucid.Branding.Text.TextStyle.verticalAlignment
+  type: Property
+  source:
+    id: verticalAlignment
+    path: ''
+    startLine: 9635
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public VerticalAlignmentOptions verticalAlignment { get; set; }
+    parameters: []
+    return:
+      type: Global.VerticalAlignmentOptions
+    content.vb: Public Property verticalAlignment As VerticalAlignmentOptions
+  overload: Lucid.Branding.Text.TextStyle.verticalAlignment*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Text.TextStyle.TopAlign
+  commentId: M:Lucid.Branding.Text.TextStyle.TopAlign
+  id: TopAlign
+  parent: Lucid.Branding.Text.TextStyle
+  langs:
+  - csharp
+  - vb
+  name: TopAlign()
+  nameWithType: TextStyle.TopAlign()
+  fullName: Lucid.Branding.Text.TextStyle.TopAlign()
+  type: Method
+  source:
+    id: TopAlign
+    path: ''
+    startLine: 9645
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public void TopAlign()
+    content.vb: Public Sub TopAlign
+  overload: Lucid.Branding.Text.TextStyle.TopAlign*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Text.TextStyle.MiddleAlign
+  commentId: M:Lucid.Branding.Text.TextStyle.MiddleAlign
+  id: MiddleAlign
+  parent: Lucid.Branding.Text.TextStyle
+  langs:
+  - csharp
+  - vb
+  name: MiddleAlign()
+  nameWithType: TextStyle.MiddleAlign()
+  fullName: Lucid.Branding.Text.TextStyle.MiddleAlign()
+  type: Method
+  source:
+    id: MiddleAlign
+    path: ''
+    startLine: 9649
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public void MiddleAlign()
+    content.vb: Public Sub MiddleAlign
+  overload: Lucid.Branding.Text.TextStyle.MiddleAlign*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Text.TextStyle.BottomAlign
+  commentId: M:Lucid.Branding.Text.TextStyle.BottomAlign
+  id: BottomAlign
+  parent: Lucid.Branding.Text.TextStyle
+  langs:
+  - csharp
+  - vb
+  name: BottomAlign()
+  nameWithType: TextStyle.BottomAlign()
+  fullName: Lucid.Branding.Text.TextStyle.BottomAlign()
+  type: Method
+  source:
+    id: BottomAlign
+    path: ''
+    startLine: 9653
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public void BottomAlign()
+    content.vb: Public Sub BottomAlign
+  overload: Lucid.Branding.Text.TextStyle.BottomAlign*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Text.TextStyle.BaselineAlign
+  commentId: M:Lucid.Branding.Text.TextStyle.BaselineAlign
+  id: BaselineAlign
+  parent: Lucid.Branding.Text.TextStyle
+  langs:
+  - csharp
+  - vb
+  name: BaselineAlign()
+  nameWithType: TextStyle.BaselineAlign()
+  fullName: Lucid.Branding.Text.TextStyle.BaselineAlign()
+  type: Method
+  source:
+    id: BaselineAlign
+    path: ''
+    startLine: 9657
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public void BaselineAlign()
+    content.vb: Public Sub BaselineAlign
+  overload: Lucid.Branding.Text.TextStyle.BaselineAlign*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Text.TextStyle.MidlineAlign
+  commentId: M:Lucid.Branding.Text.TextStyle.MidlineAlign
+  id: MidlineAlign
+  parent: Lucid.Branding.Text.TextStyle
+  langs:
+  - csharp
+  - vb
+  name: MidlineAlign()
+  nameWithType: TextStyle.MidlineAlign()
+  fullName: Lucid.Branding.Text.TextStyle.MidlineAlign()
+  type: Method
+  source:
+    id: MidlineAlign
+    path: ''
+    startLine: 9661
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public void MidlineAlign()
+    content.vb: Public Sub MidlineAlign
+  overload: Lucid.Branding.Text.TextStyle.MidlineAlign*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Text.TextStyle.CaplineAlign
+  commentId: M:Lucid.Branding.Text.TextStyle.CaplineAlign
+  id: CaplineAlign
+  parent: Lucid.Branding.Text.TextStyle
+  langs:
+  - csharp
+  - vb
+  name: CaplineAlign()
+  nameWithType: TextStyle.CaplineAlign()
+  fullName: Lucid.Branding.Text.TextStyle.CaplineAlign()
+  type: Method
+  source:
+    id: CaplineAlign
+    path: ''
+    startLine: 9665
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public void CaplineAlign()
+    content.vb: Public Sub CaplineAlign
+  overload: Lucid.Branding.Text.TextStyle.CaplineAlign*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Text.TextStyle.characterSpacing
+  commentId: F:Lucid.Branding.Text.TextStyle.characterSpacing
+  id: characterSpacing
+  parent: Lucid.Branding.Text.TextStyle
+  langs:
+  - csharp
+  - vb
+  name: characterSpacing
+  nameWithType: TextStyle.characterSpacing
+  fullName: Lucid.Branding.Text.TextStyle.characterSpacing
+  type: Field
+  source:
+    id: characterSpacing
+    path: ''
+    startLine: 9674
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public float characterSpacing
+    return:
+      type: System.Single
+    content.vb: Public characterSpacing As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Text.TextStyle.wordSpacing
+  commentId: F:Lucid.Branding.Text.TextStyle.wordSpacing
+  id: wordSpacing
+  parent: Lucid.Branding.Text.TextStyle
+  langs:
+  - csharp
+  - vb
+  name: wordSpacing
+  nameWithType: TextStyle.wordSpacing
+  fullName: Lucid.Branding.Text.TextStyle.wordSpacing
+  type: Field
+  source:
+    id: wordSpacing
+    path: ''
+    startLine: 9676
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public float wordSpacing
+    return:
+      type: System.Single
+    content.vb: Public wordSpacing As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Text.TextStyle.lineSpacing
+  commentId: F:Lucid.Branding.Text.TextStyle.lineSpacing
+  id: lineSpacing
+  parent: Lucid.Branding.Text.TextStyle
+  langs:
+  - csharp
+  - vb
+  name: lineSpacing
+  nameWithType: TextStyle.lineSpacing
+  fullName: Lucid.Branding.Text.TextStyle.lineSpacing
+  type: Field
+  source:
+    id: lineSpacing
+    path: ''
+    startLine: 9678
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public float lineSpacing
+    return:
+      type: System.Single
+    content.vb: Public lineSpacing As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Text.TextStyle.paragraphSpacing
+  commentId: F:Lucid.Branding.Text.TextStyle.paragraphSpacing
+  id: paragraphSpacing
+  parent: Lucid.Branding.Text.TextStyle
+  langs:
+  - csharp
+  - vb
+  name: paragraphSpacing
+  nameWithType: TextStyle.paragraphSpacing
+  fullName: Lucid.Branding.Text.TextStyle.paragraphSpacing
+  type: Field
+  source:
+    id: paragraphSpacing
+    path: ''
+    startLine: 9680
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Text
+  syntax:
+    content: public float paragraphSpacing
+    return:
+      type: System.Single
+    content.vb: Public paragraphSpacing As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Branding.Text
+  commentId: N:Lucid.Branding.Text
+  name: Lucid.Branding.Text
+  nameWithType: Lucid.Branding.Text
+  fullName: Lucid.Branding.Text
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.TMP_FontAsset
+  commentId: '!:Global.TMP_FontAsset'
+  isExternal: true
+  name: TMP_FontAsset
+  nameWithType: TMP_FontAsset
+  fullName: TMP_FontAsset
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Lucid.Branding.Text.TextStyle.ToggleBold*
+  commentId: Overload:Lucid.Branding.Text.TextStyle.ToggleBold
+  name: ToggleBold
+  nameWithType: TextStyle.ToggleBold
+  fullName: Lucid.Branding.Text.TextStyle.ToggleBold
+- uid: Lucid.Branding.Text.TextStyle.ToggleItalic*
+  commentId: Overload:Lucid.Branding.Text.TextStyle.ToggleItalic
+  name: ToggleItalic
+  nameWithType: TextStyle.ToggleItalic
+  fullName: Lucid.Branding.Text.TextStyle.ToggleItalic
+- uid: Lucid.Branding.Text.TextStyle.ToggleUnderline*
+  commentId: Overload:Lucid.Branding.Text.TextStyle.ToggleUnderline
+  name: ToggleUnderline
+  nameWithType: TextStyle.ToggleUnderline
+  fullName: Lucid.Branding.Text.TextStyle.ToggleUnderline
+- uid: Lucid.Branding.Text.TextStyle.ToggleStrikeThrough*
+  commentId: Overload:Lucid.Branding.Text.TextStyle.ToggleStrikeThrough
+  name: ToggleStrikeThrough
+  nameWithType: TextStyle.ToggleStrikeThrough
+  fullName: Lucid.Branding.Text.TextStyle.ToggleStrikeThrough
+- uid: Lucid.Branding.Text.TextStyle.ToggleLowerCase*
+  commentId: Overload:Lucid.Branding.Text.TextStyle.ToggleLowerCase
+  name: ToggleLowerCase
+  nameWithType: TextStyle.ToggleLowerCase
+  fullName: Lucid.Branding.Text.TextStyle.ToggleLowerCase
+- uid: Lucid.Branding.Text.TextStyle.ToggleUpperCase*
+  commentId: Overload:Lucid.Branding.Text.TextStyle.ToggleUpperCase
+  name: ToggleUpperCase
+  nameWithType: TextStyle.ToggleUpperCase
+  fullName: Lucid.Branding.Text.TextStyle.ToggleUpperCase
+- uid: Lucid.Branding.Text.TextStyle.ToggleSmallCaps*
+  commentId: Overload:Lucid.Branding.Text.TextStyle.ToggleSmallCaps
+  name: ToggleSmallCaps
+  nameWithType: TextStyle.ToggleSmallCaps
+  fullName: Lucid.Branding.Text.TextStyle.ToggleSmallCaps
+- uid: Lucid.Branding.Text.TextStyle.fontStyle*
+  commentId: Overload:Lucid.Branding.Text.TextStyle.fontStyle
+  name: fontStyle
+  nameWithType: TextStyle.fontStyle
+  fullName: Lucid.Branding.Text.TextStyle.fontStyle
+- uid: Global.FontStyles
+  commentId: '!:Global.FontStyles'
+  isExternal: true
+  name: FontStyles
+  nameWithType: FontStyles
+  fullName: FontStyles
+- uid: Lucid.Branding.Text.TextStyle.horizontalAlignment*
+  commentId: Overload:Lucid.Branding.Text.TextStyle.horizontalAlignment
+  name: horizontalAlignment
+  nameWithType: TextStyle.horizontalAlignment
+  fullName: Lucid.Branding.Text.TextStyle.horizontalAlignment
+- uid: Global.HorizontalAlignmentOptions
+  commentId: '!:Global.HorizontalAlignmentOptions'
+  isExternal: true
+  name: HorizontalAlignmentOptions
+  nameWithType: HorizontalAlignmentOptions
+  fullName: HorizontalAlignmentOptions
+- uid: Lucid.Branding.Text.TextStyle.LeftAlign*
+  commentId: Overload:Lucid.Branding.Text.TextStyle.LeftAlign
+  name: LeftAlign
+  nameWithType: TextStyle.LeftAlign
+  fullName: Lucid.Branding.Text.TextStyle.LeftAlign
+- uid: Lucid.Branding.Text.TextStyle.CenterAlign*
+  commentId: Overload:Lucid.Branding.Text.TextStyle.CenterAlign
+  name: CenterAlign
+  nameWithType: TextStyle.CenterAlign
+  fullName: Lucid.Branding.Text.TextStyle.CenterAlign
+- uid: Lucid.Branding.Text.TextStyle.RightAlign*
+  commentId: Overload:Lucid.Branding.Text.TextStyle.RightAlign
+  name: RightAlign
+  nameWithType: TextStyle.RightAlign
+  fullName: Lucid.Branding.Text.TextStyle.RightAlign
+- uid: Lucid.Branding.Text.TextStyle.JustifiedAlign*
+  commentId: Overload:Lucid.Branding.Text.TextStyle.JustifiedAlign
+  name: JustifiedAlign
+  nameWithType: TextStyle.JustifiedAlign
+  fullName: Lucid.Branding.Text.TextStyle.JustifiedAlign
+- uid: Lucid.Branding.Text.TextStyle.FlushAlign*
+  commentId: Overload:Lucid.Branding.Text.TextStyle.FlushAlign
+  name: FlushAlign
+  nameWithType: TextStyle.FlushAlign
+  fullName: Lucid.Branding.Text.TextStyle.FlushAlign
+- uid: Lucid.Branding.Text.TextStyle.GeometryAlign*
+  commentId: Overload:Lucid.Branding.Text.TextStyle.GeometryAlign
+  name: GeometryAlign
+  nameWithType: TextStyle.GeometryAlign
+  fullName: Lucid.Branding.Text.TextStyle.GeometryAlign
+- uid: Lucid.Branding.Text.TextStyle.verticalAlignment*
+  commentId: Overload:Lucid.Branding.Text.TextStyle.verticalAlignment
+  name: verticalAlignment
+  nameWithType: TextStyle.verticalAlignment
+  fullName: Lucid.Branding.Text.TextStyle.verticalAlignment
+- uid: Global.VerticalAlignmentOptions
+  commentId: '!:Global.VerticalAlignmentOptions'
+  isExternal: true
+  name: VerticalAlignmentOptions
+  nameWithType: VerticalAlignmentOptions
+  fullName: VerticalAlignmentOptions
+- uid: Lucid.Branding.Text.TextStyle.TopAlign*
+  commentId: Overload:Lucid.Branding.Text.TextStyle.TopAlign
+  name: TopAlign
+  nameWithType: TextStyle.TopAlign
+  fullName: Lucid.Branding.Text.TextStyle.TopAlign
+- uid: Lucid.Branding.Text.TextStyle.MiddleAlign*
+  commentId: Overload:Lucid.Branding.Text.TextStyle.MiddleAlign
+  name: MiddleAlign
+  nameWithType: TextStyle.MiddleAlign
+  fullName: Lucid.Branding.Text.TextStyle.MiddleAlign
+- uid: Lucid.Branding.Text.TextStyle.BottomAlign*
+  commentId: Overload:Lucid.Branding.Text.TextStyle.BottomAlign
+  name: BottomAlign
+  nameWithType: TextStyle.BottomAlign
+  fullName: Lucid.Branding.Text.TextStyle.BottomAlign
+- uid: Lucid.Branding.Text.TextStyle.BaselineAlign*
+  commentId: Overload:Lucid.Branding.Text.TextStyle.BaselineAlign
+  name: BaselineAlign
+  nameWithType: TextStyle.BaselineAlign
+  fullName: Lucid.Branding.Text.TextStyle.BaselineAlign
+- uid: Lucid.Branding.Text.TextStyle.MidlineAlign*
+  commentId: Overload:Lucid.Branding.Text.TextStyle.MidlineAlign
+  name: MidlineAlign
+  nameWithType: TextStyle.MidlineAlign
+  fullName: Lucid.Branding.Text.TextStyle.MidlineAlign
+- uid: Lucid.Branding.Text.TextStyle.CaplineAlign*
+  commentId: Overload:Lucid.Branding.Text.TextStyle.CaplineAlign
+  name: CaplineAlign
+  nameWithType: TextStyle.CaplineAlign
+  fullName: Lucid.Branding.Text.TextStyle.CaplineAlign

@@ -1,0 +1,305 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Branding.Color.ColorStyleHandler
+  commentId: T:Lucid.Branding.Color.ColorStyleHandler
+  id: ColorStyleHandler
+  parent: Lucid.Branding.Color
+  children:
+  - Lucid.Branding.Color.ColorStyleHandler._colorStyle
+  - Lucid.Branding.Color.ColorStyleHandler.ApplyStyle
+  - Lucid.Branding.Color.ColorStyleHandler.ApplyStyle_Editor
+  - Lucid.Branding.Color.ColorStyleHandler.colorStyle
+  - Lucid.Branding.Color.ColorStyleHandler.graphic
+  langs:
+  - csharp
+  - vb
+  name: ColorStyleHandler
+  nameWithType: ColorStyleHandler
+  fullName: Lucid.Branding.Color.ColorStyleHandler
+  type: Class
+  source:
+    id: ColorStyleHandler
+    path: ''
+    startLine: 9236
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Color
+  syntax:
+    content: 'public class ColorStyleHandler : BaseStyleHandler'
+    content.vb: >-
+      Public Class ColorStyleHandler
+          Inherits BaseStyleHandler
+  inheritance:
+  - System.Object
+  - Lucid.Branding.BaseStyleHandler
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Branding.Color.ColorStyleHandler.graphic
+  commentId: P:Lucid.Branding.Color.ColorStyleHandler.graphic
+  id: graphic
+  parent: Lucid.Branding.Color.ColorStyleHandler
+  langs:
+  - csharp
+  - vb
+  name: graphic
+  nameWithType: ColorStyleHandler.graphic
+  fullName: Lucid.Branding.Color.ColorStyleHandler.graphic
+  type: Property
+  source:
+    id: graphic
+    path: ''
+    startLine: 9241
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Color
+  syntax:
+    content: public Graphic graphic { get; }
+    parameters: []
+    return:
+      type: Global.Graphic
+    content.vb: Public ReadOnly Property graphic As Graphic
+  overload: Lucid.Branding.Color.ColorStyleHandler.graphic*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Lucid.Branding.Color.ColorStyleHandler._colorStyle
+  commentId: F:Lucid.Branding.Color.ColorStyleHandler._colorStyle
+  id: _colorStyle
+  parent: Lucid.Branding.Color.ColorStyleHandler
+  langs:
+  - csharp
+  - vb
+  name: _colorStyle
+  nameWithType: ColorStyleHandler._colorStyle
+  fullName: Lucid.Branding.Color.ColorStyleHandler._colorStyle
+  type: Field
+  source:
+    id: _colorStyle
+    path: ''
+    startLine: 9252
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Color
+  syntax:
+    content: protected ColorStyle _colorStyle
+    return:
+      type: Lucid.Branding.Color.ColorStyle
+    content.vb: Protected _colorStyle As ColorStyle
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Lucid.Branding.Color.ColorStyleHandler.colorStyle
+  commentId: P:Lucid.Branding.Color.ColorStyleHandler.colorStyle
+  id: colorStyle
+  parent: Lucid.Branding.Color.ColorStyleHandler
+  langs:
+  - csharp
+  - vb
+  name: colorStyle
+  nameWithType: ColorStyleHandler.colorStyle
+  fullName: Lucid.Branding.Color.ColorStyleHandler.colorStyle
+  type: Property
+  source:
+    id: colorStyle
+    path: ''
+    startLine: 9253
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Color
+  syntax:
+    content: public ColorStyle colorStyle { get; set; }
+    parameters: []
+    return:
+      type: Lucid.Branding.Color.ColorStyle
+    content.vb: Public Property colorStyle As ColorStyle
+  overload: Lucid.Branding.Color.ColorStyleHandler.colorStyle*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Color.ColorStyleHandler.ApplyStyle
+  commentId: M:Lucid.Branding.Color.ColorStyleHandler.ApplyStyle
+  id: ApplyStyle
+  parent: Lucid.Branding.Color.ColorStyleHandler
+  langs:
+  - csharp
+  - vb
+  name: ApplyStyle()
+  nameWithType: ColorStyleHandler.ApplyStyle()
+  fullName: Lucid.Branding.Color.ColorStyleHandler.ApplyStyle()
+  type: Method
+  source:
+    id: ApplyStyle
+    path: ''
+    startLine: 9259
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Color
+  syntax:
+    content: public override void ApplyStyle()
+    content.vb: Public Overrides Sub ApplyStyle
+  overridden: Lucid.Branding.BaseStyleHandler.ApplyStyle
+  overload: Lucid.Branding.Color.ColorStyleHandler.ApplyStyle*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Lucid.Branding.Color.ColorStyleHandler.ApplyStyle_Editor
+  commentId: M:Lucid.Branding.Color.ColorStyleHandler.ApplyStyle_Editor
+  id: ApplyStyle_Editor
+  parent: Lucid.Branding.Color.ColorStyleHandler
+  langs:
+  - csharp
+  - vb
+  name: ApplyStyle_Editor()
+  nameWithType: ColorStyleHandler.ApplyStyle_Editor()
+  fullName: Lucid.Branding.Color.ColorStyleHandler.ApplyStyle_Editor()
+  type: Method
+  source:
+    id: ApplyStyle_Editor
+    path: ''
+    startLine: 9270
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Color
+  syntax:
+    content: public override void ApplyStyle_Editor()
+    content.vb: Public Overrides Sub ApplyStyle_Editor
+  overridden: Lucid.Branding.BaseStyleHandler.ApplyStyle_Editor
+  overload: Lucid.Branding.Color.ColorStyleHandler.ApplyStyle_Editor*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Lucid.Branding.Color
+  commentId: N:Lucid.Branding.Color
+  name: Lucid.Branding.Color
+  nameWithType: Lucid.Branding.Color
+  fullName: Lucid.Branding.Color
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Lucid.Branding.BaseStyleHandler
+  commentId: T:Lucid.Branding.BaseStyleHandler
+  parent: Lucid.Branding
+  name: BaseStyleHandler
+  nameWithType: BaseStyleHandler
+  fullName: Lucid.Branding.BaseStyleHandler
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.Branding
+  commentId: N:Lucid.Branding
+  name: Lucid.Branding
+  nameWithType: Lucid.Branding
+  fullName: Lucid.Branding
+- uid: Lucid.Branding.Color.ColorStyleHandler.graphic*
+  commentId: Overload:Lucid.Branding.Color.ColorStyleHandler.graphic
+  name: graphic
+  nameWithType: ColorStyleHandler.graphic
+  fullName: Lucid.Branding.Color.ColorStyleHandler.graphic
+- uid: Global.Graphic
+  commentId: '!:Global.Graphic'
+  isExternal: true
+  name: Graphic
+  nameWithType: Graphic
+  fullName: Graphic
+- uid: Lucid.Branding.Color.ColorStyle
+  commentId: T:Lucid.Branding.Color.ColorStyle
+  parent: Lucid.Branding.Color
+  name: ColorStyle
+  nameWithType: ColorStyle
+  fullName: Lucid.Branding.Color.ColorStyle
+- uid: Lucid.Branding.Color.ColorStyleHandler.colorStyle*
+  commentId: Overload:Lucid.Branding.Color.ColorStyleHandler.colorStyle
+  name: colorStyle
+  nameWithType: ColorStyleHandler.colorStyle
+  fullName: Lucid.Branding.Color.ColorStyleHandler.colorStyle
+- uid: Lucid.Branding.BaseStyleHandler.ApplyStyle
+  commentId: M:Lucid.Branding.BaseStyleHandler.ApplyStyle
+  parent: Lucid.Branding.BaseStyleHandler
+  name: ApplyStyle()
+  nameWithType: BaseStyleHandler.ApplyStyle()
+  fullName: Lucid.Branding.BaseStyleHandler.ApplyStyle()
+  spec.csharp:
+  - uid: Lucid.Branding.BaseStyleHandler.ApplyStyle
+    name: ApplyStyle
+    nameWithType: BaseStyleHandler.ApplyStyle
+    fullName: Lucid.Branding.BaseStyleHandler.ApplyStyle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.Branding.BaseStyleHandler.ApplyStyle
+    name: ApplyStyle
+    nameWithType: BaseStyleHandler.ApplyStyle
+    fullName: Lucid.Branding.BaseStyleHandler.ApplyStyle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.Branding.Color.ColorStyleHandler.ApplyStyle*
+  commentId: Overload:Lucid.Branding.Color.ColorStyleHandler.ApplyStyle
+  name: ApplyStyle
+  nameWithType: ColorStyleHandler.ApplyStyle
+  fullName: Lucid.Branding.Color.ColorStyleHandler.ApplyStyle
+- uid: Lucid.Branding.BaseStyleHandler.ApplyStyle_Editor
+  commentId: M:Lucid.Branding.BaseStyleHandler.ApplyStyle_Editor
+  parent: Lucid.Branding.BaseStyleHandler
+  name: ApplyStyle_Editor()
+  nameWithType: BaseStyleHandler.ApplyStyle_Editor()
+  fullName: Lucid.Branding.BaseStyleHandler.ApplyStyle_Editor()
+  spec.csharp:
+  - uid: Lucid.Branding.BaseStyleHandler.ApplyStyle_Editor
+    name: ApplyStyle_Editor
+    nameWithType: BaseStyleHandler.ApplyStyle_Editor
+    fullName: Lucid.Branding.BaseStyleHandler.ApplyStyle_Editor
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.Branding.BaseStyleHandler.ApplyStyle_Editor
+    name: ApplyStyle_Editor
+    nameWithType: BaseStyleHandler.ApplyStyle_Editor
+    fullName: Lucid.Branding.BaseStyleHandler.ApplyStyle_Editor
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.Branding.Color.ColorStyleHandler.ApplyStyle_Editor*
+  commentId: Overload:Lucid.Branding.Color.ColorStyleHandler.ApplyStyle_Editor
+  name: ApplyStyle_Editor
+  nameWithType: ColorStyleHandler.ApplyStyle_Editor
+  fullName: Lucid.Branding.Color.ColorStyleHandler.ApplyStyle_Editor

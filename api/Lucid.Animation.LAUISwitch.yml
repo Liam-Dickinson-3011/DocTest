@@ -1,0 +1,584 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Animation.LAUISwitch
+  commentId: T:Lucid.Animation.LAUISwitch
+  id: LAUISwitch
+  parent: Lucid.Animation
+  children:
+  - Lucid.Animation.LAUISwitch.AutoFillTargets
+  - Lucid.Animation.LAUISwitch.CutOff
+  - Lucid.Animation.LAUISwitch.CutOn
+  - Lucid.Animation.LAUISwitch.GetAllStyleNames
+  - Lucid.Animation.LAUISwitch.IsOn
+  - Lucid.Animation.LAUISwitch.off
+  - Lucid.Animation.LAUISwitch.offPresetName
+  - Lucid.Animation.LAUISwitch.on
+  - Lucid.Animation.LAUISwitch.responders
+  - Lucid.Animation.LAUISwitch.selectedPresetName
+  - Lucid.Animation.LAUISwitch.SetOff
+  - Lucid.Animation.LAUISwitch.SetOn
+  - Lucid.Animation.LAUISwitch.ToggleSwitch(System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: LAUISwitch
+  nameWithType: LAUISwitch
+  fullName: Lucid.Animation.LAUISwitch
+  type: Class
+  source:
+    id: LAUISwitch
+    path: ''
+    startLine: 25607
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: 'public class LAUISwitch : MonoBehaviour'
+    content.vb: >-
+      Public Class LAUISwitch
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Animation.LAUISwitch.selectedPresetName
+  commentId: F:Lucid.Animation.LAUISwitch.selectedPresetName
+  id: selectedPresetName
+  parent: Lucid.Animation.LAUISwitch
+  langs:
+  - csharp
+  - vb
+  name: selectedPresetName
+  nameWithType: LAUISwitch.selectedPresetName
+  fullName: Lucid.Animation.LAUISwitch.selectedPresetName
+  type: Field
+  source:
+    id: selectedPresetName
+    path: ''
+    startLine: 25615
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public string selectedPresetName
+    return:
+      type: System.String
+    content.vb: Public selectedPresetName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUISwitch.on
+  commentId: F:Lucid.Animation.LAUISwitch.on
+  id: on
+  parent: Lucid.Animation.LAUISwitch
+  langs:
+  - csharp
+  - vb
+  name: on
+  nameWithType: LAUISwitch.on
+  fullName: Lucid.Animation.LAUISwitch.on
+  type: Field
+  source:
+    id: on
+    path: ''
+    startLine: 25634
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAUIItemAnimation on
+    return:
+      type: Lucid.Animation.LAUIItemAnimation
+    content.vb: Public on As LAUIItemAnimation
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUISwitch.offPresetName
+  commentId: F:Lucid.Animation.LAUISwitch.offPresetName
+  id: offPresetName
+  parent: Lucid.Animation.LAUISwitch
+  langs:
+  - csharp
+  - vb
+  name: offPresetName
+  nameWithType: LAUISwitch.offPresetName
+  fullName: Lucid.Animation.LAUISwitch.offPresetName
+  type: Field
+  source:
+    id: offPresetName
+    path: ''
+    startLine: 25642
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public string offPresetName
+    return:
+      type: System.String
+    content.vb: Public offPresetName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUISwitch.off
+  commentId: F:Lucid.Animation.LAUISwitch.off
+  id: off
+  parent: Lucid.Animation.LAUISwitch
+  langs:
+  - csharp
+  - vb
+  name: off
+  nameWithType: LAUISwitch.off
+  fullName: Lucid.Animation.LAUISwitch.off
+  type: Field
+  source:
+    id: off
+    path: ''
+    startLine: 25661
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAUIItemAnimation off
+    return:
+      type: Lucid.Animation.LAUIItemAnimation
+    content.vb: Public off As LAUIItemAnimation
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUISwitch.AutoFillTargets
+  commentId: M:Lucid.Animation.LAUISwitch.AutoFillTargets
+  id: AutoFillTargets
+  parent: Lucid.Animation.LAUISwitch
+  langs:
+  - csharp
+  - vb
+  name: AutoFillTargets()
+  nameWithType: LAUISwitch.AutoFillTargets()
+  fullName: Lucid.Animation.LAUISwitch.AutoFillTargets()
+  type: Method
+  source:
+    id: AutoFillTargets
+    path: ''
+    startLine: 25664
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public void AutoFillTargets()
+    content.vb: Public Sub AutoFillTargets
+  overload: Lucid.Animation.LAUISwitch.AutoFillTargets*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUISwitch.responders
+  commentId: F:Lucid.Animation.LAUISwitch.responders
+  id: responders
+  parent: Lucid.Animation.LAUISwitch
+  langs:
+  - csharp
+  - vb
+  name: responders
+  nameWithType: LAUISwitch.responders
+  fullName: Lucid.Animation.LAUISwitch.responders
+  type: Field
+  source:
+    id: responders
+    path: ''
+    startLine: 25737
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAUISwitchResponder[] responders
+    return:
+      type: Lucid.Animation.LAUISwitchResponder[]
+    content.vb: Public responders As LAUISwitchResponder()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUISwitch.IsOn
+  commentId: P:Lucid.Animation.LAUISwitch.IsOn
+  id: IsOn
+  parent: Lucid.Animation.LAUISwitch
+  langs:
+  - csharp
+  - vb
+  name: IsOn
+  nameWithType: LAUISwitch.IsOn
+  fullName: Lucid.Animation.LAUISwitch.IsOn
+  type: Property
+  source:
+    id: IsOn
+    path: ''
+    startLine: 25739
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public bool IsOn { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsOn As Boolean
+  overload: Lucid.Animation.LAUISwitch.IsOn*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUISwitch.GetAllStyleNames
+  commentId: M:Lucid.Animation.LAUISwitch.GetAllStyleNames
+  id: GetAllStyleNames
+  parent: Lucid.Animation.LAUISwitch
+  langs:
+  - csharp
+  - vb
+  name: GetAllStyleNames()
+  nameWithType: LAUISwitch.GetAllStyleNames()
+  fullName: Lucid.Animation.LAUISwitch.GetAllStyleNames()
+  type: Method
+  source:
+    id: GetAllStyleNames
+    path: ''
+    startLine: 25741
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public List<string> GetAllStyleNames()
+    return:
+      type: Global.List{System.String}
+    content.vb: Public Function GetAllStyleNames As List(Of String)
+  overload: Lucid.Animation.LAUISwitch.GetAllStyleNames*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUISwitch.ToggleSwitch(System.Boolean)
+  commentId: M:Lucid.Animation.LAUISwitch.ToggleSwitch(System.Boolean)
+  id: ToggleSwitch(System.Boolean)
+  parent: Lucid.Animation.LAUISwitch
+  langs:
+  - csharp
+  - vb
+  name: ToggleSwitch(Boolean)
+  nameWithType: LAUISwitch.ToggleSwitch(Boolean)
+  fullName: Lucid.Animation.LAUISwitch.ToggleSwitch(System.Boolean)
+  type: Method
+  source:
+    id: ToggleSwitch
+    path: ''
+    startLine: 25766
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public void ToggleSwitch(bool tf)
+    parameters:
+    - id: tf
+      type: System.Boolean
+    content.vb: Public Sub ToggleSwitch(tf As Boolean)
+  overload: Lucid.Animation.LAUISwitch.ToggleSwitch*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUISwitch.SetOn
+  commentId: M:Lucid.Animation.LAUISwitch.SetOn
+  id: SetOn
+  parent: Lucid.Animation.LAUISwitch
+  langs:
+  - csharp
+  - vb
+  name: SetOn()
+  nameWithType: LAUISwitch.SetOn()
+  fullName: Lucid.Animation.LAUISwitch.SetOn()
+  type: Method
+  source:
+    id: SetOn
+    path: ''
+    startLine: 25797
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public void SetOn()
+    content.vb: Public Sub SetOn
+  overload: Lucid.Animation.LAUISwitch.SetOn*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUISwitch.CutOn
+  commentId: M:Lucid.Animation.LAUISwitch.CutOn
+  id: CutOn
+  parent: Lucid.Animation.LAUISwitch
+  langs:
+  - csharp
+  - vb
+  name: CutOn()
+  nameWithType: LAUISwitch.CutOn()
+  fullName: Lucid.Animation.LAUISwitch.CutOn()
+  type: Method
+  source:
+    id: CutOn
+    path: ''
+    startLine: 25814
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public void CutOn()
+    content.vb: Public Sub CutOn
+  overload: Lucid.Animation.LAUISwitch.CutOn*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUISwitch.SetOff
+  commentId: M:Lucid.Animation.LAUISwitch.SetOff
+  id: SetOff
+  parent: Lucid.Animation.LAUISwitch
+  langs:
+  - csharp
+  - vb
+  name: SetOff()
+  nameWithType: LAUISwitch.SetOff()
+  fullName: Lucid.Animation.LAUISwitch.SetOff()
+  type: Method
+  source:
+    id: SetOff
+    path: ''
+    startLine: 25826
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public void SetOff()
+    content.vb: Public Sub SetOff
+  overload: Lucid.Animation.LAUISwitch.SetOff*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUISwitch.CutOff
+  commentId: M:Lucid.Animation.LAUISwitch.CutOff
+  id: CutOff
+  parent: Lucid.Animation.LAUISwitch
+  langs:
+  - csharp
+  - vb
+  name: CutOff()
+  nameWithType: LAUISwitch.CutOff()
+  fullName: Lucid.Animation.LAUISwitch.CutOff()
+  type: Method
+  source:
+    id: CutOff
+    path: ''
+    startLine: 25843
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public void CutOff()
+    content.vb: Public Sub CutOff
+  overload: Lucid.Animation.LAUISwitch.CutOff*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Animation
+  commentId: N:Lucid.Animation
+  name: Lucid.Animation
+  nameWithType: Lucid.Animation
+  fullName: Lucid.Animation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Lucid.Animation.LAUIItemAnimation
+  commentId: T:Lucid.Animation.LAUIItemAnimation
+  parent: Lucid.Animation
+  name: LAUIItemAnimation
+  nameWithType: LAUIItemAnimation
+  fullName: Lucid.Animation.LAUIItemAnimation
+- uid: Lucid.Animation.LAUISwitch.AutoFillTargets*
+  commentId: Overload:Lucid.Animation.LAUISwitch.AutoFillTargets
+  name: AutoFillTargets
+  nameWithType: LAUISwitch.AutoFillTargets
+  fullName: Lucid.Animation.LAUISwitch.AutoFillTargets
+- uid: Lucid.Animation.LAUISwitchResponder[]
+  isExternal: true
+  name: LAUISwitchResponder[]
+  nameWithType: LAUISwitchResponder[]
+  fullName: Lucid.Animation.LAUISwitchResponder[]
+  nameWithType.vb: LAUISwitchResponder()
+  fullName.vb: Lucid.Animation.LAUISwitchResponder()
+  name.vb: LAUISwitchResponder()
+  spec.csharp:
+  - uid: Lucid.Animation.LAUISwitchResponder
+    name: LAUISwitchResponder
+    nameWithType: LAUISwitchResponder
+    fullName: Lucid.Animation.LAUISwitchResponder
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Lucid.Animation.LAUISwitchResponder
+    name: LAUISwitchResponder
+    nameWithType: LAUISwitchResponder
+    fullName: Lucid.Animation.LAUISwitchResponder
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Lucid.Animation.LAUISwitch.IsOn*
+  commentId: Overload:Lucid.Animation.LAUISwitch.IsOn
+  name: IsOn
+  nameWithType: LAUISwitch.IsOn
+  fullName: Lucid.Animation.LAUISwitch.IsOn
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Lucid.Animation.LAUISwitch.GetAllStyleNames*
+  commentId: Overload:Lucid.Animation.LAUISwitch.GetAllStyleNames
+  name: GetAllStyleNames
+  nameWithType: LAUISwitch.GetAllStyleNames
+  fullName: Lucid.Animation.LAUISwitch.GetAllStyleNames
+- uid: Global.List{System.String}
+  commentId: '!:Global.List{System.String}'
+  definition: Global.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.Animation.LAUISwitch.ToggleSwitch*
+  commentId: Overload:Lucid.Animation.LAUISwitch.ToggleSwitch
+  name: ToggleSwitch
+  nameWithType: LAUISwitch.ToggleSwitch
+  fullName: Lucid.Animation.LAUISwitch.ToggleSwitch
+- uid: Lucid.Animation.LAUISwitch.SetOn*
+  commentId: Overload:Lucid.Animation.LAUISwitch.SetOn
+  name: SetOn
+  nameWithType: LAUISwitch.SetOn
+  fullName: Lucid.Animation.LAUISwitch.SetOn
+- uid: Lucid.Animation.LAUISwitch.CutOn*
+  commentId: Overload:Lucid.Animation.LAUISwitch.CutOn
+  name: CutOn
+  nameWithType: LAUISwitch.CutOn
+  fullName: Lucid.Animation.LAUISwitch.CutOn
+- uid: Lucid.Animation.LAUISwitch.SetOff*
+  commentId: Overload:Lucid.Animation.LAUISwitch.SetOff
+  name: SetOff
+  nameWithType: LAUISwitch.SetOff
+  fullName: Lucid.Animation.LAUISwitch.SetOff
+- uid: Lucid.Animation.LAUISwitch.CutOff*
+  commentId: Overload:Lucid.Animation.LAUISwitch.CutOff
+  name: CutOff
+  nameWithType: LAUISwitch.CutOff
+  fullName: Lucid.Animation.LAUISwitch.CutOff

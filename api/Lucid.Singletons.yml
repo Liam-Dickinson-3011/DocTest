@@ -1,0 +1,90 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Singletons
+  commentId: N:Lucid.Singletons
+  id: Lucid.Singletons
+  children:
+  - Lucid.Singletons.SingletonMonoBehaviour`1
+  - Lucid.Singletons.SingletonScriptableObject`1
+  langs:
+  - csharp
+  - vb
+  name: Lucid.Singletons
+  nameWithType: Lucid.Singletons
+  fullName: Lucid.Singletons
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Lucid.Singletons.SingletonScriptableObject`1
+  commentId: T:Lucid.Singletons.SingletonScriptableObject`1
+  name: SingletonScriptableObject<T>
+  nameWithType: SingletonScriptableObject<T>
+  fullName: Lucid.Singletons.SingletonScriptableObject<T>
+  nameWithType.vb: SingletonScriptableObject(Of T)
+  fullName.vb: Lucid.Singletons.SingletonScriptableObject(Of T)
+  name.vb: SingletonScriptableObject(Of T)
+  spec.csharp:
+  - uid: Lucid.Singletons.SingletonScriptableObject`1
+    name: SingletonScriptableObject
+    nameWithType: SingletonScriptableObject
+    fullName: Lucid.Singletons.SingletonScriptableObject
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Lucid.Singletons.SingletonScriptableObject`1
+    name: SingletonScriptableObject
+    nameWithType: SingletonScriptableObject
+    fullName: Lucid.Singletons.SingletonScriptableObject
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.Singletons.SingletonMonoBehaviour`1
+  commentId: T:Lucid.Singletons.SingletonMonoBehaviour`1
+  name: SingletonMonoBehaviour<T>
+  nameWithType: SingletonMonoBehaviour<T>
+  fullName: Lucid.Singletons.SingletonMonoBehaviour<T>
+  nameWithType.vb: SingletonMonoBehaviour(Of T)
+  fullName.vb: Lucid.Singletons.SingletonMonoBehaviour(Of T)
+  name.vb: SingletonMonoBehaviour(Of T)
+  spec.csharp:
+  - uid: Lucid.Singletons.SingletonMonoBehaviour`1
+    name: SingletonMonoBehaviour
+    nameWithType: SingletonMonoBehaviour
+    fullName: Lucid.Singletons.SingletonMonoBehaviour
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Lucid.Singletons.SingletonMonoBehaviour`1
+    name: SingletonMonoBehaviour
+    nameWithType: SingletonMonoBehaviour
+    fullName: Lucid.Singletons.SingletonMonoBehaviour
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

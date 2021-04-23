@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Branding
+  commentId: N:Lucid.Branding
+  id: Lucid.Branding
+  children:
+  - Lucid.Branding.BaseStyleHandler
+  langs:
+  - csharp
+  - vb
+  name: Lucid.Branding
+  nameWithType: Lucid.Branding
+  fullName: Lucid.Branding
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Lucid.Branding.BaseStyleHandler
+  commentId: T:Lucid.Branding.BaseStyleHandler
+  parent: Lucid.Branding
+  name: BaseStyleHandler
+  nameWithType: BaseStyleHandler
+  fullName: Lucid.Branding.BaseStyleHandler
+- uid: Lucid.Branding
+  commentId: N:Lucid.Branding
+  name: Lucid.Branding
+  nameWithType: Lucid.Branding
+  fullName: Lucid.Branding

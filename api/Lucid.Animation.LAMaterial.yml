@@ -1,0 +1,61 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Animation.LAMaterial
+  commentId: T:Lucid.Animation.LAMaterial
+  id: LAMaterial
+  parent: Lucid.Animation
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: LAMaterial
+  nameWithType: LAMaterial
+  fullName: Lucid.Animation.LAMaterial
+  type: Class
+  source:
+    id: LAMaterial
+    path: ''
+    startLine: 22422
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class LAMaterial
+    content.vb: >-
+      <Serializable>
+
+      Public Class LAMaterial
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Lucid.Animation
+  commentId: N:Lucid.Animation
+  name: Lucid.Animation
+  nameWithType: Lucid.Animation
+  fullName: Lucid.Animation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,865 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.UI.Gallery.GalleryView
+  commentId: T:Lucid.UI.Gallery.GalleryView
+  id: GalleryView
+  parent: Lucid.UI.Gallery
+  children:
+  - Lucid.UI.Gallery.GalleryView.activeIndex
+  - Lucid.UI.Gallery.GalleryView.activeItem
+  - Lucid.UI.Gallery.GalleryView.buttonPrefab
+  - Lucid.UI.Gallery.GalleryView.controlsParent
+  - Lucid.UI.Gallery.GalleryView.defaultItem
+  - Lucid.UI.Gallery.GalleryView.galleryContent
+  - Lucid.UI.Gallery.GalleryView.galleryItems
+  - Lucid.UI.Gallery.GalleryView.galleryItemsParent
+  - Lucid.UI.Gallery.GalleryView.galleryThumbnails
+  - Lucid.UI.Gallery.GalleryView.galleryThumbnailsParent
+  - Lucid.UI.Gallery.GalleryView.GetGalleryItems
+  - Lucid.UI.Gallery.GalleryView.InitialiseControls
+  - Lucid.UI.Gallery.GalleryView.InitialiseView
+  - Lucid.UI.Gallery.GalleryView.nextButton
+  - Lucid.UI.Gallery.GalleryView.NextGalleryItem
+  - Lucid.UI.Gallery.GalleryView.prevButton
+  - Lucid.UI.Gallery.GalleryView.PreviousGalleryItem
+  - Lucid.UI.Gallery.GalleryView.SetActiveGalleryItem(Lucid.UI.Gallery.GalleryItem,System.Boolean)
+  - Lucid.UI.Gallery.GalleryView.SetActiveGalleryItem(System.Int32,System.Boolean)
+  - Lucid.UI.Gallery.GalleryView.swipeDetection
+  - Lucid.UI.Gallery.GalleryView.useButtonControl
+  - Lucid.UI.Gallery.GalleryView.useSwipeControl
+  - Lucid.UI.Gallery.GalleryView.useThumbnails
+  langs:
+  - csharp
+  - vb
+  name: GalleryView
+  nameWithType: GalleryView
+  fullName: Lucid.UI.Gallery.GalleryView
+  type: Class
+  source:
+    id: GalleryView
+    path: ''
+    startLine: 10020
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: 'public class GalleryView : MonoBehaviour'
+    content.vb: >-
+      Public Class GalleryView
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.UI.Gallery.GalleryView.galleryContent
+  commentId: P:Lucid.UI.Gallery.GalleryView.galleryContent
+  id: galleryContent
+  parent: Lucid.UI.Gallery.GalleryView
+  langs:
+  - csharp
+  - vb
+  name: galleryContent
+  nameWithType: GalleryView.galleryContent
+  fullName: Lucid.UI.Gallery.GalleryView.galleryContent
+  type: Property
+  source:
+    id: galleryContent
+    path: ''
+    startLine: 10026
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public GalleryContent galleryContent { get; set; }
+    parameters: []
+    return:
+      type: Lucid.UI.Gallery.GalleryContent
+    content.vb: Public Property galleryContent As GalleryContent
+  overload: Lucid.UI.Gallery.GalleryView.galleryContent*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryView.galleryItemsParent
+  commentId: F:Lucid.UI.Gallery.GalleryView.galleryItemsParent
+  id: galleryItemsParent
+  parent: Lucid.UI.Gallery.GalleryView
+  langs:
+  - csharp
+  - vb
+  name: galleryItemsParent
+  nameWithType: GalleryView.galleryItemsParent
+  fullName: Lucid.UI.Gallery.GalleryView.galleryItemsParent
+  type: Field
+  source:
+    id: galleryItemsParent
+    path: ''
+    startLine: 10037
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public RectTransform galleryItemsParent
+    return:
+      type: Global.RectTransform
+    content.vb: Public galleryItemsParent As RectTransform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryView.galleryItems
+  commentId: F:Lucid.UI.Gallery.GalleryView.galleryItems
+  id: galleryItems
+  parent: Lucid.UI.Gallery.GalleryView
+  langs:
+  - csharp
+  - vb
+  name: galleryItems
+  nameWithType: GalleryView.galleryItems
+  fullName: Lucid.UI.Gallery.GalleryView.galleryItems
+  type: Field
+  source:
+    id: galleryItems
+    path: ''
+    startLine: 10039
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public List<GalleryItem> galleryItems
+    return:
+      type: Global.List{Lucid.UI.Gallery.GalleryItem}
+    content.vb: Public galleryItems As List(Of GalleryItem)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryView.activeIndex
+  commentId: F:Lucid.UI.Gallery.GalleryView.activeIndex
+  id: activeIndex
+  parent: Lucid.UI.Gallery.GalleryView
+  langs:
+  - csharp
+  - vb
+  name: activeIndex
+  nameWithType: GalleryView.activeIndex
+  fullName: Lucid.UI.Gallery.GalleryView.activeIndex
+  type: Field
+  source:
+    id: activeIndex
+    path: ''
+    startLine: 10040
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public int activeIndex
+    return:
+      type: System.Int32
+    content.vb: Public activeIndex As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryView.activeItem
+  commentId: F:Lucid.UI.Gallery.GalleryView.activeItem
+  id: activeItem
+  parent: Lucid.UI.Gallery.GalleryView
+  langs:
+  - csharp
+  - vb
+  name: activeItem
+  nameWithType: GalleryView.activeItem
+  fullName: Lucid.UI.Gallery.GalleryView.activeItem
+  type: Field
+  source:
+    id: activeItem
+    path: ''
+    startLine: 10041
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public GalleryItem activeItem
+    return:
+      type: Lucid.UI.Gallery.GalleryItem
+    content.vb: Public activeItem As GalleryItem
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryView.defaultItem
+  commentId: F:Lucid.UI.Gallery.GalleryView.defaultItem
+  id: defaultItem
+  parent: Lucid.UI.Gallery.GalleryView
+  langs:
+  - csharp
+  - vb
+  name: defaultItem
+  nameWithType: GalleryView.defaultItem
+  fullName: Lucid.UI.Gallery.GalleryView.defaultItem
+  type: Field
+  source:
+    id: defaultItem
+    path: ''
+    startLine: 10043
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public GalleryItem defaultItem
+    return:
+      type: Lucid.UI.Gallery.GalleryItem
+    content.vb: Public defaultItem As GalleryItem
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryView.useThumbnails
+  commentId: F:Lucid.UI.Gallery.GalleryView.useThumbnails
+  id: useThumbnails
+  parent: Lucid.UI.Gallery.GalleryView
+  langs:
+  - csharp
+  - vb
+  name: useThumbnails
+  nameWithType: GalleryView.useThumbnails
+  fullName: Lucid.UI.Gallery.GalleryView.useThumbnails
+  type: Field
+  source:
+    id: useThumbnails
+    path: ''
+    startLine: 10045
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public bool useThumbnails
+    return:
+      type: System.Boolean
+    content.vb: Public useThumbnails As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryView.galleryThumbnailsParent
+  commentId: F:Lucid.UI.Gallery.GalleryView.galleryThumbnailsParent
+  id: galleryThumbnailsParent
+  parent: Lucid.UI.Gallery.GalleryView
+  langs:
+  - csharp
+  - vb
+  name: galleryThumbnailsParent
+  nameWithType: GalleryView.galleryThumbnailsParent
+  fullName: Lucid.UI.Gallery.GalleryView.galleryThumbnailsParent
+  type: Field
+  source:
+    id: galleryThumbnailsParent
+    path: ''
+    startLine: 10046
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public RectTransform galleryThumbnailsParent
+    return:
+      type: Global.RectTransform
+    content.vb: Public galleryThumbnailsParent As RectTransform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryView.galleryThumbnails
+  commentId: F:Lucid.UI.Gallery.GalleryView.galleryThumbnails
+  id: galleryThumbnails
+  parent: Lucid.UI.Gallery.GalleryView
+  langs:
+  - csharp
+  - vb
+  name: galleryThumbnails
+  nameWithType: GalleryView.galleryThumbnails
+  fullName: Lucid.UI.Gallery.GalleryView.galleryThumbnails
+  type: Field
+  source:
+    id: galleryThumbnails
+    path: ''
+    startLine: 10048
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public List<GalleryItem> galleryThumbnails
+    return:
+      type: Global.List{Lucid.UI.Gallery.GalleryItem}
+    content.vb: Public galleryThumbnails As List(Of GalleryItem)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryView.controlsParent
+  commentId: F:Lucid.UI.Gallery.GalleryView.controlsParent
+  id: controlsParent
+  parent: Lucid.UI.Gallery.GalleryView
+  langs:
+  - csharp
+  - vb
+  name: controlsParent
+  nameWithType: GalleryView.controlsParent
+  fullName: Lucid.UI.Gallery.GalleryView.controlsParent
+  type: Field
+  source:
+    id: controlsParent
+    path: ''
+    startLine: 10053
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public RectTransform controlsParent
+    return:
+      type: Global.RectTransform
+    content.vb: Public controlsParent As RectTransform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryView.useButtonControl
+  commentId: F:Lucid.UI.Gallery.GalleryView.useButtonControl
+  id: useButtonControl
+  parent: Lucid.UI.Gallery.GalleryView
+  langs:
+  - csharp
+  - vb
+  name: useButtonControl
+  nameWithType: GalleryView.useButtonControl
+  fullName: Lucid.UI.Gallery.GalleryView.useButtonControl
+  type: Field
+  source:
+    id: useButtonControl
+    path: ''
+    startLine: 10056
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public bool useButtonControl
+    return:
+      type: System.Boolean
+    content.vb: Public useButtonControl As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryView.buttonPrefab
+  commentId: F:Lucid.UI.Gallery.GalleryView.buttonPrefab
+  id: buttonPrefab
+  parent: Lucid.UI.Gallery.GalleryView
+  langs:
+  - csharp
+  - vb
+  name: buttonPrefab
+  nameWithType: GalleryView.buttonPrefab
+  fullName: Lucid.UI.Gallery.GalleryView.buttonPrefab
+  type: Field
+  source:
+    id: buttonPrefab
+    path: ''
+    startLine: 10058
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public GameObject buttonPrefab
+    return:
+      type: Global.GameObject
+    content.vb: Public buttonPrefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryView.nextButton
+  commentId: F:Lucid.UI.Gallery.GalleryView.nextButton
+  id: nextButton
+  parent: Lucid.UI.Gallery.GalleryView
+  langs:
+  - csharp
+  - vb
+  name: nextButton
+  nameWithType: GalleryView.nextButton
+  fullName: Lucid.UI.Gallery.GalleryView.nextButton
+  type: Field
+  source:
+    id: nextButton
+    path: ''
+    startLine: 10060
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public Button nextButton
+    return:
+      type: Global.Button
+    content.vb: Public nextButton As Button
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryView.prevButton
+  commentId: F:Lucid.UI.Gallery.GalleryView.prevButton
+  id: prevButton
+  parent: Lucid.UI.Gallery.GalleryView
+  langs:
+  - csharp
+  - vb
+  name: prevButton
+  nameWithType: GalleryView.prevButton
+  fullName: Lucid.UI.Gallery.GalleryView.prevButton
+  type: Field
+  source:
+    id: prevButton
+    path: ''
+    startLine: 10062
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public Button prevButton
+    return:
+      type: Global.Button
+    content.vb: Public prevButton As Button
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryView.useSwipeControl
+  commentId: F:Lucid.UI.Gallery.GalleryView.useSwipeControl
+  id: useSwipeControl
+  parent: Lucid.UI.Gallery.GalleryView
+  langs:
+  - csharp
+  - vb
+  name: useSwipeControl
+  nameWithType: GalleryView.useSwipeControl
+  fullName: Lucid.UI.Gallery.GalleryView.useSwipeControl
+  type: Field
+  source:
+    id: useSwipeControl
+    path: ''
+    startLine: 10065
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public bool useSwipeControl
+    return:
+      type: System.Boolean
+    content.vb: Public useSwipeControl As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryView.swipeDetection
+  commentId: F:Lucid.UI.Gallery.GalleryView.swipeDetection
+  id: swipeDetection
+  parent: Lucid.UI.Gallery.GalleryView
+  langs:
+  - csharp
+  - vb
+  name: swipeDetection
+  nameWithType: GalleryView.swipeDetection
+  fullName: Lucid.UI.Gallery.GalleryView.swipeDetection
+  type: Field
+  source:
+    id: swipeDetection
+    path: ''
+    startLine: 10068
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public SwipeDetection swipeDetection
+    return:
+      type: Global.SwipeDetection
+    content.vb: Public swipeDetection As SwipeDetection
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryView.PreviousGalleryItem
+  commentId: M:Lucid.UI.Gallery.GalleryView.PreviousGalleryItem
+  id: PreviousGalleryItem
+  parent: Lucid.UI.Gallery.GalleryView
+  langs:
+  - csharp
+  - vb
+  name: PreviousGalleryItem()
+  nameWithType: GalleryView.PreviousGalleryItem()
+  fullName: Lucid.UI.Gallery.GalleryView.PreviousGalleryItem()
+  type: Method
+  source:
+    id: PreviousGalleryItem
+    path: ''
+    startLine: 10094
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public void PreviousGalleryItem()
+    content.vb: Public Sub PreviousGalleryItem
+  overload: Lucid.UI.Gallery.GalleryView.PreviousGalleryItem*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryView.NextGalleryItem
+  commentId: M:Lucid.UI.Gallery.GalleryView.NextGalleryItem
+  id: NextGalleryItem
+  parent: Lucid.UI.Gallery.GalleryView
+  langs:
+  - csharp
+  - vb
+  name: NextGalleryItem()
+  nameWithType: GalleryView.NextGalleryItem()
+  fullName: Lucid.UI.Gallery.GalleryView.NextGalleryItem()
+  type: Method
+  source:
+    id: NextGalleryItem
+    path: ''
+    startLine: 10100
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public void NextGalleryItem()
+    content.vb: Public Sub NextGalleryItem
+  overload: Lucid.UI.Gallery.GalleryView.NextGalleryItem*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryView.SetActiveGalleryItem(System.Int32,System.Boolean)
+  commentId: M:Lucid.UI.Gallery.GalleryView.SetActiveGalleryItem(System.Int32,System.Boolean)
+  id: SetActiveGalleryItem(System.Int32,System.Boolean)
+  parent: Lucid.UI.Gallery.GalleryView
+  langs:
+  - csharp
+  - vb
+  name: SetActiveGalleryItem(Int32, Boolean)
+  nameWithType: GalleryView.SetActiveGalleryItem(Int32, Boolean)
+  fullName: Lucid.UI.Gallery.GalleryView.SetActiveGalleryItem(System.Int32, System.Boolean)
+  type: Method
+  source:
+    id: SetActiveGalleryItem
+    path: ''
+    startLine: 10106
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public void SetActiveGalleryItem(int index, bool cut = false)
+    parameters:
+    - id: index
+      type: System.Int32
+    - id: cut
+      type: System.Boolean
+    content.vb: Public Sub SetActiveGalleryItem(index As Integer, cut As Boolean = False)
+  overload: Lucid.UI.Gallery.GalleryView.SetActiveGalleryItem*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryView.SetActiveGalleryItem(Lucid.UI.Gallery.GalleryItem,System.Boolean)
+  commentId: M:Lucid.UI.Gallery.GalleryView.SetActiveGalleryItem(Lucid.UI.Gallery.GalleryItem,System.Boolean)
+  id: SetActiveGalleryItem(Lucid.UI.Gallery.GalleryItem,System.Boolean)
+  parent: Lucid.UI.Gallery.GalleryView
+  langs:
+  - csharp
+  - vb
+  name: SetActiveGalleryItem(GalleryItem, Boolean)
+  nameWithType: GalleryView.SetActiveGalleryItem(GalleryItem, Boolean)
+  fullName: Lucid.UI.Gallery.GalleryView.SetActiveGalleryItem(Lucid.UI.Gallery.GalleryItem, System.Boolean)
+  type: Method
+  source:
+    id: SetActiveGalleryItem
+    path: ''
+    startLine: 10118
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public void SetActiveGalleryItem(GalleryItem item, bool cut = false)
+    parameters:
+    - id: item
+      type: Lucid.UI.Gallery.GalleryItem
+    - id: cut
+      type: System.Boolean
+    content.vb: Public Sub SetActiveGalleryItem(item As GalleryItem, cut As Boolean = False)
+  overload: Lucid.UI.Gallery.GalleryView.SetActiveGalleryItem*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryView.GetGalleryItems
+  commentId: M:Lucid.UI.Gallery.GalleryView.GetGalleryItems
+  id: GetGalleryItems
+  parent: Lucid.UI.Gallery.GalleryView
+  langs:
+  - csharp
+  - vb
+  name: GetGalleryItems()
+  nameWithType: GalleryView.GetGalleryItems()
+  fullName: Lucid.UI.Gallery.GalleryView.GetGalleryItems()
+  type: Method
+  source:
+    id: GetGalleryItems
+    path: ''
+    startLine: 10130
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public void GetGalleryItems()
+    content.vb: Public Sub GetGalleryItems
+  overload: Lucid.UI.Gallery.GalleryView.GetGalleryItems*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryView.InitialiseView
+  commentId: M:Lucid.UI.Gallery.GalleryView.InitialiseView
+  id: InitialiseView
+  parent: Lucid.UI.Gallery.GalleryView
+  langs:
+  - csharp
+  - vb
+  name: InitialiseView()
+  nameWithType: GalleryView.InitialiseView()
+  fullName: Lucid.UI.Gallery.GalleryView.InitialiseView()
+  type: Method
+  source:
+    id: InitialiseView
+    path: ''
+    startLine: 10139
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public void InitialiseView()
+    content.vb: Public Sub InitialiseView
+  overload: Lucid.UI.Gallery.GalleryView.InitialiseView*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryView.InitialiseControls
+  commentId: M:Lucid.UI.Gallery.GalleryView.InitialiseControls
+  id: InitialiseControls
+  parent: Lucid.UI.Gallery.GalleryView
+  langs:
+  - csharp
+  - vb
+  name: InitialiseControls()
+  nameWithType: GalleryView.InitialiseControls()
+  fullName: Lucid.UI.Gallery.GalleryView.InitialiseControls()
+  type: Method
+  source:
+    id: InitialiseControls
+    path: ''
+    startLine: 10177
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public void InitialiseControls()
+    content.vb: Public Sub InitialiseControls
+  overload: Lucid.UI.Gallery.GalleryView.InitialiseControls*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.UI.Gallery
+  commentId: N:Lucid.UI.Gallery
+  name: Lucid.UI.Gallery
+  nameWithType: Lucid.UI.Gallery
+  fullName: Lucid.UI.Gallery
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.UI.Gallery.GalleryView.galleryContent*
+  commentId: Overload:Lucid.UI.Gallery.GalleryView.galleryContent
+  name: galleryContent
+  nameWithType: GalleryView.galleryContent
+  fullName: Lucid.UI.Gallery.GalleryView.galleryContent
+- uid: Lucid.UI.Gallery.GalleryContent
+  commentId: T:Lucid.UI.Gallery.GalleryContent
+  parent: Lucid.UI.Gallery
+  name: GalleryContent
+  nameWithType: GalleryContent
+  fullName: Lucid.UI.Gallery.GalleryContent
+- uid: Global.RectTransform
+  isExternal: true
+  name: RectTransform
+  nameWithType: RectTransform
+  fullName: RectTransform
+- uid: Global.List{Lucid.UI.Gallery.GalleryItem}
+  commentId: '!:Global.List{Lucid.UI.Gallery.GalleryItem}'
+  definition: Global.List`1
+  name: List<GalleryItem>
+  nameWithType: List<GalleryItem>
+  fullName: List<Lucid.UI.Gallery.GalleryItem>
+  nameWithType.vb: List(Of GalleryItem)
+  fullName.vb: List(Of Lucid.UI.Gallery.GalleryItem)
+  name.vb: List(Of GalleryItem)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Lucid.UI.Gallery.GalleryItem
+    name: GalleryItem
+    nameWithType: GalleryItem
+    fullName: Lucid.UI.Gallery.GalleryItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Lucid.UI.Gallery.GalleryItem
+    name: GalleryItem
+    nameWithType: GalleryItem
+    fullName: Lucid.UI.Gallery.GalleryItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Lucid.UI.Gallery.GalleryItem
+  commentId: T:Lucid.UI.Gallery.GalleryItem
+  parent: Lucid.UI.Gallery
+  name: GalleryItem
+  nameWithType: GalleryItem
+  fullName: Lucid.UI.Gallery.GalleryItem
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.Button
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: Button
+- uid: Global.SwipeDetection
+  commentId: '!:Global.SwipeDetection'
+  isExternal: true
+  name: SwipeDetection
+  nameWithType: SwipeDetection
+  fullName: SwipeDetection
+- uid: Lucid.UI.Gallery.GalleryView.PreviousGalleryItem*
+  commentId: Overload:Lucid.UI.Gallery.GalleryView.PreviousGalleryItem
+  name: PreviousGalleryItem
+  nameWithType: GalleryView.PreviousGalleryItem
+  fullName: Lucid.UI.Gallery.GalleryView.PreviousGalleryItem
+- uid: Lucid.UI.Gallery.GalleryView.NextGalleryItem*
+  commentId: Overload:Lucid.UI.Gallery.GalleryView.NextGalleryItem
+  name: NextGalleryItem
+  nameWithType: GalleryView.NextGalleryItem
+  fullName: Lucid.UI.Gallery.GalleryView.NextGalleryItem
+- uid: Lucid.UI.Gallery.GalleryView.SetActiveGalleryItem*
+  commentId: Overload:Lucid.UI.Gallery.GalleryView.SetActiveGalleryItem
+  name: SetActiveGalleryItem
+  nameWithType: GalleryView.SetActiveGalleryItem
+  fullName: Lucid.UI.Gallery.GalleryView.SetActiveGalleryItem
+- uid: Lucid.UI.Gallery.GalleryView.GetGalleryItems*
+  commentId: Overload:Lucid.UI.Gallery.GalleryView.GetGalleryItems
+  name: GetGalleryItems
+  nameWithType: GalleryView.GetGalleryItems
+  fullName: Lucid.UI.Gallery.GalleryView.GetGalleryItems
+- uid: Lucid.UI.Gallery.GalleryView.InitialiseView*
+  commentId: Overload:Lucid.UI.Gallery.GalleryView.InitialiseView
+  name: InitialiseView
+  nameWithType: GalleryView.InitialiseView
+  fullName: Lucid.UI.Gallery.GalleryView.InitialiseView
+- uid: Lucid.UI.Gallery.GalleryView.InitialiseControls*
+  commentId: Overload:Lucid.UI.Gallery.GalleryView.InitialiseControls
+  name: InitialiseControls
+  nameWithType: GalleryView.InitialiseControls
+  fullName: Lucid.UI.Gallery.GalleryView.InitialiseControls

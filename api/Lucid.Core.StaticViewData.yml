@@ -1,0 +1,257 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Core.StaticViewData
+  commentId: T:Lucid.Core.StaticViewData
+  id: StaticViewData
+  parent: Lucid.Core
+  children:
+  - Lucid.Core.StaticViewData.#ctor
+  - Lucid.Core.StaticViewData.hasInvisibleButton
+  - Lucid.Core.StaticViewData.isStateButton
+  - Lucid.Core.StaticViewData.mainImage
+  - Lucid.Core.StaticViewData.mainImageColor
+  - Lucid.Core.StaticViewData.stateName
+  langs:
+  - csharp
+  - vb
+  name: StaticViewData
+  nameWithType: StaticViewData
+  fullName: Lucid.Core.StaticViewData
+  type: Class
+  source:
+    id: StaticViewData
+    path: ''
+    startLine: 5775
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class StaticViewData
+    content.vb: >-
+      <Serializable>
+
+      Public Class StaticViewData
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Core.StaticViewData.#ctor
+  commentId: M:Lucid.Core.StaticViewData.#ctor
+  id: '#ctor'
+  parent: Lucid.Core.StaticViewData
+  langs:
+  - csharp
+  - vb
+  name: StaticViewData()
+  nameWithType: StaticViewData.StaticViewData()
+  fullName: Lucid.Core.StaticViewData.StaticViewData()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 5778
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public StaticViewData()
+    content.vb: Public Sub New
+  overload: Lucid.Core.StaticViewData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Core.StaticViewData.mainImage
+  commentId: F:Lucid.Core.StaticViewData.mainImage
+  id: mainImage
+  parent: Lucid.Core.StaticViewData
+  langs:
+  - csharp
+  - vb
+  name: mainImage
+  nameWithType: StaticViewData.mainImage
+  fullName: Lucid.Core.StaticViewData.mainImage
+  type: Field
+  source:
+    id: mainImage
+    path: ''
+    startLine: 5786
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public Sprite mainImage
+    return:
+      type: Global.Sprite
+    content.vb: Public mainImage As Sprite
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Core.StaticViewData.mainImageColor
+  commentId: F:Lucid.Core.StaticViewData.mainImageColor
+  id: mainImageColor
+  parent: Lucid.Core.StaticViewData
+  langs:
+  - csharp
+  - vb
+  name: mainImageColor
+  nameWithType: StaticViewData.mainImageColor
+  fullName: Lucid.Core.StaticViewData.mainImageColor
+  type: Field
+  source:
+    id: mainImageColor
+    path: ''
+    startLine: 5788
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public Color mainImageColor
+    return:
+      type: Global.Color
+    content.vb: Public mainImageColor As Color
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Core.StaticViewData.hasInvisibleButton
+  commentId: F:Lucid.Core.StaticViewData.hasInvisibleButton
+  id: hasInvisibleButton
+  parent: Lucid.Core.StaticViewData
+  langs:
+  - csharp
+  - vb
+  name: hasInvisibleButton
+  nameWithType: StaticViewData.hasInvisibleButton
+  fullName: Lucid.Core.StaticViewData.hasInvisibleButton
+  type: Field
+  source:
+    id: hasInvisibleButton
+    path: ''
+    startLine: 5791
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public bool hasInvisibleButton
+    return:
+      type: System.Boolean
+    content.vb: Public hasInvisibleButton As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Core.StaticViewData.isStateButton
+  commentId: F:Lucid.Core.StaticViewData.isStateButton
+  id: isStateButton
+  parent: Lucid.Core.StaticViewData
+  langs:
+  - csharp
+  - vb
+  name: isStateButton
+  nameWithType: StaticViewData.isStateButton
+  fullName: Lucid.Core.StaticViewData.isStateButton
+  type: Field
+  source:
+    id: isStateButton
+    path: ''
+    startLine: 5794
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public bool isStateButton
+    return:
+      type: System.Boolean
+    content.vb: Public isStateButton As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Core.StaticViewData.stateName
+  commentId: F:Lucid.Core.StaticViewData.stateName
+  id: stateName
+  parent: Lucid.Core.StaticViewData
+  langs:
+  - csharp
+  - vb
+  name: stateName
+  nameWithType: StaticViewData.stateName
+  fullName: Lucid.Core.StaticViewData.stateName
+  type: Field
+  source:
+    id: stateName
+    path: ''
+    startLine: 5798
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public string stateName
+    return:
+      type: System.String
+    content.vb: Public stateName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Core
+  commentId: N:Lucid.Core
+  name: Lucid.Core
+  nameWithType: Lucid.Core
+  fullName: Lucid.Core
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.Core.StaticViewData.#ctor*
+  commentId: Overload:Lucid.Core.StaticViewData.#ctor
+  name: StaticViewData
+  nameWithType: StaticViewData.StaticViewData
+  fullName: Lucid.Core.StaticViewData.StaticViewData
+- uid: Global.Sprite
+  isExternal: true
+  name: Sprite
+  nameWithType: Sprite
+  fullName: Sprite
+- uid: Global.Color
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: Color
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,256 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Toolkit3D.TransformRandomizer
+  commentId: T:Lucid.Toolkit3D.TransformRandomizer
+  id: TransformRandomizer
+  parent: Lucid.Toolkit3D
+  children:
+  - Lucid.Toolkit3D.TransformRandomizer.maxRotation
+  - Lucid.Toolkit3D.TransformRandomizer.maxScale
+  - Lucid.Toolkit3D.TransformRandomizer.minRotation
+  - Lucid.Toolkit3D.TransformRandomizer.minScale
+  - Lucid.Toolkit3D.TransformRandomizer.RandomizeTransforms
+  - Lucid.Toolkit3D.TransformRandomizer.transforms
+  langs:
+  - csharp
+  - vb
+  name: TransformRandomizer
+  nameWithType: TransformRandomizer
+  fullName: Lucid.Toolkit3D.TransformRandomizer
+  type: Class
+  source:
+    id: TransformRandomizer
+    path: ''
+    startLine: 19263
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: 'public class TransformRandomizer : MonoBehaviour'
+    content.vb: >-
+      Public Class TransformRandomizer
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Toolkit3D.TransformRandomizer.transforms
+  commentId: F:Lucid.Toolkit3D.TransformRandomizer.transforms
+  id: transforms
+  parent: Lucid.Toolkit3D.TransformRandomizer
+  langs:
+  - csharp
+  - vb
+  name: transforms
+  nameWithType: TransformRandomizer.transforms
+  fullName: Lucid.Toolkit3D.TransformRandomizer.transforms
+  type: Field
+  source:
+    id: transforms
+    path: ''
+    startLine: 19265
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public Transform[] transforms
+    return:
+      type: Global.Transform[]
+    content.vb: Public transforms As Transform()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.TransformRandomizer.minRotation
+  commentId: F:Lucid.Toolkit3D.TransformRandomizer.minRotation
+  id: minRotation
+  parent: Lucid.Toolkit3D.TransformRandomizer
+  langs:
+  - csharp
+  - vb
+  name: minRotation
+  nameWithType: TransformRandomizer.minRotation
+  fullName: Lucid.Toolkit3D.TransformRandomizer.minRotation
+  type: Field
+  source:
+    id: minRotation
+    path: ''
+    startLine: 19269
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public Vector3 minRotation
+    return:
+      type: Global.Vector3
+    content.vb: Public minRotation As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.TransformRandomizer.maxRotation
+  commentId: F:Lucid.Toolkit3D.TransformRandomizer.maxRotation
+  id: maxRotation
+  parent: Lucid.Toolkit3D.TransformRandomizer
+  langs:
+  - csharp
+  - vb
+  name: maxRotation
+  nameWithType: TransformRandomizer.maxRotation
+  fullName: Lucid.Toolkit3D.TransformRandomizer.maxRotation
+  type: Field
+  source:
+    id: maxRotation
+    path: ''
+    startLine: 19271
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public Vector3 maxRotation
+    return:
+      type: Global.Vector3
+    content.vb: Public maxRotation As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.TransformRandomizer.minScale
+  commentId: F:Lucid.Toolkit3D.TransformRandomizer.minScale
+  id: minScale
+  parent: Lucid.Toolkit3D.TransformRandomizer
+  langs:
+  - csharp
+  - vb
+  name: minScale
+  nameWithType: TransformRandomizer.minScale
+  fullName: Lucid.Toolkit3D.TransformRandomizer.minScale
+  type: Field
+  source:
+    id: minScale
+    path: ''
+    startLine: 19273
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public Vector3 minScale
+    return:
+      type: Global.Vector3
+    content.vb: Public minScale As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.TransformRandomizer.maxScale
+  commentId: F:Lucid.Toolkit3D.TransformRandomizer.maxScale
+  id: maxScale
+  parent: Lucid.Toolkit3D.TransformRandomizer
+  langs:
+  - csharp
+  - vb
+  name: maxScale
+  nameWithType: TransformRandomizer.maxScale
+  fullName: Lucid.Toolkit3D.TransformRandomizer.maxScale
+  type: Field
+  source:
+    id: maxScale
+    path: ''
+    startLine: 19275
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public Vector3 maxScale
+    return:
+      type: Global.Vector3
+    content.vb: Public maxScale As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.TransformRandomizer.RandomizeTransforms
+  commentId: M:Lucid.Toolkit3D.TransformRandomizer.RandomizeTransforms
+  id: RandomizeTransforms
+  parent: Lucid.Toolkit3D.TransformRandomizer
+  langs:
+  - csharp
+  - vb
+  name: RandomizeTransforms()
+  nameWithType: TransformRandomizer.RandomizeTransforms()
+  fullName: Lucid.Toolkit3D.TransformRandomizer.RandomizeTransforms()
+  type: Method
+  source:
+    id: RandomizeTransforms
+    path: ''
+    startLine: 19277
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public void RandomizeTransforms()
+    content.vb: Public Sub RandomizeTransforms
+  overload: Lucid.Toolkit3D.TransformRandomizer.RandomizeTransforms*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Toolkit3D
+  commentId: N:Lucid.Toolkit3D
+  name: Lucid.Toolkit3D
+  nameWithType: Lucid.Toolkit3D
+  fullName: Lucid.Toolkit3D
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Transform[]
+  isExternal: true
+  name: Transform[]
+  nameWithType: Transform[]
+  fullName: Transform[]
+  nameWithType.vb: Transform()
+  fullName.vb: Transform()
+  name.vb: Transform()
+  spec.csharp:
+  - uid: Global.Transform
+    name: Transform
+    nameWithType: Transform
+    fullName: Transform
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.Transform
+    name: Transform
+    nameWithType: Transform
+    fullName: Transform
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: Lucid.Toolkit3D.TransformRandomizer.RandomizeTransforms*
+  commentId: Overload:Lucid.Toolkit3D.TransformRandomizer.RandomizeTransforms
+  name: RandomizeTransforms
+  nameWithType: TransformRandomizer.RandomizeTransforms
+  fullName: Lucid.Toolkit3D.TransformRandomizer.RandomizeTransforms

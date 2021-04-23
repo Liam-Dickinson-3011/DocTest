@@ -1,0 +1,228 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Toolkit2D.ToggleGroupEvents
+  commentId: T:Lucid.Toolkit2D.ToggleGroupEvents
+  id: ToggleGroupEvents
+  parent: Lucid.Toolkit2D
+  children:
+  - Lucid.Toolkit2D.ToggleGroupEvents.CheckToggles
+  - Lucid.Toolkit2D.ToggleGroupEvents.onAllSelected
+  - Lucid.Toolkit2D.ToggleGroupEvents.onNoneSelected
+  - Lucid.Toolkit2D.ToggleGroupEvents.onOneSelected
+  - Lucid.Toolkit2D.ToggleGroupEvents.toggles
+  langs:
+  - csharp
+  - vb
+  name: ToggleGroupEvents
+  nameWithType: ToggleGroupEvents
+  fullName: Lucid.Toolkit2D.ToggleGroupEvents
+  type: Class
+  source:
+    id: ToggleGroupEvents
+    path: ''
+    startLine: 20444
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: 'public class ToggleGroupEvents : MonoBehaviour'
+    content.vb: >-
+      Public Class ToggleGroupEvents
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Toolkit2D.ToggleGroupEvents.toggles
+  commentId: F:Lucid.Toolkit2D.ToggleGroupEvents.toggles
+  id: toggles
+  parent: Lucid.Toolkit2D.ToggleGroupEvents
+  langs:
+  - csharp
+  - vb
+  name: toggles
+  nameWithType: ToggleGroupEvents.toggles
+  fullName: Lucid.Toolkit2D.ToggleGroupEvents.toggles
+  type: Field
+  source:
+    id: toggles
+    path: ''
+    startLine: 20446
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public Toggle[] toggles
+    return:
+      type: Global.Toggle[]
+    content.vb: Public toggles As Toggle()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.ToggleGroupEvents.onNoneSelected
+  commentId: F:Lucid.Toolkit2D.ToggleGroupEvents.onNoneSelected
+  id: onNoneSelected
+  parent: Lucid.Toolkit2D.ToggleGroupEvents
+  langs:
+  - csharp
+  - vb
+  name: onNoneSelected
+  nameWithType: ToggleGroupEvents.onNoneSelected
+  fullName: Lucid.Toolkit2D.ToggleGroupEvents.onNoneSelected
+  type: Field
+  source:
+    id: onNoneSelected
+    path: ''
+    startLine: 20449
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public UnityEvent onNoneSelected
+    return:
+      type: Global.UnityEvent
+    content.vb: Public onNoneSelected As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.ToggleGroupEvents.onOneSelected
+  commentId: F:Lucid.Toolkit2D.ToggleGroupEvents.onOneSelected
+  id: onOneSelected
+  parent: Lucid.Toolkit2D.ToggleGroupEvents
+  langs:
+  - csharp
+  - vb
+  name: onOneSelected
+  nameWithType: ToggleGroupEvents.onOneSelected
+  fullName: Lucid.Toolkit2D.ToggleGroupEvents.onOneSelected
+  type: Field
+  source:
+    id: onOneSelected
+    path: ''
+    startLine: 20451
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public UnityEvent onOneSelected
+    return:
+      type: Global.UnityEvent
+    content.vb: Public onOneSelected As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.ToggleGroupEvents.onAllSelected
+  commentId: F:Lucid.Toolkit2D.ToggleGroupEvents.onAllSelected
+  id: onAllSelected
+  parent: Lucid.Toolkit2D.ToggleGroupEvents
+  langs:
+  - csharp
+  - vb
+  name: onAllSelected
+  nameWithType: ToggleGroupEvents.onAllSelected
+  fullName: Lucid.Toolkit2D.ToggleGroupEvents.onAllSelected
+  type: Field
+  source:
+    id: onAllSelected
+    path: ''
+    startLine: 20453
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public UnityEvent onAllSelected
+    return:
+      type: Global.UnityEvent
+    content.vb: Public onAllSelected As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.ToggleGroupEvents.CheckToggles
+  commentId: M:Lucid.Toolkit2D.ToggleGroupEvents.CheckToggles
+  id: CheckToggles
+  parent: Lucid.Toolkit2D.ToggleGroupEvents
+  langs:
+  - csharp
+  - vb
+  name: CheckToggles()
+  nameWithType: ToggleGroupEvents.CheckToggles()
+  fullName: Lucid.Toolkit2D.ToggleGroupEvents.CheckToggles()
+  type: Method
+  source:
+    id: CheckToggles
+    path: ''
+    startLine: 20464
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public void CheckToggles()
+    content.vb: Public Sub CheckToggles
+  overload: Lucid.Toolkit2D.ToggleGroupEvents.CheckToggles*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Toolkit2D
+  commentId: N:Lucid.Toolkit2D
+  name: Lucid.Toolkit2D
+  nameWithType: Lucid.Toolkit2D
+  fullName: Lucid.Toolkit2D
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Toggle[]
+  isExternal: true
+  name: Toggle[]
+  nameWithType: Toggle[]
+  fullName: Toggle[]
+  nameWithType.vb: Toggle()
+  fullName.vb: Toggle()
+  name.vb: Toggle()
+  spec.csharp:
+  - uid: Global.Toggle
+    name: Toggle
+    nameWithType: Toggle
+    fullName: Toggle
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.Toggle
+    name: Toggle
+    nameWithType: Toggle
+    fullName: Toggle
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.UnityEvent
+  isExternal: true
+  name: UnityEvent
+  nameWithType: UnityEvent
+  fullName: UnityEvent
+- uid: Lucid.Toolkit2D.ToggleGroupEvents.CheckToggles*
+  commentId: Overload:Lucid.Toolkit2D.ToggleGroupEvents.CheckToggles
+  name: CheckToggles
+  nameWithType: ToggleGroupEvents.CheckToggles
+  fullName: Lucid.Toolkit2D.ToggleGroupEvents.CheckToggles

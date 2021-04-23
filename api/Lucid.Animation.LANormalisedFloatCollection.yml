@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Animation.LANormalisedFloatCollection
+  commentId: T:Lucid.Animation.LANormalisedFloatCollection
+  id: LANormalisedFloatCollection
+  parent: Lucid.Animation
+  children:
+  - Lucid.Animation.LANormalisedFloatCollection.#ctor
+  - Lucid.Animation.LANormalisedFloatCollection.#ctor(Lucid.Animation.LANormalisedFloatCollection)
+  - Lucid.Animation.LANormalisedFloatCollection.OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  langs:
+  - csharp
+  - vb
+  name: LANormalisedFloatCollection
+  nameWithType: LANormalisedFloatCollection
+  fullName: Lucid.Animation.LANormalisedFloatCollection
+  type: Class
+  source:
+    id: LANormalisedFloatCollection
+    path: ''
+    startLine: 24186
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class LANormalisedFloatCollection : ObservableCollection<LANormalisedFloat>, INotifyCollectionChanged, INotifyPropertyChanged
+    content.vb: >-
+      <Serializable>
+
+      Public Class LANormalisedFloatCollection
+          Inherits ObservableCollection(Of LANormalisedFloat)
+          Implements INotifyCollectionChanged, INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Animation.LANormalisedFloatCollection.#ctor
+  commentId: M:Lucid.Animation.LANormalisedFloatCollection.#ctor
+  id: '#ctor'
+  parent: Lucid.Animation.LANormalisedFloatCollection
+  langs:
+  - csharp
+  - vb
+  name: LANormalisedFloatCollection()
+  nameWithType: LANormalisedFloatCollection.LANormalisedFloatCollection()
+  fullName: Lucid.Animation.LANormalisedFloatCollection.LANormalisedFloatCollection()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 24189
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LANormalisedFloatCollection()
+    content.vb: Public Sub New
+  overload: Lucid.Animation.LANormalisedFloatCollection.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LANormalisedFloatCollection.#ctor(Lucid.Animation.LANormalisedFloatCollection)
+  commentId: M:Lucid.Animation.LANormalisedFloatCollection.#ctor(Lucid.Animation.LANormalisedFloatCollection)
+  id: '#ctor(Lucid.Animation.LANormalisedFloatCollection)'
+  parent: Lucid.Animation.LANormalisedFloatCollection
+  langs:
+  - csharp
+  - vb
+  name: LANormalisedFloatCollection(LANormalisedFloatCollection)
+  nameWithType: LANormalisedFloatCollection.LANormalisedFloatCollection(LANormalisedFloatCollection)
+  fullName: Lucid.Animation.LANormalisedFloatCollection.LANormalisedFloatCollection(Lucid.Animation.LANormalisedFloatCollection)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 24190
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LANormalisedFloatCollection(LANormalisedFloatCollection copy)
+    parameters:
+    - id: copy
+      type: Lucid.Animation.LANormalisedFloatCollection
+    content.vb: Public Sub New(copy As LANormalisedFloatCollection)
+  overload: Lucid.Animation.LANormalisedFloatCollection.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LANormalisedFloatCollection.OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  commentId: M:Lucid.Animation.LANormalisedFloatCollection.OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  id: OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  parent: Lucid.Animation.LANormalisedFloatCollection
+  langs:
+  - csharp
+  - vb
+  name: OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  nameWithType: LANormalisedFloatCollection.OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  fullName: Lucid.Animation.LANormalisedFloatCollection.OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  type: Method
+  source:
+    id: OnCollectionChanged
+    path: ''
+    startLine: 24198
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: protected override void OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+    parameters:
+    - id: e
+      type: Global.NotifyCollectionChangedEventArgs
+    content.vb: Protected Overrides Sub OnCollectionChanged(e As NotifyCollectionChangedEventArgs)
+  overload: Lucid.Animation.LANormalisedFloatCollection.OnCollectionChanged*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Lucid.Animation
+  commentId: N:Lucid.Animation
+  name: Lucid.Animation
+  nameWithType: Lucid.Animation
+  fullName: Lucid.Animation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.Animation.LANormalisedFloatCollection.#ctor*
+  commentId: Overload:Lucid.Animation.LANormalisedFloatCollection.#ctor
+  name: LANormalisedFloatCollection
+  nameWithType: LANormalisedFloatCollection.LANormalisedFloatCollection
+  fullName: Lucid.Animation.LANormalisedFloatCollection.LANormalisedFloatCollection
+- uid: Lucid.Animation.LANormalisedFloatCollection
+  commentId: T:Lucid.Animation.LANormalisedFloatCollection
+  parent: Lucid.Animation
+  name: LANormalisedFloatCollection
+  nameWithType: LANormalisedFloatCollection
+  fullName: Lucid.Animation.LANormalisedFloatCollection
+- uid: Lucid.Animation.LANormalisedFloatCollection.OnCollectionChanged*
+  commentId: Overload:Lucid.Animation.LANormalisedFloatCollection.OnCollectionChanged
+  name: OnCollectionChanged
+  nameWithType: LANormalisedFloatCollection.OnCollectionChanged
+  fullName: Lucid.Animation.LANormalisedFloatCollection.OnCollectionChanged
+- uid: Global.NotifyCollectionChangedEventArgs
+  isExternal: true
+  name: NotifyCollectionChangedEventArgs
+  nameWithType: NotifyCollectionChangedEventArgs
+  fullName: NotifyCollectionChangedEventArgs

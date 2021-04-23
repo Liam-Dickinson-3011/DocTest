@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.DataStorage.DataStoreFloatRangeFilter.EqualityType
+  commentId: T:Lucid.DataStorage.DataStoreFloatRangeFilter.EqualityType
+  id: DataStoreFloatRangeFilter.EqualityType
+  parent: Lucid.DataStorage
+  children:
+  - Lucid.DataStorage.DataStoreFloatRangeFilter.EqualityType.InRange
+  - Lucid.DataStorage.DataStoreFloatRangeFilter.EqualityType.NotInRange
+  langs:
+  - csharp
+  - vb
+  name: DataStoreFloatRangeFilter.EqualityType
+  nameWithType: DataStoreFloatRangeFilter.EqualityType
+  fullName: Lucid.DataStorage.DataStoreFloatRangeFilter.EqualityType
+  type: Enum
+  source:
+    id: EqualityType
+    path: ''
+    startLine: 15052
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public enum EqualityType
+    content.vb: Public Enum EqualityType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Lucid.DataStorage.DataStoreFloatRangeFilter.EqualityType.InRange
+  commentId: F:Lucid.DataStorage.DataStoreFloatRangeFilter.EqualityType.InRange
+  id: InRange
+  parent: Lucid.DataStorage.DataStoreFloatRangeFilter.EqualityType
+  langs:
+  - csharp
+  - vb
+  name: InRange
+  nameWithType: DataStoreFloatRangeFilter.EqualityType.InRange
+  fullName: Lucid.DataStorage.DataStoreFloatRangeFilter.EqualityType.InRange
+  type: Field
+  source:
+    id: InRange
+    path: ''
+    startLine: 15054
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: InRange = 0
+    return:
+      type: Lucid.DataStorage.DataStoreFloatRangeFilter.EqualityType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.DataStorage.DataStoreFloatRangeFilter.EqualityType.NotInRange
+  commentId: F:Lucid.DataStorage.DataStoreFloatRangeFilter.EqualityType.NotInRange
+  id: NotInRange
+  parent: Lucid.DataStorage.DataStoreFloatRangeFilter.EqualityType
+  langs:
+  - csharp
+  - vb
+  name: NotInRange
+  nameWithType: DataStoreFloatRangeFilter.EqualityType.NotInRange
+  fullName: Lucid.DataStorage.DataStoreFloatRangeFilter.EqualityType.NotInRange
+  type: Field
+  source:
+    id: NotInRange
+    path: ''
+    startLine: 15055
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: NotInRange = 1
+    return:
+      type: Lucid.DataStorage.DataStoreFloatRangeFilter.EqualityType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Lucid.DataStorage
+  commentId: N:Lucid.DataStorage
+  name: Lucid.DataStorage
+  nameWithType: Lucid.DataStorage
+  fullName: Lucid.DataStorage
+- uid: Lucid.DataStorage.DataStoreFloatRangeFilter.EqualityType
+  commentId: T:Lucid.DataStorage.DataStoreFloatRangeFilter.EqualityType
+  parent: Lucid.DataStorage
+  name: DataStoreFloatRangeFilter.EqualityType
+  nameWithType: DataStoreFloatRangeFilter.EqualityType
+  fullName: Lucid.DataStorage.DataStoreFloatRangeFilter.EqualityType

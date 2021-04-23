@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid
+  commentId: N:Lucid
+  id: Lucid
+  children:
+  - Lucid.BaseEditorWindow
+  - Lucid.LO_360TouchCam
+  langs:
+  - csharp
+  - vb
+  name: Lucid
+  nameWithType: Lucid
+  fullName: Lucid
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Lucid.BaseEditorWindow
+  commentId: T:Lucid.BaseEditorWindow
+  parent: Lucid
+  name: BaseEditorWindow
+  nameWithType: BaseEditorWindow
+  fullName: Lucid.BaseEditorWindow
+- uid: Lucid.LO_360TouchCam
+  commentId: T:Lucid.LO_360TouchCam
+  name: LO_360TouchCam
+  nameWithType: LO_360TouchCam
+  fullName: Lucid.LO_360TouchCam
+- uid: Lucid
+  commentId: N:Lucid
+  name: Lucid
+  nameWithType: Lucid
+  fullName: Lucid

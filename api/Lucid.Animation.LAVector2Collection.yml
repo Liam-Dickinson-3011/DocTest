@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Animation.LAVector2Collection
+  commentId: T:Lucid.Animation.LAVector2Collection
+  id: LAVector2Collection
+  parent: Lucid.Animation
+  children:
+  - Lucid.Animation.LAVector2Collection.#ctor
+  - Lucid.Animation.LAVector2Collection.#ctor(Lucid.Animation.LAVector2Collection)
+  - Lucid.Animation.LAVector2Collection.OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  langs:
+  - csharp
+  - vb
+  name: LAVector2Collection
+  nameWithType: LAVector2Collection
+  fullName: Lucid.Animation.LAVector2Collection
+  type: Class
+  source:
+    id: LAVector2Collection
+    path: ''
+    startLine: 24231
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class LAVector2Collection : ObservableCollection<LAVector2>, INotifyCollectionChanged, INotifyPropertyChanged
+    content.vb: >-
+      <Serializable>
+
+      Public Class LAVector2Collection
+          Inherits ObservableCollection(Of LAVector2)
+          Implements INotifyCollectionChanged, INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Animation.LAVector2Collection.#ctor
+  commentId: M:Lucid.Animation.LAVector2Collection.#ctor
+  id: '#ctor'
+  parent: Lucid.Animation.LAVector2Collection
+  langs:
+  - csharp
+  - vb
+  name: LAVector2Collection()
+  nameWithType: LAVector2Collection.LAVector2Collection()
+  fullName: Lucid.Animation.LAVector2Collection.LAVector2Collection()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 24234
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAVector2Collection()
+    content.vb: Public Sub New
+  overload: Lucid.Animation.LAVector2Collection.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAVector2Collection.#ctor(Lucid.Animation.LAVector2Collection)
+  commentId: M:Lucid.Animation.LAVector2Collection.#ctor(Lucid.Animation.LAVector2Collection)
+  id: '#ctor(Lucid.Animation.LAVector2Collection)'
+  parent: Lucid.Animation.LAVector2Collection
+  langs:
+  - csharp
+  - vb
+  name: LAVector2Collection(LAVector2Collection)
+  nameWithType: LAVector2Collection.LAVector2Collection(LAVector2Collection)
+  fullName: Lucid.Animation.LAVector2Collection.LAVector2Collection(Lucid.Animation.LAVector2Collection)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 24235
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAVector2Collection(LAVector2Collection copy)
+    parameters:
+    - id: copy
+      type: Lucid.Animation.LAVector2Collection
+    content.vb: Public Sub New(copy As LAVector2Collection)
+  overload: Lucid.Animation.LAVector2Collection.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAVector2Collection.OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  commentId: M:Lucid.Animation.LAVector2Collection.OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  id: OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  parent: Lucid.Animation.LAVector2Collection
+  langs:
+  - csharp
+  - vb
+  name: OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  nameWithType: LAVector2Collection.OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  fullName: Lucid.Animation.LAVector2Collection.OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  type: Method
+  source:
+    id: OnCollectionChanged
+    path: ''
+    startLine: 24243
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: protected override void OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+    parameters:
+    - id: e
+      type: Global.NotifyCollectionChangedEventArgs
+    content.vb: Protected Overrides Sub OnCollectionChanged(e As NotifyCollectionChangedEventArgs)
+  overload: Lucid.Animation.LAVector2Collection.OnCollectionChanged*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Lucid.Animation
+  commentId: N:Lucid.Animation
+  name: Lucid.Animation
+  nameWithType: Lucid.Animation
+  fullName: Lucid.Animation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.Animation.LAVector2Collection.#ctor*
+  commentId: Overload:Lucid.Animation.LAVector2Collection.#ctor
+  name: LAVector2Collection
+  nameWithType: LAVector2Collection.LAVector2Collection
+  fullName: Lucid.Animation.LAVector2Collection.LAVector2Collection
+- uid: Lucid.Animation.LAVector2Collection
+  commentId: T:Lucid.Animation.LAVector2Collection
+  parent: Lucid.Animation
+  name: LAVector2Collection
+  nameWithType: LAVector2Collection
+  fullName: Lucid.Animation.LAVector2Collection
+- uid: Lucid.Animation.LAVector2Collection.OnCollectionChanged*
+  commentId: Overload:Lucid.Animation.LAVector2Collection.OnCollectionChanged
+  name: OnCollectionChanged
+  nameWithType: LAVector2Collection.OnCollectionChanged
+  fullName: Lucid.Animation.LAVector2Collection.OnCollectionChanged
+- uid: Global.NotifyCollectionChangedEventArgs
+  isExternal: true
+  name: NotifyCollectionChangedEventArgs
+  nameWithType: NotifyCollectionChangedEventArgs
+  fullName: NotifyCollectionChangedEventArgs

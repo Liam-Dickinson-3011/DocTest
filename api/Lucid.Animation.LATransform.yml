@@ -1,0 +1,620 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Animation.LATransform
+  commentId: T:Lucid.Animation.LATransform
+  id: LATransform
+  parent: Lucid.Animation
+  children:
+  - Lucid.Animation.LATransform.#ctor
+  - Lucid.Animation.LATransform.#ctor(Lucid.Animation.LATransform)
+  - Lucid.Animation.LATransform.AddToSequence(Sequence,System.Boolean,System.Boolean)
+  - Lucid.Animation.LATransform.CutToValues
+  - Lucid.Animation.LATransform.doPos
+  - Lucid.Animation.LATransform.doRot
+  - Lucid.Animation.LATransform.doScale
+  - Lucid.Animation.LATransform.GetSequenceDuration
+  - Lucid.Animation.LATransform.target
+  - Lucid.Animation.LATransform.targetEulerRot
+  - Lucid.Animation.LATransform.targetPosition
+  - Lucid.Animation.LATransform.targetScale
+  langs:
+  - csharp
+  - vb
+  name: LATransform
+  nameWithType: LATransform
+  fullName: Lucid.Animation.LATransform
+  type: Class
+  source:
+    id: LATransform
+    path: ''
+    startLine: 22270
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class LATransform : LAComponent
+    content.vb: >-
+      <Serializable>
+
+      Public Class LATransform
+          Inherits LAComponent
+  inheritance:
+  - System.Object
+  - Lucid.Animation.LAComponent
+  inheritedMembers:
+  - Lucid.Animation.LAComponent.onSequenceComplete
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Animation.LATransform.doPos
+  commentId: F:Lucid.Animation.LATransform.doPos
+  id: doPos
+  parent: Lucid.Animation.LATransform
+  langs:
+  - csharp
+  - vb
+  name: doPos
+  nameWithType: LATransform.doPos
+  fullName: Lucid.Animation.LATransform.doPos
+  type: Field
+  source:
+    id: doPos
+    path: ''
+    startLine: 22277
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public bool doPos
+    return:
+      type: System.Boolean
+    content.vb: Public doPos As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LATransform.doRot
+  commentId: F:Lucid.Animation.LATransform.doRot
+  id: doRot
+  parent: Lucid.Animation.LATransform
+  langs:
+  - csharp
+  - vb
+  name: doRot
+  nameWithType: LATransform.doRot
+  fullName: Lucid.Animation.LATransform.doRot
+  type: Field
+  source:
+    id: doRot
+    path: ''
+    startLine: 22281
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public bool doRot
+    return:
+      type: System.Boolean
+    content.vb: Public doRot As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LATransform.doScale
+  commentId: F:Lucid.Animation.LATransform.doScale
+  id: doScale
+  parent: Lucid.Animation.LATransform
+  langs:
+  - csharp
+  - vb
+  name: doScale
+  nameWithType: LATransform.doScale
+  fullName: Lucid.Animation.LATransform.doScale
+  type: Field
+  source:
+    id: doScale
+    path: ''
+    startLine: 22285
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public bool doScale
+    return:
+      type: System.Boolean
+    content.vb: Public doScale As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LATransform.target
+  commentId: F:Lucid.Animation.LATransform.target
+  id: target
+  parent: Lucid.Animation.LATransform
+  langs:
+  - csharp
+  - vb
+  name: target
+  nameWithType: LATransform.target
+  fullName: Lucid.Animation.LATransform.target
+  type: Field
+  source:
+    id: target
+    path: ''
+    startLine: 22290
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public Transform target
+    return:
+      type: Global.Transform
+    content.vb: Public target As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LATransform.targetPosition
+  commentId: F:Lucid.Animation.LATransform.targetPosition
+  id: targetPosition
+  parent: Lucid.Animation.LATransform
+  langs:
+  - csharp
+  - vb
+  name: targetPosition
+  nameWithType: LATransform.targetPosition
+  fullName: Lucid.Animation.LATransform.targetPosition
+  type: Field
+  source:
+    id: targetPosition
+    path: ''
+    startLine: 22296
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAVector3 targetPosition
+    return:
+      type: Lucid.Animation.LAVector3
+    content.vb: Public targetPosition As LAVector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LATransform.targetEulerRot
+  commentId: F:Lucid.Animation.LATransform.targetEulerRot
+  id: targetEulerRot
+  parent: Lucid.Animation.LATransform
+  langs:
+  - csharp
+  - vb
+  name: targetEulerRot
+  nameWithType: LATransform.targetEulerRot
+  fullName: Lucid.Animation.LATransform.targetEulerRot
+  type: Field
+  source:
+    id: targetEulerRot
+    path: ''
+    startLine: 22302
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAEulerAngles targetEulerRot
+    return:
+      type: Lucid.Animation.LAEulerAngles
+    content.vb: Public targetEulerRot As LAEulerAngles
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LATransform.targetScale
+  commentId: F:Lucid.Animation.LATransform.targetScale
+  id: targetScale
+  parent: Lucid.Animation.LATransform
+  langs:
+  - csharp
+  - vb
+  name: targetScale
+  nameWithType: LATransform.targetScale
+  fullName: Lucid.Animation.LATransform.targetScale
+  type: Field
+  source:
+    id: targetScale
+    path: ''
+    startLine: 22308
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAVector3 targetScale
+    return:
+      type: Lucid.Animation.LAVector3
+    content.vb: Public targetScale As LAVector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LATransform.#ctor
+  commentId: M:Lucid.Animation.LATransform.#ctor
+  id: '#ctor'
+  parent: Lucid.Animation.LATransform
+  langs:
+  - csharp
+  - vb
+  name: LATransform()
+  nameWithType: LATransform.LATransform()
+  fullName: Lucid.Animation.LATransform.LATransform()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 22310
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LATransform()
+    content.vb: Public Sub New
+  overload: Lucid.Animation.LATransform.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LATransform.#ctor(Lucid.Animation.LATransform)
+  commentId: M:Lucid.Animation.LATransform.#ctor(Lucid.Animation.LATransform)
+  id: '#ctor(Lucid.Animation.LATransform)'
+  parent: Lucid.Animation.LATransform
+  langs:
+  - csharp
+  - vb
+  name: LATransform(LATransform)
+  nameWithType: LATransform.LATransform(LATransform)
+  fullName: Lucid.Animation.LATransform.LATransform(Lucid.Animation.LATransform)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 22312
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LATransform(LATransform copy)
+    parameters:
+    - id: copy
+      type: Lucid.Animation.LATransform
+    content.vb: Public Sub New(copy As LATransform)
+  overload: Lucid.Animation.LATransform.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LATransform.AddToSequence(Sequence,System.Boolean,System.Boolean)
+  commentId: M:Lucid.Animation.LATransform.AddToSequence(Sequence,System.Boolean,System.Boolean)
+  id: AddToSequence(Sequence,System.Boolean,System.Boolean)
+  parent: Lucid.Animation.LATransform
+  langs:
+  - csharp
+  - vb
+  name: AddToSequence(Sequence, Boolean, Boolean)
+  nameWithType: LATransform.AddToSequence(Sequence, Boolean, Boolean)
+  fullName: Lucid.Animation.LATransform.AddToSequence(Sequence, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    id: AddToSequence
+    path: ''
+    startLine: 22323
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public override Sequence AddToSequence(Sequence seq, bool ignoreTimescale = false, bool insert = true)
+    parameters:
+    - id: seq
+      type: Global.Sequence
+    - id: ignoreTimescale
+      type: System.Boolean
+    - id: insert
+      type: System.Boolean
+    return:
+      type: Global.Sequence
+    content.vb: Public Overrides Function AddToSequence(seq As Sequence, ignoreTimescale As Boolean = False, insert As Boolean = True) As Sequence
+  overridden: Lucid.Animation.LAComponent.AddToSequence(Sequence,System.Boolean,System.Boolean)
+  overload: Lucid.Animation.LATransform.AddToSequence*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Lucid.Animation.LATransform.CutToValues
+  commentId: M:Lucid.Animation.LATransform.CutToValues
+  id: CutToValues
+  parent: Lucid.Animation.LATransform
+  langs:
+  - csharp
+  - vb
+  name: CutToValues()
+  nameWithType: LATransform.CutToValues()
+  fullName: Lucid.Animation.LATransform.CutToValues()
+  type: Method
+  source:
+    id: CutToValues
+    path: ''
+    startLine: 22379
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public override void CutToValues()
+    content.vb: Public Overrides Sub CutToValues
+  overridden: Lucid.Animation.LAComponent.CutToValues
+  overload: Lucid.Animation.LATransform.CutToValues*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Lucid.Animation.LATransform.GetSequenceDuration
+  commentId: M:Lucid.Animation.LATransform.GetSequenceDuration
+  id: GetSequenceDuration
+  parent: Lucid.Animation.LATransform
+  langs:
+  - csharp
+  - vb
+  name: GetSequenceDuration()
+  nameWithType: LATransform.GetSequenceDuration()
+  fullName: Lucid.Animation.LATransform.GetSequenceDuration()
+  type: Method
+  source:
+    id: GetSequenceDuration
+    path: ''
+    startLine: 22397
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public override float GetSequenceDuration()
+    return:
+      type: System.Single
+    content.vb: Public Overrides Function GetSequenceDuration As Single
+  overridden: Lucid.Animation.LAComponent.GetSequenceDuration
+  overload: Lucid.Animation.LATransform.GetSequenceDuration*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Lucid.Animation
+  commentId: N:Lucid.Animation
+  name: Lucid.Animation
+  nameWithType: Lucid.Animation
+  fullName: Lucid.Animation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Lucid.Animation.LAComponent
+  commentId: T:Lucid.Animation.LAComponent
+  parent: Lucid.Animation
+  name: LAComponent
+  nameWithType: LAComponent
+  fullName: Lucid.Animation.LAComponent
+- uid: Lucid.Animation.LAComponent.onSequenceComplete
+  commentId: F:Lucid.Animation.LAComponent.onSequenceComplete
+  parent: Lucid.Animation.LAComponent
+  name: onSequenceComplete
+  nameWithType: LAComponent.onSequenceComplete
+  fullName: Lucid.Animation.LAComponent.onSequenceComplete
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: Lucid.Animation.LAVector3
+  commentId: T:Lucid.Animation.LAVector3
+  parent: Lucid.Animation
+  name: LAVector3
+  nameWithType: LAVector3
+  fullName: Lucid.Animation.LAVector3
+- uid: Lucid.Animation.LAEulerAngles
+  commentId: T:Lucid.Animation.LAEulerAngles
+  parent: Lucid.Animation
+  name: LAEulerAngles
+  nameWithType: LAEulerAngles
+  fullName: Lucid.Animation.LAEulerAngles
+- uid: Lucid.Animation.LATransform.#ctor*
+  commentId: Overload:Lucid.Animation.LATransform.#ctor
+  name: LATransform
+  nameWithType: LATransform.LATransform
+  fullName: Lucid.Animation.LATransform.LATransform
+- uid: Lucid.Animation.LATransform
+  commentId: T:Lucid.Animation.LATransform
+  parent: Lucid.Animation
+  name: LATransform
+  nameWithType: LATransform
+  fullName: Lucid.Animation.LATransform
+- uid: Lucid.Animation.LAComponent.AddToSequence(Sequence,System.Boolean,System.Boolean)
+  commentId: M:Lucid.Animation.LAComponent.AddToSequence(Sequence,System.Boolean,System.Boolean)
+  parent: Lucid.Animation.LAComponent
+  isExternal: true
+  name: AddToSequence(Sequence, Boolean, Boolean)
+  nameWithType: LAComponent.AddToSequence(Sequence, Boolean, Boolean)
+  fullName: Lucid.Animation.LAComponent.AddToSequence(Sequence, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: Lucid.Animation.LAComponent.AddToSequence(Sequence,System.Boolean,System.Boolean)
+    name: AddToSequence
+    nameWithType: LAComponent.AddToSequence
+    fullName: Lucid.Animation.LAComponent.AddToSequence
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Sequence
+    name: Sequence
+    nameWithType: Sequence
+    fullName: Sequence
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.Animation.LAComponent.AddToSequence(Sequence,System.Boolean,System.Boolean)
+    name: AddToSequence
+    nameWithType: LAComponent.AddToSequence
+    fullName: Lucid.Animation.LAComponent.AddToSequence
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Sequence
+    name: Sequence
+    nameWithType: Sequence
+    fullName: Sequence
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.Animation.LATransform.AddToSequence*
+  commentId: Overload:Lucid.Animation.LATransform.AddToSequence
+  name: AddToSequence
+  nameWithType: LATransform.AddToSequence
+  fullName: Lucid.Animation.LATransform.AddToSequence
+- uid: Global.Sequence
+  isExternal: true
+  name: Sequence
+  nameWithType: Sequence
+  fullName: Sequence
+- uid: Lucid.Animation.LAComponent.CutToValues
+  commentId: M:Lucid.Animation.LAComponent.CutToValues
+  parent: Lucid.Animation.LAComponent
+  name: CutToValues()
+  nameWithType: LAComponent.CutToValues()
+  fullName: Lucid.Animation.LAComponent.CutToValues()
+  spec.csharp:
+  - uid: Lucid.Animation.LAComponent.CutToValues
+    name: CutToValues
+    nameWithType: LAComponent.CutToValues
+    fullName: Lucid.Animation.LAComponent.CutToValues
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.Animation.LAComponent.CutToValues
+    name: CutToValues
+    nameWithType: LAComponent.CutToValues
+    fullName: Lucid.Animation.LAComponent.CutToValues
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.Animation.LATransform.CutToValues*
+  commentId: Overload:Lucid.Animation.LATransform.CutToValues
+  name: CutToValues
+  nameWithType: LATransform.CutToValues
+  fullName: Lucid.Animation.LATransform.CutToValues
+- uid: Lucid.Animation.LAComponent.GetSequenceDuration
+  commentId: M:Lucid.Animation.LAComponent.GetSequenceDuration
+  parent: Lucid.Animation.LAComponent
+  name: GetSequenceDuration()
+  nameWithType: LAComponent.GetSequenceDuration()
+  fullName: Lucid.Animation.LAComponent.GetSequenceDuration()
+  spec.csharp:
+  - uid: Lucid.Animation.LAComponent.GetSequenceDuration
+    name: GetSequenceDuration
+    nameWithType: LAComponent.GetSequenceDuration
+    fullName: Lucid.Animation.LAComponent.GetSequenceDuration
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.Animation.LAComponent.GetSequenceDuration
+    name: GetSequenceDuration
+    nameWithType: LAComponent.GetSequenceDuration
+    fullName: Lucid.Animation.LAComponent.GetSequenceDuration
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.Animation.LATransform.GetSequenceDuration*
+  commentId: Overload:Lucid.Animation.LATransform.GetSequenceDuration
+  name: GetSequenceDuration
+  nameWithType: LATransform.GetSequenceDuration
+  fullName: Lucid.Animation.LATransform.GetSequenceDuration
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

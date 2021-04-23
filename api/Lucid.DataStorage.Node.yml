@@ -1,0 +1,264 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.DataStorage.Node
+  commentId: T:Lucid.DataStorage.Node
+  id: Node
+  parent: Lucid.DataStorage
+  children:
+  - Lucid.DataStorage.Node.GetChildKeys
+  - Lucid.DataStorage.Node.GetValue``1(System.String)
+  - Lucid.DataStorage.Node.GetValueRaw(System.String)
+  langs:
+  - csharp
+  - vb
+  name: Node
+  nameWithType: Node
+  fullName: Lucid.DataStorage.Node
+  type: Class
+  source:
+    id: Node
+    path: ''
+    startLine: 14086
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: 'public class Node : Dictionary<string, object>'
+    content.vb: >-
+      Public Class Node
+          Inherits Dictionary(Of String, Object)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.DataStorage.Node.GetValueRaw(System.String)
+  commentId: M:Lucid.DataStorage.Node.GetValueRaw(System.String)
+  id: GetValueRaw(System.String)
+  parent: Lucid.DataStorage.Node
+  langs:
+  - csharp
+  - vb
+  name: GetValueRaw(String)
+  nameWithType: Node.GetValueRaw(String)
+  fullName: Lucid.DataStorage.Node.GetValueRaw(System.String)
+  type: Method
+  source:
+    id: GetValueRaw
+    path: ''
+    startLine: 14091
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public object GetValueRaw(string searchKey)
+    parameters:
+    - id: searchKey
+      type: System.String
+    return:
+      type: System.Object
+    content.vb: Public Function GetValueRaw(searchKey As String) As Object
+  overload: Lucid.DataStorage.Node.GetValueRaw*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.DataStorage.Node.GetValue``1(System.String)
+  commentId: M:Lucid.DataStorage.Node.GetValue``1(System.String)
+  id: GetValue``1(System.String)
+  parent: Lucid.DataStorage.Node
+  langs:
+  - csharp
+  - vb
+  name: GetValue<T>(String)
+  nameWithType: Node.GetValue<T>(String)
+  fullName: Lucid.DataStorage.Node.GetValue<T>(System.String)
+  type: Method
+  source:
+    id: GetValue
+    path: ''
+    startLine: 14098
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public T GetValue<T>(string searchKey)
+    parameters:
+    - id: searchKey
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function GetValue(Of T)(searchKey As String) As T
+  overload: Lucid.DataStorage.Node.GetValue*
+  nameWithType.vb: Node.GetValue(Of T)(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Lucid.DataStorage.Node.GetValue(Of T)(System.String)
+  name.vb: GetValue(Of T)(String)
+- uid: Lucid.DataStorage.Node.GetChildKeys
+  commentId: M:Lucid.DataStorage.Node.GetChildKeys
+  id: GetChildKeys
+  parent: Lucid.DataStorage.Node
+  langs:
+  - csharp
+  - vb
+  name: GetChildKeys()
+  nameWithType: Node.GetChildKeys()
+  fullName: Lucid.DataStorage.Node.GetChildKeys()
+  type: Method
+  source:
+    id: GetChildKeys
+    path: ''
+    startLine: 14105
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public List<string> GetChildKeys()
+    return:
+      type: Global.List{System.String}
+    content.vb: Public Function GetChildKeys As List(Of String)
+  overload: Lucid.DataStorage.Node.GetChildKeys*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.DataStorage
+  commentId: N:Lucid.DataStorage
+  name: Lucid.DataStorage
+  nameWithType: Lucid.DataStorage
+  fullName: Lucid.DataStorage
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.DataStorage.Node.GetValueRaw*
+  commentId: Overload:Lucid.DataStorage.Node.GetValueRaw
+  name: GetValueRaw
+  nameWithType: Node.GetValueRaw
+  fullName: Lucid.DataStorage.Node.GetValueRaw
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Lucid.DataStorage.Node.GetValue*
+  commentId: Overload:Lucid.DataStorage.Node.GetValue
+  name: GetValue
+  nameWithType: Node.GetValue
+  fullName: Lucid.DataStorage.Node.GetValue
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Lucid.DataStorage.Node.GetChildKeys*
+  commentId: Overload:Lucid.DataStorage.Node.GetChildKeys
+  name: GetChildKeys
+  nameWithType: Node.GetChildKeys
+  fullName: Lucid.DataStorage.Node.GetChildKeys
+- uid: Global.List{System.String}
+  commentId: '!:Global.List{System.String}'
+  definition: Global.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

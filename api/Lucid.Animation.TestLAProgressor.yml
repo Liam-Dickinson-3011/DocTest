@@ -1,0 +1,341 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Animation.TestLAProgressor
+  commentId: T:Lucid.Animation.TestLAProgressor
+  id: TestLAProgressor
+  parent: Lucid.Animation
+  children:
+  - Lucid.Animation.TestLAProgressor.normSlider
+  - Lucid.Animation.TestLAProgressor.onPos
+  - Lucid.Animation.TestLAProgressor.OnPos
+  - Lucid.Animation.TestLAProgressor.postPos
+  - Lucid.Animation.TestLAProgressor.PostPos
+  - Lucid.Animation.TestLAProgressor.prePos
+  - Lucid.Animation.TestLAProgressor.PrePos
+  - Lucid.Animation.TestLAProgressor.transCollection
+  - Lucid.Animation.TestLAProgressor.transCollection2
+  langs:
+  - csharp
+  - vb
+  name: TestLAProgressor
+  nameWithType: TestLAProgressor
+  fullName: Lucid.Animation.TestLAProgressor
+  type: Class
+  source:
+    id: TestLAProgressor
+    path: ''
+    startLine: 22148
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: 'public class TestLAProgressor : MonoBehaviour'
+    content.vb: >-
+      Public Class TestLAProgressor
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Animation.TestLAProgressor.transCollection
+  commentId: F:Lucid.Animation.TestLAProgressor.transCollection
+  id: transCollection
+  parent: Lucid.Animation.TestLAProgressor
+  langs:
+  - csharp
+  - vb
+  name: transCollection
+  nameWithType: TestLAProgressor.transCollection
+  fullName: Lucid.Animation.TestLAProgressor.transCollection
+  type: Field
+  source:
+    id: transCollection
+    path: ''
+    startLine: 22153
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAUIProgressingAnimation transCollection
+    return:
+      type: Lucid.Animation.LAUIProgressingAnimation
+    content.vb: Public transCollection As LAUIProgressingAnimation
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.TestLAProgressor.transCollection2
+  commentId: F:Lucid.Animation.TestLAProgressor.transCollection2
+  id: transCollection2
+  parent: Lucid.Animation.TestLAProgressor
+  langs:
+  - csharp
+  - vb
+  name: transCollection2
+  nameWithType: TestLAProgressor.transCollection2
+  fullName: Lucid.Animation.TestLAProgressor.transCollection2
+  type: Field
+  source:
+    id: transCollection2
+    path: ''
+    startLine: 22158
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LA3DProgressingAnimation transCollection2
+    return:
+      type: Lucid.Animation.LA3DProgressingAnimation
+    content.vb: Public transCollection2 As LA3DProgressingAnimation
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.TestLAProgressor.prePos
+  commentId: F:Lucid.Animation.TestLAProgressor.prePos
+  id: prePos
+  parent: Lucid.Animation.TestLAProgressor
+  langs:
+  - csharp
+  - vb
+  name: prePos
+  nameWithType: TestLAProgressor.prePos
+  fullName: Lucid.Animation.TestLAProgressor.prePos
+  type: Field
+  source:
+    id: prePos
+    path: ''
+    startLine: 22162
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public float prePos
+    return:
+      type: System.Single
+    content.vb: Public prePos As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.TestLAProgressor.onPos
+  commentId: F:Lucid.Animation.TestLAProgressor.onPos
+  id: onPos
+  parent: Lucid.Animation.TestLAProgressor
+  langs:
+  - csharp
+  - vb
+  name: onPos
+  nameWithType: TestLAProgressor.onPos
+  fullName: Lucid.Animation.TestLAProgressor.onPos
+  type: Field
+  source:
+    id: onPos
+    path: ''
+    startLine: 22165
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public float onPos
+    return:
+      type: System.Single
+    content.vb: Public onPos As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.TestLAProgressor.postPos
+  commentId: F:Lucid.Animation.TestLAProgressor.postPos
+  id: postPos
+  parent: Lucid.Animation.TestLAProgressor
+  langs:
+  - csharp
+  - vb
+  name: postPos
+  nameWithType: TestLAProgressor.postPos
+  fullName: Lucid.Animation.TestLAProgressor.postPos
+  type: Field
+  source:
+    id: postPos
+    path: ''
+    startLine: 22168
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public float postPos
+    return:
+      type: System.Single
+    content.vb: Public postPos As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.TestLAProgressor.normSlider
+  commentId: F:Lucid.Animation.TestLAProgressor.normSlider
+  id: normSlider
+  parent: Lucid.Animation.TestLAProgressor
+  langs:
+  - csharp
+  - vb
+  name: normSlider
+  nameWithType: TestLAProgressor.normSlider
+  fullName: Lucid.Animation.TestLAProgressor.normSlider
+  type: Field
+  source:
+    id: normSlider
+    path: ''
+    startLine: 22171
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public Slider normSlider
+    return:
+      type: Global.Slider
+    content.vb: Public normSlider As Slider
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.TestLAProgressor.PrePos
+  commentId: M:Lucid.Animation.TestLAProgressor.PrePos
+  id: PrePos
+  parent: Lucid.Animation.TestLAProgressor
+  langs:
+  - csharp
+  - vb
+  name: PrePos()
+  nameWithType: TestLAProgressor.PrePos()
+  fullName: Lucid.Animation.TestLAProgressor.PrePos()
+  type: Method
+  source:
+    id: PrePos
+    path: ''
+    startLine: 22187
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public void PrePos()
+    content.vb: Public Sub PrePos
+  overload: Lucid.Animation.TestLAProgressor.PrePos*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.TestLAProgressor.OnPos
+  commentId: M:Lucid.Animation.TestLAProgressor.OnPos
+  id: OnPos
+  parent: Lucid.Animation.TestLAProgressor
+  langs:
+  - csharp
+  - vb
+  name: OnPos()
+  nameWithType: TestLAProgressor.OnPos()
+  fullName: Lucid.Animation.TestLAProgressor.OnPos()
+  type: Method
+  source:
+    id: OnPos
+    path: ''
+    startLine: 22194
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public void OnPos()
+    content.vb: Public Sub OnPos
+  overload: Lucid.Animation.TestLAProgressor.OnPos*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.TestLAProgressor.PostPos
+  commentId: M:Lucid.Animation.TestLAProgressor.PostPos
+  id: PostPos
+  parent: Lucid.Animation.TestLAProgressor
+  langs:
+  - csharp
+  - vb
+  name: PostPos()
+  nameWithType: TestLAProgressor.PostPos()
+  fullName: Lucid.Animation.TestLAProgressor.PostPos()
+  type: Method
+  source:
+    id: PostPos
+    path: ''
+    startLine: 22201
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public void PostPos()
+    content.vb: Public Sub PostPos
+  overload: Lucid.Animation.TestLAProgressor.PostPos*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Animation
+  commentId: N:Lucid.Animation
+  name: Lucid.Animation
+  nameWithType: Lucid.Animation
+  fullName: Lucid.Animation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.Animation.LAUIProgressingAnimation
+  commentId: T:Lucid.Animation.LAUIProgressingAnimation
+  parent: Lucid.Animation
+  name: LAUIProgressingAnimation
+  nameWithType: LAUIProgressingAnimation
+  fullName: Lucid.Animation.LAUIProgressingAnimation
+- uid: Lucid.Animation.LA3DProgressingAnimation
+  commentId: T:Lucid.Animation.LA3DProgressingAnimation
+  parent: Lucid.Animation
+  name: LA3DProgressingAnimation
+  nameWithType: LA3DProgressingAnimation
+  fullName: Lucid.Animation.LA3DProgressingAnimation
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.Slider
+  isExternal: true
+  name: Slider
+  nameWithType: Slider
+  fullName: Slider
+- uid: Lucid.Animation.TestLAProgressor.PrePos*
+  commentId: Overload:Lucid.Animation.TestLAProgressor.PrePos
+  name: PrePos
+  nameWithType: TestLAProgressor.PrePos
+  fullName: Lucid.Animation.TestLAProgressor.PrePos
+- uid: Lucid.Animation.TestLAProgressor.OnPos*
+  commentId: Overload:Lucid.Animation.TestLAProgressor.OnPos
+  name: OnPos
+  nameWithType: TestLAProgressor.OnPos
+  fullName: Lucid.Animation.TestLAProgressor.OnPos
+- uid: Lucid.Animation.TestLAProgressor.PostPos*
+  commentId: Overload:Lucid.Animation.TestLAProgressor.PostPos
+  name: PostPos
+  nameWithType: TestLAProgressor.PostPos
+  fullName: Lucid.Animation.TestLAProgressor.PostPos

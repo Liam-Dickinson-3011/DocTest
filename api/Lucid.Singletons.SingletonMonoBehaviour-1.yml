@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Singletons.SingletonMonoBehaviour`1
+  commentId: T:Lucid.Singletons.SingletonMonoBehaviour`1
+  id: SingletonMonoBehaviour`1
+  parent: Lucid.Singletons
+  children:
+  - Lucid.Singletons.SingletonMonoBehaviour`1._instance
+  - Lucid.Singletons.SingletonMonoBehaviour`1.GetInstance
+  - Lucid.Singletons.SingletonMonoBehaviour`1.instance
+  langs:
+  - csharp
+  - vb
+  name: SingletonMonoBehaviour<T>
+  nameWithType: SingletonMonoBehaviour<T>
+  fullName: Lucid.Singletons.SingletonMonoBehaviour<T>
+  type: Class
+  source:
+    id: SingletonMonoBehaviour
+    path: ''
+    startLine: 13639
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Singletons
+  syntax:
+    content: 'public abstract class SingletonMonoBehaviour<T> : MonoBehaviour where T : MonoBehaviour'
+    typeParameters:
+    - id: T
+    content.vb: >-
+      Public MustInherit Class SingletonMonoBehaviour(Of T As MonoBehaviour)
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  nameWithType.vb: SingletonMonoBehaviour(Of T)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+  fullName.vb: Lucid.Singletons.SingletonMonoBehaviour(Of T)
+  name.vb: SingletonMonoBehaviour(Of T)
+- uid: Lucid.Singletons.SingletonMonoBehaviour`1._instance
+  commentId: F:Lucid.Singletons.SingletonMonoBehaviour`1._instance
+  id: _instance
+  parent: Lucid.Singletons.SingletonMonoBehaviour`1
+  langs:
+  - csharp
+  - vb
+  name: _instance
+  nameWithType: SingletonMonoBehaviour<T>._instance
+  fullName: Lucid.Singletons.SingletonMonoBehaviour<T>._instance
+  type: Field
+  source:
+    id: _instance
+    path: ''
+    startLine: 13641
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Singletons
+  syntax:
+    content: protected static T _instance
+    return:
+      type: '{T}'
+    content.vb: Protected Shared _instance As T
+  nameWithType.vb: SingletonMonoBehaviour(Of T)._instance
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+  fullName.vb: Lucid.Singletons.SingletonMonoBehaviour(Of T)._instance
+- uid: Lucid.Singletons.SingletonMonoBehaviour`1.instance
+  commentId: P:Lucid.Singletons.SingletonMonoBehaviour`1.instance
+  id: instance
+  parent: Lucid.Singletons.SingletonMonoBehaviour`1
+  langs:
+  - csharp
+  - vb
+  name: instance
+  nameWithType: SingletonMonoBehaviour<T>.instance
+  fullName: Lucid.Singletons.SingletonMonoBehaviour<T>.instance
+  type: Property
+  source:
+    id: instance
+    path: ''
+    startLine: 13642
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Singletons
+  syntax:
+    content: public static T instance { get; }
+    parameters: []
+    return:
+      type: '{T}'
+    content.vb: Public Shared ReadOnly Property instance As T
+  overload: Lucid.Singletons.SingletonMonoBehaviour`1.instance*
+  nameWithType.vb: SingletonMonoBehaviour(Of T).instance
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+  fullName.vb: Lucid.Singletons.SingletonMonoBehaviour(Of T).instance
+- uid: Lucid.Singletons.SingletonMonoBehaviour`1.GetInstance
+  commentId: M:Lucid.Singletons.SingletonMonoBehaviour`1.GetInstance
+  id: GetInstance
+  parent: Lucid.Singletons.SingletonMonoBehaviour`1
+  langs:
+  - csharp
+  - vb
+  name: GetInstance()
+  nameWithType: SingletonMonoBehaviour<T>.GetInstance()
+  fullName: Lucid.Singletons.SingletonMonoBehaviour<T>.GetInstance()
+  type: Method
+  source:
+    id: GetInstance
+    path: ''
+    startLine: 13657
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Singletons
+  syntax:
+    content: protected static void GetInstance()
+    content.vb: Protected Shared Sub GetInstance
+  overload: Lucid.Singletons.SingletonMonoBehaviour`1.GetInstance*
+  nameWithType.vb: SingletonMonoBehaviour(Of T).GetInstance()
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+  fullName.vb: Lucid.Singletons.SingletonMonoBehaviour(Of T).GetInstance()
+references:
+- uid: Lucid.Singletons
+  commentId: N:Lucid.Singletons
+  name: Lucid.Singletons
+  nameWithType: Lucid.Singletons
+  fullName: Lucid.Singletons
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Lucid.Singletons.SingletonMonoBehaviour`1.instance*
+  commentId: Overload:Lucid.Singletons.SingletonMonoBehaviour`1.instance
+  name: instance
+  nameWithType: SingletonMonoBehaviour<T>.instance
+  fullName: Lucid.Singletons.SingletonMonoBehaviour<T>.instance
+  nameWithType.vb: SingletonMonoBehaviour(Of T).instance
+  fullName.vb: Lucid.Singletons.SingletonMonoBehaviour(Of T).instance
+- uid: Lucid.Singletons.SingletonMonoBehaviour`1.GetInstance*
+  commentId: Overload:Lucid.Singletons.SingletonMonoBehaviour`1.GetInstance
+  name: GetInstance
+  nameWithType: SingletonMonoBehaviour<T>.GetInstance
+  fullName: Lucid.Singletons.SingletonMonoBehaviour<T>.GetInstance
+  nameWithType.vb: SingletonMonoBehaviour(Of T).GetInstance
+  fullName.vb: Lucid.Singletons.SingletonMonoBehaviour(Of T).GetInstance

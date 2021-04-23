@@ -1,0 +1,732 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableCamera
+  commentId: T:Lucid.Extensions.RenderTurntable.RenderTurntableCamera
+  id: RenderTurntableCamera
+  parent: Lucid.Extensions.RenderTurntable
+  children:
+  - Lucid.Extensions.RenderTurntable.RenderTurntableCamera.allowRotation
+  - Lucid.Extensions.RenderTurntable.RenderTurntableCamera.cameraOffset
+  - Lucid.Extensions.RenderTurntable.RenderTurntableCamera.cameraTarget
+  - Lucid.Extensions.RenderTurntable.RenderTurntableCamera.cameraTransform
+  - Lucid.Extensions.RenderTurntable.RenderTurntableCamera.clampedRotationTransform
+  - Lucid.Extensions.RenderTurntable.RenderTurntableCamera.currentClampedRotation
+  - Lucid.Extensions.RenderTurntable.RenderTurntableCamera.currentUnclampedRotation
+  - Lucid.Extensions.RenderTurntable.RenderTurntableCamera.EnableCamera
+  - Lucid.Extensions.RenderTurntable.RenderTurntableCamera.framesPerDegree
+  - Lucid.Extensions.RenderTurntable.RenderTurntableCamera.invertRotation
+  - Lucid.Extensions.RenderTurntable.RenderTurntableCamera.maxRotation
+  - Lucid.Extensions.RenderTurntable.RenderTurntableCamera.minRotation
+  - Lucid.Extensions.RenderTurntable.RenderTurntableCamera.normalizedClampedRotation
+  - Lucid.Extensions.RenderTurntable.RenderTurntableCamera.normalizedUnclampedRotation
+  - Lucid.Extensions.RenderTurntable.RenderTurntableCamera.resetOnEnable
+  - Lucid.Extensions.RenderTurntable.RenderTurntableCamera.ResetOrientation
+  - Lucid.Extensions.RenderTurntable.RenderTurntableCamera.rotationDecelCurve
+  - Lucid.Extensions.RenderTurntable.RenderTurntableCamera.rotationMultiplier
+  - Lucid.Extensions.RenderTurntable.RenderTurntableCamera.SetRotation(Vector3)
+  - Lucid.Extensions.RenderTurntable.RenderTurntableCamera.startRotation
+  - Lucid.Extensions.RenderTurntable.RenderTurntableCamera.unclampedRotationTransform
+  langs:
+  - csharp
+  - vb
+  name: RenderTurntableCamera
+  nameWithType: RenderTurntableCamera
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableCamera
+  type: Class
+  source:
+    id: RenderTurntableCamera
+    path: ''
+    startLine: 28773
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.RenderTurntable
+  syntax:
+    content: 'public class RenderTurntableCamera : BaseCameraRig'
+    content.vb: >-
+      Public Class RenderTurntableCamera
+          Inherits BaseCameraRig
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.resetOnEnable
+  commentId: F:Lucid.Extensions.RenderTurntable.RenderTurntableCamera.resetOnEnable
+  id: resetOnEnable
+  parent: Lucid.Extensions.RenderTurntable.RenderTurntableCamera
+  langs:
+  - csharp
+  - vb
+  name: resetOnEnable
+  nameWithType: RenderTurntableCamera.resetOnEnable
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.resetOnEnable
+  type: Field
+  source:
+    id: resetOnEnable
+    path: ''
+    startLine: 28776
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.RenderTurntable
+  syntax:
+    content: public bool resetOnEnable
+    return:
+      type: System.Boolean
+    content.vb: Public resetOnEnable As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.allowRotation
+  commentId: F:Lucid.Extensions.RenderTurntable.RenderTurntableCamera.allowRotation
+  id: allowRotation
+  parent: Lucid.Extensions.RenderTurntable.RenderTurntableCamera
+  langs:
+  - csharp
+  - vb
+  name: allowRotation
+  nameWithType: RenderTurntableCamera.allowRotation
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.allowRotation
+  type: Field
+  source:
+    id: allowRotation
+    path: ''
+    startLine: 28781
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.RenderTurntable
+  syntax:
+    content: public bool allowRotation
+    return:
+      type: System.Boolean
+    content.vb: Public allowRotation As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.unclampedRotationTransform
+  commentId: F:Lucid.Extensions.RenderTurntable.RenderTurntableCamera.unclampedRotationTransform
+  id: unclampedRotationTransform
+  parent: Lucid.Extensions.RenderTurntable.RenderTurntableCamera
+  langs:
+  - csharp
+  - vb
+  name: unclampedRotationTransform
+  nameWithType: RenderTurntableCamera.unclampedRotationTransform
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.unclampedRotationTransform
+  type: Field
+  source:
+    id: unclampedRotationTransform
+    path: ''
+    startLine: 28784
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.RenderTurntable
+  syntax:
+    content: public Transform unclampedRotationTransform
+    return:
+      type: Global.Transform
+    content.vb: Public unclampedRotationTransform As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.clampedRotationTransform
+  commentId: F:Lucid.Extensions.RenderTurntable.RenderTurntableCamera.clampedRotationTransform
+  id: clampedRotationTransform
+  parent: Lucid.Extensions.RenderTurntable.RenderTurntableCamera
+  langs:
+  - csharp
+  - vb
+  name: clampedRotationTransform
+  nameWithType: RenderTurntableCamera.clampedRotationTransform
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.clampedRotationTransform
+  type: Field
+  source:
+    id: clampedRotationTransform
+    path: ''
+    startLine: 28786
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.RenderTurntable
+  syntax:
+    content: public Transform clampedRotationTransform
+    return:
+      type: Global.Transform
+    content.vb: Public clampedRotationTransform As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.framesPerDegree
+  commentId: F:Lucid.Extensions.RenderTurntable.RenderTurntableCamera.framesPerDegree
+  id: framesPerDegree
+  parent: Lucid.Extensions.RenderTurntable.RenderTurntableCamera
+  langs:
+  - csharp
+  - vb
+  name: framesPerDegree
+  nameWithType: RenderTurntableCamera.framesPerDegree
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.framesPerDegree
+  type: Field
+  source:
+    id: framesPerDegree
+    path: ''
+    startLine: 28788
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.RenderTurntable
+  syntax:
+    content: public float framesPerDegree
+    return:
+      type: System.Single
+    content.vb: Public framesPerDegree As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.rotationMultiplier
+  commentId: F:Lucid.Extensions.RenderTurntable.RenderTurntableCamera.rotationMultiplier
+  id: rotationMultiplier
+  parent: Lucid.Extensions.RenderTurntable.RenderTurntableCamera
+  langs:
+  - csharp
+  - vb
+  name: rotationMultiplier
+  nameWithType: RenderTurntableCamera.rotationMultiplier
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.rotationMultiplier
+  type: Field
+  source:
+    id: rotationMultiplier
+    path: ''
+    startLine: 28791
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.RenderTurntable
+  syntax:
+    content: public float rotationMultiplier
+    return:
+      type: System.Single
+    content.vb: Public rotationMultiplier As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.startRotation
+  commentId: F:Lucid.Extensions.RenderTurntable.RenderTurntableCamera.startRotation
+  id: startRotation
+  parent: Lucid.Extensions.RenderTurntable.RenderTurntableCamera
+  langs:
+  - csharp
+  - vb
+  name: startRotation
+  nameWithType: RenderTurntableCamera.startRotation
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.startRotation
+  type: Field
+  source:
+    id: startRotation
+    path: ''
+    startLine: 28794
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.RenderTurntable
+  syntax:
+    content: public float startRotation
+    return:
+      type: System.Single
+    content.vb: Public startRotation As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.minRotation
+  commentId: F:Lucid.Extensions.RenderTurntable.RenderTurntableCamera.minRotation
+  id: minRotation
+  parent: Lucid.Extensions.RenderTurntable.RenderTurntableCamera
+  langs:
+  - csharp
+  - vb
+  name: minRotation
+  nameWithType: RenderTurntableCamera.minRotation
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.minRotation
+  type: Field
+  source:
+    id: minRotation
+    path: ''
+    startLine: 28796
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.RenderTurntable
+  syntax:
+    content: public float minRotation
+    return:
+      type: System.Single
+    content.vb: Public minRotation As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.maxRotation
+  commentId: F:Lucid.Extensions.RenderTurntable.RenderTurntableCamera.maxRotation
+  id: maxRotation
+  parent: Lucid.Extensions.RenderTurntable.RenderTurntableCamera
+  langs:
+  - csharp
+  - vb
+  name: maxRotation
+  nameWithType: RenderTurntableCamera.maxRotation
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.maxRotation
+  type: Field
+  source:
+    id: maxRotation
+    path: ''
+    startLine: 28798
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.RenderTurntable
+  syntax:
+    content: public float maxRotation
+    return:
+      type: System.Single
+    content.vb: Public maxRotation As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.currentUnclampedRotation
+  commentId: P:Lucid.Extensions.RenderTurntable.RenderTurntableCamera.currentUnclampedRotation
+  id: currentUnclampedRotation
+  parent: Lucid.Extensions.RenderTurntable.RenderTurntableCamera
+  langs:
+  - csharp
+  - vb
+  name: currentUnclampedRotation
+  nameWithType: RenderTurntableCamera.currentUnclampedRotation
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.currentUnclampedRotation
+  type: Property
+  source:
+    id: currentUnclampedRotation
+    path: ''
+    startLine: 28800
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.RenderTurntable
+  syntax:
+    content: public float currentUnclampedRotation { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property currentUnclampedRotation As Single
+  overload: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.currentUnclampedRotation*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.normalizedUnclampedRotation
+  commentId: P:Lucid.Extensions.RenderTurntable.RenderTurntableCamera.normalizedUnclampedRotation
+  id: normalizedUnclampedRotation
+  parent: Lucid.Extensions.RenderTurntable.RenderTurntableCamera
+  langs:
+  - csharp
+  - vb
+  name: normalizedUnclampedRotation
+  nameWithType: RenderTurntableCamera.normalizedUnclampedRotation
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.normalizedUnclampedRotation
+  type: Property
+  source:
+    id: normalizedUnclampedRotation
+    path: ''
+    startLine: 28807
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.RenderTurntable
+  syntax:
+    content: public float normalizedUnclampedRotation { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property normalizedUnclampedRotation As Single
+  overload: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.normalizedUnclampedRotation*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.currentClampedRotation
+  commentId: P:Lucid.Extensions.RenderTurntable.RenderTurntableCamera.currentClampedRotation
+  id: currentClampedRotation
+  parent: Lucid.Extensions.RenderTurntable.RenderTurntableCamera
+  langs:
+  - csharp
+  - vb
+  name: currentClampedRotation
+  nameWithType: RenderTurntableCamera.currentClampedRotation
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.currentClampedRotation
+  type: Property
+  source:
+    id: currentClampedRotation
+    path: ''
+    startLine: 28814
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.RenderTurntable
+  syntax:
+    content: public float currentClampedRotation { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property currentClampedRotation As Single
+  overload: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.currentClampedRotation*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.normalizedClampedRotation
+  commentId: P:Lucid.Extensions.RenderTurntable.RenderTurntableCamera.normalizedClampedRotation
+  id: normalizedClampedRotation
+  parent: Lucid.Extensions.RenderTurntable.RenderTurntableCamera
+  langs:
+  - csharp
+  - vb
+  name: normalizedClampedRotation
+  nameWithType: RenderTurntableCamera.normalizedClampedRotation
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.normalizedClampedRotation
+  type: Property
+  source:
+    id: normalizedClampedRotation
+    path: ''
+    startLine: 28821
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.RenderTurntable
+  syntax:
+    content: public float normalizedClampedRotation { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property normalizedClampedRotation As Single
+  overload: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.normalizedClampedRotation*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.invertRotation
+  commentId: F:Lucid.Extensions.RenderTurntable.RenderTurntableCamera.invertRotation
+  id: invertRotation
+  parent: Lucid.Extensions.RenderTurntable.RenderTurntableCamera
+  langs:
+  - csharp
+  - vb
+  name: invertRotation
+  nameWithType: RenderTurntableCamera.invertRotation
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.invertRotation
+  type: Field
+  source:
+    id: invertRotation
+    path: ''
+    startLine: 28829
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.RenderTurntable
+  syntax:
+    content: public bool invertRotation
+    return:
+      type: System.Boolean
+    content.vb: Public invertRotation As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.rotationDecelCurve
+  commentId: F:Lucid.Extensions.RenderTurntable.RenderTurntableCamera.rotationDecelCurve
+  id: rotationDecelCurve
+  parent: Lucid.Extensions.RenderTurntable.RenderTurntableCamera
+  langs:
+  - csharp
+  - vb
+  name: rotationDecelCurve
+  nameWithType: RenderTurntableCamera.rotationDecelCurve
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.rotationDecelCurve
+  type: Field
+  source:
+    id: rotationDecelCurve
+    path: ''
+    startLine: 28832
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.RenderTurntable
+  syntax:
+    content: public AnimationCurve rotationDecelCurve
+    return:
+      type: Global.AnimationCurve
+    content.vb: Public rotationDecelCurve As AnimationCurve
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.cameraTransform
+  commentId: F:Lucid.Extensions.RenderTurntable.RenderTurntableCamera.cameraTransform
+  id: cameraTransform
+  parent: Lucid.Extensions.RenderTurntable.RenderTurntableCamera
+  langs:
+  - csharp
+  - vb
+  name: cameraTransform
+  nameWithType: RenderTurntableCamera.cameraTransform
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.cameraTransform
+  type: Field
+  source:
+    id: cameraTransform
+    path: ''
+    startLine: 28841
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.RenderTurntable
+  syntax:
+    content: public Transform cameraTransform
+    return:
+      type: Global.Transform
+    content.vb: Public cameraTransform As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.cameraTarget
+  commentId: F:Lucid.Extensions.RenderTurntable.RenderTurntableCamera.cameraTarget
+  id: cameraTarget
+  parent: Lucid.Extensions.RenderTurntable.RenderTurntableCamera
+  langs:
+  - csharp
+  - vb
+  name: cameraTarget
+  nameWithType: RenderTurntableCamera.cameraTarget
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.cameraTarget
+  type: Field
+  source:
+    id: cameraTarget
+    path: ''
+    startLine: 28844
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.RenderTurntable
+  syntax:
+    content: public Transform cameraTarget
+    return:
+      type: Global.Transform
+    content.vb: Public cameraTarget As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.cameraOffset
+  commentId: P:Lucid.Extensions.RenderTurntable.RenderTurntableCamera.cameraOffset
+  id: cameraOffset
+  parent: Lucid.Extensions.RenderTurntable.RenderTurntableCamera
+  langs:
+  - csharp
+  - vb
+  name: cameraOffset
+  nameWithType: RenderTurntableCamera.cameraOffset
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.cameraOffset
+  type: Property
+  source:
+    id: cameraOffset
+    path: ''
+    startLine: 28848
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.RenderTurntable
+  syntax:
+    content: public Vector3 cameraOffset { get; set; }
+    parameters: []
+    return:
+      type: Global.Vector3
+    content.vb: Public Property cameraOffset As Vector3
+  overload: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.cameraOffset*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.EnableCamera
+  commentId: M:Lucid.Extensions.RenderTurntable.RenderTurntableCamera.EnableCamera
+  id: EnableCamera
+  parent: Lucid.Extensions.RenderTurntable.RenderTurntableCamera
+  langs:
+  - csharp
+  - vb
+  name: EnableCamera()
+  nameWithType: RenderTurntableCamera.EnableCamera()
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.EnableCamera()
+  type: Method
+  source:
+    id: EnableCamera
+    path: ''
+    startLine: 28868
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.RenderTurntable
+  syntax:
+    content: public override void EnableCamera()
+    content.vb: Public Overrides Sub EnableCamera
+  overload: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.EnableCamera*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.ResetOrientation
+  commentId: M:Lucid.Extensions.RenderTurntable.RenderTurntableCamera.ResetOrientation
+  id: ResetOrientation
+  parent: Lucid.Extensions.RenderTurntable.RenderTurntableCamera
+  langs:
+  - csharp
+  - vb
+  name: ResetOrientation()
+  nameWithType: RenderTurntableCamera.ResetOrientation()
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.ResetOrientation()
+  type: Method
+  source:
+    id: ResetOrientation
+    path: ''
+    startLine: 28879
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.RenderTurntable
+  syntax:
+    content: public void ResetOrientation()
+    content.vb: Public Sub ResetOrientation
+  overload: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.ResetOrientation*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.SetRotation(Vector3)
+  commentId: M:Lucid.Extensions.RenderTurntable.RenderTurntableCamera.SetRotation(Vector3)
+  id: SetRotation(Vector3)
+  parent: Lucid.Extensions.RenderTurntable.RenderTurntableCamera
+  langs:
+  - csharp
+  - vb
+  name: SetRotation(Vector3)
+  nameWithType: RenderTurntableCamera.SetRotation(Vector3)
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.SetRotation(Vector3)
+  type: Method
+  source:
+    id: SetRotation
+    path: ''
+    startLine: 28955
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.RenderTurntable
+  syntax:
+    content: public void SetRotation(Vector3 rotation)
+    parameters:
+    - id: rotation
+      type: Global.Vector3
+    content.vb: Public Sub SetRotation(rotation As Vector3)
+  overload: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.SetRotation*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Extensions.RenderTurntable
+  commentId: N:Lucid.Extensions.RenderTurntable
+  name: Lucid.Extensions.RenderTurntable
+  nameWithType: Lucid.Extensions.RenderTurntable
+  fullName: Lucid.Extensions.RenderTurntable
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.currentUnclampedRotation*
+  commentId: Overload:Lucid.Extensions.RenderTurntable.RenderTurntableCamera.currentUnclampedRotation
+  name: currentUnclampedRotation
+  nameWithType: RenderTurntableCamera.currentUnclampedRotation
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.currentUnclampedRotation
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.normalizedUnclampedRotation*
+  commentId: Overload:Lucid.Extensions.RenderTurntable.RenderTurntableCamera.normalizedUnclampedRotation
+  name: normalizedUnclampedRotation
+  nameWithType: RenderTurntableCamera.normalizedUnclampedRotation
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.normalizedUnclampedRotation
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.currentClampedRotation*
+  commentId: Overload:Lucid.Extensions.RenderTurntable.RenderTurntableCamera.currentClampedRotation
+  name: currentClampedRotation
+  nameWithType: RenderTurntableCamera.currentClampedRotation
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.currentClampedRotation
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.normalizedClampedRotation*
+  commentId: Overload:Lucid.Extensions.RenderTurntable.RenderTurntableCamera.normalizedClampedRotation
+  name: normalizedClampedRotation
+  nameWithType: RenderTurntableCamera.normalizedClampedRotation
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.normalizedClampedRotation
+- uid: Global.AnimationCurve
+  isExternal: true
+  name: AnimationCurve
+  nameWithType: AnimationCurve
+  fullName: AnimationCurve
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.cameraOffset*
+  commentId: Overload:Lucid.Extensions.RenderTurntable.RenderTurntableCamera.cameraOffset
+  name: cameraOffset
+  nameWithType: RenderTurntableCamera.cameraOffset
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.cameraOffset
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.EnableCamera*
+  commentId: Overload:Lucid.Extensions.RenderTurntable.RenderTurntableCamera.EnableCamera
+  name: EnableCamera
+  nameWithType: RenderTurntableCamera.EnableCamera
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.EnableCamera
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.ResetOrientation*
+  commentId: Overload:Lucid.Extensions.RenderTurntable.RenderTurntableCamera.ResetOrientation
+  name: ResetOrientation
+  nameWithType: RenderTurntableCamera.ResetOrientation
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.ResetOrientation
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.SetRotation*
+  commentId: Overload:Lucid.Extensions.RenderTurntable.RenderTurntableCamera.SetRotation
+  name: SetRotation
+  nameWithType: RenderTurntableCamera.SetRotation
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableCamera.SetRotation

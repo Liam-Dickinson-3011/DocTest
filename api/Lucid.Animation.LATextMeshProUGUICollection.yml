@@ -1,0 +1,897 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Animation.LATextMeshProUGUICollection
+  commentId: T:Lucid.Animation.LATextMeshProUGUICollection
+  id: LATextMeshProUGUICollection
+  parent: Lucid.Animation
+  children:
+  - Lucid.Animation.LATextMeshProUGUICollection.#ctor
+  - Lucid.Animation.LATextMeshProUGUICollection.#ctor(Lucid.Animation.LATextMeshProUGUICollection)
+  - Lucid.Animation.LATextMeshProUGUICollection.AddToSequence(Sequence,System.Boolean)
+  - Lucid.Animation.LATextMeshProUGUICollection.doFade
+  - Lucid.Animation.LATextMeshProUGUICollection.doFontSize
+  - Lucid.Animation.LATextMeshProUGUICollection.doGlowColor
+  - Lucid.Animation.LATextMeshProUGUICollection.doMainColor
+  - Lucid.Animation.LATextMeshProUGUICollection.doMaxVisChars
+  - Lucid.Animation.LATextMeshProUGUICollection.doOutlineColor
+  - Lucid.Animation.LATextMeshProUGUICollection.fades
+  - Lucid.Animation.LATextMeshProUGUICollection.fontSizes
+  - Lucid.Animation.LATextMeshProUGUICollection.GetSequenceDuration
+  - Lucid.Animation.LATextMeshProUGUICollection.glowColors
+  - Lucid.Animation.LATextMeshProUGUICollection.mainColors
+  - Lucid.Animation.LATextMeshProUGUICollection.maxVisibleChars
+  - Lucid.Animation.LATextMeshProUGUICollection.outlineColors
+  - Lucid.Animation.LATextMeshProUGUICollection.target
+  langs:
+  - csharp
+  - vb
+  name: LATextMeshProUGUICollection
+  nameWithType: LATextMeshProUGUICollection
+  fullName: Lucid.Animation.LATextMeshProUGUICollection
+  type: Class
+  source:
+    id: LATextMeshProUGUICollection
+    path: ''
+    startLine: 23633
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class LATextMeshProUGUICollection : LAComponentCollection
+    content.vb: >-
+      <Serializable>
+
+      Public Class LATextMeshProUGUICollection
+          Inherits LAComponentCollection
+  inheritance:
+  - System.Object
+  - Lucid.Animation.LAComponentCollection
+  inheritedMembers:
+  - Lucid.Animation.LAComponentCollection.onSequenceComplete
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Animation.LATextMeshProUGUICollection.doMainColor
+  commentId: F:Lucid.Animation.LATextMeshProUGUICollection.doMainColor
+  id: doMainColor
+  parent: Lucid.Animation.LATextMeshProUGUICollection
+  langs:
+  - csharp
+  - vb
+  name: doMainColor
+  nameWithType: LATextMeshProUGUICollection.doMainColor
+  fullName: Lucid.Animation.LATextMeshProUGUICollection.doMainColor
+  type: Field
+  source:
+    id: doMainColor
+    path: ''
+    startLine: 23640
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public bool doMainColor
+    return:
+      type: System.Boolean
+    content.vb: Public doMainColor As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LATextMeshProUGUICollection.doOutlineColor
+  commentId: F:Lucid.Animation.LATextMeshProUGUICollection.doOutlineColor
+  id: doOutlineColor
+  parent: Lucid.Animation.LATextMeshProUGUICollection
+  langs:
+  - csharp
+  - vb
+  name: doOutlineColor
+  nameWithType: LATextMeshProUGUICollection.doOutlineColor
+  fullName: Lucid.Animation.LATextMeshProUGUICollection.doOutlineColor
+  type: Field
+  source:
+    id: doOutlineColor
+    path: ''
+    startLine: 23644
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public bool doOutlineColor
+    return:
+      type: System.Boolean
+    content.vb: Public doOutlineColor As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LATextMeshProUGUICollection.doGlowColor
+  commentId: F:Lucid.Animation.LATextMeshProUGUICollection.doGlowColor
+  id: doGlowColor
+  parent: Lucid.Animation.LATextMeshProUGUICollection
+  langs:
+  - csharp
+  - vb
+  name: doGlowColor
+  nameWithType: LATextMeshProUGUICollection.doGlowColor
+  fullName: Lucid.Animation.LATextMeshProUGUICollection.doGlowColor
+  type: Field
+  source:
+    id: doGlowColor
+    path: ''
+    startLine: 23648
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public bool doGlowColor
+    return:
+      type: System.Boolean
+    content.vb: Public doGlowColor As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LATextMeshProUGUICollection.doFade
+  commentId: F:Lucid.Animation.LATextMeshProUGUICollection.doFade
+  id: doFade
+  parent: Lucid.Animation.LATextMeshProUGUICollection
+  langs:
+  - csharp
+  - vb
+  name: doFade
+  nameWithType: LATextMeshProUGUICollection.doFade
+  fullName: Lucid.Animation.LATextMeshProUGUICollection.doFade
+  type: Field
+  source:
+    id: doFade
+    path: ''
+    startLine: 23652
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public bool doFade
+    return:
+      type: System.Boolean
+    content.vb: Public doFade As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LATextMeshProUGUICollection.doFontSize
+  commentId: F:Lucid.Animation.LATextMeshProUGUICollection.doFontSize
+  id: doFontSize
+  parent: Lucid.Animation.LATextMeshProUGUICollection
+  langs:
+  - csharp
+  - vb
+  name: doFontSize
+  nameWithType: LATextMeshProUGUICollection.doFontSize
+  fullName: Lucid.Animation.LATextMeshProUGUICollection.doFontSize
+  type: Field
+  source:
+    id: doFontSize
+    path: ''
+    startLine: 23656
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public bool doFontSize
+    return:
+      type: System.Boolean
+    content.vb: Public doFontSize As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LATextMeshProUGUICollection.doMaxVisChars
+  commentId: F:Lucid.Animation.LATextMeshProUGUICollection.doMaxVisChars
+  id: doMaxVisChars
+  parent: Lucid.Animation.LATextMeshProUGUICollection
+  langs:
+  - csharp
+  - vb
+  name: doMaxVisChars
+  nameWithType: LATextMeshProUGUICollection.doMaxVisChars
+  fullName: Lucid.Animation.LATextMeshProUGUICollection.doMaxVisChars
+  type: Field
+  source:
+    id: doMaxVisChars
+    path: ''
+    startLine: 23660
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public bool doMaxVisChars
+    return:
+      type: System.Boolean
+    content.vb: Public doMaxVisChars As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LATextMeshProUGUICollection.target
+  commentId: F:Lucid.Animation.LATextMeshProUGUICollection.target
+  id: target
+  parent: Lucid.Animation.LATextMeshProUGUICollection
+  langs:
+  - csharp
+  - vb
+  name: target
+  nameWithType: LATextMeshProUGUICollection.target
+  fullName: Lucid.Animation.LATextMeshProUGUICollection.target
+  type: Field
+  source:
+    id: target
+    path: ''
+    startLine: 23665
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public TextMeshProUGUI target
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public target As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LATextMeshProUGUICollection.mainColors
+  commentId: F:Lucid.Animation.LATextMeshProUGUICollection.mainColors
+  id: mainColors
+  parent: Lucid.Animation.LATextMeshProUGUICollection
+  langs:
+  - csharp
+  - vb
+  name: mainColors
+  nameWithType: LATextMeshProUGUICollection.mainColors
+  fullName: Lucid.Animation.LATextMeshProUGUICollection.mainColors
+  type: Field
+  source:
+    id: mainColors
+    path: ''
+    startLine: 23673
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public List<LAColor> mainColors
+    return:
+      type: Global.List{Lucid.Animation.LAColor}
+    content.vb: Public mainColors As List(Of LAColor)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LATextMeshProUGUICollection.outlineColors
+  commentId: F:Lucid.Animation.LATextMeshProUGUICollection.outlineColors
+  id: outlineColors
+  parent: Lucid.Animation.LATextMeshProUGUICollection
+  langs:
+  - csharp
+  - vb
+  name: outlineColors
+  nameWithType: LATextMeshProUGUICollection.outlineColors
+  fullName: Lucid.Animation.LATextMeshProUGUICollection.outlineColors
+  type: Field
+  source:
+    id: outlineColors
+    path: ''
+    startLine: 23681
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public List<LAColor> outlineColors
+    return:
+      type: Global.List{Lucid.Animation.LAColor}
+    content.vb: Public outlineColors As List(Of LAColor)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LATextMeshProUGUICollection.glowColors
+  commentId: F:Lucid.Animation.LATextMeshProUGUICollection.glowColors
+  id: glowColors
+  parent: Lucid.Animation.LATextMeshProUGUICollection
+  langs:
+  - csharp
+  - vb
+  name: glowColors
+  nameWithType: LATextMeshProUGUICollection.glowColors
+  fullName: Lucid.Animation.LATextMeshProUGUICollection.glowColors
+  type: Field
+  source:
+    id: glowColors
+    path: ''
+    startLine: 23689
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public List<LAColor> glowColors
+    return:
+      type: Global.List{Lucid.Animation.LAColor}
+    content.vb: Public glowColors As List(Of LAColor)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LATextMeshProUGUICollection.fades
+  commentId: F:Lucid.Animation.LATextMeshProUGUICollection.fades
+  id: fades
+  parent: Lucid.Animation.LATextMeshProUGUICollection
+  langs:
+  - csharp
+  - vb
+  name: fades
+  nameWithType: LATextMeshProUGUICollection.fades
+  fullName: Lucid.Animation.LATextMeshProUGUICollection.fades
+  type: Field
+  source:
+    id: fades
+    path: ''
+    startLine: 23697
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public List<LANormalisedFloat> fades
+    return:
+      type: Global.List{Lucid.Animation.LANormalisedFloat}
+    content.vb: Public fades As List(Of LANormalisedFloat)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LATextMeshProUGUICollection.fontSizes
+  commentId: F:Lucid.Animation.LATextMeshProUGUICollection.fontSizes
+  id: fontSizes
+  parent: Lucid.Animation.LATextMeshProUGUICollection
+  langs:
+  - csharp
+  - vb
+  name: fontSizes
+  nameWithType: LATextMeshProUGUICollection.fontSizes
+  fullName: Lucid.Animation.LATextMeshProUGUICollection.fontSizes
+  type: Field
+  source:
+    id: fontSizes
+    path: ''
+    startLine: 23705
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public List<LAFloat> fontSizes
+    return:
+      type: Global.List{Lucid.Animation.LAFloat}
+    content.vb: Public fontSizes As List(Of LAFloat)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LATextMeshProUGUICollection.maxVisibleChars
+  commentId: F:Lucid.Animation.LATextMeshProUGUICollection.maxVisibleChars
+  id: maxVisibleChars
+  parent: Lucid.Animation.LATextMeshProUGUICollection
+  langs:
+  - csharp
+  - vb
+  name: maxVisibleChars
+  nameWithType: LATextMeshProUGUICollection.maxVisibleChars
+  fullName: Lucid.Animation.LATextMeshProUGUICollection.maxVisibleChars
+  type: Field
+  source:
+    id: maxVisibleChars
+    path: ''
+    startLine: 23713
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public List<LAInt> maxVisibleChars
+    return:
+      type: Global.List{Lucid.Animation.LAInt}
+    content.vb: Public maxVisibleChars As List(Of LAInt)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LATextMeshProUGUICollection.#ctor
+  commentId: M:Lucid.Animation.LATextMeshProUGUICollection.#ctor
+  id: '#ctor'
+  parent: Lucid.Animation.LATextMeshProUGUICollection
+  langs:
+  - csharp
+  - vb
+  name: LATextMeshProUGUICollection()
+  nameWithType: LATextMeshProUGUICollection.LATextMeshProUGUICollection()
+  fullName: Lucid.Animation.LATextMeshProUGUICollection.LATextMeshProUGUICollection()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 23715
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LATextMeshProUGUICollection()
+    content.vb: Public Sub New
+  overload: Lucid.Animation.LATextMeshProUGUICollection.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LATextMeshProUGUICollection.#ctor(Lucid.Animation.LATextMeshProUGUICollection)
+  commentId: M:Lucid.Animation.LATextMeshProUGUICollection.#ctor(Lucid.Animation.LATextMeshProUGUICollection)
+  id: '#ctor(Lucid.Animation.LATextMeshProUGUICollection)'
+  parent: Lucid.Animation.LATextMeshProUGUICollection
+  langs:
+  - csharp
+  - vb
+  name: LATextMeshProUGUICollection(LATextMeshProUGUICollection)
+  nameWithType: LATextMeshProUGUICollection.LATextMeshProUGUICollection(LATextMeshProUGUICollection)
+  fullName: Lucid.Animation.LATextMeshProUGUICollection.LATextMeshProUGUICollection(Lucid.Animation.LATextMeshProUGUICollection)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 23725
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LATextMeshProUGUICollection(LATextMeshProUGUICollection copy)
+    parameters:
+    - id: copy
+      type: Lucid.Animation.LATextMeshProUGUICollection
+    content.vb: Public Sub New(copy As LATextMeshProUGUICollection)
+  overload: Lucid.Animation.LATextMeshProUGUICollection.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LATextMeshProUGUICollection.AddToSequence(Sequence,System.Boolean)
+  commentId: M:Lucid.Animation.LATextMeshProUGUICollection.AddToSequence(Sequence,System.Boolean)
+  id: AddToSequence(Sequence,System.Boolean)
+  parent: Lucid.Animation.LATextMeshProUGUICollection
+  langs:
+  - csharp
+  - vb
+  name: AddToSequence(Sequence, Boolean)
+  nameWithType: LATextMeshProUGUICollection.AddToSequence(Sequence, Boolean)
+  fullName: Lucid.Animation.LATextMeshProUGUICollection.AddToSequence(Sequence, System.Boolean)
+  type: Method
+  source:
+    id: AddToSequence
+    path: ''
+    startLine: 23809
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public override Sequence AddToSequence(Sequence seq, bool ignoreTimescale = false)
+    parameters:
+    - id: seq
+      type: Global.Sequence
+    - id: ignoreTimescale
+      type: System.Boolean
+    return:
+      type: Global.Sequence
+    content.vb: Public Overrides Function AddToSequence(seq As Sequence, ignoreTimescale As Boolean = False) As Sequence
+  overridden: Lucid.Animation.LAComponentCollection.AddToSequence(Sequence,System.Boolean)
+  overload: Lucid.Animation.LATextMeshProUGUICollection.AddToSequence*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Lucid.Animation.LATextMeshProUGUICollection.GetSequenceDuration
+  commentId: M:Lucid.Animation.LATextMeshProUGUICollection.GetSequenceDuration
+  id: GetSequenceDuration
+  parent: Lucid.Animation.LATextMeshProUGUICollection
+  langs:
+  - csharp
+  - vb
+  name: GetSequenceDuration()
+  nameWithType: LATextMeshProUGUICollection.GetSequenceDuration()
+  fullName: Lucid.Animation.LATextMeshProUGUICollection.GetSequenceDuration()
+  type: Method
+  source:
+    id: GetSequenceDuration
+    path: ''
+    startLine: 23871
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public override float GetSequenceDuration()
+    return:
+      type: System.Single
+    content.vb: Public Overrides Function GetSequenceDuration As Single
+  overridden: Lucid.Animation.LAComponentCollection.GetSequenceDuration
+  overload: Lucid.Animation.LATextMeshProUGUICollection.GetSequenceDuration*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Lucid.Animation
+  commentId: N:Lucid.Animation
+  name: Lucid.Animation
+  nameWithType: Lucid.Animation
+  fullName: Lucid.Animation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Lucid.Animation.LAComponentCollection
+  commentId: T:Lucid.Animation.LAComponentCollection
+  parent: Lucid.Animation
+  name: LAComponentCollection
+  nameWithType: LAComponentCollection
+  fullName: Lucid.Animation.LAComponentCollection
+- uid: Lucid.Animation.LAComponentCollection.onSequenceComplete
+  commentId: F:Lucid.Animation.LAComponentCollection.onSequenceComplete
+  parent: Lucid.Animation.LAComponentCollection
+  name: onSequenceComplete
+  nameWithType: LAComponentCollection.onSequenceComplete
+  fullName: Lucid.Animation.LAComponentCollection.onSequenceComplete
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.TextMeshProUGUI
+  isExternal: true
+  name: TextMeshProUGUI
+  nameWithType: TextMeshProUGUI
+  fullName: TextMeshProUGUI
+- uid: Global.List{Lucid.Animation.LAColor}
+  commentId: '!:Global.List{Lucid.Animation.LAColor}'
+  definition: Global.List`1
+  name: List<LAColor>
+  nameWithType: List<LAColor>
+  fullName: List<Lucid.Animation.LAColor>
+  nameWithType.vb: List(Of LAColor)
+  fullName.vb: List(Of Lucid.Animation.LAColor)
+  name.vb: List(Of LAColor)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Lucid.Animation.LAColor
+    name: LAColor
+    nameWithType: LAColor
+    fullName: Lucid.Animation.LAColor
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Lucid.Animation.LAColor
+    name: LAColor
+    nameWithType: LAColor
+    fullName: Lucid.Animation.LAColor
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List{Lucid.Animation.LANormalisedFloat}
+  commentId: '!:Global.List{Lucid.Animation.LANormalisedFloat}'
+  definition: Global.List`1
+  name: List<LANormalisedFloat>
+  nameWithType: List<LANormalisedFloat>
+  fullName: List<Lucid.Animation.LANormalisedFloat>
+  nameWithType.vb: List(Of LANormalisedFloat)
+  fullName.vb: List(Of Lucid.Animation.LANormalisedFloat)
+  name.vb: List(Of LANormalisedFloat)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Lucid.Animation.LANormalisedFloat
+    name: LANormalisedFloat
+    nameWithType: LANormalisedFloat
+    fullName: Lucid.Animation.LANormalisedFloat
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Lucid.Animation.LANormalisedFloat
+    name: LANormalisedFloat
+    nameWithType: LANormalisedFloat
+    fullName: Lucid.Animation.LANormalisedFloat
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List{Lucid.Animation.LAFloat}
+  commentId: '!:Global.List{Lucid.Animation.LAFloat}'
+  definition: Global.List`1
+  name: List<LAFloat>
+  nameWithType: List<LAFloat>
+  fullName: List<Lucid.Animation.LAFloat>
+  nameWithType.vb: List(Of LAFloat)
+  fullName.vb: List(Of Lucid.Animation.LAFloat)
+  name.vb: List(Of LAFloat)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Lucid.Animation.LAFloat
+    name: LAFloat
+    nameWithType: LAFloat
+    fullName: Lucid.Animation.LAFloat
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Lucid.Animation.LAFloat
+    name: LAFloat
+    nameWithType: LAFloat
+    fullName: Lucid.Animation.LAFloat
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List{Lucid.Animation.LAInt}
+  commentId: '!:Global.List{Lucid.Animation.LAInt}'
+  definition: Global.List`1
+  name: List<LAInt>
+  nameWithType: List<LAInt>
+  fullName: List<Lucid.Animation.LAInt>
+  nameWithType.vb: List(Of LAInt)
+  fullName.vb: List(Of Lucid.Animation.LAInt)
+  name.vb: List(Of LAInt)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Lucid.Animation.LAInt
+    name: LAInt
+    nameWithType: LAInt
+    fullName: Lucid.Animation.LAInt
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Lucid.Animation.LAInt
+    name: LAInt
+    nameWithType: LAInt
+    fullName: Lucid.Animation.LAInt
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.Animation.LATextMeshProUGUICollection.#ctor*
+  commentId: Overload:Lucid.Animation.LATextMeshProUGUICollection.#ctor
+  name: LATextMeshProUGUICollection
+  nameWithType: LATextMeshProUGUICollection.LATextMeshProUGUICollection
+  fullName: Lucid.Animation.LATextMeshProUGUICollection.LATextMeshProUGUICollection
+- uid: Lucid.Animation.LATextMeshProUGUICollection
+  commentId: T:Lucid.Animation.LATextMeshProUGUICollection
+  parent: Lucid.Animation
+  name: LATextMeshProUGUICollection
+  nameWithType: LATextMeshProUGUICollection
+  fullName: Lucid.Animation.LATextMeshProUGUICollection
+- uid: Lucid.Animation.LAComponentCollection.AddToSequence(Sequence,System.Boolean)
+  commentId: M:Lucid.Animation.LAComponentCollection.AddToSequence(Sequence,System.Boolean)
+  parent: Lucid.Animation.LAComponentCollection
+  isExternal: true
+  name: AddToSequence(Sequence, Boolean)
+  nameWithType: LAComponentCollection.AddToSequence(Sequence, Boolean)
+  fullName: Lucid.Animation.LAComponentCollection.AddToSequence(Sequence, System.Boolean)
+  spec.csharp:
+  - uid: Lucid.Animation.LAComponentCollection.AddToSequence(Sequence,System.Boolean)
+    name: AddToSequence
+    nameWithType: LAComponentCollection.AddToSequence
+    fullName: Lucid.Animation.LAComponentCollection.AddToSequence
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Sequence
+    name: Sequence
+    nameWithType: Sequence
+    fullName: Sequence
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.Animation.LAComponentCollection.AddToSequence(Sequence,System.Boolean)
+    name: AddToSequence
+    nameWithType: LAComponentCollection.AddToSequence
+    fullName: Lucid.Animation.LAComponentCollection.AddToSequence
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Sequence
+    name: Sequence
+    nameWithType: Sequence
+    fullName: Sequence
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.Animation.LATextMeshProUGUICollection.AddToSequence*
+  commentId: Overload:Lucid.Animation.LATextMeshProUGUICollection.AddToSequence
+  name: AddToSequence
+  nameWithType: LATextMeshProUGUICollection.AddToSequence
+  fullName: Lucid.Animation.LATextMeshProUGUICollection.AddToSequence
+- uid: Global.Sequence
+  isExternal: true
+  name: Sequence
+  nameWithType: Sequence
+  fullName: Sequence
+- uid: Lucid.Animation.LAComponentCollection.GetSequenceDuration
+  commentId: M:Lucid.Animation.LAComponentCollection.GetSequenceDuration
+  parent: Lucid.Animation.LAComponentCollection
+  name: GetSequenceDuration()
+  nameWithType: LAComponentCollection.GetSequenceDuration()
+  fullName: Lucid.Animation.LAComponentCollection.GetSequenceDuration()
+  spec.csharp:
+  - uid: Lucid.Animation.LAComponentCollection.GetSequenceDuration
+    name: GetSequenceDuration
+    nameWithType: LAComponentCollection.GetSequenceDuration
+    fullName: Lucid.Animation.LAComponentCollection.GetSequenceDuration
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.Animation.LAComponentCollection.GetSequenceDuration
+    name: GetSequenceDuration
+    nameWithType: LAComponentCollection.GetSequenceDuration
+    fullName: Lucid.Animation.LAComponentCollection.GetSequenceDuration
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.Animation.LATextMeshProUGUICollection.GetSequenceDuration*
+  commentId: Overload:Lucid.Animation.LATextMeshProUGUICollection.GetSequenceDuration
+  name: GetSequenceDuration
+  nameWithType: LATextMeshProUGUICollection.GetSequenceDuration
+  fullName: Lucid.Animation.LATextMeshProUGUICollection.GetSequenceDuration
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

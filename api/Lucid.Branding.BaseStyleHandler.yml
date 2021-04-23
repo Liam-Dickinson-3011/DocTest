@@ -1,0 +1,126 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Branding.BaseStyleHandler
+  commentId: T:Lucid.Branding.BaseStyleHandler
+  id: BaseStyleHandler
+  parent: Lucid.Branding
+  children:
+  - Lucid.Branding.BaseStyleHandler.ApplyStyle
+  - Lucid.Branding.BaseStyleHandler.ApplyStyle_Editor
+  langs:
+  - csharp
+  - vb
+  name: BaseStyleHandler
+  nameWithType: BaseStyleHandler
+  fullName: Lucid.Branding.BaseStyleHandler
+  type: Class
+  source:
+    id: BaseStyleHandler
+    path: ''
+    startLine: 9214
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding
+  syntax:
+    content: 'public abstract class BaseStyleHandler : MonoBehaviour'
+    content.vb: >-
+      Public MustInherit Class BaseStyleHandler
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Lucid.Branding.Color.ColorStyleHandler
+  - Lucid.Branding.Text.TextStyleHandler
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Lucid.Branding.BaseStyleHandler.ApplyStyle
+  commentId: M:Lucid.Branding.BaseStyleHandler.ApplyStyle
+  id: ApplyStyle
+  parent: Lucid.Branding.BaseStyleHandler
+  langs:
+  - csharp
+  - vb
+  name: ApplyStyle()
+  nameWithType: BaseStyleHandler.ApplyStyle()
+  fullName: Lucid.Branding.BaseStyleHandler.ApplyStyle()
+  type: Method
+  source:
+    id: ApplyStyle
+    path: ''
+    startLine: 9216
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding
+  syntax:
+    content: public abstract void ApplyStyle()
+    content.vb: Public MustOverride Sub ApplyStyle
+  overload: Lucid.Branding.BaseStyleHandler.ApplyStyle*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: Lucid.Branding.BaseStyleHandler.ApplyStyle_Editor
+  commentId: M:Lucid.Branding.BaseStyleHandler.ApplyStyle_Editor
+  id: ApplyStyle_Editor
+  parent: Lucid.Branding.BaseStyleHandler
+  langs:
+  - csharp
+  - vb
+  name: ApplyStyle_Editor()
+  nameWithType: BaseStyleHandler.ApplyStyle_Editor()
+  fullName: Lucid.Branding.BaseStyleHandler.ApplyStyle_Editor()
+  type: Method
+  source:
+    id: ApplyStyle_Editor
+    path: ''
+    startLine: 9218
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding
+  syntax:
+    content: public abstract void ApplyStyle_Editor()
+    content.vb: Public MustOverride Sub ApplyStyle_Editor
+  overload: Lucid.Branding.BaseStyleHandler.ApplyStyle_Editor*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+references:
+- uid: Lucid.Branding
+  commentId: N:Lucid.Branding
+  name: Lucid.Branding
+  nameWithType: Lucid.Branding
+  fullName: Lucid.Branding
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.Branding.BaseStyleHandler.ApplyStyle*
+  commentId: Overload:Lucid.Branding.BaseStyleHandler.ApplyStyle
+  name: ApplyStyle
+  nameWithType: BaseStyleHandler.ApplyStyle
+  fullName: Lucid.Branding.BaseStyleHandler.ApplyStyle
+- uid: Lucid.Branding.BaseStyleHandler.ApplyStyle_Editor*
+  commentId: Overload:Lucid.Branding.BaseStyleHandler.ApplyStyle_Editor
+  name: ApplyStyle_Editor
+  nameWithType: BaseStyleHandler.ApplyStyle_Editor
+  fullName: Lucid.Branding.BaseStyleHandler.ApplyStyle_Editor

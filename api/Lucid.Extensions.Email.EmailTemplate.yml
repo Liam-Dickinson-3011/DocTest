@@ -1,0 +1,381 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Extensions.Email.EmailTemplate
+  commentId: T:Lucid.Extensions.Email.EmailTemplate
+  id: EmailTemplate
+  parent: Lucid.Extensions.Email
+  children:
+  - Lucid.Extensions.Email.EmailTemplate.AddAttachment(System.String)
+  - Lucid.Extensions.Email.EmailTemplate.bccEmails
+  - Lucid.Extensions.Email.EmailTemplate.body
+  - Lucid.Extensions.Email.EmailTemplate.ccEmails
+  - Lucid.Extensions.Email.EmailTemplate.ConstructEmail
+  - Lucid.Extensions.Email.EmailTemplate.emailMessage
+  - Lucid.Extensions.Email.EmailTemplate.recipientEmails
+  - Lucid.Extensions.Email.EmailTemplate.subject
+  langs:
+  - csharp
+  - vb
+  name: EmailTemplate
+  nameWithType: EmailTemplate
+  fullName: Lucid.Extensions.Email.EmailTemplate
+  type: Class
+  source:
+    id: EmailTemplate
+    path: ''
+    startLine: 4571
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.Email
+  syntax:
+    content: 'public class EmailTemplate : ScriptableObject'
+    content.vb: >-
+      Public Class EmailTemplate
+          Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Extensions.Email.EmailTemplate.recipientEmails
+  commentId: F:Lucid.Extensions.Email.EmailTemplate.recipientEmails
+  id: recipientEmails
+  parent: Lucid.Extensions.Email.EmailTemplate
+  langs:
+  - csharp
+  - vb
+  name: recipientEmails
+  nameWithType: EmailTemplate.recipientEmails
+  fullName: Lucid.Extensions.Email.EmailTemplate.recipientEmails
+  type: Field
+  source:
+    id: recipientEmails
+    path: ''
+    startLine: 4575
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.Email
+  syntax:
+    content: public List<string> recipientEmails
+    return:
+      type: Global.List{System.String}
+    content.vb: Public recipientEmails As List(Of String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.Email.EmailTemplate.ccEmails
+  commentId: F:Lucid.Extensions.Email.EmailTemplate.ccEmails
+  id: ccEmails
+  parent: Lucid.Extensions.Email.EmailTemplate
+  langs:
+  - csharp
+  - vb
+  name: ccEmails
+  nameWithType: EmailTemplate.ccEmails
+  fullName: Lucid.Extensions.Email.EmailTemplate.ccEmails
+  type: Field
+  source:
+    id: ccEmails
+    path: ''
+    startLine: 4577
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.Email
+  syntax:
+    content: public List<string> ccEmails
+    return:
+      type: Global.List{System.String}
+    content.vb: Public ccEmails As List(Of String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.Email.EmailTemplate.bccEmails
+  commentId: F:Lucid.Extensions.Email.EmailTemplate.bccEmails
+  id: bccEmails
+  parent: Lucid.Extensions.Email.EmailTemplate
+  langs:
+  - csharp
+  - vb
+  name: bccEmails
+  nameWithType: EmailTemplate.bccEmails
+  fullName: Lucid.Extensions.Email.EmailTemplate.bccEmails
+  type: Field
+  source:
+    id: bccEmails
+    path: ''
+    startLine: 4579
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.Email
+  syntax:
+    content: public List<string> bccEmails
+    return:
+      type: Global.List{System.String}
+    content.vb: Public bccEmails As List(Of String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.Email.EmailTemplate.subject
+  commentId: F:Lucid.Extensions.Email.EmailTemplate.subject
+  id: subject
+  parent: Lucid.Extensions.Email.EmailTemplate
+  langs:
+  - csharp
+  - vb
+  name: subject
+  nameWithType: EmailTemplate.subject
+  fullName: Lucid.Extensions.Email.EmailTemplate.subject
+  type: Field
+  source:
+    id: subject
+    path: ''
+    startLine: 4582
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.Email
+  syntax:
+    content: public string subject
+    return:
+      type: System.String
+    content.vb: Public subject As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.Email.EmailTemplate.body
+  commentId: F:Lucid.Extensions.Email.EmailTemplate.body
+  id: body
+  parent: Lucid.Extensions.Email.EmailTemplate
+  langs:
+  - csharp
+  - vb
+  name: body
+  nameWithType: EmailTemplate.body
+  fullName: Lucid.Extensions.Email.EmailTemplate.body
+  type: Field
+  source:
+    id: body
+    path: ''
+    startLine: 4584
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.Email
+  syntax:
+    content: public string body
+    return:
+      type: System.String
+    content.vb: Public body As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.Email.EmailTemplate.emailMessage
+  commentId: F:Lucid.Extensions.Email.EmailTemplate.emailMessage
+  id: emailMessage
+  parent: Lucid.Extensions.Email.EmailTemplate
+  langs:
+  - csharp
+  - vb
+  name: emailMessage
+  nameWithType: EmailTemplate.emailMessage
+  fullName: Lucid.Extensions.Email.EmailTemplate.emailMessage
+  type: Field
+  source:
+    id: emailMessage
+    path: ''
+    startLine: 4586
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.Email
+  syntax:
+    content: public MailMessage emailMessage
+    return:
+      type: Global.MailMessage
+    content.vb: Public emailMessage As MailMessage
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.Email.EmailTemplate.ConstructEmail
+  commentId: M:Lucid.Extensions.Email.EmailTemplate.ConstructEmail
+  id: ConstructEmail
+  parent: Lucid.Extensions.Email.EmailTemplate
+  langs:
+  - csharp
+  - vb
+  name: ConstructEmail()
+  nameWithType: EmailTemplate.ConstructEmail()
+  fullName: Lucid.Extensions.Email.EmailTemplate.ConstructEmail()
+  type: Method
+  source:
+    id: ConstructEmail
+    path: ''
+    startLine: 4588
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.Email
+  syntax:
+    content: public void ConstructEmail()
+    content.vb: Public Sub ConstructEmail
+  overload: Lucid.Extensions.Email.EmailTemplate.ConstructEmail*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.Email.EmailTemplate.AddAttachment(System.String)
+  commentId: M:Lucid.Extensions.Email.EmailTemplate.AddAttachment(System.String)
+  id: AddAttachment(System.String)
+  parent: Lucid.Extensions.Email.EmailTemplate
+  langs:
+  - csharp
+  - vb
+  name: AddAttachment(String)
+  nameWithType: EmailTemplate.AddAttachment(String)
+  fullName: Lucid.Extensions.Email.EmailTemplate.AddAttachment(System.String)
+  type: Method
+  source:
+    id: AddAttachment
+    path: ''
+    startLine: 4605
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.Email
+  syntax:
+    content: public void AddAttachment(string filePath)
+    parameters:
+    - id: filePath
+      type: System.String
+    content.vb: Public Sub AddAttachment(filePath As String)
+  overload: Lucid.Extensions.Email.EmailTemplate.AddAttachment*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Extensions.Email
+  commentId: N:Lucid.Extensions.Email
+  name: Lucid.Extensions.Email
+  nameWithType: Lucid.Extensions.Email
+  fullName: Lucid.Extensions.Email
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.List{System.String}
+  commentId: '!:Global.List{System.String}'
+  definition: Global.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.MailMessage
+  isExternal: true
+  name: MailMessage
+  nameWithType: MailMessage
+  fullName: MailMessage
+- uid: Lucid.Extensions.Email.EmailTemplate.ConstructEmail*
+  commentId: Overload:Lucid.Extensions.Email.EmailTemplate.ConstructEmail
+  name: ConstructEmail
+  nameWithType: EmailTemplate.ConstructEmail
+  fullName: Lucid.Extensions.Email.EmailTemplate.ConstructEmail
+- uid: Lucid.Extensions.Email.EmailTemplate.AddAttachment*
+  commentId: Overload:Lucid.Extensions.Email.EmailTemplate.AddAttachment
+  name: AddAttachment
+  nameWithType: EmailTemplate.AddAttachment
+  fullName: Lucid.Extensions.Email.EmailTemplate.AddAttachment

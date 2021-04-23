@@ -1,0 +1,744 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Animation.LARectTransformCollection
+  commentId: T:Lucid.Animation.LARectTransformCollection
+  id: LARectTransformCollection
+  parent: Lucid.Animation
+  children:
+  - Lucid.Animation.LARectTransformCollection.#ctor
+  - Lucid.Animation.LARectTransformCollection.#ctor(Lucid.Animation.LARectTransformCollection)
+  - Lucid.Animation.LARectTransformCollection.AddToSequence(Sequence,System.Boolean)
+  - Lucid.Animation.LARectTransformCollection.doPos
+  - Lucid.Animation.LARectTransformCollection.doRot
+  - Lucid.Animation.LARectTransformCollection.doScale
+  - Lucid.Animation.LARectTransformCollection.doSize
+  - Lucid.Animation.LARectTransformCollection.GetSequenceDuration
+  - Lucid.Animation.LARectTransformCollection.target
+  - Lucid.Animation.LARectTransformCollection.targetEulerRots
+  - Lucid.Animation.LARectTransformCollection.targetPositions
+  - Lucid.Animation.LARectTransformCollection.targetScales
+  - Lucid.Animation.LARectTransformCollection.targetSizes
+  langs:
+  - csharp
+  - vb
+  name: LARectTransformCollection
+  nameWithType: LARectTransformCollection
+  fullName: Lucid.Animation.LARectTransformCollection
+  type: Class
+  source:
+    id: LARectTransformCollection
+    path: ''
+    startLine: 23298
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class LARectTransformCollection : LAComponentCollection
+    content.vb: >-
+      <Serializable>
+
+      Public Class LARectTransformCollection
+          Inherits LAComponentCollection
+  inheritance:
+  - System.Object
+  - Lucid.Animation.LAComponentCollection
+  inheritedMembers:
+  - Lucid.Animation.LAComponentCollection.onSequenceComplete
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Animation.LARectTransformCollection.doPos
+  commentId: F:Lucid.Animation.LARectTransformCollection.doPos
+  id: doPos
+  parent: Lucid.Animation.LARectTransformCollection
+  langs:
+  - csharp
+  - vb
+  name: doPos
+  nameWithType: LARectTransformCollection.doPos
+  fullName: Lucid.Animation.LARectTransformCollection.doPos
+  type: Field
+  source:
+    id: doPos
+    path: ''
+    startLine: 23305
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public bool doPos
+    return:
+      type: System.Boolean
+    content.vb: Public doPos As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LARectTransformCollection.doRot
+  commentId: F:Lucid.Animation.LARectTransformCollection.doRot
+  id: doRot
+  parent: Lucid.Animation.LARectTransformCollection
+  langs:
+  - csharp
+  - vb
+  name: doRot
+  nameWithType: LARectTransformCollection.doRot
+  fullName: Lucid.Animation.LARectTransformCollection.doRot
+  type: Field
+  source:
+    id: doRot
+    path: ''
+    startLine: 23309
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public bool doRot
+    return:
+      type: System.Boolean
+    content.vb: Public doRot As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LARectTransformCollection.doScale
+  commentId: F:Lucid.Animation.LARectTransformCollection.doScale
+  id: doScale
+  parent: Lucid.Animation.LARectTransformCollection
+  langs:
+  - csharp
+  - vb
+  name: doScale
+  nameWithType: LARectTransformCollection.doScale
+  fullName: Lucid.Animation.LARectTransformCollection.doScale
+  type: Field
+  source:
+    id: doScale
+    path: ''
+    startLine: 23313
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public bool doScale
+    return:
+      type: System.Boolean
+    content.vb: Public doScale As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LARectTransformCollection.doSize
+  commentId: F:Lucid.Animation.LARectTransformCollection.doSize
+  id: doSize
+  parent: Lucid.Animation.LARectTransformCollection
+  langs:
+  - csharp
+  - vb
+  name: doSize
+  nameWithType: LARectTransformCollection.doSize
+  fullName: Lucid.Animation.LARectTransformCollection.doSize
+  type: Field
+  source:
+    id: doSize
+    path: ''
+    startLine: 23317
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public bool doSize
+    return:
+      type: System.Boolean
+    content.vb: Public doSize As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LARectTransformCollection.target
+  commentId: F:Lucid.Animation.LARectTransformCollection.target
+  id: target
+  parent: Lucid.Animation.LARectTransformCollection
+  langs:
+  - csharp
+  - vb
+  name: target
+  nameWithType: LARectTransformCollection.target
+  fullName: Lucid.Animation.LARectTransformCollection.target
+  type: Field
+  source:
+    id: target
+    path: ''
+    startLine: 23322
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public RectTransform target
+    return:
+      type: Global.RectTransform
+    content.vb: Public target As RectTransform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LARectTransformCollection.targetPositions
+  commentId: F:Lucid.Animation.LARectTransformCollection.targetPositions
+  id: targetPositions
+  parent: Lucid.Animation.LARectTransformCollection
+  langs:
+  - csharp
+  - vb
+  name: targetPositions
+  nameWithType: LARectTransformCollection.targetPositions
+  fullName: Lucid.Animation.LARectTransformCollection.targetPositions
+  type: Field
+  source:
+    id: targetPositions
+    path: ''
+    startLine: 23330
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public List<LAVector3> targetPositions
+    return:
+      type: Global.List{Lucid.Animation.LAVector3}
+    content.vb: Public targetPositions As List(Of LAVector3)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LARectTransformCollection.targetEulerRots
+  commentId: F:Lucid.Animation.LARectTransformCollection.targetEulerRots
+  id: targetEulerRots
+  parent: Lucid.Animation.LARectTransformCollection
+  langs:
+  - csharp
+  - vb
+  name: targetEulerRots
+  nameWithType: LARectTransformCollection.targetEulerRots
+  fullName: Lucid.Animation.LARectTransformCollection.targetEulerRots
+  type: Field
+  source:
+    id: targetEulerRots
+    path: ''
+    startLine: 23338
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public List<LAEulerAngles> targetEulerRots
+    return:
+      type: Global.List{Lucid.Animation.LAEulerAngles}
+    content.vb: Public targetEulerRots As List(Of LAEulerAngles)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LARectTransformCollection.targetScales
+  commentId: F:Lucid.Animation.LARectTransformCollection.targetScales
+  id: targetScales
+  parent: Lucid.Animation.LARectTransformCollection
+  langs:
+  - csharp
+  - vb
+  name: targetScales
+  nameWithType: LARectTransformCollection.targetScales
+  fullName: Lucid.Animation.LARectTransformCollection.targetScales
+  type: Field
+  source:
+    id: targetScales
+    path: ''
+    startLine: 23346
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public List<LAVector3> targetScales
+    return:
+      type: Global.List{Lucid.Animation.LAVector3}
+    content.vb: Public targetScales As List(Of LAVector3)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LARectTransformCollection.targetSizes
+  commentId: F:Lucid.Animation.LARectTransformCollection.targetSizes
+  id: targetSizes
+  parent: Lucid.Animation.LARectTransformCollection
+  langs:
+  - csharp
+  - vb
+  name: targetSizes
+  nameWithType: LARectTransformCollection.targetSizes
+  fullName: Lucid.Animation.LARectTransformCollection.targetSizes
+  type: Field
+  source:
+    id: targetSizes
+    path: ''
+    startLine: 23354
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public List<LAVector2> targetSizes
+    return:
+      type: Global.List{Lucid.Animation.LAVector2}
+    content.vb: Public targetSizes As List(Of LAVector2)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LARectTransformCollection.#ctor
+  commentId: M:Lucid.Animation.LARectTransformCollection.#ctor
+  id: '#ctor'
+  parent: Lucid.Animation.LARectTransformCollection
+  langs:
+  - csharp
+  - vb
+  name: LARectTransformCollection()
+  nameWithType: LARectTransformCollection.LARectTransformCollection()
+  fullName: Lucid.Animation.LARectTransformCollection.LARectTransformCollection()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 23383
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LARectTransformCollection()
+    content.vb: Public Sub New
+  overload: Lucid.Animation.LARectTransformCollection.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LARectTransformCollection.#ctor(Lucid.Animation.LARectTransformCollection)
+  commentId: M:Lucid.Animation.LARectTransformCollection.#ctor(Lucid.Animation.LARectTransformCollection)
+  id: '#ctor(Lucid.Animation.LARectTransformCollection)'
+  parent: Lucid.Animation.LARectTransformCollection
+  langs:
+  - csharp
+  - vb
+  name: LARectTransformCollection(LARectTransformCollection)
+  nameWithType: LARectTransformCollection.LARectTransformCollection(LARectTransformCollection)
+  fullName: Lucid.Animation.LARectTransformCollection.LARectTransformCollection(Lucid.Animation.LARectTransformCollection)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 23391
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LARectTransformCollection(LARectTransformCollection copy)
+    parameters:
+    - id: copy
+      type: Lucid.Animation.LARectTransformCollection
+    content.vb: Public Sub New(copy As LARectTransformCollection)
+  overload: Lucid.Animation.LARectTransformCollection.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LARectTransformCollection.AddToSequence(Sequence,System.Boolean)
+  commentId: M:Lucid.Animation.LARectTransformCollection.AddToSequence(Sequence,System.Boolean)
+  id: AddToSequence(Sequence,System.Boolean)
+  parent: Lucid.Animation.LARectTransformCollection
+  langs:
+  - csharp
+  - vb
+  name: AddToSequence(Sequence, Boolean)
+  nameWithType: LARectTransformCollection.AddToSequence(Sequence, Boolean)
+  fullName: Lucid.Animation.LARectTransformCollection.AddToSequence(Sequence, System.Boolean)
+  type: Method
+  source:
+    id: AddToSequence
+    path: ''
+    startLine: 23425
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public override Sequence AddToSequence(Sequence seq, bool ignoreTimescale = false)
+    parameters:
+    - id: seq
+      type: Global.Sequence
+    - id: ignoreTimescale
+      type: System.Boolean
+    return:
+      type: Global.Sequence
+    content.vb: Public Overrides Function AddToSequence(seq As Sequence, ignoreTimescale As Boolean = False) As Sequence
+  overridden: Lucid.Animation.LAComponentCollection.AddToSequence(Sequence,System.Boolean)
+  overload: Lucid.Animation.LARectTransformCollection.AddToSequence*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Lucid.Animation.LARectTransformCollection.GetSequenceDuration
+  commentId: M:Lucid.Animation.LARectTransformCollection.GetSequenceDuration
+  id: GetSequenceDuration
+  parent: Lucid.Animation.LARectTransformCollection
+  langs:
+  - csharp
+  - vb
+  name: GetSequenceDuration()
+  nameWithType: LARectTransformCollection.GetSequenceDuration()
+  fullName: Lucid.Animation.LARectTransformCollection.GetSequenceDuration()
+  type: Method
+  source:
+    id: GetSequenceDuration
+    path: ''
+    startLine: 23469
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public override float GetSequenceDuration()
+    return:
+      type: System.Single
+    content.vb: Public Overrides Function GetSequenceDuration As Single
+  overridden: Lucid.Animation.LAComponentCollection.GetSequenceDuration
+  overload: Lucid.Animation.LARectTransformCollection.GetSequenceDuration*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Lucid.Animation
+  commentId: N:Lucid.Animation
+  name: Lucid.Animation
+  nameWithType: Lucid.Animation
+  fullName: Lucid.Animation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Lucid.Animation.LAComponentCollection
+  commentId: T:Lucid.Animation.LAComponentCollection
+  parent: Lucid.Animation
+  name: LAComponentCollection
+  nameWithType: LAComponentCollection
+  fullName: Lucid.Animation.LAComponentCollection
+- uid: Lucid.Animation.LAComponentCollection.onSequenceComplete
+  commentId: F:Lucid.Animation.LAComponentCollection.onSequenceComplete
+  parent: Lucid.Animation.LAComponentCollection
+  name: onSequenceComplete
+  nameWithType: LAComponentCollection.onSequenceComplete
+  fullName: Lucid.Animation.LAComponentCollection.onSequenceComplete
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.RectTransform
+  isExternal: true
+  name: RectTransform
+  nameWithType: RectTransform
+  fullName: RectTransform
+- uid: Global.List{Lucid.Animation.LAVector3}
+  commentId: '!:Global.List{Lucid.Animation.LAVector3}'
+  definition: Global.List`1
+  name: List<LAVector3>
+  nameWithType: List<LAVector3>
+  fullName: List<Lucid.Animation.LAVector3>
+  nameWithType.vb: List(Of LAVector3)
+  fullName.vb: List(Of Lucid.Animation.LAVector3)
+  name.vb: List(Of LAVector3)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Lucid.Animation.LAVector3
+    name: LAVector3
+    nameWithType: LAVector3
+    fullName: Lucid.Animation.LAVector3
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Lucid.Animation.LAVector3
+    name: LAVector3
+    nameWithType: LAVector3
+    fullName: Lucid.Animation.LAVector3
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List{Lucid.Animation.LAEulerAngles}
+  commentId: '!:Global.List{Lucid.Animation.LAEulerAngles}'
+  definition: Global.List`1
+  name: List<LAEulerAngles>
+  nameWithType: List<LAEulerAngles>
+  fullName: List<Lucid.Animation.LAEulerAngles>
+  nameWithType.vb: List(Of LAEulerAngles)
+  fullName.vb: List(Of Lucid.Animation.LAEulerAngles)
+  name.vb: List(Of LAEulerAngles)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Lucid.Animation.LAEulerAngles
+    name: LAEulerAngles
+    nameWithType: LAEulerAngles
+    fullName: Lucid.Animation.LAEulerAngles
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Lucid.Animation.LAEulerAngles
+    name: LAEulerAngles
+    nameWithType: LAEulerAngles
+    fullName: Lucid.Animation.LAEulerAngles
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List{Lucid.Animation.LAVector2}
+  commentId: '!:Global.List{Lucid.Animation.LAVector2}'
+  definition: Global.List`1
+  name: List<LAVector2>
+  nameWithType: List<LAVector2>
+  fullName: List<Lucid.Animation.LAVector2>
+  nameWithType.vb: List(Of LAVector2)
+  fullName.vb: List(Of Lucid.Animation.LAVector2)
+  name.vb: List(Of LAVector2)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Lucid.Animation.LAVector2
+    name: LAVector2
+    nameWithType: LAVector2
+    fullName: Lucid.Animation.LAVector2
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Lucid.Animation.LAVector2
+    name: LAVector2
+    nameWithType: LAVector2
+    fullName: Lucid.Animation.LAVector2
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.Animation.LARectTransformCollection.#ctor*
+  commentId: Overload:Lucid.Animation.LARectTransformCollection.#ctor
+  name: LARectTransformCollection
+  nameWithType: LARectTransformCollection.LARectTransformCollection
+  fullName: Lucid.Animation.LARectTransformCollection.LARectTransformCollection
+- uid: Lucid.Animation.LARectTransformCollection
+  commentId: T:Lucid.Animation.LARectTransformCollection
+  parent: Lucid.Animation
+  name: LARectTransformCollection
+  nameWithType: LARectTransformCollection
+  fullName: Lucid.Animation.LARectTransformCollection
+- uid: Lucid.Animation.LAComponentCollection.AddToSequence(Sequence,System.Boolean)
+  commentId: M:Lucid.Animation.LAComponentCollection.AddToSequence(Sequence,System.Boolean)
+  parent: Lucid.Animation.LAComponentCollection
+  isExternal: true
+  name: AddToSequence(Sequence, Boolean)
+  nameWithType: LAComponentCollection.AddToSequence(Sequence, Boolean)
+  fullName: Lucid.Animation.LAComponentCollection.AddToSequence(Sequence, System.Boolean)
+  spec.csharp:
+  - uid: Lucid.Animation.LAComponentCollection.AddToSequence(Sequence,System.Boolean)
+    name: AddToSequence
+    nameWithType: LAComponentCollection.AddToSequence
+    fullName: Lucid.Animation.LAComponentCollection.AddToSequence
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Sequence
+    name: Sequence
+    nameWithType: Sequence
+    fullName: Sequence
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.Animation.LAComponentCollection.AddToSequence(Sequence,System.Boolean)
+    name: AddToSequence
+    nameWithType: LAComponentCollection.AddToSequence
+    fullName: Lucid.Animation.LAComponentCollection.AddToSequence
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Sequence
+    name: Sequence
+    nameWithType: Sequence
+    fullName: Sequence
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.Animation.LARectTransformCollection.AddToSequence*
+  commentId: Overload:Lucid.Animation.LARectTransformCollection.AddToSequence
+  name: AddToSequence
+  nameWithType: LARectTransformCollection.AddToSequence
+  fullName: Lucid.Animation.LARectTransformCollection.AddToSequence
+- uid: Global.Sequence
+  isExternal: true
+  name: Sequence
+  nameWithType: Sequence
+  fullName: Sequence
+- uid: Lucid.Animation.LAComponentCollection.GetSequenceDuration
+  commentId: M:Lucid.Animation.LAComponentCollection.GetSequenceDuration
+  parent: Lucid.Animation.LAComponentCollection
+  name: GetSequenceDuration()
+  nameWithType: LAComponentCollection.GetSequenceDuration()
+  fullName: Lucid.Animation.LAComponentCollection.GetSequenceDuration()
+  spec.csharp:
+  - uid: Lucid.Animation.LAComponentCollection.GetSequenceDuration
+    name: GetSequenceDuration
+    nameWithType: LAComponentCollection.GetSequenceDuration
+    fullName: Lucid.Animation.LAComponentCollection.GetSequenceDuration
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.Animation.LAComponentCollection.GetSequenceDuration
+    name: GetSequenceDuration
+    nameWithType: LAComponentCollection.GetSequenceDuration
+    fullName: Lucid.Animation.LAComponentCollection.GetSequenceDuration
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.Animation.LARectTransformCollection.GetSequenceDuration*
+  commentId: Overload:Lucid.Animation.LARectTransformCollection.GetSequenceDuration
+  name: GetSequenceDuration
+  nameWithType: LARectTransformCollection.GetSequenceDuration
+  fullName: Lucid.Animation.LARectTransformCollection.GetSequenceDuration
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

@@ -1,0 +1,48 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.SceneManagement
+  commentId: N:Lucid.SceneManagement
+  id: Lucid.SceneManagement
+  children:
+  - Lucid.SceneManagement.Scene
+  - Lucid.SceneManagement.Scene.SceneLoadType
+  - Lucid.SceneManagement.SceneDatabase
+  - Lucid.SceneManagement.SceneManager
+  langs:
+  - csharp
+  - vb
+  name: Lucid.SceneManagement
+  nameWithType: Lucid.SceneManagement
+  fullName: Lucid.SceneManagement
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Lucid.SceneManagement.Scene
+  commentId: T:Lucid.SceneManagement.Scene
+  parent: Lucid.SceneManagement
+  name: Scene
+  nameWithType: Scene
+  fullName: Lucid.SceneManagement.Scene
+- uid: Lucid.SceneManagement.Scene.SceneLoadType
+  commentId: T:Lucid.SceneManagement.Scene.SceneLoadType
+  parent: Lucid.SceneManagement
+  name: Scene.SceneLoadType
+  nameWithType: Scene.SceneLoadType
+  fullName: Lucid.SceneManagement.Scene.SceneLoadType
+- uid: Lucid.SceneManagement.SceneManager
+  commentId: T:Lucid.SceneManagement.SceneManager
+  name: SceneManager
+  nameWithType: SceneManager
+  fullName: Lucid.SceneManagement.SceneManager
+- uid: Lucid.SceneManagement.SceneDatabase
+  commentId: T:Lucid.SceneManagement.SceneDatabase
+  parent: Lucid.SceneManagement
+  name: SceneDatabase
+  nameWithType: SceneDatabase
+  fullName: Lucid.SceneManagement.SceneDatabase
+- uid: Lucid.SceneManagement
+  commentId: N:Lucid.SceneManagement
+  name: Lucid.SceneManagement
+  nameWithType: Lucid.SceneManagement
+  fullName: Lucid.SceneManagement

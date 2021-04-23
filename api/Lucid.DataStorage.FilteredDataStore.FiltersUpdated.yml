@@ -1,0 +1,45 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.DataStorage.FilteredDataStore.FiltersUpdated
+  commentId: T:Lucid.DataStorage.FilteredDataStore.FiltersUpdated
+  id: FilteredDataStore.FiltersUpdated
+  parent: Lucid.DataStorage
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: FilteredDataStore.FiltersUpdated
+  nameWithType: FilteredDataStore.FiltersUpdated
+  fullName: Lucid.DataStorage.FilteredDataStore.FiltersUpdated
+  type: Delegate
+  source:
+    id: FiltersUpdated
+    path: ''
+    startLine: 14538
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public delegate void FiltersUpdated(Node filteredData);
+    parameters:
+    - id: filteredData
+      type: Lucid.DataStorage.Node
+    content.vb: Public Delegate Sub FiltersUpdated(filteredData As Node)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Lucid.DataStorage
+  commentId: N:Lucid.DataStorage
+  name: Lucid.DataStorage
+  nameWithType: Lucid.DataStorage
+  fullName: Lucid.DataStorage
+- uid: Lucid.DataStorage.Node
+  commentId: T:Lucid.DataStorage.Node
+  parent: Lucid.DataStorage
+  name: Node
+  nameWithType: Node
+  fullName: Lucid.DataStorage.Node

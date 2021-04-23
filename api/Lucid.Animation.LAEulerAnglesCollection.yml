@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Animation.LAEulerAnglesCollection
+  commentId: T:Lucid.Animation.LAEulerAnglesCollection
+  id: LAEulerAnglesCollection
+  parent: Lucid.Animation
+  children:
+  - Lucid.Animation.LAEulerAnglesCollection.#ctor
+  - Lucid.Animation.LAEulerAnglesCollection.#ctor(Lucid.Animation.LAEulerAnglesCollection)
+  - Lucid.Animation.LAEulerAnglesCollection.OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  langs:
+  - csharp
+  - vb
+  name: LAEulerAnglesCollection
+  nameWithType: LAEulerAnglesCollection
+  fullName: Lucid.Animation.LAEulerAnglesCollection
+  type: Class
+  source:
+    id: LAEulerAnglesCollection
+    path: ''
+    startLine: 24328
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class LAEulerAnglesCollection : ObservableCollection<LAEulerAngles>, INotifyCollectionChanged, INotifyPropertyChanged
+    content.vb: >-
+      <Serializable>
+
+      Public Class LAEulerAnglesCollection
+          Inherits ObservableCollection(Of LAEulerAngles)
+          Implements INotifyCollectionChanged, INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Animation.LAEulerAnglesCollection.#ctor
+  commentId: M:Lucid.Animation.LAEulerAnglesCollection.#ctor
+  id: '#ctor'
+  parent: Lucid.Animation.LAEulerAnglesCollection
+  langs:
+  - csharp
+  - vb
+  name: LAEulerAnglesCollection()
+  nameWithType: LAEulerAnglesCollection.LAEulerAnglesCollection()
+  fullName: Lucid.Animation.LAEulerAnglesCollection.LAEulerAnglesCollection()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 24331
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAEulerAnglesCollection()
+    content.vb: Public Sub New
+  overload: Lucid.Animation.LAEulerAnglesCollection.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAEulerAnglesCollection.#ctor(Lucid.Animation.LAEulerAnglesCollection)
+  commentId: M:Lucid.Animation.LAEulerAnglesCollection.#ctor(Lucid.Animation.LAEulerAnglesCollection)
+  id: '#ctor(Lucid.Animation.LAEulerAnglesCollection)'
+  parent: Lucid.Animation.LAEulerAnglesCollection
+  langs:
+  - csharp
+  - vb
+  name: LAEulerAnglesCollection(LAEulerAnglesCollection)
+  nameWithType: LAEulerAnglesCollection.LAEulerAnglesCollection(LAEulerAnglesCollection)
+  fullName: Lucid.Animation.LAEulerAnglesCollection.LAEulerAnglesCollection(Lucid.Animation.LAEulerAnglesCollection)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 24332
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAEulerAnglesCollection(LAEulerAnglesCollection copy)
+    parameters:
+    - id: copy
+      type: Lucid.Animation.LAEulerAnglesCollection
+    content.vb: Public Sub New(copy As LAEulerAnglesCollection)
+  overload: Lucid.Animation.LAEulerAnglesCollection.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAEulerAnglesCollection.OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  commentId: M:Lucid.Animation.LAEulerAnglesCollection.OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  id: OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  parent: Lucid.Animation.LAEulerAnglesCollection
+  langs:
+  - csharp
+  - vb
+  name: OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  nameWithType: LAEulerAnglesCollection.OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  fullName: Lucid.Animation.LAEulerAnglesCollection.OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  type: Method
+  source:
+    id: OnCollectionChanged
+    path: ''
+    startLine: 24340
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: protected override void OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+    parameters:
+    - id: e
+      type: Global.NotifyCollectionChangedEventArgs
+    content.vb: Protected Overrides Sub OnCollectionChanged(e As NotifyCollectionChangedEventArgs)
+  overload: Lucid.Animation.LAEulerAnglesCollection.OnCollectionChanged*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Lucid.Animation
+  commentId: N:Lucid.Animation
+  name: Lucid.Animation
+  nameWithType: Lucid.Animation
+  fullName: Lucid.Animation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.Animation.LAEulerAnglesCollection.#ctor*
+  commentId: Overload:Lucid.Animation.LAEulerAnglesCollection.#ctor
+  name: LAEulerAnglesCollection
+  nameWithType: LAEulerAnglesCollection.LAEulerAnglesCollection
+  fullName: Lucid.Animation.LAEulerAnglesCollection.LAEulerAnglesCollection
+- uid: Lucid.Animation.LAEulerAnglesCollection
+  commentId: T:Lucid.Animation.LAEulerAnglesCollection
+  parent: Lucid.Animation
+  name: LAEulerAnglesCollection
+  nameWithType: LAEulerAnglesCollection
+  fullName: Lucid.Animation.LAEulerAnglesCollection
+- uid: Lucid.Animation.LAEulerAnglesCollection.OnCollectionChanged*
+  commentId: Overload:Lucid.Animation.LAEulerAnglesCollection.OnCollectionChanged
+  name: OnCollectionChanged
+  nameWithType: LAEulerAnglesCollection.OnCollectionChanged
+  fullName: Lucid.Animation.LAEulerAnglesCollection.OnCollectionChanged
+- uid: Global.NotifyCollectionChangedEventArgs
+  isExternal: true
+  name: NotifyCollectionChangedEventArgs
+  nameWithType: NotifyCollectionChangedEventArgs
+  fullName: NotifyCollectionChangedEventArgs

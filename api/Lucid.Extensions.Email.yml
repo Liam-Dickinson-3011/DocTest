@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Extensions.Email
+  commentId: N:Lucid.Extensions.Email
+  id: Lucid.Extensions.Email
+  children:
+  - Lucid.Extensions.Email.EmailClient
+  - Lucid.Extensions.Email.EmailTemplate
+  langs:
+  - csharp
+  - vb
+  name: Lucid.Extensions.Email
+  nameWithType: Lucid.Extensions.Email
+  fullName: Lucid.Extensions.Email
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Lucid.Extensions.Email.EmailTemplate
+  commentId: T:Lucid.Extensions.Email.EmailTemplate
+  parent: Lucid.Extensions.Email
+  name: EmailTemplate
+  nameWithType: EmailTemplate
+  fullName: Lucid.Extensions.Email.EmailTemplate
+- uid: Lucid.Extensions.Email.EmailClient
+  commentId: T:Lucid.Extensions.Email.EmailClient
+  name: EmailClient
+  nameWithType: EmailClient
+  fullName: Lucid.Extensions.Email.EmailClient
+- uid: Lucid.Extensions.Email
+  commentId: N:Lucid.Extensions.Email
+  name: Lucid.Extensions.Email
+  nameWithType: Lucid.Extensions.Email
+  fullName: Lucid.Extensions.Email

@@ -1,0 +1,135 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Extensions.AIPeople.AIWaypoint
+  commentId: T:Lucid.Extensions.AIPeople.AIWaypoint
+  id: AIWaypoint
+  parent: Lucid.Extensions.AIPeople
+  children:
+  - Lucid.Extensions.AIPeople.AIWaypoint.DrawGizmos(Color)
+  - Lucid.Extensions.AIPeople.AIWaypoint.position
+  langs:
+  - csharp
+  - vb
+  name: AIWaypoint
+  nameWithType: AIWaypoint
+  fullName: Lucid.Extensions.AIPeople.AIWaypoint
+  type: Class
+  source:
+    id: AIWaypoint
+    path: ''
+    startLine: 4921
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: 'public class AIWaypoint : MonoBehaviour'
+    content.vb: >-
+      Public Class AIWaypoint
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Extensions.AIPeople.AIWaypoint.position
+  commentId: P:Lucid.Extensions.AIPeople.AIWaypoint.position
+  id: position
+  parent: Lucid.Extensions.AIPeople.AIWaypoint
+  langs:
+  - csharp
+  - vb
+  name: position
+  nameWithType: AIWaypoint.position
+  fullName: Lucid.Extensions.AIPeople.AIWaypoint.position
+  type: Property
+  source:
+    id: position
+    path: ''
+    startLine: 4923
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: public Vector3 position { get; }
+    parameters: []
+    return:
+      type: Global.Vector3
+    content.vb: Public ReadOnly Property position As Vector3
+  overload: Lucid.Extensions.AIPeople.AIWaypoint.position*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Lucid.Extensions.AIPeople.AIWaypoint.DrawGizmos(Color)
+  commentId: M:Lucid.Extensions.AIPeople.AIWaypoint.DrawGizmos(Color)
+  id: DrawGizmos(Color)
+  parent: Lucid.Extensions.AIPeople.AIWaypoint
+  langs:
+  - csharp
+  - vb
+  name: DrawGizmos(Color)
+  nameWithType: AIWaypoint.DrawGizmos(Color)
+  fullName: Lucid.Extensions.AIPeople.AIWaypoint.DrawGizmos(Color)
+  type: Method
+  source:
+    id: DrawGizmos
+    path: ''
+    startLine: 4925
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: public void DrawGizmos(Color color)
+    parameters:
+    - id: color
+      type: Global.Color
+    content.vb: Public Sub DrawGizmos(color As Color)
+  overload: Lucid.Extensions.AIPeople.AIWaypoint.DrawGizmos*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Extensions.AIPeople
+  commentId: N:Lucid.Extensions.AIPeople
+  name: Lucid.Extensions.AIPeople
+  nameWithType: Lucid.Extensions.AIPeople
+  fullName: Lucid.Extensions.AIPeople
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.Extensions.AIPeople.AIWaypoint.position*
+  commentId: Overload:Lucid.Extensions.AIPeople.AIWaypoint.position
+  name: position
+  nameWithType: AIWaypoint.position
+  fullName: Lucid.Extensions.AIPeople.AIWaypoint.position
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: Lucid.Extensions.AIPeople.AIWaypoint.DrawGizmos*
+  commentId: Overload:Lucid.Extensions.AIPeople.AIWaypoint.DrawGizmos
+  name: DrawGizmos
+  nameWithType: AIWaypoint.DrawGizmos
+  fullName: Lucid.Extensions.AIPeople.AIWaypoint.DrawGizmos
+- uid: Global.Color
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: Color

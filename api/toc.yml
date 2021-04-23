@@ -1,0 +1,413 @@
+### YamlMime:TableOfContent
+- uid: Lucid
+  name: Lucid
+  items:
+  - uid: Lucid.BaseEditorWindow
+    name: BaseEditorWindow
+  - uid: Lucid.LO_360TouchCam
+    name: LO_360TouchCam
+- uid: Lucid.Animation
+  name: Lucid.Animation
+  items:
+  - uid: Lucid.Animation.DefaultViewAnimData
+    name: DefaultViewAnimData
+  - uid: Lucid.Animation.GroupAnimationStyle
+    name: GroupAnimationStyle
+  - uid: Lucid.Animation.GroupAnimationStyleSettings
+    name: GroupAnimationStyleSettings
+  - uid: Lucid.Animation.ItemAnimationStyle
+    name: ItemAnimationStyle
+  - uid: Lucid.Animation.ItemAnimationStyleSettings
+    name: ItemAnimationStyleSettings
+  - uid: Lucid.Animation.LA3DItemAnimation
+    name: LA3DItemAnimation
+  - uid: Lucid.Animation.LA3DProgressingAnimation
+    name: LA3DProgressingAnimation
+  - uid: Lucid.Animation.LA3DProgressor
+    name: LA3DProgressor
+  - uid: Lucid.Animation.LACanvasGroup
+    name: LACanvasGroup
+  - uid: Lucid.Animation.LACanvasGroupCollection
+    name: LACanvasGroupCollection
+  - uid: Lucid.Animation.LAColor
+    name: LAColor
+  - uid: Lucid.Animation.LAColorCollection
+    name: LAColorCollection
+  - uid: Lucid.Animation.LAComponent
+    name: LAComponent
+  - uid: Lucid.Animation.LAComponentCollection
+    name: LAComponentCollection
+  - uid: Lucid.Animation.LAEulerAngles
+    name: LAEulerAngles
+  - uid: Lucid.Animation.LAEulerAnglesCollection
+    name: LAEulerAnglesCollection
+  - uid: Lucid.Animation.LAFloat
+    name: LAFloat
+  - uid: Lucid.Animation.LAFloatCollection
+    name: LAFloatCollection
+  - uid: Lucid.Animation.LAGradient
+    name: LAGradient
+  - uid: Lucid.Animation.LAGradientCollection
+    name: LAGradientCollection
+  - uid: Lucid.Animation.LAImage
+    name: LAImage
+  - uid: Lucid.Animation.LAImage.ColorType
+    name: LAImage.ColorType
+  - uid: Lucid.Animation.LAImageCollection
+    name: LAImageCollection
+  - uid: Lucid.Animation.LAImageCollection.ColorType
+    name: LAImageCollection.ColorType
+  - uid: Lucid.Animation.LAInt
+    name: LAInt
+  - uid: Lucid.Animation.LAIntCollection
+    name: LAIntCollection
+  - uid: Lucid.Animation.LAMaterial
+    name: LAMaterial
+  - uid: Lucid.Animation.LANormalisedFloat
+    name: LANormalisedFloat
+  - uid: Lucid.Animation.LANormalisedFloatCollection
+    name: LANormalisedFloatCollection
+  - uid: Lucid.Animation.LARectTransform
+    name: LARectTransform
+  - uid: Lucid.Animation.LARectTransformCollection
+    name: LARectTransformCollection
+  - uid: Lucid.Animation.LASelectable
+    name: LASelectable
+  - uid: Lucid.Animation.LATextMeshProUGUI
+    name: LATextMeshProUGUI
+  - uid: Lucid.Animation.LATextMeshProUGUICollection
+    name: LATextMeshProUGUICollection
+  - uid: Lucid.Animation.LATransform
+    name: LATransform
+  - uid: Lucid.Animation.LATransformCollection
+    name: LATransformCollection
+  - uid: Lucid.Animation.LAUIGroupAnimation
+    name: LAUIGroupAnimation
+  - uid: Lucid.Animation.LAUIItemAnimation
+    name: LAUIItemAnimation
+  - uid: Lucid.Animation.LAUIProgressingAnimation
+    name: LAUIProgressingAnimation
+  - uid: Lucid.Animation.LAUISwitch
+    name: LAUISwitch
+  - uid: Lucid.Animation.LAUISwitchResponder
+    name: LAUISwitchResponder
+  - uid: Lucid.Animation.LAUISwitchSet
+    name: LAUISwitchSet
+  - uid: Lucid.Animation.LAVector2
+    name: LAVector2
+  - uid: Lucid.Animation.LAVector2Collection
+    name: LAVector2Collection
+  - uid: Lucid.Animation.LAVector3
+    name: LAVector3
+  - uid: Lucid.Animation.LAVector3Collection
+    name: LAVector3Collection
+  - uid: Lucid.Animation.LucidAnim
+    name: LucidAnim
+  - uid: Lucid.Animation.TestLAProgressor
+    name: TestLAProgressor
+- uid: Lucid.Branding
+  name: Lucid.Branding
+  items:
+  - uid: Lucid.Branding.BaseStyleHandler
+    name: BaseStyleHandler
+- uid: Lucid.Branding.Color
+  name: Lucid.Branding.Color
+  items:
+  - uid: Lucid.Branding.Color.ColorStyle
+    name: ColorStyle
+  - uid: Lucid.Branding.Color.ColorStyleHandler
+    name: ColorStyleHandler
+  - uid: Lucid.Branding.Color.ColorStyleSettings
+    name: ColorStyleSettings
+- uid: Lucid.Branding.Text
+  name: Lucid.Branding.Text
+  items:
+  - uid: Lucid.Branding.Text.TextStyle
+    name: TextStyle
+  - uid: Lucid.Branding.Text.TextStyleHandler
+    name: TextStyleHandler
+  - uid: Lucid.Branding.Text.TextStyleSettings
+    name: TextStyleSettings
+- uid: Lucid.Core
+  name: Lucid.Core
+  items:
+  - uid: Lucid.Core.AppManager
+    name: AppManager
+  - uid: Lucid.Core.GalleryViewData
+    name: GalleryViewData
+  - uid: Lucid.Core.GenerationSettingsSO
+    name: GenerationSettingsSO
+  - uid: Lucid.Core.HeaderType
+    name: HeaderType
+  - uid: Lucid.Core.LayeredGraphicData
+    name: LayeredGraphicData
+  - uid: Lucid.Core.MenuItemData
+    name: MenuItemData
+  - uid: Lucid.Core.MenuItemGenData
+    name: MenuItemGenData
+  - uid: Lucid.Core.MenuItemType
+    name: MenuItemType
+  - uid: Lucid.Core.MenuLayout
+    name: MenuLayout
+  - uid: Lucid.Core.MenuType
+    name: MenuType
+  - uid: Lucid.Core.MenuViewData
+    name: MenuViewData
+  - uid: Lucid.Core.StaticViewData
+    name: StaticViewData
+  - uid: Lucid.Core.TransitionStyle
+    name: TransitionStyle
+  - uid: Lucid.Core.ViewData
+    name: ViewData
+  - uid: Lucid.Core.ViewDataSO
+    name: ViewDataSO
+  - uid: Lucid.Core.ViewState
+    name: ViewState
+  - uid: Lucid.Core.ViewType
+    name: ViewType
+- uid: Lucid.DataStorage
+  name: Lucid.DataStorage
+  items:
+  - uid: Lucid.DataStorage.CSVDataStore
+    name: CSVDataStore
+  - uid: Lucid.DataStorage.DataDrivenComponent
+    name: DataDrivenComponent
+  - uid: Lucid.DataStorage.DataDrivenImage
+    name: DataDrivenImage
+  - uid: Lucid.DataStorage.DataDrivenTextMeshPro
+    name: DataDrivenTextMeshPro
+  - uid: Lucid.DataStorage.DataStore
+    name: DataStore
+  - uid: Lucid.DataStorage.DataStore.DataType
+    name: DataStore.DataType
+  - uid: Lucid.DataStorage.DataStoreBoolFilter
+    name: DataStoreBoolFilter
+  - uid: Lucid.DataStorage.DataStoreBoolFilter.EqualityType
+    name: DataStoreBoolFilter.EqualityType
+  - uid: Lucid.DataStorage.DataStoreFloatFilter
+    name: DataStoreFloatFilter
+  - uid: Lucid.DataStorage.DataStoreFloatFilter.EqualityType
+    name: DataStoreFloatFilter.EqualityType
+  - uid: Lucid.DataStorage.DataStoreFloatRangeFilter
+    name: DataStoreFloatRangeFilter
+  - uid: Lucid.DataStorage.DataStoreFloatRangeFilter.EqualityType
+    name: DataStoreFloatRangeFilter.EqualityType
+  - uid: Lucid.DataStorage.DataStoreIntFilter
+    name: DataStoreIntFilter
+  - uid: Lucid.DataStorage.DataStoreIntFilter.EqualityType
+    name: DataStoreIntFilter.EqualityType
+  - uid: Lucid.DataStorage.DataStoreIntRangeFilter
+    name: DataStoreIntRangeFilter
+  - uid: Lucid.DataStorage.DataStoreIntRangeFilter.EqualityType
+    name: DataStoreIntRangeFilter.EqualityType
+  - uid: Lucid.DataStorage.DataStoreStringFilter
+    name: DataStoreStringFilter
+  - uid: Lucid.DataStorage.DataStoreStringFilter.EqualityType
+    name: DataStoreStringFilter.EqualityType
+  - uid: Lucid.DataStorage.FilteredDataStore
+    name: FilteredDataStore
+  - uid: Lucid.DataStorage.FilteredDataStore.FiltersUpdated
+    name: FilteredDataStore.FiltersUpdated
+  - uid: Lucid.DataStorage.FilteredDataStore.NoneFiltered
+    name: FilteredDataStore.NoneFiltered
+  - uid: Lucid.DataStorage.FilterUISlider
+    name: FilterUISlider
+  - uid: Lucid.DataStorage.FilterUIToggle
+    name: FilterUIToggle
+  - uid: Lucid.DataStorage.FilterUIToggle.ToggleType
+    name: FilterUIToggle.ToggleType
+  - uid: Lucid.DataStorage.GoogleSheetsDataStore
+    name: GoogleSheetsDataStore
+  - uid: Lucid.DataStorage.GoogleSheetsDataStore.SpreadSheetLoaded_Del
+    name: GoogleSheetsDataStore.SpreadSheetLoaded_Del
+  - uid: Lucid.DataStorage.IDataDriven
+    name: IDataDriven
+  - uid: Lucid.DataStorage.IDataStoreFilter
+    name: IDataStoreFilter
+  - uid: Lucid.DataStorage.JSONDataStore
+    name: JSONDataStore
+  - uid: Lucid.DataStorage.Node
+    name: Node
+- uid: Lucid.Easing
+  name: Lucid.Easing
+  items:
+  - uid: Lucid.Easing.ConcreteEaseMethods
+    name: ConcreteEaseMethods
+  - uid: Lucid.Easing.Ease
+    name: Ease
+  - uid: Lucid.Easing.EaseMethods
+    name: EaseMethods
+  - uid: Lucid.Easing.EaseStyle
+    name: EaseStyle
+- uid: Lucid.Extensions.AIPeople
+  name: Lucid.Extensions.AIPeople
+  items:
+  - uid: Lucid.Extensions.AIPeople.AIWaypoint
+    name: AIWaypoint
+  - uid: Lucid.Extensions.AIPeople.AIWaypointGroup
+    name: AIWaypointGroup
+  - uid: Lucid.Extensions.AIPeople.RandomWaypointWalker
+    name: RandomWaypointWalker
+  - uid: Lucid.Extensions.AIPeople.RoamerAI
+    name: RoamerAI
+  - uid: Lucid.Extensions.AIPeople.RoamerAI.LoopStyle
+    name: RoamerAI.LoopStyle
+  - uid: Lucid.Extensions.AIPeople.RoamerAI.RoamData
+    name: RoamerAI.RoamData
+  - uid: Lucid.Extensions.AIPeople.SequencedAnimator
+    name: SequencedAnimator
+  - uid: Lucid.Extensions.AIPeople.SequencedAnimator.AnimData
+    name: SequencedAnimator.AnimData
+  - uid: Lucid.Extensions.AIPeople.SequencedWaypointWalker
+    name: SequencedWaypointWalker
+  - uid: Lucid.Extensions.AIPeople.SittingTalkingAI
+    name: SittingTalkingAI
+  - uid: Lucid.Extensions.AIPeople.SittingTalkingAI.AnimData
+    name: SittingTalkingAI.AnimData
+- uid: Lucid.Extensions.Email
+  name: Lucid.Extensions.Email
+  items:
+  - uid: Lucid.Extensions.Email.EmailClient
+    name: EmailClient
+  - uid: Lucid.Extensions.Email.EmailTemplate
+    name: EmailTemplate
+- uid: Lucid.Extensions.ImageSequences
+  name: Lucid.Extensions.ImageSequences
+  items:
+  - uid: Lucid.Extensions.ImageSequences.BaseSpriteSequenceHandler
+    name: BaseSpriteSequenceHandler
+  - uid: Lucid.Extensions.ImageSequences.IImageSequence
+    name: IImageSequence
+  - uid: Lucid.Extensions.ImageSequences.ImageSequenceCameraRig
+    name: ImageSequenceCameraRig
+  - uid: Lucid.Extensions.ImageSequences.ImageSequenceInitialiser
+    name: ImageSequenceInitialiser
+  - uid: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow
+    name: ImageSequencesEditorWindow
+  - uid: Lucid.Extensions.ImageSequences.SpriteAssetBundle
+    name: SpriteAssetBundle
+  - uid: Lucid.Extensions.ImageSequences.SpriteSequence
+    name: SpriteSequence
+  - uid: Lucid.Extensions.ImageSequences.SpriteSequence.AsyncLoadType
+    name: SpriteSequence.AsyncLoadType
+  - uid: Lucid.Extensions.ImageSequences.SpriteSequence.CurrentSpriteChanged_Del
+    name: SpriteSequence.CurrentSpriteChanged_Del
+  - uid: Lucid.Extensions.ImageSequences.SpriteSequence.SpriteAssetBundleLoaded_Del
+    name: SpriteSequence.SpriteAssetBundleLoaded_Del
+  - uid: Lucid.Extensions.ImageSequences.SpriteSequence.SpriteAssetBundleUnloaded_Del
+    name: SpriteSequence.SpriteAssetBundleUnloaded_Del
+  - uid: Lucid.Extensions.ImageSequences.SpriteSequenceImage
+    name: SpriteSequenceImage
+- uid: Lucid.Extensions.RenderTurntable
+  name: Lucid.Extensions.RenderTurntable
+  items:
+  - uid: Lucid.Extensions.RenderTurntable.RenderTurntableCamera
+    name: RenderTurntableCamera
+  - uid: Lucid.Extensions.RenderTurntable.RenderTurntableImage
+    name: RenderTurntableImage
+- uid: Lucid.SceneManagement
+  name: Lucid.SceneManagement
+  items:
+  - uid: Lucid.SceneManagement.Scene
+    name: Scene
+  - uid: Lucid.SceneManagement.Scene.SceneLoadType
+    name: Scene.SceneLoadType
+  - uid: Lucid.SceneManagement.SceneDatabase
+    name: SceneDatabase
+  - uid: Lucid.SceneManagement.SceneManager
+    name: SceneManager
+- uid: Lucid.Singletons
+  name: Lucid.Singletons
+  items:
+  - uid: Lucid.Singletons.SingletonMonoBehaviour`1
+    name: SingletonMonoBehaviour<T>
+    name.vb: SingletonMonoBehaviour(Of T)
+  - uid: Lucid.Singletons.SingletonScriptableObject`1
+    name: SingletonScriptableObject<T>
+    name.vb: SingletonScriptableObject(Of T)
+- uid: Lucid.Toolkit2D
+  name: Lucid.Toolkit2D
+  items:
+  - uid: Lucid.Toolkit2D.AutoAspectFitter
+    name: AutoAspectFitter
+  - uid: Lucid.Toolkit2D.SwipeDetection
+    name: SwipeDetection
+  - uid: Lucid.Toolkit2D.SwipeDetection.DragDistanceType
+    name: SwipeDetection.DragDistanceType
+  - uid: Lucid.Toolkit2D.SwipeDetection.DraggedDirection
+    name: SwipeDetection.DraggedDirection
+  - uid: Lucid.Toolkit2D.ToggleGroupEvents
+    name: ToggleGroupEvents
+  - uid: Lucid.Toolkit2D.WorldToScreenTracking
+    name: WorldToScreenTracking
+  - uid: Lucid.Toolkit2D.WorldToScreenTracking.TrackingSet
+    name: WorldToScreenTracking.TrackingSet
+- uid: Lucid.Toolkit3D
+  name: Lucid.Toolkit3D
+  items:
+  - uid: Lucid.Toolkit3D.BaseCameraRig
+    name: BaseCameraRig
+  - uid: Lucid.Toolkit3D.CameraRigManager
+    name: CameraRigManager
+  - uid: Lucid.Toolkit3D.FakeScrollingArray
+    name: FakeScrollingArray
+  - uid: Lucid.Toolkit3D.FirstPersonCamera
+    name: FirstPersonCamera
+  - uid: Lucid.Toolkit3D.GizmoDrawer
+    name: GizmoDrawer
+  - uid: Lucid.Toolkit3D.GizmoDrawer.GizmoType
+    name: GizmoDrawer.GizmoType
+  - uid: Lucid.Toolkit3D.MaterialHighlightGroup
+    name: MaterialHighlightGroup
+  - uid: Lucid.Toolkit3D.OrbitCamera
+    name: OrbitCamera
+  - uid: Lucid.Toolkit3D.TransformRandomizer
+    name: TransformRandomizer
+- uid: Lucid.UI
+  name: Lucid.UI
+  items:
+  - uid: Lucid.UI.LayeredGraphicView
+    name: LayeredGraphicView
+  - uid: Lucid.UI.MenuButton
+    name: MenuButton
+  - uid: Lucid.UI.MenuInteractable
+    name: MenuInteractable
+  - uid: Lucid.UI.MenuToggle
+    name: MenuToggle
+  - uid: Lucid.UI.MenuView
+    name: MenuView
+  - uid: Lucid.UI.MultiSceneViewHandler
+    name: MultiSceneViewHandler
+  - uid: Lucid.UI.StaticPageView
+    name: StaticPageView
+  - uid: Lucid.UI.UIManager
+    name: UIManager
+  - uid: Lucid.UI.UIManager.SceneHandlerPair
+    name: UIManager.SceneHandlerPair
+  - uid: Lucid.UI.UIView
+    name: UIView
+- uid: Lucid.UI.Gallery
+  name: Lucid.UI.Gallery
+  items:
+  - uid: Lucid.UI.Gallery.Gallery360Image
+    name: Gallery360Image
+  - uid: Lucid.UI.Gallery.GalleryContent
+    name: GalleryContent
+  - uid: Lucid.UI.Gallery.GalleryDataDriven
+    name: GalleryDataDriven
+  - uid: Lucid.UI.Gallery.GalleryEditorWindow
+    name: GalleryEditorWindow
+  - uid: Lucid.UI.Gallery.GalleryItem
+    name: GalleryItem
+  - uid: Lucid.UI.Gallery.GalleryItemData
+    name: GalleryItemData
+  - uid: Lucid.UI.Gallery.GalleryItemData.ItemType
+    name: GalleryItemData.ItemType
+  - uid: Lucid.UI.Gallery.GallerySprite
+    name: GallerySprite
+  - uid: Lucid.UI.Gallery.GalleryThumbnail
+    name: GalleryThumbnail
+  - uid: Lucid.UI.Gallery.GalleryVideo
+    name: GalleryVideo
+  - uid: Lucid.UI.Gallery.GalleryView
+    name: GalleryView

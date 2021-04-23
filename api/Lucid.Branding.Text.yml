@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Branding.Text
+  commentId: N:Lucid.Branding.Text
+  id: Lucid.Branding.Text
+  children:
+  - Lucid.Branding.Text.TextStyle
+  - Lucid.Branding.Text.TextStyleHandler
+  - Lucid.Branding.Text.TextStyleSettings
+  langs:
+  - csharp
+  - vb
+  name: Lucid.Branding.Text
+  nameWithType: Lucid.Branding.Text
+  fullName: Lucid.Branding.Text
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Lucid.Branding.Text.TextStyleSettings
+  commentId: T:Lucid.Branding.Text.TextStyleSettings
+  name: TextStyleSettings
+  nameWithType: TextStyleSettings
+  fullName: Lucid.Branding.Text.TextStyleSettings
+- uid: Lucid.Branding.Text.TextStyle
+  commentId: T:Lucid.Branding.Text.TextStyle
+  parent: Lucid.Branding.Text
+  name: TextStyle
+  nameWithType: TextStyle
+  fullName: Lucid.Branding.Text.TextStyle
+- uid: Lucid.Branding.Text.TextStyleHandler
+  commentId: T:Lucid.Branding.Text.TextStyleHandler
+  name: TextStyleHandler
+  nameWithType: TextStyleHandler
+  fullName: Lucid.Branding.Text.TextStyleHandler
+- uid: Lucid.Branding.Text
+  commentId: N:Lucid.Branding.Text
+  name: Lucid.Branding.Text
+  nameWithType: Lucid.Branding.Text
+  fullName: Lucid.Branding.Text

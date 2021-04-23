@@ -1,0 +1,405 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow
+  commentId: T:Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow
+  id: ImageSequencesEditorWindow
+  parent: Lucid.Extensions.ImageSequences
+  children:
+  - Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.assetBundlePrefix
+  - Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.exportFolder
+  - Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.imageSequence
+  - Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.imagesPerBundle
+  - Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.sequenceFolderPath
+  - Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.spriteNameFormat
+  - Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.windowIcon
+  - Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.windowName
+  - Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.windowOrder
+  langs:
+  - csharp
+  - vb
+  name: ImageSequencesEditorWindow
+  nameWithType: ImageSequencesEditorWindow
+  fullName: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow
+  type: Class
+  source:
+    id: ImageSequencesEditorWindow
+    path: ''
+    startLine: 4493
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: 'public class ImageSequencesEditorWindow : BaseEditorWindow'
+    content.vb: >-
+      Public Class ImageSequencesEditorWindow
+          Inherits BaseEditorWindow
+  inheritance:
+  - System.Object
+  - Lucid.BaseEditorWindow
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.windowName
+  commentId: P:Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.windowName
+  id: windowName
+  parent: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow
+  langs:
+  - csharp
+  - vb
+  name: windowName
+  nameWithType: ImageSequencesEditorWindow.windowName
+  fullName: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.windowName
+  type: Property
+  source:
+    id: windowName
+    path: ''
+    startLine: 4495
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public override string windowName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overrides ReadOnly Property windowName As String
+  overridden: Lucid.BaseEditorWindow.windowName
+  overload: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.windowName*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.windowIcon
+  commentId: P:Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.windowIcon
+  id: windowIcon
+  parent: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow
+  langs:
+  - csharp
+  - vb
+  name: windowIcon
+  nameWithType: ImageSequencesEditorWindow.windowIcon
+  fullName: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.windowIcon
+  type: Property
+  source:
+    id: windowIcon
+    path: ''
+    startLine: 4496
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public override EditorIcon windowIcon { get; }
+    parameters: []
+    return:
+      type: Global.EditorIcon
+    content.vb: Public Overrides ReadOnly Property windowIcon As EditorIcon
+  overridden: Lucid.BaseEditorWindow.windowIcon
+  overload: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.windowIcon*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.windowOrder
+  commentId: P:Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.windowOrder
+  id: windowOrder
+  parent: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow
+  langs:
+  - csharp
+  - vb
+  name: windowOrder
+  nameWithType: ImageSequencesEditorWindow.windowOrder
+  fullName: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.windowOrder
+  type: Property
+  source:
+    id: windowOrder
+    path: ''
+    startLine: 4497
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public override int windowOrder { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overrides ReadOnly Property windowOrder As Integer
+  overridden: Lucid.BaseEditorWindow.windowOrder
+  overload: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.windowOrder*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.imageSequence
+  commentId: P:Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.imageSequence
+  id: imageSequence
+  parent: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow
+  langs:
+  - csharp
+  - vb
+  name: imageSequence
+  nameWithType: ImageSequencesEditorWindow.imageSequence
+  fullName: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.imageSequence
+  type: Property
+  source:
+    id: imageSequence
+    path: ''
+    startLine: 4503
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public IImageSequence imageSequence { get; set; }
+    parameters: []
+    return:
+      type: Lucid.Extensions.ImageSequences.IImageSequence
+    content.vb: Public Property imageSequence As IImageSequence
+  overload: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.imageSequence*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.sequenceFolderPath
+  commentId: F:Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.sequenceFolderPath
+  id: sequenceFolderPath
+  parent: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow
+  langs:
+  - csharp
+  - vb
+  name: sequenceFolderPath
+  nameWithType: ImageSequencesEditorWindow.sequenceFolderPath
+  fullName: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.sequenceFolderPath
+  type: Field
+  source:
+    id: sequenceFolderPath
+    path: ''
+    startLine: 4516
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public string sequenceFolderPath
+    return:
+      type: System.String
+    content.vb: Public sequenceFolderPath As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.exportFolder
+  commentId: F:Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.exportFolder
+  id: exportFolder
+  parent: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow
+  langs:
+  - csharp
+  - vb
+  name: exportFolder
+  nameWithType: ImageSequencesEditorWindow.exportFolder
+  fullName: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.exportFolder
+  type: Field
+  source:
+    id: exportFolder
+    path: ''
+    startLine: 4518
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public string exportFolder
+    return:
+      type: System.String
+    content.vb: Public exportFolder As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.assetBundlePrefix
+  commentId: F:Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.assetBundlePrefix
+  id: assetBundlePrefix
+  parent: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow
+  langs:
+  - csharp
+  - vb
+  name: assetBundlePrefix
+  nameWithType: ImageSequencesEditorWindow.assetBundlePrefix
+  fullName: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.assetBundlePrefix
+  type: Field
+  source:
+    id: assetBundlePrefix
+    path: ''
+    startLine: 4520
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public string assetBundlePrefix
+    return:
+      type: System.String
+    content.vb: Public assetBundlePrefix As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.imagesPerBundle
+  commentId: F:Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.imagesPerBundle
+  id: imagesPerBundle
+  parent: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow
+  langs:
+  - csharp
+  - vb
+  name: imagesPerBundle
+  nameWithType: ImageSequencesEditorWindow.imagesPerBundle
+  fullName: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.imagesPerBundle
+  type: Field
+  source:
+    id: imagesPerBundle
+    path: ''
+    startLine: 4522
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public int imagesPerBundle
+    return:
+      type: System.Int32
+    content.vb: Public imagesPerBundle As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.spriteNameFormat
+  commentId: F:Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.spriteNameFormat
+  id: spriteNameFormat
+  parent: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow
+  langs:
+  - csharp
+  - vb
+  name: spriteNameFormat
+  nameWithType: ImageSequencesEditorWindow.spriteNameFormat
+  fullName: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.spriteNameFormat
+  type: Field
+  source:
+    id: spriteNameFormat
+    path: ''
+    startLine: 4524
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public string spriteNameFormat
+    return:
+      type: System.String
+    content.vb: Public spriteNameFormat As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Extensions.ImageSequences
+  commentId: N:Lucid.Extensions.ImageSequences
+  name: Lucid.Extensions.ImageSequences
+  nameWithType: Lucid.Extensions.ImageSequences
+  fullName: Lucid.Extensions.ImageSequences
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Lucid.BaseEditorWindow
+  commentId: T:Lucid.BaseEditorWindow
+  parent: Lucid
+  name: BaseEditorWindow
+  nameWithType: BaseEditorWindow
+  fullName: Lucid.BaseEditorWindow
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid
+  commentId: N:Lucid
+  name: Lucid
+  nameWithType: Lucid
+  fullName: Lucid
+- uid: Lucid.BaseEditorWindow.windowName
+  commentId: P:Lucid.BaseEditorWindow.windowName
+  parent: Lucid.BaseEditorWindow
+  name: windowName
+  nameWithType: BaseEditorWindow.windowName
+  fullName: Lucid.BaseEditorWindow.windowName
+- uid: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.windowName*
+  commentId: Overload:Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.windowName
+  name: windowName
+  nameWithType: ImageSequencesEditorWindow.windowName
+  fullName: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.windowName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Lucid.BaseEditorWindow.windowIcon
+  commentId: P:Lucid.BaseEditorWindow.windowIcon
+  parent: Lucid.BaseEditorWindow
+  name: windowIcon
+  nameWithType: BaseEditorWindow.windowIcon
+  fullName: Lucid.BaseEditorWindow.windowIcon
+- uid: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.windowIcon*
+  commentId: Overload:Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.windowIcon
+  name: windowIcon
+  nameWithType: ImageSequencesEditorWindow.windowIcon
+  fullName: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.windowIcon
+- uid: Global.EditorIcon
+  isExternal: true
+  name: EditorIcon
+  nameWithType: EditorIcon
+  fullName: EditorIcon
+- uid: Lucid.BaseEditorWindow.windowOrder
+  commentId: P:Lucid.BaseEditorWindow.windowOrder
+  parent: Lucid.BaseEditorWindow
+  name: windowOrder
+  nameWithType: BaseEditorWindow.windowOrder
+  fullName: Lucid.BaseEditorWindow.windowOrder
+- uid: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.windowOrder*
+  commentId: Overload:Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.windowOrder
+  name: windowOrder
+  nameWithType: ImageSequencesEditorWindow.windowOrder
+  fullName: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.windowOrder
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.imageSequence*
+  commentId: Overload:Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.imageSequence
+  name: imageSequence
+  nameWithType: ImageSequencesEditorWindow.imageSequence
+  fullName: Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.imageSequence
+- uid: Lucid.Extensions.ImageSequences.IImageSequence
+  commentId: T:Lucid.Extensions.ImageSequences.IImageSequence
+  parent: Lucid.Extensions.ImageSequences
+  name: IImageSequence
+  nameWithType: IImageSequence
+  fullName: Lucid.Extensions.ImageSequences.IImageSequence

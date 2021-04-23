@@ -1,0 +1,586 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Animation.LACanvasGroup
+  commentId: T:Lucid.Animation.LACanvasGroup
+  id: LACanvasGroup
+  parent: Lucid.Animation
+  children:
+  - Lucid.Animation.LACanvasGroup.#ctor
+  - Lucid.Animation.LACanvasGroup.#ctor(Lucid.Animation.LACanvasGroup)
+  - Lucid.Animation.LACanvasGroup.AddToSequence(Sequence,System.Boolean,System.Boolean)
+  - Lucid.Animation.LACanvasGroup.blocksRaycasts
+  - Lucid.Animation.LACanvasGroup.CutToValues
+  - Lucid.Animation.LACanvasGroup.doFade
+  - Lucid.Animation.LACanvasGroup.doTogs
+  - Lucid.Animation.LACanvasGroup.fade
+  - Lucid.Animation.LACanvasGroup.GetSequenceDuration
+  - Lucid.Animation.LACanvasGroup.interactable
+  - Lucid.Animation.LACanvasGroup.target
+  langs:
+  - csharp
+  - vb
+  name: LACanvasGroup
+  nameWithType: LACanvasGroup
+  fullName: Lucid.Animation.LACanvasGroup
+  type: Class
+  source:
+    id: LACanvasGroup
+    path: ''
+    startLine: 23037
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class LACanvasGroup : LAComponent
+    content.vb: >-
+      <Serializable>
+
+      Public Class LACanvasGroup
+          Inherits LAComponent
+  inheritance:
+  - System.Object
+  - Lucid.Animation.LAComponent
+  inheritedMembers:
+  - Lucid.Animation.LAComponent.onSequenceComplete
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Animation.LACanvasGroup.doFade
+  commentId: F:Lucid.Animation.LACanvasGroup.doFade
+  id: doFade
+  parent: Lucid.Animation.LACanvasGroup
+  langs:
+  - csharp
+  - vb
+  name: doFade
+  nameWithType: LACanvasGroup.doFade
+  fullName: Lucid.Animation.LACanvasGroup.doFade
+  type: Field
+  source:
+    id: doFade
+    path: ''
+    startLine: 23044
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public bool doFade
+    return:
+      type: System.Boolean
+    content.vb: Public doFade As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LACanvasGroup.doTogs
+  commentId: F:Lucid.Animation.LACanvasGroup.doTogs
+  id: doTogs
+  parent: Lucid.Animation.LACanvasGroup
+  langs:
+  - csharp
+  - vb
+  name: doTogs
+  nameWithType: LACanvasGroup.doTogs
+  fullName: Lucid.Animation.LACanvasGroup.doTogs
+  type: Field
+  source:
+    id: doTogs
+    path: ''
+    startLine: 23049
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public bool doTogs
+    return:
+      type: System.Boolean
+    content.vb: Public doTogs As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LACanvasGroup.target
+  commentId: F:Lucid.Animation.LACanvasGroup.target
+  id: target
+  parent: Lucid.Animation.LACanvasGroup
+  langs:
+  - csharp
+  - vb
+  name: target
+  nameWithType: LACanvasGroup.target
+  fullName: Lucid.Animation.LACanvasGroup.target
+  type: Field
+  source:
+    id: target
+    path: ''
+    startLine: 23054
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public CanvasGroup target
+    return:
+      type: Global.CanvasGroup
+    content.vb: Public target As CanvasGroup
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LACanvasGroup.fade
+  commentId: F:Lucid.Animation.LACanvasGroup.fade
+  id: fade
+  parent: Lucid.Animation.LACanvasGroup
+  langs:
+  - csharp
+  - vb
+  name: fade
+  nameWithType: LACanvasGroup.fade
+  fullName: Lucid.Animation.LACanvasGroup.fade
+  type: Field
+  source:
+    id: fade
+    path: ''
+    startLine: 23060
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LANormalisedFloat fade
+    return:
+      type: Lucid.Animation.LANormalisedFloat
+    content.vb: Public fade As LANormalisedFloat
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LACanvasGroup.interactable
+  commentId: F:Lucid.Animation.LACanvasGroup.interactable
+  id: interactable
+  parent: Lucid.Animation.LACanvasGroup
+  langs:
+  - csharp
+  - vb
+  name: interactable
+  nameWithType: LACanvasGroup.interactable
+  fullName: Lucid.Animation.LACanvasGroup.interactable
+  type: Field
+  source:
+    id: interactable
+    path: ''
+    startLine: 23066
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public bool interactable
+    return:
+      type: System.Boolean
+    content.vb: Public interactable As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LACanvasGroup.blocksRaycasts
+  commentId: F:Lucid.Animation.LACanvasGroup.blocksRaycasts
+  id: blocksRaycasts
+  parent: Lucid.Animation.LACanvasGroup
+  langs:
+  - csharp
+  - vb
+  name: blocksRaycasts
+  nameWithType: LACanvasGroup.blocksRaycasts
+  fullName: Lucid.Animation.LACanvasGroup.blocksRaycasts
+  type: Field
+  source:
+    id: blocksRaycasts
+    path: ''
+    startLine: 23070
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public bool blocksRaycasts
+    return:
+      type: System.Boolean
+    content.vb: Public blocksRaycasts As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LACanvasGroup.#ctor
+  commentId: M:Lucid.Animation.LACanvasGroup.#ctor
+  id: '#ctor'
+  parent: Lucid.Animation.LACanvasGroup
+  langs:
+  - csharp
+  - vb
+  name: LACanvasGroup()
+  nameWithType: LACanvasGroup.LACanvasGroup()
+  fullName: Lucid.Animation.LACanvasGroup.LACanvasGroup()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 23072
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LACanvasGroup()
+    content.vb: Public Sub New
+  overload: Lucid.Animation.LACanvasGroup.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LACanvasGroup.#ctor(Lucid.Animation.LACanvasGroup)
+  commentId: M:Lucid.Animation.LACanvasGroup.#ctor(Lucid.Animation.LACanvasGroup)
+  id: '#ctor(Lucid.Animation.LACanvasGroup)'
+  parent: Lucid.Animation.LACanvasGroup
+  langs:
+  - csharp
+  - vb
+  name: LACanvasGroup(LACanvasGroup)
+  nameWithType: LACanvasGroup.LACanvasGroup(LACanvasGroup)
+  fullName: Lucid.Animation.LACanvasGroup.LACanvasGroup(Lucid.Animation.LACanvasGroup)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 23074
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LACanvasGroup(LACanvasGroup copy)
+    parameters:
+    - id: copy
+      type: Lucid.Animation.LACanvasGroup
+    content.vb: Public Sub New(copy As LACanvasGroup)
+  overload: Lucid.Animation.LACanvasGroup.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LACanvasGroup.AddToSequence(Sequence,System.Boolean,System.Boolean)
+  commentId: M:Lucid.Animation.LACanvasGroup.AddToSequence(Sequence,System.Boolean,System.Boolean)
+  id: AddToSequence(Sequence,System.Boolean,System.Boolean)
+  parent: Lucid.Animation.LACanvasGroup
+  langs:
+  - csharp
+  - vb
+  name: AddToSequence(Sequence, Boolean, Boolean)
+  nameWithType: LACanvasGroup.AddToSequence(Sequence, Boolean, Boolean)
+  fullName: Lucid.Animation.LACanvasGroup.AddToSequence(Sequence, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    id: AddToSequence
+    path: ''
+    startLine: 23084
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public override Sequence AddToSequence(Sequence seq, bool ignoreTimescale = false, bool insert = true)
+    parameters:
+    - id: seq
+      type: Global.Sequence
+    - id: ignoreTimescale
+      type: System.Boolean
+    - id: insert
+      type: System.Boolean
+    return:
+      type: Global.Sequence
+    content.vb: Public Overrides Function AddToSequence(seq As Sequence, ignoreTimescale As Boolean = False, insert As Boolean = True) As Sequence
+  overridden: Lucid.Animation.LAComponent.AddToSequence(Sequence,System.Boolean,System.Boolean)
+  overload: Lucid.Animation.LACanvasGroup.AddToSequence*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Lucid.Animation.LACanvasGroup.CutToValues
+  commentId: M:Lucid.Animation.LACanvasGroup.CutToValues
+  id: CutToValues
+  parent: Lucid.Animation.LACanvasGroup
+  langs:
+  - csharp
+  - vb
+  name: CutToValues()
+  nameWithType: LACanvasGroup.CutToValues()
+  fullName: Lucid.Animation.LACanvasGroup.CutToValues()
+  type: Method
+  source:
+    id: CutToValues
+    path: ''
+    startLine: 23112
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public override void CutToValues()
+    content.vb: Public Overrides Sub CutToValues
+  overridden: Lucid.Animation.LAComponent.CutToValues
+  overload: Lucid.Animation.LACanvasGroup.CutToValues*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Lucid.Animation.LACanvasGroup.GetSequenceDuration
+  commentId: M:Lucid.Animation.LACanvasGroup.GetSequenceDuration
+  id: GetSequenceDuration
+  parent: Lucid.Animation.LACanvasGroup
+  langs:
+  - csharp
+  - vb
+  name: GetSequenceDuration()
+  nameWithType: LACanvasGroup.GetSequenceDuration()
+  fullName: Lucid.Animation.LACanvasGroup.GetSequenceDuration()
+  type: Method
+  source:
+    id: GetSequenceDuration
+    path: ''
+    startLine: 23127
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public override float GetSequenceDuration()
+    return:
+      type: System.Single
+    content.vb: Public Overrides Function GetSequenceDuration As Single
+  overridden: Lucid.Animation.LAComponent.GetSequenceDuration
+  overload: Lucid.Animation.LACanvasGroup.GetSequenceDuration*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Lucid.Animation
+  commentId: N:Lucid.Animation
+  name: Lucid.Animation
+  nameWithType: Lucid.Animation
+  fullName: Lucid.Animation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Lucid.Animation.LAComponent
+  commentId: T:Lucid.Animation.LAComponent
+  parent: Lucid.Animation
+  name: LAComponent
+  nameWithType: LAComponent
+  fullName: Lucid.Animation.LAComponent
+- uid: Lucid.Animation.LAComponent.onSequenceComplete
+  commentId: F:Lucid.Animation.LAComponent.onSequenceComplete
+  parent: Lucid.Animation.LAComponent
+  name: onSequenceComplete
+  nameWithType: LAComponent.onSequenceComplete
+  fullName: Lucid.Animation.LAComponent.onSequenceComplete
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.CanvasGroup
+  isExternal: true
+  name: CanvasGroup
+  nameWithType: CanvasGroup
+  fullName: CanvasGroup
+- uid: Lucid.Animation.LANormalisedFloat
+  commentId: T:Lucid.Animation.LANormalisedFloat
+  parent: Lucid.Animation
+  name: LANormalisedFloat
+  nameWithType: LANormalisedFloat
+  fullName: Lucid.Animation.LANormalisedFloat
+- uid: Lucid.Animation.LACanvasGroup.#ctor*
+  commentId: Overload:Lucid.Animation.LACanvasGroup.#ctor
+  name: LACanvasGroup
+  nameWithType: LACanvasGroup.LACanvasGroup
+  fullName: Lucid.Animation.LACanvasGroup.LACanvasGroup
+- uid: Lucid.Animation.LACanvasGroup
+  commentId: T:Lucid.Animation.LACanvasGroup
+  parent: Lucid.Animation
+  name: LACanvasGroup
+  nameWithType: LACanvasGroup
+  fullName: Lucid.Animation.LACanvasGroup
+- uid: Lucid.Animation.LAComponent.AddToSequence(Sequence,System.Boolean,System.Boolean)
+  commentId: M:Lucid.Animation.LAComponent.AddToSequence(Sequence,System.Boolean,System.Boolean)
+  parent: Lucid.Animation.LAComponent
+  isExternal: true
+  name: AddToSequence(Sequence, Boolean, Boolean)
+  nameWithType: LAComponent.AddToSequence(Sequence, Boolean, Boolean)
+  fullName: Lucid.Animation.LAComponent.AddToSequence(Sequence, System.Boolean, System.Boolean)
+  spec.csharp:
+  - uid: Lucid.Animation.LAComponent.AddToSequence(Sequence,System.Boolean,System.Boolean)
+    name: AddToSequence
+    nameWithType: LAComponent.AddToSequence
+    fullName: Lucid.Animation.LAComponent.AddToSequence
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Sequence
+    name: Sequence
+    nameWithType: Sequence
+    fullName: Sequence
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.Animation.LAComponent.AddToSequence(Sequence,System.Boolean,System.Boolean)
+    name: AddToSequence
+    nameWithType: LAComponent.AddToSequence
+    fullName: Lucid.Animation.LAComponent.AddToSequence
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Sequence
+    name: Sequence
+    nameWithType: Sequence
+    fullName: Sequence
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.Animation.LACanvasGroup.AddToSequence*
+  commentId: Overload:Lucid.Animation.LACanvasGroup.AddToSequence
+  name: AddToSequence
+  nameWithType: LACanvasGroup.AddToSequence
+  fullName: Lucid.Animation.LACanvasGroup.AddToSequence
+- uid: Global.Sequence
+  isExternal: true
+  name: Sequence
+  nameWithType: Sequence
+  fullName: Sequence
+- uid: Lucid.Animation.LAComponent.CutToValues
+  commentId: M:Lucid.Animation.LAComponent.CutToValues
+  parent: Lucid.Animation.LAComponent
+  name: CutToValues()
+  nameWithType: LAComponent.CutToValues()
+  fullName: Lucid.Animation.LAComponent.CutToValues()
+  spec.csharp:
+  - uid: Lucid.Animation.LAComponent.CutToValues
+    name: CutToValues
+    nameWithType: LAComponent.CutToValues
+    fullName: Lucid.Animation.LAComponent.CutToValues
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.Animation.LAComponent.CutToValues
+    name: CutToValues
+    nameWithType: LAComponent.CutToValues
+    fullName: Lucid.Animation.LAComponent.CutToValues
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.Animation.LACanvasGroup.CutToValues*
+  commentId: Overload:Lucid.Animation.LACanvasGroup.CutToValues
+  name: CutToValues
+  nameWithType: LACanvasGroup.CutToValues
+  fullName: Lucid.Animation.LACanvasGroup.CutToValues
+- uid: Lucid.Animation.LAComponent.GetSequenceDuration
+  commentId: M:Lucid.Animation.LAComponent.GetSequenceDuration
+  parent: Lucid.Animation.LAComponent
+  name: GetSequenceDuration()
+  nameWithType: LAComponent.GetSequenceDuration()
+  fullName: Lucid.Animation.LAComponent.GetSequenceDuration()
+  spec.csharp:
+  - uid: Lucid.Animation.LAComponent.GetSequenceDuration
+    name: GetSequenceDuration
+    nameWithType: LAComponent.GetSequenceDuration
+    fullName: Lucid.Animation.LAComponent.GetSequenceDuration
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.Animation.LAComponent.GetSequenceDuration
+    name: GetSequenceDuration
+    nameWithType: LAComponent.GetSequenceDuration
+    fullName: Lucid.Animation.LAComponent.GetSequenceDuration
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.Animation.LACanvasGroup.GetSequenceDuration*
+  commentId: Overload:Lucid.Animation.LACanvasGroup.GetSequenceDuration
+  name: GetSequenceDuration
+  nameWithType: LACanvasGroup.GetSequenceDuration
+  fullName: Lucid.Animation.LACanvasGroup.GetSequenceDuration
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

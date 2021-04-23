@@ -1,0 +1,278 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Animation.ItemAnimationStyleSettings
+  commentId: T:Lucid.Animation.ItemAnimationStyleSettings
+  id: ItemAnimationStyleSettings
+  parent: Lucid.Animation
+  children:
+  - Lucid.Animation.ItemAnimationStyleSettings.GetAllStyleNames
+  - Lucid.Animation.ItemAnimationStyleSettings.itemAnimStyles
+  - Lucid.Animation.ItemAnimationStyleSettings.LoadAllColorStyleAssets
+  langs:
+  - csharp
+  - vb
+  name: ItemAnimationStyleSettings
+  nameWithType: ItemAnimationStyleSettings
+  fullName: Lucid.Animation.ItemAnimationStyleSettings
+  type: Class
+  source:
+    id: ItemAnimationStyleSettings
+    path: ''
+    startLine: 25449
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: 'public class ItemAnimationStyleSettings : SingletonScriptableObject<ItemAnimationStyleSettings>'
+    content.vb: >-
+      Public Class ItemAnimationStyleSettings
+          Inherits SingletonScriptableObject(Of ItemAnimationStyleSettings)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Animation.ItemAnimationStyleSettings.itemAnimStyles
+  commentId: P:Lucid.Animation.ItemAnimationStyleSettings.itemAnimStyles
+  id: itemAnimStyles
+  parent: Lucid.Animation.ItemAnimationStyleSettings
+  langs:
+  - csharp
+  - vb
+  name: itemAnimStyles
+  nameWithType: ItemAnimationStyleSettings.itemAnimStyles
+  fullName: Lucid.Animation.ItemAnimationStyleSettings.itemAnimStyles
+  type: Property
+  source:
+    id: itemAnimStyles
+    path: ''
+    startLine: 25455
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public List<ItemAnimationStyle> itemAnimStyles { get; set; }
+    parameters: []
+    return:
+      type: Global.List{Lucid.Animation.ItemAnimationStyle}
+    content.vb: Public Property itemAnimStyles As List(Of ItemAnimationStyle)
+  overload: Lucid.Animation.ItemAnimationStyleSettings.itemAnimStyles*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.ItemAnimationStyleSettings.LoadAllColorStyleAssets
+  commentId: M:Lucid.Animation.ItemAnimationStyleSettings.LoadAllColorStyleAssets
+  id: LoadAllColorStyleAssets
+  parent: Lucid.Animation.ItemAnimationStyleSettings
+  langs:
+  - csharp
+  - vb
+  name: LoadAllColorStyleAssets()
+  nameWithType: ItemAnimationStyleSettings.LoadAllColorStyleAssets()
+  fullName: Lucid.Animation.ItemAnimationStyleSettings.LoadAllColorStyleAssets()
+  type: Method
+  source:
+    id: LoadAllColorStyleAssets
+    path: ''
+    startLine: 25488
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public void LoadAllColorStyleAssets()
+    content.vb: Public Sub LoadAllColorStyleAssets
+  overload: Lucid.Animation.ItemAnimationStyleSettings.LoadAllColorStyleAssets*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.ItemAnimationStyleSettings.GetAllStyleNames
+  commentId: M:Lucid.Animation.ItemAnimationStyleSettings.GetAllStyleNames
+  id: GetAllStyleNames
+  parent: Lucid.Animation.ItemAnimationStyleSettings
+  langs:
+  - csharp
+  - vb
+  name: GetAllStyleNames()
+  nameWithType: ItemAnimationStyleSettings.GetAllStyleNames()
+  fullName: Lucid.Animation.ItemAnimationStyleSettings.GetAllStyleNames()
+  type: Method
+  source:
+    id: GetAllStyleNames
+    path: ''
+    startLine: 25496
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public List<string> GetAllStyleNames()
+    return:
+      type: Global.List{System.String}
+    content.vb: Public Function GetAllStyleNames As List(Of String)
+  overload: Lucid.Animation.ItemAnimationStyleSettings.GetAllStyleNames*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Animation
+  commentId: N:Lucid.Animation
+  name: Lucid.Animation
+  nameWithType: Lucid.Animation
+  fullName: Lucid.Animation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.Animation.ItemAnimationStyleSettings.itemAnimStyles*
+  commentId: Overload:Lucid.Animation.ItemAnimationStyleSettings.itemAnimStyles
+  name: itemAnimStyles
+  nameWithType: ItemAnimationStyleSettings.itemAnimStyles
+  fullName: Lucid.Animation.ItemAnimationStyleSettings.itemAnimStyles
+- uid: Global.List{Lucid.Animation.ItemAnimationStyle}
+  commentId: '!:Global.List{Lucid.Animation.ItemAnimationStyle}'
+  definition: Global.List`1
+  name: List<ItemAnimationStyle>
+  nameWithType: List<ItemAnimationStyle>
+  fullName: List<Lucid.Animation.ItemAnimationStyle>
+  nameWithType.vb: List(Of ItemAnimationStyle)
+  fullName.vb: List(Of Lucid.Animation.ItemAnimationStyle)
+  name.vb: List(Of ItemAnimationStyle)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Lucid.Animation.ItemAnimationStyle
+    name: ItemAnimationStyle
+    nameWithType: ItemAnimationStyle
+    fullName: Lucid.Animation.ItemAnimationStyle
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Lucid.Animation.ItemAnimationStyle
+    name: ItemAnimationStyle
+    nameWithType: ItemAnimationStyle
+    fullName: Lucid.Animation.ItemAnimationStyle
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.Animation.ItemAnimationStyleSettings.LoadAllColorStyleAssets*
+  commentId: Overload:Lucid.Animation.ItemAnimationStyleSettings.LoadAllColorStyleAssets
+  name: LoadAllColorStyleAssets
+  nameWithType: ItemAnimationStyleSettings.LoadAllColorStyleAssets
+  fullName: Lucid.Animation.ItemAnimationStyleSettings.LoadAllColorStyleAssets
+- uid: Lucid.Animation.ItemAnimationStyleSettings.GetAllStyleNames*
+  commentId: Overload:Lucid.Animation.ItemAnimationStyleSettings.GetAllStyleNames
+  name: GetAllStyleNames
+  nameWithType: ItemAnimationStyleSettings.GetAllStyleNames
+  fullName: Lucid.Animation.ItemAnimationStyleSettings.GetAllStyleNames
+- uid: Global.List{System.String}
+  commentId: '!:Global.List{System.String}'
+  definition: Global.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

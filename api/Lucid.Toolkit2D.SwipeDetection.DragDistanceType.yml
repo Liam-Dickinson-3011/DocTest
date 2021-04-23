@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Toolkit2D.SwipeDetection.DragDistanceType
+  commentId: T:Lucid.Toolkit2D.SwipeDetection.DragDistanceType
+  id: SwipeDetection.DragDistanceType
+  parent: Lucid.Toolkit2D
+  children:
+  - Lucid.Toolkit2D.SwipeDetection.DragDistanceType.Inch
+  - Lucid.Toolkit2D.SwipeDetection.DragDistanceType.Pixels
+  - Lucid.Toolkit2D.SwipeDetection.DragDistanceType.ScreenPercentage
+  langs:
+  - csharp
+  - vb
+  name: SwipeDetection.DragDistanceType
+  nameWithType: SwipeDetection.DragDistanceType
+  fullName: Lucid.Toolkit2D.SwipeDetection.DragDistanceType
+  type: Enum
+  source:
+    id: DragDistanceType
+    path: ''
+    startLine: 20942
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public enum DragDistanceType
+    content.vb: Public Enum DragDistanceType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Lucid.Toolkit2D.SwipeDetection.DragDistanceType.Pixels
+  commentId: F:Lucid.Toolkit2D.SwipeDetection.DragDistanceType.Pixels
+  id: Pixels
+  parent: Lucid.Toolkit2D.SwipeDetection.DragDistanceType
+  langs:
+  - csharp
+  - vb
+  name: Pixels
+  nameWithType: SwipeDetection.DragDistanceType.Pixels
+  fullName: Lucid.Toolkit2D.SwipeDetection.DragDistanceType.Pixels
+  type: Field
+  source:
+    id: Pixels
+    path: ''
+    startLine: 20942
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: Pixels = 0
+    return:
+      type: Lucid.Toolkit2D.SwipeDetection.DragDistanceType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Toolkit2D.SwipeDetection.DragDistanceType.ScreenPercentage
+  commentId: F:Lucid.Toolkit2D.SwipeDetection.DragDistanceType.ScreenPercentage
+  id: ScreenPercentage
+  parent: Lucid.Toolkit2D.SwipeDetection.DragDistanceType
+  langs:
+  - csharp
+  - vb
+  name: ScreenPercentage
+  nameWithType: SwipeDetection.DragDistanceType.ScreenPercentage
+  fullName: Lucid.Toolkit2D.SwipeDetection.DragDistanceType.ScreenPercentage
+  type: Field
+  source:
+    id: ScreenPercentage
+    path: ''
+    startLine: 20942
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: ScreenPercentage = 1
+    return:
+      type: Lucid.Toolkit2D.SwipeDetection.DragDistanceType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Toolkit2D.SwipeDetection.DragDistanceType.Inch
+  commentId: F:Lucid.Toolkit2D.SwipeDetection.DragDistanceType.Inch
+  id: Inch
+  parent: Lucid.Toolkit2D.SwipeDetection.DragDistanceType
+  langs:
+  - csharp
+  - vb
+  name: Inch
+  nameWithType: SwipeDetection.DragDistanceType.Inch
+  fullName: Lucid.Toolkit2D.SwipeDetection.DragDistanceType.Inch
+  type: Field
+  source:
+    id: Inch
+    path: ''
+    startLine: 20942
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: Inch = 2
+    return:
+      type: Lucid.Toolkit2D.SwipeDetection.DragDistanceType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Lucid.Toolkit2D
+  commentId: N:Lucid.Toolkit2D
+  name: Lucid.Toolkit2D
+  nameWithType: Lucid.Toolkit2D
+  fullName: Lucid.Toolkit2D
+- uid: Lucid.Toolkit2D.SwipeDetection.DragDistanceType
+  commentId: T:Lucid.Toolkit2D.SwipeDetection.DragDistanceType
+  parent: Lucid.Toolkit2D
+  name: SwipeDetection.DragDistanceType
+  nameWithType: SwipeDetection.DragDistanceType
+  fullName: Lucid.Toolkit2D.SwipeDetection.DragDistanceType

@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.DataStorage.DataStoreBoolFilter.EqualityType
+  commentId: T:Lucid.DataStorage.DataStoreBoolFilter.EqualityType
+  id: DataStoreBoolFilter.EqualityType
+  parent: Lucid.DataStorage
+  children:
+  - Lucid.DataStorage.DataStoreBoolFilter.EqualityType.Equal
+  - Lucid.DataStorage.DataStoreBoolFilter.EqualityType.NotEqual
+  langs:
+  - csharp
+  - vb
+  name: DataStoreBoolFilter.EqualityType
+  nameWithType: DataStoreBoolFilter.EqualityType
+  fullName: Lucid.DataStorage.DataStoreBoolFilter.EqualityType
+  type: Enum
+  source:
+    id: EqualityType
+    path: ''
+    startLine: 15391
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public enum EqualityType
+    content.vb: Public Enum EqualityType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Lucid.DataStorage.DataStoreBoolFilter.EqualityType.Equal
+  commentId: F:Lucid.DataStorage.DataStoreBoolFilter.EqualityType.Equal
+  id: Equal
+  parent: Lucid.DataStorage.DataStoreBoolFilter.EqualityType
+  langs:
+  - csharp
+  - vb
+  name: Equal
+  nameWithType: DataStoreBoolFilter.EqualityType.Equal
+  fullName: Lucid.DataStorage.DataStoreBoolFilter.EqualityType.Equal
+  type: Field
+  source:
+    id: Equal
+    path: ''
+    startLine: 15393
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: Equal = 0
+    return:
+      type: Lucid.DataStorage.DataStoreBoolFilter.EqualityType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.DataStorage.DataStoreBoolFilter.EqualityType.NotEqual
+  commentId: F:Lucid.DataStorage.DataStoreBoolFilter.EqualityType.NotEqual
+  id: NotEqual
+  parent: Lucid.DataStorage.DataStoreBoolFilter.EqualityType
+  langs:
+  - csharp
+  - vb
+  name: NotEqual
+  nameWithType: DataStoreBoolFilter.EqualityType.NotEqual
+  fullName: Lucid.DataStorage.DataStoreBoolFilter.EqualityType.NotEqual
+  type: Field
+  source:
+    id: NotEqual
+    path: ''
+    startLine: 15394
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: NotEqual = 1
+    return:
+      type: Lucid.DataStorage.DataStoreBoolFilter.EqualityType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Lucid.DataStorage
+  commentId: N:Lucid.DataStorage
+  name: Lucid.DataStorage
+  nameWithType: Lucid.DataStorage
+  fullName: Lucid.DataStorage
+- uid: Lucid.DataStorage.DataStoreBoolFilter.EqualityType
+  commentId: T:Lucid.DataStorage.DataStoreBoolFilter.EqualityType
+  parent: Lucid.DataStorage
+  name: DataStoreBoolFilter.EqualityType
+  nameWithType: DataStoreBoolFilter.EqualityType
+  fullName: Lucid.DataStorage.DataStoreBoolFilter.EqualityType

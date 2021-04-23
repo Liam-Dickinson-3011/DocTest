@@ -1,0 +1,168 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Core.MenuLayout
+  commentId: T:Lucid.Core.MenuLayout
+  id: MenuLayout
+  parent: Lucid.Core
+  children:
+  - Lucid.Core.MenuLayout.HorizontalBottom
+  - Lucid.Core.MenuLayout.HorizontalTop
+  - Lucid.Core.MenuLayout.VerticalLeft
+  - Lucid.Core.MenuLayout.VerticalRight
+  langs:
+  - csharp
+  - vb
+  name: MenuLayout
+  nameWithType: MenuLayout
+  fullName: Lucid.Core.MenuLayout
+  type: Enum
+  source:
+    id: MenuLayout
+    path: ''
+    startLine: 5726
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: >-
+      [Serializable]
+
+      public enum MenuLayout
+    content.vb: >-
+      <Serializable>
+
+      Public Enum MenuLayout
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Lucid.Core.MenuLayout.HorizontalTop
+  commentId: F:Lucid.Core.MenuLayout.HorizontalTop
+  id: HorizontalTop
+  parent: Lucid.Core.MenuLayout
+  langs:
+  - csharp
+  - vb
+  name: HorizontalTop
+  nameWithType: MenuLayout.HorizontalTop
+  fullName: Lucid.Core.MenuLayout.HorizontalTop
+  type: Field
+  source:
+    id: HorizontalTop
+    path: ''
+    startLine: 5727
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: HorizontalTop = 0
+    return:
+      type: Lucid.Core.MenuLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Core.MenuLayout.HorizontalBottom
+  commentId: F:Lucid.Core.MenuLayout.HorizontalBottom
+  id: HorizontalBottom
+  parent: Lucid.Core.MenuLayout
+  langs:
+  - csharp
+  - vb
+  name: HorizontalBottom
+  nameWithType: MenuLayout.HorizontalBottom
+  fullName: Lucid.Core.MenuLayout.HorizontalBottom
+  type: Field
+  source:
+    id: HorizontalBottom
+    path: ''
+    startLine: 5727
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: HorizontalBottom = 1
+    return:
+      type: Lucid.Core.MenuLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Core.MenuLayout.VerticalLeft
+  commentId: F:Lucid.Core.MenuLayout.VerticalLeft
+  id: VerticalLeft
+  parent: Lucid.Core.MenuLayout
+  langs:
+  - csharp
+  - vb
+  name: VerticalLeft
+  nameWithType: MenuLayout.VerticalLeft
+  fullName: Lucid.Core.MenuLayout.VerticalLeft
+  type: Field
+  source:
+    id: VerticalLeft
+    path: ''
+    startLine: 5727
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: VerticalLeft = 2
+    return:
+      type: Lucid.Core.MenuLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Core.MenuLayout.VerticalRight
+  commentId: F:Lucid.Core.MenuLayout.VerticalRight
+  id: VerticalRight
+  parent: Lucid.Core.MenuLayout
+  langs:
+  - csharp
+  - vb
+  name: VerticalRight
+  nameWithType: MenuLayout.VerticalRight
+  fullName: Lucid.Core.MenuLayout.VerticalRight
+  type: Field
+  source:
+    id: VerticalRight
+    path: ''
+    startLine: 5727
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: VerticalRight = 3
+    return:
+      type: Lucid.Core.MenuLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Lucid.Core
+  commentId: N:Lucid.Core
+  name: Lucid.Core
+  nameWithType: Lucid.Core
+  fullName: Lucid.Core
+- uid: Lucid.Core.MenuLayout
+  commentId: T:Lucid.Core.MenuLayout
+  parent: Lucid.Core
+  name: MenuLayout
+  nameWithType: MenuLayout
+  fullName: Lucid.Core.MenuLayout

@@ -1,0 +1,1987 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Easing.EaseMethods
+  commentId: T:Lucid.Easing.EaseMethods
+  id: EaseMethods
+  parent: Lucid.Easing
+  children:
+  - Lucid.Easing.EaseMethods.BackEaseIn
+  - Lucid.Easing.EaseMethods.BackEaseInOut
+  - Lucid.Easing.EaseMethods.BackEaseOut
+  - Lucid.Easing.EaseMethods.BounceEaseIn
+  - Lucid.Easing.EaseMethods.BounceEaseInOut
+  - Lucid.Easing.EaseMethods.BounceEaseOut
+  - Lucid.Easing.EaseMethods.CircleEaseIn
+  - Lucid.Easing.EaseMethods.CircleEaseInOut
+  - Lucid.Easing.EaseMethods.CircleEaseOut
+  - Lucid.Easing.EaseMethods.CubicBezier(System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.EaseMethods.CubicEaseIn
+  - Lucid.Easing.EaseMethods.CubicEaseInOut
+  - Lucid.Easing.EaseMethods.CubicEaseOut
+  - Lucid.Easing.EaseMethods.EasedLerp(Lucid.Easing.Ease,System.Single,System.Single,System.Single)
+  - Lucid.Easing.EaseMethods.EaseQuaternion(Lucid.Easing.Ease,Quaternion,Quaternion,System.Single,System.Single)
+  - Lucid.Easing.EaseMethods.EaseVector2(Lucid.Easing.Ease,Vector2,Vector2,System.Single,System.Single)
+  - Lucid.Easing.EaseMethods.EaseVector3(Lucid.Easing.Ease,Vector3,Vector3,System.Single,System.Single)
+  - Lucid.Easing.EaseMethods.EaseVector4(Lucid.Easing.Ease,Vector4,Vector4,System.Single,System.Single)
+  - Lucid.Easing.EaseMethods.ElasticEaseIn
+  - Lucid.Easing.EaseMethods.ElasticEaseInOut
+  - Lucid.Easing.EaseMethods.ElasticEaseOut
+  - Lucid.Easing.EaseMethods.ExpoEaseIn
+  - Lucid.Easing.EaseMethods.ExpoEaseInOut
+  - Lucid.Easing.EaseMethods.ExpoEaseOut
+  - Lucid.Easing.EaseMethods.FromAnimationCurve(AnimationCurve)
+  - Lucid.Easing.EaseMethods.FromScalingAnimationCurve(AnimationCurve)
+  - Lucid.Easing.EaseMethods.FromVerticalScalingAnimationCurve(AnimationCurve)
+  - Lucid.Easing.EaseMethods.GetEase(Lucid.Easing.EaseStyle)
+  - Lucid.Easing.EaseMethods.LinearEaseIn
+  - Lucid.Easing.EaseMethods.LinearEaseInOut
+  - Lucid.Easing.EaseMethods.LinearEaseNone
+  - Lucid.Easing.EaseMethods.LinearEaseOut
+  - Lucid.Easing.EaseMethods.QuadEaseIn
+  - Lucid.Easing.EaseMethods.QuadEaseInOut
+  - Lucid.Easing.EaseMethods.QuadEaseOut
+  - Lucid.Easing.EaseMethods.QuartEaseIn
+  - Lucid.Easing.EaseMethods.QuartEaseInOut
+  - Lucid.Easing.EaseMethods.QuartEaseOut
+  - Lucid.Easing.EaseMethods.QuintEaseIn
+  - Lucid.Easing.EaseMethods.QuintEaseInOut
+  - Lucid.Easing.EaseMethods.QuintEaseOut
+  - Lucid.Easing.EaseMethods.SineEaseIn
+  - Lucid.Easing.EaseMethods.SineEaseInOut
+  - Lucid.Easing.EaseMethods.SineEaseOut
+  - Lucid.Easing.EaseMethods.StrongEaseIn
+  - Lucid.Easing.EaseMethods.StrongEaseInOut
+  - Lucid.Easing.EaseMethods.StrongEaseOut
+  langs:
+  - csharp
+  - vb
+  name: EaseMethods
+  nameWithType: EaseMethods
+  fullName: Lucid.Easing.EaseMethods
+  type: Class
+  source:
+    id: EaseMethods
+    path: ''
+    startLine: 21550
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  summary: "\nReferences to Ease delegates for use, this avoids the garbage of the ease delegate.\n"
+  example: []
+  syntax:
+    content: public static class EaseMethods
+    content.vb: Public Module EaseMethods
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Lucid.Easing.EaseMethods.GetEase(Lucid.Easing.EaseStyle)
+  commentId: M:Lucid.Easing.EaseMethods.GetEase(Lucid.Easing.EaseStyle)
+  id: GetEase(Lucid.Easing.EaseStyle)
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: GetEase(EaseStyle)
+  nameWithType: EaseMethods.GetEase(EaseStyle)
+  fullName: Lucid.Easing.EaseMethods.GetEase(Lucid.Easing.EaseStyle)
+  type: Method
+  source:
+    id: GetEase
+    path: ''
+    startLine: 21553
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Ease GetEase(EaseStyle style)
+    parameters:
+    - id: style
+      type: Lucid.Easing.EaseStyle
+    return:
+      type: Lucid.Easing.Ease
+    content.vb: Public Shared Function GetEase(style As EaseStyle) As Ease
+  overload: Lucid.Easing.EaseMethods.GetEase*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.EaseMethods.EasedLerp(Lucid.Easing.Ease,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.EaseMethods.EasedLerp(Lucid.Easing.Ease,System.Single,System.Single,System.Single)
+  id: EasedLerp(Lucid.Easing.Ease,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: EasedLerp(Ease, Single, Single, Single)
+  nameWithType: EaseMethods.EasedLerp(Ease, Single, Single, Single)
+  fullName: Lucid.Easing.EaseMethods.EasedLerp(Lucid.Easing.Ease, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: EasedLerp
+    path: ''
+    startLine: 21610
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float EasedLerp(Ease ease, float from, float to, float t)
+    parameters:
+    - id: ease
+      type: Lucid.Easing.Ease
+    - id: from
+      type: System.Single
+    - id: to
+      type: System.Single
+    - id: t
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function EasedLerp(ease As Ease, from As Single, to As Single, t As Single) As Single
+  overload: Lucid.Easing.EaseMethods.EasedLerp*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.EaseMethods.BackEaseIn
+  commentId: P:Lucid.Easing.EaseMethods.BackEaseIn
+  id: BackEaseIn
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: BackEaseIn
+  nameWithType: EaseMethods.BackEaseIn
+  fullName: Lucid.Easing.EaseMethods.BackEaseIn
+  type: Property
+  source:
+    id: BackEaseIn
+    path: ''
+    startLine: 21620
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Ease BackEaseIn { get; }
+    parameters: []
+    return:
+      type: Lucid.Easing.Ease
+    content.vb: Public Shared ReadOnly Property BackEaseIn As Ease
+  overload: Lucid.Easing.EaseMethods.BackEaseIn*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Lucid.Easing.EaseMethods.BackEaseOut
+  commentId: P:Lucid.Easing.EaseMethods.BackEaseOut
+  id: BackEaseOut
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: BackEaseOut
+  nameWithType: EaseMethods.BackEaseOut
+  fullName: Lucid.Easing.EaseMethods.BackEaseOut
+  type: Property
+  source:
+    id: BackEaseOut
+    path: ''
+    startLine: 21630
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Ease BackEaseOut { get; }
+    parameters: []
+    return:
+      type: Lucid.Easing.Ease
+    content.vb: Public Shared ReadOnly Property BackEaseOut As Ease
+  overload: Lucid.Easing.EaseMethods.BackEaseOut*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Lucid.Easing.EaseMethods.BackEaseInOut
+  commentId: P:Lucid.Easing.EaseMethods.BackEaseInOut
+  id: BackEaseInOut
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: BackEaseInOut
+  nameWithType: EaseMethods.BackEaseInOut
+  fullName: Lucid.Easing.EaseMethods.BackEaseInOut
+  type: Property
+  source:
+    id: BackEaseInOut
+    path: ''
+    startLine: 21640
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Ease BackEaseInOut { get; }
+    parameters: []
+    return:
+      type: Lucid.Easing.Ease
+    content.vb: Public Shared ReadOnly Property BackEaseInOut As Ease
+  overload: Lucid.Easing.EaseMethods.BackEaseInOut*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Lucid.Easing.EaseMethods.BounceEaseIn
+  commentId: P:Lucid.Easing.EaseMethods.BounceEaseIn
+  id: BounceEaseIn
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: BounceEaseIn
+  nameWithType: EaseMethods.BounceEaseIn
+  fullName: Lucid.Easing.EaseMethods.BounceEaseIn
+  type: Property
+  source:
+    id: BounceEaseIn
+    path: ''
+    startLine: 21654
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Ease BounceEaseIn { get; }
+    parameters: []
+    return:
+      type: Lucid.Easing.Ease
+    content.vb: Public Shared ReadOnly Property BounceEaseIn As Ease
+  overload: Lucid.Easing.EaseMethods.BounceEaseIn*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Lucid.Easing.EaseMethods.BounceEaseOut
+  commentId: P:Lucid.Easing.EaseMethods.BounceEaseOut
+  id: BounceEaseOut
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: BounceEaseOut
+  nameWithType: EaseMethods.BounceEaseOut
+  fullName: Lucid.Easing.EaseMethods.BounceEaseOut
+  type: Property
+  source:
+    id: BounceEaseOut
+    path: ''
+    startLine: 21664
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Ease BounceEaseOut { get; }
+    parameters: []
+    return:
+      type: Lucid.Easing.Ease
+    content.vb: Public Shared ReadOnly Property BounceEaseOut As Ease
+  overload: Lucid.Easing.EaseMethods.BounceEaseOut*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Lucid.Easing.EaseMethods.BounceEaseInOut
+  commentId: P:Lucid.Easing.EaseMethods.BounceEaseInOut
+  id: BounceEaseInOut
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: BounceEaseInOut
+  nameWithType: EaseMethods.BounceEaseInOut
+  fullName: Lucid.Easing.EaseMethods.BounceEaseInOut
+  type: Property
+  source:
+    id: BounceEaseInOut
+    path: ''
+    startLine: 21674
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Ease BounceEaseInOut { get; }
+    parameters: []
+    return:
+      type: Lucid.Easing.Ease
+    content.vb: Public Shared ReadOnly Property BounceEaseInOut As Ease
+  overload: Lucid.Easing.EaseMethods.BounceEaseInOut*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Lucid.Easing.EaseMethods.CircleEaseIn
+  commentId: P:Lucid.Easing.EaseMethods.CircleEaseIn
+  id: CircleEaseIn
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: CircleEaseIn
+  nameWithType: EaseMethods.CircleEaseIn
+  fullName: Lucid.Easing.EaseMethods.CircleEaseIn
+  type: Property
+  source:
+    id: CircleEaseIn
+    path: ''
+    startLine: 21688
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Ease CircleEaseIn { get; }
+    parameters: []
+    return:
+      type: Lucid.Easing.Ease
+    content.vb: Public Shared ReadOnly Property CircleEaseIn As Ease
+  overload: Lucid.Easing.EaseMethods.CircleEaseIn*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Lucid.Easing.EaseMethods.CircleEaseOut
+  commentId: P:Lucid.Easing.EaseMethods.CircleEaseOut
+  id: CircleEaseOut
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: CircleEaseOut
+  nameWithType: EaseMethods.CircleEaseOut
+  fullName: Lucid.Easing.EaseMethods.CircleEaseOut
+  type: Property
+  source:
+    id: CircleEaseOut
+    path: ''
+    startLine: 21698
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Ease CircleEaseOut { get; }
+    parameters: []
+    return:
+      type: Lucid.Easing.Ease
+    content.vb: Public Shared ReadOnly Property CircleEaseOut As Ease
+  overload: Lucid.Easing.EaseMethods.CircleEaseOut*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Lucid.Easing.EaseMethods.CircleEaseInOut
+  commentId: P:Lucid.Easing.EaseMethods.CircleEaseInOut
+  id: CircleEaseInOut
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: CircleEaseInOut
+  nameWithType: EaseMethods.CircleEaseInOut
+  fullName: Lucid.Easing.EaseMethods.CircleEaseInOut
+  type: Property
+  source:
+    id: CircleEaseInOut
+    path: ''
+    startLine: 21708
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Ease CircleEaseInOut { get; }
+    parameters: []
+    return:
+      type: Lucid.Easing.Ease
+    content.vb: Public Shared ReadOnly Property CircleEaseInOut As Ease
+  overload: Lucid.Easing.EaseMethods.CircleEaseInOut*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Lucid.Easing.EaseMethods.CubicEaseIn
+  commentId: P:Lucid.Easing.EaseMethods.CubicEaseIn
+  id: CubicEaseIn
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: CubicEaseIn
+  nameWithType: EaseMethods.CubicEaseIn
+  fullName: Lucid.Easing.EaseMethods.CubicEaseIn
+  type: Property
+  source:
+    id: CubicEaseIn
+    path: ''
+    startLine: 21722
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Ease CubicEaseIn { get; }
+    parameters: []
+    return:
+      type: Lucid.Easing.Ease
+    content.vb: Public Shared ReadOnly Property CubicEaseIn As Ease
+  overload: Lucid.Easing.EaseMethods.CubicEaseIn*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Lucid.Easing.EaseMethods.CubicEaseOut
+  commentId: P:Lucid.Easing.EaseMethods.CubicEaseOut
+  id: CubicEaseOut
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: CubicEaseOut
+  nameWithType: EaseMethods.CubicEaseOut
+  fullName: Lucid.Easing.EaseMethods.CubicEaseOut
+  type: Property
+  source:
+    id: CubicEaseOut
+    path: ''
+    startLine: 21732
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Ease CubicEaseOut { get; }
+    parameters: []
+    return:
+      type: Lucid.Easing.Ease
+    content.vb: Public Shared ReadOnly Property CubicEaseOut As Ease
+  overload: Lucid.Easing.EaseMethods.CubicEaseOut*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Lucid.Easing.EaseMethods.CubicEaseInOut
+  commentId: P:Lucid.Easing.EaseMethods.CubicEaseInOut
+  id: CubicEaseInOut
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: CubicEaseInOut
+  nameWithType: EaseMethods.CubicEaseInOut
+  fullName: Lucid.Easing.EaseMethods.CubicEaseInOut
+  type: Property
+  source:
+    id: CubicEaseInOut
+    path: ''
+    startLine: 21742
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Ease CubicEaseInOut { get; }
+    parameters: []
+    return:
+      type: Lucid.Easing.Ease
+    content.vb: Public Shared ReadOnly Property CubicEaseInOut As Ease
+  overload: Lucid.Easing.EaseMethods.CubicEaseInOut*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Lucid.Easing.EaseMethods.ElasticEaseIn
+  commentId: P:Lucid.Easing.EaseMethods.ElasticEaseIn
+  id: ElasticEaseIn
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: ElasticEaseIn
+  nameWithType: EaseMethods.ElasticEaseIn
+  fullName: Lucid.Easing.EaseMethods.ElasticEaseIn
+  type: Property
+  source:
+    id: ElasticEaseIn
+    path: ''
+    startLine: 21756
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Ease ElasticEaseIn { get; }
+    parameters: []
+    return:
+      type: Lucid.Easing.Ease
+    content.vb: Public Shared ReadOnly Property ElasticEaseIn As Ease
+  overload: Lucid.Easing.EaseMethods.ElasticEaseIn*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Lucid.Easing.EaseMethods.ElasticEaseOut
+  commentId: P:Lucid.Easing.EaseMethods.ElasticEaseOut
+  id: ElasticEaseOut
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: ElasticEaseOut
+  nameWithType: EaseMethods.ElasticEaseOut
+  fullName: Lucid.Easing.EaseMethods.ElasticEaseOut
+  type: Property
+  source:
+    id: ElasticEaseOut
+    path: ''
+    startLine: 21766
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Ease ElasticEaseOut { get; }
+    parameters: []
+    return:
+      type: Lucid.Easing.Ease
+    content.vb: Public Shared ReadOnly Property ElasticEaseOut As Ease
+  overload: Lucid.Easing.EaseMethods.ElasticEaseOut*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Lucid.Easing.EaseMethods.ElasticEaseInOut
+  commentId: P:Lucid.Easing.EaseMethods.ElasticEaseInOut
+  id: ElasticEaseInOut
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: ElasticEaseInOut
+  nameWithType: EaseMethods.ElasticEaseInOut
+  fullName: Lucid.Easing.EaseMethods.ElasticEaseInOut
+  type: Property
+  source:
+    id: ElasticEaseInOut
+    path: ''
+    startLine: 21776
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Ease ElasticEaseInOut { get; }
+    parameters: []
+    return:
+      type: Lucid.Easing.Ease
+    content.vb: Public Shared ReadOnly Property ElasticEaseInOut As Ease
+  overload: Lucid.Easing.EaseMethods.ElasticEaseInOut*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Lucid.Easing.EaseMethods.ExpoEaseIn
+  commentId: P:Lucid.Easing.EaseMethods.ExpoEaseIn
+  id: ExpoEaseIn
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: ExpoEaseIn
+  nameWithType: EaseMethods.ExpoEaseIn
+  fullName: Lucid.Easing.EaseMethods.ExpoEaseIn
+  type: Property
+  source:
+    id: ExpoEaseIn
+    path: ''
+    startLine: 21790
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Ease ExpoEaseIn { get; }
+    parameters: []
+    return:
+      type: Lucid.Easing.Ease
+    content.vb: Public Shared ReadOnly Property ExpoEaseIn As Ease
+  overload: Lucid.Easing.EaseMethods.ExpoEaseIn*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Lucid.Easing.EaseMethods.ExpoEaseOut
+  commentId: P:Lucid.Easing.EaseMethods.ExpoEaseOut
+  id: ExpoEaseOut
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: ExpoEaseOut
+  nameWithType: EaseMethods.ExpoEaseOut
+  fullName: Lucid.Easing.EaseMethods.ExpoEaseOut
+  type: Property
+  source:
+    id: ExpoEaseOut
+    path: ''
+    startLine: 21800
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Ease ExpoEaseOut { get; }
+    parameters: []
+    return:
+      type: Lucid.Easing.Ease
+    content.vb: Public Shared ReadOnly Property ExpoEaseOut As Ease
+  overload: Lucid.Easing.EaseMethods.ExpoEaseOut*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Lucid.Easing.EaseMethods.ExpoEaseInOut
+  commentId: P:Lucid.Easing.EaseMethods.ExpoEaseInOut
+  id: ExpoEaseInOut
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: ExpoEaseInOut
+  nameWithType: EaseMethods.ExpoEaseInOut
+  fullName: Lucid.Easing.EaseMethods.ExpoEaseInOut
+  type: Property
+  source:
+    id: ExpoEaseInOut
+    path: ''
+    startLine: 21810
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Ease ExpoEaseInOut { get; }
+    parameters: []
+    return:
+      type: Lucid.Easing.Ease
+    content.vb: Public Shared ReadOnly Property ExpoEaseInOut As Ease
+  overload: Lucid.Easing.EaseMethods.ExpoEaseInOut*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Lucid.Easing.EaseMethods.LinearEaseNone
+  commentId: P:Lucid.Easing.EaseMethods.LinearEaseNone
+  id: LinearEaseNone
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: LinearEaseNone
+  nameWithType: EaseMethods.LinearEaseNone
+  fullName: Lucid.Easing.EaseMethods.LinearEaseNone
+  type: Property
+  source:
+    id: LinearEaseNone
+    path: ''
+    startLine: 21824
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Ease LinearEaseNone { get; }
+    parameters: []
+    return:
+      type: Lucid.Easing.Ease
+    content.vb: Public Shared ReadOnly Property LinearEaseNone As Ease
+  overload: Lucid.Easing.EaseMethods.LinearEaseNone*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Lucid.Easing.EaseMethods.LinearEaseIn
+  commentId: P:Lucid.Easing.EaseMethods.LinearEaseIn
+  id: LinearEaseIn
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: LinearEaseIn
+  nameWithType: EaseMethods.LinearEaseIn
+  fullName: Lucid.Easing.EaseMethods.LinearEaseIn
+  type: Property
+  source:
+    id: LinearEaseIn
+    path: ''
+    startLine: 21834
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Ease LinearEaseIn { get; }
+    parameters: []
+    return:
+      type: Lucid.Easing.Ease
+    content.vb: Public Shared ReadOnly Property LinearEaseIn As Ease
+  overload: Lucid.Easing.EaseMethods.LinearEaseIn*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Lucid.Easing.EaseMethods.LinearEaseOut
+  commentId: P:Lucid.Easing.EaseMethods.LinearEaseOut
+  id: LinearEaseOut
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: LinearEaseOut
+  nameWithType: EaseMethods.LinearEaseOut
+  fullName: Lucid.Easing.EaseMethods.LinearEaseOut
+  type: Property
+  source:
+    id: LinearEaseOut
+    path: ''
+    startLine: 21844
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Ease LinearEaseOut { get; }
+    parameters: []
+    return:
+      type: Lucid.Easing.Ease
+    content.vb: Public Shared ReadOnly Property LinearEaseOut As Ease
+  overload: Lucid.Easing.EaseMethods.LinearEaseOut*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Lucid.Easing.EaseMethods.LinearEaseInOut
+  commentId: P:Lucid.Easing.EaseMethods.LinearEaseInOut
+  id: LinearEaseInOut
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: LinearEaseInOut
+  nameWithType: EaseMethods.LinearEaseInOut
+  fullName: Lucid.Easing.EaseMethods.LinearEaseInOut
+  type: Property
+  source:
+    id: LinearEaseInOut
+    path: ''
+    startLine: 21854
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Ease LinearEaseInOut { get; }
+    parameters: []
+    return:
+      type: Lucid.Easing.Ease
+    content.vb: Public Shared ReadOnly Property LinearEaseInOut As Ease
+  overload: Lucid.Easing.EaseMethods.LinearEaseInOut*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Lucid.Easing.EaseMethods.QuadEaseIn
+  commentId: P:Lucid.Easing.EaseMethods.QuadEaseIn
+  id: QuadEaseIn
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: QuadEaseIn
+  nameWithType: EaseMethods.QuadEaseIn
+  fullName: Lucid.Easing.EaseMethods.QuadEaseIn
+  type: Property
+  source:
+    id: QuadEaseIn
+    path: ''
+    startLine: 21868
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Ease QuadEaseIn { get; }
+    parameters: []
+    return:
+      type: Lucid.Easing.Ease
+    content.vb: Public Shared ReadOnly Property QuadEaseIn As Ease
+  overload: Lucid.Easing.EaseMethods.QuadEaseIn*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Lucid.Easing.EaseMethods.QuadEaseOut
+  commentId: P:Lucid.Easing.EaseMethods.QuadEaseOut
+  id: QuadEaseOut
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: QuadEaseOut
+  nameWithType: EaseMethods.QuadEaseOut
+  fullName: Lucid.Easing.EaseMethods.QuadEaseOut
+  type: Property
+  source:
+    id: QuadEaseOut
+    path: ''
+    startLine: 21878
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Ease QuadEaseOut { get; }
+    parameters: []
+    return:
+      type: Lucid.Easing.Ease
+    content.vb: Public Shared ReadOnly Property QuadEaseOut As Ease
+  overload: Lucid.Easing.EaseMethods.QuadEaseOut*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Lucid.Easing.EaseMethods.QuadEaseInOut
+  commentId: P:Lucid.Easing.EaseMethods.QuadEaseInOut
+  id: QuadEaseInOut
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: QuadEaseInOut
+  nameWithType: EaseMethods.QuadEaseInOut
+  fullName: Lucid.Easing.EaseMethods.QuadEaseInOut
+  type: Property
+  source:
+    id: QuadEaseInOut
+    path: ''
+    startLine: 21888
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Ease QuadEaseInOut { get; }
+    parameters: []
+    return:
+      type: Lucid.Easing.Ease
+    content.vb: Public Shared ReadOnly Property QuadEaseInOut As Ease
+  overload: Lucid.Easing.EaseMethods.QuadEaseInOut*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Lucid.Easing.EaseMethods.QuartEaseIn
+  commentId: P:Lucid.Easing.EaseMethods.QuartEaseIn
+  id: QuartEaseIn
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: QuartEaseIn
+  nameWithType: EaseMethods.QuartEaseIn
+  fullName: Lucid.Easing.EaseMethods.QuartEaseIn
+  type: Property
+  source:
+    id: QuartEaseIn
+    path: ''
+    startLine: 21902
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Ease QuartEaseIn { get; }
+    parameters: []
+    return:
+      type: Lucid.Easing.Ease
+    content.vb: Public Shared ReadOnly Property QuartEaseIn As Ease
+  overload: Lucid.Easing.EaseMethods.QuartEaseIn*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Lucid.Easing.EaseMethods.QuartEaseOut
+  commentId: P:Lucid.Easing.EaseMethods.QuartEaseOut
+  id: QuartEaseOut
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: QuartEaseOut
+  nameWithType: EaseMethods.QuartEaseOut
+  fullName: Lucid.Easing.EaseMethods.QuartEaseOut
+  type: Property
+  source:
+    id: QuartEaseOut
+    path: ''
+    startLine: 21912
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Ease QuartEaseOut { get; }
+    parameters: []
+    return:
+      type: Lucid.Easing.Ease
+    content.vb: Public Shared ReadOnly Property QuartEaseOut As Ease
+  overload: Lucid.Easing.EaseMethods.QuartEaseOut*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Lucid.Easing.EaseMethods.QuartEaseInOut
+  commentId: P:Lucid.Easing.EaseMethods.QuartEaseInOut
+  id: QuartEaseInOut
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: QuartEaseInOut
+  nameWithType: EaseMethods.QuartEaseInOut
+  fullName: Lucid.Easing.EaseMethods.QuartEaseInOut
+  type: Property
+  source:
+    id: QuartEaseInOut
+    path: ''
+    startLine: 21922
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Ease QuartEaseInOut { get; }
+    parameters: []
+    return:
+      type: Lucid.Easing.Ease
+    content.vb: Public Shared ReadOnly Property QuartEaseInOut As Ease
+  overload: Lucid.Easing.EaseMethods.QuartEaseInOut*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Lucid.Easing.EaseMethods.QuintEaseIn
+  commentId: P:Lucid.Easing.EaseMethods.QuintEaseIn
+  id: QuintEaseIn
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: QuintEaseIn
+  nameWithType: EaseMethods.QuintEaseIn
+  fullName: Lucid.Easing.EaseMethods.QuintEaseIn
+  type: Property
+  source:
+    id: QuintEaseIn
+    path: ''
+    startLine: 21936
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Ease QuintEaseIn { get; }
+    parameters: []
+    return:
+      type: Lucid.Easing.Ease
+    content.vb: Public Shared ReadOnly Property QuintEaseIn As Ease
+  overload: Lucid.Easing.EaseMethods.QuintEaseIn*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Lucid.Easing.EaseMethods.QuintEaseOut
+  commentId: P:Lucid.Easing.EaseMethods.QuintEaseOut
+  id: QuintEaseOut
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: QuintEaseOut
+  nameWithType: EaseMethods.QuintEaseOut
+  fullName: Lucid.Easing.EaseMethods.QuintEaseOut
+  type: Property
+  source:
+    id: QuintEaseOut
+    path: ''
+    startLine: 21946
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Ease QuintEaseOut { get; }
+    parameters: []
+    return:
+      type: Lucid.Easing.Ease
+    content.vb: Public Shared ReadOnly Property QuintEaseOut As Ease
+  overload: Lucid.Easing.EaseMethods.QuintEaseOut*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Lucid.Easing.EaseMethods.QuintEaseInOut
+  commentId: P:Lucid.Easing.EaseMethods.QuintEaseInOut
+  id: QuintEaseInOut
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: QuintEaseInOut
+  nameWithType: EaseMethods.QuintEaseInOut
+  fullName: Lucid.Easing.EaseMethods.QuintEaseInOut
+  type: Property
+  source:
+    id: QuintEaseInOut
+    path: ''
+    startLine: 21956
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Ease QuintEaseInOut { get; }
+    parameters: []
+    return:
+      type: Lucid.Easing.Ease
+    content.vb: Public Shared ReadOnly Property QuintEaseInOut As Ease
+  overload: Lucid.Easing.EaseMethods.QuintEaseInOut*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Lucid.Easing.EaseMethods.SineEaseIn
+  commentId: P:Lucid.Easing.EaseMethods.SineEaseIn
+  id: SineEaseIn
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: SineEaseIn
+  nameWithType: EaseMethods.SineEaseIn
+  fullName: Lucid.Easing.EaseMethods.SineEaseIn
+  type: Property
+  source:
+    id: SineEaseIn
+    path: ''
+    startLine: 21970
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Ease SineEaseIn { get; }
+    parameters: []
+    return:
+      type: Lucid.Easing.Ease
+    content.vb: Public Shared ReadOnly Property SineEaseIn As Ease
+  overload: Lucid.Easing.EaseMethods.SineEaseIn*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Lucid.Easing.EaseMethods.SineEaseOut
+  commentId: P:Lucid.Easing.EaseMethods.SineEaseOut
+  id: SineEaseOut
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: SineEaseOut
+  nameWithType: EaseMethods.SineEaseOut
+  fullName: Lucid.Easing.EaseMethods.SineEaseOut
+  type: Property
+  source:
+    id: SineEaseOut
+    path: ''
+    startLine: 21980
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Ease SineEaseOut { get; }
+    parameters: []
+    return:
+      type: Lucid.Easing.Ease
+    content.vb: Public Shared ReadOnly Property SineEaseOut As Ease
+  overload: Lucid.Easing.EaseMethods.SineEaseOut*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Lucid.Easing.EaseMethods.SineEaseInOut
+  commentId: P:Lucid.Easing.EaseMethods.SineEaseInOut
+  id: SineEaseInOut
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: SineEaseInOut
+  nameWithType: EaseMethods.SineEaseInOut
+  fullName: Lucid.Easing.EaseMethods.SineEaseInOut
+  type: Property
+  source:
+    id: SineEaseInOut
+    path: ''
+    startLine: 21990
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Ease SineEaseInOut { get; }
+    parameters: []
+    return:
+      type: Lucid.Easing.Ease
+    content.vb: Public Shared ReadOnly Property SineEaseInOut As Ease
+  overload: Lucid.Easing.EaseMethods.SineEaseInOut*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Lucid.Easing.EaseMethods.StrongEaseIn
+  commentId: P:Lucid.Easing.EaseMethods.StrongEaseIn
+  id: StrongEaseIn
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: StrongEaseIn
+  nameWithType: EaseMethods.StrongEaseIn
+  fullName: Lucid.Easing.EaseMethods.StrongEaseIn
+  type: Property
+  source:
+    id: StrongEaseIn
+    path: ''
+    startLine: 22004
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Ease StrongEaseIn { get; }
+    parameters: []
+    return:
+      type: Lucid.Easing.Ease
+    content.vb: Public Shared ReadOnly Property StrongEaseIn As Ease
+  overload: Lucid.Easing.EaseMethods.StrongEaseIn*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Lucid.Easing.EaseMethods.StrongEaseOut
+  commentId: P:Lucid.Easing.EaseMethods.StrongEaseOut
+  id: StrongEaseOut
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: StrongEaseOut
+  nameWithType: EaseMethods.StrongEaseOut
+  fullName: Lucid.Easing.EaseMethods.StrongEaseOut
+  type: Property
+  source:
+    id: StrongEaseOut
+    path: ''
+    startLine: 22014
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Ease StrongEaseOut { get; }
+    parameters: []
+    return:
+      type: Lucid.Easing.Ease
+    content.vb: Public Shared ReadOnly Property StrongEaseOut As Ease
+  overload: Lucid.Easing.EaseMethods.StrongEaseOut*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Lucid.Easing.EaseMethods.StrongEaseInOut
+  commentId: P:Lucid.Easing.EaseMethods.StrongEaseInOut
+  id: StrongEaseInOut
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: StrongEaseInOut
+  nameWithType: EaseMethods.StrongEaseInOut
+  fullName: Lucid.Easing.EaseMethods.StrongEaseInOut
+  type: Property
+  source:
+    id: StrongEaseInOut
+    path: ''
+    startLine: 22024
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Ease StrongEaseInOut { get; }
+    parameters: []
+    return:
+      type: Lucid.Easing.Ease
+    content.vb: Public Shared ReadOnly Property StrongEaseInOut As Ease
+  overload: Lucid.Easing.EaseMethods.StrongEaseInOut*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Lucid.Easing.EaseMethods.FromAnimationCurve(AnimationCurve)
+  commentId: M:Lucid.Easing.EaseMethods.FromAnimationCurve(AnimationCurve)
+  id: FromAnimationCurve(AnimationCurve)
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: FromAnimationCurve(AnimationCurve)
+  nameWithType: EaseMethods.FromAnimationCurve(AnimationCurve)
+  fullName: Lucid.Easing.EaseMethods.FromAnimationCurve(AnimationCurve)
+  type: Method
+  source:
+    id: FromAnimationCurve
+    path: ''
+    startLine: 22042
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  summary: "\nReturns an Ease method that ignores start and end. Instead just returning the value in the curve for &apos;c&apos;, as if you called Evaluate(c).\n"
+  example: []
+  syntax:
+    content: public static Ease FromAnimationCurve(AnimationCurve curve)
+    parameters:
+    - id: curve
+      type: Global.AnimationCurve
+      description: ''
+    return:
+      type: Lucid.Easing.Ease
+      description: ''
+    content.vb: Public Shared Function FromAnimationCurve(curve As AnimationCurve) As Ease
+  overload: Lucid.Easing.EaseMethods.FromAnimationCurve*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.EaseMethods.FromVerticalScalingAnimationCurve(AnimationCurve)
+  commentId: M:Lucid.Easing.EaseMethods.FromVerticalScalingAnimationCurve(AnimationCurve)
+  id: FromVerticalScalingAnimationCurve(AnimationCurve)
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: FromVerticalScalingAnimationCurve(AnimationCurve)
+  nameWithType: EaseMethods.FromVerticalScalingAnimationCurve(AnimationCurve)
+  fullName: Lucid.Easing.EaseMethods.FromVerticalScalingAnimationCurve(AnimationCurve)
+  type: Method
+  source:
+    id: FromVerticalScalingAnimationCurve
+    path: ''
+    startLine: 22055
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  summary: "\nThis treats the curve as if it&apos;s a scaling factor. The vertical from 0->1 is the value s->e. And the horizontal is just &apos;c&apos;. &apos;d&apos; is ignored in favor of the duration of the curve.\n"
+  example: []
+  syntax:
+    content: public static Ease FromVerticalScalingAnimationCurve(AnimationCurve curve)
+    parameters:
+    - id: curve
+      type: Global.AnimationCurve
+      description: ''
+    return:
+      type: Lucid.Easing.Ease
+      description: ''
+    content.vb: Public Shared Function FromVerticalScalingAnimationCurve(curve As AnimationCurve) As Ease
+  overload: Lucid.Easing.EaseMethods.FromVerticalScalingAnimationCurve*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.EaseMethods.FromScalingAnimationCurve(AnimationCurve)
+  commentId: M:Lucid.Easing.EaseMethods.FromScalingAnimationCurve(AnimationCurve)
+  id: FromScalingAnimationCurve(AnimationCurve)
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: FromScalingAnimationCurve(AnimationCurve)
+  nameWithType: EaseMethods.FromScalingAnimationCurve(AnimationCurve)
+  fullName: Lucid.Easing.EaseMethods.FromScalingAnimationCurve(AnimationCurve)
+  type: Method
+  source:
+    id: FromScalingAnimationCurve
+    path: ''
+    startLine: 22069
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  summary: "\nThis treats the curve as if it&apos;s a scaling factor. The vertical from 0->1 is the value s->e. And the horizontal from 0->1 is the time from c->d.\n"
+  example: []
+  syntax:
+    content: public static Ease FromScalingAnimationCurve(AnimationCurve curve)
+    parameters:
+    - id: curve
+      type: Global.AnimationCurve
+      description: ''
+    return:
+      type: Lucid.Easing.Ease
+      description: ''
+    content.vb: Public Shared Function FromScalingAnimationCurve(curve As AnimationCurve) As Ease
+  overload: Lucid.Easing.EaseMethods.FromScalingAnimationCurve*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.EaseMethods.CubicBezier(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.EaseMethods.CubicBezier(System.Single,System.Single,System.Single,System.Single)
+  id: CubicBezier(System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: CubicBezier(Single, Single, Single, Single)
+  nameWithType: EaseMethods.CubicBezier(Single, Single, Single, Single)
+  fullName: Lucid.Easing.EaseMethods.CubicBezier(System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: CubicBezier
+    path: ''
+    startLine: 22082
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Ease CubicBezier(float p0, float p1, float p2, float p3)
+    parameters:
+    - id: p0
+      type: System.Single
+    - id: p1
+      type: System.Single
+    - id: p2
+      type: System.Single
+    - id: p3
+      type: System.Single
+    return:
+      type: Lucid.Easing.Ease
+    content.vb: Public Shared Function CubicBezier(p0 As Single, p1 As Single, p2 As Single, p3 As Single) As Ease
+  overload: Lucid.Easing.EaseMethods.CubicBezier*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.EaseMethods.EaseVector2(Lucid.Easing.Ease,Vector2,Vector2,System.Single,System.Single)
+  commentId: M:Lucid.Easing.EaseMethods.EaseVector2(Lucid.Easing.Ease,Vector2,Vector2,System.Single,System.Single)
+  id: EaseVector2(Lucid.Easing.Ease,Vector2,Vector2,System.Single,System.Single)
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: EaseVector2(Ease, Vector2, Vector2, Single, Single)
+  nameWithType: EaseMethods.EaseVector2(Ease, Vector2, Vector2, Single, Single)
+  fullName: Lucid.Easing.EaseMethods.EaseVector2(Lucid.Easing.Ease, Vector2, Vector2, System.Single, System.Single)
+  type: Method
+  source:
+    id: EaseVector2
+    path: ''
+    startLine: 22105
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Vector2 EaseVector2(Ease ease, Vector2 start, Vector2 end, float t, float dur)
+    parameters:
+    - id: ease
+      type: Lucid.Easing.Ease
+    - id: start
+      type: Global.Vector2
+    - id: end
+      type: Global.Vector2
+    - id: t
+      type: System.Single
+    - id: dur
+      type: System.Single
+    return:
+      type: Global.Vector2
+    content.vb: Public Shared Function EaseVector2(ease As Ease, start As Vector2, end As Vector2, t As Single, dur As Single) As Vector2
+  overload: Lucid.Easing.EaseMethods.EaseVector2*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.EaseMethods.EaseVector3(Lucid.Easing.Ease,Vector3,Vector3,System.Single,System.Single)
+  commentId: M:Lucid.Easing.EaseMethods.EaseVector3(Lucid.Easing.Ease,Vector3,Vector3,System.Single,System.Single)
+  id: EaseVector3(Lucid.Easing.Ease,Vector3,Vector3,System.Single,System.Single)
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: EaseVector3(Ease, Vector3, Vector3, Single, Single)
+  nameWithType: EaseMethods.EaseVector3(Ease, Vector3, Vector3, Single, Single)
+  fullName: Lucid.Easing.EaseMethods.EaseVector3(Lucid.Easing.Ease, Vector3, Vector3, System.Single, System.Single)
+  type: Method
+  source:
+    id: EaseVector3
+    path: ''
+    startLine: 22112
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Vector3 EaseVector3(Ease ease, Vector3 start, Vector3 end, float t, float dur)
+    parameters:
+    - id: ease
+      type: Lucid.Easing.Ease
+    - id: start
+      type: Global.Vector3
+    - id: end
+      type: Global.Vector3
+    - id: t
+      type: System.Single
+    - id: dur
+      type: System.Single
+    return:
+      type: Global.Vector3
+    content.vb: Public Shared Function EaseVector3(ease As Ease, start As Vector3, end As Vector3, t As Single, dur As Single) As Vector3
+  overload: Lucid.Easing.EaseMethods.EaseVector3*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.EaseMethods.EaseVector4(Lucid.Easing.Ease,Vector4,Vector4,System.Single,System.Single)
+  commentId: M:Lucid.Easing.EaseMethods.EaseVector4(Lucid.Easing.Ease,Vector4,Vector4,System.Single,System.Single)
+  id: EaseVector4(Lucid.Easing.Ease,Vector4,Vector4,System.Single,System.Single)
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: EaseVector4(Ease, Vector4, Vector4, Single, Single)
+  nameWithType: EaseMethods.EaseVector4(Ease, Vector4, Vector4, Single, Single)
+  fullName: Lucid.Easing.EaseMethods.EaseVector4(Lucid.Easing.Ease, Vector4, Vector4, System.Single, System.Single)
+  type: Method
+  source:
+    id: EaseVector4
+    path: ''
+    startLine: 22119
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Vector4 EaseVector4(Ease ease, Vector4 start, Vector4 end, float t, float dur)
+    parameters:
+    - id: ease
+      type: Lucid.Easing.Ease
+    - id: start
+      type: Global.Vector4
+    - id: end
+      type: Global.Vector4
+    - id: t
+      type: System.Single
+    - id: dur
+      type: System.Single
+    return:
+      type: Global.Vector4
+    content.vb: Public Shared Function EaseVector4(ease As Ease, start As Vector4, end As Vector4, t As Single, dur As Single) As Vector4
+  overload: Lucid.Easing.EaseMethods.EaseVector4*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.EaseMethods.EaseQuaternion(Lucid.Easing.Ease,Quaternion,Quaternion,System.Single,System.Single)
+  commentId: M:Lucid.Easing.EaseMethods.EaseQuaternion(Lucid.Easing.Ease,Quaternion,Quaternion,System.Single,System.Single)
+  id: EaseQuaternion(Lucid.Easing.Ease,Quaternion,Quaternion,System.Single,System.Single)
+  parent: Lucid.Easing.EaseMethods
+  langs:
+  - csharp
+  - vb
+  name: EaseQuaternion(Ease, Quaternion, Quaternion, Single, Single)
+  nameWithType: EaseMethods.EaseQuaternion(Ease, Quaternion, Quaternion, Single, Single)
+  fullName: Lucid.Easing.EaseMethods.EaseQuaternion(Lucid.Easing.Ease, Quaternion, Quaternion, System.Single, System.Single)
+  type: Method
+  source:
+    id: EaseQuaternion
+    path: ''
+    startLine: 22126
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static Quaternion EaseQuaternion(Ease ease, Quaternion start, Quaternion end, float t, float dur)
+    parameters:
+    - id: ease
+      type: Lucid.Easing.Ease
+    - id: start
+      type: Global.Quaternion
+    - id: end
+      type: Global.Quaternion
+    - id: t
+      type: System.Single
+    - id: dur
+      type: System.Single
+    return:
+      type: Global.Quaternion
+    content.vb: Public Shared Function EaseQuaternion(ease As Ease, start As Quaternion, end As Quaternion, t As Single, dur As Single) As Quaternion
+  overload: Lucid.Easing.EaseMethods.EaseQuaternion*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Lucid.Easing
+  commentId: N:Lucid.Easing
+  name: Lucid.Easing
+  nameWithType: Lucid.Easing
+  fullName: Lucid.Easing
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.Easing.EaseMethods.GetEase*
+  commentId: Overload:Lucid.Easing.EaseMethods.GetEase
+  name: GetEase
+  nameWithType: EaseMethods.GetEase
+  fullName: Lucid.Easing.EaseMethods.GetEase
+- uid: Lucid.Easing.EaseStyle
+  commentId: T:Lucid.Easing.EaseStyle
+  parent: Lucid.Easing
+  name: EaseStyle
+  nameWithType: EaseStyle
+  fullName: Lucid.Easing.EaseStyle
+- uid: Lucid.Easing.Ease
+  commentId: T:Lucid.Easing.Ease
+  parent: Lucid.Easing
+  name: Ease
+  nameWithType: Ease
+  fullName: Lucid.Easing.Ease
+- uid: Lucid.Easing.EaseMethods.EasedLerp*
+  commentId: Overload:Lucid.Easing.EaseMethods.EasedLerp
+  name: EasedLerp
+  nameWithType: EaseMethods.EasedLerp
+  fullName: Lucid.Easing.EaseMethods.EasedLerp
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Lucid.Easing.EaseMethods.BackEaseIn*
+  commentId: Overload:Lucid.Easing.EaseMethods.BackEaseIn
+  name: BackEaseIn
+  nameWithType: EaseMethods.BackEaseIn
+  fullName: Lucid.Easing.EaseMethods.BackEaseIn
+- uid: Lucid.Easing.EaseMethods.BackEaseOut*
+  commentId: Overload:Lucid.Easing.EaseMethods.BackEaseOut
+  name: BackEaseOut
+  nameWithType: EaseMethods.BackEaseOut
+  fullName: Lucid.Easing.EaseMethods.BackEaseOut
+- uid: Lucid.Easing.EaseMethods.BackEaseInOut*
+  commentId: Overload:Lucid.Easing.EaseMethods.BackEaseInOut
+  name: BackEaseInOut
+  nameWithType: EaseMethods.BackEaseInOut
+  fullName: Lucid.Easing.EaseMethods.BackEaseInOut
+- uid: Lucid.Easing.EaseMethods.BounceEaseIn*
+  commentId: Overload:Lucid.Easing.EaseMethods.BounceEaseIn
+  name: BounceEaseIn
+  nameWithType: EaseMethods.BounceEaseIn
+  fullName: Lucid.Easing.EaseMethods.BounceEaseIn
+- uid: Lucid.Easing.EaseMethods.BounceEaseOut*
+  commentId: Overload:Lucid.Easing.EaseMethods.BounceEaseOut
+  name: BounceEaseOut
+  nameWithType: EaseMethods.BounceEaseOut
+  fullName: Lucid.Easing.EaseMethods.BounceEaseOut
+- uid: Lucid.Easing.EaseMethods.BounceEaseInOut*
+  commentId: Overload:Lucid.Easing.EaseMethods.BounceEaseInOut
+  name: BounceEaseInOut
+  nameWithType: EaseMethods.BounceEaseInOut
+  fullName: Lucid.Easing.EaseMethods.BounceEaseInOut
+- uid: Lucid.Easing.EaseMethods.CircleEaseIn*
+  commentId: Overload:Lucid.Easing.EaseMethods.CircleEaseIn
+  name: CircleEaseIn
+  nameWithType: EaseMethods.CircleEaseIn
+  fullName: Lucid.Easing.EaseMethods.CircleEaseIn
+- uid: Lucid.Easing.EaseMethods.CircleEaseOut*
+  commentId: Overload:Lucid.Easing.EaseMethods.CircleEaseOut
+  name: CircleEaseOut
+  nameWithType: EaseMethods.CircleEaseOut
+  fullName: Lucid.Easing.EaseMethods.CircleEaseOut
+- uid: Lucid.Easing.EaseMethods.CircleEaseInOut*
+  commentId: Overload:Lucid.Easing.EaseMethods.CircleEaseInOut
+  name: CircleEaseInOut
+  nameWithType: EaseMethods.CircleEaseInOut
+  fullName: Lucid.Easing.EaseMethods.CircleEaseInOut
+- uid: Lucid.Easing.EaseMethods.CubicEaseIn*
+  commentId: Overload:Lucid.Easing.EaseMethods.CubicEaseIn
+  name: CubicEaseIn
+  nameWithType: EaseMethods.CubicEaseIn
+  fullName: Lucid.Easing.EaseMethods.CubicEaseIn
+- uid: Lucid.Easing.EaseMethods.CubicEaseOut*
+  commentId: Overload:Lucid.Easing.EaseMethods.CubicEaseOut
+  name: CubicEaseOut
+  nameWithType: EaseMethods.CubicEaseOut
+  fullName: Lucid.Easing.EaseMethods.CubicEaseOut
+- uid: Lucid.Easing.EaseMethods.CubicEaseInOut*
+  commentId: Overload:Lucid.Easing.EaseMethods.CubicEaseInOut
+  name: CubicEaseInOut
+  nameWithType: EaseMethods.CubicEaseInOut
+  fullName: Lucid.Easing.EaseMethods.CubicEaseInOut
+- uid: Lucid.Easing.EaseMethods.ElasticEaseIn*
+  commentId: Overload:Lucid.Easing.EaseMethods.ElasticEaseIn
+  name: ElasticEaseIn
+  nameWithType: EaseMethods.ElasticEaseIn
+  fullName: Lucid.Easing.EaseMethods.ElasticEaseIn
+- uid: Lucid.Easing.EaseMethods.ElasticEaseOut*
+  commentId: Overload:Lucid.Easing.EaseMethods.ElasticEaseOut
+  name: ElasticEaseOut
+  nameWithType: EaseMethods.ElasticEaseOut
+  fullName: Lucid.Easing.EaseMethods.ElasticEaseOut
+- uid: Lucid.Easing.EaseMethods.ElasticEaseInOut*
+  commentId: Overload:Lucid.Easing.EaseMethods.ElasticEaseInOut
+  name: ElasticEaseInOut
+  nameWithType: EaseMethods.ElasticEaseInOut
+  fullName: Lucid.Easing.EaseMethods.ElasticEaseInOut
+- uid: Lucid.Easing.EaseMethods.ExpoEaseIn*
+  commentId: Overload:Lucid.Easing.EaseMethods.ExpoEaseIn
+  name: ExpoEaseIn
+  nameWithType: EaseMethods.ExpoEaseIn
+  fullName: Lucid.Easing.EaseMethods.ExpoEaseIn
+- uid: Lucid.Easing.EaseMethods.ExpoEaseOut*
+  commentId: Overload:Lucid.Easing.EaseMethods.ExpoEaseOut
+  name: ExpoEaseOut
+  nameWithType: EaseMethods.ExpoEaseOut
+  fullName: Lucid.Easing.EaseMethods.ExpoEaseOut
+- uid: Lucid.Easing.EaseMethods.ExpoEaseInOut*
+  commentId: Overload:Lucid.Easing.EaseMethods.ExpoEaseInOut
+  name: ExpoEaseInOut
+  nameWithType: EaseMethods.ExpoEaseInOut
+  fullName: Lucid.Easing.EaseMethods.ExpoEaseInOut
+- uid: Lucid.Easing.EaseMethods.LinearEaseNone*
+  commentId: Overload:Lucid.Easing.EaseMethods.LinearEaseNone
+  name: LinearEaseNone
+  nameWithType: EaseMethods.LinearEaseNone
+  fullName: Lucid.Easing.EaseMethods.LinearEaseNone
+- uid: Lucid.Easing.EaseMethods.LinearEaseIn*
+  commentId: Overload:Lucid.Easing.EaseMethods.LinearEaseIn
+  name: LinearEaseIn
+  nameWithType: EaseMethods.LinearEaseIn
+  fullName: Lucid.Easing.EaseMethods.LinearEaseIn
+- uid: Lucid.Easing.EaseMethods.LinearEaseOut*
+  commentId: Overload:Lucid.Easing.EaseMethods.LinearEaseOut
+  name: LinearEaseOut
+  nameWithType: EaseMethods.LinearEaseOut
+  fullName: Lucid.Easing.EaseMethods.LinearEaseOut
+- uid: Lucid.Easing.EaseMethods.LinearEaseInOut*
+  commentId: Overload:Lucid.Easing.EaseMethods.LinearEaseInOut
+  name: LinearEaseInOut
+  nameWithType: EaseMethods.LinearEaseInOut
+  fullName: Lucid.Easing.EaseMethods.LinearEaseInOut
+- uid: Lucid.Easing.EaseMethods.QuadEaseIn*
+  commentId: Overload:Lucid.Easing.EaseMethods.QuadEaseIn
+  name: QuadEaseIn
+  nameWithType: EaseMethods.QuadEaseIn
+  fullName: Lucid.Easing.EaseMethods.QuadEaseIn
+- uid: Lucid.Easing.EaseMethods.QuadEaseOut*
+  commentId: Overload:Lucid.Easing.EaseMethods.QuadEaseOut
+  name: QuadEaseOut
+  nameWithType: EaseMethods.QuadEaseOut
+  fullName: Lucid.Easing.EaseMethods.QuadEaseOut
+- uid: Lucid.Easing.EaseMethods.QuadEaseInOut*
+  commentId: Overload:Lucid.Easing.EaseMethods.QuadEaseInOut
+  name: QuadEaseInOut
+  nameWithType: EaseMethods.QuadEaseInOut
+  fullName: Lucid.Easing.EaseMethods.QuadEaseInOut
+- uid: Lucid.Easing.EaseMethods.QuartEaseIn*
+  commentId: Overload:Lucid.Easing.EaseMethods.QuartEaseIn
+  name: QuartEaseIn
+  nameWithType: EaseMethods.QuartEaseIn
+  fullName: Lucid.Easing.EaseMethods.QuartEaseIn
+- uid: Lucid.Easing.EaseMethods.QuartEaseOut*
+  commentId: Overload:Lucid.Easing.EaseMethods.QuartEaseOut
+  name: QuartEaseOut
+  nameWithType: EaseMethods.QuartEaseOut
+  fullName: Lucid.Easing.EaseMethods.QuartEaseOut
+- uid: Lucid.Easing.EaseMethods.QuartEaseInOut*
+  commentId: Overload:Lucid.Easing.EaseMethods.QuartEaseInOut
+  name: QuartEaseInOut
+  nameWithType: EaseMethods.QuartEaseInOut
+  fullName: Lucid.Easing.EaseMethods.QuartEaseInOut
+- uid: Lucid.Easing.EaseMethods.QuintEaseIn*
+  commentId: Overload:Lucid.Easing.EaseMethods.QuintEaseIn
+  name: QuintEaseIn
+  nameWithType: EaseMethods.QuintEaseIn
+  fullName: Lucid.Easing.EaseMethods.QuintEaseIn
+- uid: Lucid.Easing.EaseMethods.QuintEaseOut*
+  commentId: Overload:Lucid.Easing.EaseMethods.QuintEaseOut
+  name: QuintEaseOut
+  nameWithType: EaseMethods.QuintEaseOut
+  fullName: Lucid.Easing.EaseMethods.QuintEaseOut
+- uid: Lucid.Easing.EaseMethods.QuintEaseInOut*
+  commentId: Overload:Lucid.Easing.EaseMethods.QuintEaseInOut
+  name: QuintEaseInOut
+  nameWithType: EaseMethods.QuintEaseInOut
+  fullName: Lucid.Easing.EaseMethods.QuintEaseInOut
+- uid: Lucid.Easing.EaseMethods.SineEaseIn*
+  commentId: Overload:Lucid.Easing.EaseMethods.SineEaseIn
+  name: SineEaseIn
+  nameWithType: EaseMethods.SineEaseIn
+  fullName: Lucid.Easing.EaseMethods.SineEaseIn
+- uid: Lucid.Easing.EaseMethods.SineEaseOut*
+  commentId: Overload:Lucid.Easing.EaseMethods.SineEaseOut
+  name: SineEaseOut
+  nameWithType: EaseMethods.SineEaseOut
+  fullName: Lucid.Easing.EaseMethods.SineEaseOut
+- uid: Lucid.Easing.EaseMethods.SineEaseInOut*
+  commentId: Overload:Lucid.Easing.EaseMethods.SineEaseInOut
+  name: SineEaseInOut
+  nameWithType: EaseMethods.SineEaseInOut
+  fullName: Lucid.Easing.EaseMethods.SineEaseInOut
+- uid: Lucid.Easing.EaseMethods.StrongEaseIn*
+  commentId: Overload:Lucid.Easing.EaseMethods.StrongEaseIn
+  name: StrongEaseIn
+  nameWithType: EaseMethods.StrongEaseIn
+  fullName: Lucid.Easing.EaseMethods.StrongEaseIn
+- uid: Lucid.Easing.EaseMethods.StrongEaseOut*
+  commentId: Overload:Lucid.Easing.EaseMethods.StrongEaseOut
+  name: StrongEaseOut
+  nameWithType: EaseMethods.StrongEaseOut
+  fullName: Lucid.Easing.EaseMethods.StrongEaseOut
+- uid: Lucid.Easing.EaseMethods.StrongEaseInOut*
+  commentId: Overload:Lucid.Easing.EaseMethods.StrongEaseInOut
+  name: StrongEaseInOut
+  nameWithType: EaseMethods.StrongEaseInOut
+  fullName: Lucid.Easing.EaseMethods.StrongEaseInOut
+- uid: Lucid.Easing.EaseMethods.FromAnimationCurve*
+  commentId: Overload:Lucid.Easing.EaseMethods.FromAnimationCurve
+  name: FromAnimationCurve
+  nameWithType: EaseMethods.FromAnimationCurve
+  fullName: Lucid.Easing.EaseMethods.FromAnimationCurve
+- uid: Global.AnimationCurve
+  isExternal: true
+  name: AnimationCurve
+  nameWithType: AnimationCurve
+  fullName: AnimationCurve
+- uid: Lucid.Easing.EaseMethods.FromVerticalScalingAnimationCurve*
+  commentId: Overload:Lucid.Easing.EaseMethods.FromVerticalScalingAnimationCurve
+  name: FromVerticalScalingAnimationCurve
+  nameWithType: EaseMethods.FromVerticalScalingAnimationCurve
+  fullName: Lucid.Easing.EaseMethods.FromVerticalScalingAnimationCurve
+- uid: Lucid.Easing.EaseMethods.FromScalingAnimationCurve*
+  commentId: Overload:Lucid.Easing.EaseMethods.FromScalingAnimationCurve
+  name: FromScalingAnimationCurve
+  nameWithType: EaseMethods.FromScalingAnimationCurve
+  fullName: Lucid.Easing.EaseMethods.FromScalingAnimationCurve
+- uid: Lucid.Easing.EaseMethods.CubicBezier*
+  commentId: Overload:Lucid.Easing.EaseMethods.CubicBezier
+  name: CubicBezier
+  nameWithType: EaseMethods.CubicBezier
+  fullName: Lucid.Easing.EaseMethods.CubicBezier
+- uid: Lucid.Easing.EaseMethods.EaseVector2*
+  commentId: Overload:Lucid.Easing.EaseMethods.EaseVector2
+  name: EaseVector2
+  nameWithType: EaseMethods.EaseVector2
+  fullName: Lucid.Easing.EaseMethods.EaseVector2
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: Lucid.Easing.EaseMethods.EaseVector3*
+  commentId: Overload:Lucid.Easing.EaseMethods.EaseVector3
+  name: EaseVector3
+  nameWithType: EaseMethods.EaseVector3
+  fullName: Lucid.Easing.EaseMethods.EaseVector3
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: Lucid.Easing.EaseMethods.EaseVector4*
+  commentId: Overload:Lucid.Easing.EaseMethods.EaseVector4
+  name: EaseVector4
+  nameWithType: EaseMethods.EaseVector4
+  fullName: Lucid.Easing.EaseMethods.EaseVector4
+- uid: Global.Vector4
+  isExternal: true
+  name: Vector4
+  nameWithType: Vector4
+  fullName: Vector4
+- uid: Lucid.Easing.EaseMethods.EaseQuaternion*
+  commentId: Overload:Lucid.Easing.EaseMethods.EaseQuaternion
+  name: EaseQuaternion
+  nameWithType: EaseMethods.EaseQuaternion
+  fullName: Lucid.Easing.EaseMethods.EaseQuaternion
+- uid: Global.Quaternion
+  isExternal: true
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: Quaternion

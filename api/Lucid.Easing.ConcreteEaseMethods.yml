@@ -1,0 +1,2014 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Easing.ConcreteEaseMethods
+  commentId: T:Lucid.Easing.ConcreteEaseMethods
+  id: ConcreteEaseMethods
+  parent: Lucid.Easing
+  children:
+  - Lucid.Easing.ConcreteEaseMethods.BackEaseIn(System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.BackEaseInFull(System.Single,System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.BackEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.BackEaseInOutFull(System.Single,System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.BackEaseOut(System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.BackEaseOutFull(System.Single,System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.BounceEaseIn(System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.BounceEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.BounceEaseOut(System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.CircleEaseIn(System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.CircleEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.CircleEaseOut(System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.CubicEaseIn(System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.CubicEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.CubicEaseOut(System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.ElasticEaseIn(System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.ElasticEaseInFull(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.ElasticEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.ElasticEaseInOutFull(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.ElasticEaseOut(System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.ElasticEaseOutFull(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.ExpoEaseIn(System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.ExpoEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.ExpoEaseOut(System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.LinearEaseIn(System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.LinearEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.LinearEaseNone(System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.LinearEaseOut(System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.QuadEaseIn(System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.QuadEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.QuadEaseOut(System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.QuartEaseIn(System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.QuartEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.QuartEaseOut(System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.QuintEaseIn(System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.QuintEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.QuintEaseOut(System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.SineEaseIn(System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.SineEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.SineEaseOut(System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.StrongEaseIn(System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.StrongEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  - Lucid.Easing.ConcreteEaseMethods.StrongEaseOut(System.Single,System.Single,System.Single,System.Single)
+  langs:
+  - csharp
+  - vb
+  name: ConcreteEaseMethods
+  nameWithType: ConcreteEaseMethods
+  fullName: Lucid.Easing.ConcreteEaseMethods
+  type: Class
+  source:
+    id: ConcreteEaseMethods
+    path: ''
+    startLine: 21279
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  summary: "\nA set of easing methods, to see a visual representation you can check out:\nhttps://msdn.microsoft.com/en-us/library/vstudio/Ee308751%28v=VS.100%29.aspx\n"
+  example: []
+  syntax:
+    content: public static class ConcreteEaseMethods
+    content.vb: Public Module ConcreteEaseMethods
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Lucid.Easing.ConcreteEaseMethods.BackEaseIn(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.BackEaseIn(System.Single,System.Single,System.Single,System.Single)
+  id: BackEaseIn(System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: BackEaseIn(Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.BackEaseIn(Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.BackEaseIn(System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: BackEaseIn
+    path: ''
+    startLine: 21286
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float BackEaseIn(float t, float b, float c, float d)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function BackEaseIn(t As Single, b As Single, c As Single, d As Single) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.BackEaseIn*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.BackEaseOut(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.BackEaseOut(System.Single,System.Single,System.Single,System.Single)
+  id: BackEaseOut(System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: BackEaseOut(Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.BackEaseOut(Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.BackEaseOut(System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: BackEaseOut
+    path: ''
+    startLine: 21291
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float BackEaseOut(float t, float b, float c, float d)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function BackEaseOut(t As Single, b As Single, c As Single, d As Single) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.BackEaseOut*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.BackEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.BackEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  id: BackEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: BackEaseInOut(Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.BackEaseInOut(Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.BackEaseInOut(System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: BackEaseInOut
+    path: ''
+    startLine: 21295
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float BackEaseInOut(float t, float b, float c, float d)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function BackEaseInOut(t As Single, b As Single, c As Single, d As Single) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.BackEaseInOut*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.BackEaseInFull(System.Single,System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.BackEaseInFull(System.Single,System.Single,System.Single,System.Single,System.Single)
+  id: BackEaseInFull(System.Single,System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: BackEaseInFull(Single, Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.BackEaseInFull(Single, Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.BackEaseInFull(System.Single, System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: BackEaseInFull
+    path: ''
+    startLine: 21300
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float BackEaseInFull(float t, float b, float c, float d, float s = 1.70158F)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    - id: s
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function BackEaseInFull(t As Single, b As Single, c As Single, d As Single, s As Single = 1.70158F) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.BackEaseInFull*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.BackEaseOutFull(System.Single,System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.BackEaseOutFull(System.Single,System.Single,System.Single,System.Single,System.Single)
+  id: BackEaseOutFull(System.Single,System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: BackEaseOutFull(Single, Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.BackEaseOutFull(Single, Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.BackEaseOutFull(System.Single, System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: BackEaseOutFull
+    path: ''
+    startLine: 21305
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float BackEaseOutFull(float t, float b, float c, float d, float s = 1.70158F)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    - id: s
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function BackEaseOutFull(t As Single, b As Single, c As Single, d As Single, s As Single = 1.70158F) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.BackEaseOutFull*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.BackEaseInOutFull(System.Single,System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.BackEaseInOutFull(System.Single,System.Single,System.Single,System.Single,System.Single)
+  id: BackEaseInOutFull(System.Single,System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: BackEaseInOutFull(Single, Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.BackEaseInOutFull(Single, Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.BackEaseInOutFull(System.Single, System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: BackEaseInOutFull
+    path: ''
+    startLine: 21309
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float BackEaseInOutFull(float t, float b, float c, float d, float s = 1.70158F)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    - id: s
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function BackEaseInOutFull(t As Single, b As Single, c As Single, d As Single, s As Single = 1.70158F) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.BackEaseInOutFull*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.BounceEaseOut(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.BounceEaseOut(System.Single,System.Single,System.Single,System.Single)
+  id: BounceEaseOut(System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: BounceEaseOut(Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.BounceEaseOut(Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.BounceEaseOut(System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: BounceEaseOut
+    path: ''
+    startLine: 21317
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float BounceEaseOut(float t, float b, float c, float d)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function BounceEaseOut(t As Single, b As Single, c As Single, d As Single) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.BounceEaseOut*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.BounceEaseIn(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.BounceEaseIn(System.Single,System.Single,System.Single,System.Single)
+  id: BounceEaseIn(System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: BounceEaseIn(Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.BounceEaseIn(Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.BounceEaseIn(System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: BounceEaseIn
+    path: ''
+    startLine: 21336
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float BounceEaseIn(float t, float b, float c, float d)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function BounceEaseIn(t As Single, b As Single, c As Single, d As Single) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.BounceEaseIn*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.BounceEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.BounceEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  id: BounceEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: BounceEaseInOut(Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.BounceEaseInOut(Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.BounceEaseInOut(System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: BounceEaseInOut
+    path: ''
+    startLine: 21340
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float BounceEaseInOut(float t, float b, float c, float d)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function BounceEaseInOut(t As Single, b As Single, c As Single, d As Single) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.BounceEaseInOut*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.CircleEaseIn(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.CircleEaseIn(System.Single,System.Single,System.Single,System.Single)
+  id: CircleEaseIn(System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: CircleEaseIn(Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.CircleEaseIn(Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.CircleEaseIn(System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: CircleEaseIn
+    path: ''
+    startLine: 21348
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float CircleEaseIn(float t, float b, float c, float d)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function CircleEaseIn(t As Single, b As Single, c As Single, d As Single) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.CircleEaseIn*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.CircleEaseOut(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.CircleEaseOut(System.Single,System.Single,System.Single,System.Single)
+  id: CircleEaseOut(System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: CircleEaseOut(Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.CircleEaseOut(Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.CircleEaseOut(System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: CircleEaseOut
+    path: ''
+    startLine: 21352
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float CircleEaseOut(float t, float b, float c, float d)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function CircleEaseOut(t As Single, b As Single, c As Single, d As Single) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.CircleEaseOut*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.CircleEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.CircleEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  id: CircleEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: CircleEaseInOut(Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.CircleEaseInOut(Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.CircleEaseInOut(System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: CircleEaseInOut
+    path: ''
+    startLine: 21356
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float CircleEaseInOut(float t, float b, float c, float d)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function CircleEaseInOut(t As Single, b As Single, c As Single, d As Single) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.CircleEaseInOut*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.CubicEaseIn(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.CubicEaseIn(System.Single,System.Single,System.Single,System.Single)
+  id: CubicEaseIn(System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: CubicEaseIn(Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.CubicEaseIn(Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.CubicEaseIn(System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: CubicEaseIn
+    path: ''
+    startLine: 21365
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float CubicEaseIn(float t, float b, float c, float d)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function CubicEaseIn(t As Single, b As Single, c As Single, d As Single) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.CubicEaseIn*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.CubicEaseOut(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.CubicEaseOut(System.Single,System.Single,System.Single,System.Single)
+  id: CubicEaseOut(System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: CubicEaseOut(Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.CubicEaseOut(Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.CubicEaseOut(System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: CubicEaseOut
+    path: ''
+    startLine: 21369
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float CubicEaseOut(float t, float b, float c, float d)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function CubicEaseOut(t As Single, b As Single, c As Single, d As Single) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.CubicEaseOut*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.CubicEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.CubicEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  id: CubicEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: CubicEaseInOut(Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.CubicEaseInOut(Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.CubicEaseInOut(System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: CubicEaseInOut
+    path: ''
+    startLine: 21373
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float CubicEaseInOut(float t, float b, float c, float d)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function CubicEaseInOut(t As Single, b As Single, c As Single, d As Single) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.CubicEaseInOut*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.ElasticEaseIn(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.ElasticEaseIn(System.Single,System.Single,System.Single,System.Single)
+  id: ElasticEaseIn(System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: ElasticEaseIn(Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.ElasticEaseIn(Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.ElasticEaseIn(System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: ElasticEaseIn
+    path: ''
+    startLine: 21382
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float ElasticEaseIn(float t, float b, float c, float d)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function ElasticEaseIn(t As Single, b As Single, c As Single, d As Single) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.ElasticEaseIn*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.ElasticEaseOut(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.ElasticEaseOut(System.Single,System.Single,System.Single,System.Single)
+  id: ElasticEaseOut(System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: ElasticEaseOut(Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.ElasticEaseOut(Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.ElasticEaseOut(System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: ElasticEaseOut
+    path: ''
+    startLine: 21387
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float ElasticEaseOut(float t, float b, float c, float d)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function ElasticEaseOut(t As Single, b As Single, c As Single, d As Single) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.ElasticEaseOut*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.ElasticEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.ElasticEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  id: ElasticEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: ElasticEaseInOut(Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.ElasticEaseInOut(Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.ElasticEaseInOut(System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: ElasticEaseInOut
+    path: ''
+    startLine: 21392
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float ElasticEaseInOut(float t, float b, float c, float d)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function ElasticEaseInOut(t As Single, b As Single, c As Single, d As Single) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.ElasticEaseInOut*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.ElasticEaseInFull(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.ElasticEaseInFull(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+  id: ElasticEaseInFull(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: ElasticEaseInFull(Single, Single, Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.ElasticEaseInFull(Single, Single, Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.ElasticEaseInFull(System.Single, System.Single, System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: ElasticEaseInFull
+    path: ''
+    startLine: 21397
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float ElasticEaseInFull(float t, float b, float c, float d, float a, float p)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    - id: a
+      type: System.Single
+    - id: p
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function ElasticEaseInFull(t As Single, b As Single, c As Single, d As Single, a As Single, p As Single) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.ElasticEaseInFull*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.ElasticEaseOutFull(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.ElasticEaseOutFull(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+  id: ElasticEaseOutFull(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: ElasticEaseOutFull(Single, Single, Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.ElasticEaseOutFull(Single, Single, Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.ElasticEaseOutFull(System.Single, System.Single, System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: ElasticEaseOutFull
+    path: ''
+    startLine: 21406
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float ElasticEaseOutFull(float t, float b, float c, float d, float a = 0F, float p = 0F)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    - id: a
+      type: System.Single
+    - id: p
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function ElasticEaseOutFull(t As Single, b As Single, c As Single, d As Single, a As Single = 0F, p As Single = 0F) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.ElasticEaseOutFull*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.ElasticEaseInOutFull(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.ElasticEaseInOutFull(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+  id: ElasticEaseInOutFull(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: ElasticEaseInOutFull(Single, Single, Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.ElasticEaseInOutFull(Single, Single, Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.ElasticEaseInOutFull(System.Single, System.Single, System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: ElasticEaseInOutFull
+    path: ''
+    startLine: 21416
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float ElasticEaseInOutFull(float t, float b, float c, float d, float a = 0F, float p = 0F)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    - id: a
+      type: System.Single
+    - id: p
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function ElasticEaseInOutFull(t As Single, b As Single, c As Single, d As Single, a As Single = 0F, p As Single = 0F) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.ElasticEaseInOutFull*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.ExpoEaseIn(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.ExpoEaseIn(System.Single,System.Single,System.Single,System.Single)
+  id: ExpoEaseIn(System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: ExpoEaseIn(Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.ExpoEaseIn(Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.ExpoEaseIn(System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: ExpoEaseIn
+    path: ''
+    startLine: 21430
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float ExpoEaseIn(float t, float b, float c, float d)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function ExpoEaseIn(t As Single, b As Single, c As Single, d As Single) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.ExpoEaseIn*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.ExpoEaseOut(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.ExpoEaseOut(System.Single,System.Single,System.Single,System.Single)
+  id: ExpoEaseOut(System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: ExpoEaseOut(Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.ExpoEaseOut(Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.ExpoEaseOut(System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: ExpoEaseOut
+    path: ''
+    startLine: 21434
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float ExpoEaseOut(float t, float b, float c, float d)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function ExpoEaseOut(t As Single, b As Single, c As Single, d As Single) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.ExpoEaseOut*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.ExpoEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.ExpoEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  id: ExpoEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: ExpoEaseInOut(Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.ExpoEaseInOut(Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.ExpoEaseInOut(System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: ExpoEaseInOut
+    path: ''
+    startLine: 21438
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float ExpoEaseInOut(float t, float b, float c, float d)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function ExpoEaseInOut(t As Single, b As Single, c As Single, d As Single) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.ExpoEaseInOut*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.LinearEaseNone(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.LinearEaseNone(System.Single,System.Single,System.Single,System.Single)
+  id: LinearEaseNone(System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: LinearEaseNone(Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.LinearEaseNone(Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.LinearEaseNone(System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: LinearEaseNone
+    path: ''
+    startLine: 21448
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float LinearEaseNone(float t, float b, float c, float d)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function LinearEaseNone(t As Single, b As Single, c As Single, d As Single) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.LinearEaseNone*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.LinearEaseIn(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.LinearEaseIn(System.Single,System.Single,System.Single,System.Single)
+  id: LinearEaseIn(System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: LinearEaseIn(Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.LinearEaseIn(Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.LinearEaseIn(System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: LinearEaseIn
+    path: ''
+    startLine: 21452
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float LinearEaseIn(float t, float b, float c, float d)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function LinearEaseIn(t As Single, b As Single, c As Single, d As Single) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.LinearEaseIn*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.LinearEaseOut(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.LinearEaseOut(System.Single,System.Single,System.Single,System.Single)
+  id: LinearEaseOut(System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: LinearEaseOut(Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.LinearEaseOut(Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.LinearEaseOut(System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: LinearEaseOut
+    path: ''
+    startLine: 21456
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float LinearEaseOut(float t, float b, float c, float d)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function LinearEaseOut(t As Single, b As Single, c As Single, d As Single) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.LinearEaseOut*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.LinearEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.LinearEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  id: LinearEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: LinearEaseInOut(Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.LinearEaseInOut(Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.LinearEaseInOut(System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: LinearEaseInOut
+    path: ''
+    startLine: 21460
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float LinearEaseInOut(float t, float b, float c, float d)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function LinearEaseInOut(t As Single, b As Single, c As Single, d As Single) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.LinearEaseInOut*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.QuadEaseIn(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.QuadEaseIn(System.Single,System.Single,System.Single,System.Single)
+  id: QuadEaseIn(System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: QuadEaseIn(Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.QuadEaseIn(Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.QuadEaseIn(System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: QuadEaseIn
+    path: ''
+    startLine: 21467
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float QuadEaseIn(float t, float b, float c, float d)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function QuadEaseIn(t As Single, b As Single, c As Single, d As Single) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.QuadEaseIn*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.QuadEaseOut(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.QuadEaseOut(System.Single,System.Single,System.Single,System.Single)
+  id: QuadEaseOut(System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: QuadEaseOut(Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.QuadEaseOut(Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.QuadEaseOut(System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: QuadEaseOut
+    path: ''
+    startLine: 21471
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float QuadEaseOut(float t, float b, float c, float d)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function QuadEaseOut(t As Single, b As Single, c As Single, d As Single) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.QuadEaseOut*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.QuadEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.QuadEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  id: QuadEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: QuadEaseInOut(Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.QuadEaseInOut(Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.QuadEaseInOut(System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: QuadEaseInOut
+    path: ''
+    startLine: 21475
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float QuadEaseInOut(float t, float b, float c, float d)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function QuadEaseInOut(t As Single, b As Single, c As Single, d As Single) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.QuadEaseInOut*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.QuartEaseIn(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.QuartEaseIn(System.Single,System.Single,System.Single,System.Single)
+  id: QuartEaseIn(System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: QuartEaseIn(Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.QuartEaseIn(Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.QuartEaseIn(System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: QuartEaseIn
+    path: ''
+    startLine: 21483
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float QuartEaseIn(float t, float b, float c, float d)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function QuartEaseIn(t As Single, b As Single, c As Single, d As Single) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.QuartEaseIn*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.QuartEaseOut(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.QuartEaseOut(System.Single,System.Single,System.Single,System.Single)
+  id: QuartEaseOut(System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: QuartEaseOut(Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.QuartEaseOut(Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.QuartEaseOut(System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: QuartEaseOut
+    path: ''
+    startLine: 21487
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float QuartEaseOut(float t, float b, float c, float d)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function QuartEaseOut(t As Single, b As Single, c As Single, d As Single) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.QuartEaseOut*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.QuartEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.QuartEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  id: QuartEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: QuartEaseInOut(Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.QuartEaseInOut(Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.QuartEaseInOut(System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: QuartEaseInOut
+    path: ''
+    startLine: 21491
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float QuartEaseInOut(float t, float b, float c, float d)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function QuartEaseInOut(t As Single, b As Single, c As Single, d As Single) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.QuartEaseInOut*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.QuintEaseIn(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.QuintEaseIn(System.Single,System.Single,System.Single,System.Single)
+  id: QuintEaseIn(System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: QuintEaseIn(Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.QuintEaseIn(Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.QuintEaseIn(System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: QuintEaseIn
+    path: ''
+    startLine: 21499
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float QuintEaseIn(float t, float b, float c, float d)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function QuintEaseIn(t As Single, b As Single, c As Single, d As Single) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.QuintEaseIn*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.QuintEaseOut(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.QuintEaseOut(System.Single,System.Single,System.Single,System.Single)
+  id: QuintEaseOut(System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: QuintEaseOut(Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.QuintEaseOut(Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.QuintEaseOut(System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: QuintEaseOut
+    path: ''
+    startLine: 21503
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float QuintEaseOut(float t, float b, float c, float d)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function QuintEaseOut(t As Single, b As Single, c As Single, d As Single) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.QuintEaseOut*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.QuintEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.QuintEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  id: QuintEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: QuintEaseInOut(Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.QuintEaseInOut(Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.QuintEaseInOut(System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: QuintEaseInOut
+    path: ''
+    startLine: 21507
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float QuintEaseInOut(float t, float b, float c, float d)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function QuintEaseInOut(t As Single, b As Single, c As Single, d As Single) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.QuintEaseInOut*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.SineEaseIn(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.SineEaseIn(System.Single,System.Single,System.Single,System.Single)
+  id: SineEaseIn(System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: SineEaseIn(Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.SineEaseIn(Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.SineEaseIn(System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: SineEaseIn
+    path: ''
+    startLine: 21515
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float SineEaseIn(float t, float b, float c, float d)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function SineEaseIn(t As Single, b As Single, c As Single, d As Single) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.SineEaseIn*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.SineEaseOut(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.SineEaseOut(System.Single,System.Single,System.Single,System.Single)
+  id: SineEaseOut(System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: SineEaseOut(Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.SineEaseOut(Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.SineEaseOut(System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: SineEaseOut
+    path: ''
+    startLine: 21519
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float SineEaseOut(float t, float b, float c, float d)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function SineEaseOut(t As Single, b As Single, c As Single, d As Single) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.SineEaseOut*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.SineEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.SineEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  id: SineEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: SineEaseInOut(Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.SineEaseInOut(Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.SineEaseInOut(System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: SineEaseInOut
+    path: ''
+    startLine: 21523
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float SineEaseInOut(float t, float b, float c, float d)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function SineEaseInOut(t As Single, b As Single, c As Single, d As Single) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.SineEaseInOut*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.StrongEaseIn(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.StrongEaseIn(System.Single,System.Single,System.Single,System.Single)
+  id: StrongEaseIn(System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: StrongEaseIn(Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.StrongEaseIn(Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.StrongEaseIn(System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: StrongEaseIn
+    path: ''
+    startLine: 21530
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float StrongEaseIn(float t, float b, float c, float d)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function StrongEaseIn(t As Single, b As Single, c As Single, d As Single) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.StrongEaseIn*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.StrongEaseOut(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.StrongEaseOut(System.Single,System.Single,System.Single,System.Single)
+  id: StrongEaseOut(System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: StrongEaseOut(Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.StrongEaseOut(Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.StrongEaseOut(System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: StrongEaseOut
+    path: ''
+    startLine: 21534
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float StrongEaseOut(float t, float b, float c, float d)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function StrongEaseOut(t As Single, b As Single, c As Single, d As Single) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.StrongEaseOut*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Easing.ConcreteEaseMethods.StrongEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  commentId: M:Lucid.Easing.ConcreteEaseMethods.StrongEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  id: StrongEaseInOut(System.Single,System.Single,System.Single,System.Single)
+  parent: Lucid.Easing.ConcreteEaseMethods
+  langs:
+  - csharp
+  - vb
+  name: StrongEaseInOut(Single, Single, Single, Single)
+  nameWithType: ConcreteEaseMethods.StrongEaseInOut(Single, Single, Single, Single)
+  fullName: Lucid.Easing.ConcreteEaseMethods.StrongEaseInOut(System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    id: StrongEaseInOut
+    path: ''
+    startLine: 21538
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public static float StrongEaseInOut(float t, float b, float c, float d)
+    parameters:
+    - id: t
+      type: System.Single
+    - id: b
+      type: System.Single
+    - id: c
+      type: System.Single
+    - id: d
+      type: System.Single
+    return:
+      type: System.Single
+    content.vb: Public Shared Function StrongEaseInOut(t As Single, b As Single, c As Single, d As Single) As Single
+  overload: Lucid.Easing.ConcreteEaseMethods.StrongEaseInOut*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Lucid.Easing
+  commentId: N:Lucid.Easing
+  name: Lucid.Easing
+  nameWithType: Lucid.Easing
+  fullName: Lucid.Easing
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.Easing.ConcreteEaseMethods.BackEaseIn*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.BackEaseIn
+  name: BackEaseIn
+  nameWithType: ConcreteEaseMethods.BackEaseIn
+  fullName: Lucid.Easing.ConcreteEaseMethods.BackEaseIn
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Lucid.Easing.ConcreteEaseMethods.BackEaseOut*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.BackEaseOut
+  name: BackEaseOut
+  nameWithType: ConcreteEaseMethods.BackEaseOut
+  fullName: Lucid.Easing.ConcreteEaseMethods.BackEaseOut
+- uid: Lucid.Easing.ConcreteEaseMethods.BackEaseInOut*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.BackEaseInOut
+  name: BackEaseInOut
+  nameWithType: ConcreteEaseMethods.BackEaseInOut
+  fullName: Lucid.Easing.ConcreteEaseMethods.BackEaseInOut
+- uid: Lucid.Easing.ConcreteEaseMethods.BackEaseInFull*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.BackEaseInFull
+  name: BackEaseInFull
+  nameWithType: ConcreteEaseMethods.BackEaseInFull
+  fullName: Lucid.Easing.ConcreteEaseMethods.BackEaseInFull
+- uid: Lucid.Easing.ConcreteEaseMethods.BackEaseOutFull*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.BackEaseOutFull
+  name: BackEaseOutFull
+  nameWithType: ConcreteEaseMethods.BackEaseOutFull
+  fullName: Lucid.Easing.ConcreteEaseMethods.BackEaseOutFull
+- uid: Lucid.Easing.ConcreteEaseMethods.BackEaseInOutFull*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.BackEaseInOutFull
+  name: BackEaseInOutFull
+  nameWithType: ConcreteEaseMethods.BackEaseInOutFull
+  fullName: Lucid.Easing.ConcreteEaseMethods.BackEaseInOutFull
+- uid: Lucid.Easing.ConcreteEaseMethods.BounceEaseOut*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.BounceEaseOut
+  name: BounceEaseOut
+  nameWithType: ConcreteEaseMethods.BounceEaseOut
+  fullName: Lucid.Easing.ConcreteEaseMethods.BounceEaseOut
+- uid: Lucid.Easing.ConcreteEaseMethods.BounceEaseIn*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.BounceEaseIn
+  name: BounceEaseIn
+  nameWithType: ConcreteEaseMethods.BounceEaseIn
+  fullName: Lucid.Easing.ConcreteEaseMethods.BounceEaseIn
+- uid: Lucid.Easing.ConcreteEaseMethods.BounceEaseInOut*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.BounceEaseInOut
+  name: BounceEaseInOut
+  nameWithType: ConcreteEaseMethods.BounceEaseInOut
+  fullName: Lucid.Easing.ConcreteEaseMethods.BounceEaseInOut
+- uid: Lucid.Easing.ConcreteEaseMethods.CircleEaseIn*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.CircleEaseIn
+  name: CircleEaseIn
+  nameWithType: ConcreteEaseMethods.CircleEaseIn
+  fullName: Lucid.Easing.ConcreteEaseMethods.CircleEaseIn
+- uid: Lucid.Easing.ConcreteEaseMethods.CircleEaseOut*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.CircleEaseOut
+  name: CircleEaseOut
+  nameWithType: ConcreteEaseMethods.CircleEaseOut
+  fullName: Lucid.Easing.ConcreteEaseMethods.CircleEaseOut
+- uid: Lucid.Easing.ConcreteEaseMethods.CircleEaseInOut*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.CircleEaseInOut
+  name: CircleEaseInOut
+  nameWithType: ConcreteEaseMethods.CircleEaseInOut
+  fullName: Lucid.Easing.ConcreteEaseMethods.CircleEaseInOut
+- uid: Lucid.Easing.ConcreteEaseMethods.CubicEaseIn*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.CubicEaseIn
+  name: CubicEaseIn
+  nameWithType: ConcreteEaseMethods.CubicEaseIn
+  fullName: Lucid.Easing.ConcreteEaseMethods.CubicEaseIn
+- uid: Lucid.Easing.ConcreteEaseMethods.CubicEaseOut*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.CubicEaseOut
+  name: CubicEaseOut
+  nameWithType: ConcreteEaseMethods.CubicEaseOut
+  fullName: Lucid.Easing.ConcreteEaseMethods.CubicEaseOut
+- uid: Lucid.Easing.ConcreteEaseMethods.CubicEaseInOut*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.CubicEaseInOut
+  name: CubicEaseInOut
+  nameWithType: ConcreteEaseMethods.CubicEaseInOut
+  fullName: Lucid.Easing.ConcreteEaseMethods.CubicEaseInOut
+- uid: Lucid.Easing.ConcreteEaseMethods.ElasticEaseIn*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.ElasticEaseIn
+  name: ElasticEaseIn
+  nameWithType: ConcreteEaseMethods.ElasticEaseIn
+  fullName: Lucid.Easing.ConcreteEaseMethods.ElasticEaseIn
+- uid: Lucid.Easing.ConcreteEaseMethods.ElasticEaseOut*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.ElasticEaseOut
+  name: ElasticEaseOut
+  nameWithType: ConcreteEaseMethods.ElasticEaseOut
+  fullName: Lucid.Easing.ConcreteEaseMethods.ElasticEaseOut
+- uid: Lucid.Easing.ConcreteEaseMethods.ElasticEaseInOut*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.ElasticEaseInOut
+  name: ElasticEaseInOut
+  nameWithType: ConcreteEaseMethods.ElasticEaseInOut
+  fullName: Lucid.Easing.ConcreteEaseMethods.ElasticEaseInOut
+- uid: Lucid.Easing.ConcreteEaseMethods.ElasticEaseInFull*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.ElasticEaseInFull
+  name: ElasticEaseInFull
+  nameWithType: ConcreteEaseMethods.ElasticEaseInFull
+  fullName: Lucid.Easing.ConcreteEaseMethods.ElasticEaseInFull
+- uid: Lucid.Easing.ConcreteEaseMethods.ElasticEaseOutFull*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.ElasticEaseOutFull
+  name: ElasticEaseOutFull
+  nameWithType: ConcreteEaseMethods.ElasticEaseOutFull
+  fullName: Lucid.Easing.ConcreteEaseMethods.ElasticEaseOutFull
+- uid: Lucid.Easing.ConcreteEaseMethods.ElasticEaseInOutFull*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.ElasticEaseInOutFull
+  name: ElasticEaseInOutFull
+  nameWithType: ConcreteEaseMethods.ElasticEaseInOutFull
+  fullName: Lucid.Easing.ConcreteEaseMethods.ElasticEaseInOutFull
+- uid: Lucid.Easing.ConcreteEaseMethods.ExpoEaseIn*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.ExpoEaseIn
+  name: ExpoEaseIn
+  nameWithType: ConcreteEaseMethods.ExpoEaseIn
+  fullName: Lucid.Easing.ConcreteEaseMethods.ExpoEaseIn
+- uid: Lucid.Easing.ConcreteEaseMethods.ExpoEaseOut*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.ExpoEaseOut
+  name: ExpoEaseOut
+  nameWithType: ConcreteEaseMethods.ExpoEaseOut
+  fullName: Lucid.Easing.ConcreteEaseMethods.ExpoEaseOut
+- uid: Lucid.Easing.ConcreteEaseMethods.ExpoEaseInOut*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.ExpoEaseInOut
+  name: ExpoEaseInOut
+  nameWithType: ConcreteEaseMethods.ExpoEaseInOut
+  fullName: Lucid.Easing.ConcreteEaseMethods.ExpoEaseInOut
+- uid: Lucid.Easing.ConcreteEaseMethods.LinearEaseNone*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.LinearEaseNone
+  name: LinearEaseNone
+  nameWithType: ConcreteEaseMethods.LinearEaseNone
+  fullName: Lucid.Easing.ConcreteEaseMethods.LinearEaseNone
+- uid: Lucid.Easing.ConcreteEaseMethods.LinearEaseIn*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.LinearEaseIn
+  name: LinearEaseIn
+  nameWithType: ConcreteEaseMethods.LinearEaseIn
+  fullName: Lucid.Easing.ConcreteEaseMethods.LinearEaseIn
+- uid: Lucid.Easing.ConcreteEaseMethods.LinearEaseOut*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.LinearEaseOut
+  name: LinearEaseOut
+  nameWithType: ConcreteEaseMethods.LinearEaseOut
+  fullName: Lucid.Easing.ConcreteEaseMethods.LinearEaseOut
+- uid: Lucid.Easing.ConcreteEaseMethods.LinearEaseInOut*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.LinearEaseInOut
+  name: LinearEaseInOut
+  nameWithType: ConcreteEaseMethods.LinearEaseInOut
+  fullName: Lucid.Easing.ConcreteEaseMethods.LinearEaseInOut
+- uid: Lucid.Easing.ConcreteEaseMethods.QuadEaseIn*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.QuadEaseIn
+  name: QuadEaseIn
+  nameWithType: ConcreteEaseMethods.QuadEaseIn
+  fullName: Lucid.Easing.ConcreteEaseMethods.QuadEaseIn
+- uid: Lucid.Easing.ConcreteEaseMethods.QuadEaseOut*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.QuadEaseOut
+  name: QuadEaseOut
+  nameWithType: ConcreteEaseMethods.QuadEaseOut
+  fullName: Lucid.Easing.ConcreteEaseMethods.QuadEaseOut
+- uid: Lucid.Easing.ConcreteEaseMethods.QuadEaseInOut*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.QuadEaseInOut
+  name: QuadEaseInOut
+  nameWithType: ConcreteEaseMethods.QuadEaseInOut
+  fullName: Lucid.Easing.ConcreteEaseMethods.QuadEaseInOut
+- uid: Lucid.Easing.ConcreteEaseMethods.QuartEaseIn*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.QuartEaseIn
+  name: QuartEaseIn
+  nameWithType: ConcreteEaseMethods.QuartEaseIn
+  fullName: Lucid.Easing.ConcreteEaseMethods.QuartEaseIn
+- uid: Lucid.Easing.ConcreteEaseMethods.QuartEaseOut*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.QuartEaseOut
+  name: QuartEaseOut
+  nameWithType: ConcreteEaseMethods.QuartEaseOut
+  fullName: Lucid.Easing.ConcreteEaseMethods.QuartEaseOut
+- uid: Lucid.Easing.ConcreteEaseMethods.QuartEaseInOut*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.QuartEaseInOut
+  name: QuartEaseInOut
+  nameWithType: ConcreteEaseMethods.QuartEaseInOut
+  fullName: Lucid.Easing.ConcreteEaseMethods.QuartEaseInOut
+- uid: Lucid.Easing.ConcreteEaseMethods.QuintEaseIn*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.QuintEaseIn
+  name: QuintEaseIn
+  nameWithType: ConcreteEaseMethods.QuintEaseIn
+  fullName: Lucid.Easing.ConcreteEaseMethods.QuintEaseIn
+- uid: Lucid.Easing.ConcreteEaseMethods.QuintEaseOut*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.QuintEaseOut
+  name: QuintEaseOut
+  nameWithType: ConcreteEaseMethods.QuintEaseOut
+  fullName: Lucid.Easing.ConcreteEaseMethods.QuintEaseOut
+- uid: Lucid.Easing.ConcreteEaseMethods.QuintEaseInOut*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.QuintEaseInOut
+  name: QuintEaseInOut
+  nameWithType: ConcreteEaseMethods.QuintEaseInOut
+  fullName: Lucid.Easing.ConcreteEaseMethods.QuintEaseInOut
+- uid: Lucid.Easing.ConcreteEaseMethods.SineEaseIn*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.SineEaseIn
+  name: SineEaseIn
+  nameWithType: ConcreteEaseMethods.SineEaseIn
+  fullName: Lucid.Easing.ConcreteEaseMethods.SineEaseIn
+- uid: Lucid.Easing.ConcreteEaseMethods.SineEaseOut*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.SineEaseOut
+  name: SineEaseOut
+  nameWithType: ConcreteEaseMethods.SineEaseOut
+  fullName: Lucid.Easing.ConcreteEaseMethods.SineEaseOut
+- uid: Lucid.Easing.ConcreteEaseMethods.SineEaseInOut*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.SineEaseInOut
+  name: SineEaseInOut
+  nameWithType: ConcreteEaseMethods.SineEaseInOut
+  fullName: Lucid.Easing.ConcreteEaseMethods.SineEaseInOut
+- uid: Lucid.Easing.ConcreteEaseMethods.StrongEaseIn*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.StrongEaseIn
+  name: StrongEaseIn
+  nameWithType: ConcreteEaseMethods.StrongEaseIn
+  fullName: Lucid.Easing.ConcreteEaseMethods.StrongEaseIn
+- uid: Lucid.Easing.ConcreteEaseMethods.StrongEaseOut*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.StrongEaseOut
+  name: StrongEaseOut
+  nameWithType: ConcreteEaseMethods.StrongEaseOut
+  fullName: Lucid.Easing.ConcreteEaseMethods.StrongEaseOut
+- uid: Lucid.Easing.ConcreteEaseMethods.StrongEaseInOut*
+  commentId: Overload:Lucid.Easing.ConcreteEaseMethods.StrongEaseInOut
+  name: StrongEaseInOut
+  nameWithType: ConcreteEaseMethods.StrongEaseInOut
+  fullName: Lucid.Easing.ConcreteEaseMethods.StrongEaseInOut

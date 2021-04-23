@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.UI.Gallery.GalleryThumbnail
+  commentId: T:Lucid.UI.Gallery.GalleryThumbnail
+  id: GalleryThumbnail
+  parent: Lucid.UI.Gallery
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: GalleryThumbnail
+  nameWithType: GalleryThumbnail
+  fullName: Lucid.UI.Gallery.GalleryThumbnail
+  type: Class
+  source:
+    id: GalleryThumbnail
+    path: ''
+    startLine: 10469
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: 'public abstract class GalleryThumbnail : MonoBehaviour'
+    content.vb: >-
+      Public MustInherit Class GalleryThumbnail
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+references:
+- uid: Lucid.UI.Gallery
+  commentId: N:Lucid.UI.Gallery
+  name: Lucid.UI.Gallery
+  nameWithType: Lucid.UI.Gallery
+  fullName: Lucid.UI.Gallery
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

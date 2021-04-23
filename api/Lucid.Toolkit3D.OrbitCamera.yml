@@ -1,0 +1,1771 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Toolkit3D.OrbitCamera
+  commentId: T:Lucid.Toolkit3D.OrbitCamera
+  id: OrbitCamera
+  parent: Lucid.Toolkit3D
+  children:
+  - Lucid.Toolkit3D.OrbitCamera.allowPan
+  - Lucid.Toolkit3D.OrbitCamera.allowRotation
+  - Lucid.Toolkit3D.OrbitCamera.allowTilt
+  - Lucid.Toolkit3D.OrbitCamera.allowZoom
+  - Lucid.Toolkit3D.OrbitCamera.cameraTransform
+  - Lucid.Toolkit3D.OrbitCamera.currentPan
+  - Lucid.Toolkit3D.OrbitCamera.currentRotation
+  - Lucid.Toolkit3D.OrbitCamera.currentTilt
+  - Lucid.Toolkit3D.OrbitCamera.currentZoom
+  - Lucid.Toolkit3D.OrbitCamera.EnableCamera
+  - Lucid.Toolkit3D.OrbitCamera.invertPanX
+  - Lucid.Toolkit3D.OrbitCamera.invertPanY
+  - Lucid.Toolkit3D.OrbitCamera.invertRotation
+  - Lucid.Toolkit3D.OrbitCamera.invertTilt
+  - Lucid.Toolkit3D.OrbitCamera.invertZoom
+  - Lucid.Toolkit3D.OrbitCamera.maxPosition
+  - Lucid.Toolkit3D.OrbitCamera.maxRotation
+  - Lucid.Toolkit3D.OrbitCamera.maxTilt
+  - Lucid.Toolkit3D.OrbitCamera.maxZoom
+  - Lucid.Toolkit3D.OrbitCamera.minPosition
+  - Lucid.Toolkit3D.OrbitCamera.minRotation
+  - Lucid.Toolkit3D.OrbitCamera.minTilt
+  - Lucid.Toolkit3D.OrbitCamera.minZoom
+  - Lucid.Toolkit3D.OrbitCamera.MoveCameraToOrientation(System.Single,System.Single,System.Single,Vector3,System.Single,Ease,System.Boolean)
+  - Lucid.Toolkit3D.OrbitCamera.normalizedRotation
+  - Lucid.Toolkit3D.OrbitCamera.normalizedTilt
+  - Lucid.Toolkit3D.OrbitCamera.normalizedZoom
+  - Lucid.Toolkit3D.OrbitCamera.panDecelCurve
+  - Lucid.Toolkit3D.OrbitCamera.panMultiplier
+  - Lucid.Toolkit3D.OrbitCamera.panTransform
+  - Lucid.Toolkit3D.OrbitCamera.resetOnEnable
+  - Lucid.Toolkit3D.OrbitCamera.ResetOrientation
+  - Lucid.Toolkit3D.OrbitCamera.rotationDecelCurve
+  - Lucid.Toolkit3D.OrbitCamera.rotationMultiplier
+  - Lucid.Toolkit3D.OrbitCamera.rotationTransform
+  - Lucid.Toolkit3D.OrbitCamera.SetPosition(Vector3)
+  - Lucid.Toolkit3D.OrbitCamera.SetRotation(Vector3)
+  - Lucid.Toolkit3D.OrbitCamera.SetTilt(Vector3)
+  - Lucid.Toolkit3D.OrbitCamera.SetZoom(System.Single)
+  - Lucid.Toolkit3D.OrbitCamera.startPosition
+  - Lucid.Toolkit3D.OrbitCamera.startRotation
+  - Lucid.Toolkit3D.OrbitCamera.startTilt
+  - Lucid.Toolkit3D.OrbitCamera.startZoom
+  - Lucid.Toolkit3D.OrbitCamera.tiltDecelCurve
+  - Lucid.Toolkit3D.OrbitCamera.tiltMultiplier
+  - Lucid.Toolkit3D.OrbitCamera.tiltTransform
+  - Lucid.Toolkit3D.OrbitCamera.UpdatePosition(Vector3)
+  - Lucid.Toolkit3D.OrbitCamera.UpdateZoom(System.Single)
+  - Lucid.Toolkit3D.OrbitCamera.zoomDampingCurve
+  - Lucid.Toolkit3D.OrbitCamera.zoomDecelCurve
+  - Lucid.Toolkit3D.OrbitCamera.zoomMultiplier
+  langs:
+  - csharp
+  - vb
+  name: OrbitCamera
+  nameWithType: OrbitCamera
+  fullName: Lucid.Toolkit3D.OrbitCamera
+  type: Class
+  source:
+    id: OrbitCamera
+    path: ''
+    startLine: 19803
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: 'public class OrbitCamera : BaseCameraRig'
+    content.vb: >-
+      Public Class OrbitCamera
+          Inherits BaseCameraRig
+  inheritance:
+  - System.Object
+  - Lucid.Toolkit3D.BaseCameraRig
+  inheritedMembers:
+  - Lucid.Toolkit3D.BaseCameraRig.virtualCamera
+  - Lucid.Toolkit3D.BaseCameraRig.isEnabled
+  - Lucid.Toolkit3D.BaseCameraRig.allowInput
+  - Lucid.Toolkit3D.BaseCameraRig.deadZoneMin
+  - Lucid.Toolkit3D.BaseCameraRig.deadZoneMax
+  - Lucid.Toolkit3D.BaseCameraRig.onEnabled
+  - Lucid.Toolkit3D.BaseCameraRig.onDisabled
+  - Lucid.Toolkit3D.BaseCameraRig.showGizmos
+  - Lucid.Toolkit3D.BaseCameraRig.DisableCamera
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Toolkit3D.OrbitCamera.resetOnEnable
+  commentId: F:Lucid.Toolkit3D.OrbitCamera.resetOnEnable
+  id: resetOnEnable
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: resetOnEnable
+  nameWithType: OrbitCamera.resetOnEnable
+  fullName: Lucid.Toolkit3D.OrbitCamera.resetOnEnable
+  type: Field
+  source:
+    id: resetOnEnable
+    path: ''
+    startLine: 19806
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public bool resetOnEnable
+    return:
+      type: System.Boolean
+    content.vb: Public resetOnEnable As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.allowRotation
+  commentId: F:Lucid.Toolkit3D.OrbitCamera.allowRotation
+  id: allowRotation
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: allowRotation
+  nameWithType: OrbitCamera.allowRotation
+  fullName: Lucid.Toolkit3D.OrbitCamera.allowRotation
+  type: Field
+  source:
+    id: allowRotation
+    path: ''
+    startLine: 19811
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public bool allowRotation
+    return:
+      type: System.Boolean
+    content.vb: Public allowRotation As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.rotationTransform
+  commentId: F:Lucid.Toolkit3D.OrbitCamera.rotationTransform
+  id: rotationTransform
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: rotationTransform
+  nameWithType: OrbitCamera.rotationTransform
+  fullName: Lucid.Toolkit3D.OrbitCamera.rotationTransform
+  type: Field
+  source:
+    id: rotationTransform
+    path: ''
+    startLine: 19813
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public Transform rotationTransform
+    return:
+      type: Global.Transform
+    content.vb: Public rotationTransform As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.rotationMultiplier
+  commentId: F:Lucid.Toolkit3D.OrbitCamera.rotationMultiplier
+  id: rotationMultiplier
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: rotationMultiplier
+  nameWithType: OrbitCamera.rotationMultiplier
+  fullName: Lucid.Toolkit3D.OrbitCamera.rotationMultiplier
+  type: Field
+  source:
+    id: rotationMultiplier
+    path: ''
+    startLine: 19815
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public float rotationMultiplier
+    return:
+      type: System.Single
+    content.vb: Public rotationMultiplier As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.startRotation
+  commentId: F:Lucid.Toolkit3D.OrbitCamera.startRotation
+  id: startRotation
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: startRotation
+  nameWithType: OrbitCamera.startRotation
+  fullName: Lucid.Toolkit3D.OrbitCamera.startRotation
+  type: Field
+  source:
+    id: startRotation
+    path: ''
+    startLine: 19818
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public float startRotation
+    return:
+      type: System.Single
+    content.vb: Public startRotation As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.minRotation
+  commentId: F:Lucid.Toolkit3D.OrbitCamera.minRotation
+  id: minRotation
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: minRotation
+  nameWithType: OrbitCamera.minRotation
+  fullName: Lucid.Toolkit3D.OrbitCamera.minRotation
+  type: Field
+  source:
+    id: minRotation
+    path: ''
+    startLine: 19820
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public float minRotation
+    return:
+      type: System.Single
+    content.vb: Public minRotation As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.maxRotation
+  commentId: F:Lucid.Toolkit3D.OrbitCamera.maxRotation
+  id: maxRotation
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: maxRotation
+  nameWithType: OrbitCamera.maxRotation
+  fullName: Lucid.Toolkit3D.OrbitCamera.maxRotation
+  type: Field
+  source:
+    id: maxRotation
+    path: ''
+    startLine: 19822
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public float maxRotation
+    return:
+      type: System.Single
+    content.vb: Public maxRotation As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.currentRotation
+  commentId: P:Lucid.Toolkit3D.OrbitCamera.currentRotation
+  id: currentRotation
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: currentRotation
+  nameWithType: OrbitCamera.currentRotation
+  fullName: Lucid.Toolkit3D.OrbitCamera.currentRotation
+  type: Property
+  source:
+    id: currentRotation
+    path: ''
+    startLine: 19824
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public float currentRotation { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property currentRotation As Single
+  overload: Lucid.Toolkit3D.OrbitCamera.currentRotation*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.normalizedRotation
+  commentId: P:Lucid.Toolkit3D.OrbitCamera.normalizedRotation
+  id: normalizedRotation
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: normalizedRotation
+  nameWithType: OrbitCamera.normalizedRotation
+  fullName: Lucid.Toolkit3D.OrbitCamera.normalizedRotation
+  type: Property
+  source:
+    id: normalizedRotation
+    path: ''
+    startLine: 19831
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public float normalizedRotation { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property normalizedRotation As Single
+  overload: Lucid.Toolkit3D.OrbitCamera.normalizedRotation*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.invertRotation
+  commentId: F:Lucid.Toolkit3D.OrbitCamera.invertRotation
+  id: invertRotation
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: invertRotation
+  nameWithType: OrbitCamera.invertRotation
+  fullName: Lucid.Toolkit3D.OrbitCamera.invertRotation
+  type: Field
+  source:
+    id: invertRotation
+    path: ''
+    startLine: 19839
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public bool invertRotation
+    return:
+      type: System.Boolean
+    content.vb: Public invertRotation As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.rotationDecelCurve
+  commentId: F:Lucid.Toolkit3D.OrbitCamera.rotationDecelCurve
+  id: rotationDecelCurve
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: rotationDecelCurve
+  nameWithType: OrbitCamera.rotationDecelCurve
+  fullName: Lucid.Toolkit3D.OrbitCamera.rotationDecelCurve
+  type: Field
+  source:
+    id: rotationDecelCurve
+    path: ''
+    startLine: 19842
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public AnimationCurve rotationDecelCurve
+    return:
+      type: Global.AnimationCurve
+    content.vb: Public rotationDecelCurve As AnimationCurve
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.allowTilt
+  commentId: F:Lucid.Toolkit3D.OrbitCamera.allowTilt
+  id: allowTilt
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: allowTilt
+  nameWithType: OrbitCamera.allowTilt
+  fullName: Lucid.Toolkit3D.OrbitCamera.allowTilt
+  type: Field
+  source:
+    id: allowTilt
+    path: ''
+    startLine: 19851
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public bool allowTilt
+    return:
+      type: System.Boolean
+    content.vb: Public allowTilt As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.tiltTransform
+  commentId: F:Lucid.Toolkit3D.OrbitCamera.tiltTransform
+  id: tiltTransform
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: tiltTransform
+  nameWithType: OrbitCamera.tiltTransform
+  fullName: Lucid.Toolkit3D.OrbitCamera.tiltTransform
+  type: Field
+  source:
+    id: tiltTransform
+    path: ''
+    startLine: 19853
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public Transform tiltTransform
+    return:
+      type: Global.Transform
+    content.vb: Public tiltTransform As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.tiltMultiplier
+  commentId: F:Lucid.Toolkit3D.OrbitCamera.tiltMultiplier
+  id: tiltMultiplier
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: tiltMultiplier
+  nameWithType: OrbitCamera.tiltMultiplier
+  fullName: Lucid.Toolkit3D.OrbitCamera.tiltMultiplier
+  type: Field
+  source:
+    id: tiltMultiplier
+    path: ''
+    startLine: 19855
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public float tiltMultiplier
+    return:
+      type: System.Single
+    content.vb: Public tiltMultiplier As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.startTilt
+  commentId: F:Lucid.Toolkit3D.OrbitCamera.startTilt
+  id: startTilt
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: startTilt
+  nameWithType: OrbitCamera.startTilt
+  fullName: Lucid.Toolkit3D.OrbitCamera.startTilt
+  type: Field
+  source:
+    id: startTilt
+    path: ''
+    startLine: 19858
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public float startTilt
+    return:
+      type: System.Single
+    content.vb: Public startTilt As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.minTilt
+  commentId: F:Lucid.Toolkit3D.OrbitCamera.minTilt
+  id: minTilt
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: minTilt
+  nameWithType: OrbitCamera.minTilt
+  fullName: Lucid.Toolkit3D.OrbitCamera.minTilt
+  type: Field
+  source:
+    id: minTilt
+    path: ''
+    startLine: 19860
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public float minTilt
+    return:
+      type: System.Single
+    content.vb: Public minTilt As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.maxTilt
+  commentId: F:Lucid.Toolkit3D.OrbitCamera.maxTilt
+  id: maxTilt
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: maxTilt
+  nameWithType: OrbitCamera.maxTilt
+  fullName: Lucid.Toolkit3D.OrbitCamera.maxTilt
+  type: Field
+  source:
+    id: maxTilt
+    path: ''
+    startLine: 19862
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public float maxTilt
+    return:
+      type: System.Single
+    content.vb: Public maxTilt As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.currentTilt
+  commentId: P:Lucid.Toolkit3D.OrbitCamera.currentTilt
+  id: currentTilt
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: currentTilt
+  nameWithType: OrbitCamera.currentTilt
+  fullName: Lucid.Toolkit3D.OrbitCamera.currentTilt
+  type: Property
+  source:
+    id: currentTilt
+    path: ''
+    startLine: 19864
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public float currentTilt { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property currentTilt As Single
+  overload: Lucid.Toolkit3D.OrbitCamera.currentTilt*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.normalizedTilt
+  commentId: P:Lucid.Toolkit3D.OrbitCamera.normalizedTilt
+  id: normalizedTilt
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: normalizedTilt
+  nameWithType: OrbitCamera.normalizedTilt
+  fullName: Lucid.Toolkit3D.OrbitCamera.normalizedTilt
+  type: Property
+  source:
+    id: normalizedTilt
+    path: ''
+    startLine: 19871
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public float normalizedTilt { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property normalizedTilt As Single
+  overload: Lucid.Toolkit3D.OrbitCamera.normalizedTilt*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.invertTilt
+  commentId: F:Lucid.Toolkit3D.OrbitCamera.invertTilt
+  id: invertTilt
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: invertTilt
+  nameWithType: OrbitCamera.invertTilt
+  fullName: Lucid.Toolkit3D.OrbitCamera.invertTilt
+  type: Field
+  source:
+    id: invertTilt
+    path: ''
+    startLine: 19879
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public bool invertTilt
+    return:
+      type: System.Boolean
+    content.vb: Public invertTilt As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.tiltDecelCurve
+  commentId: F:Lucid.Toolkit3D.OrbitCamera.tiltDecelCurve
+  id: tiltDecelCurve
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: tiltDecelCurve
+  nameWithType: OrbitCamera.tiltDecelCurve
+  fullName: Lucid.Toolkit3D.OrbitCamera.tiltDecelCurve
+  type: Field
+  source:
+    id: tiltDecelCurve
+    path: ''
+    startLine: 19881
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public AnimationCurve tiltDecelCurve
+    return:
+      type: Global.AnimationCurve
+    content.vb: Public tiltDecelCurve As AnimationCurve
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.allowPan
+  commentId: F:Lucid.Toolkit3D.OrbitCamera.allowPan
+  id: allowPan
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: allowPan
+  nameWithType: OrbitCamera.allowPan
+  fullName: Lucid.Toolkit3D.OrbitCamera.allowPan
+  type: Field
+  source:
+    id: allowPan
+    path: ''
+    startLine: 19890
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public bool allowPan
+    return:
+      type: System.Boolean
+    content.vb: Public allowPan As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.panTransform
+  commentId: F:Lucid.Toolkit3D.OrbitCamera.panTransform
+  id: panTransform
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: panTransform
+  nameWithType: OrbitCamera.panTransform
+  fullName: Lucid.Toolkit3D.OrbitCamera.panTransform
+  type: Field
+  source:
+    id: panTransform
+    path: ''
+    startLine: 19892
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public Transform panTransform
+    return:
+      type: Global.Transform
+    content.vb: Public panTransform As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.panMultiplier
+  commentId: F:Lucid.Toolkit3D.OrbitCamera.panMultiplier
+  id: panMultiplier
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: panMultiplier
+  nameWithType: OrbitCamera.panMultiplier
+  fullName: Lucid.Toolkit3D.OrbitCamera.panMultiplier
+  type: Field
+  source:
+    id: panMultiplier
+    path: ''
+    startLine: 19894
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public float panMultiplier
+    return:
+      type: System.Single
+    content.vb: Public panMultiplier As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.startPosition
+  commentId: F:Lucid.Toolkit3D.OrbitCamera.startPosition
+  id: startPosition
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: startPosition
+  nameWithType: OrbitCamera.startPosition
+  fullName: Lucid.Toolkit3D.OrbitCamera.startPosition
+  type: Field
+  source:
+    id: startPosition
+    path: ''
+    startLine: 19897
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public Vector3 startPosition
+    return:
+      type: Global.Vector3
+    content.vb: Public startPosition As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.minPosition
+  commentId: F:Lucid.Toolkit3D.OrbitCamera.minPosition
+  id: minPosition
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: minPosition
+  nameWithType: OrbitCamera.minPosition
+  fullName: Lucid.Toolkit3D.OrbitCamera.minPosition
+  type: Field
+  source:
+    id: minPosition
+    path: ''
+    startLine: 19899
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public Vector3 minPosition
+    return:
+      type: Global.Vector3
+    content.vb: Public minPosition As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.maxPosition
+  commentId: F:Lucid.Toolkit3D.OrbitCamera.maxPosition
+  id: maxPosition
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: maxPosition
+  nameWithType: OrbitCamera.maxPosition
+  fullName: Lucid.Toolkit3D.OrbitCamera.maxPosition
+  type: Field
+  source:
+    id: maxPosition
+    path: ''
+    startLine: 19901
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public Vector3 maxPosition
+    return:
+      type: Global.Vector3
+    content.vb: Public maxPosition As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.currentPan
+  commentId: P:Lucid.Toolkit3D.OrbitCamera.currentPan
+  id: currentPan
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: currentPan
+  nameWithType: OrbitCamera.currentPan
+  fullName: Lucid.Toolkit3D.OrbitCamera.currentPan
+  type: Property
+  source:
+    id: currentPan
+    path: ''
+    startLine: 19903
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public Vector3 currentPan { get; set; }
+    parameters: []
+    return:
+      type: Global.Vector3
+    content.vb: Public Property currentPan As Vector3
+  overload: Lucid.Toolkit3D.OrbitCamera.currentPan*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.invertPanX
+  commentId: F:Lucid.Toolkit3D.OrbitCamera.invertPanX
+  id: invertPanX
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: invertPanX
+  nameWithType: OrbitCamera.invertPanX
+  fullName: Lucid.Toolkit3D.OrbitCamera.invertPanX
+  type: Field
+  source:
+    id: invertPanX
+    path: ''
+    startLine: 19911
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public bool invertPanX
+    return:
+      type: System.Boolean
+    content.vb: Public invertPanX As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.invertPanY
+  commentId: F:Lucid.Toolkit3D.OrbitCamera.invertPanY
+  id: invertPanY
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: invertPanY
+  nameWithType: OrbitCamera.invertPanY
+  fullName: Lucid.Toolkit3D.OrbitCamera.invertPanY
+  type: Field
+  source:
+    id: invertPanY
+    path: ''
+    startLine: 19913
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public bool invertPanY
+    return:
+      type: System.Boolean
+    content.vb: Public invertPanY As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.panDecelCurve
+  commentId: F:Lucid.Toolkit3D.OrbitCamera.panDecelCurve
+  id: panDecelCurve
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: panDecelCurve
+  nameWithType: OrbitCamera.panDecelCurve
+  fullName: Lucid.Toolkit3D.OrbitCamera.panDecelCurve
+  type: Field
+  source:
+    id: panDecelCurve
+    path: ''
+    startLine: 19915
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public AnimationCurve panDecelCurve
+    return:
+      type: Global.AnimationCurve
+    content.vb: Public panDecelCurve As AnimationCurve
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.allowZoom
+  commentId: F:Lucid.Toolkit3D.OrbitCamera.allowZoom
+  id: allowZoom
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: allowZoom
+  nameWithType: OrbitCamera.allowZoom
+  fullName: Lucid.Toolkit3D.OrbitCamera.allowZoom
+  type: Field
+  source:
+    id: allowZoom
+    path: ''
+    startLine: 19924
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public bool allowZoom
+    return:
+      type: System.Boolean
+    content.vb: Public allowZoom As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.cameraTransform
+  commentId: F:Lucid.Toolkit3D.OrbitCamera.cameraTransform
+  id: cameraTransform
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: cameraTransform
+  nameWithType: OrbitCamera.cameraTransform
+  fullName: Lucid.Toolkit3D.OrbitCamera.cameraTransform
+  type: Field
+  source:
+    id: cameraTransform
+    path: ''
+    startLine: 19926
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public Transform cameraTransform
+    return:
+      type: Global.Transform
+    content.vb: Public cameraTransform As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.zoomMultiplier
+  commentId: F:Lucid.Toolkit3D.OrbitCamera.zoomMultiplier
+  id: zoomMultiplier
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: zoomMultiplier
+  nameWithType: OrbitCamera.zoomMultiplier
+  fullName: Lucid.Toolkit3D.OrbitCamera.zoomMultiplier
+  type: Field
+  source:
+    id: zoomMultiplier
+    path: ''
+    startLine: 19928
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public float zoomMultiplier
+    return:
+      type: System.Single
+    content.vb: Public zoomMultiplier As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.startZoom
+  commentId: F:Lucid.Toolkit3D.OrbitCamera.startZoom
+  id: startZoom
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: startZoom
+  nameWithType: OrbitCamera.startZoom
+  fullName: Lucid.Toolkit3D.OrbitCamera.startZoom
+  type: Field
+  source:
+    id: startZoom
+    path: ''
+    startLine: 19931
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public float startZoom
+    return:
+      type: System.Single
+    content.vb: Public startZoom As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.minZoom
+  commentId: F:Lucid.Toolkit3D.OrbitCamera.minZoom
+  id: minZoom
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: minZoom
+  nameWithType: OrbitCamera.minZoom
+  fullName: Lucid.Toolkit3D.OrbitCamera.minZoom
+  type: Field
+  source:
+    id: minZoom
+    path: ''
+    startLine: 19933
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public float minZoom
+    return:
+      type: System.Single
+    content.vb: Public minZoom As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.maxZoom
+  commentId: F:Lucid.Toolkit3D.OrbitCamera.maxZoom
+  id: maxZoom
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: maxZoom
+  nameWithType: OrbitCamera.maxZoom
+  fullName: Lucid.Toolkit3D.OrbitCamera.maxZoom
+  type: Field
+  source:
+    id: maxZoom
+    path: ''
+    startLine: 19935
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public float maxZoom
+    return:
+      type: System.Single
+    content.vb: Public maxZoom As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.currentZoom
+  commentId: P:Lucid.Toolkit3D.OrbitCamera.currentZoom
+  id: currentZoom
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: currentZoom
+  nameWithType: OrbitCamera.currentZoom
+  fullName: Lucid.Toolkit3D.OrbitCamera.currentZoom
+  type: Property
+  source:
+    id: currentZoom
+    path: ''
+    startLine: 19937
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public float currentZoom { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property currentZoom As Single
+  overload: Lucid.Toolkit3D.OrbitCamera.currentZoom*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.normalizedZoom
+  commentId: P:Lucid.Toolkit3D.OrbitCamera.normalizedZoom
+  id: normalizedZoom
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: normalizedZoom
+  nameWithType: OrbitCamera.normalizedZoom
+  fullName: Lucid.Toolkit3D.OrbitCamera.normalizedZoom
+  type: Property
+  source:
+    id: normalizedZoom
+    path: ''
+    startLine: 19944
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public float normalizedZoom { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property normalizedZoom As Single
+  overload: Lucid.Toolkit3D.OrbitCamera.normalizedZoom*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.invertZoom
+  commentId: F:Lucid.Toolkit3D.OrbitCamera.invertZoom
+  id: invertZoom
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: invertZoom
+  nameWithType: OrbitCamera.invertZoom
+  fullName: Lucid.Toolkit3D.OrbitCamera.invertZoom
+  type: Field
+  source:
+    id: invertZoom
+    path: ''
+    startLine: 19952
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public bool invertZoom
+    return:
+      type: System.Boolean
+    content.vb: Public invertZoom As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.zoomDecelCurve
+  commentId: F:Lucid.Toolkit3D.OrbitCamera.zoomDecelCurve
+  id: zoomDecelCurve
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: zoomDecelCurve
+  nameWithType: OrbitCamera.zoomDecelCurve
+  fullName: Lucid.Toolkit3D.OrbitCamera.zoomDecelCurve
+  type: Field
+  source:
+    id: zoomDecelCurve
+    path: ''
+    startLine: 19955
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public AnimationCurve zoomDecelCurve
+    return:
+      type: Global.AnimationCurve
+    content.vb: Public zoomDecelCurve As AnimationCurve
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.zoomDampingCurve
+  commentId: F:Lucid.Toolkit3D.OrbitCamera.zoomDampingCurve
+  id: zoomDampingCurve
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: zoomDampingCurve
+  nameWithType: OrbitCamera.zoomDampingCurve
+  fullName: Lucid.Toolkit3D.OrbitCamera.zoomDampingCurve
+  type: Field
+  source:
+    id: zoomDampingCurve
+    path: ''
+    startLine: 19958
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public AnimationCurve zoomDampingCurve
+    return:
+      type: Global.AnimationCurve
+    content.vb: Public zoomDampingCurve As AnimationCurve
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.EnableCamera
+  commentId: M:Lucid.Toolkit3D.OrbitCamera.EnableCamera
+  id: EnableCamera
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: EnableCamera()
+  nameWithType: OrbitCamera.EnableCamera()
+  fullName: Lucid.Toolkit3D.OrbitCamera.EnableCamera()
+  type: Method
+  source:
+    id: EnableCamera
+    path: ''
+    startLine: 19976
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public override void EnableCamera()
+    content.vb: Public Overrides Sub EnableCamera
+  overridden: Lucid.Toolkit3D.BaseCameraRig.EnableCamera
+  overload: Lucid.Toolkit3D.OrbitCamera.EnableCamera*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Lucid.Toolkit3D.OrbitCamera.ResetOrientation
+  commentId: M:Lucid.Toolkit3D.OrbitCamera.ResetOrientation
+  id: ResetOrientation
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: ResetOrientation()
+  nameWithType: OrbitCamera.ResetOrientation()
+  fullName: Lucid.Toolkit3D.OrbitCamera.ResetOrientation()
+  type: Method
+  source:
+    id: ResetOrientation
+    path: ''
+    startLine: 19987
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public void ResetOrientation()
+    content.vb: Public Sub ResetOrientation
+  overload: Lucid.Toolkit3D.OrbitCamera.ResetOrientation*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.SetRotation(Vector3)
+  commentId: M:Lucid.Toolkit3D.OrbitCamera.SetRotation(Vector3)
+  id: SetRotation(Vector3)
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: SetRotation(Vector3)
+  nameWithType: OrbitCamera.SetRotation(Vector3)
+  fullName: Lucid.Toolkit3D.OrbitCamera.SetRotation(Vector3)
+  type: Method
+  source:
+    id: SetRotation
+    path: ''
+    startLine: 20117
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public void SetRotation(Vector3 rotation)
+    parameters:
+    - id: rotation
+      type: Global.Vector3
+    content.vb: Public Sub SetRotation(rotation As Vector3)
+  overload: Lucid.Toolkit3D.OrbitCamera.SetRotation*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.SetTilt(Vector3)
+  commentId: M:Lucid.Toolkit3D.OrbitCamera.SetTilt(Vector3)
+  id: SetTilt(Vector3)
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: SetTilt(Vector3)
+  nameWithType: OrbitCamera.SetTilt(Vector3)
+  fullName: Lucid.Toolkit3D.OrbitCamera.SetTilt(Vector3)
+  type: Method
+  source:
+    id: SetTilt
+    path: ''
+    startLine: 20140
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public void SetTilt(Vector3 tilt)
+    parameters:
+    - id: tilt
+      type: Global.Vector3
+    content.vb: Public Sub SetTilt(tilt As Vector3)
+  overload: Lucid.Toolkit3D.OrbitCamera.SetTilt*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.SetPosition(Vector3)
+  commentId: M:Lucid.Toolkit3D.OrbitCamera.SetPosition(Vector3)
+  id: SetPosition(Vector3)
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: SetPosition(Vector3)
+  nameWithType: OrbitCamera.SetPosition(Vector3)
+  fullName: Lucid.Toolkit3D.OrbitCamera.SetPosition(Vector3)
+  type: Method
+  source:
+    id: SetPosition
+    path: ''
+    startLine: 20163
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public void SetPosition(Vector3 position)
+    parameters:
+    - id: position
+      type: Global.Vector3
+    content.vb: Public Sub SetPosition(position As Vector3)
+  overload: Lucid.Toolkit3D.OrbitCamera.SetPosition*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.UpdatePosition(Vector3)
+  commentId: M:Lucid.Toolkit3D.OrbitCamera.UpdatePosition(Vector3)
+  id: UpdatePosition(Vector3)
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: UpdatePosition(Vector3)
+  nameWithType: OrbitCamera.UpdatePosition(Vector3)
+  fullName: Lucid.Toolkit3D.OrbitCamera.UpdatePosition(Vector3)
+  type: Method
+  source:
+    id: UpdatePosition
+    path: ''
+    startLine: 20174
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public void UpdatePosition(Vector3 deltaPosition)
+    parameters:
+    - id: deltaPosition
+      type: Global.Vector3
+    content.vb: Public Sub UpdatePosition(deltaPosition As Vector3)
+  overload: Lucid.Toolkit3D.OrbitCamera.UpdatePosition*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.SetZoom(System.Single)
+  commentId: M:Lucid.Toolkit3D.OrbitCamera.SetZoom(System.Single)
+  id: SetZoom(System.Single)
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: SetZoom(Single)
+  nameWithType: OrbitCamera.SetZoom(Single)
+  fullName: Lucid.Toolkit3D.OrbitCamera.SetZoom(System.Single)
+  type: Method
+  source:
+    id: SetZoom
+    path: ''
+    startLine: 20188
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public void SetZoom(float zoom)
+    parameters:
+    - id: zoom
+      type: System.Single
+    content.vb: Public Sub SetZoom(zoom As Single)
+  overload: Lucid.Toolkit3D.OrbitCamera.SetZoom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.UpdateZoom(System.Single)
+  commentId: M:Lucid.Toolkit3D.OrbitCamera.UpdateZoom(System.Single)
+  id: UpdateZoom(System.Single)
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: UpdateZoom(Single)
+  nameWithType: OrbitCamera.UpdateZoom(Single)
+  fullName: Lucid.Toolkit3D.OrbitCamera.UpdateZoom(System.Single)
+  type: Method
+  source:
+    id: UpdateZoom
+    path: ''
+    startLine: 20197
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public void UpdateZoom(float deltaZoom)
+    parameters:
+    - id: deltaZoom
+      type: System.Single
+    content.vb: Public Sub UpdateZoom(deltaZoom As Single)
+  overload: Lucid.Toolkit3D.OrbitCamera.UpdateZoom*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.OrbitCamera.MoveCameraToOrientation(System.Single,System.Single,System.Single,Vector3,System.Single,Ease,System.Boolean)
+  commentId: M:Lucid.Toolkit3D.OrbitCamera.MoveCameraToOrientation(System.Single,System.Single,System.Single,Vector3,System.Single,Ease,System.Boolean)
+  id: MoveCameraToOrientation(System.Single,System.Single,System.Single,Vector3,System.Single,Ease,System.Boolean)
+  parent: Lucid.Toolkit3D.OrbitCamera
+  langs:
+  - csharp
+  - vb
+  name: MoveCameraToOrientation(Single, Single, Single, Vector3, Single, Ease, Boolean)
+  nameWithType: OrbitCamera.MoveCameraToOrientation(Single, Single, Single, Vector3, Single, Ease, Boolean)
+  fullName: Lucid.Toolkit3D.OrbitCamera.MoveCameraToOrientation(System.Single, System.Single, System.Single, Vector3, System.Single, Ease, System.Boolean)
+  type: Method
+  source:
+    id: MoveCameraToOrientation
+    path: ''
+    startLine: 20211
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public void MoveCameraToOrientation(float rotation, float tilt, float zoom, Vector3 pan, float duration = 2F, Ease ease = null, bool inputAllowed = false)
+    parameters:
+    - id: rotation
+      type: System.Single
+    - id: tilt
+      type: System.Single
+    - id: zoom
+      type: System.Single
+    - id: pan
+      type: Global.Vector3
+    - id: duration
+      type: System.Single
+    - id: ease
+      type: Global.Ease
+    - id: inputAllowed
+      type: System.Boolean
+    content.vb: Public Sub MoveCameraToOrientation(rotation As Single, tilt As Single, zoom As Single, pan As Vector3, duration As Single = 2F, ease As Ease = Nothing, inputAllowed As Boolean = False)
+  overload: Lucid.Toolkit3D.OrbitCamera.MoveCameraToOrientation*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Toolkit3D
+  commentId: N:Lucid.Toolkit3D
+  name: Lucid.Toolkit3D
+  nameWithType: Lucid.Toolkit3D
+  fullName: Lucid.Toolkit3D
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Lucid.Toolkit3D.BaseCameraRig
+  commentId: T:Lucid.Toolkit3D.BaseCameraRig
+  parent: Lucid.Toolkit3D
+  name: BaseCameraRig
+  nameWithType: BaseCameraRig
+  fullName: Lucid.Toolkit3D.BaseCameraRig
+- uid: Lucid.Toolkit3D.BaseCameraRig.virtualCamera
+  commentId: P:Lucid.Toolkit3D.BaseCameraRig.virtualCamera
+  parent: Lucid.Toolkit3D.BaseCameraRig
+  name: virtualCamera
+  nameWithType: BaseCameraRig.virtualCamera
+  fullName: Lucid.Toolkit3D.BaseCameraRig.virtualCamera
+- uid: Lucid.Toolkit3D.BaseCameraRig.isEnabled
+  commentId: P:Lucid.Toolkit3D.BaseCameraRig.isEnabled
+  parent: Lucid.Toolkit3D.BaseCameraRig
+  name: isEnabled
+  nameWithType: BaseCameraRig.isEnabled
+  fullName: Lucid.Toolkit3D.BaseCameraRig.isEnabled
+- uid: Lucid.Toolkit3D.BaseCameraRig.allowInput
+  commentId: F:Lucid.Toolkit3D.BaseCameraRig.allowInput
+  parent: Lucid.Toolkit3D.BaseCameraRig
+  name: allowInput
+  nameWithType: BaseCameraRig.allowInput
+  fullName: Lucid.Toolkit3D.BaseCameraRig.allowInput
+- uid: Lucid.Toolkit3D.BaseCameraRig.deadZoneMin
+  commentId: F:Lucid.Toolkit3D.BaseCameraRig.deadZoneMin
+  parent: Lucid.Toolkit3D.BaseCameraRig
+  name: deadZoneMin
+  nameWithType: BaseCameraRig.deadZoneMin
+  fullName: Lucid.Toolkit3D.BaseCameraRig.deadZoneMin
+- uid: Lucid.Toolkit3D.BaseCameraRig.deadZoneMax
+  commentId: F:Lucid.Toolkit3D.BaseCameraRig.deadZoneMax
+  parent: Lucid.Toolkit3D.BaseCameraRig
+  name: deadZoneMax
+  nameWithType: BaseCameraRig.deadZoneMax
+  fullName: Lucid.Toolkit3D.BaseCameraRig.deadZoneMax
+- uid: Lucid.Toolkit3D.BaseCameraRig.onEnabled
+  commentId: F:Lucid.Toolkit3D.BaseCameraRig.onEnabled
+  parent: Lucid.Toolkit3D.BaseCameraRig
+  name: onEnabled
+  nameWithType: BaseCameraRig.onEnabled
+  fullName: Lucid.Toolkit3D.BaseCameraRig.onEnabled
+- uid: Lucid.Toolkit3D.BaseCameraRig.onDisabled
+  commentId: F:Lucid.Toolkit3D.BaseCameraRig.onDisabled
+  parent: Lucid.Toolkit3D.BaseCameraRig
+  name: onDisabled
+  nameWithType: BaseCameraRig.onDisabled
+  fullName: Lucid.Toolkit3D.BaseCameraRig.onDisabled
+- uid: Lucid.Toolkit3D.BaseCameraRig.showGizmos
+  commentId: F:Lucid.Toolkit3D.BaseCameraRig.showGizmos
+  parent: Lucid.Toolkit3D.BaseCameraRig
+  name: showGizmos
+  nameWithType: BaseCameraRig.showGizmos
+  fullName: Lucid.Toolkit3D.BaseCameraRig.showGizmos
+- uid: Lucid.Toolkit3D.BaseCameraRig.DisableCamera
+  commentId: M:Lucid.Toolkit3D.BaseCameraRig.DisableCamera
+  parent: Lucid.Toolkit3D.BaseCameraRig
+  name: DisableCamera()
+  nameWithType: BaseCameraRig.DisableCamera()
+  fullName: Lucid.Toolkit3D.BaseCameraRig.DisableCamera()
+  spec.csharp:
+  - uid: Lucid.Toolkit3D.BaseCameraRig.DisableCamera
+    name: DisableCamera
+    nameWithType: BaseCameraRig.DisableCamera
+    fullName: Lucid.Toolkit3D.BaseCameraRig.DisableCamera
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.Toolkit3D.BaseCameraRig.DisableCamera
+    name: DisableCamera
+    nameWithType: BaseCameraRig.DisableCamera
+    fullName: Lucid.Toolkit3D.BaseCameraRig.DisableCamera
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Lucid.Toolkit3D.OrbitCamera.currentRotation*
+  commentId: Overload:Lucid.Toolkit3D.OrbitCamera.currentRotation
+  name: currentRotation
+  nameWithType: OrbitCamera.currentRotation
+  fullName: Lucid.Toolkit3D.OrbitCamera.currentRotation
+- uid: Lucid.Toolkit3D.OrbitCamera.normalizedRotation*
+  commentId: Overload:Lucid.Toolkit3D.OrbitCamera.normalizedRotation
+  name: normalizedRotation
+  nameWithType: OrbitCamera.normalizedRotation
+  fullName: Lucid.Toolkit3D.OrbitCamera.normalizedRotation
+- uid: Global.AnimationCurve
+  isExternal: true
+  name: AnimationCurve
+  nameWithType: AnimationCurve
+  fullName: AnimationCurve
+- uid: Lucid.Toolkit3D.OrbitCamera.currentTilt*
+  commentId: Overload:Lucid.Toolkit3D.OrbitCamera.currentTilt
+  name: currentTilt
+  nameWithType: OrbitCamera.currentTilt
+  fullName: Lucid.Toolkit3D.OrbitCamera.currentTilt
+- uid: Lucid.Toolkit3D.OrbitCamera.normalizedTilt*
+  commentId: Overload:Lucid.Toolkit3D.OrbitCamera.normalizedTilt
+  name: normalizedTilt
+  nameWithType: OrbitCamera.normalizedTilt
+  fullName: Lucid.Toolkit3D.OrbitCamera.normalizedTilt
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: Lucid.Toolkit3D.OrbitCamera.currentPan*
+  commentId: Overload:Lucid.Toolkit3D.OrbitCamera.currentPan
+  name: currentPan
+  nameWithType: OrbitCamera.currentPan
+  fullName: Lucid.Toolkit3D.OrbitCamera.currentPan
+- uid: Lucid.Toolkit3D.OrbitCamera.currentZoom*
+  commentId: Overload:Lucid.Toolkit3D.OrbitCamera.currentZoom
+  name: currentZoom
+  nameWithType: OrbitCamera.currentZoom
+  fullName: Lucid.Toolkit3D.OrbitCamera.currentZoom
+- uid: Lucid.Toolkit3D.OrbitCamera.normalizedZoom*
+  commentId: Overload:Lucid.Toolkit3D.OrbitCamera.normalizedZoom
+  name: normalizedZoom
+  nameWithType: OrbitCamera.normalizedZoom
+  fullName: Lucid.Toolkit3D.OrbitCamera.normalizedZoom
+- uid: Lucid.Toolkit3D.BaseCameraRig.EnableCamera
+  commentId: M:Lucid.Toolkit3D.BaseCameraRig.EnableCamera
+  parent: Lucid.Toolkit3D.BaseCameraRig
+  name: EnableCamera()
+  nameWithType: BaseCameraRig.EnableCamera()
+  fullName: Lucid.Toolkit3D.BaseCameraRig.EnableCamera()
+  spec.csharp:
+  - uid: Lucid.Toolkit3D.BaseCameraRig.EnableCamera
+    name: EnableCamera
+    nameWithType: BaseCameraRig.EnableCamera
+    fullName: Lucid.Toolkit3D.BaseCameraRig.EnableCamera
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.Toolkit3D.BaseCameraRig.EnableCamera
+    name: EnableCamera
+    nameWithType: BaseCameraRig.EnableCamera
+    fullName: Lucid.Toolkit3D.BaseCameraRig.EnableCamera
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.Toolkit3D.OrbitCamera.EnableCamera*
+  commentId: Overload:Lucid.Toolkit3D.OrbitCamera.EnableCamera
+  name: EnableCamera
+  nameWithType: OrbitCamera.EnableCamera
+  fullName: Lucid.Toolkit3D.OrbitCamera.EnableCamera
+- uid: Lucid.Toolkit3D.OrbitCamera.ResetOrientation*
+  commentId: Overload:Lucid.Toolkit3D.OrbitCamera.ResetOrientation
+  name: ResetOrientation
+  nameWithType: OrbitCamera.ResetOrientation
+  fullName: Lucid.Toolkit3D.OrbitCamera.ResetOrientation
+- uid: Lucid.Toolkit3D.OrbitCamera.SetRotation*
+  commentId: Overload:Lucid.Toolkit3D.OrbitCamera.SetRotation
+  name: SetRotation
+  nameWithType: OrbitCamera.SetRotation
+  fullName: Lucid.Toolkit3D.OrbitCamera.SetRotation
+- uid: Lucid.Toolkit3D.OrbitCamera.SetTilt*
+  commentId: Overload:Lucid.Toolkit3D.OrbitCamera.SetTilt
+  name: SetTilt
+  nameWithType: OrbitCamera.SetTilt
+  fullName: Lucid.Toolkit3D.OrbitCamera.SetTilt
+- uid: Lucid.Toolkit3D.OrbitCamera.SetPosition*
+  commentId: Overload:Lucid.Toolkit3D.OrbitCamera.SetPosition
+  name: SetPosition
+  nameWithType: OrbitCamera.SetPosition
+  fullName: Lucid.Toolkit3D.OrbitCamera.SetPosition
+- uid: Lucid.Toolkit3D.OrbitCamera.UpdatePosition*
+  commentId: Overload:Lucid.Toolkit3D.OrbitCamera.UpdatePosition
+  name: UpdatePosition
+  nameWithType: OrbitCamera.UpdatePosition
+  fullName: Lucid.Toolkit3D.OrbitCamera.UpdatePosition
+- uid: Lucid.Toolkit3D.OrbitCamera.SetZoom*
+  commentId: Overload:Lucid.Toolkit3D.OrbitCamera.SetZoom
+  name: SetZoom
+  nameWithType: OrbitCamera.SetZoom
+  fullName: Lucid.Toolkit3D.OrbitCamera.SetZoom
+- uid: Lucid.Toolkit3D.OrbitCamera.UpdateZoom*
+  commentId: Overload:Lucid.Toolkit3D.OrbitCamera.UpdateZoom
+  name: UpdateZoom
+  nameWithType: OrbitCamera.UpdateZoom
+  fullName: Lucid.Toolkit3D.OrbitCamera.UpdateZoom
+- uid: Lucid.Toolkit3D.OrbitCamera.MoveCameraToOrientation*
+  commentId: Overload:Lucid.Toolkit3D.OrbitCamera.MoveCameraToOrientation
+  name: MoveCameraToOrientation
+  nameWithType: OrbitCamera.MoveCameraToOrientation
+  fullName: Lucid.Toolkit3D.OrbitCamera.MoveCameraToOrientation
+- uid: Global.Ease
+  isExternal: true
+  name: Ease
+  nameWithType: Ease
+  fullName: Ease

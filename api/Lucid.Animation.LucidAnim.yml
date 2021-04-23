@@ -1,0 +1,261 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Animation.LucidAnim
+  commentId: T:Lucid.Animation.LucidAnim
+  id: LucidAnim
+  parent: Lucid.Animation
+  children:
+  - Lucid.Animation.LucidAnim.#ctor
+  - Lucid.Animation.LucidAnim.duration
+  - Lucid.Animation.LucidAnim.ease
+  - Lucid.Animation.LucidAnim.inCollection
+  - Lucid.Animation.LucidAnim.speedBased
+  - Lucid.Animation.LucidAnim.startDelay
+  langs:
+  - csharp
+  - vb
+  name: LucidAnim
+  nameWithType: LucidAnim
+  fullName: Lucid.Animation.LucidAnim
+  type: Class
+  source:
+    id: LucidAnim
+    path: ''
+    startLine: 24035
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class LucidAnim
+    content.vb: >-
+      <Serializable>
+
+      Public Class LucidAnim
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Lucid.Animation.LAColor
+  - Lucid.Animation.LAEulerAngles
+  - Lucid.Animation.LAFloat
+  - Lucid.Animation.LAGradient
+  - Lucid.Animation.LAInt
+  - Lucid.Animation.LANormalisedFloat
+  - Lucid.Animation.LAVector2
+  - Lucid.Animation.LAVector3
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Animation.LucidAnim.startDelay
+  commentId: F:Lucid.Animation.LucidAnim.startDelay
+  id: startDelay
+  parent: Lucid.Animation.LucidAnim
+  langs:
+  - csharp
+  - vb
+  name: startDelay
+  nameWithType: LucidAnim.startDelay
+  fullName: Lucid.Animation.LucidAnim.startDelay
+  type: Field
+  source:
+    id: startDelay
+    path: ''
+    startLine: 24043
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public float startDelay
+    return:
+      type: System.Single
+    content.vb: Public startDelay As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LucidAnim.duration
+  commentId: F:Lucid.Animation.LucidAnim.duration
+  id: duration
+  parent: Lucid.Animation.LucidAnim
+  langs:
+  - csharp
+  - vb
+  name: duration
+  nameWithType: LucidAnim.duration
+  fullName: Lucid.Animation.LucidAnim.duration
+  type: Field
+  source:
+    id: duration
+    path: ''
+    startLine: 24046
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public float duration
+    return:
+      type: System.Single
+    content.vb: Public duration As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LucidAnim.speedBased
+  commentId: F:Lucid.Animation.LucidAnim.speedBased
+  id: speedBased
+  parent: Lucid.Animation.LucidAnim
+  langs:
+  - csharp
+  - vb
+  name: speedBased
+  nameWithType: LucidAnim.speedBased
+  fullName: Lucid.Animation.LucidAnim.speedBased
+  type: Field
+  source:
+    id: speedBased
+    path: ''
+    startLine: 24049
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public bool speedBased
+    return:
+      type: System.Boolean
+    content.vb: Public speedBased As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LucidAnim.ease
+  commentId: F:Lucid.Animation.LucidAnim.ease
+  id: ease
+  parent: Lucid.Animation.LucidAnim
+  langs:
+  - csharp
+  - vb
+  name: ease
+  nameWithType: LucidAnim.ease
+  fullName: Lucid.Animation.LucidAnim.ease
+  type: Field
+  source:
+    id: ease
+    path: ''
+    startLine: 24052
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public Ease ease
+    return:
+      type: Global.Ease
+    content.vb: Public ease As Ease
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LucidAnim.inCollection
+  commentId: F:Lucid.Animation.LucidAnim.inCollection
+  id: inCollection
+  parent: Lucid.Animation.LucidAnim
+  langs:
+  - csharp
+  - vb
+  name: inCollection
+  nameWithType: LucidAnim.inCollection
+  fullName: Lucid.Animation.LucidAnim.inCollection
+  type: Field
+  source:
+    id: inCollection
+    path: ''
+    startLine: 24055
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public bool inCollection
+    return:
+      type: System.Boolean
+    content.vb: Public inCollection As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LucidAnim.#ctor
+  commentId: M:Lucid.Animation.LucidAnim.#ctor
+  id: '#ctor'
+  parent: Lucid.Animation.LucidAnim
+  langs:
+  - csharp
+  - vb
+  name: LucidAnim()
+  nameWithType: LucidAnim.LucidAnim()
+  fullName: Lucid.Animation.LucidAnim.LucidAnim()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 24057
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LucidAnim()
+    content.vb: Public Sub New
+  overload: Lucid.Animation.LucidAnim.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Animation
+  commentId: N:Lucid.Animation
+  name: Lucid.Animation
+  nameWithType: Lucid.Animation
+  fullName: Lucid.Animation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.Ease
+  isExternal: true
+  name: Ease
+  nameWithType: Ease
+  fullName: Ease
+- uid: Lucid.Animation.LucidAnim.#ctor*
+  commentId: Overload:Lucid.Animation.LucidAnim.#ctor
+  name: LucidAnim
+  nameWithType: LucidAnim.LucidAnim
+  fullName: Lucid.Animation.LucidAnim.LucidAnim

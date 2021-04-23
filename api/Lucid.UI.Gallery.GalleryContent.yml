@@ -1,0 +1,421 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.UI.Gallery.GalleryContent
+  commentId: T:Lucid.UI.Gallery.GalleryContent
+  id: GalleryContent
+  parent: Lucid.UI.Gallery
+  children:
+  - Lucid.UI.Gallery.GalleryContent.folderPath
+  - Lucid.UI.Gallery.GalleryContent.gallery360Prefab
+  - Lucid.UI.Gallery.GalleryContent.galleryDataDrivenPrefab
+  - Lucid.UI.Gallery.GalleryContent.gallerySpritePrefab
+  - Lucid.UI.Gallery.GalleryContent.galleryVideoPrefab
+  - Lucid.UI.Gallery.GalleryContent.GetGalleries
+  - Lucid.UI.Gallery.GalleryContent.itemDatas
+  - Lucid.UI.Gallery.GalleryContent.PopulateFromFolder
+  langs:
+  - csharp
+  - vb
+  name: GalleryContent
+  nameWithType: GalleryContent
+  fullName: Lucid.UI.Gallery.GalleryContent
+  type: Class
+  source:
+    id: GalleryContent
+    path: ''
+    startLine: 10245
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: 'public class GalleryContent : ScriptableObject'
+    content.vb: >-
+      Public Class GalleryContent
+          Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.UI.Gallery.GalleryContent.itemDatas
+  commentId: F:Lucid.UI.Gallery.GalleryContent.itemDatas
+  id: itemDatas
+  parent: Lucid.UI.Gallery.GalleryContent
+  langs:
+  - csharp
+  - vb
+  name: itemDatas
+  nameWithType: GalleryContent.itemDatas
+  fullName: Lucid.UI.Gallery.GalleryContent.itemDatas
+  type: Field
+  source:
+    id: itemDatas
+    path: ''
+    startLine: 10250
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public List<GalleryItemData> itemDatas
+    return:
+      type: Global.List{Lucid.UI.Gallery.GalleryItemData}
+    content.vb: Public itemDatas As List(Of GalleryItemData)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryContent.gallerySpritePrefab
+  commentId: F:Lucid.UI.Gallery.GalleryContent.gallerySpritePrefab
+  id: gallerySpritePrefab
+  parent: Lucid.UI.Gallery.GalleryContent
+  langs:
+  - csharp
+  - vb
+  name: gallerySpritePrefab
+  nameWithType: GalleryContent.gallerySpritePrefab
+  fullName: Lucid.UI.Gallery.GalleryContent.gallerySpritePrefab
+  type: Field
+  source:
+    id: gallerySpritePrefab
+    path: ''
+    startLine: 10253
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public GameObject gallerySpritePrefab
+    return:
+      type: Global.GameObject
+    content.vb: Public gallerySpritePrefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryContent.galleryVideoPrefab
+  commentId: F:Lucid.UI.Gallery.GalleryContent.galleryVideoPrefab
+  id: galleryVideoPrefab
+  parent: Lucid.UI.Gallery.GalleryContent
+  langs:
+  - csharp
+  - vb
+  name: galleryVideoPrefab
+  nameWithType: GalleryContent.galleryVideoPrefab
+  fullName: Lucid.UI.Gallery.GalleryContent.galleryVideoPrefab
+  type: Field
+  source:
+    id: galleryVideoPrefab
+    path: ''
+    startLine: 10255
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public GameObject galleryVideoPrefab
+    return:
+      type: Global.GameObject
+    content.vb: Public galleryVideoPrefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryContent.gallery360Prefab
+  commentId: F:Lucid.UI.Gallery.GalleryContent.gallery360Prefab
+  id: gallery360Prefab
+  parent: Lucid.UI.Gallery.GalleryContent
+  langs:
+  - csharp
+  - vb
+  name: gallery360Prefab
+  nameWithType: GalleryContent.gallery360Prefab
+  fullName: Lucid.UI.Gallery.GalleryContent.gallery360Prefab
+  type: Field
+  source:
+    id: gallery360Prefab
+    path: ''
+    startLine: 10257
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public GameObject gallery360Prefab
+    return:
+      type: Global.GameObject
+    content.vb: Public gallery360Prefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryContent.galleryDataDrivenPrefab
+  commentId: F:Lucid.UI.Gallery.GalleryContent.galleryDataDrivenPrefab
+  id: galleryDataDrivenPrefab
+  parent: Lucid.UI.Gallery.GalleryContent
+  langs:
+  - csharp
+  - vb
+  name: galleryDataDrivenPrefab
+  nameWithType: GalleryContent.galleryDataDrivenPrefab
+  fullName: Lucid.UI.Gallery.GalleryContent.galleryDataDrivenPrefab
+  type: Field
+  source:
+    id: galleryDataDrivenPrefab
+    path: ''
+    startLine: 10259
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public GameObject galleryDataDrivenPrefab
+    return:
+      type: Global.GameObject
+    content.vb: Public galleryDataDrivenPrefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryContent.folderPath
+  commentId: F:Lucid.UI.Gallery.GalleryContent.folderPath
+  id: folderPath
+  parent: Lucid.UI.Gallery.GalleryContent
+  langs:
+  - csharp
+  - vb
+  name: folderPath
+  nameWithType: GalleryContent.folderPath
+  fullName: Lucid.UI.Gallery.GalleryContent.folderPath
+  type: Field
+  source:
+    id: folderPath
+    path: ''
+    startLine: 10263
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public string folderPath
+    return:
+      type: System.String
+    content.vb: Public folderPath As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryContent.PopulateFromFolder
+  commentId: M:Lucid.UI.Gallery.GalleryContent.PopulateFromFolder
+  id: PopulateFromFolder
+  parent: Lucid.UI.Gallery.GalleryContent
+  langs:
+  - csharp
+  - vb
+  name: PopulateFromFolder()
+  nameWithType: GalleryContent.PopulateFromFolder()
+  fullName: Lucid.UI.Gallery.GalleryContent.PopulateFromFolder()
+  type: Method
+  source:
+    id: PopulateFromFolder
+    path: ''
+    startLine: 10265
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public void PopulateFromFolder()
+    content.vb: Public Sub PopulateFromFolder
+  overload: Lucid.UI.Gallery.GalleryContent.PopulateFromFolder*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryContent.GetGalleries
+  commentId: M:Lucid.UI.Gallery.GalleryContent.GetGalleries
+  id: GetGalleries
+  parent: Lucid.UI.Gallery.GalleryContent
+  langs:
+  - csharp
+  - vb
+  name: GetGalleries()
+  nameWithType: GalleryContent.GetGalleries()
+  fullName: Lucid.UI.Gallery.GalleryContent.GetGalleries()
+  type: Method
+  source:
+    id: GetGalleries
+    path: ''
+    startLine: 10324
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public static List<GalleryContent> GetGalleries()
+    return:
+      type: Global.List{Lucid.UI.Gallery.GalleryContent}
+    content.vb: Public Shared Function GetGalleries As List(Of GalleryContent)
+  overload: Lucid.UI.Gallery.GalleryContent.GetGalleries*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Lucid.UI.Gallery
+  commentId: N:Lucid.UI.Gallery
+  name: Lucid.UI.Gallery
+  nameWithType: Lucid.UI.Gallery
+  fullName: Lucid.UI.Gallery
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.List{Lucid.UI.Gallery.GalleryItemData}
+  commentId: '!:Global.List{Lucid.UI.Gallery.GalleryItemData}'
+  definition: Global.List`1
+  name: List<GalleryItemData>
+  nameWithType: List<GalleryItemData>
+  fullName: List<Lucid.UI.Gallery.GalleryItemData>
+  nameWithType.vb: List(Of GalleryItemData)
+  fullName.vb: List(Of Lucid.UI.Gallery.GalleryItemData)
+  name.vb: List(Of GalleryItemData)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Lucid.UI.Gallery.GalleryItemData
+    name: GalleryItemData
+    nameWithType: GalleryItemData
+    fullName: Lucid.UI.Gallery.GalleryItemData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Lucid.UI.Gallery.GalleryItemData
+    name: GalleryItemData
+    nameWithType: GalleryItemData
+    fullName: Lucid.UI.Gallery.GalleryItemData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Lucid.UI.Gallery.GalleryContent.PopulateFromFolder*
+  commentId: Overload:Lucid.UI.Gallery.GalleryContent.PopulateFromFolder
+  name: PopulateFromFolder
+  nameWithType: GalleryContent.PopulateFromFolder
+  fullName: Lucid.UI.Gallery.GalleryContent.PopulateFromFolder
+- uid: Lucid.UI.Gallery.GalleryContent.GetGalleries*
+  commentId: Overload:Lucid.UI.Gallery.GalleryContent.GetGalleries
+  name: GetGalleries
+  nameWithType: GalleryContent.GetGalleries
+  fullName: Lucid.UI.Gallery.GalleryContent.GetGalleries
+- uid: Global.List{Lucid.UI.Gallery.GalleryContent}
+  commentId: '!:Global.List{Lucid.UI.Gallery.GalleryContent}'
+  definition: Global.List`1
+  name: List<GalleryContent>
+  nameWithType: List<GalleryContent>
+  fullName: List<Lucid.UI.Gallery.GalleryContent>
+  nameWithType.vb: List(Of GalleryContent)
+  fullName.vb: List(Of Lucid.UI.Gallery.GalleryContent)
+  name.vb: List(Of GalleryContent)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Lucid.UI.Gallery.GalleryContent
+    name: GalleryContent
+    nameWithType: GalleryContent
+    fullName: Lucid.UI.Gallery.GalleryContent
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Lucid.UI.Gallery.GalleryContent
+    name: GalleryContent
+    nameWithType: GalleryContent
+    fullName: Lucid.UI.Gallery.GalleryContent
+  - name: )
+    nameWithType: )
+    fullName: )

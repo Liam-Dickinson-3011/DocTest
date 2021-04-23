@@ -1,0 +1,279 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.DataStorage.DataDrivenImage
+  commentId: T:Lucid.DataStorage.DataDrivenImage
+  id: DataDrivenImage
+  parent: Lucid.DataStorage
+  children:
+  - Lucid.DataStorage.DataDrivenImage.image
+  - Lucid.DataStorage.DataDrivenImage.sprite
+  - Lucid.DataStorage.DataDrivenImage.UpdateComponent
+  langs:
+  - csharp
+  - vb
+  name: DataDrivenImage
+  nameWithType: DataDrivenImage
+  fullName: Lucid.DataStorage.DataDrivenImage
+  type: Class
+  source:
+    id: DataDrivenImage
+    path: ''
+    startLine: 14202
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: 'public class DataDrivenImage : DataDrivenComponent, IDataDriven'
+    content.vb: >-
+      Public Class DataDrivenImage
+          Inherits DataDrivenComponent
+          Implements IDataDriven
+  inheritance:
+  - System.Object
+  - Lucid.DataStorage.DataDrivenComponent
+  implements:
+  - Lucid.DataStorage.IDataDriven
+  inheritedMembers:
+  - Lucid.DataStorage.DataDrivenComponent.dataStore
+  - Lucid.DataStorage.DataDrivenComponent.useKeyPrefix
+  - Lucid.DataStorage.DataDrivenComponent.keyPrefix
+  - Lucid.DataStorage.DataDrivenComponent.key
+  - Lucid.DataStorage.DataDrivenComponent.dataKey
+  - Lucid.DataStorage.DataDrivenComponent.dataValue
+  - Lucid.DataStorage.DataDrivenComponent.GetValue
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.DataStorage.DataDrivenImage.image
+  commentId: P:Lucid.DataStorage.DataDrivenImage.image
+  id: image
+  parent: Lucid.DataStorage.DataDrivenImage
+  langs:
+  - csharp
+  - vb
+  name: image
+  nameWithType: DataDrivenImage.image
+  fullName: Lucid.DataStorage.DataDrivenImage.image
+  type: Property
+  source:
+    id: image
+    path: ''
+    startLine: 14206
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public Image image { get; }
+    parameters: []
+    return:
+      type: Global.Image
+    content.vb: Public ReadOnly Property image As Image
+  overload: Lucid.DataStorage.DataDrivenImage.image*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Lucid.DataStorage.DataDrivenImage.sprite
+  commentId: F:Lucid.DataStorage.DataDrivenImage.sprite
+  id: sprite
+  parent: Lucid.DataStorage.DataDrivenImage
+  langs:
+  - csharp
+  - vb
+  name: sprite
+  nameWithType: DataDrivenImage.sprite
+  fullName: Lucid.DataStorage.DataDrivenImage.sprite
+  type: Field
+  source:
+    id: sprite
+    path: ''
+    startLine: 14214
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public Sprite sprite
+    return:
+      type: Global.Sprite
+    content.vb: Public sprite As Sprite
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.DataStorage.DataDrivenImage.UpdateComponent
+  commentId: M:Lucid.DataStorage.DataDrivenImage.UpdateComponent
+  id: UpdateComponent
+  parent: Lucid.DataStorage.DataDrivenImage
+  langs:
+  - csharp
+  - vb
+  name: UpdateComponent()
+  nameWithType: DataDrivenImage.UpdateComponent()
+  fullName: Lucid.DataStorage.DataDrivenImage.UpdateComponent()
+  type: Method
+  source:
+    id: UpdateComponent
+    path: ''
+    startLine: 14216
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public override void UpdateComponent()
+    content.vb: Public Overrides Sub UpdateComponent
+  overridden: Lucid.DataStorage.DataDrivenComponent.UpdateComponent
+  overload: Lucid.DataStorage.DataDrivenImage.UpdateComponent*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Lucid.DataStorage
+  commentId: N:Lucid.DataStorage
+  name: Lucid.DataStorage
+  nameWithType: Lucid.DataStorage
+  fullName: Lucid.DataStorage
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Lucid.DataStorage.DataDrivenComponent
+  commentId: T:Lucid.DataStorage.DataDrivenComponent
+  parent: Lucid.DataStorage
+  name: DataDrivenComponent
+  nameWithType: DataDrivenComponent
+  fullName: Lucid.DataStorage.DataDrivenComponent
+- uid: Lucid.DataStorage.IDataDriven
+  commentId: T:Lucid.DataStorage.IDataDriven
+  parent: Lucid.DataStorage
+  name: IDataDriven
+  nameWithType: IDataDriven
+  fullName: Lucid.DataStorage.IDataDriven
+- uid: Lucid.DataStorage.DataDrivenComponent.dataStore
+  commentId: P:Lucid.DataStorage.DataDrivenComponent.dataStore
+  parent: Lucid.DataStorage.DataDrivenComponent
+  name: dataStore
+  nameWithType: DataDrivenComponent.dataStore
+  fullName: Lucid.DataStorage.DataDrivenComponent.dataStore
+- uid: Lucid.DataStorage.DataDrivenComponent.useKeyPrefix
+  commentId: P:Lucid.DataStorage.DataDrivenComponent.useKeyPrefix
+  parent: Lucid.DataStorage.DataDrivenComponent
+  name: useKeyPrefix
+  nameWithType: DataDrivenComponent.useKeyPrefix
+  fullName: Lucid.DataStorage.DataDrivenComponent.useKeyPrefix
+- uid: Lucid.DataStorage.DataDrivenComponent.keyPrefix
+  commentId: P:Lucid.DataStorage.DataDrivenComponent.keyPrefix
+  parent: Lucid.DataStorage.DataDrivenComponent
+  name: keyPrefix
+  nameWithType: DataDrivenComponent.keyPrefix
+  fullName: Lucid.DataStorage.DataDrivenComponent.keyPrefix
+- uid: Lucid.DataStorage.DataDrivenComponent.key
+  commentId: P:Lucid.DataStorage.DataDrivenComponent.key
+  parent: Lucid.DataStorage.DataDrivenComponent
+  name: key
+  nameWithType: DataDrivenComponent.key
+  fullName: Lucid.DataStorage.DataDrivenComponent.key
+- uid: Lucid.DataStorage.DataDrivenComponent.dataKey
+  commentId: P:Lucid.DataStorage.DataDrivenComponent.dataKey
+  parent: Lucid.DataStorage.DataDrivenComponent
+  name: dataKey
+  nameWithType: DataDrivenComponent.dataKey
+  fullName: Lucid.DataStorage.DataDrivenComponent.dataKey
+- uid: Lucid.DataStorage.DataDrivenComponent.dataValue
+  commentId: P:Lucid.DataStorage.DataDrivenComponent.dataValue
+  parent: Lucid.DataStorage.DataDrivenComponent
+  name: dataValue
+  nameWithType: DataDrivenComponent.dataValue
+  fullName: Lucid.DataStorage.DataDrivenComponent.dataValue
+- uid: Lucid.DataStorage.DataDrivenComponent.GetValue
+  commentId: M:Lucid.DataStorage.DataDrivenComponent.GetValue
+  parent: Lucid.DataStorage.DataDrivenComponent
+  name: GetValue()
+  nameWithType: DataDrivenComponent.GetValue()
+  fullName: Lucid.DataStorage.DataDrivenComponent.GetValue()
+  spec.csharp:
+  - uid: Lucid.DataStorage.DataDrivenComponent.GetValue
+    name: GetValue
+    nameWithType: DataDrivenComponent.GetValue
+    fullName: Lucid.DataStorage.DataDrivenComponent.GetValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.DataStorage.DataDrivenComponent.GetValue
+    name: GetValue
+    nameWithType: DataDrivenComponent.GetValue
+    fullName: Lucid.DataStorage.DataDrivenComponent.GetValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.DataStorage.DataDrivenImage.image*
+  commentId: Overload:Lucid.DataStorage.DataDrivenImage.image
+  name: image
+  nameWithType: DataDrivenImage.image
+  fullName: Lucid.DataStorage.DataDrivenImage.image
+- uid: Global.Image
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: Image
+- uid: Global.Sprite
+  isExternal: true
+  name: Sprite
+  nameWithType: Sprite
+  fullName: Sprite
+- uid: Lucid.DataStorage.DataDrivenComponent.UpdateComponent
+  commentId: M:Lucid.DataStorage.DataDrivenComponent.UpdateComponent
+  parent: Lucid.DataStorage.DataDrivenComponent
+  name: UpdateComponent()
+  nameWithType: DataDrivenComponent.UpdateComponent()
+  fullName: Lucid.DataStorage.DataDrivenComponent.UpdateComponent()
+  spec.csharp:
+  - uid: Lucid.DataStorage.DataDrivenComponent.UpdateComponent
+    name: UpdateComponent
+    nameWithType: DataDrivenComponent.UpdateComponent
+    fullName: Lucid.DataStorage.DataDrivenComponent.UpdateComponent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.DataStorage.DataDrivenComponent.UpdateComponent
+    name: UpdateComponent
+    nameWithType: DataDrivenComponent.UpdateComponent
+    fullName: Lucid.DataStorage.DataDrivenComponent.UpdateComponent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.DataStorage.DataDrivenImage.UpdateComponent*
+  commentId: Overload:Lucid.DataStorage.DataDrivenImage.UpdateComponent
+  name: UpdateComponent
+  nameWithType: DataDrivenImage.UpdateComponent
+  fullName: Lucid.DataStorage.DataDrivenImage.UpdateComponent

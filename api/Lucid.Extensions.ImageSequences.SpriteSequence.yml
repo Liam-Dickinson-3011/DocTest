@@ -1,0 +1,1063 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence
+  commentId: T:Lucid.Extensions.ImageSequences.SpriteSequence
+  id: SpriteSequence
+  parent: Lucid.Extensions.ImageSequences
+  children:
+  - Lucid.Extensions.ImageSequences.SpriteSequence.assetBundlePrefix
+  - Lucid.Extensions.ImageSequences.SpriteSequence.asyncLoadType
+  - Lucid.Extensions.ImageSequences.SpriteSequence.bufferBundlesCount
+  - Lucid.Extensions.ImageSequences.SpriteSequence.currentBundleIndex
+  - Lucid.Extensions.ImageSequences.SpriteSequence.currentImageIndex
+  - Lucid.Extensions.ImageSequences.SpriteSequence.currentSprite
+  - Lucid.Extensions.ImageSequences.SpriteSequence.exportFolder
+  - Lucid.Extensions.ImageSequences.SpriteSequence.GetBundleBySpriteIndex(System.Int32)
+  - Lucid.Extensions.ImageSequences.SpriteSequence.imageAssetBundles
+  - Lucid.Extensions.ImageSequences.SpriteSequence.imagesPerBundle
+  - Lucid.Extensions.ImageSequences.SpriteSequence.Next
+  - Lucid.Extensions.ImageSequences.SpriteSequence.OnCurrentSpriteChanged
+  - Lucid.Extensions.ImageSequences.SpriteSequence.OnSpriteAssetBundleLoaded
+  - Lucid.Extensions.ImageSequences.SpriteSequence.OnSpriteAssetBundleUnloaded
+  - Lucid.Extensions.ImageSequences.SpriteSequence.Previous
+  - Lucid.Extensions.ImageSequences.SpriteSequence.reverseImageOrder
+  - Lucid.Extensions.ImageSequences.SpriteSequence.sequenceFolderPath
+  - Lucid.Extensions.ImageSequences.SpriteSequence.SetBundleIndex(System.Int32)
+  - Lucid.Extensions.ImageSequences.SpriteSequence.SetCurrentBundle(Lucid.Extensions.ImageSequences.SpriteAssetBundle)
+  - Lucid.Extensions.ImageSequences.SpriteSequence.SetImageIndex(System.Int32)
+  - Lucid.Extensions.ImageSequences.SpriteSequence.spriteNameFormat
+  - Lucid.Extensions.ImageSequences.SpriteSequence.totalBundles
+  - Lucid.Extensions.ImageSequences.SpriteSequence.totalImages
+  langs:
+  - csharp
+  - vb
+  name: SpriteSequence
+  nameWithType: SpriteSequence
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence
+  type: Class
+  source:
+    id: SpriteSequence
+    path: ''
+    startLine: 3926
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: 'public class SpriteSequence : ScriptableObject, IImageSequence'
+    content.vb: >-
+      Public Class SpriteSequence
+          Inherits ScriptableObject
+          Implements IImageSequence
+  inheritance:
+  - System.Object
+  implements:
+  - Lucid.Extensions.ImageSequences.IImageSequence
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.sequenceFolderPath
+  commentId: F:Lucid.Extensions.ImageSequences.SpriteSequence.sequenceFolderPath
+  id: sequenceFolderPath
+  parent: Lucid.Extensions.ImageSequences.SpriteSequence
+  langs:
+  - csharp
+  - vb
+  name: sequenceFolderPath
+  nameWithType: SpriteSequence.sequenceFolderPath
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.sequenceFolderPath
+  type: Field
+  source:
+    id: sequenceFolderPath
+    path: ''
+    startLine: 3932
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public string sequenceFolderPath
+    return:
+      type: System.String
+    content.vb: Public sequenceFolderPath As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.exportFolder
+  commentId: F:Lucid.Extensions.ImageSequences.SpriteSequence.exportFolder
+  id: exportFolder
+  parent: Lucid.Extensions.ImageSequences.SpriteSequence
+  langs:
+  - csharp
+  - vb
+  name: exportFolder
+  nameWithType: SpriteSequence.exportFolder
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.exportFolder
+  type: Field
+  source:
+    id: exportFolder
+    path: ''
+    startLine: 3934
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public string exportFolder
+    return:
+      type: System.String
+    content.vb: Public exportFolder As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.assetBundlePrefix
+  commentId: F:Lucid.Extensions.ImageSequences.SpriteSequence.assetBundlePrefix
+  id: assetBundlePrefix
+  parent: Lucid.Extensions.ImageSequences.SpriteSequence
+  langs:
+  - csharp
+  - vb
+  name: assetBundlePrefix
+  nameWithType: SpriteSequence.assetBundlePrefix
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.assetBundlePrefix
+  type: Field
+  source:
+    id: assetBundlePrefix
+    path: ''
+    startLine: 3936
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public string assetBundlePrefix
+    return:
+      type: System.String
+    content.vb: Public assetBundlePrefix As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.imagesPerBundle
+  commentId: F:Lucid.Extensions.ImageSequences.SpriteSequence.imagesPerBundle
+  id: imagesPerBundle
+  parent: Lucid.Extensions.ImageSequences.SpriteSequence
+  langs:
+  - csharp
+  - vb
+  name: imagesPerBundle
+  nameWithType: SpriteSequence.imagesPerBundle
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.imagesPerBundle
+  type: Field
+  source:
+    id: imagesPerBundle
+    path: ''
+    startLine: 3938
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public int imagesPerBundle
+    return:
+      type: System.Int32
+    content.vb: Public imagesPerBundle As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.spriteNameFormat
+  commentId: F:Lucid.Extensions.ImageSequences.SpriteSequence.spriteNameFormat
+  id: spriteNameFormat
+  parent: Lucid.Extensions.ImageSequences.SpriteSequence
+  langs:
+  - csharp
+  - vb
+  name: spriteNameFormat
+  nameWithType: SpriteSequence.spriteNameFormat
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.spriteNameFormat
+  type: Field
+  source:
+    id: spriteNameFormat
+    path: ''
+    startLine: 3940
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public string spriteNameFormat
+    return:
+      type: System.String
+    content.vb: Public spriteNameFormat As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.imageAssetBundles
+  commentId: F:Lucid.Extensions.ImageSequences.SpriteSequence.imageAssetBundles
+  id: imageAssetBundles
+  parent: Lucid.Extensions.ImageSequences.SpriteSequence
+  langs:
+  - csharp
+  - vb
+  name: imageAssetBundles
+  nameWithType: SpriteSequence.imageAssetBundles
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.imageAssetBundles
+  type: Field
+  source:
+    id: imageAssetBundles
+    path: ''
+    startLine: 3948
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public List<SpriteAssetBundle> imageAssetBundles
+    return:
+      type: Global.List{Lucid.Extensions.ImageSequences.SpriteAssetBundle}
+    content.vb: Public imageAssetBundles As List(Of SpriteAssetBundle)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.totalBundles
+  commentId: P:Lucid.Extensions.ImageSequences.SpriteSequence.totalBundles
+  id: totalBundles
+  parent: Lucid.Extensions.ImageSequences.SpriteSequence
+  langs:
+  - csharp
+  - vb
+  name: totalBundles
+  nameWithType: SpriteSequence.totalBundles
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.totalBundles
+  type: Property
+  source:
+    id: totalBundles
+    path: ''
+    startLine: 3949
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public int totalBundles { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property totalBundles As Integer
+  overload: Lucid.Extensions.ImageSequences.SpriteSequence.totalBundles*
+  implements:
+  - Lucid.Extensions.ImageSequences.IImageSequence.totalBundles
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.currentBundleIndex
+  commentId: P:Lucid.Extensions.ImageSequences.SpriteSequence.currentBundleIndex
+  id: currentBundleIndex
+  parent: Lucid.Extensions.ImageSequences.SpriteSequence
+  langs:
+  - csharp
+  - vb
+  name: currentBundleIndex
+  nameWithType: SpriteSequence.currentBundleIndex
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.currentBundleIndex
+  type: Property
+  source:
+    id: currentBundleIndex
+    path: ''
+    startLine: 3953
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public int currentBundleIndex { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property currentBundleIndex As Integer
+  overload: Lucid.Extensions.ImageSequences.SpriteSequence.currentBundleIndex*
+  implements:
+  - Lucid.Extensions.ImageSequences.IImageSequence.currentBundleIndex
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.bufferBundlesCount
+  commentId: P:Lucid.Extensions.ImageSequences.SpriteSequence.bufferBundlesCount
+  id: bufferBundlesCount
+  parent: Lucid.Extensions.ImageSequences.SpriteSequence
+  langs:
+  - csharp
+  - vb
+  name: bufferBundlesCount
+  nameWithType: SpriteSequence.bufferBundlesCount
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.bufferBundlesCount
+  type: Property
+  source:
+    id: bufferBundlesCount
+    path: ''
+    startLine: 3962
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public int bufferBundlesCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property bufferBundlesCount As Integer
+  overload: Lucid.Extensions.ImageSequences.SpriteSequence.bufferBundlesCount*
+  implements:
+  - Lucid.Extensions.ImageSequences.IImageSequence.bufferBundlesCount
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.asyncLoadType
+  commentId: F:Lucid.Extensions.ImageSequences.SpriteSequence.asyncLoadType
+  id: asyncLoadType
+  parent: Lucid.Extensions.ImageSequences.SpriteSequence
+  langs:
+  - csharp
+  - vb
+  name: asyncLoadType
+  nameWithType: SpriteSequence.asyncLoadType
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.asyncLoadType
+  type: Field
+  source:
+    id: asyncLoadType
+    path: ''
+    startLine: 3970
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public SpriteSequence.AsyncLoadType asyncLoadType
+    return:
+      type: Lucid.Extensions.ImageSequences.SpriteSequence.AsyncLoadType
+    content.vb: Public asyncLoadType As SpriteSequence.AsyncLoadType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.totalImages
+  commentId: P:Lucid.Extensions.ImageSequences.SpriteSequence.totalImages
+  id: totalImages
+  parent: Lucid.Extensions.ImageSequences.SpriteSequence
+  langs:
+  - csharp
+  - vb
+  name: totalImages
+  nameWithType: SpriteSequence.totalImages
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.totalImages
+  type: Property
+  source:
+    id: totalImages
+    path: ''
+    startLine: 3977
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public int totalImages { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property totalImages As Integer
+  overload: Lucid.Extensions.ImageSequences.SpriteSequence.totalImages*
+  implements:
+  - Lucid.Extensions.ImageSequences.IImageSequence.totalImages
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.currentImageIndex
+  commentId: P:Lucid.Extensions.ImageSequences.SpriteSequence.currentImageIndex
+  id: currentImageIndex
+  parent: Lucid.Extensions.ImageSequences.SpriteSequence
+  langs:
+  - csharp
+  - vb
+  name: currentImageIndex
+  nameWithType: SpriteSequence.currentImageIndex
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.currentImageIndex
+  type: Property
+  source:
+    id: currentImageIndex
+    path: ''
+    startLine: 3981
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public int currentImageIndex { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property currentImageIndex As Integer
+  overload: Lucid.Extensions.ImageSequences.SpriteSequence.currentImageIndex*
+  implements:
+  - Lucid.Extensions.ImageSequences.IImageSequence.currentImageIndex
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.reverseImageOrder
+  commentId: P:Lucid.Extensions.ImageSequences.SpriteSequence.reverseImageOrder
+  id: reverseImageOrder
+  parent: Lucid.Extensions.ImageSequences.SpriteSequence
+  langs:
+  - csharp
+  - vb
+  name: reverseImageOrder
+  nameWithType: SpriteSequence.reverseImageOrder
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.reverseImageOrder
+  type: Property
+  source:
+    id: reverseImageOrder
+    path: ''
+    startLine: 3990
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public bool reverseImageOrder { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property reverseImageOrder As Boolean
+  overload: Lucid.Extensions.ImageSequences.SpriteSequence.reverseImageOrder*
+  implements:
+  - Lucid.Extensions.ImageSequences.IImageSequence.reverseImageOrder
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.currentSprite
+  commentId: F:Lucid.Extensions.ImageSequences.SpriteSequence.currentSprite
+  id: currentSprite
+  parent: Lucid.Extensions.ImageSequences.SpriteSequence
+  langs:
+  - csharp
+  - vb
+  name: currentSprite
+  nameWithType: SpriteSequence.currentSprite
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.currentSprite
+  type: Field
+  source:
+    id: currentSprite
+    path: ''
+    startLine: 3999
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public Sprite currentSprite
+    return:
+      type: Global.Sprite
+    content.vb: Public currentSprite As Sprite
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.OnCurrentSpriteChanged
+  commentId: E:Lucid.Extensions.ImageSequences.SpriteSequence.OnCurrentSpriteChanged
+  id: OnCurrentSpriteChanged
+  parent: Lucid.Extensions.ImageSequences.SpriteSequence
+  langs:
+  - csharp
+  - vb
+  name: OnCurrentSpriteChanged
+  nameWithType: SpriteSequence.OnCurrentSpriteChanged
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.OnCurrentSpriteChanged
+  type: Event
+  source:
+    id: OnCurrentSpriteChanged
+    path: ''
+    startLine: 4004
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public event SpriteSequence.CurrentSpriteChanged_Del OnCurrentSpriteChanged
+    return:
+      type: Lucid.Extensions.ImageSequences.SpriteSequence.CurrentSpriteChanged_Del
+    content.vb: Public Event OnCurrentSpriteChanged As SpriteSequence.CurrentSpriteChanged_Del
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.OnSpriteAssetBundleLoaded
+  commentId: E:Lucid.Extensions.ImageSequences.SpriteSequence.OnSpriteAssetBundleLoaded
+  id: OnSpriteAssetBundleLoaded
+  parent: Lucid.Extensions.ImageSequences.SpriteSequence
+  langs:
+  - csharp
+  - vb
+  name: OnSpriteAssetBundleLoaded
+  nameWithType: SpriteSequence.OnSpriteAssetBundleLoaded
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.OnSpriteAssetBundleLoaded
+  type: Event
+  source:
+    id: OnSpriteAssetBundleLoaded
+    path: ''
+    startLine: 4007
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public event SpriteSequence.SpriteAssetBundleLoaded_Del OnSpriteAssetBundleLoaded
+    return:
+      type: Lucid.Extensions.ImageSequences.SpriteSequence.SpriteAssetBundleLoaded_Del
+    content.vb: Public Event OnSpriteAssetBundleLoaded As SpriteSequence.SpriteAssetBundleLoaded_Del
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.OnSpriteAssetBundleUnloaded
+  commentId: E:Lucid.Extensions.ImageSequences.SpriteSequence.OnSpriteAssetBundleUnloaded
+  id: OnSpriteAssetBundleUnloaded
+  parent: Lucid.Extensions.ImageSequences.SpriteSequence
+  langs:
+  - csharp
+  - vb
+  name: OnSpriteAssetBundleUnloaded
+  nameWithType: SpriteSequence.OnSpriteAssetBundleUnloaded
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.OnSpriteAssetBundleUnloaded
+  type: Event
+  source:
+    id: OnSpriteAssetBundleUnloaded
+    path: ''
+    startLine: 4010
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public event SpriteSequence.SpriteAssetBundleUnloaded_Del OnSpriteAssetBundleUnloaded
+    return:
+      type: Lucid.Extensions.ImageSequences.SpriteSequence.SpriteAssetBundleUnloaded_Del
+    content.vb: Public Event OnSpriteAssetBundleUnloaded As SpriteSequence.SpriteAssetBundleUnloaded_Del
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.SetBundleIndex(System.Int32)
+  commentId: M:Lucid.Extensions.ImageSequences.SpriteSequence.SetBundleIndex(System.Int32)
+  id: SetBundleIndex(System.Int32)
+  parent: Lucid.Extensions.ImageSequences.SpriteSequence
+  langs:
+  - csharp
+  - vb
+  name: SetBundleIndex(Int32)
+  nameWithType: SpriteSequence.SetBundleIndex(Int32)
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.SetBundleIndex(System.Int32)
+  type: Method
+  source:
+    id: SetBundleIndex
+    path: ''
+    startLine: 4012
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public void SetBundleIndex(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    content.vb: Public Sub SetBundleIndex(index As Integer)
+  overload: Lucid.Extensions.ImageSequences.SpriteSequence.SetBundleIndex*
+  implements:
+  - Lucid.Extensions.ImageSequences.IImageSequence.SetBundleIndex(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.SetCurrentBundle(Lucid.Extensions.ImageSequences.SpriteAssetBundle)
+  commentId: M:Lucid.Extensions.ImageSequences.SpriteSequence.SetCurrentBundle(Lucid.Extensions.ImageSequences.SpriteAssetBundle)
+  id: SetCurrentBundle(Lucid.Extensions.ImageSequences.SpriteAssetBundle)
+  parent: Lucid.Extensions.ImageSequences.SpriteSequence
+  langs:
+  - csharp
+  - vb
+  name: SetCurrentBundle(SpriteAssetBundle)
+  nameWithType: SpriteSequence.SetCurrentBundle(SpriteAssetBundle)
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.SetCurrentBundle(Lucid.Extensions.ImageSequences.SpriteAssetBundle)
+  type: Method
+  source:
+    id: SetCurrentBundle
+    path: ''
+    startLine: 4032
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public void SetCurrentBundle(SpriteAssetBundle imageAssetBundle)
+    parameters:
+    - id: imageAssetBundle
+      type: Lucid.Extensions.ImageSequences.SpriteAssetBundle
+    content.vb: Public Sub SetCurrentBundle(imageAssetBundle As SpriteAssetBundle)
+  overload: Lucid.Extensions.ImageSequences.SpriteSequence.SetCurrentBundle*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.GetBundleBySpriteIndex(System.Int32)
+  commentId: M:Lucid.Extensions.ImageSequences.SpriteSequence.GetBundleBySpriteIndex(System.Int32)
+  id: GetBundleBySpriteIndex(System.Int32)
+  parent: Lucid.Extensions.ImageSequences.SpriteSequence
+  langs:
+  - csharp
+  - vb
+  name: GetBundleBySpriteIndex(Int32)
+  nameWithType: SpriteSequence.GetBundleBySpriteIndex(Int32)
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.GetBundleBySpriteIndex(System.Int32)
+  type: Method
+  source:
+    id: GetBundleBySpriteIndex
+    path: ''
+    startLine: 4064
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public SpriteAssetBundle GetBundleBySpriteIndex(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: Lucid.Extensions.ImageSequences.SpriteAssetBundle
+    content.vb: Public Function GetBundleBySpriteIndex(index As Integer) As SpriteAssetBundle
+  overload: Lucid.Extensions.ImageSequences.SpriteSequence.GetBundleBySpriteIndex*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.SetImageIndex(System.Int32)
+  commentId: M:Lucid.Extensions.ImageSequences.SpriteSequence.SetImageIndex(System.Int32)
+  id: SetImageIndex(System.Int32)
+  parent: Lucid.Extensions.ImageSequences.SpriteSequence
+  langs:
+  - csharp
+  - vb
+  name: SetImageIndex(Int32)
+  nameWithType: SpriteSequence.SetImageIndex(Int32)
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.SetImageIndex(System.Int32)
+  type: Method
+  source:
+    id: SetImageIndex
+    path: ''
+    startLine: 4069
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public void SetImageIndex(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    content.vb: Public Sub SetImageIndex(index As Integer)
+  overload: Lucid.Extensions.ImageSequences.SpriteSequence.SetImageIndex*
+  implements:
+  - Lucid.Extensions.ImageSequences.IImageSequence.SetImageIndex(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.Next
+  commentId: M:Lucid.Extensions.ImageSequences.SpriteSequence.Next
+  id: Next
+  parent: Lucid.Extensions.ImageSequences.SpriteSequence
+  langs:
+  - csharp
+  - vb
+  name: Next()
+  nameWithType: SpriteSequence.Next()
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.Next()
+  type: Method
+  source:
+    id: Next
+    path: ''
+    startLine: 4089
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public void Next()
+    content.vb: Public Sub Next
+  overload: Lucid.Extensions.ImageSequences.SpriteSequence.Next*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.Previous
+  commentId: M:Lucid.Extensions.ImageSequences.SpriteSequence.Previous
+  id: Previous
+  parent: Lucid.Extensions.ImageSequences.SpriteSequence
+  langs:
+  - csharp
+  - vb
+  name: Previous()
+  nameWithType: SpriteSequence.Previous()
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.Previous()
+  type: Method
+  source:
+    id: Previous
+    path: ''
+    startLine: 4091
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public void Previous()
+    content.vb: Public Sub Previous
+  overload: Lucid.Extensions.ImageSequences.SpriteSequence.Previous*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Extensions.ImageSequences
+  commentId: N:Lucid.Extensions.ImageSequences
+  name: Lucid.Extensions.ImageSequences
+  nameWithType: Lucid.Extensions.ImageSequences
+  fullName: Lucid.Extensions.ImageSequences
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Lucid.Extensions.ImageSequences.IImageSequence
+  commentId: T:Lucid.Extensions.ImageSequences.IImageSequence
+  parent: Lucid.Extensions.ImageSequences
+  name: IImageSequence
+  nameWithType: IImageSequence
+  fullName: Lucid.Extensions.ImageSequences.IImageSequence
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.List{Lucid.Extensions.ImageSequences.SpriteAssetBundle}
+  commentId: '!:Global.List{Lucid.Extensions.ImageSequences.SpriteAssetBundle}'
+  definition: Global.List`1
+  name: List<SpriteAssetBundle>
+  nameWithType: List<SpriteAssetBundle>
+  fullName: List<Lucid.Extensions.ImageSequences.SpriteAssetBundle>
+  nameWithType.vb: List(Of SpriteAssetBundle)
+  fullName.vb: List(Of Lucid.Extensions.ImageSequences.SpriteAssetBundle)
+  name.vb: List(Of SpriteAssetBundle)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Lucid.Extensions.ImageSequences.SpriteAssetBundle
+    name: SpriteAssetBundle
+    nameWithType: SpriteAssetBundle
+    fullName: Lucid.Extensions.ImageSequences.SpriteAssetBundle
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Lucid.Extensions.ImageSequences.SpriteAssetBundle
+    name: SpriteAssetBundle
+    nameWithType: SpriteAssetBundle
+    fullName: Lucid.Extensions.ImageSequences.SpriteAssetBundle
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.totalBundles*
+  commentId: Overload:Lucid.Extensions.ImageSequences.SpriteSequence.totalBundles
+  name: totalBundles
+  nameWithType: SpriteSequence.totalBundles
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.totalBundles
+- uid: Lucid.Extensions.ImageSequences.IImageSequence.totalBundles
+  commentId: P:Lucid.Extensions.ImageSequences.IImageSequence.totalBundles
+  parent: Lucid.Extensions.ImageSequences.IImageSequence
+  name: totalBundles
+  nameWithType: IImageSequence.totalBundles
+  fullName: Lucid.Extensions.ImageSequences.IImageSequence.totalBundles
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.currentBundleIndex*
+  commentId: Overload:Lucid.Extensions.ImageSequences.SpriteSequence.currentBundleIndex
+  name: currentBundleIndex
+  nameWithType: SpriteSequence.currentBundleIndex
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.currentBundleIndex
+- uid: Lucid.Extensions.ImageSequences.IImageSequence.currentBundleIndex
+  commentId: P:Lucid.Extensions.ImageSequences.IImageSequence.currentBundleIndex
+  parent: Lucid.Extensions.ImageSequences.IImageSequence
+  name: currentBundleIndex
+  nameWithType: IImageSequence.currentBundleIndex
+  fullName: Lucid.Extensions.ImageSequences.IImageSequence.currentBundleIndex
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.bufferBundlesCount*
+  commentId: Overload:Lucid.Extensions.ImageSequences.SpriteSequence.bufferBundlesCount
+  name: bufferBundlesCount
+  nameWithType: SpriteSequence.bufferBundlesCount
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.bufferBundlesCount
+- uid: Lucid.Extensions.ImageSequences.IImageSequence.bufferBundlesCount
+  commentId: P:Lucid.Extensions.ImageSequences.IImageSequence.bufferBundlesCount
+  parent: Lucid.Extensions.ImageSequences.IImageSequence
+  name: bufferBundlesCount
+  nameWithType: IImageSequence.bufferBundlesCount
+  fullName: Lucid.Extensions.ImageSequences.IImageSequence.bufferBundlesCount
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.AsyncLoadType
+  commentId: T:Lucid.Extensions.ImageSequences.SpriteSequence.AsyncLoadType
+  parent: Lucid.Extensions.ImageSequences
+  name: SpriteSequence.AsyncLoadType
+  nameWithType: SpriteSequence.AsyncLoadType
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.AsyncLoadType
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.totalImages*
+  commentId: Overload:Lucid.Extensions.ImageSequences.SpriteSequence.totalImages
+  name: totalImages
+  nameWithType: SpriteSequence.totalImages
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.totalImages
+- uid: Lucid.Extensions.ImageSequences.IImageSequence.totalImages
+  commentId: P:Lucid.Extensions.ImageSequences.IImageSequence.totalImages
+  parent: Lucid.Extensions.ImageSequences.IImageSequence
+  name: totalImages
+  nameWithType: IImageSequence.totalImages
+  fullName: Lucid.Extensions.ImageSequences.IImageSequence.totalImages
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.currentImageIndex*
+  commentId: Overload:Lucid.Extensions.ImageSequences.SpriteSequence.currentImageIndex
+  name: currentImageIndex
+  nameWithType: SpriteSequence.currentImageIndex
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.currentImageIndex
+- uid: Lucid.Extensions.ImageSequences.IImageSequence.currentImageIndex
+  commentId: P:Lucid.Extensions.ImageSequences.IImageSequence.currentImageIndex
+  parent: Lucid.Extensions.ImageSequences.IImageSequence
+  name: currentImageIndex
+  nameWithType: IImageSequence.currentImageIndex
+  fullName: Lucid.Extensions.ImageSequences.IImageSequence.currentImageIndex
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.reverseImageOrder*
+  commentId: Overload:Lucid.Extensions.ImageSequences.SpriteSequence.reverseImageOrder
+  name: reverseImageOrder
+  nameWithType: SpriteSequence.reverseImageOrder
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.reverseImageOrder
+- uid: Lucid.Extensions.ImageSequences.IImageSequence.reverseImageOrder
+  commentId: P:Lucid.Extensions.ImageSequences.IImageSequence.reverseImageOrder
+  parent: Lucid.Extensions.ImageSequences.IImageSequence
+  name: reverseImageOrder
+  nameWithType: IImageSequence.reverseImageOrder
+  fullName: Lucid.Extensions.ImageSequences.IImageSequence.reverseImageOrder
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.Sprite
+  isExternal: true
+  name: Sprite
+  nameWithType: Sprite
+  fullName: Sprite
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.CurrentSpriteChanged_Del
+  commentId: T:Lucid.Extensions.ImageSequences.SpriteSequence.CurrentSpriteChanged_Del
+  parent: Lucid.Extensions.ImageSequences
+  name: SpriteSequence.CurrentSpriteChanged_Del
+  nameWithType: SpriteSequence.CurrentSpriteChanged_Del
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.CurrentSpriteChanged_Del
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.SpriteAssetBundleLoaded_Del
+  commentId: T:Lucid.Extensions.ImageSequences.SpriteSequence.SpriteAssetBundleLoaded_Del
+  parent: Lucid.Extensions.ImageSequences
+  name: SpriteSequence.SpriteAssetBundleLoaded_Del
+  nameWithType: SpriteSequence.SpriteAssetBundleLoaded_Del
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.SpriteAssetBundleLoaded_Del
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.SpriteAssetBundleUnloaded_Del
+  commentId: T:Lucid.Extensions.ImageSequences.SpriteSequence.SpriteAssetBundleUnloaded_Del
+  parent: Lucid.Extensions.ImageSequences
+  name: SpriteSequence.SpriteAssetBundleUnloaded_Del
+  nameWithType: SpriteSequence.SpriteAssetBundleUnloaded_Del
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.SpriteAssetBundleUnloaded_Del
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.SetBundleIndex*
+  commentId: Overload:Lucid.Extensions.ImageSequences.SpriteSequence.SetBundleIndex
+  name: SetBundleIndex
+  nameWithType: SpriteSequence.SetBundleIndex
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.SetBundleIndex
+- uid: Lucid.Extensions.ImageSequences.IImageSequence.SetBundleIndex(System.Int32)
+  commentId: M:Lucid.Extensions.ImageSequences.IImageSequence.SetBundleIndex(System.Int32)
+  parent: Lucid.Extensions.ImageSequences.IImageSequence
+  isExternal: true
+  name: SetBundleIndex(Int32)
+  nameWithType: IImageSequence.SetBundleIndex(Int32)
+  fullName: Lucid.Extensions.ImageSequences.IImageSequence.SetBundleIndex(System.Int32)
+  spec.csharp:
+  - uid: Lucid.Extensions.ImageSequences.IImageSequence.SetBundleIndex(System.Int32)
+    name: SetBundleIndex
+    nameWithType: IImageSequence.SetBundleIndex
+    fullName: Lucid.Extensions.ImageSequences.IImageSequence.SetBundleIndex
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.Extensions.ImageSequences.IImageSequence.SetBundleIndex(System.Int32)
+    name: SetBundleIndex
+    nameWithType: IImageSequence.SetBundleIndex
+    fullName: Lucid.Extensions.ImageSequences.IImageSequence.SetBundleIndex
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.SetCurrentBundle*
+  commentId: Overload:Lucid.Extensions.ImageSequences.SpriteSequence.SetCurrentBundle
+  name: SetCurrentBundle
+  nameWithType: SpriteSequence.SetCurrentBundle
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.SetCurrentBundle
+- uid: Lucid.Extensions.ImageSequences.SpriteAssetBundle
+  commentId: T:Lucid.Extensions.ImageSequences.SpriteAssetBundle
+  parent: Lucid.Extensions.ImageSequences
+  name: SpriteAssetBundle
+  nameWithType: SpriteAssetBundle
+  fullName: Lucid.Extensions.ImageSequences.SpriteAssetBundle
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.GetBundleBySpriteIndex*
+  commentId: Overload:Lucid.Extensions.ImageSequences.SpriteSequence.GetBundleBySpriteIndex
+  name: GetBundleBySpriteIndex
+  nameWithType: SpriteSequence.GetBundleBySpriteIndex
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.GetBundleBySpriteIndex
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.SetImageIndex*
+  commentId: Overload:Lucid.Extensions.ImageSequences.SpriteSequence.SetImageIndex
+  name: SetImageIndex
+  nameWithType: SpriteSequence.SetImageIndex
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.SetImageIndex
+- uid: Lucid.Extensions.ImageSequences.IImageSequence.SetImageIndex(System.Int32)
+  commentId: M:Lucid.Extensions.ImageSequences.IImageSequence.SetImageIndex(System.Int32)
+  parent: Lucid.Extensions.ImageSequences.IImageSequence
+  isExternal: true
+  name: SetImageIndex(Int32)
+  nameWithType: IImageSequence.SetImageIndex(Int32)
+  fullName: Lucid.Extensions.ImageSequences.IImageSequence.SetImageIndex(System.Int32)
+  spec.csharp:
+  - uid: Lucid.Extensions.ImageSequences.IImageSequence.SetImageIndex(System.Int32)
+    name: SetImageIndex
+    nameWithType: IImageSequence.SetImageIndex
+    fullName: Lucid.Extensions.ImageSequences.IImageSequence.SetImageIndex
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.Extensions.ImageSequences.IImageSequence.SetImageIndex(System.Int32)
+    name: SetImageIndex
+    nameWithType: IImageSequence.SetImageIndex
+    fullName: Lucid.Extensions.ImageSequences.IImageSequence.SetImageIndex
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.Next*
+  commentId: Overload:Lucid.Extensions.ImageSequences.SpriteSequence.Next
+  name: Next
+  nameWithType: SpriteSequence.Next
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.Next
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.Previous*
+  commentId: Overload:Lucid.Extensions.ImageSequences.SpriteSequence.Previous
+  name: Previous
+  nameWithType: SpriteSequence.Previous
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.Previous

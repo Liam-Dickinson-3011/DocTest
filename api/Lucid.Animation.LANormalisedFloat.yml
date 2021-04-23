@@ -1,0 +1,208 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Animation.LANormalisedFloat
+  commentId: T:Lucid.Animation.LANormalisedFloat
+  id: LANormalisedFloat
+  parent: Lucid.Animation
+  children:
+  - Lucid.Animation.LANormalisedFloat.#ctor
+  - Lucid.Animation.LANormalisedFloat.#ctor(Lucid.Animation.LANormalisedFloat)
+  - Lucid.Animation.LANormalisedFloat.value
+  langs:
+  - csharp
+  - vb
+  name: LANormalisedFloat
+  nameWithType: LANormalisedFloat
+  fullName: Lucid.Animation.LANormalisedFloat
+  type: Class
+  source:
+    id: LANormalisedFloat
+    path: ''
+    startLine: 24161
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class LANormalisedFloat : LucidAnim
+    content.vb: >-
+      <Serializable>
+
+      Public Class LANormalisedFloat
+          Inherits LucidAnim
+  inheritance:
+  - System.Object
+  - Lucid.Animation.LucidAnim
+  inheritedMembers:
+  - Lucid.Animation.LucidAnim.startDelay
+  - Lucid.Animation.LucidAnim.duration
+  - Lucid.Animation.LucidAnim.speedBased
+  - Lucid.Animation.LucidAnim.ease
+  - Lucid.Animation.LucidAnim.inCollection
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Animation.LANormalisedFloat.value
+  commentId: F:Lucid.Animation.LANormalisedFloat.value
+  id: value
+  parent: Lucid.Animation.LANormalisedFloat
+  langs:
+  - csharp
+  - vb
+  name: value
+  nameWithType: LANormalisedFloat.value
+  fullName: Lucid.Animation.LANormalisedFloat.value
+  type: Field
+  source:
+    id: value
+    path: ''
+    startLine: 24169
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public float value
+    return:
+      type: System.Single
+    content.vb: Public value As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LANormalisedFloat.#ctor
+  commentId: M:Lucid.Animation.LANormalisedFloat.#ctor
+  id: '#ctor'
+  parent: Lucid.Animation.LANormalisedFloat
+  langs:
+  - csharp
+  - vb
+  name: LANormalisedFloat()
+  nameWithType: LANormalisedFloat.LANormalisedFloat()
+  fullName: Lucid.Animation.LANormalisedFloat.LANormalisedFloat()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 24171
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LANormalisedFloat()
+    content.vb: Public Sub New
+  overload: Lucid.Animation.LANormalisedFloat.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LANormalisedFloat.#ctor(Lucid.Animation.LANormalisedFloat)
+  commentId: M:Lucid.Animation.LANormalisedFloat.#ctor(Lucid.Animation.LANormalisedFloat)
+  id: '#ctor(Lucid.Animation.LANormalisedFloat)'
+  parent: Lucid.Animation.LANormalisedFloat
+  langs:
+  - csharp
+  - vb
+  name: LANormalisedFloat(LANormalisedFloat)
+  nameWithType: LANormalisedFloat.LANormalisedFloat(LANormalisedFloat)
+  fullName: Lucid.Animation.LANormalisedFloat.LANormalisedFloat(Lucid.Animation.LANormalisedFloat)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 24176
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LANormalisedFloat(LANormalisedFloat copy)
+    parameters:
+    - id: copy
+      type: Lucid.Animation.LANormalisedFloat
+    content.vb: Public Sub New(copy As LANormalisedFloat)
+  overload: Lucid.Animation.LANormalisedFloat.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Animation
+  commentId: N:Lucid.Animation
+  name: Lucid.Animation
+  nameWithType: Lucid.Animation
+  fullName: Lucid.Animation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Lucid.Animation.LucidAnim
+  commentId: T:Lucid.Animation.LucidAnim
+  parent: Lucid.Animation
+  name: LucidAnim
+  nameWithType: LucidAnim
+  fullName: Lucid.Animation.LucidAnim
+- uid: Lucid.Animation.LucidAnim.startDelay
+  commentId: F:Lucid.Animation.LucidAnim.startDelay
+  parent: Lucid.Animation.LucidAnim
+  name: startDelay
+  nameWithType: LucidAnim.startDelay
+  fullName: Lucid.Animation.LucidAnim.startDelay
+- uid: Lucid.Animation.LucidAnim.duration
+  commentId: F:Lucid.Animation.LucidAnim.duration
+  parent: Lucid.Animation.LucidAnim
+  name: duration
+  nameWithType: LucidAnim.duration
+  fullName: Lucid.Animation.LucidAnim.duration
+- uid: Lucid.Animation.LucidAnim.speedBased
+  commentId: F:Lucid.Animation.LucidAnim.speedBased
+  parent: Lucid.Animation.LucidAnim
+  name: speedBased
+  nameWithType: LucidAnim.speedBased
+  fullName: Lucid.Animation.LucidAnim.speedBased
+- uid: Lucid.Animation.LucidAnim.ease
+  commentId: F:Lucid.Animation.LucidAnim.ease
+  parent: Lucid.Animation.LucidAnim
+  name: ease
+  nameWithType: LucidAnim.ease
+  fullName: Lucid.Animation.LucidAnim.ease
+- uid: Lucid.Animation.LucidAnim.inCollection
+  commentId: F:Lucid.Animation.LucidAnim.inCollection
+  parent: Lucid.Animation.LucidAnim
+  name: inCollection
+  nameWithType: LucidAnim.inCollection
+  fullName: Lucid.Animation.LucidAnim.inCollection
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Lucid.Animation.LANormalisedFloat.#ctor*
+  commentId: Overload:Lucid.Animation.LANormalisedFloat.#ctor
+  name: LANormalisedFloat
+  nameWithType: LANormalisedFloat.LANormalisedFloat
+  fullName: Lucid.Animation.LANormalisedFloat.LANormalisedFloat
+- uid: Lucid.Animation.LANormalisedFloat
+  commentId: T:Lucid.Animation.LANormalisedFloat
+  parent: Lucid.Animation
+  name: LANormalisedFloat
+  nameWithType: LANormalisedFloat
+  fullName: Lucid.Animation.LANormalisedFloat

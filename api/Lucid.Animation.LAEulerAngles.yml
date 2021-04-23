@@ -1,0 +1,240 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Animation.LAEulerAngles
+  commentId: T:Lucid.Animation.LAEulerAngles
+  id: LAEulerAngles
+  parent: Lucid.Animation
+  children:
+  - Lucid.Animation.LAEulerAngles.#ctor
+  - Lucid.Animation.LAEulerAngles.#ctor(Lucid.Animation.LAEulerAngles)
+  - Lucid.Animation.LAEulerAngles.mode
+  - Lucid.Animation.LAEulerAngles.vector
+  langs:
+  - csharp
+  - vb
+  name: LAEulerAngles
+  nameWithType: LAEulerAngles
+  fullName: Lucid.Animation.LAEulerAngles
+  type: Class
+  source:
+    id: LAEulerAngles
+    path: ''
+    startLine: 24298
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class LAEulerAngles : LucidAnim
+    content.vb: >-
+      <Serializable>
+
+      Public Class LAEulerAngles
+          Inherits LucidAnim
+  inheritance:
+  - System.Object
+  - Lucid.Animation.LucidAnim
+  inheritedMembers:
+  - Lucid.Animation.LucidAnim.startDelay
+  - Lucid.Animation.LucidAnim.duration
+  - Lucid.Animation.LucidAnim.speedBased
+  - Lucid.Animation.LucidAnim.ease
+  - Lucid.Animation.LucidAnim.inCollection
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Animation.LAEulerAngles.vector
+  commentId: F:Lucid.Animation.LAEulerAngles.vector
+  id: vector
+  parent: Lucid.Animation.LAEulerAngles
+  langs:
+  - csharp
+  - vb
+  name: vector
+  nameWithType: LAEulerAngles.vector
+  fullName: Lucid.Animation.LAEulerAngles.vector
+  type: Field
+  source:
+    id: vector
+    path: ''
+    startLine: 24304
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public Vector3 vector
+    return:
+      type: Global.Vector3
+    content.vb: Public vector As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAEulerAngles.mode
+  commentId: F:Lucid.Animation.LAEulerAngles.mode
+  id: mode
+  parent: Lucid.Animation.LAEulerAngles
+  langs:
+  - csharp
+  - vb
+  name: mode
+  nameWithType: LAEulerAngles.mode
+  fullName: Lucid.Animation.LAEulerAngles.mode
+  type: Field
+  source:
+    id: mode
+    path: ''
+    startLine: 24309
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public RotateMode mode
+    return:
+      type: Global.RotateMode
+    content.vb: Public mode As RotateMode
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAEulerAngles.#ctor
+  commentId: M:Lucid.Animation.LAEulerAngles.#ctor
+  id: '#ctor'
+  parent: Lucid.Animation.LAEulerAngles
+  langs:
+  - csharp
+  - vb
+  name: LAEulerAngles()
+  nameWithType: LAEulerAngles.LAEulerAngles()
+  fullName: Lucid.Animation.LAEulerAngles.LAEulerAngles()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 24311
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAEulerAngles()
+    content.vb: Public Sub New
+  overload: Lucid.Animation.LAEulerAngles.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAEulerAngles.#ctor(Lucid.Animation.LAEulerAngles)
+  commentId: M:Lucid.Animation.LAEulerAngles.#ctor(Lucid.Animation.LAEulerAngles)
+  id: '#ctor(Lucid.Animation.LAEulerAngles)'
+  parent: Lucid.Animation.LAEulerAngles
+  langs:
+  - csharp
+  - vb
+  name: LAEulerAngles(LAEulerAngles)
+  nameWithType: LAEulerAngles.LAEulerAngles(LAEulerAngles)
+  fullName: Lucid.Animation.LAEulerAngles.LAEulerAngles(Lucid.Animation.LAEulerAngles)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 24317
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAEulerAngles(LAEulerAngles copy)
+    parameters:
+    - id: copy
+      type: Lucid.Animation.LAEulerAngles
+    content.vb: Public Sub New(copy As LAEulerAngles)
+  overload: Lucid.Animation.LAEulerAngles.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Animation
+  commentId: N:Lucid.Animation
+  name: Lucid.Animation
+  nameWithType: Lucid.Animation
+  fullName: Lucid.Animation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Lucid.Animation.LucidAnim
+  commentId: T:Lucid.Animation.LucidAnim
+  parent: Lucid.Animation
+  name: LucidAnim
+  nameWithType: LucidAnim
+  fullName: Lucid.Animation.LucidAnim
+- uid: Lucid.Animation.LucidAnim.startDelay
+  commentId: F:Lucid.Animation.LucidAnim.startDelay
+  parent: Lucid.Animation.LucidAnim
+  name: startDelay
+  nameWithType: LucidAnim.startDelay
+  fullName: Lucid.Animation.LucidAnim.startDelay
+- uid: Lucid.Animation.LucidAnim.duration
+  commentId: F:Lucid.Animation.LucidAnim.duration
+  parent: Lucid.Animation.LucidAnim
+  name: duration
+  nameWithType: LucidAnim.duration
+  fullName: Lucid.Animation.LucidAnim.duration
+- uid: Lucid.Animation.LucidAnim.speedBased
+  commentId: F:Lucid.Animation.LucidAnim.speedBased
+  parent: Lucid.Animation.LucidAnim
+  name: speedBased
+  nameWithType: LucidAnim.speedBased
+  fullName: Lucid.Animation.LucidAnim.speedBased
+- uid: Lucid.Animation.LucidAnim.ease
+  commentId: F:Lucid.Animation.LucidAnim.ease
+  parent: Lucid.Animation.LucidAnim
+  name: ease
+  nameWithType: LucidAnim.ease
+  fullName: Lucid.Animation.LucidAnim.ease
+- uid: Lucid.Animation.LucidAnim.inCollection
+  commentId: F:Lucid.Animation.LucidAnim.inCollection
+  parent: Lucid.Animation.LucidAnim
+  name: inCollection
+  nameWithType: LucidAnim.inCollection
+  fullName: Lucid.Animation.LucidAnim.inCollection
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: Global.RotateMode
+  commentId: '!:Global.RotateMode'
+  isExternal: true
+  name: RotateMode
+  nameWithType: RotateMode
+  fullName: RotateMode
+- uid: Lucid.Animation.LAEulerAngles.#ctor*
+  commentId: Overload:Lucid.Animation.LAEulerAngles.#ctor
+  name: LAEulerAngles
+  nameWithType: LAEulerAngles.LAEulerAngles
+  fullName: Lucid.Animation.LAEulerAngles.LAEulerAngles
+- uid: Lucid.Animation.LAEulerAngles
+  commentId: T:Lucid.Animation.LAEulerAngles
+  parent: Lucid.Animation
+  name: LAEulerAngles
+  nameWithType: LAEulerAngles
+  fullName: Lucid.Animation.LAEulerAngles

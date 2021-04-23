@@ -1,0 +1,121 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Toolkit3D.FakeScrollingArray
+  commentId: T:Lucid.Toolkit3D.FakeScrollingArray
+  id: FakeScrollingArray
+  parent: Lucid.Toolkit3D
+  children:
+  - Lucid.Toolkit3D.FakeScrollingArray.duration
+  - Lucid.Toolkit3D.FakeScrollingArray.ease
+  langs:
+  - csharp
+  - vb
+  name: FakeScrollingArray
+  nameWithType: FakeScrollingArray
+  fullName: Lucid.Toolkit3D.FakeScrollingArray
+  type: Class
+  source:
+    id: FakeScrollingArray
+    path: ''
+    startLine: 19157
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: 'public class FakeScrollingArray : MonoBehaviour'
+    content.vb: >-
+      Public Class FakeScrollingArray
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Toolkit3D.FakeScrollingArray.duration
+  commentId: F:Lucid.Toolkit3D.FakeScrollingArray.duration
+  id: duration
+  parent: Lucid.Toolkit3D.FakeScrollingArray
+  langs:
+  - csharp
+  - vb
+  name: duration
+  nameWithType: FakeScrollingArray.duration
+  fullName: Lucid.Toolkit3D.FakeScrollingArray.duration
+  type: Field
+  source:
+    id: duration
+    path: ''
+    startLine: 19160
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public float duration
+    return:
+      type: System.Single
+    content.vb: Public duration As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.FakeScrollingArray.ease
+  commentId: F:Lucid.Toolkit3D.FakeScrollingArray.ease
+  id: ease
+  parent: Lucid.Toolkit3D.FakeScrollingArray
+  langs:
+  - csharp
+  - vb
+  name: ease
+  nameWithType: FakeScrollingArray.ease
+  fullName: Lucid.Toolkit3D.FakeScrollingArray.ease
+  type: Field
+  source:
+    id: ease
+    path: ''
+    startLine: 19161
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public Ease ease
+    return:
+      type: Global.Ease
+    content.vb: Public ease As Ease
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Toolkit3D
+  commentId: N:Lucid.Toolkit3D
+  name: Lucid.Toolkit3D
+  nameWithType: Lucid.Toolkit3D
+  fullName: Lucid.Toolkit3D
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.Ease
+  isExternal: true
+  name: Ease
+  nameWithType: Ease
+  fullName: Ease

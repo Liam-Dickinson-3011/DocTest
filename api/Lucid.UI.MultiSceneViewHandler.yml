@@ -1,0 +1,243 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.UI.MultiSceneViewHandler
+  commentId: T:Lucid.UI.MultiSceneViewHandler
+  id: MultiSceneViewHandler
+  parent: Lucid.UI
+  children:
+  - Lucid.UI.MultiSceneViewHandler.hideAnimationDuration
+  - Lucid.UI.MultiSceneViewHandler.HideView(Action)
+  - Lucid.UI.MultiSceneViewHandler.showAnimationDuration
+  - Lucid.UI.MultiSceneViewHandler.ShowView(Action)
+  - Lucid.UI.MultiSceneViewHandler.uiView
+  langs:
+  - csharp
+  - vb
+  name: MultiSceneViewHandler
+  nameWithType: MultiSceneViewHandler
+  fullName: Lucid.UI.MultiSceneViewHandler
+  type: Class
+  source:
+    id: MultiSceneViewHandler
+    path: ''
+    startLine: 7664
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: 'public class MultiSceneViewHandler : MonoBehaviour'
+    content.vb: >-
+      Public Class MultiSceneViewHandler
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.UI.MultiSceneViewHandler.uiView
+  commentId: P:Lucid.UI.MultiSceneViewHandler.uiView
+  id: uiView
+  parent: Lucid.UI.MultiSceneViewHandler
+  langs:
+  - csharp
+  - vb
+  name: uiView
+  nameWithType: MultiSceneViewHandler.uiView
+  fullName: Lucid.UI.MultiSceneViewHandler.uiView
+  type: Property
+  source:
+    id: uiView
+    path: ''
+    startLine: 7668
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public UIView uiView { get; }
+    parameters: []
+    return:
+      type: Lucid.UI.UIView
+    content.vb: Public ReadOnly Property uiView As UIView
+  overload: Lucid.UI.MultiSceneViewHandler.uiView*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Lucid.UI.MultiSceneViewHandler.showAnimationDuration
+  commentId: F:Lucid.UI.MultiSceneViewHandler.showAnimationDuration
+  id: showAnimationDuration
+  parent: Lucid.UI.MultiSceneViewHandler
+  langs:
+  - csharp
+  - vb
+  name: showAnimationDuration
+  nameWithType: MultiSceneViewHandler.showAnimationDuration
+  fullName: Lucid.UI.MultiSceneViewHandler.showAnimationDuration
+  type: Field
+  source:
+    id: showAnimationDuration
+    path: ''
+    startLine: 7679
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public float showAnimationDuration
+    return:
+      type: System.Single
+    content.vb: Public showAnimationDuration As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.MultiSceneViewHandler.hideAnimationDuration
+  commentId: F:Lucid.UI.MultiSceneViewHandler.hideAnimationDuration
+  id: hideAnimationDuration
+  parent: Lucid.UI.MultiSceneViewHandler
+  langs:
+  - csharp
+  - vb
+  name: hideAnimationDuration
+  nameWithType: MultiSceneViewHandler.hideAnimationDuration
+  fullName: Lucid.UI.MultiSceneViewHandler.hideAnimationDuration
+  type: Field
+  source:
+    id: hideAnimationDuration
+    path: ''
+    startLine: 7680
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public float hideAnimationDuration
+    return:
+      type: System.Single
+    content.vb: Public hideAnimationDuration As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.MultiSceneViewHandler.ShowView(Action)
+  commentId: M:Lucid.UI.MultiSceneViewHandler.ShowView(Action)
+  id: ShowView(Action)
+  parent: Lucid.UI.MultiSceneViewHandler
+  langs:
+  - csharp
+  - vb
+  name: ShowView(Action)
+  nameWithType: MultiSceneViewHandler.ShowView(Action)
+  fullName: Lucid.UI.MultiSceneViewHandler.ShowView(Action)
+  type: Method
+  source:
+    id: ShowView
+    path: ''
+    startLine: 7692
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public IEnumerator ShowView(Action onComplete = null)
+    parameters:
+    - id: onComplete
+      type: Global.Action
+    return:
+      type: Global.IEnumerator
+    content.vb: Public Function ShowView(onComplete As Action = Nothing) As IEnumerator
+  overload: Lucid.UI.MultiSceneViewHandler.ShowView*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.MultiSceneViewHandler.HideView(Action)
+  commentId: M:Lucid.UI.MultiSceneViewHandler.HideView(Action)
+  id: HideView(Action)
+  parent: Lucid.UI.MultiSceneViewHandler
+  langs:
+  - csharp
+  - vb
+  name: HideView(Action)
+  nameWithType: MultiSceneViewHandler.HideView(Action)
+  fullName: Lucid.UI.MultiSceneViewHandler.HideView(Action)
+  type: Method
+  source:
+    id: HideView
+    path: ''
+    startLine: 7700
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public IEnumerator HideView(Action onComplete = null)
+    parameters:
+    - id: onComplete
+      type: Global.Action
+    return:
+      type: Global.IEnumerator
+    content.vb: Public Function HideView(onComplete As Action = Nothing) As IEnumerator
+  overload: Lucid.UI.MultiSceneViewHandler.HideView*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.UI
+  commentId: N:Lucid.UI
+  name: Lucid.UI
+  nameWithType: Lucid.UI
+  fullName: Lucid.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.UI.MultiSceneViewHandler.uiView*
+  commentId: Overload:Lucid.UI.MultiSceneViewHandler.uiView
+  name: uiView
+  nameWithType: MultiSceneViewHandler.uiView
+  fullName: Lucid.UI.MultiSceneViewHandler.uiView
+- uid: Lucid.UI.UIView
+  commentId: T:Lucid.UI.UIView
+  parent: Lucid.UI
+  name: UIView
+  nameWithType: UIView
+  fullName: Lucid.UI.UIView
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Lucid.UI.MultiSceneViewHandler.ShowView*
+  commentId: Overload:Lucid.UI.MultiSceneViewHandler.ShowView
+  name: ShowView
+  nameWithType: MultiSceneViewHandler.ShowView
+  fullName: Lucid.UI.MultiSceneViewHandler.ShowView
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: Global.IEnumerator
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: IEnumerator
+- uid: Lucid.UI.MultiSceneViewHandler.HideView*
+  commentId: Overload:Lucid.UI.MultiSceneViewHandler.HideView
+  name: HideView
+  nameWithType: MultiSceneViewHandler.HideView
+  fullName: Lucid.UI.MultiSceneViewHandler.HideView

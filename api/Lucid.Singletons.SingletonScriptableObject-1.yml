@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Singletons.SingletonScriptableObject`1
+  commentId: T:Lucid.Singletons.SingletonScriptableObject`1
+  id: SingletonScriptableObject`1
+  parent: Lucid.Singletons
+  children:
+  - Lucid.Singletons.SingletonScriptableObject`1._instance
+  - Lucid.Singletons.SingletonScriptableObject`1.instance
+  langs:
+  - csharp
+  - vb
+  name: SingletonScriptableObject<T>
+  nameWithType: SingletonScriptableObject<T>
+  fullName: Lucid.Singletons.SingletonScriptableObject<T>
+  type: Class
+  source:
+    id: SingletonScriptableObject
+    path: ''
+    startLine: 13610
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Singletons
+  syntax:
+    content: 'public abstract class SingletonScriptableObject<T> : ScriptableObject where T : ScriptableObject'
+    typeParameters:
+    - id: T
+    content.vb: >-
+      Public MustInherit Class SingletonScriptableObject(Of T As ScriptableObject)
+          Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  nameWithType.vb: SingletonScriptableObject(Of T)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+  fullName.vb: Lucid.Singletons.SingletonScriptableObject(Of T)
+  name.vb: SingletonScriptableObject(Of T)
+- uid: Lucid.Singletons.SingletonScriptableObject`1._instance
+  commentId: F:Lucid.Singletons.SingletonScriptableObject`1._instance
+  id: _instance
+  parent: Lucid.Singletons.SingletonScriptableObject`1
+  langs:
+  - csharp
+  - vb
+  name: _instance
+  nameWithType: SingletonScriptableObject<T>._instance
+  fullName: Lucid.Singletons.SingletonScriptableObject<T>._instance
+  type: Field
+  source:
+    id: _instance
+    path: ''
+    startLine: 13613
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Singletons
+  syntax:
+    content: protected static T _instance
+    return:
+      type: '{T}'
+    content.vb: Protected Shared _instance As T
+  nameWithType.vb: SingletonScriptableObject(Of T)._instance
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+  fullName.vb: Lucid.Singletons.SingletonScriptableObject(Of T)._instance
+- uid: Lucid.Singletons.SingletonScriptableObject`1.instance
+  commentId: P:Lucid.Singletons.SingletonScriptableObject`1.instance
+  id: instance
+  parent: Lucid.Singletons.SingletonScriptableObject`1
+  langs:
+  - csharp
+  - vb
+  name: instance
+  nameWithType: SingletonScriptableObject<T>.instance
+  fullName: Lucid.Singletons.SingletonScriptableObject<T>.instance
+  type: Property
+  source:
+    id: instance
+    path: ''
+    startLine: 13614
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Singletons
+  syntax:
+    content: public static T instance { get; set; }
+    parameters: []
+    return:
+      type: '{T}'
+    content.vb: Public Shared Property instance As T
+  overload: Lucid.Singletons.SingletonScriptableObject`1.instance*
+  nameWithType.vb: SingletonScriptableObject(Of T).instance
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Lucid.Singletons.SingletonScriptableObject(Of T).instance
+references:
+- uid: Lucid.Singletons
+  commentId: N:Lucid.Singletons
+  name: Lucid.Singletons
+  nameWithType: Lucid.Singletons
+  fullName: Lucid.Singletons
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Lucid.Singletons.SingletonScriptableObject`1.instance*
+  commentId: Overload:Lucid.Singletons.SingletonScriptableObject`1.instance
+  name: instance
+  nameWithType: SingletonScriptableObject<T>.instance
+  fullName: Lucid.Singletons.SingletonScriptableObject<T>.instance
+  nameWithType.vb: SingletonScriptableObject(Of T).instance
+  fullName.vb: Lucid.Singletons.SingletonScriptableObject(Of T).instance

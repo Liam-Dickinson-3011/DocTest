@@ -1,0 +1,453 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Extensions.AIPeople.RoamerAI
+  commentId: T:Lucid.Extensions.AIPeople.RoamerAI
+  id: RoamerAI
+  parent: Lucid.Extensions.AIPeople
+  children:
+  - Lucid.Extensions.AIPeople.RoamerAI.anim
+  - Lucid.Extensions.AIPeople.RoamerAI.data
+  - Lucid.Extensions.AIPeople.RoamerAI.idleTriggerID
+  - Lucid.Extensions.AIPeople.RoamerAI.JumpToStart
+  - Lucid.Extensions.AIPeople.RoamerAI.loopStyle
+  - Lucid.Extensions.AIPeople.RoamerAI.maxStartWait
+  - Lucid.Extensions.AIPeople.RoamerAI.moveTriggerID
+  - Lucid.Extensions.AIPeople.RoamerAI.navAgent
+  - Lucid.Extensions.AIPeople.RoamerAI.pathToRandomPoints
+  - Lucid.Extensions.AIPeople.RoamerAI.showGizmos
+  langs:
+  - csharp
+  - vb
+  name: RoamerAI
+  nameWithType: RoamerAI
+  fullName: Lucid.Extensions.AIPeople.RoamerAI
+  type: Class
+  source:
+    id: RoamerAI
+    path: ''
+    startLine: 5153
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: 'public class RoamerAI : MonoBehaviour'
+    content.vb: >-
+      Public Class RoamerAI
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Extensions.AIPeople.RoamerAI.anim
+  commentId: F:Lucid.Extensions.AIPeople.RoamerAI.anim
+  id: anim
+  parent: Lucid.Extensions.AIPeople.RoamerAI
+  langs:
+  - csharp
+  - vb
+  name: anim
+  nameWithType: RoamerAI.anim
+  fullName: Lucid.Extensions.AIPeople.RoamerAI.anim
+  type: Field
+  source:
+    id: anim
+    path: ''
+    startLine: 5168
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: public Animator anim
+    return:
+      type: Global.Animator
+    content.vb: Public anim As Animator
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.AIPeople.RoamerAI.idleTriggerID
+  commentId: F:Lucid.Extensions.AIPeople.RoamerAI.idleTriggerID
+  id: idleTriggerID
+  parent: Lucid.Extensions.AIPeople.RoamerAI
+  langs:
+  - csharp
+  - vb
+  name: idleTriggerID
+  nameWithType: RoamerAI.idleTriggerID
+  fullName: Lucid.Extensions.AIPeople.RoamerAI.idleTriggerID
+  type: Field
+  source:
+    id: idleTriggerID
+    path: ''
+    startLine: 5170
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: public string idleTriggerID
+    return:
+      type: System.String
+    content.vb: Public idleTriggerID As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.AIPeople.RoamerAI.moveTriggerID
+  commentId: F:Lucid.Extensions.AIPeople.RoamerAI.moveTriggerID
+  id: moveTriggerID
+  parent: Lucid.Extensions.AIPeople.RoamerAI
+  langs:
+  - csharp
+  - vb
+  name: moveTriggerID
+  nameWithType: RoamerAI.moveTriggerID
+  fullName: Lucid.Extensions.AIPeople.RoamerAI.moveTriggerID
+  type: Field
+  source:
+    id: moveTriggerID
+    path: ''
+    startLine: 5172
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: public string moveTriggerID
+    return:
+      type: System.String
+    content.vb: Public moveTriggerID As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.AIPeople.RoamerAI.pathToRandomPoints
+  commentId: F:Lucid.Extensions.AIPeople.RoamerAI.pathToRandomPoints
+  id: pathToRandomPoints
+  parent: Lucid.Extensions.AIPeople.RoamerAI
+  langs:
+  - csharp
+  - vb
+  name: pathToRandomPoints
+  nameWithType: RoamerAI.pathToRandomPoints
+  fullName: Lucid.Extensions.AIPeople.RoamerAI.pathToRandomPoints
+  type: Field
+  source:
+    id: pathToRandomPoints
+    path: ''
+    startLine: 5175
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: public bool pathToRandomPoints
+    return:
+      type: System.Boolean
+    content.vb: Public pathToRandomPoints As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.AIPeople.RoamerAI.loopStyle
+  commentId: F:Lucid.Extensions.AIPeople.RoamerAI.loopStyle
+  id: loopStyle
+  parent: Lucid.Extensions.AIPeople.RoamerAI
+  langs:
+  - csharp
+  - vb
+  name: loopStyle
+  nameWithType: RoamerAI.loopStyle
+  fullName: Lucid.Extensions.AIPeople.RoamerAI.loopStyle
+  type: Field
+  source:
+    id: loopStyle
+    path: ''
+    startLine: 5177
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: public RoamerAI.LoopStyle loopStyle
+    return:
+      type: Lucid.Extensions.AIPeople.RoamerAI.LoopStyle
+    content.vb: Public loopStyle As RoamerAI.LoopStyle
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.AIPeople.RoamerAI.data
+  commentId: F:Lucid.Extensions.AIPeople.RoamerAI.data
+  id: data
+  parent: Lucid.Extensions.AIPeople.RoamerAI
+  langs:
+  - csharp
+  - vb
+  name: data
+  nameWithType: RoamerAI.data
+  fullName: Lucid.Extensions.AIPeople.RoamerAI.data
+  type: Field
+  source:
+    id: data
+    path: ''
+    startLine: 5179
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: public List<RoamerAI.RoamData> data
+    return:
+      type: Global.List{Lucid.Extensions.AIPeople.RoamerAI.RoamData}
+    content.vb: Public data As List(Of RoamerAI.RoamData)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.AIPeople.RoamerAI.maxStartWait
+  commentId: F:Lucid.Extensions.AIPeople.RoamerAI.maxStartWait
+  id: maxStartWait
+  parent: Lucid.Extensions.AIPeople.RoamerAI
+  langs:
+  - csharp
+  - vb
+  name: maxStartWait
+  nameWithType: RoamerAI.maxStartWait
+  fullName: Lucid.Extensions.AIPeople.RoamerAI.maxStartWait
+  type: Field
+  source:
+    id: maxStartWait
+    path: ''
+    startLine: 5181
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: public float maxStartWait
+    return:
+      type: System.Single
+    content.vb: Public maxStartWait As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.AIPeople.RoamerAI.navAgent
+  commentId: F:Lucid.Extensions.AIPeople.RoamerAI.navAgent
+  id: navAgent
+  parent: Lucid.Extensions.AIPeople.RoamerAI
+  langs:
+  - csharp
+  - vb
+  name: navAgent
+  nameWithType: RoamerAI.navAgent
+  fullName: Lucid.Extensions.AIPeople.RoamerAI.navAgent
+  type: Field
+  source:
+    id: navAgent
+    path: ''
+    startLine: 5184
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: public NavMeshAgent navAgent
+    return:
+      type: Global.NavMeshAgent
+    content.vb: Public navAgent As NavMeshAgent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.AIPeople.RoamerAI.showGizmos
+  commentId: F:Lucid.Extensions.AIPeople.RoamerAI.showGizmos
+  id: showGizmos
+  parent: Lucid.Extensions.AIPeople.RoamerAI
+  langs:
+  - csharp
+  - vb
+  name: showGizmos
+  nameWithType: RoamerAI.showGizmos
+  fullName: Lucid.Extensions.AIPeople.RoamerAI.showGizmos
+  type: Field
+  source:
+    id: showGizmos
+    path: ''
+    startLine: 5187
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: public bool showGizmos
+    return:
+      type: System.Boolean
+    content.vb: Public showGizmos As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.AIPeople.RoamerAI.JumpToStart
+  commentId: M:Lucid.Extensions.AIPeople.RoamerAI.JumpToStart
+  id: JumpToStart
+  parent: Lucid.Extensions.AIPeople.RoamerAI
+  langs:
+  - csharp
+  - vb
+  name: JumpToStart()
+  nameWithType: RoamerAI.JumpToStart()
+  fullName: Lucid.Extensions.AIPeople.RoamerAI.JumpToStart()
+  type: Method
+  source:
+    id: JumpToStart
+    path: ''
+    startLine: 5195
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: public void JumpToStart()
+    content.vb: Public Sub JumpToStart
+  overload: Lucid.Extensions.AIPeople.RoamerAI.JumpToStart*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Extensions.AIPeople
+  commentId: N:Lucid.Extensions.AIPeople
+  name: Lucid.Extensions.AIPeople
+  nameWithType: Lucid.Extensions.AIPeople
+  fullName: Lucid.Extensions.AIPeople
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Animator
+  isExternal: true
+  name: Animator
+  nameWithType: Animator
+  fullName: Animator
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Lucid.Extensions.AIPeople.RoamerAI.LoopStyle
+  commentId: T:Lucid.Extensions.AIPeople.RoamerAI.LoopStyle
+  parent: Lucid.Extensions.AIPeople
+  name: RoamerAI.LoopStyle
+  nameWithType: RoamerAI.LoopStyle
+  fullName: Lucid.Extensions.AIPeople.RoamerAI.LoopStyle
+- uid: Global.List{Lucid.Extensions.AIPeople.RoamerAI.RoamData}
+  commentId: '!:Global.List{Lucid.Extensions.AIPeople.RoamerAI.RoamData}'
+  definition: Global.List`1
+  name: List<RoamerAI.RoamData>
+  nameWithType: List<RoamerAI.RoamData>
+  fullName: List<Lucid.Extensions.AIPeople.RoamerAI.RoamData>
+  nameWithType.vb: List(Of RoamerAI.RoamData)
+  fullName.vb: List(Of Lucid.Extensions.AIPeople.RoamerAI.RoamData)
+  name.vb: List(Of RoamerAI.RoamData)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Lucid.Extensions.AIPeople.RoamerAI.RoamData
+    name: RoamerAI.RoamData
+    nameWithType: RoamerAI.RoamData
+    fullName: Lucid.Extensions.AIPeople.RoamerAI.RoamData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Lucid.Extensions.AIPeople.RoamerAI.RoamData
+    name: RoamerAI.RoamData
+    nameWithType: RoamerAI.RoamData
+    fullName: Lucid.Extensions.AIPeople.RoamerAI.RoamData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.NavMeshAgent
+  isExternal: true
+  name: NavMeshAgent
+  nameWithType: NavMeshAgent
+  fullName: NavMeshAgent
+- uid: Lucid.Extensions.AIPeople.RoamerAI.JumpToStart*
+  commentId: Overload:Lucid.Extensions.AIPeople.RoamerAI.JumpToStart
+  name: JumpToStart
+  nameWithType: RoamerAI.JumpToStart
+  fullName: Lucid.Extensions.AIPeople.RoamerAI.JumpToStart

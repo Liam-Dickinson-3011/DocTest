@@ -1,0 +1,110 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Core.MenuItemType
+  commentId: T:Lucid.Core.MenuItemType
+  id: MenuItemType
+  parent: Lucid.Core
+  children:
+  - Lucid.Core.MenuItemType.Button
+  - Lucid.Core.MenuItemType.Toggle
+  langs:
+  - csharp
+  - vb
+  name: MenuItemType
+  nameWithType: MenuItemType
+  fullName: Lucid.Core.MenuItemType
+  type: Enum
+  source:
+    id: MenuItemType
+    path: ''
+    startLine: 5729
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: >-
+      [Serializable]
+
+      public enum MenuItemType
+    content.vb: >-
+      <Serializable>
+
+      Public Enum MenuItemType
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Lucid.Core.MenuItemType.Button
+  commentId: F:Lucid.Core.MenuItemType.Button
+  id: Button
+  parent: Lucid.Core.MenuItemType
+  langs:
+  - csharp
+  - vb
+  name: Button
+  nameWithType: MenuItemType.Button
+  fullName: Lucid.Core.MenuItemType.Button
+  type: Field
+  source:
+    id: Button
+    path: ''
+    startLine: 5730
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: Button = 0
+    return:
+      type: Lucid.Core.MenuItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Core.MenuItemType.Toggle
+  commentId: F:Lucid.Core.MenuItemType.Toggle
+  id: Toggle
+  parent: Lucid.Core.MenuItemType
+  langs:
+  - csharp
+  - vb
+  name: Toggle
+  nameWithType: MenuItemType.Toggle
+  fullName: Lucid.Core.MenuItemType.Toggle
+  type: Field
+  source:
+    id: Toggle
+    path: ''
+    startLine: 5730
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: Toggle = 1
+    return:
+      type: Lucid.Core.MenuItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Lucid.Core
+  commentId: N:Lucid.Core
+  name: Lucid.Core
+  nameWithType: Lucid.Core
+  fullName: Lucid.Core
+- uid: Lucid.Core.MenuItemType
+  commentId: T:Lucid.Core.MenuItemType
+  parent: Lucid.Core
+  name: MenuItemType
+  nameWithType: MenuItemType
+  fullName: Lucid.Core.MenuItemType

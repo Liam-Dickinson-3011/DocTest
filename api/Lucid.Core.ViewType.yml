@@ -1,0 +1,168 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Core.ViewType
+  commentId: T:Lucid.Core.ViewType
+  id: ViewType
+  parent: Lucid.Core
+  children:
+  - Lucid.Core.ViewType.Gallery
+  - Lucid.Core.ViewType.LayeredGraphic
+  - Lucid.Core.ViewType.Menu
+  - Lucid.Core.ViewType.StaticPage
+  langs:
+  - csharp
+  - vb
+  name: ViewType
+  nameWithType: ViewType
+  fullName: Lucid.Core.ViewType
+  type: Enum
+  source:
+    id: ViewType
+    path: ''
+    startLine: 5720
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: >-
+      [Serializable]
+
+      public enum ViewType
+    content.vb: >-
+      <Serializable>
+
+      Public Enum ViewType
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Lucid.Core.ViewType.StaticPage
+  commentId: F:Lucid.Core.ViewType.StaticPage
+  id: StaticPage
+  parent: Lucid.Core.ViewType
+  langs:
+  - csharp
+  - vb
+  name: StaticPage
+  nameWithType: ViewType.StaticPage
+  fullName: Lucid.Core.ViewType.StaticPage
+  type: Field
+  source:
+    id: StaticPage
+    path: ''
+    startLine: 5721
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: StaticPage = 0
+    return:
+      type: Lucid.Core.ViewType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Core.ViewType.Menu
+  commentId: F:Lucid.Core.ViewType.Menu
+  id: Menu
+  parent: Lucid.Core.ViewType
+  langs:
+  - csharp
+  - vb
+  name: Menu
+  nameWithType: ViewType.Menu
+  fullName: Lucid.Core.ViewType.Menu
+  type: Field
+  source:
+    id: Menu
+    path: ''
+    startLine: 5721
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: Menu = 1
+    return:
+      type: Lucid.Core.ViewType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Core.ViewType.Gallery
+  commentId: F:Lucid.Core.ViewType.Gallery
+  id: Gallery
+  parent: Lucid.Core.ViewType
+  langs:
+  - csharp
+  - vb
+  name: Gallery
+  nameWithType: ViewType.Gallery
+  fullName: Lucid.Core.ViewType.Gallery
+  type: Field
+  source:
+    id: Gallery
+    path: ''
+    startLine: 5721
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: Gallery = 2
+    return:
+      type: Lucid.Core.ViewType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Core.ViewType.LayeredGraphic
+  commentId: F:Lucid.Core.ViewType.LayeredGraphic
+  id: LayeredGraphic
+  parent: Lucid.Core.ViewType
+  langs:
+  - csharp
+  - vb
+  name: LayeredGraphic
+  nameWithType: ViewType.LayeredGraphic
+  fullName: Lucid.Core.ViewType.LayeredGraphic
+  type: Field
+  source:
+    id: LayeredGraphic
+    path: ''
+    startLine: 5721
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: LayeredGraphic = 3
+    return:
+      type: Lucid.Core.ViewType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Lucid.Core
+  commentId: N:Lucid.Core
+  name: Lucid.Core
+  nameWithType: Lucid.Core
+  fullName: Lucid.Core
+- uid: Lucid.Core.ViewType
+  commentId: T:Lucid.Core.ViewType
+  parent: Lucid.Core
+  name: ViewType
+  nameWithType: ViewType
+  fullName: Lucid.Core.ViewType

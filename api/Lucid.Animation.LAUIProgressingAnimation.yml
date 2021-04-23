@@ -1,0 +1,612 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Animation.LAUIProgressingAnimation
+  commentId: T:Lucid.Animation.LAUIProgressingAnimation
+  id: LAUIProgressingAnimation
+  parent: Lucid.Animation
+  children:
+  - Lucid.Animation.LAUIProgressingAnimation.#ctor
+  - Lucid.Animation.LAUIProgressingAnimation.#ctor(Lucid.Animation.LAUIProgressingAnimation)
+  - Lucid.Animation.LAUIProgressingAnimation.CutToNormalisedPos(System.Single)
+  - Lucid.Animation.LAUIProgressingAnimation.doCanvasGroup
+  - Lucid.Animation.LAUIProgressingAnimation.doImage
+  - Lucid.Animation.LAUIProgressingAnimation.doRT
+  - Lucid.Animation.LAUIProgressingAnimation.doTMPro
+  - Lucid.Animation.LAUIProgressingAnimation.GoToNormalisedPos(System.Single)
+  - Lucid.Animation.LAUIProgressingAnimation.Initialise(System.Single,System.Boolean)
+  - Lucid.Animation.LAUIProgressingAnimation.laCGs
+  - Lucid.Animation.LAUIProgressingAnimation.laImages
+  - Lucid.Animation.LAUIProgressingAnimation.laRTs
+  - Lucid.Animation.LAUIProgressingAnimation.laTMPs
+  - Lucid.Animation.LAUIProgressingAnimation.Seq
+  langs:
+  - csharp
+  - vb
+  name: LAUIProgressingAnimation
+  nameWithType: LAUIProgressingAnimation
+  fullName: Lucid.Animation.LAUIProgressingAnimation
+  type: Class
+  source:
+    id: LAUIProgressingAnimation
+    path: ''
+    startLine: 25065
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class LAUIProgressingAnimation
+    content.vb: >-
+      <Serializable>
+
+      Public Class LAUIProgressingAnimation
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Animation.LAUIProgressingAnimation.#ctor
+  commentId: M:Lucid.Animation.LAUIProgressingAnimation.#ctor
+  id: '#ctor'
+  parent: Lucid.Animation.LAUIProgressingAnimation
+  langs:
+  - csharp
+  - vb
+  name: LAUIProgressingAnimation()
+  nameWithType: LAUIProgressingAnimation.LAUIProgressingAnimation()
+  fullName: Lucid.Animation.LAUIProgressingAnimation.LAUIProgressingAnimation()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 25068
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAUIProgressingAnimation()
+    content.vb: Public Sub New
+  overload: Lucid.Animation.LAUIProgressingAnimation.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUIProgressingAnimation.#ctor(Lucid.Animation.LAUIProgressingAnimation)
+  commentId: M:Lucid.Animation.LAUIProgressingAnimation.#ctor(Lucid.Animation.LAUIProgressingAnimation)
+  id: '#ctor(Lucid.Animation.LAUIProgressingAnimation)'
+  parent: Lucid.Animation.LAUIProgressingAnimation
+  langs:
+  - csharp
+  - vb
+  name: LAUIProgressingAnimation(LAUIProgressingAnimation)
+  nameWithType: LAUIProgressingAnimation.LAUIProgressingAnimation(LAUIProgressingAnimation)
+  fullName: Lucid.Animation.LAUIProgressingAnimation.LAUIProgressingAnimation(Lucid.Animation.LAUIProgressingAnimation)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 25070
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAUIProgressingAnimation(LAUIProgressingAnimation copy)
+    parameters:
+    - id: copy
+      type: Lucid.Animation.LAUIProgressingAnimation
+    content.vb: Public Sub New(copy As LAUIProgressingAnimation)
+  overload: Lucid.Animation.LAUIProgressingAnimation.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUIProgressingAnimation.doCanvasGroup
+  commentId: F:Lucid.Animation.LAUIProgressingAnimation.doCanvasGroup
+  id: doCanvasGroup
+  parent: Lucid.Animation.LAUIProgressingAnimation
+  langs:
+  - csharp
+  - vb
+  name: doCanvasGroup
+  nameWithType: LAUIProgressingAnimation.doCanvasGroup
+  fullName: Lucid.Animation.LAUIProgressingAnimation.doCanvasGroup
+  type: Field
+  source:
+    id: doCanvasGroup
+    path: ''
+    startLine: 25080
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public bool doCanvasGroup
+    return:
+      type: System.Boolean
+    content.vb: Public doCanvasGroup As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUIProgressingAnimation.doRT
+  commentId: F:Lucid.Animation.LAUIProgressingAnimation.doRT
+  id: doRT
+  parent: Lucid.Animation.LAUIProgressingAnimation
+  langs:
+  - csharp
+  - vb
+  name: doRT
+  nameWithType: LAUIProgressingAnimation.doRT
+  fullName: Lucid.Animation.LAUIProgressingAnimation.doRT
+  type: Field
+  source:
+    id: doRT
+    path: ''
+    startLine: 25084
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public bool doRT
+    return:
+      type: System.Boolean
+    content.vb: Public doRT As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUIProgressingAnimation.doImage
+  commentId: F:Lucid.Animation.LAUIProgressingAnimation.doImage
+  id: doImage
+  parent: Lucid.Animation.LAUIProgressingAnimation
+  langs:
+  - csharp
+  - vb
+  name: doImage
+  nameWithType: LAUIProgressingAnimation.doImage
+  fullName: Lucid.Animation.LAUIProgressingAnimation.doImage
+  type: Field
+  source:
+    id: doImage
+    path: ''
+    startLine: 25088
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public bool doImage
+    return:
+      type: System.Boolean
+    content.vb: Public doImage As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUIProgressingAnimation.doTMPro
+  commentId: F:Lucid.Animation.LAUIProgressingAnimation.doTMPro
+  id: doTMPro
+  parent: Lucid.Animation.LAUIProgressingAnimation
+  langs:
+  - csharp
+  - vb
+  name: doTMPro
+  nameWithType: LAUIProgressingAnimation.doTMPro
+  fullName: Lucid.Animation.LAUIProgressingAnimation.doTMPro
+  type: Field
+  source:
+    id: doTMPro
+    path: ''
+    startLine: 25092
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public bool doTMPro
+    return:
+      type: System.Boolean
+    content.vb: Public doTMPro As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUIProgressingAnimation.laCGs
+  commentId: F:Lucid.Animation.LAUIProgressingAnimation.laCGs
+  id: laCGs
+  parent: Lucid.Animation.LAUIProgressingAnimation
+  langs:
+  - csharp
+  - vb
+  name: laCGs
+  nameWithType: LAUIProgressingAnimation.laCGs
+  fullName: Lucid.Animation.LAUIProgressingAnimation.laCGs
+  type: Field
+  source:
+    id: laCGs
+    path: ''
+    startLine: 25096
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LACanvasGroupCollection[] laCGs
+    return:
+      type: Lucid.Animation.LACanvasGroupCollection[]
+    content.vb: Public laCGs As LACanvasGroupCollection()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUIProgressingAnimation.laRTs
+  commentId: F:Lucid.Animation.LAUIProgressingAnimation.laRTs
+  id: laRTs
+  parent: Lucid.Animation.LAUIProgressingAnimation
+  langs:
+  - csharp
+  - vb
+  name: laRTs
+  nameWithType: LAUIProgressingAnimation.laRTs
+  fullName: Lucid.Animation.LAUIProgressingAnimation.laRTs
+  type: Field
+  source:
+    id: laRTs
+    path: ''
+    startLine: 25100
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LARectTransformCollection[] laRTs
+    return:
+      type: Lucid.Animation.LARectTransformCollection[]
+    content.vb: Public laRTs As LARectTransformCollection()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUIProgressingAnimation.laImages
+  commentId: F:Lucid.Animation.LAUIProgressingAnimation.laImages
+  id: laImages
+  parent: Lucid.Animation.LAUIProgressingAnimation
+  langs:
+  - csharp
+  - vb
+  name: laImages
+  nameWithType: LAUIProgressingAnimation.laImages
+  fullName: Lucid.Animation.LAUIProgressingAnimation.laImages
+  type: Field
+  source:
+    id: laImages
+    path: ''
+    startLine: 25104
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAImageCollection[] laImages
+    return:
+      type: Lucid.Animation.LAImageCollection[]
+    content.vb: Public laImages As LAImageCollection()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUIProgressingAnimation.laTMPs
+  commentId: F:Lucid.Animation.LAUIProgressingAnimation.laTMPs
+  id: laTMPs
+  parent: Lucid.Animation.LAUIProgressingAnimation
+  langs:
+  - csharp
+  - vb
+  name: laTMPs
+  nameWithType: LAUIProgressingAnimation.laTMPs
+  fullName: Lucid.Animation.LAUIProgressingAnimation.laTMPs
+  type: Field
+  source:
+    id: laTMPs
+    path: ''
+    startLine: 25108
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LATextMeshProUGUICollection[] laTMPs
+    return:
+      type: Lucid.Animation.LATextMeshProUGUICollection[]
+    content.vb: Public laTMPs As LATextMeshProUGUICollection()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUIProgressingAnimation.Seq
+  commentId: P:Lucid.Animation.LAUIProgressingAnimation.Seq
+  id: Seq
+  parent: Lucid.Animation.LAUIProgressingAnimation
+  langs:
+  - csharp
+  - vb
+  name: Seq
+  nameWithType: LAUIProgressingAnimation.Seq
+  fullName: Lucid.Animation.LAUIProgressingAnimation.Seq
+  type: Property
+  source:
+    id: Seq
+    path: ''
+    startLine: 25111
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public Sequence Seq { get; }
+    parameters: []
+    return:
+      type: Global.Sequence
+    content.vb: Public ReadOnly Property Seq As Sequence
+  overload: Lucid.Animation.LAUIProgressingAnimation.Seq*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Lucid.Animation.LAUIProgressingAnimation.Initialise(System.Single,System.Boolean)
+  commentId: M:Lucid.Animation.LAUIProgressingAnimation.Initialise(System.Single,System.Boolean)
+  id: Initialise(System.Single,System.Boolean)
+  parent: Lucid.Animation.LAUIProgressingAnimation
+  langs:
+  - csharp
+  - vb
+  name: Initialise(Single, Boolean)
+  nameWithType: LAUIProgressingAnimation.Initialise(Single, Boolean)
+  fullName: Lucid.Animation.LAUIProgressingAnimation.Initialise(System.Single, System.Boolean)
+  type: Method
+  source:
+    id: Initialise
+    path: ''
+    startLine: 25116
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public void Initialise(float startingNormPos, bool autoPlay = false)
+    parameters:
+    - id: startingNormPos
+      type: System.Single
+    - id: autoPlay
+      type: System.Boolean
+    content.vb: Public Sub Initialise(startingNormPos As Single, autoPlay As Boolean = False)
+  overload: Lucid.Animation.LAUIProgressingAnimation.Initialise*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUIProgressingAnimation.GoToNormalisedPos(System.Single)
+  commentId: M:Lucid.Animation.LAUIProgressingAnimation.GoToNormalisedPos(System.Single)
+  id: GoToNormalisedPos(System.Single)
+  parent: Lucid.Animation.LAUIProgressingAnimation
+  langs:
+  - csharp
+  - vb
+  name: GoToNormalisedPos(Single)
+  nameWithType: LAUIProgressingAnimation.GoToNormalisedPos(Single)
+  fullName: Lucid.Animation.LAUIProgressingAnimation.GoToNormalisedPos(System.Single)
+  type: Method
+  source:
+    id: GoToNormalisedPos
+    path: ''
+    startLine: 25148
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public void GoToNormalisedPos(float normPos)
+    parameters:
+    - id: normPos
+      type: System.Single
+    content.vb: Public Sub GoToNormalisedPos(normPos As Single)
+  overload: Lucid.Animation.LAUIProgressingAnimation.GoToNormalisedPos*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUIProgressingAnimation.CutToNormalisedPos(System.Single)
+  commentId: M:Lucid.Animation.LAUIProgressingAnimation.CutToNormalisedPos(System.Single)
+  id: CutToNormalisedPos(System.Single)
+  parent: Lucid.Animation.LAUIProgressingAnimation
+  langs:
+  - csharp
+  - vb
+  name: CutToNormalisedPos(Single)
+  nameWithType: LAUIProgressingAnimation.CutToNormalisedPos(Single)
+  fullName: Lucid.Animation.LAUIProgressingAnimation.CutToNormalisedPos(System.Single)
+  type: Method
+  source:
+    id: CutToNormalisedPos
+    path: ''
+    startLine: 25234
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public void CutToNormalisedPos(float val)
+    parameters:
+    - id: val
+      type: System.Single
+    content.vb: Public Sub CutToNormalisedPos(val As Single)
+  overload: Lucid.Animation.LAUIProgressingAnimation.CutToNormalisedPos*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Animation
+  commentId: N:Lucid.Animation
+  name: Lucid.Animation
+  nameWithType: Lucid.Animation
+  fullName: Lucid.Animation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.Animation.LAUIProgressingAnimation.#ctor*
+  commentId: Overload:Lucid.Animation.LAUIProgressingAnimation.#ctor
+  name: LAUIProgressingAnimation
+  nameWithType: LAUIProgressingAnimation.LAUIProgressingAnimation
+  fullName: Lucid.Animation.LAUIProgressingAnimation.LAUIProgressingAnimation
+- uid: Lucid.Animation.LAUIProgressingAnimation
+  commentId: T:Lucid.Animation.LAUIProgressingAnimation
+  parent: Lucid.Animation
+  name: LAUIProgressingAnimation
+  nameWithType: LAUIProgressingAnimation
+  fullName: Lucid.Animation.LAUIProgressingAnimation
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Lucid.Animation.LACanvasGroupCollection[]
+  isExternal: true
+  name: LACanvasGroupCollection[]
+  nameWithType: LACanvasGroupCollection[]
+  fullName: Lucid.Animation.LACanvasGroupCollection[]
+  nameWithType.vb: LACanvasGroupCollection()
+  fullName.vb: Lucid.Animation.LACanvasGroupCollection()
+  name.vb: LACanvasGroupCollection()
+  spec.csharp:
+  - uid: Lucid.Animation.LACanvasGroupCollection
+    name: LACanvasGroupCollection
+    nameWithType: LACanvasGroupCollection
+    fullName: Lucid.Animation.LACanvasGroupCollection
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Lucid.Animation.LACanvasGroupCollection
+    name: LACanvasGroupCollection
+    nameWithType: LACanvasGroupCollection
+    fullName: Lucid.Animation.LACanvasGroupCollection
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Lucid.Animation.LARectTransformCollection[]
+  isExternal: true
+  name: LARectTransformCollection[]
+  nameWithType: LARectTransformCollection[]
+  fullName: Lucid.Animation.LARectTransformCollection[]
+  nameWithType.vb: LARectTransformCollection()
+  fullName.vb: Lucid.Animation.LARectTransformCollection()
+  name.vb: LARectTransformCollection()
+  spec.csharp:
+  - uid: Lucid.Animation.LARectTransformCollection
+    name: LARectTransformCollection
+    nameWithType: LARectTransformCollection
+    fullName: Lucid.Animation.LARectTransformCollection
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Lucid.Animation.LARectTransformCollection
+    name: LARectTransformCollection
+    nameWithType: LARectTransformCollection
+    fullName: Lucid.Animation.LARectTransformCollection
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Lucid.Animation.LAImageCollection[]
+  isExternal: true
+  name: LAImageCollection[]
+  nameWithType: LAImageCollection[]
+  fullName: Lucid.Animation.LAImageCollection[]
+  nameWithType.vb: LAImageCollection()
+  fullName.vb: Lucid.Animation.LAImageCollection()
+  name.vb: LAImageCollection()
+  spec.csharp:
+  - uid: Lucid.Animation.LAImageCollection
+    name: LAImageCollection
+    nameWithType: LAImageCollection
+    fullName: Lucid.Animation.LAImageCollection
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Lucid.Animation.LAImageCollection
+    name: LAImageCollection
+    nameWithType: LAImageCollection
+    fullName: Lucid.Animation.LAImageCollection
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Lucid.Animation.LATextMeshProUGUICollection[]
+  isExternal: true
+  name: LATextMeshProUGUICollection[]
+  nameWithType: LATextMeshProUGUICollection[]
+  fullName: Lucid.Animation.LATextMeshProUGUICollection[]
+  nameWithType.vb: LATextMeshProUGUICollection()
+  fullName.vb: Lucid.Animation.LATextMeshProUGUICollection()
+  name.vb: LATextMeshProUGUICollection()
+  spec.csharp:
+  - uid: Lucid.Animation.LATextMeshProUGUICollection
+    name: LATextMeshProUGUICollection
+    nameWithType: LATextMeshProUGUICollection
+    fullName: Lucid.Animation.LATextMeshProUGUICollection
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Lucid.Animation.LATextMeshProUGUICollection
+    name: LATextMeshProUGUICollection
+    nameWithType: LATextMeshProUGUICollection
+    fullName: Lucid.Animation.LATextMeshProUGUICollection
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Lucid.Animation.LAUIProgressingAnimation.Seq*
+  commentId: Overload:Lucid.Animation.LAUIProgressingAnimation.Seq
+  name: Seq
+  nameWithType: LAUIProgressingAnimation.Seq
+  fullName: Lucid.Animation.LAUIProgressingAnimation.Seq
+- uid: Global.Sequence
+  isExternal: true
+  name: Sequence
+  nameWithType: Sequence
+  fullName: Sequence
+- uid: Lucid.Animation.LAUIProgressingAnimation.Initialise*
+  commentId: Overload:Lucid.Animation.LAUIProgressingAnimation.Initialise
+  name: Initialise
+  nameWithType: LAUIProgressingAnimation.Initialise
+  fullName: Lucid.Animation.LAUIProgressingAnimation.Initialise
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Lucid.Animation.LAUIProgressingAnimation.GoToNormalisedPos*
+  commentId: Overload:Lucid.Animation.LAUIProgressingAnimation.GoToNormalisedPos
+  name: GoToNormalisedPos
+  nameWithType: LAUIProgressingAnimation.GoToNormalisedPos
+  fullName: Lucid.Animation.LAUIProgressingAnimation.GoToNormalisedPos
+- uid: Lucid.Animation.LAUIProgressingAnimation.CutToNormalisedPos*
+  commentId: Overload:Lucid.Animation.LAUIProgressingAnimation.CutToNormalisedPos
+  name: CutToNormalisedPos
+  nameWithType: LAUIProgressingAnimation.CutToNormalisedPos
+  fullName: Lucid.Animation.LAUIProgressingAnimation.CutToNormalisedPos

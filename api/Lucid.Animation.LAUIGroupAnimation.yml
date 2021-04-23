@@ -1,0 +1,748 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Animation.LAUIGroupAnimation
+  commentId: T:Lucid.Animation.LAUIGroupAnimation
+  id: LAUIGroupAnimation
+  parent: Lucid.Animation
+  children:
+  - Lucid.Animation.LAUIGroupAnimation.#ctor
+  - Lucid.Animation.LAUIGroupAnimation.#ctor(Lucid.Animation.LAUIGroupAnimation)
+  - Lucid.Animation.LAUIGroupAnimation.CGSeq
+  - Lucid.Animation.LAUIGroupAnimation.DoAnimation
+  - Lucid.Animation.LAUIGroupAnimation.doCanvasGroup
+  - Lucid.Animation.LAUIGroupAnimation.DoCut
+  - Lucid.Animation.LAUIGroupAnimation.doImage
+  - Lucid.Animation.LAUIGroupAnimation.doRT
+  - Lucid.Animation.LAUIGroupAnimation.doTMPro
+  - Lucid.Animation.LAUIGroupAnimation.GetFullAnimationDuration
+  - Lucid.Animation.LAUIGroupAnimation.GetLongestSequence
+  - Lucid.Animation.LAUIGroupAnimation.ImageSeq
+  - Lucid.Animation.LAUIGroupAnimation.laCanvasGroup
+  - Lucid.Animation.LAUIGroupAnimation.laImage
+  - Lucid.Animation.LAUIGroupAnimation.laRT
+  - Lucid.Animation.LAUIGroupAnimation.laTmp
+  - Lucid.Animation.LAUIGroupAnimation.RTSeq
+  - Lucid.Animation.LAUIGroupAnimation.TMPSeq
+  langs:
+  - csharp
+  - vb
+  name: LAUIGroupAnimation
+  nameWithType: LAUIGroupAnimation
+  fullName: Lucid.Animation.LAUIGroupAnimation
+  type: Class
+  source:
+    id: LAUIGroupAnimation
+    path: ''
+    startLine: 24469
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class LAUIGroupAnimation
+    content.vb: >-
+      <Serializable>
+
+      Public Class LAUIGroupAnimation
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Animation.LAUIGroupAnimation.#ctor
+  commentId: M:Lucid.Animation.LAUIGroupAnimation.#ctor
+  id: '#ctor'
+  parent: Lucid.Animation.LAUIGroupAnimation
+  langs:
+  - csharp
+  - vb
+  name: LAUIGroupAnimation()
+  nameWithType: LAUIGroupAnimation.LAUIGroupAnimation()
+  fullName: Lucid.Animation.LAUIGroupAnimation.LAUIGroupAnimation()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 24472
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAUIGroupAnimation()
+    content.vb: Public Sub New
+  overload: Lucid.Animation.LAUIGroupAnimation.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUIGroupAnimation.#ctor(Lucid.Animation.LAUIGroupAnimation)
+  commentId: M:Lucid.Animation.LAUIGroupAnimation.#ctor(Lucid.Animation.LAUIGroupAnimation)
+  id: '#ctor(Lucid.Animation.LAUIGroupAnimation)'
+  parent: Lucid.Animation.LAUIGroupAnimation
+  langs:
+  - csharp
+  - vb
+  name: LAUIGroupAnimation(LAUIGroupAnimation)
+  nameWithType: LAUIGroupAnimation.LAUIGroupAnimation(LAUIGroupAnimation)
+  fullName: Lucid.Animation.LAUIGroupAnimation.LAUIGroupAnimation(Lucid.Animation.LAUIGroupAnimation)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 24474
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAUIGroupAnimation(LAUIGroupAnimation copy)
+    parameters:
+    - id: copy
+      type: Lucid.Animation.LAUIGroupAnimation
+    content.vb: Public Sub New(copy As LAUIGroupAnimation)
+  overload: Lucid.Animation.LAUIGroupAnimation.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUIGroupAnimation.doCanvasGroup
+  commentId: F:Lucid.Animation.LAUIGroupAnimation.doCanvasGroup
+  id: doCanvasGroup
+  parent: Lucid.Animation.LAUIGroupAnimation
+  langs:
+  - csharp
+  - vb
+  name: doCanvasGroup
+  nameWithType: LAUIGroupAnimation.doCanvasGroup
+  fullName: Lucid.Animation.LAUIGroupAnimation.doCanvasGroup
+  type: Field
+  source:
+    id: doCanvasGroup
+    path: ''
+    startLine: 24508
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public bool doCanvasGroup
+    return:
+      type: System.Boolean
+    content.vb: Public doCanvasGroup As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUIGroupAnimation.doRT
+  commentId: F:Lucid.Animation.LAUIGroupAnimation.doRT
+  id: doRT
+  parent: Lucid.Animation.LAUIGroupAnimation
+  langs:
+  - csharp
+  - vb
+  name: doRT
+  nameWithType: LAUIGroupAnimation.doRT
+  fullName: Lucid.Animation.LAUIGroupAnimation.doRT
+  type: Field
+  source:
+    id: doRT
+    path: ''
+    startLine: 24512
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public bool doRT
+    return:
+      type: System.Boolean
+    content.vb: Public doRT As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUIGroupAnimation.doImage
+  commentId: F:Lucid.Animation.LAUIGroupAnimation.doImage
+  id: doImage
+  parent: Lucid.Animation.LAUIGroupAnimation
+  langs:
+  - csharp
+  - vb
+  name: doImage
+  nameWithType: LAUIGroupAnimation.doImage
+  fullName: Lucid.Animation.LAUIGroupAnimation.doImage
+  type: Field
+  source:
+    id: doImage
+    path: ''
+    startLine: 24516
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public bool doImage
+    return:
+      type: System.Boolean
+    content.vb: Public doImage As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUIGroupAnimation.doTMPro
+  commentId: F:Lucid.Animation.LAUIGroupAnimation.doTMPro
+  id: doTMPro
+  parent: Lucid.Animation.LAUIGroupAnimation
+  langs:
+  - csharp
+  - vb
+  name: doTMPro
+  nameWithType: LAUIGroupAnimation.doTMPro
+  fullName: Lucid.Animation.LAUIGroupAnimation.doTMPro
+  type: Field
+  source:
+    id: doTMPro
+    path: ''
+    startLine: 24520
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public bool doTMPro
+    return:
+      type: System.Boolean
+    content.vb: Public doTMPro As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUIGroupAnimation.laCanvasGroup
+  commentId: F:Lucid.Animation.LAUIGroupAnimation.laCanvasGroup
+  id: laCanvasGroup
+  parent: Lucid.Animation.LAUIGroupAnimation
+  langs:
+  - csharp
+  - vb
+  name: laCanvasGroup
+  nameWithType: LAUIGroupAnimation.laCanvasGroup
+  fullName: Lucid.Animation.LAUIGroupAnimation.laCanvasGroup
+  type: Field
+  source:
+    id: laCanvasGroup
+    path: ''
+    startLine: 24524
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LACanvasGroup[] laCanvasGroup
+    return:
+      type: Lucid.Animation.LACanvasGroup[]
+    content.vb: Public laCanvasGroup As LACanvasGroup()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUIGroupAnimation.laRT
+  commentId: F:Lucid.Animation.LAUIGroupAnimation.laRT
+  id: laRT
+  parent: Lucid.Animation.LAUIGroupAnimation
+  langs:
+  - csharp
+  - vb
+  name: laRT
+  nameWithType: LAUIGroupAnimation.laRT
+  fullName: Lucid.Animation.LAUIGroupAnimation.laRT
+  type: Field
+  source:
+    id: laRT
+    path: ''
+    startLine: 24528
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LARectTransform[] laRT
+    return:
+      type: Lucid.Animation.LARectTransform[]
+    content.vb: Public laRT As LARectTransform()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUIGroupAnimation.laImage
+  commentId: F:Lucid.Animation.LAUIGroupAnimation.laImage
+  id: laImage
+  parent: Lucid.Animation.LAUIGroupAnimation
+  langs:
+  - csharp
+  - vb
+  name: laImage
+  nameWithType: LAUIGroupAnimation.laImage
+  fullName: Lucid.Animation.LAUIGroupAnimation.laImage
+  type: Field
+  source:
+    id: laImage
+    path: ''
+    startLine: 24532
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAImage[] laImage
+    return:
+      type: Lucid.Animation.LAImage[]
+    content.vb: Public laImage As LAImage()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUIGroupAnimation.laTmp
+  commentId: F:Lucid.Animation.LAUIGroupAnimation.laTmp
+  id: laTmp
+  parent: Lucid.Animation.LAUIGroupAnimation
+  langs:
+  - csharp
+  - vb
+  name: laTmp
+  nameWithType: LAUIGroupAnimation.laTmp
+  fullName: Lucid.Animation.LAUIGroupAnimation.laTmp
+  type: Field
+  source:
+    id: laTmp
+    path: ''
+    startLine: 24536
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LATextMeshProUGUI[] laTmp
+    return:
+      type: Lucid.Animation.LATextMeshProUGUI[]
+    content.vb: Public laTmp As LATextMeshProUGUI()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUIGroupAnimation.CGSeq
+  commentId: P:Lucid.Animation.LAUIGroupAnimation.CGSeq
+  id: CGSeq
+  parent: Lucid.Animation.LAUIGroupAnimation
+  langs:
+  - csharp
+  - vb
+  name: CGSeq
+  nameWithType: LAUIGroupAnimation.CGSeq
+  fullName: Lucid.Animation.LAUIGroupAnimation.CGSeq
+  type: Property
+  source:
+    id: CGSeq
+    path: ''
+    startLine: 24543
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public Sequence CGSeq { get; }
+    parameters: []
+    return:
+      type: Global.Sequence
+    content.vb: Public ReadOnly Property CGSeq As Sequence
+  overload: Lucid.Animation.LAUIGroupAnimation.CGSeq*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Lucid.Animation.LAUIGroupAnimation.RTSeq
+  commentId: P:Lucid.Animation.LAUIGroupAnimation.RTSeq
+  id: RTSeq
+  parent: Lucid.Animation.LAUIGroupAnimation
+  langs:
+  - csharp
+  - vb
+  name: RTSeq
+  nameWithType: LAUIGroupAnimation.RTSeq
+  fullName: Lucid.Animation.LAUIGroupAnimation.RTSeq
+  type: Property
+  source:
+    id: RTSeq
+    path: ''
+    startLine: 24544
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public Sequence RTSeq { get; }
+    parameters: []
+    return:
+      type: Global.Sequence
+    content.vb: Public ReadOnly Property RTSeq As Sequence
+  overload: Lucid.Animation.LAUIGroupAnimation.RTSeq*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Lucid.Animation.LAUIGroupAnimation.ImageSeq
+  commentId: P:Lucid.Animation.LAUIGroupAnimation.ImageSeq
+  id: ImageSeq
+  parent: Lucid.Animation.LAUIGroupAnimation
+  langs:
+  - csharp
+  - vb
+  name: ImageSeq
+  nameWithType: LAUIGroupAnimation.ImageSeq
+  fullName: Lucid.Animation.LAUIGroupAnimation.ImageSeq
+  type: Property
+  source:
+    id: ImageSeq
+    path: ''
+    startLine: 24545
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public Sequence ImageSeq { get; }
+    parameters: []
+    return:
+      type: Global.Sequence
+    content.vb: Public ReadOnly Property ImageSeq As Sequence
+  overload: Lucid.Animation.LAUIGroupAnimation.ImageSeq*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Lucid.Animation.LAUIGroupAnimation.TMPSeq
+  commentId: P:Lucid.Animation.LAUIGroupAnimation.TMPSeq
+  id: TMPSeq
+  parent: Lucid.Animation.LAUIGroupAnimation
+  langs:
+  - csharp
+  - vb
+  name: TMPSeq
+  nameWithType: LAUIGroupAnimation.TMPSeq
+  fullName: Lucid.Animation.LAUIGroupAnimation.TMPSeq
+  type: Property
+  source:
+    id: TMPSeq
+    path: ''
+    startLine: 24546
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public Sequence TMPSeq { get; }
+    parameters: []
+    return:
+      type: Global.Sequence
+    content.vb: Public ReadOnly Property TMPSeq As Sequence
+  overload: Lucid.Animation.LAUIGroupAnimation.TMPSeq*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Lucid.Animation.LAUIGroupAnimation.DoAnimation
+  commentId: M:Lucid.Animation.LAUIGroupAnimation.DoAnimation
+  id: DoAnimation
+  parent: Lucid.Animation.LAUIGroupAnimation
+  langs:
+  - csharp
+  - vb
+  name: DoAnimation()
+  nameWithType: LAUIGroupAnimation.DoAnimation()
+  fullName: Lucid.Animation.LAUIGroupAnimation.DoAnimation()
+  type: Method
+  source:
+    id: DoAnimation
+    path: ''
+    startLine: 24548
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public void DoAnimation()
+    content.vb: Public Sub DoAnimation
+  overload: Lucid.Animation.LAUIGroupAnimation.DoAnimation*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUIGroupAnimation.DoCut
+  commentId: M:Lucid.Animation.LAUIGroupAnimation.DoCut
+  id: DoCut
+  parent: Lucid.Animation.LAUIGroupAnimation
+  langs:
+  - csharp
+  - vb
+  name: DoCut()
+  nameWithType: LAUIGroupAnimation.DoCut()
+  fullName: Lucid.Animation.LAUIGroupAnimation.DoCut()
+  type: Method
+  source:
+    id: DoCut
+    path: ''
+    startLine: 24593
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public void DoCut()
+    content.vb: Public Sub DoCut
+  overload: Lucid.Animation.LAUIGroupAnimation.DoCut*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUIGroupAnimation.GetLongestSequence
+  commentId: M:Lucid.Animation.LAUIGroupAnimation.GetLongestSequence
+  id: GetLongestSequence
+  parent: Lucid.Animation.LAUIGroupAnimation
+  langs:
+  - csharp
+  - vb
+  name: GetLongestSequence()
+  nameWithType: LAUIGroupAnimation.GetLongestSequence()
+  fullName: Lucid.Animation.LAUIGroupAnimation.GetLongestSequence()
+  type: Method
+  source:
+    id: GetLongestSequence
+    path: ''
+    startLine: 24637
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public Sequence GetLongestSequence()
+    return:
+      type: Global.Sequence
+    content.vb: Public Function GetLongestSequence As Sequence
+  overload: Lucid.Animation.LAUIGroupAnimation.GetLongestSequence*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUIGroupAnimation.GetFullAnimationDuration
+  commentId: M:Lucid.Animation.LAUIGroupAnimation.GetFullAnimationDuration
+  id: GetFullAnimationDuration
+  parent: Lucid.Animation.LAUIGroupAnimation
+  langs:
+  - csharp
+  - vb
+  name: GetFullAnimationDuration()
+  nameWithType: LAUIGroupAnimation.GetFullAnimationDuration()
+  fullName: Lucid.Animation.LAUIGroupAnimation.GetFullAnimationDuration()
+  type: Method
+  source:
+    id: GetFullAnimationDuration
+    path: ''
+    startLine: 24694
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public float GetFullAnimationDuration()
+    return:
+      type: System.Single
+    content.vb: Public Function GetFullAnimationDuration As Single
+  overload: Lucid.Animation.LAUIGroupAnimation.GetFullAnimationDuration*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Animation
+  commentId: N:Lucid.Animation
+  name: Lucid.Animation
+  nameWithType: Lucid.Animation
+  fullName: Lucid.Animation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.Animation.LAUIGroupAnimation.#ctor*
+  commentId: Overload:Lucid.Animation.LAUIGroupAnimation.#ctor
+  name: LAUIGroupAnimation
+  nameWithType: LAUIGroupAnimation.LAUIGroupAnimation
+  fullName: Lucid.Animation.LAUIGroupAnimation.LAUIGroupAnimation
+- uid: Lucid.Animation.LAUIGroupAnimation
+  commentId: T:Lucid.Animation.LAUIGroupAnimation
+  parent: Lucid.Animation
+  name: LAUIGroupAnimation
+  nameWithType: LAUIGroupAnimation
+  fullName: Lucid.Animation.LAUIGroupAnimation
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Lucid.Animation.LACanvasGroup[]
+  isExternal: true
+  name: LACanvasGroup[]
+  nameWithType: LACanvasGroup[]
+  fullName: Lucid.Animation.LACanvasGroup[]
+  nameWithType.vb: LACanvasGroup()
+  fullName.vb: Lucid.Animation.LACanvasGroup()
+  name.vb: LACanvasGroup()
+  spec.csharp:
+  - uid: Lucid.Animation.LACanvasGroup
+    name: LACanvasGroup
+    nameWithType: LACanvasGroup
+    fullName: Lucid.Animation.LACanvasGroup
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Lucid.Animation.LACanvasGroup
+    name: LACanvasGroup
+    nameWithType: LACanvasGroup
+    fullName: Lucid.Animation.LACanvasGroup
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Lucid.Animation.LARectTransform[]
+  isExternal: true
+  name: LARectTransform[]
+  nameWithType: LARectTransform[]
+  fullName: Lucid.Animation.LARectTransform[]
+  nameWithType.vb: LARectTransform()
+  fullName.vb: Lucid.Animation.LARectTransform()
+  name.vb: LARectTransform()
+  spec.csharp:
+  - uid: Lucid.Animation.LARectTransform
+    name: LARectTransform
+    nameWithType: LARectTransform
+    fullName: Lucid.Animation.LARectTransform
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Lucid.Animation.LARectTransform
+    name: LARectTransform
+    nameWithType: LARectTransform
+    fullName: Lucid.Animation.LARectTransform
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Lucid.Animation.LAImage[]
+  isExternal: true
+  name: LAImage[]
+  nameWithType: LAImage[]
+  fullName: Lucid.Animation.LAImage[]
+  nameWithType.vb: LAImage()
+  fullName.vb: Lucid.Animation.LAImage()
+  name.vb: LAImage()
+  spec.csharp:
+  - uid: Lucid.Animation.LAImage
+    name: LAImage
+    nameWithType: LAImage
+    fullName: Lucid.Animation.LAImage
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Lucid.Animation.LAImage
+    name: LAImage
+    nameWithType: LAImage
+    fullName: Lucid.Animation.LAImage
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Lucid.Animation.LATextMeshProUGUI[]
+  isExternal: true
+  name: LATextMeshProUGUI[]
+  nameWithType: LATextMeshProUGUI[]
+  fullName: Lucid.Animation.LATextMeshProUGUI[]
+  nameWithType.vb: LATextMeshProUGUI()
+  fullName.vb: Lucid.Animation.LATextMeshProUGUI()
+  name.vb: LATextMeshProUGUI()
+  spec.csharp:
+  - uid: Lucid.Animation.LATextMeshProUGUI
+    name: LATextMeshProUGUI
+    nameWithType: LATextMeshProUGUI
+    fullName: Lucid.Animation.LATextMeshProUGUI
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Lucid.Animation.LATextMeshProUGUI
+    name: LATextMeshProUGUI
+    nameWithType: LATextMeshProUGUI
+    fullName: Lucid.Animation.LATextMeshProUGUI
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Lucid.Animation.LAUIGroupAnimation.CGSeq*
+  commentId: Overload:Lucid.Animation.LAUIGroupAnimation.CGSeq
+  name: CGSeq
+  nameWithType: LAUIGroupAnimation.CGSeq
+  fullName: Lucid.Animation.LAUIGroupAnimation.CGSeq
+- uid: Global.Sequence
+  isExternal: true
+  name: Sequence
+  nameWithType: Sequence
+  fullName: Sequence
+- uid: Lucid.Animation.LAUIGroupAnimation.RTSeq*
+  commentId: Overload:Lucid.Animation.LAUIGroupAnimation.RTSeq
+  name: RTSeq
+  nameWithType: LAUIGroupAnimation.RTSeq
+  fullName: Lucid.Animation.LAUIGroupAnimation.RTSeq
+- uid: Lucid.Animation.LAUIGroupAnimation.ImageSeq*
+  commentId: Overload:Lucid.Animation.LAUIGroupAnimation.ImageSeq
+  name: ImageSeq
+  nameWithType: LAUIGroupAnimation.ImageSeq
+  fullName: Lucid.Animation.LAUIGroupAnimation.ImageSeq
+- uid: Lucid.Animation.LAUIGroupAnimation.TMPSeq*
+  commentId: Overload:Lucid.Animation.LAUIGroupAnimation.TMPSeq
+  name: TMPSeq
+  nameWithType: LAUIGroupAnimation.TMPSeq
+  fullName: Lucid.Animation.LAUIGroupAnimation.TMPSeq
+- uid: Lucid.Animation.LAUIGroupAnimation.DoAnimation*
+  commentId: Overload:Lucid.Animation.LAUIGroupAnimation.DoAnimation
+  name: DoAnimation
+  nameWithType: LAUIGroupAnimation.DoAnimation
+  fullName: Lucid.Animation.LAUIGroupAnimation.DoAnimation
+- uid: Lucid.Animation.LAUIGroupAnimation.DoCut*
+  commentId: Overload:Lucid.Animation.LAUIGroupAnimation.DoCut
+  name: DoCut
+  nameWithType: LAUIGroupAnimation.DoCut
+  fullName: Lucid.Animation.LAUIGroupAnimation.DoCut
+- uid: Lucid.Animation.LAUIGroupAnimation.GetLongestSequence*
+  commentId: Overload:Lucid.Animation.LAUIGroupAnimation.GetLongestSequence
+  name: GetLongestSequence
+  nameWithType: LAUIGroupAnimation.GetLongestSequence
+  fullName: Lucid.Animation.LAUIGroupAnimation.GetLongestSequence
+- uid: Lucid.Animation.LAUIGroupAnimation.GetFullAnimationDuration*
+  commentId: Overload:Lucid.Animation.LAUIGroupAnimation.GetFullAnimationDuration
+  name: GetFullAnimationDuration
+  nameWithType: LAUIGroupAnimation.GetFullAnimationDuration
+  fullName: Lucid.Animation.LAUIGroupAnimation.GetFullAnimationDuration
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

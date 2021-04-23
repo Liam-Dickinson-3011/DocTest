@@ -1,0 +1,140 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Core.ViewDataSO
+  commentId: T:Lucid.Core.ViewDataSO
+  id: ViewDataSO
+  parent: Lucid.Core
+  children:
+  - Lucid.Core.ViewDataSO.Views
+  - Lucid.Core.ViewDataSO.ViewSetID
+  langs:
+  - csharp
+  - vb
+  name: ViewDataSO
+  nameWithType: ViewDataSO
+  fullName: Lucid.Core.ViewDataSO
+  type: Class
+  source:
+    id: ViewDataSO
+    path: ''
+    startLine: 7062
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: 'public class ViewDataSO : ScriptableObject'
+    content.vb: >-
+      Public Class ViewDataSO
+          Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Core.ViewDataSO.ViewSetID
+  commentId: F:Lucid.Core.ViewDataSO.ViewSetID
+  id: ViewSetID
+  parent: Lucid.Core.ViewDataSO
+  langs:
+  - csharp
+  - vb
+  name: ViewSetID
+  nameWithType: ViewDataSO.ViewSetID
+  fullName: Lucid.Core.ViewDataSO.ViewSetID
+  type: Field
+  source:
+    id: ViewSetID
+    path: ''
+    startLine: 7066
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public string ViewSetID
+    return:
+      type: System.String
+    content.vb: Public ViewSetID As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Core.ViewDataSO.Views
+  commentId: F:Lucid.Core.ViewDataSO.Views
+  id: Views
+  parent: Lucid.Core.ViewDataSO
+  langs:
+  - csharp
+  - vb
+  name: Views
+  nameWithType: ViewDataSO.Views
+  fullName: Lucid.Core.ViewDataSO.Views
+  type: Field
+  source:
+    id: Views
+    path: ''
+    startLine: 7068
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public ViewData[] Views
+    return:
+      type: Lucid.Core.ViewData[]
+    content.vb: Public Views As ViewData()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Core
+  commentId: N:Lucid.Core
+  name: Lucid.Core
+  nameWithType: Lucid.Core
+  fullName: Lucid.Core
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Lucid.Core.ViewData[]
+  isExternal: true
+  name: ViewData[]
+  nameWithType: ViewData[]
+  fullName: Lucid.Core.ViewData[]
+  nameWithType.vb: ViewData()
+  fullName.vb: Lucid.Core.ViewData()
+  name.vb: ViewData()
+  spec.csharp:
+  - uid: Lucid.Core.ViewData
+    name: ViewData
+    nameWithType: ViewData
+    fullName: Lucid.Core.ViewData
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Lucid.Core.ViewData
+    name: ViewData
+    nameWithType: ViewData
+    fullName: Lucid.Core.ViewData
+  - name: ()
+    nameWithType: ()
+    fullName: ()

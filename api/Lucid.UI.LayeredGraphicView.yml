@@ -1,0 +1,576 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.UI.LayeredGraphicView
+  commentId: T:Lucid.UI.LayeredGraphicView
+  id: LayeredGraphicView
+  parent: Lucid.UI
+  children:
+  - Lucid.UI.LayeredGraphicView.associatedMenuName
+  - Lucid.UI.LayeredGraphicView.baseImage
+  - Lucid.UI.LayeredGraphicView.baseRT
+  - Lucid.UI.LayeredGraphicView.baseSprite
+  - Lucid.UI.LayeredGraphicView.layerContainerPrefab
+  - Lucid.UI.LayeredGraphicView.layerImages
+  - Lucid.UI.LayeredGraphicView.layerRTs
+  - Lucid.UI.LayeredGraphicView.layerSprites
+  - Lucid.UI.LayeredGraphicView.layerSRs
+  - Lucid.UI.LayeredGraphicView.linkedMenu
+  langs:
+  - csharp
+  - vb
+  name: LayeredGraphicView
+  nameWithType: LayeredGraphicView
+  fullName: Lucid.UI.LayeredGraphicView
+  type: Class
+  source:
+    id: LayeredGraphicView
+    path: ''
+    startLine: 7323
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: 'public class LayeredGraphicView : MonoBehaviour'
+    content.vb: >-
+      Public Class LayeredGraphicView
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.UI.LayeredGraphicView.linkedMenu
+  commentId: F:Lucid.UI.LayeredGraphicView.linkedMenu
+  id: linkedMenu
+  parent: Lucid.UI.LayeredGraphicView
+  langs:
+  - csharp
+  - vb
+  name: linkedMenu
+  nameWithType: LayeredGraphicView.linkedMenu
+  fullName: Lucid.UI.LayeredGraphicView.linkedMenu
+  type: Field
+  source:
+    id: linkedMenu
+    path: ''
+    startLine: 7477
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public MenuView linkedMenu
+    return:
+      type: Lucid.UI.MenuView
+    content.vb: Public linkedMenu As MenuView
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.LayeredGraphicView.baseImage
+  commentId: F:Lucid.UI.LayeredGraphicView.baseImage
+  id: baseImage
+  parent: Lucid.UI.LayeredGraphicView
+  langs:
+  - csharp
+  - vb
+  name: baseImage
+  nameWithType: LayeredGraphicView.baseImage
+  fullName: Lucid.UI.LayeredGraphicView.baseImage
+  type: Field
+  source:
+    id: baseImage
+    path: ''
+    startLine: 7479
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public Image baseImage
+    return:
+      type: Global.Image
+    content.vb: Public baseImage As Image
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.LayeredGraphicView.baseRT
+  commentId: F:Lucid.UI.LayeredGraphicView.baseRT
+  id: baseRT
+  parent: Lucid.UI.LayeredGraphicView
+  langs:
+  - csharp
+  - vb
+  name: baseRT
+  nameWithType: LayeredGraphicView.baseRT
+  fullName: Lucid.UI.LayeredGraphicView.baseRT
+  type: Field
+  source:
+    id: baseRT
+    path: ''
+    startLine: 7481
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public RectTransform baseRT
+    return:
+      type: Global.RectTransform
+    content.vb: Public baseRT As RectTransform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.LayeredGraphicView.layerImages
+  commentId: F:Lucid.UI.LayeredGraphicView.layerImages
+  id: layerImages
+  parent: Lucid.UI.LayeredGraphicView
+  langs:
+  - csharp
+  - vb
+  name: layerImages
+  nameWithType: LayeredGraphicView.layerImages
+  fullName: Lucid.UI.LayeredGraphicView.layerImages
+  type: Field
+  source:
+    id: layerImages
+    path: ''
+    startLine: 7483
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public List<Image> layerImages
+    return:
+      type: Global.List{Image}
+    content.vb: Public layerImages As List(Of Image)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.LayeredGraphicView.layerRTs
+  commentId: F:Lucid.UI.LayeredGraphicView.layerRTs
+  id: layerRTs
+  parent: Lucid.UI.LayeredGraphicView
+  langs:
+  - csharp
+  - vb
+  name: layerRTs
+  nameWithType: LayeredGraphicView.layerRTs
+  fullName: Lucid.UI.LayeredGraphicView.layerRTs
+  type: Field
+  source:
+    id: layerRTs
+    path: ''
+    startLine: 7485
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public List<RectTransform> layerRTs
+    return:
+      type: Global.List{RectTransform}
+    content.vb: Public layerRTs As List(Of RectTransform)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.LayeredGraphicView.layerSRs
+  commentId: F:Lucid.UI.LayeredGraphicView.layerSRs
+  id: layerSRs
+  parent: Lucid.UI.LayeredGraphicView
+  langs:
+  - csharp
+  - vb
+  name: layerSRs
+  nameWithType: LayeredGraphicView.layerSRs
+  fullName: Lucid.UI.LayeredGraphicView.layerSRs
+  type: Field
+  source:
+    id: layerSRs
+    path: ''
+    startLine: 7487
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public List<LAUISwitchResponder> layerSRs
+    return:
+      type: Global.List{LAUISwitchResponder}
+    content.vb: Public layerSRs As List(Of LAUISwitchResponder)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.LayeredGraphicView.layerContainerPrefab
+  commentId: F:Lucid.UI.LayeredGraphicView.layerContainerPrefab
+  id: layerContainerPrefab
+  parent: Lucid.UI.LayeredGraphicView
+  langs:
+  - csharp
+  - vb
+  name: layerContainerPrefab
+  nameWithType: LayeredGraphicView.layerContainerPrefab
+  fullName: Lucid.UI.LayeredGraphicView.layerContainerPrefab
+  type: Field
+  source:
+    id: layerContainerPrefab
+    path: ''
+    startLine: 7489
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public GameObject layerContainerPrefab
+    return:
+      type: Global.GameObject
+    content.vb: Public layerContainerPrefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.LayeredGraphicView.baseSprite
+  commentId: F:Lucid.UI.LayeredGraphicView.baseSprite
+  id: baseSprite
+  parent: Lucid.UI.LayeredGraphicView
+  langs:
+  - csharp
+  - vb
+  name: baseSprite
+  nameWithType: LayeredGraphicView.baseSprite
+  fullName: Lucid.UI.LayeredGraphicView.baseSprite
+  type: Field
+  source:
+    id: baseSprite
+    path: ''
+    startLine: 7492
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public Sprite baseSprite
+    return:
+      type: Global.Sprite
+    content.vb: Public baseSprite As Sprite
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.LayeredGraphicView.layerSprites
+  commentId: F:Lucid.UI.LayeredGraphicView.layerSprites
+  id: layerSprites
+  parent: Lucid.UI.LayeredGraphicView
+  langs:
+  - csharp
+  - vb
+  name: layerSprites
+  nameWithType: LayeredGraphicView.layerSprites
+  fullName: Lucid.UI.LayeredGraphicView.layerSprites
+  type: Field
+  source:
+    id: layerSprites
+    path: ''
+    startLine: 7494
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public List<Sprite> layerSprites
+    return:
+      type: Global.List{Sprite}
+    content.vb: Public layerSprites As List(Of Sprite)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.LayeredGraphicView.associatedMenuName
+  commentId: F:Lucid.UI.LayeredGraphicView.associatedMenuName
+  id: associatedMenuName
+  parent: Lucid.UI.LayeredGraphicView
+  langs:
+  - csharp
+  - vb
+  name: associatedMenuName
+  nameWithType: LayeredGraphicView.associatedMenuName
+  fullName: Lucid.UI.LayeredGraphicView.associatedMenuName
+  type: Field
+  source:
+    id: associatedMenuName
+    path: ''
+    startLine: 7497
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public string associatedMenuName
+    return:
+      type: System.String
+    content.vb: Public associatedMenuName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.UI
+  commentId: N:Lucid.UI
+  name: Lucid.UI
+  nameWithType: Lucid.UI
+  fullName: Lucid.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.UI.MenuView
+  commentId: T:Lucid.UI.MenuView
+  parent: Lucid.UI
+  name: MenuView
+  nameWithType: MenuView
+  fullName: Lucid.UI.MenuView
+- uid: Global.Image
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: Image
+- uid: Global.RectTransform
+  isExternal: true
+  name: RectTransform
+  nameWithType: RectTransform
+  fullName: RectTransform
+- uid: Global.List{Image}
+  commentId: '!:Global.List{Image}'
+  definition: Global.List`1
+  name: List<Image>
+  nameWithType: List<Image>
+  fullName: List<Image>
+  nameWithType.vb: List(Of Image)
+  fullName.vb: List(Of Image)
+  name.vb: List(Of Image)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Image
+    name: Image
+    nameWithType: Image
+    fullName: Image
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Image
+    name: Image
+    nameWithType: Image
+    fullName: Image
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List{RectTransform}
+  commentId: '!:Global.List{RectTransform}'
+  definition: Global.List`1
+  name: List<RectTransform>
+  nameWithType: List<RectTransform>
+  fullName: List<RectTransform>
+  nameWithType.vb: List(Of RectTransform)
+  fullName.vb: List(Of RectTransform)
+  name.vb: List(Of RectTransform)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.RectTransform
+    name: RectTransform
+    nameWithType: RectTransform
+    fullName: RectTransform
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.RectTransform
+    name: RectTransform
+    nameWithType: RectTransform
+    fullName: RectTransform
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List{LAUISwitchResponder}
+  commentId: '!:Global.List{LAUISwitchResponder}'
+  definition: Global.List`1
+  name: List<LAUISwitchResponder>
+  nameWithType: List<LAUISwitchResponder>
+  fullName: List<LAUISwitchResponder>
+  nameWithType.vb: List(Of LAUISwitchResponder)
+  fullName.vb: List(Of LAUISwitchResponder)
+  name.vb: List(Of LAUISwitchResponder)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.LAUISwitchResponder
+    name: LAUISwitchResponder
+    nameWithType: LAUISwitchResponder
+    fullName: LAUISwitchResponder
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.LAUISwitchResponder
+    name: LAUISwitchResponder
+    nameWithType: LAUISwitchResponder
+    fullName: LAUISwitchResponder
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.Sprite
+  isExternal: true
+  name: Sprite
+  nameWithType: Sprite
+  fullName: Sprite
+- uid: Global.List{Sprite}
+  commentId: '!:Global.List{Sprite}'
+  definition: Global.List`1
+  name: List<Sprite>
+  nameWithType: List<Sprite>
+  fullName: List<Sprite>
+  nameWithType.vb: List(Of Sprite)
+  fullName.vb: List(Of Sprite)
+  name.vb: List(Of Sprite)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Sprite
+    name: Sprite
+    nameWithType: Sprite
+    fullName: Sprite
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Sprite
+    name: Sprite
+    nameWithType: Sprite
+    fullName: Sprite
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

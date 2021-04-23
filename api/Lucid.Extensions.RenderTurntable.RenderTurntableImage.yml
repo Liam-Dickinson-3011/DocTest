@@ -1,0 +1,655 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableImage
+  commentId: T:Lucid.Extensions.RenderTurntable.RenderTurntableImage
+  id: RenderTurntableImage
+  parent: Lucid.Extensions.RenderTurntable
+  children:
+  - Lucid.Extensions.RenderTurntable.RenderTurntableImage.assetBundlePrefix
+  - Lucid.Extensions.RenderTurntable.RenderTurntableImage.currentBundle
+  - Lucid.Extensions.RenderTurntable.RenderTurntableImage.currentBundlePath
+  - Lucid.Extensions.RenderTurntable.RenderTurntableImage.fileNameFormat
+  - Lucid.Extensions.RenderTurntable.RenderTurntableImage.imageIndexesReversed
+  - Lucid.Extensions.RenderTurntable.RenderTurntableImage.imagesPerBundle
+  - Lucid.Extensions.RenderTurntable.RenderTurntableImage.loadedBundles
+  - Lucid.Extensions.RenderTurntable.RenderTurntableImage.nextBundle
+  - Lucid.Extensions.RenderTurntable.RenderTurntableImage.nextBundlePath
+  - Lucid.Extensions.RenderTurntable.RenderTurntableImage.numberOfBundles
+  - Lucid.Extensions.RenderTurntable.RenderTurntableImage.previousBundle
+  - Lucid.Extensions.RenderTurntable.RenderTurntableImage.previousBundlePath
+  - Lucid.Extensions.RenderTurntable.RenderTurntableImage.streamingAssetsFolderPath
+  - Lucid.Extensions.RenderTurntable.RenderTurntableImage.targetImage
+  - Lucid.Extensions.RenderTurntable.RenderTurntableImage.totalImages
+  - Lucid.Extensions.RenderTurntable.RenderTurntableImage.turntableCamera
+  langs:
+  - csharp
+  - vb
+  name: RenderTurntableImage
+  nameWithType: RenderTurntableImage
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableImage
+  type: Class
+  source:
+    id: RenderTurntableImage
+    path: ''
+    startLine: 29233
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.RenderTurntable
+  syntax:
+    content: 'public class RenderTurntableImage : MonoBehaviour'
+    content.vb: >-
+      Public Class RenderTurntableImage
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableImage.turntableCamera
+  commentId: F:Lucid.Extensions.RenderTurntable.RenderTurntableImage.turntableCamera
+  id: turntableCamera
+  parent: Lucid.Extensions.RenderTurntable.RenderTurntableImage
+  langs:
+  - csharp
+  - vb
+  name: turntableCamera
+  nameWithType: RenderTurntableImage.turntableCamera
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableImage.turntableCamera
+  type: Field
+  source:
+    id: turntableCamera
+    path: ''
+    startLine: 29236
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.RenderTurntable
+  syntax:
+    content: public RenderTurntableCamera turntableCamera
+    return:
+      type: Lucid.Extensions.RenderTurntable.RenderTurntableCamera
+    content.vb: Public turntableCamera As RenderTurntableCamera
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableImage.targetImage
+  commentId: F:Lucid.Extensions.RenderTurntable.RenderTurntableImage.targetImage
+  id: targetImage
+  parent: Lucid.Extensions.RenderTurntable.RenderTurntableImage
+  langs:
+  - csharp
+  - vb
+  name: targetImage
+  nameWithType: RenderTurntableImage.targetImage
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableImage.targetImage
+  type: Field
+  source:
+    id: targetImage
+    path: ''
+    startLine: 29239
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.RenderTurntable
+  syntax:
+    content: public Image targetImage
+    return:
+      type: Global.Image
+    content.vb: Public targetImage As Image
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableImage.streamingAssetsFolderPath
+  commentId: F:Lucid.Extensions.RenderTurntable.RenderTurntableImage.streamingAssetsFolderPath
+  id: streamingAssetsFolderPath
+  parent: Lucid.Extensions.RenderTurntable.RenderTurntableImage
+  langs:
+  - csharp
+  - vb
+  name: streamingAssetsFolderPath
+  nameWithType: RenderTurntableImage.streamingAssetsFolderPath
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableImage.streamingAssetsFolderPath
+  type: Field
+  source:
+    id: streamingAssetsFolderPath
+    path: ''
+    startLine: 29244
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.RenderTurntable
+  syntax:
+    content: public string streamingAssetsFolderPath
+    return:
+      type: System.String
+    content.vb: Public streamingAssetsFolderPath As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableImage.assetBundlePrefix
+  commentId: F:Lucid.Extensions.RenderTurntable.RenderTurntableImage.assetBundlePrefix
+  id: assetBundlePrefix
+  parent: Lucid.Extensions.RenderTurntable.RenderTurntableImage
+  langs:
+  - csharp
+  - vb
+  name: assetBundlePrefix
+  nameWithType: RenderTurntableImage.assetBundlePrefix
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableImage.assetBundlePrefix
+  type: Field
+  source:
+    id: assetBundlePrefix
+    path: ''
+    startLine: 29247
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.RenderTurntable
+  syntax:
+    content: public string assetBundlePrefix
+    return:
+      type: System.String
+    content.vb: Public assetBundlePrefix As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableImage.fileNameFormat
+  commentId: F:Lucid.Extensions.RenderTurntable.RenderTurntableImage.fileNameFormat
+  id: fileNameFormat
+  parent: Lucid.Extensions.RenderTurntable.RenderTurntableImage
+  langs:
+  - csharp
+  - vb
+  name: fileNameFormat
+  nameWithType: RenderTurntableImage.fileNameFormat
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableImage.fileNameFormat
+  type: Field
+  source:
+    id: fileNameFormat
+    path: ''
+    startLine: 29250
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.RenderTurntable
+  syntax:
+    content: public string fileNameFormat
+    return:
+      type: System.String
+    content.vb: Public fileNameFormat As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableImage.imageIndexesReversed
+  commentId: F:Lucid.Extensions.RenderTurntable.RenderTurntableImage.imageIndexesReversed
+  id: imageIndexesReversed
+  parent: Lucid.Extensions.RenderTurntable.RenderTurntableImage
+  langs:
+  - csharp
+  - vb
+  name: imageIndexesReversed
+  nameWithType: RenderTurntableImage.imageIndexesReversed
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableImage.imageIndexesReversed
+  type: Field
+  source:
+    id: imageIndexesReversed
+    path: ''
+    startLine: 29253
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.RenderTurntable
+  syntax:
+    content: public bool imageIndexesReversed
+    return:
+      type: System.Boolean
+    content.vb: Public imageIndexesReversed As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableImage.numberOfBundles
+  commentId: F:Lucid.Extensions.RenderTurntable.RenderTurntableImage.numberOfBundles
+  id: numberOfBundles
+  parent: Lucid.Extensions.RenderTurntable.RenderTurntableImage
+  langs:
+  - csharp
+  - vb
+  name: numberOfBundles
+  nameWithType: RenderTurntableImage.numberOfBundles
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableImage.numberOfBundles
+  type: Field
+  source:
+    id: numberOfBundles
+    path: ''
+    startLine: 29256
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.RenderTurntable
+  syntax:
+    content: public int numberOfBundles
+    return:
+      type: System.Int32
+    content.vb: Public numberOfBundles As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableImage.imagesPerBundle
+  commentId: F:Lucid.Extensions.RenderTurntable.RenderTurntableImage.imagesPerBundle
+  id: imagesPerBundle
+  parent: Lucid.Extensions.RenderTurntable.RenderTurntableImage
+  langs:
+  - csharp
+  - vb
+  name: imagesPerBundle
+  nameWithType: RenderTurntableImage.imagesPerBundle
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableImage.imagesPerBundle
+  type: Field
+  source:
+    id: imagesPerBundle
+    path: ''
+    startLine: 29259
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.RenderTurntable
+  syntax:
+    content: public int imagesPerBundle
+    return:
+      type: System.Int32
+    content.vb: Public imagesPerBundle As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableImage.totalImages
+  commentId: P:Lucid.Extensions.RenderTurntable.RenderTurntableImage.totalImages
+  id: totalImages
+  parent: Lucid.Extensions.RenderTurntable.RenderTurntableImage
+  langs:
+  - csharp
+  - vb
+  name: totalImages
+  nameWithType: RenderTurntableImage.totalImages
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableImage.totalImages
+  type: Property
+  source:
+    id: totalImages
+    path: ''
+    startLine: 29261
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.RenderTurntable
+  syntax:
+    content: public int totalImages { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property totalImages As Integer
+  overload: Lucid.Extensions.RenderTurntable.RenderTurntableImage.totalImages*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableImage.loadedBundles
+  commentId: F:Lucid.Extensions.RenderTurntable.RenderTurntableImage.loadedBundles
+  id: loadedBundles
+  parent: Lucid.Extensions.RenderTurntable.RenderTurntableImage
+  langs:
+  - csharp
+  - vb
+  name: loadedBundles
+  nameWithType: RenderTurntableImage.loadedBundles
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableImage.loadedBundles
+  type: Field
+  source:
+    id: loadedBundles
+    path: ''
+    startLine: 29264
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.RenderTurntable
+  syntax:
+    content: public List<AssetBundle> loadedBundles
+    return:
+      type: Global.List{AssetBundle}
+    content.vb: Public loadedBundles As List(Of AssetBundle)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableImage.previousBundle
+  commentId: F:Lucid.Extensions.RenderTurntable.RenderTurntableImage.previousBundle
+  id: previousBundle
+  parent: Lucid.Extensions.RenderTurntable.RenderTurntableImage
+  langs:
+  - csharp
+  - vb
+  name: previousBundle
+  nameWithType: RenderTurntableImage.previousBundle
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableImage.previousBundle
+  type: Field
+  source:
+    id: previousBundle
+    path: ''
+    startLine: 29267
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.RenderTurntable
+  syntax:
+    content: public AssetBundle previousBundle
+    return:
+      type: Global.AssetBundle
+    content.vb: Public previousBundle As AssetBundle
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableImage.previousBundlePath
+  commentId: P:Lucid.Extensions.RenderTurntable.RenderTurntableImage.previousBundlePath
+  id: previousBundlePath
+  parent: Lucid.Extensions.RenderTurntable.RenderTurntableImage
+  langs:
+  - csharp
+  - vb
+  name: previousBundlePath
+  nameWithType: RenderTurntableImage.previousBundlePath
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableImage.previousBundlePath
+  type: Property
+  source:
+    id: previousBundlePath
+    path: ''
+    startLine: 29269
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.RenderTurntable
+  syntax:
+    content: public string previousBundlePath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property previousBundlePath As String
+  overload: Lucid.Extensions.RenderTurntable.RenderTurntableImage.previousBundlePath*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableImage.currentBundle
+  commentId: F:Lucid.Extensions.RenderTurntable.RenderTurntableImage.currentBundle
+  id: currentBundle
+  parent: Lucid.Extensions.RenderTurntable.RenderTurntableImage
+  langs:
+  - csharp
+  - vb
+  name: currentBundle
+  nameWithType: RenderTurntableImage.currentBundle
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableImage.currentBundle
+  type: Field
+  source:
+    id: currentBundle
+    path: ''
+    startLine: 29278
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.RenderTurntable
+  syntax:
+    content: public AssetBundle currentBundle
+    return:
+      type: Global.AssetBundle
+    content.vb: Public currentBundle As AssetBundle
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableImage.currentBundlePath
+  commentId: P:Lucid.Extensions.RenderTurntable.RenderTurntableImage.currentBundlePath
+  id: currentBundlePath
+  parent: Lucid.Extensions.RenderTurntable.RenderTurntableImage
+  langs:
+  - csharp
+  - vb
+  name: currentBundlePath
+  nameWithType: RenderTurntableImage.currentBundlePath
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableImage.currentBundlePath
+  type: Property
+  source:
+    id: currentBundlePath
+    path: ''
+    startLine: 29280
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.RenderTurntable
+  syntax:
+    content: public string currentBundlePath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property currentBundlePath As String
+  overload: Lucid.Extensions.RenderTurntable.RenderTurntableImage.currentBundlePath*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableImage.nextBundle
+  commentId: F:Lucid.Extensions.RenderTurntable.RenderTurntableImage.nextBundle
+  id: nextBundle
+  parent: Lucid.Extensions.RenderTurntable.RenderTurntableImage
+  langs:
+  - csharp
+  - vb
+  name: nextBundle
+  nameWithType: RenderTurntableImage.nextBundle
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableImage.nextBundle
+  type: Field
+  source:
+    id: nextBundle
+    path: ''
+    startLine: 29289
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.RenderTurntable
+  syntax:
+    content: public AssetBundle nextBundle
+    return:
+      type: Global.AssetBundle
+    content.vb: Public nextBundle As AssetBundle
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableImage.nextBundlePath
+  commentId: P:Lucid.Extensions.RenderTurntable.RenderTurntableImage.nextBundlePath
+  id: nextBundlePath
+  parent: Lucid.Extensions.RenderTurntable.RenderTurntableImage
+  langs:
+  - csharp
+  - vb
+  name: nextBundlePath
+  nameWithType: RenderTurntableImage.nextBundlePath
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableImage.nextBundlePath
+  type: Property
+  source:
+    id: nextBundlePath
+    path: ''
+    startLine: 29291
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.RenderTurntable
+  syntax:
+    content: public string nextBundlePath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property nextBundlePath As String
+  overload: Lucid.Extensions.RenderTurntable.RenderTurntableImage.nextBundlePath*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: Lucid.Extensions.RenderTurntable
+  commentId: N:Lucid.Extensions.RenderTurntable
+  name: Lucid.Extensions.RenderTurntable
+  nameWithType: Lucid.Extensions.RenderTurntable
+  fullName: Lucid.Extensions.RenderTurntable
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableCamera
+  commentId: T:Lucid.Extensions.RenderTurntable.RenderTurntableCamera
+  parent: Lucid.Extensions.RenderTurntable
+  name: RenderTurntableCamera
+  nameWithType: RenderTurntableCamera
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableCamera
+- uid: Global.Image
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: Image
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableImage.totalImages*
+  commentId: Overload:Lucid.Extensions.RenderTurntable.RenderTurntableImage.totalImages
+  name: totalImages
+  nameWithType: RenderTurntableImage.totalImages
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableImage.totalImages
+- uid: Global.List{AssetBundle}
+  commentId: '!:Global.List{AssetBundle}'
+  definition: Global.List`1
+  name: List<AssetBundle>
+  nameWithType: List<AssetBundle>
+  fullName: List<AssetBundle>
+  nameWithType.vb: List(Of AssetBundle)
+  fullName.vb: List(Of AssetBundle)
+  name.vb: List(Of AssetBundle)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.AssetBundle
+    name: AssetBundle
+    nameWithType: AssetBundle
+    fullName: AssetBundle
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.AssetBundle
+    name: AssetBundle
+    nameWithType: AssetBundle
+    fullName: AssetBundle
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.AssetBundle
+  isExternal: true
+  name: AssetBundle
+  nameWithType: AssetBundle
+  fullName: AssetBundle
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableImage.previousBundlePath*
+  commentId: Overload:Lucid.Extensions.RenderTurntable.RenderTurntableImage.previousBundlePath
+  name: previousBundlePath
+  nameWithType: RenderTurntableImage.previousBundlePath
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableImage.previousBundlePath
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableImage.currentBundlePath*
+  commentId: Overload:Lucid.Extensions.RenderTurntable.RenderTurntableImage.currentBundlePath
+  name: currentBundlePath
+  nameWithType: RenderTurntableImage.currentBundlePath
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableImage.currentBundlePath
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableImage.nextBundlePath*
+  commentId: Overload:Lucid.Extensions.RenderTurntable.RenderTurntableImage.nextBundlePath
+  name: nextBundlePath
+  nameWithType: RenderTurntableImage.nextBundlePath
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableImage.nextBundlePath

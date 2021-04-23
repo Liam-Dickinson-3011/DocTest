@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Branding.Color
+  commentId: N:Lucid.Branding.Color
+  id: Lucid.Branding.Color
+  children:
+  - Lucid.Branding.Color.ColorStyle
+  - Lucid.Branding.Color.ColorStyleHandler
+  - Lucid.Branding.Color.ColorStyleSettings
+  langs:
+  - csharp
+  - vb
+  name: Lucid.Branding.Color
+  nameWithType: Lucid.Branding.Color
+  fullName: Lucid.Branding.Color
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Lucid.Branding.Color.ColorStyleHandler
+  commentId: T:Lucid.Branding.Color.ColorStyleHandler
+  name: ColorStyleHandler
+  nameWithType: ColorStyleHandler
+  fullName: Lucid.Branding.Color.ColorStyleHandler
+- uid: Lucid.Branding.Color.ColorStyle
+  commentId: T:Lucid.Branding.Color.ColorStyle
+  parent: Lucid.Branding.Color
+  name: ColorStyle
+  nameWithType: ColorStyle
+  fullName: Lucid.Branding.Color.ColorStyle
+- uid: Lucid.Branding.Color.ColorStyleSettings
+  commentId: T:Lucid.Branding.Color.ColorStyleSettings
+  name: ColorStyleSettings
+  nameWithType: ColorStyleSettings
+  fullName: Lucid.Branding.Color.ColorStyleSettings
+- uid: Lucid.Branding.Color
+  commentId: N:Lucid.Branding.Color
+  name: Lucid.Branding.Color
+  nameWithType: Lucid.Branding.Color
+  fullName: Lucid.Branding.Color

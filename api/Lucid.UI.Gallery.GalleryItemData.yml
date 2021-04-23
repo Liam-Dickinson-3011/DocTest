@@ -1,0 +1,503 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.UI.Gallery.GalleryItemData
+  commentId: T:Lucid.UI.Gallery.GalleryItemData
+  id: GalleryItemData
+  parent: Lucid.UI.Gallery
+  children:
+  - Lucid.UI.Gallery.GalleryItemData.#ctor
+  - Lucid.UI.Gallery.GalleryItemData.#ctor(RenderTexture,System.String)
+  - Lucid.UI.Gallery.GalleryItemData.#ctor(Sprite,System.String)
+  - Lucid.UI.Gallery.GalleryItemData.#ctor(VideoClip,RenderTexture,System.String)
+  - Lucid.UI.Gallery.GalleryItemData.image360RenderTexture
+  - Lucid.UI.Gallery.GalleryItemData.itemName
+  - Lucid.UI.Gallery.GalleryItemData.itemTag
+  - Lucid.UI.Gallery.GalleryItemData.loopVideo
+  - Lucid.UI.Gallery.GalleryItemData.sprite
+  - Lucid.UI.Gallery.GalleryItemData.type
+  - Lucid.UI.Gallery.GalleryItemData.videoClip
+  - Lucid.UI.Gallery.GalleryItemData.videoRenderTexture
+  langs:
+  - csharp
+  - vb
+  name: GalleryItemData
+  nameWithType: GalleryItemData
+  fullName: Lucid.UI.Gallery.GalleryItemData
+  type: Class
+  source:
+    id: GalleryItemData
+    path: ''
+    startLine: 10340
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public class GalleryItemData
+    content.vb: Public Class GalleryItemData
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.UI.Gallery.GalleryItemData.itemName
+  commentId: F:Lucid.UI.Gallery.GalleryItemData.itemName
+  id: itemName
+  parent: Lucid.UI.Gallery.GalleryItemData
+  langs:
+  - csharp
+  - vb
+  name: itemName
+  nameWithType: GalleryItemData.itemName
+  fullName: Lucid.UI.Gallery.GalleryItemData.itemName
+  type: Field
+  source:
+    id: itemName
+    path: ''
+    startLine: 10345
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public string itemName
+    return:
+      type: System.String
+    content.vb: Public itemName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryItemData.type
+  commentId: P:Lucid.UI.Gallery.GalleryItemData.type
+  id: type
+  parent: Lucid.UI.Gallery.GalleryItemData
+  langs:
+  - csharp
+  - vb
+  name: type
+  nameWithType: GalleryItemData.type
+  fullName: Lucid.UI.Gallery.GalleryItemData.type
+  type: Property
+  source:
+    id: type
+    path: ''
+    startLine: 10348
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public GalleryItemData.ItemType type { get; set; }
+    parameters: []
+    return:
+      type: Lucid.UI.Gallery.GalleryItemData.ItemType
+    content.vb: Public Property type As GalleryItemData.ItemType
+  overload: Lucid.UI.Gallery.GalleryItemData.type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryItemData.itemTag
+  commentId: P:Lucid.UI.Gallery.GalleryItemData.itemTag
+  id: itemTag
+  parent: Lucid.UI.Gallery.GalleryItemData
+  langs:
+  - csharp
+  - vb
+  name: itemTag
+  nameWithType: GalleryItemData.itemTag
+  fullName: Lucid.UI.Gallery.GalleryItemData.itemTag
+  type: Property
+  source:
+    id: itemTag
+    path: ''
+    startLine: 10351
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public string itemTag { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property itemTag As String
+  overload: Lucid.UI.Gallery.GalleryItemData.itemTag*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryItemData.sprite
+  commentId: P:Lucid.UI.Gallery.GalleryItemData.sprite
+  id: sprite
+  parent: Lucid.UI.Gallery.GalleryItemData
+  langs:
+  - csharp
+  - vb
+  name: sprite
+  nameWithType: GalleryItemData.sprite
+  fullName: Lucid.UI.Gallery.GalleryItemData.sprite
+  type: Property
+  source:
+    id: sprite
+    path: ''
+    startLine: 10357
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public Sprite sprite { get; set; }
+    parameters: []
+    return:
+      type: Global.Sprite
+    content.vb: Public Property sprite As Sprite
+  overload: Lucid.UI.Gallery.GalleryItemData.sprite*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryItemData.videoClip
+  commentId: P:Lucid.UI.Gallery.GalleryItemData.videoClip
+  id: videoClip
+  parent: Lucid.UI.Gallery.GalleryItemData
+  langs:
+  - csharp
+  - vb
+  name: videoClip
+  nameWithType: GalleryItemData.videoClip
+  fullName: Lucid.UI.Gallery.GalleryItemData.videoClip
+  type: Property
+  source:
+    id: videoClip
+    path: ''
+    startLine: 10365
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public VideoClip videoClip { get; set; }
+    parameters: []
+    return:
+      type: Global.VideoClip
+    content.vb: Public Property videoClip As VideoClip
+  overload: Lucid.UI.Gallery.GalleryItemData.videoClip*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryItemData.videoRenderTexture
+  commentId: P:Lucid.UI.Gallery.GalleryItemData.videoRenderTexture
+  id: videoRenderTexture
+  parent: Lucid.UI.Gallery.GalleryItemData
+  langs:
+  - csharp
+  - vb
+  name: videoRenderTexture
+  nameWithType: GalleryItemData.videoRenderTexture
+  fullName: Lucid.UI.Gallery.GalleryItemData.videoRenderTexture
+  type: Property
+  source:
+    id: videoRenderTexture
+    path: ''
+    startLine: 10369
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public RenderTexture videoRenderTexture { get; set; }
+    parameters: []
+    return:
+      type: Global.RenderTexture
+    content.vb: Public Property videoRenderTexture As RenderTexture
+  overload: Lucid.UI.Gallery.GalleryItemData.videoRenderTexture*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryItemData.loopVideo
+  commentId: P:Lucid.UI.Gallery.GalleryItemData.loopVideo
+  id: loopVideo
+  parent: Lucid.UI.Gallery.GalleryItemData
+  langs:
+  - csharp
+  - vb
+  name: loopVideo
+  nameWithType: GalleryItemData.loopVideo
+  fullName: Lucid.UI.Gallery.GalleryItemData.loopVideo
+  type: Property
+  source:
+    id: loopVideo
+    path: ''
+    startLine: 10373
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public bool loopVideo { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property loopVideo As Boolean
+  overload: Lucid.UI.Gallery.GalleryItemData.loopVideo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryItemData.image360RenderTexture
+  commentId: P:Lucid.UI.Gallery.GalleryItemData.image360RenderTexture
+  id: image360RenderTexture
+  parent: Lucid.UI.Gallery.GalleryItemData
+  langs:
+  - csharp
+  - vb
+  name: image360RenderTexture
+  nameWithType: GalleryItemData.image360RenderTexture
+  fullName: Lucid.UI.Gallery.GalleryItemData.image360RenderTexture
+  type: Property
+  source:
+    id: image360RenderTexture
+    path: ''
+    startLine: 10381
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public RenderTexture image360RenderTexture { get; set; }
+    parameters: []
+    return:
+      type: Global.RenderTexture
+    content.vb: Public Property image360RenderTexture As RenderTexture
+  overload: Lucid.UI.Gallery.GalleryItemData.image360RenderTexture*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryItemData.#ctor
+  commentId: M:Lucid.UI.Gallery.GalleryItemData.#ctor
+  id: '#ctor'
+  parent: Lucid.UI.Gallery.GalleryItemData
+  langs:
+  - csharp
+  - vb
+  name: GalleryItemData()
+  nameWithType: GalleryItemData.GalleryItemData()
+  fullName: Lucid.UI.Gallery.GalleryItemData.GalleryItemData()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 10400
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public GalleryItemData()
+    content.vb: Public Sub New
+  overload: Lucid.UI.Gallery.GalleryItemData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryItemData.#ctor(Sprite,System.String)
+  commentId: M:Lucid.UI.Gallery.GalleryItemData.#ctor(Sprite,System.String)
+  id: '#ctor(Sprite,System.String)'
+  parent: Lucid.UI.Gallery.GalleryItemData
+  langs:
+  - csharp
+  - vb
+  name: GalleryItemData(Sprite, String)
+  nameWithType: GalleryItemData.GalleryItemData(Sprite, String)
+  fullName: Lucid.UI.Gallery.GalleryItemData.GalleryItemData(Sprite, System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 10405
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public GalleryItemData(Sprite sprite, string itemName = null)
+    parameters:
+    - id: sprite
+      type: Global.Sprite
+    - id: itemName
+      type: System.String
+    content.vb: Public Sub New(sprite As Sprite, itemName As String = Nothing)
+  overload: Lucid.UI.Gallery.GalleryItemData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryItemData.#ctor(VideoClip,RenderTexture,System.String)
+  commentId: M:Lucid.UI.Gallery.GalleryItemData.#ctor(VideoClip,RenderTexture,System.String)
+  id: '#ctor(VideoClip,RenderTexture,System.String)'
+  parent: Lucid.UI.Gallery.GalleryItemData
+  langs:
+  - csharp
+  - vb
+  name: GalleryItemData(VideoClip, RenderTexture, String)
+  nameWithType: GalleryItemData.GalleryItemData(VideoClip, RenderTexture, String)
+  fullName: Lucid.UI.Gallery.GalleryItemData.GalleryItemData(VideoClip, RenderTexture, System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 10413
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public GalleryItemData(VideoClip videoClip, RenderTexture videoRenderTexture, string itemName = null)
+    parameters:
+    - id: videoClip
+      type: Global.VideoClip
+    - id: videoRenderTexture
+      type: Global.RenderTexture
+    - id: itemName
+      type: System.String
+    content.vb: Public Sub New(videoClip As VideoClip, videoRenderTexture As RenderTexture, itemName As String = Nothing)
+  overload: Lucid.UI.Gallery.GalleryItemData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryItemData.#ctor(RenderTexture,System.String)
+  commentId: M:Lucid.UI.Gallery.GalleryItemData.#ctor(RenderTexture,System.String)
+  id: '#ctor(RenderTexture,System.String)'
+  parent: Lucid.UI.Gallery.GalleryItemData
+  langs:
+  - csharp
+  - vb
+  name: GalleryItemData(RenderTexture, String)
+  nameWithType: GalleryItemData.GalleryItemData(RenderTexture, String)
+  fullName: Lucid.UI.Gallery.GalleryItemData.GalleryItemData(RenderTexture, System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 10422
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public GalleryItemData(RenderTexture image360RenderTexture, string itemName = null)
+    parameters:
+    - id: image360RenderTexture
+      type: Global.RenderTexture
+    - id: itemName
+      type: System.String
+    content.vb: Public Sub New(image360RenderTexture As RenderTexture, itemName As String = Nothing)
+  overload: Lucid.UI.Gallery.GalleryItemData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.UI.Gallery
+  commentId: N:Lucid.UI.Gallery
+  name: Lucid.UI.Gallery
+  nameWithType: Lucid.UI.Gallery
+  fullName: Lucid.UI.Gallery
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Lucid.UI.Gallery.GalleryItemData.type*
+  commentId: Overload:Lucid.UI.Gallery.GalleryItemData.type
+  name: type
+  nameWithType: GalleryItemData.type
+  fullName: Lucid.UI.Gallery.GalleryItemData.type
+- uid: Lucid.UI.Gallery.GalleryItemData.ItemType
+  commentId: T:Lucid.UI.Gallery.GalleryItemData.ItemType
+  parent: Lucid.UI.Gallery
+  name: GalleryItemData.ItemType
+  nameWithType: GalleryItemData.ItemType
+  fullName: Lucid.UI.Gallery.GalleryItemData.ItemType
+- uid: Lucid.UI.Gallery.GalleryItemData.itemTag*
+  commentId: Overload:Lucid.UI.Gallery.GalleryItemData.itemTag
+  name: itemTag
+  nameWithType: GalleryItemData.itemTag
+  fullName: Lucid.UI.Gallery.GalleryItemData.itemTag
+- uid: Lucid.UI.Gallery.GalleryItemData.sprite*
+  commentId: Overload:Lucid.UI.Gallery.GalleryItemData.sprite
+  name: sprite
+  nameWithType: GalleryItemData.sprite
+  fullName: Lucid.UI.Gallery.GalleryItemData.sprite
+- uid: Global.Sprite
+  isExternal: true
+  name: Sprite
+  nameWithType: Sprite
+  fullName: Sprite
+- uid: Lucid.UI.Gallery.GalleryItemData.videoClip*
+  commentId: Overload:Lucid.UI.Gallery.GalleryItemData.videoClip
+  name: videoClip
+  nameWithType: GalleryItemData.videoClip
+  fullName: Lucid.UI.Gallery.GalleryItemData.videoClip
+- uid: Global.VideoClip
+  isExternal: true
+  name: VideoClip
+  nameWithType: VideoClip
+  fullName: VideoClip
+- uid: Lucid.UI.Gallery.GalleryItemData.videoRenderTexture*
+  commentId: Overload:Lucid.UI.Gallery.GalleryItemData.videoRenderTexture
+  name: videoRenderTexture
+  nameWithType: GalleryItemData.videoRenderTexture
+  fullName: Lucid.UI.Gallery.GalleryItemData.videoRenderTexture
+- uid: Global.RenderTexture
+  isExternal: true
+  name: RenderTexture
+  nameWithType: RenderTexture
+  fullName: RenderTexture
+- uid: Lucid.UI.Gallery.GalleryItemData.loopVideo*
+  commentId: Overload:Lucid.UI.Gallery.GalleryItemData.loopVideo
+  name: loopVideo
+  nameWithType: GalleryItemData.loopVideo
+  fullName: Lucid.UI.Gallery.GalleryItemData.loopVideo
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Lucid.UI.Gallery.GalleryItemData.image360RenderTexture*
+  commentId: Overload:Lucid.UI.Gallery.GalleryItemData.image360RenderTexture
+  name: image360RenderTexture
+  nameWithType: GalleryItemData.image360RenderTexture
+  fullName: Lucid.UI.Gallery.GalleryItemData.image360RenderTexture
+- uid: Lucid.UI.Gallery.GalleryItemData.#ctor*
+  commentId: Overload:Lucid.UI.Gallery.GalleryItemData.#ctor
+  name: GalleryItemData
+  nameWithType: GalleryItemData.GalleryItemData
+  fullName: Lucid.UI.Gallery.GalleryItemData.GalleryItemData

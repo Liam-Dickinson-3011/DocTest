@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Extensions.AIPeople.RoamerAI.RoamData
+  commentId: T:Lucid.Extensions.AIPeople.RoamerAI.RoamData
+  id: RoamerAI.RoamData
+  parent: Lucid.Extensions.AIPeople
+  children:
+  - Lucid.Extensions.AIPeople.RoamerAI.RoamData.destination
+  - Lucid.Extensions.AIPeople.RoamerAI.RoamData.maxWaitTime
+  - Lucid.Extensions.AIPeople.RoamerAI.RoamData.minWaitTime
+  - Lucid.Extensions.AIPeople.RoamerAI.RoamData.waitAtDestination
+  langs:
+  - csharp
+  - vb
+  name: RoamerAI.RoamData
+  nameWithType: RoamerAI.RoamData
+  fullName: Lucid.Extensions.AIPeople.RoamerAI.RoamData
+  type: Class
+  source:
+    id: RoamData
+    path: ''
+    startLine: 5155
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class RoamData
+    content.vb: >-
+      <Serializable>
+
+      Public Class RoamData
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Extensions.AIPeople.RoamerAI.RoamData.destination
+  commentId: F:Lucid.Extensions.AIPeople.RoamerAI.RoamData.destination
+  id: destination
+  parent: Lucid.Extensions.AIPeople.RoamerAI.RoamData
+  langs:
+  - csharp
+  - vb
+  name: destination
+  nameWithType: RoamerAI.RoamData.destination
+  fullName: Lucid.Extensions.AIPeople.RoamerAI.RoamData.destination
+  type: Field
+  source:
+    id: destination
+    path: ''
+    startLine: 5158
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: public Transform destination
+    return:
+      type: Global.Transform
+    content.vb: Public destination As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.AIPeople.RoamerAI.RoamData.waitAtDestination
+  commentId: F:Lucid.Extensions.AIPeople.RoamerAI.RoamData.waitAtDestination
+  id: waitAtDestination
+  parent: Lucid.Extensions.AIPeople.RoamerAI.RoamData
+  langs:
+  - csharp
+  - vb
+  name: waitAtDestination
+  nameWithType: RoamerAI.RoamData.waitAtDestination
+  fullName: Lucid.Extensions.AIPeople.RoamerAI.RoamData.waitAtDestination
+  type: Field
+  source:
+    id: waitAtDestination
+    path: ''
+    startLine: 5159
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: public bool waitAtDestination
+    return:
+      type: System.Boolean
+    content.vb: Public waitAtDestination As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.AIPeople.RoamerAI.RoamData.minWaitTime
+  commentId: F:Lucid.Extensions.AIPeople.RoamerAI.RoamData.minWaitTime
+  id: minWaitTime
+  parent: Lucid.Extensions.AIPeople.RoamerAI.RoamData
+  langs:
+  - csharp
+  - vb
+  name: minWaitTime
+  nameWithType: RoamerAI.RoamData.minWaitTime
+  fullName: Lucid.Extensions.AIPeople.RoamerAI.RoamData.minWaitTime
+  type: Field
+  source:
+    id: minWaitTime
+    path: ''
+    startLine: 5160
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: public float minWaitTime
+    return:
+      type: System.Single
+    content.vb: Public minWaitTime As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.AIPeople.RoamerAI.RoamData.maxWaitTime
+  commentId: F:Lucid.Extensions.AIPeople.RoamerAI.RoamData.maxWaitTime
+  id: maxWaitTime
+  parent: Lucid.Extensions.AIPeople.RoamerAI.RoamData
+  langs:
+  - csharp
+  - vb
+  name: maxWaitTime
+  nameWithType: RoamerAI.RoamData.maxWaitTime
+  fullName: Lucid.Extensions.AIPeople.RoamerAI.RoamData.maxWaitTime
+  type: Field
+  source:
+    id: maxWaitTime
+    path: ''
+    startLine: 5161
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: public float maxWaitTime
+    return:
+      type: System.Single
+    content.vb: Public maxWaitTime As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Extensions.AIPeople
+  commentId: N:Lucid.Extensions.AIPeople
+  name: Lucid.Extensions.AIPeople
+  nameWithType: Lucid.Extensions.AIPeople
+  fullName: Lucid.Extensions.AIPeople
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

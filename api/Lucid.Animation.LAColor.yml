@@ -1,0 +1,206 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Animation.LAColor
+  commentId: T:Lucid.Animation.LAColor
+  id: LAColor
+  parent: Lucid.Animation
+  children:
+  - Lucid.Animation.LAColor.#ctor
+  - Lucid.Animation.LAColor.#ctor(Lucid.Animation.LAColor)
+  - Lucid.Animation.LAColor.color
+  langs:
+  - csharp
+  - vb
+  name: LAColor
+  nameWithType: LAColor
+  fullName: Lucid.Animation.LAColor
+  type: Class
+  source:
+    id: LAColor
+    path: ''
+    startLine: 24350
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class LAColor : LucidAnim
+    content.vb: >-
+      <Serializable>
+
+      Public Class LAColor
+          Inherits LucidAnim
+  inheritance:
+  - System.Object
+  - Lucid.Animation.LucidAnim
+  inheritedMembers:
+  - Lucid.Animation.LucidAnim.startDelay
+  - Lucid.Animation.LucidAnim.duration
+  - Lucid.Animation.LucidAnim.speedBased
+  - Lucid.Animation.LucidAnim.ease
+  - Lucid.Animation.LucidAnim.inCollection
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Animation.LAColor.color
+  commentId: F:Lucid.Animation.LAColor.color
+  id: color
+  parent: Lucid.Animation.LAColor
+  langs:
+  - csharp
+  - vb
+  name: color
+  nameWithType: LAColor.color
+  fullName: Lucid.Animation.LAColor.color
+  type: Field
+  source:
+    id: color
+    path: ''
+    startLine: 24356
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public Color color
+    return:
+      type: Global.Color
+    content.vb: Public color As Color
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAColor.#ctor
+  commentId: M:Lucid.Animation.LAColor.#ctor
+  id: '#ctor'
+  parent: Lucid.Animation.LAColor
+  langs:
+  - csharp
+  - vb
+  name: LAColor()
+  nameWithType: LAColor.LAColor()
+  fullName: Lucid.Animation.LAColor.LAColor()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 24358
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAColor()
+    content.vb: Public Sub New
+  overload: Lucid.Animation.LAColor.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAColor.#ctor(Lucid.Animation.LAColor)
+  commentId: M:Lucid.Animation.LAColor.#ctor(Lucid.Animation.LAColor)
+  id: '#ctor(Lucid.Animation.LAColor)'
+  parent: Lucid.Animation.LAColor
+  langs:
+  - csharp
+  - vb
+  name: LAColor(LAColor)
+  nameWithType: LAColor.LAColor(LAColor)
+  fullName: Lucid.Animation.LAColor.LAColor(Lucid.Animation.LAColor)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 24363
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAColor(LAColor copy)
+    parameters:
+    - id: copy
+      type: Lucid.Animation.LAColor
+    content.vb: Public Sub New(copy As LAColor)
+  overload: Lucid.Animation.LAColor.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Animation
+  commentId: N:Lucid.Animation
+  name: Lucid.Animation
+  nameWithType: Lucid.Animation
+  fullName: Lucid.Animation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Lucid.Animation.LucidAnim
+  commentId: T:Lucid.Animation.LucidAnim
+  parent: Lucid.Animation
+  name: LucidAnim
+  nameWithType: LucidAnim
+  fullName: Lucid.Animation.LucidAnim
+- uid: Lucid.Animation.LucidAnim.startDelay
+  commentId: F:Lucid.Animation.LucidAnim.startDelay
+  parent: Lucid.Animation.LucidAnim
+  name: startDelay
+  nameWithType: LucidAnim.startDelay
+  fullName: Lucid.Animation.LucidAnim.startDelay
+- uid: Lucid.Animation.LucidAnim.duration
+  commentId: F:Lucid.Animation.LucidAnim.duration
+  parent: Lucid.Animation.LucidAnim
+  name: duration
+  nameWithType: LucidAnim.duration
+  fullName: Lucid.Animation.LucidAnim.duration
+- uid: Lucid.Animation.LucidAnim.speedBased
+  commentId: F:Lucid.Animation.LucidAnim.speedBased
+  parent: Lucid.Animation.LucidAnim
+  name: speedBased
+  nameWithType: LucidAnim.speedBased
+  fullName: Lucid.Animation.LucidAnim.speedBased
+- uid: Lucid.Animation.LucidAnim.ease
+  commentId: F:Lucid.Animation.LucidAnim.ease
+  parent: Lucid.Animation.LucidAnim
+  name: ease
+  nameWithType: LucidAnim.ease
+  fullName: Lucid.Animation.LucidAnim.ease
+- uid: Lucid.Animation.LucidAnim.inCollection
+  commentId: F:Lucid.Animation.LucidAnim.inCollection
+  parent: Lucid.Animation.LucidAnim
+  name: inCollection
+  nameWithType: LucidAnim.inCollection
+  fullName: Lucid.Animation.LucidAnim.inCollection
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Color
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: Color
+- uid: Lucid.Animation.LAColor.#ctor*
+  commentId: Overload:Lucid.Animation.LAColor.#ctor
+  name: LAColor
+  nameWithType: LAColor.LAColor
+  fullName: Lucid.Animation.LAColor.LAColor
+- uid: Lucid.Animation.LAColor
+  commentId: T:Lucid.Animation.LAColor
+  parent: Lucid.Animation
+  name: LAColor
+  nameWithType: LAColor
+  fullName: Lucid.Animation.LAColor

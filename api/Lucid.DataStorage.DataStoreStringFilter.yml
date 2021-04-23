@@ -1,0 +1,469 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.DataStorage.DataStoreStringFilter
+  commentId: T:Lucid.DataStorage.DataStoreStringFilter
+  id: DataStoreStringFilter
+  parent: Lucid.DataStorage
+  children:
+  - Lucid.DataStorage.DataStoreStringFilter.applyFilter
+  - Lucid.DataStorage.DataStoreStringFilter.equalityType
+  - Lucid.DataStorage.DataStoreStringFilter.Evaluate(System.Object)
+  - Lucid.DataStorage.DataStoreStringFilter.Evaluate(System.String)
+  - Lucid.DataStorage.DataStoreStringFilter.filterKey
+  - Lucid.DataStorage.DataStoreStringFilter.filterName
+  - Lucid.DataStorage.DataStoreStringFilter.OnFilterApplied
+  - Lucid.DataStorage.DataStoreStringFilter.OnFilterValueChanged
+  - Lucid.DataStorage.DataStoreStringFilter.value
+  langs:
+  - csharp
+  - vb
+  name: DataStoreStringFilter
+  nameWithType: DataStoreStringFilter
+  fullName: Lucid.DataStorage.DataStoreStringFilter
+  type: Class
+  source:
+    id: DataStoreStringFilter
+    path: ''
+    startLine: 15234
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: 'public class DataStoreStringFilter : ScriptableObject, IDataStoreFilter'
+    content.vb: >-
+      Public Class DataStoreStringFilter
+          Inherits ScriptableObject
+          Implements IDataStoreFilter
+  inheritance:
+  - System.Object
+  implements:
+  - Lucid.DataStorage.IDataStoreFilter
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.DataStorage.DataStoreStringFilter.filterName
+  commentId: P:Lucid.DataStorage.DataStoreStringFilter.filterName
+  id: filterName
+  parent: Lucid.DataStorage.DataStoreStringFilter
+  langs:
+  - csharp
+  - vb
+  name: filterName
+  nameWithType: DataStoreStringFilter.filterName
+  fullName: Lucid.DataStorage.DataStoreStringFilter.filterName
+  type: Property
+  source:
+    id: filterName
+    path: ''
+    startLine: 15239
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public string filterName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property filterName As String
+  overload: Lucid.DataStorage.DataStoreStringFilter.filterName*
+  implements:
+  - Lucid.DataStorage.IDataStoreFilter.filterName
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.DataStorage.DataStoreStringFilter.filterKey
+  commentId: P:Lucid.DataStorage.DataStoreStringFilter.filterKey
+  id: filterKey
+  parent: Lucid.DataStorage.DataStoreStringFilter
+  langs:
+  - csharp
+  - vb
+  name: filterKey
+  nameWithType: DataStoreStringFilter.filterKey
+  fullName: Lucid.DataStorage.DataStoreStringFilter.filterKey
+  type: Property
+  source:
+    id: filterKey
+    path: ''
+    startLine: 15248
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public string filterKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property filterKey As String
+  overload: Lucid.DataStorage.DataStoreStringFilter.filterKey*
+  implements:
+  - Lucid.DataStorage.IDataStoreFilter.filterKey
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.DataStorage.DataStoreStringFilter.applyFilter
+  commentId: P:Lucid.DataStorage.DataStoreStringFilter.applyFilter
+  id: applyFilter
+  parent: Lucid.DataStorage.DataStoreStringFilter
+  langs:
+  - csharp
+  - vb
+  name: applyFilter
+  nameWithType: DataStoreStringFilter.applyFilter
+  fullName: Lucid.DataStorage.DataStoreStringFilter.applyFilter
+  type: Property
+  source:
+    id: applyFilter
+    path: ''
+    startLine: 15257
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public bool applyFilter { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property applyFilter As Boolean
+  overload: Lucid.DataStorage.DataStoreStringFilter.applyFilter*
+  implements:
+  - Lucid.DataStorage.IDataStoreFilter.applyFilter
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.DataStorage.DataStoreStringFilter.OnFilterApplied
+  commentId: E:Lucid.DataStorage.DataStoreStringFilter.OnFilterApplied
+  id: OnFilterApplied
+  parent: Lucid.DataStorage.DataStoreStringFilter
+  langs:
+  - csharp
+  - vb
+  name: OnFilterApplied
+  nameWithType: DataStoreStringFilter.OnFilterApplied
+  fullName: Lucid.DataStorage.DataStoreStringFilter.OnFilterApplied
+  type: Event
+  source:
+    id: OnFilterApplied
+    path: ''
+    startLine: 15269
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public event EventHandler OnFilterApplied
+    return:
+      type: Global.EventHandler
+    content.vb: Public Event OnFilterApplied As EventHandler
+  implements:
+  - Lucid.DataStorage.IDataStoreFilter.OnFilterApplied
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.DataStorage.DataStoreStringFilter.equalityType
+  commentId: F:Lucid.DataStorage.DataStoreStringFilter.equalityType
+  id: equalityType
+  parent: Lucid.DataStorage.DataStoreStringFilter
+  langs:
+  - csharp
+  - vb
+  name: equalityType
+  nameWithType: DataStoreStringFilter.equalityType
+  fullName: Lucid.DataStorage.DataStoreStringFilter.equalityType
+  type: Field
+  source:
+    id: equalityType
+    path: ''
+    startLine: 15278
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public DataStoreStringFilter.EqualityType equalityType
+    return:
+      type: Lucid.DataStorage.DataStoreStringFilter.EqualityType
+    content.vb: Public equalityType As DataStoreStringFilter.EqualityType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.DataStorage.DataStoreStringFilter.value
+  commentId: P:Lucid.DataStorage.DataStoreStringFilter.value
+  id: value
+  parent: Lucid.DataStorage.DataStoreStringFilter
+  langs:
+  - csharp
+  - vb
+  name: value
+  nameWithType: DataStoreStringFilter.value
+  fullName: Lucid.DataStorage.DataStoreStringFilter.value
+  type: Property
+  source:
+    id: value
+    path: ''
+    startLine: 15282
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public string value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property value As String
+  overload: Lucid.DataStorage.DataStoreStringFilter.value*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.DataStorage.DataStoreStringFilter.OnFilterValueChanged
+  commentId: E:Lucid.DataStorage.DataStoreStringFilter.OnFilterValueChanged
+  id: OnFilterValueChanged
+  parent: Lucid.DataStorage.DataStoreStringFilter
+  langs:
+  - csharp
+  - vb
+  name: OnFilterValueChanged
+  nameWithType: DataStoreStringFilter.OnFilterValueChanged
+  fullName: Lucid.DataStorage.DataStoreStringFilter.OnFilterValueChanged
+  type: Event
+  source:
+    id: OnFilterValueChanged
+    path: ''
+    startLine: 15294
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public event EventHandler OnFilterValueChanged
+    return:
+      type: Global.EventHandler
+    content.vb: Public Event OnFilterValueChanged As EventHandler
+  implements:
+  - Lucid.DataStorage.IDataStoreFilter.OnFilterValueChanged
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.DataStorage.DataStoreStringFilter.Evaluate(System.Object)
+  commentId: M:Lucid.DataStorage.DataStoreStringFilter.Evaluate(System.Object)
+  id: Evaluate(System.Object)
+  parent: Lucid.DataStorage.DataStoreStringFilter
+  langs:
+  - csharp
+  - vb
+  name: Evaluate(Object)
+  nameWithType: DataStoreStringFilter.Evaluate(Object)
+  fullName: Lucid.DataStorage.DataStoreStringFilter.Evaluate(System.Object)
+  type: Method
+  source:
+    id: Evaluate
+    path: ''
+    startLine: 15296
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public bool Evaluate(object comparison)
+    parameters:
+    - id: comparison
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Function Evaluate(comparison As Object) As Boolean
+  overload: Lucid.DataStorage.DataStoreStringFilter.Evaluate*
+  implements:
+  - Lucid.DataStorage.IDataStoreFilter.Evaluate(System.Object)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.DataStorage.DataStoreStringFilter.Evaluate(System.String)
+  commentId: M:Lucid.DataStorage.DataStoreStringFilter.Evaluate(System.String)
+  id: Evaluate(System.String)
+  parent: Lucid.DataStorage.DataStoreStringFilter
+  langs:
+  - csharp
+  - vb
+  name: Evaluate(String)
+  nameWithType: DataStoreStringFilter.Evaluate(String)
+  fullName: Lucid.DataStorage.DataStoreStringFilter.Evaluate(System.String)
+  type: Method
+  source:
+    id: Evaluate
+    path: ''
+    startLine: 15324
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public bool Evaluate(string comparison)
+    parameters:
+    - id: comparison
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function Evaluate(comparison As String) As Boolean
+  overload: Lucid.DataStorage.DataStoreStringFilter.Evaluate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.DataStorage
+  commentId: N:Lucid.DataStorage
+  name: Lucid.DataStorage
+  nameWithType: Lucid.DataStorage
+  fullName: Lucid.DataStorage
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Lucid.DataStorage.IDataStoreFilter
+  commentId: T:Lucid.DataStorage.IDataStoreFilter
+  parent: Lucid.DataStorage
+  name: IDataStoreFilter
+  nameWithType: IDataStoreFilter
+  fullName: Lucid.DataStorage.IDataStoreFilter
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.DataStorage.DataStoreStringFilter.filterName*
+  commentId: Overload:Lucid.DataStorage.DataStoreStringFilter.filterName
+  name: filterName
+  nameWithType: DataStoreStringFilter.filterName
+  fullName: Lucid.DataStorage.DataStoreStringFilter.filterName
+- uid: Lucid.DataStorage.IDataStoreFilter.filterName
+  commentId: P:Lucid.DataStorage.IDataStoreFilter.filterName
+  parent: Lucid.DataStorage.IDataStoreFilter
+  name: filterName
+  nameWithType: IDataStoreFilter.filterName
+  fullName: Lucid.DataStorage.IDataStoreFilter.filterName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Lucid.DataStorage.DataStoreStringFilter.filterKey*
+  commentId: Overload:Lucid.DataStorage.DataStoreStringFilter.filterKey
+  name: filterKey
+  nameWithType: DataStoreStringFilter.filterKey
+  fullName: Lucid.DataStorage.DataStoreStringFilter.filterKey
+- uid: Lucid.DataStorage.IDataStoreFilter.filterKey
+  commentId: P:Lucid.DataStorage.IDataStoreFilter.filterKey
+  parent: Lucid.DataStorage.IDataStoreFilter
+  name: filterKey
+  nameWithType: IDataStoreFilter.filterKey
+  fullName: Lucid.DataStorage.IDataStoreFilter.filterKey
+- uid: Lucid.DataStorage.DataStoreStringFilter.applyFilter*
+  commentId: Overload:Lucid.DataStorage.DataStoreStringFilter.applyFilter
+  name: applyFilter
+  nameWithType: DataStoreStringFilter.applyFilter
+  fullName: Lucid.DataStorage.DataStoreStringFilter.applyFilter
+- uid: Lucid.DataStorage.IDataStoreFilter.applyFilter
+  commentId: P:Lucid.DataStorage.IDataStoreFilter.applyFilter
+  parent: Lucid.DataStorage.IDataStoreFilter
+  name: applyFilter
+  nameWithType: IDataStoreFilter.applyFilter
+  fullName: Lucid.DataStorage.IDataStoreFilter.applyFilter
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Lucid.DataStorage.IDataStoreFilter.OnFilterApplied
+  commentId: E:Lucid.DataStorage.IDataStoreFilter.OnFilterApplied
+  parent: Lucid.DataStorage.IDataStoreFilter
+  name: OnFilterApplied
+  nameWithType: IDataStoreFilter.OnFilterApplied
+  fullName: Lucid.DataStorage.IDataStoreFilter.OnFilterApplied
+- uid: Global.EventHandler
+  isExternal: true
+  name: EventHandler
+  nameWithType: EventHandler
+  fullName: EventHandler
+- uid: Lucid.DataStorage.DataStoreStringFilter.EqualityType
+  commentId: T:Lucid.DataStorage.DataStoreStringFilter.EqualityType
+  parent: Lucid.DataStorage
+  name: DataStoreStringFilter.EqualityType
+  nameWithType: DataStoreStringFilter.EqualityType
+  fullName: Lucid.DataStorage.DataStoreStringFilter.EqualityType
+- uid: Lucid.DataStorage.DataStoreStringFilter.value*
+  commentId: Overload:Lucid.DataStorage.DataStoreStringFilter.value
+  name: value
+  nameWithType: DataStoreStringFilter.value
+  fullName: Lucid.DataStorage.DataStoreStringFilter.value
+- uid: Lucid.DataStorage.IDataStoreFilter.OnFilterValueChanged
+  commentId: E:Lucid.DataStorage.IDataStoreFilter.OnFilterValueChanged
+  parent: Lucid.DataStorage.IDataStoreFilter
+  name: OnFilterValueChanged
+  nameWithType: IDataStoreFilter.OnFilterValueChanged
+  fullName: Lucid.DataStorage.IDataStoreFilter.OnFilterValueChanged
+- uid: Lucid.DataStorage.DataStoreStringFilter.Evaluate*
+  commentId: Overload:Lucid.DataStorage.DataStoreStringFilter.Evaluate
+  name: Evaluate
+  nameWithType: DataStoreStringFilter.Evaluate
+  fullName: Lucid.DataStorage.DataStoreStringFilter.Evaluate
+- uid: Lucid.DataStorage.IDataStoreFilter.Evaluate(System.Object)
+  commentId: M:Lucid.DataStorage.IDataStoreFilter.Evaluate(System.Object)
+  parent: Lucid.DataStorage.IDataStoreFilter
+  isExternal: true
+  name: Evaluate(Object)
+  nameWithType: IDataStoreFilter.Evaluate(Object)
+  fullName: Lucid.DataStorage.IDataStoreFilter.Evaluate(System.Object)
+  spec.csharp:
+  - uid: Lucid.DataStorage.IDataStoreFilter.Evaluate(System.Object)
+    name: Evaluate
+    nameWithType: IDataStoreFilter.Evaluate
+    fullName: Lucid.DataStorage.IDataStoreFilter.Evaluate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.DataStorage.IDataStoreFilter.Evaluate(System.Object)
+    name: Evaluate
+    nameWithType: IDataStoreFilter.Evaluate
+    fullName: Lucid.DataStorage.IDataStoreFilter.Evaluate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

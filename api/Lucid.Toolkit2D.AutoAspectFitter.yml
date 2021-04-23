@@ -1,0 +1,214 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Toolkit2D.AutoAspectFitter
+  commentId: T:Lucid.Toolkit2D.AutoAspectFitter
+  id: AutoAspectFitter
+  parent: Lucid.Toolkit2D
+  children:
+  - Lucid.Toolkit2D.AutoAspectFitter.aspectFitter
+  - Lucid.Toolkit2D.AutoAspectFitter.aspectRatio
+  - Lucid.Toolkit2D.AutoAspectFitter.Fit
+  - Lucid.Toolkit2D.AutoAspectFitter.image
+  langs:
+  - csharp
+  - vb
+  name: AutoAspectFitter
+  nameWithType: AutoAspectFitter
+  fullName: Lucid.Toolkit2D.AutoAspectFitter
+  type: Class
+  source:
+    id: AutoAspectFitter
+    path: ''
+    startLine: 20499
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: 'public class AutoAspectFitter : MonoBehaviour'
+    content.vb: >-
+      Public Class AutoAspectFitter
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Toolkit2D.AutoAspectFitter.image
+  commentId: P:Lucid.Toolkit2D.AutoAspectFitter.image
+  id: image
+  parent: Lucid.Toolkit2D.AutoAspectFitter
+  langs:
+  - csharp
+  - vb
+  name: image
+  nameWithType: AutoAspectFitter.image
+  fullName: Lucid.Toolkit2D.AutoAspectFitter.image
+  type: Property
+  source:
+    id: image
+    path: ''
+    startLine: 20505
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public Image image { get; }
+    parameters: []
+    return:
+      type: Global.Image
+    content.vb: Public ReadOnly Property image As Image
+  overload: Lucid.Toolkit2D.AutoAspectFitter.image*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Lucid.Toolkit2D.AutoAspectFitter.aspectFitter
+  commentId: P:Lucid.Toolkit2D.AutoAspectFitter.aspectFitter
+  id: aspectFitter
+  parent: Lucid.Toolkit2D.AutoAspectFitter
+  langs:
+  - csharp
+  - vb
+  name: aspectFitter
+  nameWithType: AutoAspectFitter.aspectFitter
+  fullName: Lucid.Toolkit2D.AutoAspectFitter.aspectFitter
+  type: Property
+  source:
+    id: aspectFitter
+    path: ''
+    startLine: 20508
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public AspectRatioFitter aspectFitter { get; }
+    parameters: []
+    return:
+      type: Global.AspectRatioFitter
+    content.vb: Public ReadOnly Property aspectFitter As AspectRatioFitter
+  overload: Lucid.Toolkit2D.AutoAspectFitter.aspectFitter*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Lucid.Toolkit2D.AutoAspectFitter.aspectRatio
+  commentId: P:Lucid.Toolkit2D.AutoAspectFitter.aspectRatio
+  id: aspectRatio
+  parent: Lucid.Toolkit2D.AutoAspectFitter
+  langs:
+  - csharp
+  - vb
+  name: aspectRatio
+  nameWithType: AutoAspectFitter.aspectRatio
+  fullName: Lucid.Toolkit2D.AutoAspectFitter.aspectRatio
+  type: Property
+  source:
+    id: aspectRatio
+    path: ''
+    startLine: 20511
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public float aspectRatio { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property aspectRatio As Single
+  overload: Lucid.Toolkit2D.AutoAspectFitter.aspectRatio*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Lucid.Toolkit2D.AutoAspectFitter.Fit
+  commentId: M:Lucid.Toolkit2D.AutoAspectFitter.Fit
+  id: Fit
+  parent: Lucid.Toolkit2D.AutoAspectFitter
+  langs:
+  - csharp
+  - vb
+  name: Fit()
+  nameWithType: AutoAspectFitter.Fit()
+  fullName: Lucid.Toolkit2D.AutoAspectFitter.Fit()
+  type: Method
+  source:
+    id: Fit
+    path: ''
+    startLine: 20522
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public void Fit()
+    content.vb: Public Sub Fit
+  overload: Lucid.Toolkit2D.AutoAspectFitter.Fit*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Toolkit2D
+  commentId: N:Lucid.Toolkit2D
+  name: Lucid.Toolkit2D
+  nameWithType: Lucid.Toolkit2D
+  fullName: Lucid.Toolkit2D
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.Toolkit2D.AutoAspectFitter.image*
+  commentId: Overload:Lucid.Toolkit2D.AutoAspectFitter.image
+  name: image
+  nameWithType: AutoAspectFitter.image
+  fullName: Lucid.Toolkit2D.AutoAspectFitter.image
+- uid: Global.Image
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: Image
+- uid: Lucid.Toolkit2D.AutoAspectFitter.aspectFitter*
+  commentId: Overload:Lucid.Toolkit2D.AutoAspectFitter.aspectFitter
+  name: aspectFitter
+  nameWithType: AutoAspectFitter.aspectFitter
+  fullName: Lucid.Toolkit2D.AutoAspectFitter.aspectFitter
+- uid: Global.AspectRatioFitter
+  commentId: '!:Global.AspectRatioFitter'
+  isExternal: true
+  name: AspectRatioFitter
+  nameWithType: AspectRatioFitter
+  fullName: AspectRatioFitter
+- uid: Lucid.Toolkit2D.AutoAspectFitter.aspectRatio*
+  commentId: Overload:Lucid.Toolkit2D.AutoAspectFitter.aspectRatio
+  name: aspectRatio
+  nameWithType: AutoAspectFitter.aspectRatio
+  fullName: Lucid.Toolkit2D.AutoAspectFitter.aspectRatio
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Lucid.Toolkit2D.AutoAspectFitter.Fit*
+  commentId: Overload:Lucid.Toolkit2D.AutoAspectFitter.Fit
+  name: Fit
+  nameWithType: AutoAspectFitter.Fit
+  fullName: Lucid.Toolkit2D.AutoAspectFitter.Fit

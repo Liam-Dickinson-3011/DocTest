@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Toolkit2D
+  commentId: N:Lucid.Toolkit2D
+  id: Lucid.Toolkit2D
+  children:
+  - Lucid.Toolkit2D.AutoAspectFitter
+  - Lucid.Toolkit2D.SwipeDetection
+  - Lucid.Toolkit2D.SwipeDetection.DragDistanceType
+  - Lucid.Toolkit2D.SwipeDetection.DraggedDirection
+  - Lucid.Toolkit2D.ToggleGroupEvents
+  - Lucid.Toolkit2D.WorldToScreenTracking
+  - Lucid.Toolkit2D.WorldToScreenTracking.TrackingSet
+  langs:
+  - csharp
+  - vb
+  name: Lucid.Toolkit2D
+  nameWithType: Lucid.Toolkit2D
+  fullName: Lucid.Toolkit2D
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Lucid.Toolkit2D.ToggleGroupEvents
+  commentId: T:Lucid.Toolkit2D.ToggleGroupEvents
+  name: ToggleGroupEvents
+  nameWithType: ToggleGroupEvents
+  fullName: Lucid.Toolkit2D.ToggleGroupEvents
+- uid: Lucid.Toolkit2D.AutoAspectFitter
+  commentId: T:Lucid.Toolkit2D.AutoAspectFitter
+  name: AutoAspectFitter
+  nameWithType: AutoAspectFitter
+  fullName: Lucid.Toolkit2D.AutoAspectFitter
+- uid: Lucid.Toolkit2D.SwipeDetection
+  commentId: T:Lucid.Toolkit2D.SwipeDetection
+  name: SwipeDetection
+  nameWithType: SwipeDetection
+  fullName: Lucid.Toolkit2D.SwipeDetection
+- uid: Lucid.Toolkit2D.SwipeDetection.DragDistanceType
+  commentId: T:Lucid.Toolkit2D.SwipeDetection.DragDistanceType
+  parent: Lucid.Toolkit2D
+  name: SwipeDetection.DragDistanceType
+  nameWithType: SwipeDetection.DragDistanceType
+  fullName: Lucid.Toolkit2D.SwipeDetection.DragDistanceType
+- uid: Lucid.Toolkit2D.SwipeDetection.DraggedDirection
+  commentId: T:Lucid.Toolkit2D.SwipeDetection.DraggedDirection
+  parent: Lucid.Toolkit2D
+  name: SwipeDetection.DraggedDirection
+  nameWithType: SwipeDetection.DraggedDirection
+  fullName: Lucid.Toolkit2D.SwipeDetection.DraggedDirection
+- uid: Lucid.Toolkit2D.WorldToScreenTracking
+  commentId: T:Lucid.Toolkit2D.WorldToScreenTracking
+  name: WorldToScreenTracking
+  nameWithType: WorldToScreenTracking
+  fullName: Lucid.Toolkit2D.WorldToScreenTracking
+- uid: Lucid.Toolkit2D.WorldToScreenTracking.TrackingSet
+  commentId: T:Lucid.Toolkit2D.WorldToScreenTracking.TrackingSet
+  name: WorldToScreenTracking.TrackingSet
+  nameWithType: WorldToScreenTracking.TrackingSet
+  fullName: Lucid.Toolkit2D.WorldToScreenTracking.TrackingSet
+- uid: Lucid.Toolkit2D
+  commentId: N:Lucid.Toolkit2D
+  name: Lucid.Toolkit2D
+  nameWithType: Lucid.Toolkit2D
+  fullName: Lucid.Toolkit2D

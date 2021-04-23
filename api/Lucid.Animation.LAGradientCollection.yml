@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Animation.LAGradientCollection
+  commentId: T:Lucid.Animation.LAGradientCollection
+  id: LAGradientCollection
+  parent: Lucid.Animation
+  children:
+  - Lucid.Animation.LAGradientCollection.#ctor
+  - Lucid.Animation.LAGradientCollection.#ctor(Lucid.Animation.LAGradientCollection)
+  - Lucid.Animation.LAGradientCollection.OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  langs:
+  - csharp
+  - vb
+  name: LAGradientCollection
+  nameWithType: LAGradientCollection
+  fullName: Lucid.Animation.LAGradientCollection
+  type: Class
+  source:
+    id: LAGradientCollection
+    path: ''
+    startLine: 24418
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class LAGradientCollection : ObservableCollection<LAGradient>, INotifyCollectionChanged, INotifyPropertyChanged
+    content.vb: >-
+      <Serializable>
+
+      Public Class LAGradientCollection
+          Inherits ObservableCollection(Of LAGradient)
+          Implements INotifyCollectionChanged, INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Animation.LAGradientCollection.#ctor
+  commentId: M:Lucid.Animation.LAGradientCollection.#ctor
+  id: '#ctor'
+  parent: Lucid.Animation.LAGradientCollection
+  langs:
+  - csharp
+  - vb
+  name: LAGradientCollection()
+  nameWithType: LAGradientCollection.LAGradientCollection()
+  fullName: Lucid.Animation.LAGradientCollection.LAGradientCollection()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 24421
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAGradientCollection()
+    content.vb: Public Sub New
+  overload: Lucid.Animation.LAGradientCollection.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAGradientCollection.#ctor(Lucid.Animation.LAGradientCollection)
+  commentId: M:Lucid.Animation.LAGradientCollection.#ctor(Lucid.Animation.LAGradientCollection)
+  id: '#ctor(Lucid.Animation.LAGradientCollection)'
+  parent: Lucid.Animation.LAGradientCollection
+  langs:
+  - csharp
+  - vb
+  name: LAGradientCollection(LAGradientCollection)
+  nameWithType: LAGradientCollection.LAGradientCollection(LAGradientCollection)
+  fullName: Lucid.Animation.LAGradientCollection.LAGradientCollection(Lucid.Animation.LAGradientCollection)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 24422
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAGradientCollection(LAGradientCollection copy)
+    parameters:
+    - id: copy
+      type: Lucid.Animation.LAGradientCollection
+    content.vb: Public Sub New(copy As LAGradientCollection)
+  overload: Lucid.Animation.LAGradientCollection.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAGradientCollection.OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  commentId: M:Lucid.Animation.LAGradientCollection.OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  id: OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  parent: Lucid.Animation.LAGradientCollection
+  langs:
+  - csharp
+  - vb
+  name: OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  nameWithType: LAGradientCollection.OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  fullName: Lucid.Animation.LAGradientCollection.OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  type: Method
+  source:
+    id: OnCollectionChanged
+    path: ''
+    startLine: 24430
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: protected override void OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+    parameters:
+    - id: e
+      type: Global.NotifyCollectionChangedEventArgs
+    content.vb: Protected Overrides Sub OnCollectionChanged(e As NotifyCollectionChangedEventArgs)
+  overload: Lucid.Animation.LAGradientCollection.OnCollectionChanged*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Lucid.Animation
+  commentId: N:Lucid.Animation
+  name: Lucid.Animation
+  nameWithType: Lucid.Animation
+  fullName: Lucid.Animation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.Animation.LAGradientCollection.#ctor*
+  commentId: Overload:Lucid.Animation.LAGradientCollection.#ctor
+  name: LAGradientCollection
+  nameWithType: LAGradientCollection.LAGradientCollection
+  fullName: Lucid.Animation.LAGradientCollection.LAGradientCollection
+- uid: Lucid.Animation.LAGradientCollection
+  commentId: T:Lucid.Animation.LAGradientCollection
+  parent: Lucid.Animation
+  name: LAGradientCollection
+  nameWithType: LAGradientCollection
+  fullName: Lucid.Animation.LAGradientCollection
+- uid: Lucid.Animation.LAGradientCollection.OnCollectionChanged*
+  commentId: Overload:Lucid.Animation.LAGradientCollection.OnCollectionChanged
+  name: OnCollectionChanged
+  nameWithType: LAGradientCollection.OnCollectionChanged
+  fullName: Lucid.Animation.LAGradientCollection.OnCollectionChanged
+- uid: Global.NotifyCollectionChangedEventArgs
+  isExternal: true
+  name: NotifyCollectionChangedEventArgs
+  nameWithType: NotifyCollectionChangedEventArgs
+  fullName: NotifyCollectionChangedEventArgs

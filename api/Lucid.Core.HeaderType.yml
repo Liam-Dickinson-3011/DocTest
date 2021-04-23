@@ -1,0 +1,168 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Core.HeaderType
+  commentId: T:Lucid.Core.HeaderType
+  id: HeaderType
+  parent: Lucid.Core
+  children:
+  - Lucid.Core.HeaderType.Button
+  - Lucid.Core.HeaderType.Image
+  - Lucid.Core.HeaderType.LogoButton
+  - Lucid.Core.HeaderType.Text
+  langs:
+  - csharp
+  - vb
+  name: HeaderType
+  nameWithType: HeaderType
+  fullName: Lucid.Core.HeaderType
+  type: Enum
+  source:
+    id: HeaderType
+    path: ''
+    startLine: 5732
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: >-
+      [Serializable]
+
+      public enum HeaderType
+    content.vb: >-
+      <Serializable>
+
+      Public Enum HeaderType
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Lucid.Core.HeaderType.Text
+  commentId: F:Lucid.Core.HeaderType.Text
+  id: Text
+  parent: Lucid.Core.HeaderType
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: HeaderType.Text
+  fullName: Lucid.Core.HeaderType.Text
+  type: Field
+  source:
+    id: Text
+    path: ''
+    startLine: 5733
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: Text = 0
+    return:
+      type: Lucid.Core.HeaderType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Core.HeaderType.Image
+  commentId: F:Lucid.Core.HeaderType.Image
+  id: Image
+  parent: Lucid.Core.HeaderType
+  langs:
+  - csharp
+  - vb
+  name: Image
+  nameWithType: HeaderType.Image
+  fullName: Lucid.Core.HeaderType.Image
+  type: Field
+  source:
+    id: Image
+    path: ''
+    startLine: 5733
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: Image = 1
+    return:
+      type: Lucid.Core.HeaderType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Core.HeaderType.Button
+  commentId: F:Lucid.Core.HeaderType.Button
+  id: Button
+  parent: Lucid.Core.HeaderType
+  langs:
+  - csharp
+  - vb
+  name: Button
+  nameWithType: HeaderType.Button
+  fullName: Lucid.Core.HeaderType.Button
+  type: Field
+  source:
+    id: Button
+    path: ''
+    startLine: 5733
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: Button = 2
+    return:
+      type: Lucid.Core.HeaderType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Core.HeaderType.LogoButton
+  commentId: F:Lucid.Core.HeaderType.LogoButton
+  id: LogoButton
+  parent: Lucid.Core.HeaderType
+  langs:
+  - csharp
+  - vb
+  name: LogoButton
+  nameWithType: HeaderType.LogoButton
+  fullName: Lucid.Core.HeaderType.LogoButton
+  type: Field
+  source:
+    id: LogoButton
+    path: ''
+    startLine: 5733
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: LogoButton = 3
+    return:
+      type: Lucid.Core.HeaderType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Lucid.Core
+  commentId: N:Lucid.Core
+  name: Lucid.Core
+  nameWithType: Lucid.Core
+  fullName: Lucid.Core
+- uid: Lucid.Core.HeaderType
+  commentId: T:Lucid.Core.HeaderType
+  parent: Lucid.Core
+  name: HeaderType
+  nameWithType: HeaderType
+  fullName: Lucid.Core.HeaderType

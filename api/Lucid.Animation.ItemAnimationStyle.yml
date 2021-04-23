@@ -1,0 +1,122 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Animation.ItemAnimationStyle
+  commentId: T:Lucid.Animation.ItemAnimationStyle
+  id: ItemAnimationStyle
+  parent: Lucid.Animation
+  children:
+  - Lucid.Animation.ItemAnimationStyle.anim
+  - Lucid.Animation.ItemAnimationStyle.styleName
+  langs:
+  - csharp
+  - vb
+  name: ItemAnimationStyle
+  nameWithType: ItemAnimationStyle
+  fullName: Lucid.Animation.ItemAnimationStyle
+  type: Class
+  source:
+    id: ItemAnimationStyle
+    path: ''
+    startLine: 25409
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: 'public class ItemAnimationStyle : ScriptableObject'
+    content.vb: >-
+      Public Class ItemAnimationStyle
+          Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Animation.ItemAnimationStyle.styleName
+  commentId: F:Lucid.Animation.ItemAnimationStyle.styleName
+  id: styleName
+  parent: Lucid.Animation.ItemAnimationStyle
+  langs:
+  - csharp
+  - vb
+  name: styleName
+  nameWithType: ItemAnimationStyle.styleName
+  fullName: Lucid.Animation.ItemAnimationStyle.styleName
+  type: Field
+  source:
+    id: styleName
+    path: ''
+    startLine: 25413
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public string styleName
+    return:
+      type: System.String
+    content.vb: Public styleName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.ItemAnimationStyle.anim
+  commentId: F:Lucid.Animation.ItemAnimationStyle.anim
+  id: anim
+  parent: Lucid.Animation.ItemAnimationStyle
+  langs:
+  - csharp
+  - vb
+  name: anim
+  nameWithType: ItemAnimationStyle.anim
+  fullName: Lucid.Animation.ItemAnimationStyle.anim
+  type: Field
+  source:
+    id: anim
+    path: ''
+    startLine: 25415
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAUIItemAnimation anim
+    return:
+      type: Lucid.Animation.LAUIItemAnimation
+    content.vb: Public anim As LAUIItemAnimation
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Animation
+  commentId: N:Lucid.Animation
+  name: Lucid.Animation
+  nameWithType: Lucid.Animation
+  fullName: Lucid.Animation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Lucid.Animation.LAUIItemAnimation
+  commentId: T:Lucid.Animation.LAUIItemAnimation
+  parent: Lucid.Animation
+  name: LAUIItemAnimation
+  nameWithType: LAUIItemAnimation
+  fullName: Lucid.Animation.LAUIItemAnimation

@@ -1,0 +1,527 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Animation.LASelectable
+  commentId: T:Lucid.Animation.LASelectable
+  id: LASelectable
+  parent: Lucid.Animation
+  children:
+  - Lucid.Animation.LASelectable.AutoFillTargets
+  - Lucid.Animation.LASelectable.deselectedPresetName
+  - Lucid.Animation.LASelectable.GetAllStyleNames
+  - Lucid.Animation.LASelectable.onDeselected
+  - Lucid.Animation.LASelectable.OnPointerDown(PointerEventData)
+  - Lucid.Animation.LASelectable.OnPointerEnter(PointerEventData)
+  - Lucid.Animation.LASelectable.OnPointerExit(PointerEventData)
+  - Lucid.Animation.LASelectable.OnPointerUp(PointerEventData)
+  - Lucid.Animation.LASelectable.onSelected
+  - Lucid.Animation.LASelectable.onSubmit
+  - Lucid.Animation.LASelectable.selectedPresetName
+  - Lucid.Animation.LASelectable.submitPresetName
+  langs:
+  - csharp
+  - vb
+  name: LASelectable
+  nameWithType: LASelectable
+  fullName: Lucid.Animation.LASelectable
+  type: Class
+  source:
+    id: LASelectable
+    path: ''
+    startLine: 25872
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: 'public class LASelectable : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerUpHandler, IPointerDownHandler'
+    content.vb: >-
+      Public Class LASelectable
+          Inherits MonoBehaviour
+          Implements IPointerEnterHandler, IPointerExitHandler, IPointerUpHandler, IPointerDownHandler
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Animation.LASelectable.selectedPresetName
+  commentId: F:Lucid.Animation.LASelectable.selectedPresetName
+  id: selectedPresetName
+  parent: Lucid.Animation.LASelectable
+  langs:
+  - csharp
+  - vb
+  name: selectedPresetName
+  nameWithType: LASelectable.selectedPresetName
+  fullName: Lucid.Animation.LASelectable.selectedPresetName
+  type: Field
+  source:
+    id: selectedPresetName
+    path: ''
+    startLine: 25880
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public string selectedPresetName
+    return:
+      type: System.String
+    content.vb: Public selectedPresetName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LASelectable.onSelected
+  commentId: F:Lucid.Animation.LASelectable.onSelected
+  id: onSelected
+  parent: Lucid.Animation.LASelectable
+  langs:
+  - csharp
+  - vb
+  name: onSelected
+  nameWithType: LASelectable.onSelected
+  fullName: Lucid.Animation.LASelectable.onSelected
+  type: Field
+  source:
+    id: onSelected
+    path: ''
+    startLine: 25899
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAUIItemAnimation onSelected
+    return:
+      type: Lucid.Animation.LAUIItemAnimation
+    content.vb: Public onSelected As LAUIItemAnimation
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LASelectable.deselectedPresetName
+  commentId: F:Lucid.Animation.LASelectable.deselectedPresetName
+  id: deselectedPresetName
+  parent: Lucid.Animation.LASelectable
+  langs:
+  - csharp
+  - vb
+  name: deselectedPresetName
+  nameWithType: LASelectable.deselectedPresetName
+  fullName: Lucid.Animation.LASelectable.deselectedPresetName
+  type: Field
+  source:
+    id: deselectedPresetName
+    path: ''
+    startLine: 25906
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public string deselectedPresetName
+    return:
+      type: System.String
+    content.vb: Public deselectedPresetName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LASelectable.onDeselected
+  commentId: F:Lucid.Animation.LASelectable.onDeselected
+  id: onDeselected
+  parent: Lucid.Animation.LASelectable
+  langs:
+  - csharp
+  - vb
+  name: onDeselected
+  nameWithType: LASelectable.onDeselected
+  fullName: Lucid.Animation.LASelectable.onDeselected
+  type: Field
+  source:
+    id: onDeselected
+    path: ''
+    startLine: 25925
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAUIItemAnimation onDeselected
+    return:
+      type: Lucid.Animation.LAUIItemAnimation
+    content.vb: Public onDeselected As LAUIItemAnimation
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LASelectable.submitPresetName
+  commentId: F:Lucid.Animation.LASelectable.submitPresetName
+  id: submitPresetName
+  parent: Lucid.Animation.LASelectable
+  langs:
+  - csharp
+  - vb
+  name: submitPresetName
+  nameWithType: LASelectable.submitPresetName
+  fullName: Lucid.Animation.LASelectable.submitPresetName
+  type: Field
+  source:
+    id: submitPresetName
+    path: ''
+    startLine: 25932
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public string submitPresetName
+    return:
+      type: System.String
+    content.vb: Public submitPresetName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LASelectable.onSubmit
+  commentId: F:Lucid.Animation.LASelectable.onSubmit
+  id: onSubmit
+  parent: Lucid.Animation.LASelectable
+  langs:
+  - csharp
+  - vb
+  name: onSubmit
+  nameWithType: LASelectable.onSubmit
+  fullName: Lucid.Animation.LASelectable.onSubmit
+  type: Field
+  source:
+    id: onSubmit
+    path: ''
+    startLine: 25951
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAUIItemAnimation onSubmit
+    return:
+      type: Lucid.Animation.LAUIItemAnimation
+    content.vb: Public onSubmit As LAUIItemAnimation
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LASelectable.AutoFillTargets
+  commentId: M:Lucid.Animation.LASelectable.AutoFillTargets
+  id: AutoFillTargets
+  parent: Lucid.Animation.LASelectable
+  langs:
+  - csharp
+  - vb
+  name: AutoFillTargets()
+  nameWithType: LASelectable.AutoFillTargets()
+  fullName: Lucid.Animation.LASelectable.AutoFillTargets()
+  type: Method
+  source:
+    id: AutoFillTargets
+    path: ''
+    startLine: 25954
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public void AutoFillTargets()
+    content.vb: Public Sub AutoFillTargets
+  overload: Lucid.Animation.LASelectable.AutoFillTargets*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LASelectable.GetAllStyleNames
+  commentId: M:Lucid.Animation.LASelectable.GetAllStyleNames
+  id: GetAllStyleNames
+  parent: Lucid.Animation.LASelectable
+  langs:
+  - csharp
+  - vb
+  name: GetAllStyleNames()
+  nameWithType: LASelectable.GetAllStyleNames()
+  fullName: Lucid.Animation.LASelectable.GetAllStyleNames()
+  type: Method
+  source:
+    id: GetAllStyleNames
+    path: ''
+    startLine: 26053
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public List<string> GetAllStyleNames()
+    return:
+      type: Global.List{System.String}
+    content.vb: Public Function GetAllStyleNames As List(Of String)
+  overload: Lucid.Animation.LASelectable.GetAllStyleNames*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LASelectable.OnPointerEnter(PointerEventData)
+  commentId: M:Lucid.Animation.LASelectable.OnPointerEnter(PointerEventData)
+  id: OnPointerEnter(PointerEventData)
+  parent: Lucid.Animation.LASelectable
+  langs:
+  - csharp
+  - vb
+  name: OnPointerEnter(PointerEventData)
+  nameWithType: LASelectable.OnPointerEnter(PointerEventData)
+  fullName: Lucid.Animation.LASelectable.OnPointerEnter(PointerEventData)
+  type: Method
+  source:
+    id: OnPointerEnter
+    path: ''
+    startLine: 26076
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public void OnPointerEnter(PointerEventData pointerEventData)
+    parameters:
+    - id: pointerEventData
+      type: Global.PointerEventData
+    content.vb: Public Sub OnPointerEnter(pointerEventData As PointerEventData)
+  overload: Lucid.Animation.LASelectable.OnPointerEnter*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LASelectable.OnPointerExit(PointerEventData)
+  commentId: M:Lucid.Animation.LASelectable.OnPointerExit(PointerEventData)
+  id: OnPointerExit(PointerEventData)
+  parent: Lucid.Animation.LASelectable
+  langs:
+  - csharp
+  - vb
+  name: OnPointerExit(PointerEventData)
+  nameWithType: LASelectable.OnPointerExit(PointerEventData)
+  fullName: Lucid.Animation.LASelectable.OnPointerExit(PointerEventData)
+  type: Method
+  source:
+    id: OnPointerExit
+    path: ''
+    startLine: 26083
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public void OnPointerExit(PointerEventData pointerEventData)
+    parameters:
+    - id: pointerEventData
+      type: Global.PointerEventData
+    content.vb: Public Sub OnPointerExit(pointerEventData As PointerEventData)
+  overload: Lucid.Animation.LASelectable.OnPointerExit*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LASelectable.OnPointerUp(PointerEventData)
+  commentId: M:Lucid.Animation.LASelectable.OnPointerUp(PointerEventData)
+  id: OnPointerUp(PointerEventData)
+  parent: Lucid.Animation.LASelectable
+  langs:
+  - csharp
+  - vb
+  name: OnPointerUp(PointerEventData)
+  nameWithType: LASelectable.OnPointerUp(PointerEventData)
+  fullName: Lucid.Animation.LASelectable.OnPointerUp(PointerEventData)
+  type: Method
+  source:
+    id: OnPointerUp
+    path: ''
+    startLine: 26095
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public void OnPointerUp(PointerEventData pointerEventData)
+    parameters:
+    - id: pointerEventData
+      type: Global.PointerEventData
+    content.vb: Public Sub OnPointerUp(pointerEventData As PointerEventData)
+  overload: Lucid.Animation.LASelectable.OnPointerUp*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LASelectable.OnPointerDown(PointerEventData)
+  commentId: M:Lucid.Animation.LASelectable.OnPointerDown(PointerEventData)
+  id: OnPointerDown(PointerEventData)
+  parent: Lucid.Animation.LASelectable
+  langs:
+  - csharp
+  - vb
+  name: OnPointerDown(PointerEventData)
+  nameWithType: LASelectable.OnPointerDown(PointerEventData)
+  fullName: Lucid.Animation.LASelectable.OnPointerDown(PointerEventData)
+  type: Method
+  source:
+    id: OnPointerDown
+    path: ''
+    startLine: 26109
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public void OnPointerDown(PointerEventData pointerEventData)
+    parameters:
+    - id: pointerEventData
+      type: Global.PointerEventData
+    content.vb: Public Sub OnPointerDown(pointerEventData As PointerEventData)
+  overload: Lucid.Animation.LASelectable.OnPointerDown*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Animation
+  commentId: N:Lucid.Animation
+  name: Lucid.Animation
+  nameWithType: Lucid.Animation
+  fullName: Lucid.Animation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Lucid.Animation.LAUIItemAnimation
+  commentId: T:Lucid.Animation.LAUIItemAnimation
+  parent: Lucid.Animation
+  name: LAUIItemAnimation
+  nameWithType: LAUIItemAnimation
+  fullName: Lucid.Animation.LAUIItemAnimation
+- uid: Lucid.Animation.LASelectable.AutoFillTargets*
+  commentId: Overload:Lucid.Animation.LASelectable.AutoFillTargets
+  name: AutoFillTargets
+  nameWithType: LASelectable.AutoFillTargets
+  fullName: Lucid.Animation.LASelectable.AutoFillTargets
+- uid: Lucid.Animation.LASelectable.GetAllStyleNames*
+  commentId: Overload:Lucid.Animation.LASelectable.GetAllStyleNames
+  name: GetAllStyleNames
+  nameWithType: LASelectable.GetAllStyleNames
+  fullName: Lucid.Animation.LASelectable.GetAllStyleNames
+- uid: Global.List{System.String}
+  commentId: '!:Global.List{System.String}'
+  definition: Global.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.Animation.LASelectable.OnPointerEnter*
+  commentId: Overload:Lucid.Animation.LASelectable.OnPointerEnter
+  name: OnPointerEnter
+  nameWithType: LASelectable.OnPointerEnter
+  fullName: Lucid.Animation.LASelectable.OnPointerEnter
+- uid: Global.PointerEventData
+  isExternal: true
+  name: PointerEventData
+  nameWithType: PointerEventData
+  fullName: PointerEventData
+- uid: Lucid.Animation.LASelectable.OnPointerExit*
+  commentId: Overload:Lucid.Animation.LASelectable.OnPointerExit
+  name: OnPointerExit
+  nameWithType: LASelectable.OnPointerExit
+  fullName: Lucid.Animation.LASelectable.OnPointerExit
+- uid: Lucid.Animation.LASelectable.OnPointerUp*
+  commentId: Overload:Lucid.Animation.LASelectable.OnPointerUp
+  name: OnPointerUp
+  nameWithType: LASelectable.OnPointerUp
+  fullName: Lucid.Animation.LASelectable.OnPointerUp
+- uid: Lucid.Animation.LASelectable.OnPointerDown*
+  commentId: Overload:Lucid.Animation.LASelectable.OnPointerDown
+  name: OnPointerDown
+  nameWithType: LASelectable.OnPointerDown
+  fullName: Lucid.Animation.LASelectable.OnPointerDown

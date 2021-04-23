@@ -1,0 +1,201 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Branding.Color.ColorStyleSettings
+  commentId: T:Lucid.Branding.Color.ColorStyleSettings
+  id: ColorStyleSettings
+  parent: Lucid.Branding.Color
+  children:
+  - Lucid.Branding.Color.ColorStyleSettings.colorStyles
+  - Lucid.Branding.Color.ColorStyleSettings.LoadAllColorStyleAssets
+  langs:
+  - csharp
+  - vb
+  name: ColorStyleSettings
+  nameWithType: ColorStyleSettings
+  fullName: Lucid.Branding.Color.ColorStyleSettings
+  type: Class
+  source:
+    id: ColorStyleSettings
+    path: ''
+    startLine: 9380
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Color
+  syntax:
+    content: 'public class ColorStyleSettings : SingletonScriptableObject<ColorStyleSettings>'
+    content.vb: >-
+      Public Class ColorStyleSettings
+          Inherits SingletonScriptableObject(Of ColorStyleSettings)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Branding.Color.ColorStyleSettings.colorStyles
+  commentId: P:Lucid.Branding.Color.ColorStyleSettings.colorStyles
+  id: colorStyles
+  parent: Lucid.Branding.Color.ColorStyleSettings
+  langs:
+  - csharp
+  - vb
+  name: colorStyles
+  nameWithType: ColorStyleSettings.colorStyles
+  fullName: Lucid.Branding.Color.ColorStyleSettings.colorStyles
+  type: Property
+  source:
+    id: colorStyles
+    path: ''
+    startLine: 9386
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Color
+  syntax:
+    content: public List<ColorStyle> colorStyles { get; set; }
+    parameters: []
+    return:
+      type: Global.List{Lucid.Branding.Color.ColorStyle}
+    content.vb: Public Property colorStyles As List(Of ColorStyle)
+  overload: Lucid.Branding.Color.ColorStyleSettings.colorStyles*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Color.ColorStyleSettings.LoadAllColorStyleAssets
+  commentId: M:Lucid.Branding.Color.ColorStyleSettings.LoadAllColorStyleAssets
+  id: LoadAllColorStyleAssets
+  parent: Lucid.Branding.Color.ColorStyleSettings
+  langs:
+  - csharp
+  - vb
+  name: LoadAllColorStyleAssets()
+  nameWithType: ColorStyleSettings.LoadAllColorStyleAssets()
+  fullName: Lucid.Branding.Color.ColorStyleSettings.LoadAllColorStyleAssets()
+  type: Method
+  source:
+    id: LoadAllColorStyleAssets
+    path: ''
+    startLine: 9419
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Color
+  syntax:
+    content: public void LoadAllColorStyleAssets()
+    content.vb: Public Sub LoadAllColorStyleAssets
+  overload: Lucid.Branding.Color.ColorStyleSettings.LoadAllColorStyleAssets*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Branding.Color
+  commentId: N:Lucid.Branding.Color
+  name: Lucid.Branding.Color
+  nameWithType: Lucid.Branding.Color
+  fullName: Lucid.Branding.Color
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.Branding.Color.ColorStyleSettings.colorStyles*
+  commentId: Overload:Lucid.Branding.Color.ColorStyleSettings.colorStyles
+  name: colorStyles
+  nameWithType: ColorStyleSettings.colorStyles
+  fullName: Lucid.Branding.Color.ColorStyleSettings.colorStyles
+- uid: Global.List{Lucid.Branding.Color.ColorStyle}
+  commentId: '!:Global.List{Lucid.Branding.Color.ColorStyle}'
+  definition: Global.List`1
+  name: List<ColorStyle>
+  nameWithType: List<ColorStyle>
+  fullName: List<Lucid.Branding.Color.ColorStyle>
+  nameWithType.vb: List(Of ColorStyle)
+  fullName.vb: List(Of Lucid.Branding.Color.ColorStyle)
+  name.vb: List(Of ColorStyle)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Lucid.Branding.Color.ColorStyle
+    name: ColorStyle
+    nameWithType: ColorStyle
+    fullName: Lucid.Branding.Color.ColorStyle
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Lucid.Branding.Color.ColorStyle
+    name: ColorStyle
+    nameWithType: ColorStyle
+    fullName: Lucid.Branding.Color.ColorStyle
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.Branding.Color.ColorStyleSettings.LoadAllColorStyleAssets*
+  commentId: Overload:Lucid.Branding.Color.ColorStyleSettings.LoadAllColorStyleAssets
+  name: LoadAllColorStyleAssets
+  nameWithType: ColorStyleSettings.LoadAllColorStyleAssets
+  fullName: Lucid.Branding.Color.ColorStyleSettings.LoadAllColorStyleAssets

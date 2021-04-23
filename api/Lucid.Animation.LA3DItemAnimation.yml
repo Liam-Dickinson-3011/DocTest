@@ -1,0 +1,397 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Animation.LA3DItemAnimation
+  commentId: T:Lucid.Animation.LA3DItemAnimation
+  id: LA3DItemAnimation
+  parent: Lucid.Animation
+  children:
+  - Lucid.Animation.LA3DItemAnimation.#ctor
+  - Lucid.Animation.LA3DItemAnimation.#ctor(Lucid.Animation.LA3DItemAnimation)
+  - Lucid.Animation.LA3DItemAnimation.DoAnimation
+  - Lucid.Animation.LA3DItemAnimation.DoCut
+  - Lucid.Animation.LA3DItemAnimation.doTrans
+  - Lucid.Animation.LA3DItemAnimation.GetFullAnimationDuration
+  - Lucid.Animation.LA3DItemAnimation.GetLongestSequence
+  - Lucid.Animation.LA3DItemAnimation.laTrans
+  - Lucid.Animation.LA3DItemAnimation.TransSeq
+  langs:
+  - csharp
+  - vb
+  name: LA3DItemAnimation
+  nameWithType: LA3DItemAnimation
+  fullName: Lucid.Animation.LA3DItemAnimation
+  type: Class
+  source:
+    id: LA3DItemAnimation
+    path: ''
+    startLine: 24978
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class LA3DItemAnimation
+    content.vb: >-
+      <Serializable>
+
+      Public Class LA3DItemAnimation
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Animation.LA3DItemAnimation.#ctor
+  commentId: M:Lucid.Animation.LA3DItemAnimation.#ctor
+  id: '#ctor'
+  parent: Lucid.Animation.LA3DItemAnimation
+  langs:
+  - csharp
+  - vb
+  name: LA3DItemAnimation()
+  nameWithType: LA3DItemAnimation.LA3DItemAnimation()
+  fullName: Lucid.Animation.LA3DItemAnimation.LA3DItemAnimation()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 24981
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LA3DItemAnimation()
+    content.vb: Public Sub New
+  overload: Lucid.Animation.LA3DItemAnimation.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LA3DItemAnimation.#ctor(Lucid.Animation.LA3DItemAnimation)
+  commentId: M:Lucid.Animation.LA3DItemAnimation.#ctor(Lucid.Animation.LA3DItemAnimation)
+  id: '#ctor(Lucid.Animation.LA3DItemAnimation)'
+  parent: Lucid.Animation.LA3DItemAnimation
+  langs:
+  - csharp
+  - vb
+  name: LA3DItemAnimation(LA3DItemAnimation)
+  nameWithType: LA3DItemAnimation.LA3DItemAnimation(LA3DItemAnimation)
+  fullName: Lucid.Animation.LA3DItemAnimation.LA3DItemAnimation(Lucid.Animation.LA3DItemAnimation)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 24982
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LA3DItemAnimation(LA3DItemAnimation copy)
+    parameters:
+    - id: copy
+      type: Lucid.Animation.LA3DItemAnimation
+    content.vb: Public Sub New(copy As LA3DItemAnimation)
+  overload: Lucid.Animation.LA3DItemAnimation.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LA3DItemAnimation.doTrans
+  commentId: F:Lucid.Animation.LA3DItemAnimation.doTrans
+  id: doTrans
+  parent: Lucid.Animation.LA3DItemAnimation
+  langs:
+  - csharp
+  - vb
+  name: doTrans
+  nameWithType: LA3DItemAnimation.doTrans
+  fullName: Lucid.Animation.LA3DItemAnimation.doTrans
+  type: Field
+  source:
+    id: doTrans
+    path: ''
+    startLine: 24995
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public bool doTrans
+    return:
+      type: System.Boolean
+    content.vb: Public doTrans As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LA3DItemAnimation.laTrans
+  commentId: F:Lucid.Animation.LA3DItemAnimation.laTrans
+  id: laTrans
+  parent: Lucid.Animation.LA3DItemAnimation
+  langs:
+  - csharp
+  - vb
+  name: laTrans
+  nameWithType: LA3DItemAnimation.laTrans
+  fullName: Lucid.Animation.LA3DItemAnimation.laTrans
+  type: Field
+  source:
+    id: laTrans
+    path: ''
+    startLine: 24999
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LARectTransform[] laTrans
+    return:
+      type: Lucid.Animation.LARectTransform[]
+    content.vb: Public laTrans As LARectTransform()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LA3DItemAnimation.TransSeq
+  commentId: P:Lucid.Animation.LA3DItemAnimation.TransSeq
+  id: TransSeq
+  parent: Lucid.Animation.LA3DItemAnimation
+  langs:
+  - csharp
+  - vb
+  name: TransSeq
+  nameWithType: LA3DItemAnimation.TransSeq
+  fullName: Lucid.Animation.LA3DItemAnimation.TransSeq
+  type: Property
+  source:
+    id: TransSeq
+    path: ''
+    startLine: 25003
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public Sequence TransSeq { get; }
+    parameters: []
+    return:
+      type: Global.Sequence
+    content.vb: Public ReadOnly Property TransSeq As Sequence
+  overload: Lucid.Animation.LA3DItemAnimation.TransSeq*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Lucid.Animation.LA3DItemAnimation.DoAnimation
+  commentId: M:Lucid.Animation.LA3DItemAnimation.DoAnimation
+  id: DoAnimation
+  parent: Lucid.Animation.LA3DItemAnimation
+  langs:
+  - csharp
+  - vb
+  name: DoAnimation()
+  nameWithType: LA3DItemAnimation.DoAnimation()
+  fullName: Lucid.Animation.LA3DItemAnimation.DoAnimation()
+  type: Method
+  source:
+    id: DoAnimation
+    path: ''
+    startLine: 25005
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public void DoAnimation()
+    content.vb: Public Sub DoAnimation
+  overload: Lucid.Animation.LA3DItemAnimation.DoAnimation*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LA3DItemAnimation.DoCut
+  commentId: M:Lucid.Animation.LA3DItemAnimation.DoCut
+  id: DoCut
+  parent: Lucid.Animation.LA3DItemAnimation
+  langs:
+  - csharp
+  - vb
+  name: DoCut()
+  nameWithType: LA3DItemAnimation.DoCut()
+  fullName: Lucid.Animation.LA3DItemAnimation.DoCut()
+  type: Method
+  source:
+    id: DoCut
+    path: ''
+    startLine: 25019
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public void DoCut()
+    content.vb: Public Sub DoCut
+  overload: Lucid.Animation.LA3DItemAnimation.DoCut*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LA3DItemAnimation.GetLongestSequence
+  commentId: M:Lucid.Animation.LA3DItemAnimation.GetLongestSequence
+  id: GetLongestSequence
+  parent: Lucid.Animation.LA3DItemAnimation
+  langs:
+  - csharp
+  - vb
+  name: GetLongestSequence()
+  nameWithType: LA3DItemAnimation.GetLongestSequence()
+  fullName: Lucid.Animation.LA3DItemAnimation.GetLongestSequence()
+  type: Method
+  source:
+    id: GetLongestSequence
+    path: ''
+    startLine: 25033
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public Sequence GetLongestSequence()
+    return:
+      type: Global.Sequence
+    content.vb: Public Function GetLongestSequence As Sequence
+  overload: Lucid.Animation.LA3DItemAnimation.GetLongestSequence*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LA3DItemAnimation.GetFullAnimationDuration
+  commentId: M:Lucid.Animation.LA3DItemAnimation.GetFullAnimationDuration
+  id: GetFullAnimationDuration
+  parent: Lucid.Animation.LA3DItemAnimation
+  langs:
+  - csharp
+  - vb
+  name: GetFullAnimationDuration()
+  nameWithType: LA3DItemAnimation.GetFullAnimationDuration()
+  fullName: Lucid.Animation.LA3DItemAnimation.GetFullAnimationDuration()
+  type: Method
+  source:
+    id: GetFullAnimationDuration
+    path: ''
+    startLine: 25048
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public float GetFullAnimationDuration()
+    return:
+      type: System.Single
+    content.vb: Public Function GetFullAnimationDuration As Single
+  overload: Lucid.Animation.LA3DItemAnimation.GetFullAnimationDuration*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Animation
+  commentId: N:Lucid.Animation
+  name: Lucid.Animation
+  nameWithType: Lucid.Animation
+  fullName: Lucid.Animation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.Animation.LA3DItemAnimation.#ctor*
+  commentId: Overload:Lucid.Animation.LA3DItemAnimation.#ctor
+  name: LA3DItemAnimation
+  nameWithType: LA3DItemAnimation.LA3DItemAnimation
+  fullName: Lucid.Animation.LA3DItemAnimation.LA3DItemAnimation
+- uid: Lucid.Animation.LA3DItemAnimation
+  commentId: T:Lucid.Animation.LA3DItemAnimation
+  parent: Lucid.Animation
+  name: LA3DItemAnimation
+  nameWithType: LA3DItemAnimation
+  fullName: Lucid.Animation.LA3DItemAnimation
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Lucid.Animation.LARectTransform[]
+  isExternal: true
+  name: LARectTransform[]
+  nameWithType: LARectTransform[]
+  fullName: Lucid.Animation.LARectTransform[]
+  nameWithType.vb: LARectTransform()
+  fullName.vb: Lucid.Animation.LARectTransform()
+  name.vb: LARectTransform()
+  spec.csharp:
+  - uid: Lucid.Animation.LARectTransform
+    name: LARectTransform
+    nameWithType: LARectTransform
+    fullName: Lucid.Animation.LARectTransform
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Lucid.Animation.LARectTransform
+    name: LARectTransform
+    nameWithType: LARectTransform
+    fullName: Lucid.Animation.LARectTransform
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Lucid.Animation.LA3DItemAnimation.TransSeq*
+  commentId: Overload:Lucid.Animation.LA3DItemAnimation.TransSeq
+  name: TransSeq
+  nameWithType: LA3DItemAnimation.TransSeq
+  fullName: Lucid.Animation.LA3DItemAnimation.TransSeq
+- uid: Global.Sequence
+  isExternal: true
+  name: Sequence
+  nameWithType: Sequence
+  fullName: Sequence
+- uid: Lucid.Animation.LA3DItemAnimation.DoAnimation*
+  commentId: Overload:Lucid.Animation.LA3DItemAnimation.DoAnimation
+  name: DoAnimation
+  nameWithType: LA3DItemAnimation.DoAnimation
+  fullName: Lucid.Animation.LA3DItemAnimation.DoAnimation
+- uid: Lucid.Animation.LA3DItemAnimation.DoCut*
+  commentId: Overload:Lucid.Animation.LA3DItemAnimation.DoCut
+  name: DoCut
+  nameWithType: LA3DItemAnimation.DoCut
+  fullName: Lucid.Animation.LA3DItemAnimation.DoCut
+- uid: Lucid.Animation.LA3DItemAnimation.GetLongestSequence*
+  commentId: Overload:Lucid.Animation.LA3DItemAnimation.GetLongestSequence
+  name: GetLongestSequence
+  nameWithType: LA3DItemAnimation.GetLongestSequence
+  fullName: Lucid.Animation.LA3DItemAnimation.GetLongestSequence
+- uid: Lucid.Animation.LA3DItemAnimation.GetFullAnimationDuration*
+  commentId: Overload:Lucid.Animation.LA3DItemAnimation.GetFullAnimationDuration
+  name: GetFullAnimationDuration
+  nameWithType: LA3DItemAnimation.GetFullAnimationDuration
+  fullName: Lucid.Animation.LA3DItemAnimation.GetFullAnimationDuration
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

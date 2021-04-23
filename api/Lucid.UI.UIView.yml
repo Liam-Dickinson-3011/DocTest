@@ -1,0 +1,1334 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.UI.UIView
+  commentId: T:Lucid.UI.UIView
+  id: UIView
+  parent: Lucid.UI
+  children:
+  - Lucid.UI.UIView.alwaysOn
+  - Lucid.UI.UIView.ApplyOffPreset
+  - Lucid.UI.UIView.ApplyOnPreset
+  - Lucid.UI.UIView.AutoFillTargets
+  - Lucid.UI.UIView.canvas
+  - Lucid.UI.UIView.cg
+  - Lucid.UI.UIView.EditorInitialiseView
+  - Lucid.UI.UIView.GetAllStyleNames
+  - Lucid.UI.UIView.GrabHideDuration
+  - Lucid.UI.UIView.GrabLongestHideSequence
+  - Lucid.UI.UIView.GrabLongestShowSequence
+  - Lucid.UI.UIView.GrabShowDuration
+  - Lucid.UI.UIView.groupID
+  - Lucid.UI.UIView.hiddenData
+  - Lucid.UI.UIView.hiddenPresetName
+  - Lucid.UI.UIView.HideDuration
+  - Lucid.UI.UIView.HideView(System.Boolean)
+  - Lucid.UI.UIView.jumpToHiddenBeforeShow
+  - Lucid.UI.UIView.MoveToLayout
+  - Lucid.UI.UIView.MoveToStack
+  - Lucid.UI.UIView.offData
+  - Lucid.UI.UIView.offPresetName
+  - Lucid.UI.UIView.onData
+  - Lucid.UI.UIView.onHideBegin
+  - Lucid.UI.UIView.onHideComplete
+  - Lucid.UI.UIView.onPresetName
+  - Lucid.UI.UIView.onShowBegin
+  - Lucid.UI.UIView.onShowComplete
+  - Lucid.UI.UIView.rectTransform
+  - Lucid.UI.UIView.ShowDuration
+  - Lucid.UI.UIView.Showing
+  - Lucid.UI.UIView.ShowView(System.Boolean)
+  - Lucid.UI.UIView.sortingOrder
+  - Lucid.UI.UIView.type
+  - Lucid.UI.UIView.useDefaults
+  - Lucid.UI.UIView.viewLabel
+  - Lucid.UI.UIView.viewName
+  langs:
+  - csharp
+  - vb
+  name: UIView
+  nameWithType: UIView
+  fullName: Lucid.UI.UIView
+  type: Class
+  source:
+    id: UIView
+    path: ''
+    startLine: 7744
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: 'public class UIView : MonoBehaviour'
+    content.vb: >-
+      Public Class UIView
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.UI.UIView.EditorInitialiseView
+  commentId: M:Lucid.UI.UIView.EditorInitialiseView
+  id: EditorInitialiseView
+  parent: Lucid.UI.UIView
+  langs:
+  - csharp
+  - vb
+  name: EditorInitialiseView()
+  nameWithType: UIView.EditorInitialiseView()
+  fullName: Lucid.UI.UIView.EditorInitialiseView()
+  type: Method
+  source:
+    id: EditorInitialiseView
+    path: ''
+    startLine: 7746
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public void EditorInitialiseView()
+    content.vb: Public Sub EditorInitialiseView
+  overload: Lucid.UI.UIView.EditorInitialiseView*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIView.MoveToLayout
+  commentId: M:Lucid.UI.UIView.MoveToLayout
+  id: MoveToLayout
+  parent: Lucid.UI.UIView
+  langs:
+  - csharp
+  - vb
+  name: MoveToLayout()
+  nameWithType: UIView.MoveToLayout()
+  fullName: Lucid.UI.UIView.MoveToLayout()
+  type: Method
+  source:
+    id: MoveToLayout
+    path: ''
+    startLine: 7770
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public void MoveToLayout()
+    content.vb: Public Sub MoveToLayout
+  overload: Lucid.UI.UIView.MoveToLayout*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIView.MoveToStack
+  commentId: M:Lucid.UI.UIView.MoveToStack
+  id: MoveToStack
+  parent: Lucid.UI.UIView
+  langs:
+  - csharp
+  - vb
+  name: MoveToStack()
+  nameWithType: UIView.MoveToStack()
+  fullName: Lucid.UI.UIView.MoveToStack()
+  type: Method
+  source:
+    id: MoveToStack
+    path: ''
+    startLine: 7796
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public void MoveToStack()
+    content.vb: Public Sub MoveToStack
+  overload: Lucid.UI.UIView.MoveToStack*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIView.rectTransform
+  commentId: F:Lucid.UI.UIView.rectTransform
+  id: rectTransform
+  parent: Lucid.UI.UIView
+  langs:
+  - csharp
+  - vb
+  name: rectTransform
+  nameWithType: UIView.rectTransform
+  fullName: Lucid.UI.UIView.rectTransform
+  type: Field
+  source:
+    id: rectTransform
+    path: ''
+    startLine: 7822
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public RectTransform rectTransform
+    return:
+      type: Global.RectTransform
+    content.vb: Public rectTransform As RectTransform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIView.canvas
+  commentId: F:Lucid.UI.UIView.canvas
+  id: canvas
+  parent: Lucid.UI.UIView
+  langs:
+  - csharp
+  - vb
+  name: canvas
+  nameWithType: UIView.canvas
+  fullName: Lucid.UI.UIView.canvas
+  type: Field
+  source:
+    id: canvas
+    path: ''
+    startLine: 7824
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public Canvas canvas
+    return:
+      type: Global.Canvas
+    content.vb: Public canvas As Canvas
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIView.cg
+  commentId: F:Lucid.UI.UIView.cg
+  id: cg
+  parent: Lucid.UI.UIView
+  langs:
+  - csharp
+  - vb
+  name: cg
+  nameWithType: UIView.cg
+  fullName: Lucid.UI.UIView.cg
+  type: Field
+  source:
+    id: cg
+    path: ''
+    startLine: 7826
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public CanvasGroup cg
+    return:
+      type: Global.CanvasGroup
+    content.vb: Public cg As CanvasGroup
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIView.viewLabel
+  commentId: F:Lucid.UI.UIView.viewLabel
+  id: viewLabel
+  parent: Lucid.UI.UIView
+  langs:
+  - csharp
+  - vb
+  name: viewLabel
+  nameWithType: UIView.viewLabel
+  fullName: Lucid.UI.UIView.viewLabel
+  type: Field
+  source:
+    id: viewLabel
+    path: ''
+    startLine: 7828
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public TextMeshProUGUI viewLabel
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public viewLabel As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIView.viewName
+  commentId: F:Lucid.UI.UIView.viewName
+  id: viewName
+  parent: Lucid.UI.UIView
+  langs:
+  - csharp
+  - vb
+  name: viewName
+  nameWithType: UIView.viewName
+  fullName: Lucid.UI.UIView.viewName
+  type: Field
+  source:
+    id: viewName
+    path: ''
+    startLine: 7831
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public string viewName
+    return:
+      type: System.String
+    content.vb: Public viewName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIView.groupID
+  commentId: F:Lucid.UI.UIView.groupID
+  id: groupID
+  parent: Lucid.UI.UIView
+  langs:
+  - csharp
+  - vb
+  name: groupID
+  nameWithType: UIView.groupID
+  fullName: Lucid.UI.UIView.groupID
+  type: Field
+  source:
+    id: groupID
+    path: ''
+    startLine: 7833
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public string groupID
+    return:
+      type: System.String
+    content.vb: Public groupID As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIView.type
+  commentId: F:Lucid.UI.UIView.type
+  id: type
+  parent: Lucid.UI.UIView
+  langs:
+  - csharp
+  - vb
+  name: type
+  nameWithType: UIView.type
+  fullName: Lucid.UI.UIView.type
+  type: Field
+  source:
+    id: type
+    path: ''
+    startLine: 7835
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public ViewType type
+    return:
+      type: Global.ViewType
+    content.vb: Public type As ViewType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIView.alwaysOn
+  commentId: F:Lucid.UI.UIView.alwaysOn
+  id: alwaysOn
+  parent: Lucid.UI.UIView
+  langs:
+  - csharp
+  - vb
+  name: alwaysOn
+  nameWithType: UIView.alwaysOn
+  fullName: Lucid.UI.UIView.alwaysOn
+  type: Field
+  source:
+    id: alwaysOn
+    path: ''
+    startLine: 7837
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public bool alwaysOn
+    return:
+      type: System.Boolean
+    content.vb: Public alwaysOn As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIView.sortingOrder
+  commentId: F:Lucid.UI.UIView.sortingOrder
+  id: sortingOrder
+  parent: Lucid.UI.UIView
+  langs:
+  - csharp
+  - vb
+  name: sortingOrder
+  nameWithType: UIView.sortingOrder
+  fullName: Lucid.UI.UIView.sortingOrder
+  type: Field
+  source:
+    id: sortingOrder
+    path: ''
+    startLine: 7839
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public int sortingOrder
+    return:
+      type: System.Int32
+    content.vb: Public sortingOrder As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIView.useDefaults
+  commentId: F:Lucid.UI.UIView.useDefaults
+  id: useDefaults
+  parent: Lucid.UI.UIView
+  langs:
+  - csharp
+  - vb
+  name: useDefaults
+  nameWithType: UIView.useDefaults
+  fullName: Lucid.UI.UIView.useDefaults
+  type: Field
+  source:
+    id: useDefaults
+    path: ''
+    startLine: 7842
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public bool useDefaults
+    return:
+      type: System.Boolean
+    content.vb: Public useDefaults As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIView.onPresetName
+  commentId: F:Lucid.UI.UIView.onPresetName
+  id: onPresetName
+  parent: Lucid.UI.UIView
+  langs:
+  - csharp
+  - vb
+  name: onPresetName
+  nameWithType: UIView.onPresetName
+  fullName: Lucid.UI.UIView.onPresetName
+  type: Field
+  source:
+    id: onPresetName
+    path: ''
+    startLine: 7850
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public string onPresetName
+    return:
+      type: System.String
+    content.vb: Public onPresetName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIView.ApplyOnPreset
+  commentId: M:Lucid.UI.UIView.ApplyOnPreset
+  id: ApplyOnPreset
+  parent: Lucid.UI.UIView
+  langs:
+  - csharp
+  - vb
+  name: ApplyOnPreset()
+  nameWithType: UIView.ApplyOnPreset()
+  fullName: Lucid.UI.UIView.ApplyOnPreset()
+  type: Method
+  source:
+    id: ApplyOnPreset
+    path: ''
+    startLine: 7851
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public void ApplyOnPreset()
+    content.vb: Public Sub ApplyOnPreset
+  overload: Lucid.UI.UIView.ApplyOnPreset*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIView.jumpToHiddenBeforeShow
+  commentId: F:Lucid.UI.UIView.jumpToHiddenBeforeShow
+  id: jumpToHiddenBeforeShow
+  parent: Lucid.UI.UIView
+  langs:
+  - csharp
+  - vb
+  name: jumpToHiddenBeforeShow
+  nameWithType: UIView.jumpToHiddenBeforeShow
+  fullName: Lucid.UI.UIView.jumpToHiddenBeforeShow
+  type: Field
+  source:
+    id: jumpToHiddenBeforeShow
+    path: ''
+    startLine: 7870
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public bool jumpToHiddenBeforeShow
+    return:
+      type: System.Boolean
+    content.vb: Public jumpToHiddenBeforeShow As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIView.onData
+  commentId: F:Lucid.UI.UIView.onData
+  id: onData
+  parent: Lucid.UI.UIView
+  langs:
+  - csharp
+  - vb
+  name: onData
+  nameWithType: UIView.onData
+  fullName: Lucid.UI.UIView.onData
+  type: Field
+  source:
+    id: onData
+    path: ''
+    startLine: 7873
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public LAUIGroupAnimation onData
+    return:
+      type: Global.LAUIGroupAnimation
+    content.vb: Public onData As LAUIGroupAnimation
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIView.offPresetName
+  commentId: F:Lucid.UI.UIView.offPresetName
+  id: offPresetName
+  parent: Lucid.UI.UIView
+  langs:
+  - csharp
+  - vb
+  name: offPresetName
+  nameWithType: UIView.offPresetName
+  fullName: Lucid.UI.UIView.offPresetName
+  type: Field
+  source:
+    id: offPresetName
+    path: ''
+    startLine: 7880
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public string offPresetName
+    return:
+      type: System.String
+    content.vb: Public offPresetName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIView.ApplyOffPreset
+  commentId: M:Lucid.UI.UIView.ApplyOffPreset
+  id: ApplyOffPreset
+  parent: Lucid.UI.UIView
+  langs:
+  - csharp
+  - vb
+  name: ApplyOffPreset()
+  nameWithType: UIView.ApplyOffPreset()
+  fullName: Lucid.UI.UIView.ApplyOffPreset()
+  type: Method
+  source:
+    id: ApplyOffPreset
+    path: ''
+    startLine: 7881
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public void ApplyOffPreset()
+    content.vb: Public Sub ApplyOffPreset
+  overload: Lucid.UI.UIView.ApplyOffPreset*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIView.offData
+  commentId: F:Lucid.UI.UIView.offData
+  id: offData
+  parent: Lucid.UI.UIView
+  langs:
+  - csharp
+  - vb
+  name: offData
+  nameWithType: UIView.offData
+  fullName: Lucid.UI.UIView.offData
+  type: Field
+  source:
+    id: offData
+    path: ''
+    startLine: 7900
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public LAUIGroupAnimation offData
+    return:
+      type: Global.LAUIGroupAnimation
+    content.vb: Public offData As LAUIGroupAnimation
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIView.hiddenPresetName
+  commentId: F:Lucid.UI.UIView.hiddenPresetName
+  id: hiddenPresetName
+  parent: Lucid.UI.UIView
+  langs:
+  - csharp
+  - vb
+  name: hiddenPresetName
+  nameWithType: UIView.hiddenPresetName
+  fullName: Lucid.UI.UIView.hiddenPresetName
+  type: Field
+  source:
+    id: hiddenPresetName
+    path: ''
+    startLine: 7907
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public string hiddenPresetName
+    return:
+      type: System.String
+    content.vb: Public hiddenPresetName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIView.hiddenData
+  commentId: F:Lucid.UI.UIView.hiddenData
+  id: hiddenData
+  parent: Lucid.UI.UIView
+  langs:
+  - csharp
+  - vb
+  name: hiddenData
+  nameWithType: UIView.hiddenData
+  fullName: Lucid.UI.UIView.hiddenData
+  type: Field
+  source:
+    id: hiddenData
+    path: ''
+    startLine: 7926
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public LAUIGroupAnimation hiddenData
+    return:
+      type: Global.LAUIGroupAnimation
+    content.vb: Public hiddenData As LAUIGroupAnimation
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIView.AutoFillTargets
+  commentId: M:Lucid.UI.UIView.AutoFillTargets
+  id: AutoFillTargets
+  parent: Lucid.UI.UIView
+  langs:
+  - csharp
+  - vb
+  name: AutoFillTargets()
+  nameWithType: UIView.AutoFillTargets()
+  fullName: Lucid.UI.UIView.AutoFillTargets()
+  type: Method
+  source:
+    id: AutoFillTargets
+    path: ''
+    startLine: 7929
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public void AutoFillTargets()
+    content.vb: Public Sub AutoFillTargets
+  overload: Lucid.UI.UIView.AutoFillTargets*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIView.onShowBegin
+  commentId: F:Lucid.UI.UIView.onShowBegin
+  id: onShowBegin
+  parent: Lucid.UI.UIView
+  langs:
+  - csharp
+  - vb
+  name: onShowBegin
+  nameWithType: UIView.onShowBegin
+  fullName: Lucid.UI.UIView.onShowBegin
+  type: Field
+  source:
+    id: onShowBegin
+    path: ''
+    startLine: 8050
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public UnityEvent onShowBegin
+    return:
+      type: Global.UnityEvent
+    content.vb: Public onShowBegin As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIView.onShowComplete
+  commentId: F:Lucid.UI.UIView.onShowComplete
+  id: onShowComplete
+  parent: Lucid.UI.UIView
+  langs:
+  - csharp
+  - vb
+  name: onShowComplete
+  nameWithType: UIView.onShowComplete
+  fullName: Lucid.UI.UIView.onShowComplete
+  type: Field
+  source:
+    id: onShowComplete
+    path: ''
+    startLine: 8052
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public UnityEvent onShowComplete
+    return:
+      type: Global.UnityEvent
+    content.vb: Public onShowComplete As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIView.onHideBegin
+  commentId: F:Lucid.UI.UIView.onHideBegin
+  id: onHideBegin
+  parent: Lucid.UI.UIView
+  langs:
+  - csharp
+  - vb
+  name: onHideBegin
+  nameWithType: UIView.onHideBegin
+  fullName: Lucid.UI.UIView.onHideBegin
+  type: Field
+  source:
+    id: onHideBegin
+    path: ''
+    startLine: 8054
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public UnityEvent onHideBegin
+    return:
+      type: Global.UnityEvent
+    content.vb: Public onHideBegin As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIView.onHideComplete
+  commentId: F:Lucid.UI.UIView.onHideComplete
+  id: onHideComplete
+  parent: Lucid.UI.UIView
+  langs:
+  - csharp
+  - vb
+  name: onHideComplete
+  nameWithType: UIView.onHideComplete
+  fullName: Lucid.UI.UIView.onHideComplete
+  type: Field
+  source:
+    id: onHideComplete
+    path: ''
+    startLine: 8056
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public UnityEvent onHideComplete
+    return:
+      type: Global.UnityEvent
+    content.vb: Public onHideComplete As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIView.Showing
+  commentId: P:Lucid.UI.UIView.Showing
+  id: Showing
+  parent: Lucid.UI.UIView
+  langs:
+  - csharp
+  - vb
+  name: Showing
+  nameWithType: UIView.Showing
+  fullName: Lucid.UI.UIView.Showing
+  type: Property
+  source:
+    id: Showing
+    path: ''
+    startLine: 8058
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public bool Showing { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Showing As Boolean
+  overload: Lucid.UI.UIView.Showing*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIView.GetAllStyleNames
+  commentId: M:Lucid.UI.UIView.GetAllStyleNames
+  id: GetAllStyleNames
+  parent: Lucid.UI.UIView
+  langs:
+  - csharp
+  - vb
+  name: GetAllStyleNames()
+  nameWithType: UIView.GetAllStyleNames()
+  fullName: Lucid.UI.UIView.GetAllStyleNames()
+  type: Method
+  source:
+    id: GetAllStyleNames
+    path: ''
+    startLine: 8064
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public List<string> GetAllStyleNames()
+    return:
+      type: Global.List{System.String}
+    content.vb: Public Function GetAllStyleNames As List(Of String)
+  overload: Lucid.UI.UIView.GetAllStyleNames*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIView.ShowDuration
+  commentId: P:Lucid.UI.UIView.ShowDuration
+  id: ShowDuration
+  parent: Lucid.UI.UIView
+  langs:
+  - csharp
+  - vb
+  name: ShowDuration
+  nameWithType: UIView.ShowDuration
+  fullName: Lucid.UI.UIView.ShowDuration
+  type: Property
+  source:
+    id: ShowDuration
+    path: ''
+    startLine: 8070
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public float ShowDuration { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property ShowDuration As Single
+  overload: Lucid.UI.UIView.ShowDuration*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Lucid.UI.UIView.HideDuration
+  commentId: P:Lucid.UI.UIView.HideDuration
+  id: HideDuration
+  parent: Lucid.UI.UIView
+  langs:
+  - csharp
+  - vb
+  name: HideDuration
+  nameWithType: UIView.HideDuration
+  fullName: Lucid.UI.UIView.HideDuration
+  type: Property
+  source:
+    id: HideDuration
+    path: ''
+    startLine: 8071
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public float HideDuration { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property HideDuration As Single
+  overload: Lucid.UI.UIView.HideDuration*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Lucid.UI.UIView.ShowView(System.Boolean)
+  commentId: M:Lucid.UI.UIView.ShowView(System.Boolean)
+  id: ShowView(System.Boolean)
+  parent: Lucid.UI.UIView
+  langs:
+  - csharp
+  - vb
+  name: ShowView(Boolean)
+  nameWithType: UIView.ShowView(Boolean)
+  fullName: Lucid.UI.UIView.ShowView(System.Boolean)
+  type: Method
+  source:
+    id: ShowView
+    path: ''
+    startLine: 8129
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public void ShowView(bool cut = false)
+    parameters:
+    - id: cut
+      type: System.Boolean
+    content.vb: Public Sub ShowView(cut As Boolean = False)
+  overload: Lucid.UI.UIView.ShowView*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIView.HideView(System.Boolean)
+  commentId: M:Lucid.UI.UIView.HideView(System.Boolean)
+  id: HideView(System.Boolean)
+  parent: Lucid.UI.UIView
+  langs:
+  - csharp
+  - vb
+  name: HideView(Boolean)
+  nameWithType: UIView.HideView(Boolean)
+  fullName: Lucid.UI.UIView.HideView(System.Boolean)
+  type: Method
+  source:
+    id: HideView
+    path: ''
+    startLine: 8155
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public void HideView(bool cut = false)
+    parameters:
+    - id: cut
+      type: System.Boolean
+    content.vb: Public Sub HideView(cut As Boolean = False)
+  overload: Lucid.UI.UIView.HideView*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIView.GrabShowDuration
+  commentId: M:Lucid.UI.UIView.GrabShowDuration
+  id: GrabShowDuration
+  parent: Lucid.UI.UIView
+  langs:
+  - csharp
+  - vb
+  name: GrabShowDuration()
+  nameWithType: UIView.GrabShowDuration()
+  fullName: Lucid.UI.UIView.GrabShowDuration()
+  type: Method
+  source:
+    id: GrabShowDuration
+    path: ''
+    startLine: 8177
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public float GrabShowDuration()
+    return:
+      type: System.Single
+    content.vb: Public Function GrabShowDuration As Single
+  overload: Lucid.UI.UIView.GrabShowDuration*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIView.GrabLongestShowSequence
+  commentId: M:Lucid.UI.UIView.GrabLongestShowSequence
+  id: GrabLongestShowSequence
+  parent: Lucid.UI.UIView
+  langs:
+  - csharp
+  - vb
+  name: GrabLongestShowSequence()
+  nameWithType: UIView.GrabLongestShowSequence()
+  fullName: Lucid.UI.UIView.GrabLongestShowSequence()
+  type: Method
+  source:
+    id: GrabLongestShowSequence
+    path: ''
+    startLine: 8182
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public Sequence GrabLongestShowSequence()
+    return:
+      type: Global.Sequence
+    content.vb: Public Function GrabLongestShowSequence As Sequence
+  overload: Lucid.UI.UIView.GrabLongestShowSequence*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIView.GrabHideDuration
+  commentId: M:Lucid.UI.UIView.GrabHideDuration
+  id: GrabHideDuration
+  parent: Lucid.UI.UIView
+  langs:
+  - csharp
+  - vb
+  name: GrabHideDuration()
+  nameWithType: UIView.GrabHideDuration()
+  fullName: Lucid.UI.UIView.GrabHideDuration()
+  type: Method
+  source:
+    id: GrabHideDuration
+    path: ''
+    startLine: 8187
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public float GrabHideDuration()
+    return:
+      type: System.Single
+    content.vb: Public Function GrabHideDuration As Single
+  overload: Lucid.UI.UIView.GrabHideDuration*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIView.GrabLongestHideSequence
+  commentId: M:Lucid.UI.UIView.GrabLongestHideSequence
+  id: GrabLongestHideSequence
+  parent: Lucid.UI.UIView
+  langs:
+  - csharp
+  - vb
+  name: GrabLongestHideSequence()
+  nameWithType: UIView.GrabLongestHideSequence()
+  fullName: Lucid.UI.UIView.GrabLongestHideSequence()
+  type: Method
+  source:
+    id: GrabLongestHideSequence
+    path: ''
+    startLine: 8192
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public Sequence GrabLongestHideSequence()
+    return:
+      type: Global.Sequence
+    content.vb: Public Function GrabLongestHideSequence As Sequence
+  overload: Lucid.UI.UIView.GrabLongestHideSequence*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.UI
+  commentId: N:Lucid.UI
+  name: Lucid.UI
+  nameWithType: Lucid.UI
+  fullName: Lucid.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.UI.UIView.EditorInitialiseView*
+  commentId: Overload:Lucid.UI.UIView.EditorInitialiseView
+  name: EditorInitialiseView
+  nameWithType: UIView.EditorInitialiseView
+  fullName: Lucid.UI.UIView.EditorInitialiseView
+- uid: Lucid.UI.UIView.MoveToLayout*
+  commentId: Overload:Lucid.UI.UIView.MoveToLayout
+  name: MoveToLayout
+  nameWithType: UIView.MoveToLayout
+  fullName: Lucid.UI.UIView.MoveToLayout
+- uid: Lucid.UI.UIView.MoveToStack*
+  commentId: Overload:Lucid.UI.UIView.MoveToStack
+  name: MoveToStack
+  nameWithType: UIView.MoveToStack
+  fullName: Lucid.UI.UIView.MoveToStack
+- uid: Global.RectTransform
+  isExternal: true
+  name: RectTransform
+  nameWithType: RectTransform
+  fullName: RectTransform
+- uid: Global.Canvas
+  isExternal: true
+  name: Canvas
+  nameWithType: Canvas
+  fullName: Canvas
+- uid: Global.CanvasGroup
+  isExternal: true
+  name: CanvasGroup
+  nameWithType: CanvasGroup
+  fullName: CanvasGroup
+- uid: Global.TextMeshProUGUI
+  isExternal: true
+  name: TextMeshProUGUI
+  nameWithType: TextMeshProUGUI
+  fullName: TextMeshProUGUI
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.ViewType
+  commentId: '!:Global.ViewType'
+  isExternal: true
+  name: ViewType
+  nameWithType: ViewType
+  fullName: ViewType
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Lucid.UI.UIView.ApplyOnPreset*
+  commentId: Overload:Lucid.UI.UIView.ApplyOnPreset
+  name: ApplyOnPreset
+  nameWithType: UIView.ApplyOnPreset
+  fullName: Lucid.UI.UIView.ApplyOnPreset
+- uid: Global.LAUIGroupAnimation
+  isExternal: true
+  name: LAUIGroupAnimation
+  nameWithType: LAUIGroupAnimation
+  fullName: LAUIGroupAnimation
+- uid: Lucid.UI.UIView.ApplyOffPreset*
+  commentId: Overload:Lucid.UI.UIView.ApplyOffPreset
+  name: ApplyOffPreset
+  nameWithType: UIView.ApplyOffPreset
+  fullName: Lucid.UI.UIView.ApplyOffPreset
+- uid: Lucid.UI.UIView.AutoFillTargets*
+  commentId: Overload:Lucid.UI.UIView.AutoFillTargets
+  name: AutoFillTargets
+  nameWithType: UIView.AutoFillTargets
+  fullName: Lucid.UI.UIView.AutoFillTargets
+- uid: Global.UnityEvent
+  isExternal: true
+  name: UnityEvent
+  nameWithType: UnityEvent
+  fullName: UnityEvent
+- uid: Lucid.UI.UIView.Showing*
+  commentId: Overload:Lucid.UI.UIView.Showing
+  name: Showing
+  nameWithType: UIView.Showing
+  fullName: Lucid.UI.UIView.Showing
+- uid: Lucid.UI.UIView.GetAllStyleNames*
+  commentId: Overload:Lucid.UI.UIView.GetAllStyleNames
+  name: GetAllStyleNames
+  nameWithType: UIView.GetAllStyleNames
+  fullName: Lucid.UI.UIView.GetAllStyleNames
+- uid: Global.List{System.String}
+  commentId: '!:Global.List{System.String}'
+  definition: Global.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.UI.UIView.ShowDuration*
+  commentId: Overload:Lucid.UI.UIView.ShowDuration
+  name: ShowDuration
+  nameWithType: UIView.ShowDuration
+  fullName: Lucid.UI.UIView.ShowDuration
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Lucid.UI.UIView.HideDuration*
+  commentId: Overload:Lucid.UI.UIView.HideDuration
+  name: HideDuration
+  nameWithType: UIView.HideDuration
+  fullName: Lucid.UI.UIView.HideDuration
+- uid: Lucid.UI.UIView.ShowView*
+  commentId: Overload:Lucid.UI.UIView.ShowView
+  name: ShowView
+  nameWithType: UIView.ShowView
+  fullName: Lucid.UI.UIView.ShowView
+- uid: Lucid.UI.UIView.HideView*
+  commentId: Overload:Lucid.UI.UIView.HideView
+  name: HideView
+  nameWithType: UIView.HideView
+  fullName: Lucid.UI.UIView.HideView
+- uid: Lucid.UI.UIView.GrabShowDuration*
+  commentId: Overload:Lucid.UI.UIView.GrabShowDuration
+  name: GrabShowDuration
+  nameWithType: UIView.GrabShowDuration
+  fullName: Lucid.UI.UIView.GrabShowDuration
+- uid: Lucid.UI.UIView.GrabLongestShowSequence*
+  commentId: Overload:Lucid.UI.UIView.GrabLongestShowSequence
+  name: GrabLongestShowSequence
+  nameWithType: UIView.GrabLongestShowSequence
+  fullName: Lucid.UI.UIView.GrabLongestShowSequence
+- uid: Global.Sequence
+  isExternal: true
+  name: Sequence
+  nameWithType: Sequence
+  fullName: Sequence
+- uid: Lucid.UI.UIView.GrabHideDuration*
+  commentId: Overload:Lucid.UI.UIView.GrabHideDuration
+  name: GrabHideDuration
+  nameWithType: UIView.GrabHideDuration
+  fullName: Lucid.UI.UIView.GrabHideDuration
+- uid: Lucid.UI.UIView.GrabLongestHideSequence*
+  commentId: Overload:Lucid.UI.UIView.GrabLongestHideSequence
+  name: GrabLongestHideSequence
+  nameWithType: UIView.GrabLongestHideSequence
+  fullName: Lucid.UI.UIView.GrabLongestHideSequence

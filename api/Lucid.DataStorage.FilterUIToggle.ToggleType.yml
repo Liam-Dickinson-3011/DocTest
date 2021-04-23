@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.DataStorage.FilterUIToggle.ToggleType
+  commentId: T:Lucid.DataStorage.FilterUIToggle.ToggleType
+  id: FilterUIToggle.ToggleType
+  parent: Lucid.DataStorage
+  children:
+  - Lucid.DataStorage.FilterUIToggle.ToggleType.SetApplyFilter
+  - Lucid.DataStorage.FilterUIToggle.ToggleType.SetValue
+  langs:
+  - csharp
+  - vb
+  name: FilterUIToggle.ToggleType
+  nameWithType: FilterUIToggle.ToggleType
+  fullName: Lucid.DataStorage.FilterUIToggle.ToggleType
+  type: Enum
+  source:
+    id: ToggleType
+    path: ''
+    startLine: 15177
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public enum ToggleType
+    content.vb: Public Enum ToggleType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Lucid.DataStorage.FilterUIToggle.ToggleType.SetApplyFilter
+  commentId: F:Lucid.DataStorage.FilterUIToggle.ToggleType.SetApplyFilter
+  id: SetApplyFilter
+  parent: Lucid.DataStorage.FilterUIToggle.ToggleType
+  langs:
+  - csharp
+  - vb
+  name: SetApplyFilter
+  nameWithType: FilterUIToggle.ToggleType.SetApplyFilter
+  fullName: Lucid.DataStorage.FilterUIToggle.ToggleType.SetApplyFilter
+  type: Field
+  source:
+    id: SetApplyFilter
+    path: ''
+    startLine: 15179
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: SetApplyFilter = 0
+    return:
+      type: Lucid.DataStorage.FilterUIToggle.ToggleType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.DataStorage.FilterUIToggle.ToggleType.SetValue
+  commentId: F:Lucid.DataStorage.FilterUIToggle.ToggleType.SetValue
+  id: SetValue
+  parent: Lucid.DataStorage.FilterUIToggle.ToggleType
+  langs:
+  - csharp
+  - vb
+  name: SetValue
+  nameWithType: FilterUIToggle.ToggleType.SetValue
+  fullName: Lucid.DataStorage.FilterUIToggle.ToggleType.SetValue
+  type: Field
+  source:
+    id: SetValue
+    path: ''
+    startLine: 15180
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: SetValue = 1
+    return:
+      type: Lucid.DataStorage.FilterUIToggle.ToggleType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Lucid.DataStorage
+  commentId: N:Lucid.DataStorage
+  name: Lucid.DataStorage
+  nameWithType: Lucid.DataStorage
+  fullName: Lucid.DataStorage
+- uid: Lucid.DataStorage.FilterUIToggle.ToggleType
+  commentId: T:Lucid.DataStorage.FilterUIToggle.ToggleType
+  parent: Lucid.DataStorage
+  name: FilterUIToggle.ToggleType
+  nameWithType: FilterUIToggle.ToggleType
+  fullName: Lucid.DataStorage.FilterUIToggle.ToggleType

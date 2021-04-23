@@ -1,0 +1,162 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Animation.LA3DProgressor
+  commentId: T:Lucid.Animation.LA3DProgressor
+  id: LA3DProgressor
+  parent: Lucid.Animation
+  children:
+  - Lucid.Animation.LA3DProgressor.GoToPosNormalised(System.Single)
+  - Lucid.Animation.LA3DProgressor.slider
+  - Lucid.Animation.LA3DProgressor.transCollection
+  langs:
+  - csharp
+  - vb
+  name: LA3DProgressor
+  nameWithType: LA3DProgressor
+  fullName: Lucid.Animation.LA3DProgressor
+  type: Class
+  source:
+    id: LA3DProgressor
+    path: ''
+    startLine: 26522
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: 'public class LA3DProgressor : MonoBehaviour'
+    content.vb: >-
+      Public Class LA3DProgressor
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Animation.LA3DProgressor.transCollection
+  commentId: F:Lucid.Animation.LA3DProgressor.transCollection
+  id: transCollection
+  parent: Lucid.Animation.LA3DProgressor
+  langs:
+  - csharp
+  - vb
+  name: transCollection
+  nameWithType: LA3DProgressor.transCollection
+  fullName: Lucid.Animation.LA3DProgressor.transCollection
+  type: Field
+  source:
+    id: transCollection
+    path: ''
+    startLine: 26527
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LA3DProgressingAnimation transCollection
+    return:
+      type: Lucid.Animation.LA3DProgressingAnimation
+    content.vb: Public transCollection As LA3DProgressingAnimation
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LA3DProgressor.slider
+  commentId: F:Lucid.Animation.LA3DProgressor.slider
+  id: slider
+  parent: Lucid.Animation.LA3DProgressor
+  langs:
+  - csharp
+  - vb
+  name: slider
+  nameWithType: LA3DProgressor.slider
+  fullName: Lucid.Animation.LA3DProgressor.slider
+  type: Field
+  source:
+    id: slider
+    path: ''
+    startLine: 26530
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public Slider slider
+    return:
+      type: Global.Slider
+    content.vb: Public slider As Slider
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LA3DProgressor.GoToPosNormalised(System.Single)
+  commentId: M:Lucid.Animation.LA3DProgressor.GoToPosNormalised(System.Single)
+  id: GoToPosNormalised(System.Single)
+  parent: Lucid.Animation.LA3DProgressor
+  langs:
+  - csharp
+  - vb
+  name: GoToPosNormalised(Single)
+  nameWithType: LA3DProgressor.GoToPosNormalised(Single)
+  fullName: Lucid.Animation.LA3DProgressor.GoToPosNormalised(System.Single)
+  type: Method
+  source:
+    id: GoToPosNormalised
+    path: ''
+    startLine: 26542
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public void GoToPosNormalised(float pos)
+    parameters:
+    - id: pos
+      type: System.Single
+    content.vb: Public Sub GoToPosNormalised(pos As Single)
+  overload: Lucid.Animation.LA3DProgressor.GoToPosNormalised*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Animation
+  commentId: N:Lucid.Animation
+  name: Lucid.Animation
+  nameWithType: Lucid.Animation
+  fullName: Lucid.Animation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.Animation.LA3DProgressingAnimation
+  commentId: T:Lucid.Animation.LA3DProgressingAnimation
+  parent: Lucid.Animation
+  name: LA3DProgressingAnimation
+  nameWithType: LA3DProgressingAnimation
+  fullName: Lucid.Animation.LA3DProgressingAnimation
+- uid: Global.Slider
+  isExternal: true
+  name: Slider
+  nameWithType: Slider
+  fullName: Slider
+- uid: Lucid.Animation.LA3DProgressor.GoToPosNormalised*
+  commentId: Overload:Lucid.Animation.LA3DProgressor.GoToPosNormalised
+  name: GoToPosNormalised
+  nameWithType: LA3DProgressor.GoToPosNormalised
+  fullName: Lucid.Animation.LA3DProgressor.GoToPosNormalised
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

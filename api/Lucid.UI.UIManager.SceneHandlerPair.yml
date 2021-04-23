@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.UI.UIManager.SceneHandlerPair
+  commentId: T:Lucid.UI.UIManager.SceneHandlerPair
+  id: UIManager.SceneHandlerPair
+  parent: Lucid.UI
+  children:
+  - Lucid.UI.UIManager.SceneHandlerPair.#ctor(Scene,Lucid.UI.MultiSceneViewHandler)
+  - Lucid.UI.UIManager.SceneHandlerPair.scene
+  - Lucid.UI.UIManager.SceneHandlerPair.viewHandler
+  langs:
+  - csharp
+  - vb
+  name: UIManager.SceneHandlerPair
+  nameWithType: UIManager.SceneHandlerPair
+  fullName: Lucid.UI.UIManager.SceneHandlerPair
+  type: Class
+  source:
+    id: SceneHandlerPair
+    path: ''
+    startLine: 6428
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public class SceneHandlerPair
+    content.vb: Public Class SceneHandlerPair
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.UI.UIManager.SceneHandlerPair.scene
+  commentId: F:Lucid.UI.UIManager.SceneHandlerPair.scene
+  id: scene
+  parent: Lucid.UI.UIManager.SceneHandlerPair
+  langs:
+  - csharp
+  - vb
+  name: scene
+  nameWithType: UIManager.SceneHandlerPair.scene
+  fullName: Lucid.UI.UIManager.SceneHandlerPair.scene
+  type: Field
+  source:
+    id: scene
+    path: ''
+    startLine: 6431
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public Scene scene
+    return:
+      type: Global.Scene
+    content.vb: Public scene As Scene
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIManager.SceneHandlerPair.viewHandler
+  commentId: F:Lucid.UI.UIManager.SceneHandlerPair.viewHandler
+  id: viewHandler
+  parent: Lucid.UI.UIManager.SceneHandlerPair
+  langs:
+  - csharp
+  - vb
+  name: viewHandler
+  nameWithType: UIManager.SceneHandlerPair.viewHandler
+  fullName: Lucid.UI.UIManager.SceneHandlerPair.viewHandler
+  type: Field
+  source:
+    id: viewHandler
+    path: ''
+    startLine: 6432
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public MultiSceneViewHandler viewHandler
+    return:
+      type: Lucid.UI.MultiSceneViewHandler
+    content.vb: Public viewHandler As MultiSceneViewHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.UIManager.SceneHandlerPair.#ctor(Scene,Lucid.UI.MultiSceneViewHandler)
+  commentId: M:Lucid.UI.UIManager.SceneHandlerPair.#ctor(Scene,Lucid.UI.MultiSceneViewHandler)
+  id: '#ctor(Scene,Lucid.UI.MultiSceneViewHandler)'
+  parent: Lucid.UI.UIManager.SceneHandlerPair
+  langs:
+  - csharp
+  - vb
+  name: SceneHandlerPair(Scene, MultiSceneViewHandler)
+  nameWithType: UIManager.SceneHandlerPair.SceneHandlerPair(Scene, MultiSceneViewHandler)
+  fullName: Lucid.UI.UIManager.SceneHandlerPair.SceneHandlerPair(Scene, Lucid.UI.MultiSceneViewHandler)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 6434
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public SceneHandlerPair(Scene scene, MultiSceneViewHandler viewHandler)
+    parameters:
+    - id: scene
+      type: Global.Scene
+    - id: viewHandler
+      type: Lucid.UI.MultiSceneViewHandler
+    content.vb: Public Sub New(scene As Scene, viewHandler As MultiSceneViewHandler)
+  overload: Lucid.UI.UIManager.SceneHandlerPair.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.UI
+  commentId: N:Lucid.UI
+  name: Lucid.UI
+  nameWithType: Lucid.UI
+  fullName: Lucid.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Scene
+  isExternal: true
+  name: Scene
+  nameWithType: Scene
+  fullName: Scene
+- uid: Lucid.UI.MultiSceneViewHandler
+  commentId: T:Lucid.UI.MultiSceneViewHandler
+  parent: Lucid.UI
+  name: MultiSceneViewHandler
+  nameWithType: MultiSceneViewHandler
+  fullName: Lucid.UI.MultiSceneViewHandler
+- uid: Lucid.UI.UIManager.SceneHandlerPair.#ctor*
+  commentId: Overload:Lucid.UI.UIManager.SceneHandlerPair.#ctor
+  name: SceneHandlerPair
+  nameWithType: UIManager.SceneHandlerPair.SceneHandlerPair
+  fullName: Lucid.UI.UIManager.SceneHandlerPair.SceneHandlerPair

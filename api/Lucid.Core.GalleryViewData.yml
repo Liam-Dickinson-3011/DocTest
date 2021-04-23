@@ -1,0 +1,115 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Core.GalleryViewData
+  commentId: T:Lucid.Core.GalleryViewData
+  id: GalleryViewData
+  parent: Lucid.Core
+  children:
+  - Lucid.Core.GalleryViewData.images
+  langs:
+  - csharp
+  - vb
+  name: GalleryViewData
+  nameWithType: GalleryViewData
+  fullName: Lucid.Core.GalleryViewData
+  type: Class
+  source:
+    id: GalleryViewData
+    path: ''
+    startLine: 5836
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class GalleryViewData
+    content.vb: >-
+      <Serializable>
+
+      Public Class GalleryViewData
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Core.GalleryViewData.images
+  commentId: F:Lucid.Core.GalleryViewData.images
+  id: images
+  parent: Lucid.Core.GalleryViewData
+  langs:
+  - csharp
+  - vb
+  name: images
+  nameWithType: GalleryViewData.images
+  fullName: Lucid.Core.GalleryViewData.images
+  type: Field
+  source:
+    id: images
+    path: ''
+    startLine: 5840
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public Sprite[] images
+    return:
+      type: Global.Sprite[]
+    content.vb: Public images As Sprite()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Core
+  commentId: N:Lucid.Core
+  name: Lucid.Core
+  nameWithType: Lucid.Core
+  fullName: Lucid.Core
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Sprite[]
+  isExternal: true
+  name: Sprite[]
+  nameWithType: Sprite[]
+  fullName: Sprite[]
+  nameWithType.vb: Sprite()
+  fullName.vb: Sprite()
+  name.vb: Sprite()
+  spec.csharp:
+  - uid: Global.Sprite
+    name: Sprite
+    nameWithType: Sprite
+    fullName: Sprite
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.Sprite
+    name: Sprite
+    nameWithType: Sprite
+    fullName: Sprite
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

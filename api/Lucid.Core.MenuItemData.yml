@@ -1,0 +1,261 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Core.MenuItemData
+  commentId: T:Lucid.Core.MenuItemData
+  id: MenuItemData
+  parent: Lucid.Core
+  children:
+  - Lucid.Core.MenuItemData.#ctor
+  - Lucid.Core.MenuItemData.#ctor(System.String,Lucid.Core.MenuItemType,System.Boolean,System.String)
+  - Lucid.Core.MenuItemData.label
+  - Lucid.Core.MenuItemData.stateButton
+  - Lucid.Core.MenuItemData.targetState
+  - Lucid.Core.MenuItemData.type
+  langs:
+  - csharp
+  - vb
+  name: MenuItemData
+  nameWithType: MenuItemData
+  fullName: Lucid.Core.MenuItemData
+  type: Class
+  source:
+    id: MenuItemData
+    path: ''
+    startLine: 5878
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class MenuItemData
+    content.vb: >-
+      <Serializable>
+
+      Public Class MenuItemData
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Core.MenuItemData.#ctor
+  commentId: M:Lucid.Core.MenuItemData.#ctor
+  id: '#ctor'
+  parent: Lucid.Core.MenuItemData
+  langs:
+  - csharp
+  - vb
+  name: MenuItemData()
+  nameWithType: MenuItemData.MenuItemData()
+  fullName: Lucid.Core.MenuItemData.MenuItemData()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 5881
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public MenuItemData()
+    content.vb: Public Sub New
+  overload: Lucid.Core.MenuItemData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Core.MenuItemData.#ctor(System.String,Lucid.Core.MenuItemType,System.Boolean,System.String)
+  commentId: M:Lucid.Core.MenuItemData.#ctor(System.String,Lucid.Core.MenuItemType,System.Boolean,System.String)
+  id: '#ctor(System.String,Lucid.Core.MenuItemType,System.Boolean,System.String)'
+  parent: Lucid.Core.MenuItemData
+  langs:
+  - csharp
+  - vb
+  name: MenuItemData(String, MenuItemType, Boolean, String)
+  nameWithType: MenuItemData.MenuItemData(String, MenuItemType, Boolean, String)
+  fullName: Lucid.Core.MenuItemData.MenuItemData(System.String, Lucid.Core.MenuItemType, System.Boolean, System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 5886
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public MenuItemData(string lab, MenuItemType t, bool b, string tar)
+    parameters:
+    - id: lab
+      type: System.String
+    - id: t
+      type: Lucid.Core.MenuItemType
+    - id: b
+      type: System.Boolean
+    - id: tar
+      type: System.String
+    content.vb: Public Sub New(lab As String, t As MenuItemType, b As Boolean, tar As String)
+  overload: Lucid.Core.MenuItemData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Core.MenuItemData.label
+  commentId: F:Lucid.Core.MenuItemData.label
+  id: label
+  parent: Lucid.Core.MenuItemData
+  langs:
+  - csharp
+  - vb
+  name: label
+  nameWithType: MenuItemData.label
+  fullName: Lucid.Core.MenuItemData.label
+  type: Field
+  source:
+    id: label
+    path: ''
+    startLine: 5896
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public string label
+    return:
+      type: System.String
+    content.vb: Public label As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Core.MenuItemData.type
+  commentId: F:Lucid.Core.MenuItemData.type
+  id: type
+  parent: Lucid.Core.MenuItemData
+  langs:
+  - csharp
+  - vb
+  name: type
+  nameWithType: MenuItemData.type
+  fullName: Lucid.Core.MenuItemData.type
+  type: Field
+  source:
+    id: type
+    path: ''
+    startLine: 5900
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public MenuItemType type
+    return:
+      type: Lucid.Core.MenuItemType
+    content.vb: Public type As MenuItemType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Core.MenuItemData.stateButton
+  commentId: F:Lucid.Core.MenuItemData.stateButton
+  id: stateButton
+  parent: Lucid.Core.MenuItemData
+  langs:
+  - csharp
+  - vb
+  name: stateButton
+  nameWithType: MenuItemData.stateButton
+  fullName: Lucid.Core.MenuItemData.stateButton
+  type: Field
+  source:
+    id: stateButton
+    path: ''
+    startLine: 5905
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public bool stateButton
+    return:
+      type: System.Boolean
+    content.vb: Public stateButton As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Core.MenuItemData.targetState
+  commentId: F:Lucid.Core.MenuItemData.targetState
+  id: targetState
+  parent: Lucid.Core.MenuItemData
+  langs:
+  - csharp
+  - vb
+  name: targetState
+  nameWithType: MenuItemData.targetState
+  fullName: Lucid.Core.MenuItemData.targetState
+  type: Field
+  source:
+    id: targetState
+    path: ''
+    startLine: 5911
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public string targetState
+    return:
+      type: System.String
+    content.vb: Public targetState As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Core
+  commentId: N:Lucid.Core
+  name: Lucid.Core
+  nameWithType: Lucid.Core
+  fullName: Lucid.Core
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.Core.MenuItemData.#ctor*
+  commentId: Overload:Lucid.Core.MenuItemData.#ctor
+  name: MenuItemData
+  nameWithType: MenuItemData.MenuItemData
+  fullName: Lucid.Core.MenuItemData.MenuItemData
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Lucid.Core.MenuItemType
+  commentId: T:Lucid.Core.MenuItemType
+  parent: Lucid.Core
+  name: MenuItemType
+  nameWithType: MenuItemType
+  fullName: Lucid.Core.MenuItemType
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

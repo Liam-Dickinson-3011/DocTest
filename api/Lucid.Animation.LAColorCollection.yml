@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Animation.LAColorCollection
+  commentId: T:Lucid.Animation.LAColorCollection
+  id: LAColorCollection
+  parent: Lucid.Animation
+  children:
+  - Lucid.Animation.LAColorCollection.#ctor
+  - Lucid.Animation.LAColorCollection.#ctor(Lucid.Animation.LAColorCollection)
+  - Lucid.Animation.LAColorCollection.OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  langs:
+  - csharp
+  - vb
+  name: LAColorCollection
+  nameWithType: LAColorCollection
+  fullName: Lucid.Animation.LAColorCollection
+  type: Class
+  source:
+    id: LAColorCollection
+    path: ''
+    startLine: 24373
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class LAColorCollection : ObservableCollection<LAColor>, INotifyCollectionChanged, INotifyPropertyChanged
+    content.vb: >-
+      <Serializable>
+
+      Public Class LAColorCollection
+          Inherits ObservableCollection(Of LAColor)
+          Implements INotifyCollectionChanged, INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Animation.LAColorCollection.#ctor
+  commentId: M:Lucid.Animation.LAColorCollection.#ctor
+  id: '#ctor'
+  parent: Lucid.Animation.LAColorCollection
+  langs:
+  - csharp
+  - vb
+  name: LAColorCollection()
+  nameWithType: LAColorCollection.LAColorCollection()
+  fullName: Lucid.Animation.LAColorCollection.LAColorCollection()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 24376
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAColorCollection()
+    content.vb: Public Sub New
+  overload: Lucid.Animation.LAColorCollection.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAColorCollection.#ctor(Lucid.Animation.LAColorCollection)
+  commentId: M:Lucid.Animation.LAColorCollection.#ctor(Lucid.Animation.LAColorCollection)
+  id: '#ctor(Lucid.Animation.LAColorCollection)'
+  parent: Lucid.Animation.LAColorCollection
+  langs:
+  - csharp
+  - vb
+  name: LAColorCollection(LAColorCollection)
+  nameWithType: LAColorCollection.LAColorCollection(LAColorCollection)
+  fullName: Lucid.Animation.LAColorCollection.LAColorCollection(Lucid.Animation.LAColorCollection)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 24377
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAColorCollection(LAColorCollection copy)
+    parameters:
+    - id: copy
+      type: Lucid.Animation.LAColorCollection
+    content.vb: Public Sub New(copy As LAColorCollection)
+  overload: Lucid.Animation.LAColorCollection.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAColorCollection.OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  commentId: M:Lucid.Animation.LAColorCollection.OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  id: OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  parent: Lucid.Animation.LAColorCollection
+  langs:
+  - csharp
+  - vb
+  name: OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  nameWithType: LAColorCollection.OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  fullName: Lucid.Animation.LAColorCollection.OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  type: Method
+  source:
+    id: OnCollectionChanged
+    path: ''
+    startLine: 24385
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: protected override void OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+    parameters:
+    - id: e
+      type: Global.NotifyCollectionChangedEventArgs
+    content.vb: Protected Overrides Sub OnCollectionChanged(e As NotifyCollectionChangedEventArgs)
+  overload: Lucid.Animation.LAColorCollection.OnCollectionChanged*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Lucid.Animation
+  commentId: N:Lucid.Animation
+  name: Lucid.Animation
+  nameWithType: Lucid.Animation
+  fullName: Lucid.Animation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.Animation.LAColorCollection.#ctor*
+  commentId: Overload:Lucid.Animation.LAColorCollection.#ctor
+  name: LAColorCollection
+  nameWithType: LAColorCollection.LAColorCollection
+  fullName: Lucid.Animation.LAColorCollection.LAColorCollection
+- uid: Lucid.Animation.LAColorCollection
+  commentId: T:Lucid.Animation.LAColorCollection
+  parent: Lucid.Animation
+  name: LAColorCollection
+  nameWithType: LAColorCollection
+  fullName: Lucid.Animation.LAColorCollection
+- uid: Lucid.Animation.LAColorCollection.OnCollectionChanged*
+  commentId: Overload:Lucid.Animation.LAColorCollection.OnCollectionChanged
+  name: OnCollectionChanged
+  nameWithType: LAColorCollection.OnCollectionChanged
+  fullName: Lucid.Animation.LAColorCollection.OnCollectionChanged
+- uid: Global.NotifyCollectionChangedEventArgs
+  isExternal: true
+  name: NotifyCollectionChangedEventArgs
+  nameWithType: NotifyCollectionChangedEventArgs
+  fullName: NotifyCollectionChangedEventArgs

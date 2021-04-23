@@ -1,0 +1,364 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Core.ViewData
+  commentId: T:Lucid.Core.ViewData
+  id: ViewData
+  parent: Lucid.Core
+  children:
+  - Lucid.Core.ViewData.alwaysOn
+  - Lucid.Core.ViewData.galleryViewData
+  - Lucid.Core.ViewData.groupID
+  - Lucid.Core.ViewData.layeredGraphicData
+  - Lucid.Core.ViewData.menuViewData
+  - Lucid.Core.ViewData.name
+  - Lucid.Core.ViewData.sortingOrder
+  - Lucid.Core.ViewData.staticViewData
+  - Lucid.Core.ViewData.type
+  langs:
+  - csharp
+  - vb
+  name: ViewData
+  nameWithType: ViewData
+  fullName: Lucid.Core.ViewData
+  type: Class
+  source:
+    id: ViewData
+    path: ''
+    startLine: 5738
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class ViewData
+    content.vb: >-
+      <Serializable>
+
+      Public Class ViewData
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Core.ViewData.name
+  commentId: F:Lucid.Core.ViewData.name
+  id: name
+  parent: Lucid.Core.ViewData
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: ViewData.name
+  fullName: Lucid.Core.ViewData.name
+  type: Field
+  source:
+    id: name
+    path: ''
+    startLine: 5743
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public string name
+    return:
+      type: System.String
+    content.vb: Public name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Core.ViewData.groupID
+  commentId: F:Lucid.Core.ViewData.groupID
+  id: groupID
+  parent: Lucid.Core.ViewData
+  langs:
+  - csharp
+  - vb
+  name: groupID
+  nameWithType: ViewData.groupID
+  fullName: Lucid.Core.ViewData.groupID
+  type: Field
+  source:
+    id: groupID
+    path: ''
+    startLine: 5746
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public string groupID
+    return:
+      type: System.String
+    content.vb: Public groupID As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Core.ViewData.type
+  commentId: F:Lucid.Core.ViewData.type
+  id: type
+  parent: Lucid.Core.ViewData
+  langs:
+  - csharp
+  - vb
+  name: type
+  nameWithType: ViewData.type
+  fullName: Lucid.Core.ViewData.type
+  type: Field
+  source:
+    id: type
+    path: ''
+    startLine: 5749
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public ViewType type
+    return:
+      type: Lucid.Core.ViewType
+    content.vb: Public type As ViewType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Core.ViewData.alwaysOn
+  commentId: F:Lucid.Core.ViewData.alwaysOn
+  id: alwaysOn
+  parent: Lucid.Core.ViewData
+  langs:
+  - csharp
+  - vb
+  name: alwaysOn
+  nameWithType: ViewData.alwaysOn
+  fullName: Lucid.Core.ViewData.alwaysOn
+  type: Field
+  source:
+    id: alwaysOn
+    path: ''
+    startLine: 5752
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public bool alwaysOn
+    return:
+      type: System.Boolean
+    content.vb: Public alwaysOn As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Core.ViewData.sortingOrder
+  commentId: F:Lucid.Core.ViewData.sortingOrder
+  id: sortingOrder
+  parent: Lucid.Core.ViewData
+  langs:
+  - csharp
+  - vb
+  name: sortingOrder
+  nameWithType: ViewData.sortingOrder
+  fullName: Lucid.Core.ViewData.sortingOrder
+  type: Field
+  source:
+    id: sortingOrder
+    path: ''
+    startLine: 5755
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public int sortingOrder
+    return:
+      type: System.Int32
+    content.vb: Public sortingOrder As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Core.ViewData.staticViewData
+  commentId: F:Lucid.Core.ViewData.staticViewData
+  id: staticViewData
+  parent: Lucid.Core.ViewData
+  langs:
+  - csharp
+  - vb
+  name: staticViewData
+  nameWithType: ViewData.staticViewData
+  fullName: Lucid.Core.ViewData.staticViewData
+  type: Field
+  source:
+    id: staticViewData
+    path: ''
+    startLine: 5760
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public StaticViewData staticViewData
+    return:
+      type: Lucid.Core.StaticViewData
+    content.vb: Public staticViewData As StaticViewData
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Core.ViewData.menuViewData
+  commentId: F:Lucid.Core.ViewData.menuViewData
+  id: menuViewData
+  parent: Lucid.Core.ViewData
+  langs:
+  - csharp
+  - vb
+  name: menuViewData
+  nameWithType: ViewData.menuViewData
+  fullName: Lucid.Core.ViewData.menuViewData
+  type: Field
+  source:
+    id: menuViewData
+    path: ''
+    startLine: 5764
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public MenuViewData menuViewData
+    return:
+      type: Lucid.Core.MenuViewData
+    content.vb: Public menuViewData As MenuViewData
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Core.ViewData.layeredGraphicData
+  commentId: F:Lucid.Core.ViewData.layeredGraphicData
+  id: layeredGraphicData
+  parent: Lucid.Core.ViewData
+  langs:
+  - csharp
+  - vb
+  name: layeredGraphicData
+  nameWithType: ViewData.layeredGraphicData
+  fullName: Lucid.Core.ViewData.layeredGraphicData
+  type: Field
+  source:
+    id: layeredGraphicData
+    path: ''
+    startLine: 5768
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public LayeredGraphicData layeredGraphicData
+    return:
+      type: Lucid.Core.LayeredGraphicData
+    content.vb: Public layeredGraphicData As LayeredGraphicData
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Core.ViewData.galleryViewData
+  commentId: F:Lucid.Core.ViewData.galleryViewData
+  id: galleryViewData
+  parent: Lucid.Core.ViewData
+  langs:
+  - csharp
+  - vb
+  name: galleryViewData
+  nameWithType: ViewData.galleryViewData
+  fullName: Lucid.Core.ViewData.galleryViewData
+  type: Field
+  source:
+    id: galleryViewData
+    path: ''
+    startLine: 5772
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public GalleryViewData galleryViewData
+    return:
+      type: Lucid.Core.GalleryViewData
+    content.vb: Public galleryViewData As GalleryViewData
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Core
+  commentId: N:Lucid.Core
+  name: Lucid.Core
+  nameWithType: Lucid.Core
+  fullName: Lucid.Core
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Lucid.Core.ViewType
+  commentId: T:Lucid.Core.ViewType
+  parent: Lucid.Core
+  name: ViewType
+  nameWithType: ViewType
+  fullName: Lucid.Core.ViewType
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Lucid.Core.StaticViewData
+  commentId: T:Lucid.Core.StaticViewData
+  parent: Lucid.Core
+  name: StaticViewData
+  nameWithType: StaticViewData
+  fullName: Lucid.Core.StaticViewData
+- uid: Lucid.Core.MenuViewData
+  commentId: T:Lucid.Core.MenuViewData
+  parent: Lucid.Core
+  name: MenuViewData
+  nameWithType: MenuViewData
+  fullName: Lucid.Core.MenuViewData
+- uid: Lucid.Core.LayeredGraphicData
+  commentId: T:Lucid.Core.LayeredGraphicData
+  parent: Lucid.Core
+  name: LayeredGraphicData
+  nameWithType: LayeredGraphicData
+  fullName: Lucid.Core.LayeredGraphicData
+- uid: Lucid.Core.GalleryViewData
+  commentId: T:Lucid.Core.GalleryViewData
+  parent: Lucid.Core
+  name: GalleryViewData
+  nameWithType: GalleryViewData
+  fullName: Lucid.Core.GalleryViewData

@@ -1,0 +1,158 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.SceneManagement.Scene.SceneLoadType
+  commentId: T:Lucid.SceneManagement.Scene.SceneLoadType
+  id: Scene.SceneLoadType
+  parent: Lucid.SceneManagement
+  children:
+  - Lucid.SceneManagement.Scene.SceneLoadType.AssetBundleAsyncLoad
+  - Lucid.SceneManagement.Scene.SceneLoadType.AssetBundleSyncLoad
+  - Lucid.SceneManagement.Scene.SceneLoadType.AsyncLoad
+  - Lucid.SceneManagement.Scene.SceneLoadType.SyncLoad
+  langs:
+  - csharp
+  - vb
+  name: Scene.SceneLoadType
+  nameWithType: Scene.SceneLoadType
+  fullName: Lucid.SceneManagement.Scene.SceneLoadType
+  type: Enum
+  source:
+    id: SceneLoadType
+    path: ''
+    startLine: 13720
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.SceneManagement
+  syntax:
+    content: public enum SceneLoadType
+    content.vb: Public Enum SceneLoadType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Lucid.SceneManagement.Scene.SceneLoadType.SyncLoad
+  commentId: F:Lucid.SceneManagement.Scene.SceneLoadType.SyncLoad
+  id: SyncLoad
+  parent: Lucid.SceneManagement.Scene.SceneLoadType
+  langs:
+  - csharp
+  - vb
+  name: SyncLoad
+  nameWithType: Scene.SceneLoadType.SyncLoad
+  fullName: Lucid.SceneManagement.Scene.SceneLoadType.SyncLoad
+  type: Field
+  source:
+    id: SyncLoad
+    path: ''
+    startLine: 13722
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.SceneManagement
+  syntax:
+    content: SyncLoad = 0
+    return:
+      type: Lucid.SceneManagement.Scene.SceneLoadType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.SceneManagement.Scene.SceneLoadType.AsyncLoad
+  commentId: F:Lucid.SceneManagement.Scene.SceneLoadType.AsyncLoad
+  id: AsyncLoad
+  parent: Lucid.SceneManagement.Scene.SceneLoadType
+  langs:
+  - csharp
+  - vb
+  name: AsyncLoad
+  nameWithType: Scene.SceneLoadType.AsyncLoad
+  fullName: Lucid.SceneManagement.Scene.SceneLoadType.AsyncLoad
+  type: Field
+  source:
+    id: AsyncLoad
+    path: ''
+    startLine: 13723
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.SceneManagement
+  syntax:
+    content: AsyncLoad = 1
+    return:
+      type: Lucid.SceneManagement.Scene.SceneLoadType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.SceneManagement.Scene.SceneLoadType.AssetBundleSyncLoad
+  commentId: F:Lucid.SceneManagement.Scene.SceneLoadType.AssetBundleSyncLoad
+  id: AssetBundleSyncLoad
+  parent: Lucid.SceneManagement.Scene.SceneLoadType
+  langs:
+  - csharp
+  - vb
+  name: AssetBundleSyncLoad
+  nameWithType: Scene.SceneLoadType.AssetBundleSyncLoad
+  fullName: Lucid.SceneManagement.Scene.SceneLoadType.AssetBundleSyncLoad
+  type: Field
+  source:
+    id: AssetBundleSyncLoad
+    path: ''
+    startLine: 13724
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.SceneManagement
+  syntax:
+    content: AssetBundleSyncLoad = 2
+    return:
+      type: Lucid.SceneManagement.Scene.SceneLoadType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.SceneManagement.Scene.SceneLoadType.AssetBundleAsyncLoad
+  commentId: F:Lucid.SceneManagement.Scene.SceneLoadType.AssetBundleAsyncLoad
+  id: AssetBundleAsyncLoad
+  parent: Lucid.SceneManagement.Scene.SceneLoadType
+  langs:
+  - csharp
+  - vb
+  name: AssetBundleAsyncLoad
+  nameWithType: Scene.SceneLoadType.AssetBundleAsyncLoad
+  fullName: Lucid.SceneManagement.Scene.SceneLoadType.AssetBundleAsyncLoad
+  type: Field
+  source:
+    id: AssetBundleAsyncLoad
+    path: ''
+    startLine: 13725
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.SceneManagement
+  syntax:
+    content: AssetBundleAsyncLoad = 3
+    return:
+      type: Lucid.SceneManagement.Scene.SceneLoadType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Lucid.SceneManagement
+  commentId: N:Lucid.SceneManagement
+  name: Lucid.SceneManagement
+  nameWithType: Lucid.SceneManagement
+  fullName: Lucid.SceneManagement
+- uid: Lucid.SceneManagement.Scene.SceneLoadType
+  commentId: T:Lucid.SceneManagement.Scene.SceneLoadType
+  parent: Lucid.SceneManagement
+  name: Scene.SceneLoadType
+  nameWithType: Scene.SceneLoadType
+  fullName: Lucid.SceneManagement.Scene.SceneLoadType

@@ -1,0 +1,193 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Extensions.AIPeople.SequencedAnimator
+  commentId: T:Lucid.Extensions.AIPeople.SequencedAnimator
+  id: SequencedAnimator
+  parent: Lucid.Extensions.AIPeople
+  children:
+  - Lucid.Extensions.AIPeople.SequencedAnimator.anim
+  - Lucid.Extensions.AIPeople.SequencedAnimator.data
+  langs:
+  - csharp
+  - vb
+  name: SequencedAnimator
+  nameWithType: SequencedAnimator
+  fullName: Lucid.Extensions.AIPeople.SequencedAnimator
+  type: Class
+  source:
+    id: SequencedAnimator
+    path: ''
+    startLine: 5398
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: 'public class SequencedAnimator : MonoBehaviour'
+    content.vb: >-
+      Public Class SequencedAnimator
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Extensions.AIPeople.SequencedAnimator.anim
+  commentId: F:Lucid.Extensions.AIPeople.SequencedAnimator.anim
+  id: anim
+  parent: Lucid.Extensions.AIPeople.SequencedAnimator
+  langs:
+  - csharp
+  - vb
+  name: anim
+  nameWithType: SequencedAnimator.anim
+  fullName: Lucid.Extensions.AIPeople.SequencedAnimator.anim
+  type: Field
+  source:
+    id: anim
+    path: ''
+    startLine: 5414
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: public Animator anim
+    return:
+      type: Global.Animator
+    content.vb: Public anim As Animator
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.AIPeople.SequencedAnimator.data
+  commentId: F:Lucid.Extensions.AIPeople.SequencedAnimator.data
+  id: data
+  parent: Lucid.Extensions.AIPeople.SequencedAnimator
+  langs:
+  - csharp
+  - vb
+  name: data
+  nameWithType: SequencedAnimator.data
+  fullName: Lucid.Extensions.AIPeople.SequencedAnimator.data
+  type: Field
+  source:
+    id: data
+    path: ''
+    startLine: 5415
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: public List<SequencedAnimator.AnimData> data
+    return:
+      type: Global.List{Lucid.Extensions.AIPeople.SequencedAnimator.AnimData}
+    content.vb: Public data As List(Of SequencedAnimator.AnimData)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Extensions.AIPeople
+  commentId: N:Lucid.Extensions.AIPeople
+  name: Lucid.Extensions.AIPeople
+  nameWithType: Lucid.Extensions.AIPeople
+  fullName: Lucid.Extensions.AIPeople
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Animator
+  isExternal: true
+  name: Animator
+  nameWithType: Animator
+  fullName: Animator
+- uid: Global.List{Lucid.Extensions.AIPeople.SequencedAnimator.AnimData}
+  commentId: '!:Global.List{Lucid.Extensions.AIPeople.SequencedAnimator.AnimData}'
+  definition: Global.List`1
+  name: List<SequencedAnimator.AnimData>
+  nameWithType: List<SequencedAnimator.AnimData>
+  fullName: List<Lucid.Extensions.AIPeople.SequencedAnimator.AnimData>
+  nameWithType.vb: List(Of SequencedAnimator.AnimData)
+  fullName.vb: List(Of Lucid.Extensions.AIPeople.SequencedAnimator.AnimData)
+  name.vb: List(Of SequencedAnimator.AnimData)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Lucid.Extensions.AIPeople.SequencedAnimator.AnimData
+    name: SequencedAnimator.AnimData
+    nameWithType: SequencedAnimator.AnimData
+    fullName: Lucid.Extensions.AIPeople.SequencedAnimator.AnimData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Lucid.Extensions.AIPeople.SequencedAnimator.AnimData
+    name: SequencedAnimator.AnimData
+    nameWithType: SequencedAnimator.AnimData
+    fullName: Lucid.Extensions.AIPeople.SequencedAnimator.AnimData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

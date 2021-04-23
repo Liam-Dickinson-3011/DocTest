@@ -1,0 +1,232 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Animation.LAComponent
+  commentId: T:Lucid.Animation.LAComponent
+  id: LAComponent
+  parent: Lucid.Animation
+  children:
+  - Lucid.Animation.LAComponent.AddToSequence(Sequence,System.Boolean,System.Boolean)
+  - Lucid.Animation.LAComponent.CutToValues
+  - Lucid.Animation.LAComponent.GetSequenceDuration
+  - Lucid.Animation.LAComponent.onSequenceComplete
+  langs:
+  - csharp
+  - vb
+  name: LAComponent
+  nameWithType: LAComponent
+  fullName: Lucid.Animation.LAComponent
+  type: Class
+  source:
+    id: LAComponent
+    path: ''
+    startLine: 22241
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class LAComponent
+    content.vb: >-
+      <Serializable>
+
+      Public Class LAComponent
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Lucid.Animation.LACanvasGroup
+  - Lucid.Animation.LAImage
+  - Lucid.Animation.LARectTransform
+  - Lucid.Animation.LATextMeshProUGUI
+  - Lucid.Animation.LATransform
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Animation.LAComponent.onSequenceComplete
+  commentId: F:Lucid.Animation.LAComponent.onSequenceComplete
+  id: onSequenceComplete
+  parent: Lucid.Animation.LAComponent
+  langs:
+  - csharp
+  - vb
+  name: onSequenceComplete
+  nameWithType: LAComponent.onSequenceComplete
+  fullName: Lucid.Animation.LAComponent.onSequenceComplete
+  type: Field
+  source:
+    id: onSequenceComplete
+    path: ''
+    startLine: 22246
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public UnityEvent onSequenceComplete
+    return:
+      type: Global.UnityEvent
+    content.vb: Public onSequenceComplete As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAComponent.AddToSequence(Sequence,System.Boolean,System.Boolean)
+  commentId: M:Lucid.Animation.LAComponent.AddToSequence(Sequence,System.Boolean,System.Boolean)
+  id: AddToSequence(Sequence,System.Boolean,System.Boolean)
+  parent: Lucid.Animation.LAComponent
+  langs:
+  - csharp
+  - vb
+  name: AddToSequence(Sequence, Boolean, Boolean)
+  nameWithType: LAComponent.AddToSequence(Sequence, Boolean, Boolean)
+  fullName: Lucid.Animation.LAComponent.AddToSequence(Sequence, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    id: AddToSequence
+    path: ''
+    startLine: 22248
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public virtual Sequence AddToSequence(Sequence seq, bool ignoreTimescale = false, bool insert = true)
+    parameters:
+    - id: seq
+      type: Global.Sequence
+    - id: ignoreTimescale
+      type: System.Boolean
+    - id: insert
+      type: System.Boolean
+    return:
+      type: Global.Sequence
+    content.vb: Public Overridable Function AddToSequence(seq As Sequence, ignoreTimescale As Boolean = False, insert As Boolean = True) As Sequence
+  overload: Lucid.Animation.LAComponent.AddToSequence*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Lucid.Animation.LAComponent.CutToValues
+  commentId: M:Lucid.Animation.LAComponent.CutToValues
+  id: CutToValues
+  parent: Lucid.Animation.LAComponent
+  langs:
+  - csharp
+  - vb
+  name: CutToValues()
+  nameWithType: LAComponent.CutToValues()
+  fullName: Lucid.Animation.LAComponent.CutToValues()
+  type: Method
+  source:
+    id: CutToValues
+    path: ''
+    startLine: 22258
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public virtual void CutToValues()
+    content.vb: Public Overridable Sub CutToValues
+  overload: Lucid.Animation.LAComponent.CutToValues*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Lucid.Animation.LAComponent.GetSequenceDuration
+  commentId: M:Lucid.Animation.LAComponent.GetSequenceDuration
+  id: GetSequenceDuration
+  parent: Lucid.Animation.LAComponent
+  langs:
+  - csharp
+  - vb
+  name: GetSequenceDuration()
+  nameWithType: LAComponent.GetSequenceDuration()
+  fullName: Lucid.Animation.LAComponent.GetSequenceDuration()
+  type: Method
+  source:
+    id: GetSequenceDuration
+    path: ''
+    startLine: 22263
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public virtual float GetSequenceDuration()
+    return:
+      type: System.Single
+    content.vb: Public Overridable Function GetSequenceDuration As Single
+  overload: Lucid.Animation.LAComponent.GetSequenceDuration*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: Lucid.Animation
+  commentId: N:Lucid.Animation
+  name: Lucid.Animation
+  nameWithType: Lucid.Animation
+  fullName: Lucid.Animation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.UnityEvent
+  isExternal: true
+  name: UnityEvent
+  nameWithType: UnityEvent
+  fullName: UnityEvent
+- uid: Lucid.Animation.LAComponent.AddToSequence*
+  commentId: Overload:Lucid.Animation.LAComponent.AddToSequence
+  name: AddToSequence
+  nameWithType: LAComponent.AddToSequence
+  fullName: Lucid.Animation.LAComponent.AddToSequence
+- uid: Global.Sequence
+  isExternal: true
+  name: Sequence
+  nameWithType: Sequence
+  fullName: Sequence
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Lucid.Animation.LAComponent.CutToValues*
+  commentId: Overload:Lucid.Animation.LAComponent.CutToValues
+  name: CutToValues
+  nameWithType: LAComponent.CutToValues
+  fullName: Lucid.Animation.LAComponent.CutToValues
+- uid: Lucid.Animation.LAComponent.GetSequenceDuration*
+  commentId: Overload:Lucid.Animation.LAComponent.GetSequenceDuration
+  name: GetSequenceDuration
+  nameWithType: LAComponent.GetSequenceDuration
+  fullName: Lucid.Animation.LAComponent.GetSequenceDuration
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

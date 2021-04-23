@@ -1,0 +1,194 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.BaseEditorWindow
+  commentId: T:Lucid.BaseEditorWindow
+  id: BaseEditorWindow
+  parent: Lucid
+  children:
+  - Lucid.BaseEditorWindow.windowIcon
+  - Lucid.BaseEditorWindow.windowName
+  - Lucid.BaseEditorWindow.windowOrder
+  langs:
+  - csharp
+  - vb
+  name: BaseEditorWindow
+  nameWithType: BaseEditorWindow
+  fullName: Lucid.BaseEditorWindow
+  type: Class
+  source:
+    id: BaseEditorWindow
+    path: ''
+    startLine: 19095
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid
+  syntax:
+    content: 'public abstract class BaseEditorWindow : ScriptableObject'
+    content.vb: >-
+      Public MustInherit Class BaseEditorWindow
+          Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow
+  - Lucid.UI.Gallery.GalleryEditorWindow
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Lucid.BaseEditorWindow.windowName
+  commentId: P:Lucid.BaseEditorWindow.windowName
+  id: windowName
+  parent: Lucid.BaseEditorWindow
+  langs:
+  - csharp
+  - vb
+  name: windowName
+  nameWithType: BaseEditorWindow.windowName
+  fullName: Lucid.BaseEditorWindow.windowName
+  type: Property
+  source:
+    id: windowName
+    path: ''
+    startLine: 19097
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid
+  syntax:
+    content: public abstract string windowName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public MustOverride ReadOnly Property windowName As String
+  overload: Lucid.BaseEditorWindow.windowName*
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  modifiers.vb:
+  - Public
+  - MustOverride
+  - ReadOnly
+- uid: Lucid.BaseEditorWindow.windowIcon
+  commentId: P:Lucid.BaseEditorWindow.windowIcon
+  id: windowIcon
+  parent: Lucid.BaseEditorWindow
+  langs:
+  - csharp
+  - vb
+  name: windowIcon
+  nameWithType: BaseEditorWindow.windowIcon
+  fullName: Lucid.BaseEditorWindow.windowIcon
+  type: Property
+  source:
+    id: windowIcon
+    path: ''
+    startLine: 19098
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid
+  syntax:
+    content: public abstract EditorIcon windowIcon { get; }
+    parameters: []
+    return:
+      type: Global.EditorIcon
+    content.vb: Public MustOverride ReadOnly Property windowIcon As EditorIcon
+  overload: Lucid.BaseEditorWindow.windowIcon*
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  modifiers.vb:
+  - Public
+  - MustOverride
+  - ReadOnly
+- uid: Lucid.BaseEditorWindow.windowOrder
+  commentId: P:Lucid.BaseEditorWindow.windowOrder
+  id: windowOrder
+  parent: Lucid.BaseEditorWindow
+  langs:
+  - csharp
+  - vb
+  name: windowOrder
+  nameWithType: BaseEditorWindow.windowOrder
+  fullName: Lucid.BaseEditorWindow.windowOrder
+  type: Property
+  source:
+    id: windowOrder
+    path: ''
+    startLine: 19099
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid
+  syntax:
+    content: public abstract int windowOrder { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public MustOverride ReadOnly Property windowOrder As Integer
+  overload: Lucid.BaseEditorWindow.windowOrder*
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  modifiers.vb:
+  - Public
+  - MustOverride
+  - ReadOnly
+references:
+- uid: Lucid
+  commentId: N:Lucid
+  name: Lucid
+  nameWithType: Lucid
+  fullName: Lucid
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.BaseEditorWindow.windowName*
+  commentId: Overload:Lucid.BaseEditorWindow.windowName
+  name: windowName
+  nameWithType: BaseEditorWindow.windowName
+  fullName: Lucid.BaseEditorWindow.windowName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Lucid.BaseEditorWindow.windowIcon*
+  commentId: Overload:Lucid.BaseEditorWindow.windowIcon
+  name: windowIcon
+  nameWithType: BaseEditorWindow.windowIcon
+  fullName: Lucid.BaseEditorWindow.windowIcon
+- uid: Global.EditorIcon
+  isExternal: true
+  name: EditorIcon
+  nameWithType: EditorIcon
+  fullName: EditorIcon
+- uid: Lucid.BaseEditorWindow.windowOrder*
+  commentId: Overload:Lucid.BaseEditorWindow.windowOrder
+  name: windowOrder
+  nameWithType: BaseEditorWindow.windowOrder
+  fullName: Lucid.BaseEditorWindow.windowOrder
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

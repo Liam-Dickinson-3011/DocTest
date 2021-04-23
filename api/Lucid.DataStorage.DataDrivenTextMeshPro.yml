@@ -1,0 +1,282 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.DataStorage.DataDrivenTextMeshPro
+  commentId: T:Lucid.DataStorage.DataDrivenTextMeshPro
+  id: DataDrivenTextMeshPro
+  parent: Lucid.DataStorage
+  children:
+  - Lucid.DataStorage.DataDrivenTextMeshPro.textMesh
+  - Lucid.DataStorage.DataDrivenTextMeshPro.textMeshContent
+  - Lucid.DataStorage.DataDrivenTextMeshPro.UpdateComponent
+  langs:
+  - csharp
+  - vb
+  name: DataDrivenTextMeshPro
+  nameWithType: DataDrivenTextMeshPro
+  fullName: Lucid.DataStorage.DataDrivenTextMeshPro
+  type: Class
+  source:
+    id: DataDrivenTextMeshPro
+    path: ''
+    startLine: 14234
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: 'public class DataDrivenTextMeshPro : DataDrivenComponent, IDataDriven'
+    content.vb: >-
+      Public Class DataDrivenTextMeshPro
+          Inherits DataDrivenComponent
+          Implements IDataDriven
+  inheritance:
+  - System.Object
+  - Lucid.DataStorage.DataDrivenComponent
+  implements:
+  - Lucid.DataStorage.IDataDriven
+  inheritedMembers:
+  - Lucid.DataStorage.DataDrivenComponent.dataStore
+  - Lucid.DataStorage.DataDrivenComponent.useKeyPrefix
+  - Lucid.DataStorage.DataDrivenComponent.keyPrefix
+  - Lucid.DataStorage.DataDrivenComponent.key
+  - Lucid.DataStorage.DataDrivenComponent.dataKey
+  - Lucid.DataStorage.DataDrivenComponent.dataValue
+  - Lucid.DataStorage.DataDrivenComponent.GetValue
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.DataStorage.DataDrivenTextMeshPro.textMesh
+  commentId: P:Lucid.DataStorage.DataDrivenTextMeshPro.textMesh
+  id: textMesh
+  parent: Lucid.DataStorage.DataDrivenTextMeshPro
+  langs:
+  - csharp
+  - vb
+  name: textMesh
+  nameWithType: DataDrivenTextMeshPro.textMesh
+  fullName: Lucid.DataStorage.DataDrivenTextMeshPro.textMesh
+  type: Property
+  source:
+    id: textMesh
+    path: ''
+    startLine: 14238
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public TMP_Text textMesh { get; }
+    parameters: []
+    return:
+      type: Global.TMP_Text
+    content.vb: Public ReadOnly Property textMesh As TMP_Text
+  overload: Lucid.DataStorage.DataDrivenTextMeshPro.textMesh*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Lucid.DataStorage.DataDrivenTextMeshPro.textMeshContent
+  commentId: F:Lucid.DataStorage.DataDrivenTextMeshPro.textMeshContent
+  id: textMeshContent
+  parent: Lucid.DataStorage.DataDrivenTextMeshPro
+  langs:
+  - csharp
+  - vb
+  name: textMeshContent
+  nameWithType: DataDrivenTextMeshPro.textMeshContent
+  fullName: Lucid.DataStorage.DataDrivenTextMeshPro.textMeshContent
+  type: Field
+  source:
+    id: textMeshContent
+    path: ''
+    startLine: 14246
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public string textMeshContent
+    return:
+      type: System.String
+    content.vb: Public textMeshContent As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.DataStorage.DataDrivenTextMeshPro.UpdateComponent
+  commentId: M:Lucid.DataStorage.DataDrivenTextMeshPro.UpdateComponent
+  id: UpdateComponent
+  parent: Lucid.DataStorage.DataDrivenTextMeshPro
+  langs:
+  - csharp
+  - vb
+  name: UpdateComponent()
+  nameWithType: DataDrivenTextMeshPro.UpdateComponent()
+  fullName: Lucid.DataStorage.DataDrivenTextMeshPro.UpdateComponent()
+  type: Method
+  source:
+    id: UpdateComponent
+    path: ''
+    startLine: 14248
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public override void UpdateComponent()
+    content.vb: Public Overrides Sub UpdateComponent
+  overridden: Lucid.DataStorage.DataDrivenComponent.UpdateComponent
+  overload: Lucid.DataStorage.DataDrivenTextMeshPro.UpdateComponent*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Lucid.DataStorage
+  commentId: N:Lucid.DataStorage
+  name: Lucid.DataStorage
+  nameWithType: Lucid.DataStorage
+  fullName: Lucid.DataStorage
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Lucid.DataStorage.DataDrivenComponent
+  commentId: T:Lucid.DataStorage.DataDrivenComponent
+  parent: Lucid.DataStorage
+  name: DataDrivenComponent
+  nameWithType: DataDrivenComponent
+  fullName: Lucid.DataStorage.DataDrivenComponent
+- uid: Lucid.DataStorage.IDataDriven
+  commentId: T:Lucid.DataStorage.IDataDriven
+  parent: Lucid.DataStorage
+  name: IDataDriven
+  nameWithType: IDataDriven
+  fullName: Lucid.DataStorage.IDataDriven
+- uid: Lucid.DataStorage.DataDrivenComponent.dataStore
+  commentId: P:Lucid.DataStorage.DataDrivenComponent.dataStore
+  parent: Lucid.DataStorage.DataDrivenComponent
+  name: dataStore
+  nameWithType: DataDrivenComponent.dataStore
+  fullName: Lucid.DataStorage.DataDrivenComponent.dataStore
+- uid: Lucid.DataStorage.DataDrivenComponent.useKeyPrefix
+  commentId: P:Lucid.DataStorage.DataDrivenComponent.useKeyPrefix
+  parent: Lucid.DataStorage.DataDrivenComponent
+  name: useKeyPrefix
+  nameWithType: DataDrivenComponent.useKeyPrefix
+  fullName: Lucid.DataStorage.DataDrivenComponent.useKeyPrefix
+- uid: Lucid.DataStorage.DataDrivenComponent.keyPrefix
+  commentId: P:Lucid.DataStorage.DataDrivenComponent.keyPrefix
+  parent: Lucid.DataStorage.DataDrivenComponent
+  name: keyPrefix
+  nameWithType: DataDrivenComponent.keyPrefix
+  fullName: Lucid.DataStorage.DataDrivenComponent.keyPrefix
+- uid: Lucid.DataStorage.DataDrivenComponent.key
+  commentId: P:Lucid.DataStorage.DataDrivenComponent.key
+  parent: Lucid.DataStorage.DataDrivenComponent
+  name: key
+  nameWithType: DataDrivenComponent.key
+  fullName: Lucid.DataStorage.DataDrivenComponent.key
+- uid: Lucid.DataStorage.DataDrivenComponent.dataKey
+  commentId: P:Lucid.DataStorage.DataDrivenComponent.dataKey
+  parent: Lucid.DataStorage.DataDrivenComponent
+  name: dataKey
+  nameWithType: DataDrivenComponent.dataKey
+  fullName: Lucid.DataStorage.DataDrivenComponent.dataKey
+- uid: Lucid.DataStorage.DataDrivenComponent.dataValue
+  commentId: P:Lucid.DataStorage.DataDrivenComponent.dataValue
+  parent: Lucid.DataStorage.DataDrivenComponent
+  name: dataValue
+  nameWithType: DataDrivenComponent.dataValue
+  fullName: Lucid.DataStorage.DataDrivenComponent.dataValue
+- uid: Lucid.DataStorage.DataDrivenComponent.GetValue
+  commentId: M:Lucid.DataStorage.DataDrivenComponent.GetValue
+  parent: Lucid.DataStorage.DataDrivenComponent
+  name: GetValue()
+  nameWithType: DataDrivenComponent.GetValue()
+  fullName: Lucid.DataStorage.DataDrivenComponent.GetValue()
+  spec.csharp:
+  - uid: Lucid.DataStorage.DataDrivenComponent.GetValue
+    name: GetValue
+    nameWithType: DataDrivenComponent.GetValue
+    fullName: Lucid.DataStorage.DataDrivenComponent.GetValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.DataStorage.DataDrivenComponent.GetValue
+    name: GetValue
+    nameWithType: DataDrivenComponent.GetValue
+    fullName: Lucid.DataStorage.DataDrivenComponent.GetValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.DataStorage.DataDrivenTextMeshPro.textMesh*
+  commentId: Overload:Lucid.DataStorage.DataDrivenTextMeshPro.textMesh
+  name: textMesh
+  nameWithType: DataDrivenTextMeshPro.textMesh
+  fullName: Lucid.DataStorage.DataDrivenTextMeshPro.textMesh
+- uid: Global.TMP_Text
+  commentId: '!:Global.TMP_Text'
+  isExternal: true
+  name: TMP_Text
+  nameWithType: TMP_Text
+  fullName: TMP_Text
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Lucid.DataStorage.DataDrivenComponent.UpdateComponent
+  commentId: M:Lucid.DataStorage.DataDrivenComponent.UpdateComponent
+  parent: Lucid.DataStorage.DataDrivenComponent
+  name: UpdateComponent()
+  nameWithType: DataDrivenComponent.UpdateComponent()
+  fullName: Lucid.DataStorage.DataDrivenComponent.UpdateComponent()
+  spec.csharp:
+  - uid: Lucid.DataStorage.DataDrivenComponent.UpdateComponent
+    name: UpdateComponent
+    nameWithType: DataDrivenComponent.UpdateComponent
+    fullName: Lucid.DataStorage.DataDrivenComponent.UpdateComponent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.DataStorage.DataDrivenComponent.UpdateComponent
+    name: UpdateComponent
+    nameWithType: DataDrivenComponent.UpdateComponent
+    fullName: Lucid.DataStorage.DataDrivenComponent.UpdateComponent
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.DataStorage.DataDrivenTextMeshPro.UpdateComponent*
+  commentId: Overload:Lucid.DataStorage.DataDrivenTextMeshPro.UpdateComponent
+  name: UpdateComponent
+  nameWithType: DataDrivenTextMeshPro.UpdateComponent
+  fullName: Lucid.DataStorage.DataDrivenTextMeshPro.UpdateComponent

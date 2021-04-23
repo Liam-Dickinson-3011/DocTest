@@ -1,0 +1,560 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.UI.MenuToggle
+  commentId: T:Lucid.UI.MenuToggle
+  id: MenuToggle
+  parent: Lucid.UI
+  children:
+  - Lucid.UI.MenuToggle.Awake
+  - Lucid.UI.MenuToggle.onToggleFalse
+  - Lucid.UI.MenuToggle.onToggleTrue
+  - Lucid.UI.MenuToggle.Reset
+  - Lucid.UI.MenuToggle.stateToggle
+  - Lucid.UI.MenuToggle.targetOffState
+  - Lucid.UI.MenuToggle.targetOnState
+  - Lucid.UI.MenuToggle.toggle
+  langs:
+  - csharp
+  - vb
+  name: MenuToggle
+  nameWithType: MenuToggle
+  fullName: Lucid.UI.MenuToggle
+  type: Class
+  source:
+    id: MenuToggle
+    path: ''
+    startLine: 5981
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: 'public class MenuToggle : MenuInteractable'
+    content.vb: >-
+      Public Class MenuToggle
+          Inherits MenuInteractable
+  inheritance:
+  - System.Object
+  - Lucid.UI.MenuInteractable
+  inheritedMembers:
+  - Lucid.UI.MenuInteractable.baseRT
+  - Lucid.UI.MenuInteractable.baseImage
+  - Lucid.UI.MenuInteractable.label
+  - Lucid.UI.MenuInteractable.UpdateLabel(System.String)
+  - Lucid.UI.MenuInteractable.UpdateLabelFontSize(System.Single)
+  - Lucid.UI.MenuInteractable.UpdateLabelColor(Color)
+  - Lucid.UI.MenuInteractable.UpdateBaseImageColor(Color)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.UI.MenuToggle.toggle
+  commentId: F:Lucid.UI.MenuToggle.toggle
+  id: toggle
+  parent: Lucid.UI.MenuToggle
+  langs:
+  - csharp
+  - vb
+  name: toggle
+  nameWithType: MenuToggle.toggle
+  fullName: Lucid.UI.MenuToggle.toggle
+  type: Field
+  source:
+    id: toggle
+    path: ''
+    startLine: 5984
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public Toggle toggle
+    return:
+      type: Global.Toggle
+    content.vb: Public toggle As Toggle
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.MenuToggle.stateToggle
+  commentId: F:Lucid.UI.MenuToggle.stateToggle
+  id: stateToggle
+  parent: Lucid.UI.MenuToggle
+  langs:
+  - csharp
+  - vb
+  name: stateToggle
+  nameWithType: MenuToggle.stateToggle
+  fullName: Lucid.UI.MenuToggle.stateToggle
+  type: Field
+  source:
+    id: stateToggle
+    path: ''
+    startLine: 5989
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public bool stateToggle
+    return:
+      type: System.Boolean
+    content.vb: Public stateToggle As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.MenuToggle.targetOnState
+  commentId: F:Lucid.UI.MenuToggle.targetOnState
+  id: targetOnState
+  parent: Lucid.UI.MenuToggle
+  langs:
+  - csharp
+  - vb
+  name: targetOnState
+  nameWithType: MenuToggle.targetOnState
+  fullName: Lucid.UI.MenuToggle.targetOnState
+  type: Field
+  source:
+    id: targetOnState
+    path: ''
+    startLine: 5995
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public string targetOnState
+    return:
+      type: System.String
+    content.vb: Public targetOnState As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.MenuToggle.targetOffState
+  commentId: F:Lucid.UI.MenuToggle.targetOffState
+  id: targetOffState
+  parent: Lucid.UI.MenuToggle
+  langs:
+  - csharp
+  - vb
+  name: targetOffState
+  nameWithType: MenuToggle.targetOffState
+  fullName: Lucid.UI.MenuToggle.targetOffState
+  type: Field
+  source:
+    id: targetOffState
+    path: ''
+    startLine: 6001
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public string targetOffState
+    return:
+      type: System.String
+    content.vb: Public targetOffState As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.MenuToggle.onToggleTrue
+  commentId: F:Lucid.UI.MenuToggle.onToggleTrue
+  id: onToggleTrue
+  parent: Lucid.UI.MenuToggle
+  langs:
+  - csharp
+  - vb
+  name: onToggleTrue
+  nameWithType: MenuToggle.onToggleTrue
+  fullName: Lucid.UI.MenuToggle.onToggleTrue
+  type: Field
+  source:
+    id: onToggleTrue
+    path: ''
+    startLine: 6004
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public UnityEvent onToggleTrue
+    return:
+      type: Global.UnityEvent
+    content.vb: Public onToggleTrue As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.MenuToggle.onToggleFalse
+  commentId: F:Lucid.UI.MenuToggle.onToggleFalse
+  id: onToggleFalse
+  parent: Lucid.UI.MenuToggle
+  langs:
+  - csharp
+  - vb
+  name: onToggleFalse
+  nameWithType: MenuToggle.onToggleFalse
+  fullName: Lucid.UI.MenuToggle.onToggleFalse
+  type: Field
+  source:
+    id: onToggleFalse
+    path: ''
+    startLine: 6006
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public UnityEvent onToggleFalse
+    return:
+      type: Global.UnityEvent
+    content.vb: Public onToggleFalse As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.MenuToggle.Reset
+  commentId: M:Lucid.UI.MenuToggle.Reset
+  id: Reset
+  parent: Lucid.UI.MenuToggle
+  langs:
+  - csharp
+  - vb
+  name: Reset()
+  nameWithType: MenuToggle.Reset()
+  fullName: Lucid.UI.MenuToggle.Reset()
+  type: Method
+  source:
+    id: Reset
+    path: ''
+    startLine: 6027
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: protected override void Reset()
+    content.vb: Protected Overrides Sub Reset
+  overridden: Lucid.UI.MenuInteractable.Reset
+  overload: Lucid.UI.MenuToggle.Reset*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Lucid.UI.MenuToggle.Awake
+  commentId: M:Lucid.UI.MenuToggle.Awake
+  id: Awake
+  parent: Lucid.UI.MenuToggle
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: MenuToggle.Awake()
+  fullName: Lucid.UI.MenuToggle.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 6033
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: protected override void Awake()
+    content.vb: Protected Overrides Sub Awake
+  overridden: Lucid.UI.MenuInteractable.Awake
+  overload: Lucid.UI.MenuToggle.Awake*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Lucid.UI
+  commentId: N:Lucid.UI
+  name: Lucid.UI
+  nameWithType: Lucid.UI
+  fullName: Lucid.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Lucid.UI.MenuInteractable
+  commentId: T:Lucid.UI.MenuInteractable
+  parent: Lucid.UI
+  name: MenuInteractable
+  nameWithType: MenuInteractable
+  fullName: Lucid.UI.MenuInteractable
+- uid: Lucid.UI.MenuInteractable.baseRT
+  commentId: F:Lucid.UI.MenuInteractable.baseRT
+  parent: Lucid.UI.MenuInteractable
+  name: baseRT
+  nameWithType: MenuInteractable.baseRT
+  fullName: Lucid.UI.MenuInteractable.baseRT
+- uid: Lucid.UI.MenuInteractable.baseImage
+  commentId: F:Lucid.UI.MenuInteractable.baseImage
+  parent: Lucid.UI.MenuInteractable
+  name: baseImage
+  nameWithType: MenuInteractable.baseImage
+  fullName: Lucid.UI.MenuInteractable.baseImage
+- uid: Lucid.UI.MenuInteractable.label
+  commentId: F:Lucid.UI.MenuInteractable.label
+  parent: Lucid.UI.MenuInteractable
+  name: label
+  nameWithType: MenuInteractable.label
+  fullName: Lucid.UI.MenuInteractable.label
+- uid: Lucid.UI.MenuInteractable.UpdateLabel(System.String)
+  commentId: M:Lucid.UI.MenuInteractable.UpdateLabel(System.String)
+  parent: Lucid.UI.MenuInteractable
+  isExternal: true
+  name: UpdateLabel(String)
+  nameWithType: MenuInteractable.UpdateLabel(String)
+  fullName: Lucid.UI.MenuInteractable.UpdateLabel(System.String)
+  spec.csharp:
+  - uid: Lucid.UI.MenuInteractable.UpdateLabel(System.String)
+    name: UpdateLabel
+    nameWithType: MenuInteractable.UpdateLabel
+    fullName: Lucid.UI.MenuInteractable.UpdateLabel
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.UI.MenuInteractable.UpdateLabel(System.String)
+    name: UpdateLabel
+    nameWithType: MenuInteractable.UpdateLabel
+    fullName: Lucid.UI.MenuInteractable.UpdateLabel
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.UI.MenuInteractable.UpdateLabelFontSize(System.Single)
+  commentId: M:Lucid.UI.MenuInteractable.UpdateLabelFontSize(System.Single)
+  parent: Lucid.UI.MenuInteractable
+  isExternal: true
+  name: UpdateLabelFontSize(Single)
+  nameWithType: MenuInteractable.UpdateLabelFontSize(Single)
+  fullName: Lucid.UI.MenuInteractable.UpdateLabelFontSize(System.Single)
+  spec.csharp:
+  - uid: Lucid.UI.MenuInteractable.UpdateLabelFontSize(System.Single)
+    name: UpdateLabelFontSize
+    nameWithType: MenuInteractable.UpdateLabelFontSize
+    fullName: Lucid.UI.MenuInteractable.UpdateLabelFontSize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.UI.MenuInteractable.UpdateLabelFontSize(System.Single)
+    name: UpdateLabelFontSize
+    nameWithType: MenuInteractable.UpdateLabelFontSize
+    fullName: Lucid.UI.MenuInteractable.UpdateLabelFontSize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.UI.MenuInteractable.UpdateLabelColor(Color)
+  commentId: M:Lucid.UI.MenuInteractable.UpdateLabelColor(Color)
+  parent: Lucid.UI.MenuInteractable
+  isExternal: true
+  name: UpdateLabelColor(Color)
+  nameWithType: MenuInteractable.UpdateLabelColor(Color)
+  fullName: Lucid.UI.MenuInteractable.UpdateLabelColor(Color)
+  spec.csharp:
+  - uid: Lucid.UI.MenuInteractable.UpdateLabelColor(Color)
+    name: UpdateLabelColor
+    nameWithType: MenuInteractable.UpdateLabelColor
+    fullName: Lucid.UI.MenuInteractable.UpdateLabelColor
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Color
+    name: Color
+    nameWithType: Color
+    fullName: Color
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.UI.MenuInteractable.UpdateLabelColor(Color)
+    name: UpdateLabelColor
+    nameWithType: MenuInteractable.UpdateLabelColor
+    fullName: Lucid.UI.MenuInteractable.UpdateLabelColor
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Color
+    name: Color
+    nameWithType: Color
+    fullName: Color
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.UI.MenuInteractable.UpdateBaseImageColor(Color)
+  commentId: M:Lucid.UI.MenuInteractable.UpdateBaseImageColor(Color)
+  parent: Lucid.UI.MenuInteractable
+  isExternal: true
+  name: UpdateBaseImageColor(Color)
+  nameWithType: MenuInteractable.UpdateBaseImageColor(Color)
+  fullName: Lucid.UI.MenuInteractable.UpdateBaseImageColor(Color)
+  spec.csharp:
+  - uid: Lucid.UI.MenuInteractable.UpdateBaseImageColor(Color)
+    name: UpdateBaseImageColor
+    nameWithType: MenuInteractable.UpdateBaseImageColor
+    fullName: Lucid.UI.MenuInteractable.UpdateBaseImageColor
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Color
+    name: Color
+    nameWithType: Color
+    fullName: Color
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.UI.MenuInteractable.UpdateBaseImageColor(Color)
+    name: UpdateBaseImageColor
+    nameWithType: MenuInteractable.UpdateBaseImageColor
+    fullName: Lucid.UI.MenuInteractable.UpdateBaseImageColor
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Color
+    name: Color
+    nameWithType: Color
+    fullName: Color
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Toggle
+  isExternal: true
+  name: Toggle
+  nameWithType: Toggle
+  fullName: Toggle
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.UnityEvent
+  isExternal: true
+  name: UnityEvent
+  nameWithType: UnityEvent
+  fullName: UnityEvent
+- uid: Lucid.UI.MenuInteractable.Reset
+  commentId: M:Lucid.UI.MenuInteractable.Reset
+  parent: Lucid.UI.MenuInteractable
+  name: Reset()
+  nameWithType: MenuInteractable.Reset()
+  fullName: Lucid.UI.MenuInteractable.Reset()
+  spec.csharp:
+  - uid: Lucid.UI.MenuInteractable.Reset
+    name: Reset
+    nameWithType: MenuInteractable.Reset
+    fullName: Lucid.UI.MenuInteractable.Reset
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.UI.MenuInteractable.Reset
+    name: Reset
+    nameWithType: MenuInteractable.Reset
+    fullName: Lucid.UI.MenuInteractable.Reset
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.UI.MenuToggle.Reset*
+  commentId: Overload:Lucid.UI.MenuToggle.Reset
+  name: Reset
+  nameWithType: MenuToggle.Reset
+  fullName: Lucid.UI.MenuToggle.Reset
+- uid: Lucid.UI.MenuInteractable.Awake
+  commentId: M:Lucid.UI.MenuInteractable.Awake
+  parent: Lucid.UI.MenuInteractable
+  name: Awake()
+  nameWithType: MenuInteractable.Awake()
+  fullName: Lucid.UI.MenuInteractable.Awake()
+  spec.csharp:
+  - uid: Lucid.UI.MenuInteractable.Awake
+    name: Awake
+    nameWithType: MenuInteractable.Awake
+    fullName: Lucid.UI.MenuInteractable.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.UI.MenuInteractable.Awake
+    name: Awake
+    nameWithType: MenuInteractable.Awake
+    fullName: Lucid.UI.MenuInteractable.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.UI.MenuToggle.Awake*
+  commentId: Overload:Lucid.UI.MenuToggle.Awake
+  name: Awake
+  nameWithType: MenuToggle.Awake
+  fullName: Lucid.UI.MenuToggle.Awake

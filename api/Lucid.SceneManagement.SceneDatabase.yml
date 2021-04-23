@@ -1,0 +1,390 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.SceneManagement.SceneDatabase
+  commentId: T:Lucid.SceneManagement.SceneDatabase
+  id: SceneDatabase
+  parent: Lucid.SceneManagement
+  children:
+  - Lucid.SceneManagement.SceneDatabase.GetAllSceneDatabases
+  - Lucid.SceneManagement.SceneDatabase.LoadScene(System.String)
+  - Lucid.SceneManagement.SceneDatabase.scenes
+  - Lucid.SceneManagement.SceneDatabase.UnloadScene(System.String)
+  langs:
+  - csharp
+  - vb
+  name: SceneDatabase
+  nameWithType: SceneDatabase
+  fullName: Lucid.SceneManagement.SceneDatabase
+  type: Class
+  source:
+    id: SceneDatabase
+    path: ''
+    startLine: 13988
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.SceneManagement
+  syntax:
+    content: 'public class SceneDatabase : SerializedScriptableObject'
+    content.vb: >-
+      Public Class SceneDatabase
+          Inherits SerializedScriptableObject
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.SceneManagement.SceneDatabase.scenes
+  commentId: F:Lucid.SceneManagement.SceneDatabase.scenes
+  id: scenes
+  parent: Lucid.SceneManagement.SceneDatabase
+  langs:
+  - csharp
+  - vb
+  name: scenes
+  nameWithType: SceneDatabase.scenes
+  fullName: Lucid.SceneManagement.SceneDatabase.scenes
+  type: Field
+  source:
+    id: scenes
+    path: ''
+    startLine: 13992
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.SceneManagement
+  syntax:
+    content: public Dictionary<string, Scene> scenes
+    return:
+      type: Global.Dictionary{System.String,Lucid.SceneManagement.Scene}
+    content.vb: Public scenes As Dictionary(Of String, Scene)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.SceneManagement.SceneDatabase.LoadScene(System.String)
+  commentId: M:Lucid.SceneManagement.SceneDatabase.LoadScene(System.String)
+  id: LoadScene(System.String)
+  parent: Lucid.SceneManagement.SceneDatabase
+  langs:
+  - csharp
+  - vb
+  name: LoadScene(String)
+  nameWithType: SceneDatabase.LoadScene(String)
+  fullName: Lucid.SceneManagement.SceneDatabase.LoadScene(System.String)
+  type: Method
+  source:
+    id: LoadScene
+    path: ''
+    startLine: 13994
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.SceneManagement
+  syntax:
+    content: public IEnumerator LoadScene(string key)
+    parameters:
+    - id: key
+      type: System.String
+    return:
+      type: Global.IEnumerator
+    content.vb: Public Function LoadScene(key As String) As IEnumerator
+  overload: Lucid.SceneManagement.SceneDatabase.LoadScene*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.SceneManagement.SceneDatabase.UnloadScene(System.String)
+  commentId: M:Lucid.SceneManagement.SceneDatabase.UnloadScene(System.String)
+  id: UnloadScene(System.String)
+  parent: Lucid.SceneManagement.SceneDatabase
+  langs:
+  - csharp
+  - vb
+  name: UnloadScene(String)
+  nameWithType: SceneDatabase.UnloadScene(String)
+  fullName: Lucid.SceneManagement.SceneDatabase.UnloadScene(System.String)
+  type: Method
+  source:
+    id: UnloadScene
+    path: ''
+    startLine: 14000
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.SceneManagement
+  syntax:
+    content: public IEnumerator UnloadScene(string key)
+    parameters:
+    - id: key
+      type: System.String
+    return:
+      type: Global.IEnumerator
+    content.vb: Public Function UnloadScene(key As String) As IEnumerator
+  overload: Lucid.SceneManagement.SceneDatabase.UnloadScene*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.SceneManagement.SceneDatabase.GetAllSceneDatabases
+  commentId: M:Lucid.SceneManagement.SceneDatabase.GetAllSceneDatabases
+  id: GetAllSceneDatabases
+  parent: Lucid.SceneManagement.SceneDatabase
+  langs:
+  - csharp
+  - vb
+  name: GetAllSceneDatabases()
+  nameWithType: SceneDatabase.GetAllSceneDatabases()
+  fullName: Lucid.SceneManagement.SceneDatabase.GetAllSceneDatabases()
+  type: Method
+  source:
+    id: GetAllSceneDatabases
+    path: ''
+    startLine: 14006
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.SceneManagement
+  syntax:
+    content: public static List<SceneDatabase> GetAllSceneDatabases()
+    return:
+      type: Global.List{Lucid.SceneManagement.SceneDatabase}
+    content.vb: Public Shared Function GetAllSceneDatabases As List(Of SceneDatabase)
+  overload: Lucid.SceneManagement.SceneDatabase.GetAllSceneDatabases*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Lucid.SceneManagement
+  commentId: N:Lucid.SceneManagement
+  name: Lucid.SceneManagement
+  nameWithType: Lucid.SceneManagement
+  fullName: Lucid.SceneManagement
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Dictionary{System.String,Lucid.SceneManagement.Scene}
+  commentId: '!:Global.Dictionary{System.String,Lucid.SceneManagement.Scene}'
+  definition: Global.Dictionary`2
+  name: Dictionary<String, Scene>
+  nameWithType: Dictionary<String, Scene>
+  fullName: Dictionary<System.String, Lucid.SceneManagement.Scene>
+  nameWithType.vb: Dictionary(Of String, Scene)
+  fullName.vb: Dictionary(Of System.String, Lucid.SceneManagement.Scene)
+  name.vb: Dictionary(Of String, Scene)
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Lucid.SceneManagement.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: Lucid.SceneManagement.Scene
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Lucid.SceneManagement.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: Lucid.SceneManagement.Scene
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Dictionary`2
+  commentId: '!:Global.Dictionary`2'
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.SceneManagement.SceneDatabase.LoadScene*
+  commentId: Overload:Lucid.SceneManagement.SceneDatabase.LoadScene
+  name: LoadScene
+  nameWithType: SceneDatabase.LoadScene
+  fullName: Lucid.SceneManagement.SceneDatabase.LoadScene
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.IEnumerator
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: IEnumerator
+- uid: Lucid.SceneManagement.SceneDatabase.UnloadScene*
+  commentId: Overload:Lucid.SceneManagement.SceneDatabase.UnloadScene
+  name: UnloadScene
+  nameWithType: SceneDatabase.UnloadScene
+  fullName: Lucid.SceneManagement.SceneDatabase.UnloadScene
+- uid: Lucid.SceneManagement.SceneDatabase.GetAllSceneDatabases*
+  commentId: Overload:Lucid.SceneManagement.SceneDatabase.GetAllSceneDatabases
+  name: GetAllSceneDatabases
+  nameWithType: SceneDatabase.GetAllSceneDatabases
+  fullName: Lucid.SceneManagement.SceneDatabase.GetAllSceneDatabases
+- uid: Global.List{Lucid.SceneManagement.SceneDatabase}
+  commentId: '!:Global.List{Lucid.SceneManagement.SceneDatabase}'
+  definition: Global.List`1
+  name: List<SceneDatabase>
+  nameWithType: List<SceneDatabase>
+  fullName: List<Lucid.SceneManagement.SceneDatabase>
+  nameWithType.vb: List(Of SceneDatabase)
+  fullName.vb: List(Of Lucid.SceneManagement.SceneDatabase)
+  name.vb: List(Of SceneDatabase)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Lucid.SceneManagement.SceneDatabase
+    name: SceneDatabase
+    nameWithType: SceneDatabase
+    fullName: Lucid.SceneManagement.SceneDatabase
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Lucid.SceneManagement.SceneDatabase
+    name: SceneDatabase
+    nameWithType: SceneDatabase
+    fullName: Lucid.SceneManagement.SceneDatabase
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,591 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.DataStorage.GoogleSheetsDataStore
+  commentId: T:Lucid.DataStorage.GoogleSheetsDataStore
+  id: GoogleSheetsDataStore
+  parent: Lucid.DataStorage
+  children:
+  - Lucid.DataStorage.GoogleSheetsDataStore.csvFormatted
+  - Lucid.DataStorage.GoogleSheetsDataStore.dataType
+  - Lucid.DataStorage.GoogleSheetsDataStore.Import
+  - Lucid.DataStorage.GoogleSheetsDataStore.OnSpreadSheetLoaded
+  - Lucid.DataStorage.GoogleSheetsDataStore.Populate
+  - Lucid.DataStorage.GoogleSheetsDataStore.primaryKey
+  - Lucid.DataStorage.GoogleSheetsDataStore.sheetID
+  - Lucid.DataStorage.GoogleSheetsDataStore.sheetURL
+  - Lucid.DataStorage.GoogleSheetsDataStore.spreadsheet
+  - Lucid.DataStorage.GoogleSheetsDataStore.worksheetName
+  langs:
+  - csharp
+  - vb
+  name: GoogleSheetsDataStore
+  nameWithType: GoogleSheetsDataStore
+  fullName: Lucid.DataStorage.GoogleSheetsDataStore
+  type: Class
+  source:
+    id: GoogleSheetsDataStore
+    path: ''
+    startLine: 14713
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: 'public class GoogleSheetsDataStore : DataStore'
+    content.vb: >-
+      Public Class GoogleSheetsDataStore
+          Inherits DataStore
+  inheritance:
+  - System.Object
+  - Lucid.DataStorage.DataStore
+  inheritedMembers:
+  - Lucid.DataStorage.DataStore.data
+  - Lucid.DataStorage.DataStore.GetValueRaw(System.String)
+  - Lucid.DataStorage.DataStore.GetValue``1(System.String)
+  - Lucid.DataStorage.DataStore.GetDataKeys(System.String)
+  - Lucid.DataStorage.DataStore.GetDataStores
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.DataStorage.GoogleSheetsDataStore.sheetURL
+  commentId: F:Lucid.DataStorage.GoogleSheetsDataStore.sheetURL
+  id: sheetURL
+  parent: Lucid.DataStorage.GoogleSheetsDataStore
+  langs:
+  - csharp
+  - vb
+  name: sheetURL
+  nameWithType: GoogleSheetsDataStore.sheetURL
+  fullName: Lucid.DataStorage.GoogleSheetsDataStore.sheetURL
+  type: Field
+  source:
+    id: sheetURL
+    path: ''
+    startLine: 14717
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public string sheetURL
+    return:
+      type: System.String
+    content.vb: Public sheetURL As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.DataStorage.GoogleSheetsDataStore.sheetID
+  commentId: P:Lucid.DataStorage.GoogleSheetsDataStore.sheetID
+  id: sheetID
+  parent: Lucid.DataStorage.GoogleSheetsDataStore
+  langs:
+  - csharp
+  - vb
+  name: sheetID
+  nameWithType: GoogleSheetsDataStore.sheetID
+  fullName: Lucid.DataStorage.GoogleSheetsDataStore.sheetID
+  type: Property
+  source:
+    id: sheetID
+    path: ''
+    startLine: 14719
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public string sheetID { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property sheetID As String
+  overload: Lucid.DataStorage.GoogleSheetsDataStore.sheetID*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Lucid.DataStorage.GoogleSheetsDataStore.worksheetName
+  commentId: F:Lucid.DataStorage.GoogleSheetsDataStore.worksheetName
+  id: worksheetName
+  parent: Lucid.DataStorage.GoogleSheetsDataStore
+  langs:
+  - csharp
+  - vb
+  name: worksheetName
+  nameWithType: GoogleSheetsDataStore.worksheetName
+  fullName: Lucid.DataStorage.GoogleSheetsDataStore.worksheetName
+  type: Field
+  source:
+    id: worksheetName
+    path: ''
+    startLine: 14737
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public string worksheetName
+    return:
+      type: System.String
+    content.vb: Public worksheetName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.DataStorage.GoogleSheetsDataStore.primaryKey
+  commentId: F:Lucid.DataStorage.GoogleSheetsDataStore.primaryKey
+  id: primaryKey
+  parent: Lucid.DataStorage.GoogleSheetsDataStore
+  langs:
+  - csharp
+  - vb
+  name: primaryKey
+  nameWithType: GoogleSheetsDataStore.primaryKey
+  fullName: Lucid.DataStorage.GoogleSheetsDataStore.primaryKey
+  type: Field
+  source:
+    id: primaryKey
+    path: ''
+    startLine: 14740
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public string primaryKey
+    return:
+      type: System.String
+    content.vb: Public primaryKey As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.DataStorage.GoogleSheetsDataStore.csvFormatted
+  commentId: F:Lucid.DataStorage.GoogleSheetsDataStore.csvFormatted
+  id: csvFormatted
+  parent: Lucid.DataStorage.GoogleSheetsDataStore
+  langs:
+  - csharp
+  - vb
+  name: csvFormatted
+  nameWithType: GoogleSheetsDataStore.csvFormatted
+  fullName: Lucid.DataStorage.GoogleSheetsDataStore.csvFormatted
+  type: Field
+  source:
+    id: csvFormatted
+    path: ''
+    startLine: 14743
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public string csvFormatted
+    return:
+      type: System.String
+    content.vb: Public csvFormatted As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.DataStorage.GoogleSheetsDataStore.OnSpreadSheetLoaded
+  commentId: E:Lucid.DataStorage.GoogleSheetsDataStore.OnSpreadSheetLoaded
+  id: OnSpreadSheetLoaded
+  parent: Lucid.DataStorage.GoogleSheetsDataStore
+  langs:
+  - csharp
+  - vb
+  name: OnSpreadSheetLoaded
+  nameWithType: GoogleSheetsDataStore.OnSpreadSheetLoaded
+  fullName: Lucid.DataStorage.GoogleSheetsDataStore.OnSpreadSheetLoaded
+  type: Event
+  source:
+    id: OnSpreadSheetLoaded
+    path: ''
+    startLine: 14746
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public event GoogleSheetsDataStore.SpreadSheetLoaded_Del OnSpreadSheetLoaded
+    return:
+      type: Lucid.DataStorage.GoogleSheetsDataStore.SpreadSheetLoaded_Del
+    content.vb: Public Event OnSpreadSheetLoaded As GoogleSheetsDataStore.SpreadSheetLoaded_Del
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.DataStorage.GoogleSheetsDataStore.spreadsheet
+  commentId: F:Lucid.DataStorage.GoogleSheetsDataStore.spreadsheet
+  id: spreadsheet
+  parent: Lucid.DataStorage.GoogleSheetsDataStore
+  langs:
+  - csharp
+  - vb
+  name: spreadsheet
+  nameWithType: GoogleSheetsDataStore.spreadsheet
+  fullName: Lucid.DataStorage.GoogleSheetsDataStore.spreadsheet
+  type: Field
+  source:
+    id: spreadsheet
+    path: ''
+    startLine: 14749
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public GstuSpreadSheet spreadsheet
+    return:
+      type: Global.GstuSpreadSheet
+    content.vb: Public spreadsheet As GstuSpreadSheet
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.DataStorage.GoogleSheetsDataStore.dataType
+  commentId: P:Lucid.DataStorage.GoogleSheetsDataStore.dataType
+  id: dataType
+  parent: Lucid.DataStorage.GoogleSheetsDataStore
+  langs:
+  - csharp
+  - vb
+  name: dataType
+  nameWithType: GoogleSheetsDataStore.dataType
+  fullName: Lucid.DataStorage.GoogleSheetsDataStore.dataType
+  type: Property
+  source:
+    id: dataType
+    path: ''
+    startLine: 14751
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public override DataStore.DataType dataType { get; }
+    parameters: []
+    return:
+      type: Lucid.DataStorage.DataStore.DataType
+    content.vb: Public Overrides ReadOnly Property dataType As DataStore.DataType
+  overridden: Lucid.DataStorage.DataStore.dataType
+  overload: Lucid.DataStorage.GoogleSheetsDataStore.dataType*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: Lucid.DataStorage.GoogleSheetsDataStore.Populate
+  commentId: M:Lucid.DataStorage.GoogleSheetsDataStore.Populate
+  id: Populate
+  parent: Lucid.DataStorage.GoogleSheetsDataStore
+  langs:
+  - csharp
+  - vb
+  name: Populate()
+  nameWithType: GoogleSheetsDataStore.Populate()
+  fullName: Lucid.DataStorage.GoogleSheetsDataStore.Populate()
+  type: Method
+  source:
+    id: Populate
+    path: ''
+    startLine: 14753
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public override void Populate()
+    content.vb: Public Overrides Sub Populate
+  overridden: Lucid.DataStorage.DataStore.Populate
+  overload: Lucid.DataStorage.GoogleSheetsDataStore.Populate*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Lucid.DataStorage.GoogleSheetsDataStore.Import
+  commentId: M:Lucid.DataStorage.GoogleSheetsDataStore.Import
+  id: Import
+  parent: Lucid.DataStorage.GoogleSheetsDataStore
+  langs:
+  - csharp
+  - vb
+  name: Import()
+  nameWithType: GoogleSheetsDataStore.Import()
+  fullName: Lucid.DataStorage.GoogleSheetsDataStore.Import()
+  type: Method
+  source:
+    id: Import
+    path: ''
+    startLine: 14761
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public void Import()
+    content.vb: Public Sub Import
+  overload: Lucid.DataStorage.GoogleSheetsDataStore.Import*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.DataStorage
+  commentId: N:Lucid.DataStorage
+  name: Lucid.DataStorage
+  nameWithType: Lucid.DataStorage
+  fullName: Lucid.DataStorage
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Lucid.DataStorage.DataStore
+  commentId: T:Lucid.DataStorage.DataStore
+  parent: Lucid.DataStorage
+  name: DataStore
+  nameWithType: DataStore
+  fullName: Lucid.DataStorage.DataStore
+- uid: Lucid.DataStorage.DataStore.data
+  commentId: F:Lucid.DataStorage.DataStore.data
+  parent: Lucid.DataStorage.DataStore
+  name: data
+  nameWithType: DataStore.data
+  fullName: Lucid.DataStorage.DataStore.data
+- uid: Lucid.DataStorage.DataStore.GetValueRaw(System.String)
+  commentId: M:Lucid.DataStorage.DataStore.GetValueRaw(System.String)
+  parent: Lucid.DataStorage.DataStore
+  isExternal: true
+  name: GetValueRaw(String)
+  nameWithType: DataStore.GetValueRaw(String)
+  fullName: Lucid.DataStorage.DataStore.GetValueRaw(System.String)
+  spec.csharp:
+  - uid: Lucid.DataStorage.DataStore.GetValueRaw(System.String)
+    name: GetValueRaw
+    nameWithType: DataStore.GetValueRaw
+    fullName: Lucid.DataStorage.DataStore.GetValueRaw
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.DataStorage.DataStore.GetValueRaw(System.String)
+    name: GetValueRaw
+    nameWithType: DataStore.GetValueRaw
+    fullName: Lucid.DataStorage.DataStore.GetValueRaw
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.DataStorage.DataStore.GetValue``1(System.String)
+  commentId: M:Lucid.DataStorage.DataStore.GetValue``1(System.String)
+  parent: Lucid.DataStorage.DataStore
+  isExternal: true
+  name: GetValue<T>(String)
+  nameWithType: DataStore.GetValue<T>(String)
+  fullName: Lucid.DataStorage.DataStore.GetValue<T>(System.String)
+  nameWithType.vb: DataStore.GetValue(Of T)(String)
+  fullName.vb: Lucid.DataStorage.DataStore.GetValue(Of T)(System.String)
+  name.vb: GetValue(Of T)(String)
+  spec.csharp:
+  - uid: Lucid.DataStorage.DataStore.GetValue``1(System.String)
+    name: GetValue<T>
+    nameWithType: DataStore.GetValue<T>
+    fullName: Lucid.DataStorage.DataStore.GetValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.DataStorage.DataStore.GetValue``1(System.String)
+    name: GetValue(Of T)
+    nameWithType: DataStore.GetValue(Of T)
+    fullName: Lucid.DataStorage.DataStore.GetValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.DataStorage.DataStore.GetDataKeys(System.String)
+  commentId: M:Lucid.DataStorage.DataStore.GetDataKeys(System.String)
+  parent: Lucid.DataStorage.DataStore
+  isExternal: true
+  name: GetDataKeys(String)
+  nameWithType: DataStore.GetDataKeys(String)
+  fullName: Lucid.DataStorage.DataStore.GetDataKeys(System.String)
+  spec.csharp:
+  - uid: Lucid.DataStorage.DataStore.GetDataKeys(System.String)
+    name: GetDataKeys
+    nameWithType: DataStore.GetDataKeys
+    fullName: Lucid.DataStorage.DataStore.GetDataKeys
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.DataStorage.DataStore.GetDataKeys(System.String)
+    name: GetDataKeys
+    nameWithType: DataStore.GetDataKeys
+    fullName: Lucid.DataStorage.DataStore.GetDataKeys
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.DataStorage.DataStore.GetDataStores
+  commentId: M:Lucid.DataStorage.DataStore.GetDataStores
+  parent: Lucid.DataStorage.DataStore
+  name: GetDataStores()
+  nameWithType: DataStore.GetDataStores()
+  fullName: Lucid.DataStorage.DataStore.GetDataStores()
+  spec.csharp:
+  - uid: Lucid.DataStorage.DataStore.GetDataStores
+    name: GetDataStores
+    nameWithType: DataStore.GetDataStores
+    fullName: Lucid.DataStorage.DataStore.GetDataStores
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.DataStorage.DataStore.GetDataStores
+    name: GetDataStores
+    nameWithType: DataStore.GetDataStores
+    fullName: Lucid.DataStorage.DataStore.GetDataStores
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Lucid.DataStorage.GoogleSheetsDataStore.sheetID*
+  commentId: Overload:Lucid.DataStorage.GoogleSheetsDataStore.sheetID
+  name: sheetID
+  nameWithType: GoogleSheetsDataStore.sheetID
+  fullName: Lucid.DataStorage.GoogleSheetsDataStore.sheetID
+- uid: Lucid.DataStorage.GoogleSheetsDataStore.SpreadSheetLoaded_Del
+  commentId: T:Lucid.DataStorage.GoogleSheetsDataStore.SpreadSheetLoaded_Del
+  parent: Lucid.DataStorage
+  name: GoogleSheetsDataStore.SpreadSheetLoaded_Del
+  nameWithType: GoogleSheetsDataStore.SpreadSheetLoaded_Del
+  fullName: Lucid.DataStorage.GoogleSheetsDataStore.SpreadSheetLoaded_Del
+- uid: Global.GstuSpreadSheet
+  commentId: '!:Global.GstuSpreadSheet'
+  isExternal: true
+  name: GstuSpreadSheet
+  nameWithType: GstuSpreadSheet
+  fullName: GstuSpreadSheet
+- uid: Lucid.DataStorage.DataStore.dataType
+  commentId: P:Lucid.DataStorage.DataStore.dataType
+  parent: Lucid.DataStorage.DataStore
+  name: dataType
+  nameWithType: DataStore.dataType
+  fullName: Lucid.DataStorage.DataStore.dataType
+- uid: Lucid.DataStorage.GoogleSheetsDataStore.dataType*
+  commentId: Overload:Lucid.DataStorage.GoogleSheetsDataStore.dataType
+  name: dataType
+  nameWithType: GoogleSheetsDataStore.dataType
+  fullName: Lucid.DataStorage.GoogleSheetsDataStore.dataType
+- uid: Lucid.DataStorage.DataStore.DataType
+  commentId: T:Lucid.DataStorage.DataStore.DataType
+  parent: Lucid.DataStorage
+  name: DataStore.DataType
+  nameWithType: DataStore.DataType
+  fullName: Lucid.DataStorage.DataStore.DataType
+- uid: Lucid.DataStorage.DataStore.Populate
+  commentId: M:Lucid.DataStorage.DataStore.Populate
+  parent: Lucid.DataStorage.DataStore
+  name: Populate()
+  nameWithType: DataStore.Populate()
+  fullName: Lucid.DataStorage.DataStore.Populate()
+  spec.csharp:
+  - uid: Lucid.DataStorage.DataStore.Populate
+    name: Populate
+    nameWithType: DataStore.Populate
+    fullName: Lucid.DataStorage.DataStore.Populate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.DataStorage.DataStore.Populate
+    name: Populate
+    nameWithType: DataStore.Populate
+    fullName: Lucid.DataStorage.DataStore.Populate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.DataStorage.GoogleSheetsDataStore.Populate*
+  commentId: Overload:Lucid.DataStorage.GoogleSheetsDataStore.Populate
+  name: Populate
+  nameWithType: GoogleSheetsDataStore.Populate
+  fullName: Lucid.DataStorage.GoogleSheetsDataStore.Populate
+- uid: Lucid.DataStorage.GoogleSheetsDataStore.Import*
+  commentId: Overload:Lucid.DataStorage.GoogleSheetsDataStore.Import
+  name: Import
+  nameWithType: GoogleSheetsDataStore.Import
+  fullName: Lucid.DataStorage.GoogleSheetsDataStore.Import

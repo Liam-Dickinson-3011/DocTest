@@ -1,0 +1,282 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Core.GenerationSettingsSO
+  commentId: T:Lucid.Core.GenerationSettingsSO
+  id: GenerationSettingsSO
+  parent: Lucid.Core
+  children:
+  - Lucid.Core.GenerationSettingsSO.appManagerPrefab
+  - Lucid.Core.GenerationSettingsSO.defaultButtonPrefab
+  - Lucid.Core.GenerationSettingsSO.defaultSwitchResponderContainer
+  - Lucid.Core.GenerationSettingsSO.defaultTogglePrfeab
+  - Lucid.Core.GenerationSettingsSO.emptyViewPrefab
+  - Lucid.Core.GenerationSettingsSO.invisibleButtonPrefab
+  - Lucid.Core.GenerationSettingsSO.logoButtonPrefab
+  - Lucid.Core.GenerationSettingsSO.uiMasterPrefab
+  langs:
+  - csharp
+  - vb
+  name: GenerationSettingsSO
+  nameWithType: GenerationSettingsSO
+  fullName: Lucid.Core.GenerationSettingsSO
+  type: Class
+  source:
+    id: GenerationSettingsSO
+    path: ''
+    startLine: 7030
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: 'public class GenerationSettingsSO : SingletonScriptableObject<GenerationSettingsSO>'
+    content.vb: >-
+      Public Class GenerationSettingsSO
+          Inherits SingletonScriptableObject(Of GenerationSettingsSO)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Core.GenerationSettingsSO.appManagerPrefab
+  commentId: F:Lucid.Core.GenerationSettingsSO.appManagerPrefab
+  id: appManagerPrefab
+  parent: Lucid.Core.GenerationSettingsSO
+  langs:
+  - csharp
+  - vb
+  name: appManagerPrefab
+  nameWithType: GenerationSettingsSO.appManagerPrefab
+  fullName: Lucid.Core.GenerationSettingsSO.appManagerPrefab
+  type: Field
+  source:
+    id: appManagerPrefab
+    path: ''
+    startLine: 7034
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public GameObject appManagerPrefab
+    return:
+      type: Global.GameObject
+    content.vb: Public appManagerPrefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Core.GenerationSettingsSO.uiMasterPrefab
+  commentId: F:Lucid.Core.GenerationSettingsSO.uiMasterPrefab
+  id: uiMasterPrefab
+  parent: Lucid.Core.GenerationSettingsSO
+  langs:
+  - csharp
+  - vb
+  name: uiMasterPrefab
+  nameWithType: GenerationSettingsSO.uiMasterPrefab
+  fullName: Lucid.Core.GenerationSettingsSO.uiMasterPrefab
+  type: Field
+  source:
+    id: uiMasterPrefab
+    path: ''
+    startLine: 7035
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public GameObject uiMasterPrefab
+    return:
+      type: Global.GameObject
+    content.vb: Public uiMasterPrefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Core.GenerationSettingsSO.emptyViewPrefab
+  commentId: F:Lucid.Core.GenerationSettingsSO.emptyViewPrefab
+  id: emptyViewPrefab
+  parent: Lucid.Core.GenerationSettingsSO
+  langs:
+  - csharp
+  - vb
+  name: emptyViewPrefab
+  nameWithType: GenerationSettingsSO.emptyViewPrefab
+  fullName: Lucid.Core.GenerationSettingsSO.emptyViewPrefab
+  type: Field
+  source:
+    id: emptyViewPrefab
+    path: ''
+    startLine: 7036
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public GameObject emptyViewPrefab
+    return:
+      type: Global.GameObject
+    content.vb: Public emptyViewPrefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Core.GenerationSettingsSO.invisibleButtonPrefab
+  commentId: F:Lucid.Core.GenerationSettingsSO.invisibleButtonPrefab
+  id: invisibleButtonPrefab
+  parent: Lucid.Core.GenerationSettingsSO
+  langs:
+  - csharp
+  - vb
+  name: invisibleButtonPrefab
+  nameWithType: GenerationSettingsSO.invisibleButtonPrefab
+  fullName: Lucid.Core.GenerationSettingsSO.invisibleButtonPrefab
+  type: Field
+  source:
+    id: invisibleButtonPrefab
+    path: ''
+    startLine: 7039
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public GameObject invisibleButtonPrefab
+    return:
+      type: Global.GameObject
+    content.vb: Public invisibleButtonPrefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Core.GenerationSettingsSO.defaultButtonPrefab
+  commentId: F:Lucid.Core.GenerationSettingsSO.defaultButtonPrefab
+  id: defaultButtonPrefab
+  parent: Lucid.Core.GenerationSettingsSO
+  langs:
+  - csharp
+  - vb
+  name: defaultButtonPrefab
+  nameWithType: GenerationSettingsSO.defaultButtonPrefab
+  fullName: Lucid.Core.GenerationSettingsSO.defaultButtonPrefab
+  type: Field
+  source:
+    id: defaultButtonPrefab
+    path: ''
+    startLine: 7042
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public GameObject defaultButtonPrefab
+    return:
+      type: Global.GameObject
+    content.vb: Public defaultButtonPrefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Core.GenerationSettingsSO.defaultTogglePrfeab
+  commentId: F:Lucid.Core.GenerationSettingsSO.defaultTogglePrfeab
+  id: defaultTogglePrfeab
+  parent: Lucid.Core.GenerationSettingsSO
+  langs:
+  - csharp
+  - vb
+  name: defaultTogglePrfeab
+  nameWithType: GenerationSettingsSO.defaultTogglePrfeab
+  fullName: Lucid.Core.GenerationSettingsSO.defaultTogglePrfeab
+  type: Field
+  source:
+    id: defaultTogglePrfeab
+    path: ''
+    startLine: 7043
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public GameObject defaultTogglePrfeab
+    return:
+      type: Global.GameObject
+    content.vb: Public defaultTogglePrfeab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Core.GenerationSettingsSO.logoButtonPrefab
+  commentId: F:Lucid.Core.GenerationSettingsSO.logoButtonPrefab
+  id: logoButtonPrefab
+  parent: Lucid.Core.GenerationSettingsSO
+  langs:
+  - csharp
+  - vb
+  name: logoButtonPrefab
+  nameWithType: GenerationSettingsSO.logoButtonPrefab
+  fullName: Lucid.Core.GenerationSettingsSO.logoButtonPrefab
+  type: Field
+  source:
+    id: logoButtonPrefab
+    path: ''
+    startLine: 7044
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public GameObject logoButtonPrefab
+    return:
+      type: Global.GameObject
+    content.vb: Public logoButtonPrefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Core.GenerationSettingsSO.defaultSwitchResponderContainer
+  commentId: F:Lucid.Core.GenerationSettingsSO.defaultSwitchResponderContainer
+  id: defaultSwitchResponderContainer
+  parent: Lucid.Core.GenerationSettingsSO
+  langs:
+  - csharp
+  - vb
+  name: defaultSwitchResponderContainer
+  nameWithType: GenerationSettingsSO.defaultSwitchResponderContainer
+  fullName: Lucid.Core.GenerationSettingsSO.defaultSwitchResponderContainer
+  type: Field
+  source:
+    id: defaultSwitchResponderContainer
+    path: ''
+    startLine: 7047
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public GameObject defaultSwitchResponderContainer
+    return:
+      type: Global.GameObject
+    content.vb: Public defaultSwitchResponderContainer As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Core
+  commentId: N:Lucid.Core
+  name: Lucid.Core
+  nameWithType: Lucid.Core
+  fullName: Lucid.Core
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject

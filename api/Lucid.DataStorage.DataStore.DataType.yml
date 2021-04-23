@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.DataStorage.DataStore.DataType
+  commentId: T:Lucid.DataStorage.DataStore.DataType
+  id: DataStore.DataType
+  parent: Lucid.DataStorage
+  children:
+  - Lucid.DataStorage.DataStore.DataType.CSV
+  - Lucid.DataStorage.DataStore.DataType.GoogleSheet
+  - Lucid.DataStorage.DataStore.DataType.JSON
+  langs:
+  - csharp
+  - vb
+  name: DataStore.DataType
+  nameWithType: DataStore.DataType
+  fullName: Lucid.DataStorage.DataStore.DataType
+  type: Enum
+  source:
+    id: DataType
+    path: ''
+    startLine: 14422
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public enum DataType
+    content.vb: Public Enum DataType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Lucid.DataStorage.DataStore.DataType.CSV
+  commentId: F:Lucid.DataStorage.DataStore.DataType.CSV
+  id: CSV
+  parent: Lucid.DataStorage.DataStore.DataType
+  langs:
+  - csharp
+  - vb
+  name: CSV
+  nameWithType: DataStore.DataType.CSV
+  fullName: Lucid.DataStorage.DataStore.DataType.CSV
+  type: Field
+  source:
+    id: CSV
+    path: ''
+    startLine: 14422
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: CSV = 0
+    return:
+      type: Lucid.DataStorage.DataStore.DataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.DataStorage.DataStore.DataType.JSON
+  commentId: F:Lucid.DataStorage.DataStore.DataType.JSON
+  id: JSON
+  parent: Lucid.DataStorage.DataStore.DataType
+  langs:
+  - csharp
+  - vb
+  name: JSON
+  nameWithType: DataStore.DataType.JSON
+  fullName: Lucid.DataStorage.DataStore.DataType.JSON
+  type: Field
+  source:
+    id: JSON
+    path: ''
+    startLine: 14422
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: JSON = 1
+    return:
+      type: Lucid.DataStorage.DataStore.DataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.DataStorage.DataStore.DataType.GoogleSheet
+  commentId: F:Lucid.DataStorage.DataStore.DataType.GoogleSheet
+  id: GoogleSheet
+  parent: Lucid.DataStorage.DataStore.DataType
+  langs:
+  - csharp
+  - vb
+  name: GoogleSheet
+  nameWithType: DataStore.DataType.GoogleSheet
+  fullName: Lucid.DataStorage.DataStore.DataType.GoogleSheet
+  type: Field
+  source:
+    id: GoogleSheet
+    path: ''
+    startLine: 14422
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: GoogleSheet = 2
+    return:
+      type: Lucid.DataStorage.DataStore.DataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Lucid.DataStorage
+  commentId: N:Lucid.DataStorage
+  name: Lucid.DataStorage
+  nameWithType: Lucid.DataStorage
+  fullName: Lucid.DataStorage
+- uid: Lucid.DataStorage.DataStore.DataType
+  commentId: T:Lucid.DataStorage.DataStore.DataType
+  parent: Lucid.DataStorage
+  name: DataStore.DataType
+  nameWithType: DataStore.DataType
+  fullName: Lucid.DataStorage.DataStore.DataType

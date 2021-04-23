@@ -1,0 +1,374 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Core.ViewState
+  commentId: T:Lucid.Core.ViewState
+  id: ViewState
+  parent: Lucid.Core
+  children:
+  - Lucid.Core.ViewState.activeViews
+  - Lucid.Core.ViewState.allowMultiScene
+  - Lucid.Core.ViewState.OnEnterState
+  - Lucid.Core.ViewState.scenes
+  - Lucid.Core.ViewState.stateID
+  - Lucid.Core.ViewState.WorkOnState
+  langs:
+  - csharp
+  - vb
+  name: ViewState
+  nameWithType: ViewState
+  fullName: Lucid.Core.ViewState
+  type: Class
+  source:
+    id: ViewState
+    path: ''
+    startLine: 5843
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class ViewState
+    content.vb: >-
+      <Serializable>
+
+      Public Class ViewState
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Core.ViewState.stateID
+  commentId: F:Lucid.Core.ViewState.stateID
+  id: stateID
+  parent: Lucid.Core.ViewState
+  langs:
+  - csharp
+  - vb
+  name: stateID
+  nameWithType: ViewState.stateID
+  fullName: Lucid.Core.ViewState.stateID
+  type: Field
+  source:
+    id: stateID
+    path: ''
+    startLine: 5846
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public string stateID
+    return:
+      type: System.String
+    content.vb: Public stateID As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Core.ViewState.activeViews
+  commentId: F:Lucid.Core.ViewState.activeViews
+  id: activeViews
+  parent: Lucid.Core.ViewState
+  langs:
+  - csharp
+  - vb
+  name: activeViews
+  nameWithType: ViewState.activeViews
+  fullName: Lucid.Core.ViewState.activeViews
+  type: Field
+  source:
+    id: activeViews
+    path: ''
+    startLine: 5848
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public List<UIView> activeViews
+    return:
+      type: Global.List{Lucid.UI.UIView}
+    content.vb: Public activeViews As List(Of UIView)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Core.ViewState.allowMultiScene
+  commentId: F:Lucid.Core.ViewState.allowMultiScene
+  id: allowMultiScene
+  parent: Lucid.Core.ViewState
+  langs:
+  - csharp
+  - vb
+  name: allowMultiScene
+  nameWithType: ViewState.allowMultiScene
+  fullName: Lucid.Core.ViewState.allowMultiScene
+  type: Field
+  source:
+    id: allowMultiScene
+    path: ''
+    startLine: 5851
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public bool allowMultiScene
+    return:
+      type: System.Boolean
+    content.vb: Public allowMultiScene As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Core.ViewState.scenes
+  commentId: F:Lucid.Core.ViewState.scenes
+  id: scenes
+  parent: Lucid.Core.ViewState
+  langs:
+  - csharp
+  - vb
+  name: scenes
+  nameWithType: ViewState.scenes
+  fullName: Lucid.Core.ViewState.scenes
+  type: Field
+  source:
+    id: scenes
+    path: ''
+    startLine: 5854
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public List<Scene> scenes
+    return:
+      type: Global.List{Scene}
+    content.vb: Public scenes As List(Of Scene)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Core.ViewState.OnEnterState
+  commentId: F:Lucid.Core.ViewState.OnEnterState
+  id: OnEnterState
+  parent: Lucid.Core.ViewState
+  langs:
+  - csharp
+  - vb
+  name: OnEnterState
+  nameWithType: ViewState.OnEnterState
+  fullName: Lucid.Core.ViewState.OnEnterState
+  type: Field
+  source:
+    id: OnEnterState
+    path: ''
+    startLine: 5856
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public UnityEvent OnEnterState
+    return:
+      type: Global.UnityEvent
+    content.vb: Public OnEnterState As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Core.ViewState.WorkOnState
+  commentId: M:Lucid.Core.ViewState.WorkOnState
+  id: WorkOnState
+  parent: Lucid.Core.ViewState
+  langs:
+  - csharp
+  - vb
+  name: WorkOnState()
+  nameWithType: ViewState.WorkOnState()
+  fullName: Lucid.Core.ViewState.WorkOnState()
+  type: Method
+  source:
+    id: WorkOnState
+    path: ''
+    startLine: 5858
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: public void WorkOnState()
+    content.vb: Public Sub WorkOnState
+  overload: Lucid.Core.ViewState.WorkOnState*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Core
+  commentId: N:Lucid.Core
+  name: Lucid.Core
+  nameWithType: Lucid.Core
+  fullName: Lucid.Core
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.List{Lucid.UI.UIView}
+  commentId: '!:Global.List{Lucid.UI.UIView}'
+  definition: Global.List`1
+  name: List<UIView>
+  nameWithType: List<UIView>
+  fullName: List<Lucid.UI.UIView>
+  nameWithType.vb: List(Of UIView)
+  fullName.vb: List(Of Lucid.UI.UIView)
+  name.vb: List(Of UIView)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Lucid.UI.UIView
+    name: UIView
+    nameWithType: UIView
+    fullName: Lucid.UI.UIView
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Lucid.UI.UIView
+    name: UIView
+    nameWithType: UIView
+    fullName: Lucid.UI.UIView
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.List{Scene}
+  commentId: '!:Global.List{Scene}'
+  definition: Global.List`1
+  name: List<Scene>
+  nameWithType: List<Scene>
+  fullName: List<Scene>
+  nameWithType.vb: List(Of Scene)
+  fullName.vb: List(Of Scene)
+  name.vb: List(Of Scene)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: Scene
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: Scene
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.UnityEvent
+  isExternal: true
+  name: UnityEvent
+  nameWithType: UnityEvent
+  fullName: UnityEvent
+- uid: Lucid.Core.ViewState.WorkOnState*
+  commentId: Overload:Lucid.Core.ViewState.WorkOnState
+  name: WorkOnState
+  nameWithType: ViewState.WorkOnState
+  fullName: Lucid.Core.ViewState.WorkOnState

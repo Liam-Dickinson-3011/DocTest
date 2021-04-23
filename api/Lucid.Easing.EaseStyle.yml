@@ -1,0 +1,1115 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Easing.EaseStyle
+  commentId: T:Lucid.Easing.EaseStyle
+  id: EaseStyle
+  parent: Lucid.Easing
+  children:
+  - Lucid.Easing.EaseStyle.BackEaseIn
+  - Lucid.Easing.EaseStyle.BackEaseInOut
+  - Lucid.Easing.EaseStyle.BackEaseOut
+  - Lucid.Easing.EaseStyle.BounceEaseIn
+  - Lucid.Easing.EaseStyle.BounceEaseInOut
+  - Lucid.Easing.EaseStyle.BounceEaseOut
+  - Lucid.Easing.EaseStyle.CircleEaseIn
+  - Lucid.Easing.EaseStyle.CircleEaseInOut
+  - Lucid.Easing.EaseStyle.CircleEaseOut
+  - Lucid.Easing.EaseStyle.CubicEaseIn
+  - Lucid.Easing.EaseStyle.CubicEaseInOut
+  - Lucid.Easing.EaseStyle.CubicEaseOut
+  - Lucid.Easing.EaseStyle.ElasticEaseIn
+  - Lucid.Easing.EaseStyle.ElasticEaseInOut
+  - Lucid.Easing.EaseStyle.ElasticEaseOut
+  - Lucid.Easing.EaseStyle.ExpoEaseIn
+  - Lucid.Easing.EaseStyle.ExpoEaseInOut
+  - Lucid.Easing.EaseStyle.ExpoEaseOut
+  - Lucid.Easing.EaseStyle.Linear
+  - Lucid.Easing.EaseStyle.LinearEaseIn
+  - Lucid.Easing.EaseStyle.LinearEaseInOut
+  - Lucid.Easing.EaseStyle.LinearEaseOut
+  - Lucid.Easing.EaseStyle.QuadEaseIn
+  - Lucid.Easing.EaseStyle.QuadEaseInOut
+  - Lucid.Easing.EaseStyle.QuadEaseOut
+  - Lucid.Easing.EaseStyle.QuartEaseIn
+  - Lucid.Easing.EaseStyle.QuartEaseInOut
+  - Lucid.Easing.EaseStyle.QuartEaseOut
+  - Lucid.Easing.EaseStyle.QuintEaseIn
+  - Lucid.Easing.EaseStyle.QuintEaseInOut
+  - Lucid.Easing.EaseStyle.QuintEaseOut
+  - Lucid.Easing.EaseStyle.SineEaseIn
+  - Lucid.Easing.EaseStyle.SineEaseInOut
+  - Lucid.Easing.EaseStyle.SineEaseOut
+  - Lucid.Easing.EaseStyle.StrongEaseIn
+  - Lucid.Easing.EaseStyle.StrongEaseInOut
+  - Lucid.Easing.EaseStyle.StrongEaseOut
+  langs:
+  - csharp
+  - vb
+  name: EaseStyle
+  nameWithType: EaseStyle
+  fullName: Lucid.Easing.EaseStyle
+  type: Enum
+  source:
+    id: EaseStyle
+    path: ''
+    startLine: 21234
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: public enum EaseStyle
+    content.vb: Public Enum EaseStyle
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Lucid.Easing.EaseStyle.Linear
+  commentId: F:Lucid.Easing.EaseStyle.Linear
+  id: Linear
+  parent: Lucid.Easing.EaseStyle
+  langs:
+  - csharp
+  - vb
+  name: Linear
+  nameWithType: EaseStyle.Linear
+  fullName: Lucid.Easing.EaseStyle.Linear
+  type: Field
+  source:
+    id: Linear
+    path: ''
+    startLine: 21236
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: Linear = 0
+    return:
+      type: Lucid.Easing.EaseStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Easing.EaseStyle.LinearEaseIn
+  commentId: F:Lucid.Easing.EaseStyle.LinearEaseIn
+  id: LinearEaseIn
+  parent: Lucid.Easing.EaseStyle
+  langs:
+  - csharp
+  - vb
+  name: LinearEaseIn
+  nameWithType: EaseStyle.LinearEaseIn
+  fullName: Lucid.Easing.EaseStyle.LinearEaseIn
+  type: Field
+  source:
+    id: LinearEaseIn
+    path: ''
+    startLine: 21237
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: LinearEaseIn = 1
+    return:
+      type: Lucid.Easing.EaseStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Easing.EaseStyle.LinearEaseOut
+  commentId: F:Lucid.Easing.EaseStyle.LinearEaseOut
+  id: LinearEaseOut
+  parent: Lucid.Easing.EaseStyle
+  langs:
+  - csharp
+  - vb
+  name: LinearEaseOut
+  nameWithType: EaseStyle.LinearEaseOut
+  fullName: Lucid.Easing.EaseStyle.LinearEaseOut
+  type: Field
+  source:
+    id: LinearEaseOut
+    path: ''
+    startLine: 21238
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: LinearEaseOut = 2
+    return:
+      type: Lucid.Easing.EaseStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Easing.EaseStyle.LinearEaseInOut
+  commentId: F:Lucid.Easing.EaseStyle.LinearEaseInOut
+  id: LinearEaseInOut
+  parent: Lucid.Easing.EaseStyle
+  langs:
+  - csharp
+  - vb
+  name: LinearEaseInOut
+  nameWithType: EaseStyle.LinearEaseInOut
+  fullName: Lucid.Easing.EaseStyle.LinearEaseInOut
+  type: Field
+  source:
+    id: LinearEaseInOut
+    path: ''
+    startLine: 21239
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: LinearEaseInOut = 3
+    return:
+      type: Lucid.Easing.EaseStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Easing.EaseStyle.BackEaseIn
+  commentId: F:Lucid.Easing.EaseStyle.BackEaseIn
+  id: BackEaseIn
+  parent: Lucid.Easing.EaseStyle
+  langs:
+  - csharp
+  - vb
+  name: BackEaseIn
+  nameWithType: EaseStyle.BackEaseIn
+  fullName: Lucid.Easing.EaseStyle.BackEaseIn
+  type: Field
+  source:
+    id: BackEaseIn
+    path: ''
+    startLine: 21240
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: BackEaseIn = 4
+    return:
+      type: Lucid.Easing.EaseStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Easing.EaseStyle.BackEaseOut
+  commentId: F:Lucid.Easing.EaseStyle.BackEaseOut
+  id: BackEaseOut
+  parent: Lucid.Easing.EaseStyle
+  langs:
+  - csharp
+  - vb
+  name: BackEaseOut
+  nameWithType: EaseStyle.BackEaseOut
+  fullName: Lucid.Easing.EaseStyle.BackEaseOut
+  type: Field
+  source:
+    id: BackEaseOut
+    path: ''
+    startLine: 21241
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: BackEaseOut = 5
+    return:
+      type: Lucid.Easing.EaseStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Easing.EaseStyle.BackEaseInOut
+  commentId: F:Lucid.Easing.EaseStyle.BackEaseInOut
+  id: BackEaseInOut
+  parent: Lucid.Easing.EaseStyle
+  langs:
+  - csharp
+  - vb
+  name: BackEaseInOut
+  nameWithType: EaseStyle.BackEaseInOut
+  fullName: Lucid.Easing.EaseStyle.BackEaseInOut
+  type: Field
+  source:
+    id: BackEaseInOut
+    path: ''
+    startLine: 21242
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: BackEaseInOut = 6
+    return:
+      type: Lucid.Easing.EaseStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Easing.EaseStyle.BounceEaseIn
+  commentId: F:Lucid.Easing.EaseStyle.BounceEaseIn
+  id: BounceEaseIn
+  parent: Lucid.Easing.EaseStyle
+  langs:
+  - csharp
+  - vb
+  name: BounceEaseIn
+  nameWithType: EaseStyle.BounceEaseIn
+  fullName: Lucid.Easing.EaseStyle.BounceEaseIn
+  type: Field
+  source:
+    id: BounceEaseIn
+    path: ''
+    startLine: 21243
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: BounceEaseIn = 7
+    return:
+      type: Lucid.Easing.EaseStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Easing.EaseStyle.BounceEaseOut
+  commentId: F:Lucid.Easing.EaseStyle.BounceEaseOut
+  id: BounceEaseOut
+  parent: Lucid.Easing.EaseStyle
+  langs:
+  - csharp
+  - vb
+  name: BounceEaseOut
+  nameWithType: EaseStyle.BounceEaseOut
+  fullName: Lucid.Easing.EaseStyle.BounceEaseOut
+  type: Field
+  source:
+    id: BounceEaseOut
+    path: ''
+    startLine: 21244
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: BounceEaseOut = 8
+    return:
+      type: Lucid.Easing.EaseStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Easing.EaseStyle.BounceEaseInOut
+  commentId: F:Lucid.Easing.EaseStyle.BounceEaseInOut
+  id: BounceEaseInOut
+  parent: Lucid.Easing.EaseStyle
+  langs:
+  - csharp
+  - vb
+  name: BounceEaseInOut
+  nameWithType: EaseStyle.BounceEaseInOut
+  fullName: Lucid.Easing.EaseStyle.BounceEaseInOut
+  type: Field
+  source:
+    id: BounceEaseInOut
+    path: ''
+    startLine: 21245
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: BounceEaseInOut = 9
+    return:
+      type: Lucid.Easing.EaseStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Easing.EaseStyle.CircleEaseIn
+  commentId: F:Lucid.Easing.EaseStyle.CircleEaseIn
+  id: CircleEaseIn
+  parent: Lucid.Easing.EaseStyle
+  langs:
+  - csharp
+  - vb
+  name: CircleEaseIn
+  nameWithType: EaseStyle.CircleEaseIn
+  fullName: Lucid.Easing.EaseStyle.CircleEaseIn
+  type: Field
+  source:
+    id: CircleEaseIn
+    path: ''
+    startLine: 21246
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: CircleEaseIn = 10
+    return:
+      type: Lucid.Easing.EaseStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Easing.EaseStyle.CircleEaseOut
+  commentId: F:Lucid.Easing.EaseStyle.CircleEaseOut
+  id: CircleEaseOut
+  parent: Lucid.Easing.EaseStyle
+  langs:
+  - csharp
+  - vb
+  name: CircleEaseOut
+  nameWithType: EaseStyle.CircleEaseOut
+  fullName: Lucid.Easing.EaseStyle.CircleEaseOut
+  type: Field
+  source:
+    id: CircleEaseOut
+    path: ''
+    startLine: 21247
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: CircleEaseOut = 11
+    return:
+      type: Lucid.Easing.EaseStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Easing.EaseStyle.CircleEaseInOut
+  commentId: F:Lucid.Easing.EaseStyle.CircleEaseInOut
+  id: CircleEaseInOut
+  parent: Lucid.Easing.EaseStyle
+  langs:
+  - csharp
+  - vb
+  name: CircleEaseInOut
+  nameWithType: EaseStyle.CircleEaseInOut
+  fullName: Lucid.Easing.EaseStyle.CircleEaseInOut
+  type: Field
+  source:
+    id: CircleEaseInOut
+    path: ''
+    startLine: 21248
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: CircleEaseInOut = 12
+    return:
+      type: Lucid.Easing.EaseStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Easing.EaseStyle.CubicEaseIn
+  commentId: F:Lucid.Easing.EaseStyle.CubicEaseIn
+  id: CubicEaseIn
+  parent: Lucid.Easing.EaseStyle
+  langs:
+  - csharp
+  - vb
+  name: CubicEaseIn
+  nameWithType: EaseStyle.CubicEaseIn
+  fullName: Lucid.Easing.EaseStyle.CubicEaseIn
+  type: Field
+  source:
+    id: CubicEaseIn
+    path: ''
+    startLine: 21249
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: CubicEaseIn = 13
+    return:
+      type: Lucid.Easing.EaseStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Easing.EaseStyle.CubicEaseOut
+  commentId: F:Lucid.Easing.EaseStyle.CubicEaseOut
+  id: CubicEaseOut
+  parent: Lucid.Easing.EaseStyle
+  langs:
+  - csharp
+  - vb
+  name: CubicEaseOut
+  nameWithType: EaseStyle.CubicEaseOut
+  fullName: Lucid.Easing.EaseStyle.CubicEaseOut
+  type: Field
+  source:
+    id: CubicEaseOut
+    path: ''
+    startLine: 21250
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: CubicEaseOut = 14
+    return:
+      type: Lucid.Easing.EaseStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Easing.EaseStyle.CubicEaseInOut
+  commentId: F:Lucid.Easing.EaseStyle.CubicEaseInOut
+  id: CubicEaseInOut
+  parent: Lucid.Easing.EaseStyle
+  langs:
+  - csharp
+  - vb
+  name: CubicEaseInOut
+  nameWithType: EaseStyle.CubicEaseInOut
+  fullName: Lucid.Easing.EaseStyle.CubicEaseInOut
+  type: Field
+  source:
+    id: CubicEaseInOut
+    path: ''
+    startLine: 21251
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: CubicEaseInOut = 15
+    return:
+      type: Lucid.Easing.EaseStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Easing.EaseStyle.ElasticEaseIn
+  commentId: F:Lucid.Easing.EaseStyle.ElasticEaseIn
+  id: ElasticEaseIn
+  parent: Lucid.Easing.EaseStyle
+  langs:
+  - csharp
+  - vb
+  name: ElasticEaseIn
+  nameWithType: EaseStyle.ElasticEaseIn
+  fullName: Lucid.Easing.EaseStyle.ElasticEaseIn
+  type: Field
+  source:
+    id: ElasticEaseIn
+    path: ''
+    startLine: 21252
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: ElasticEaseIn = 16
+    return:
+      type: Lucid.Easing.EaseStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Easing.EaseStyle.ElasticEaseOut
+  commentId: F:Lucid.Easing.EaseStyle.ElasticEaseOut
+  id: ElasticEaseOut
+  parent: Lucid.Easing.EaseStyle
+  langs:
+  - csharp
+  - vb
+  name: ElasticEaseOut
+  nameWithType: EaseStyle.ElasticEaseOut
+  fullName: Lucid.Easing.EaseStyle.ElasticEaseOut
+  type: Field
+  source:
+    id: ElasticEaseOut
+    path: ''
+    startLine: 21253
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: ElasticEaseOut = 17
+    return:
+      type: Lucid.Easing.EaseStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Easing.EaseStyle.ElasticEaseInOut
+  commentId: F:Lucid.Easing.EaseStyle.ElasticEaseInOut
+  id: ElasticEaseInOut
+  parent: Lucid.Easing.EaseStyle
+  langs:
+  - csharp
+  - vb
+  name: ElasticEaseInOut
+  nameWithType: EaseStyle.ElasticEaseInOut
+  fullName: Lucid.Easing.EaseStyle.ElasticEaseInOut
+  type: Field
+  source:
+    id: ElasticEaseInOut
+    path: ''
+    startLine: 21254
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: ElasticEaseInOut = 18
+    return:
+      type: Lucid.Easing.EaseStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Easing.EaseStyle.ExpoEaseIn
+  commentId: F:Lucid.Easing.EaseStyle.ExpoEaseIn
+  id: ExpoEaseIn
+  parent: Lucid.Easing.EaseStyle
+  langs:
+  - csharp
+  - vb
+  name: ExpoEaseIn
+  nameWithType: EaseStyle.ExpoEaseIn
+  fullName: Lucid.Easing.EaseStyle.ExpoEaseIn
+  type: Field
+  source:
+    id: ExpoEaseIn
+    path: ''
+    startLine: 21255
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: ExpoEaseIn = 19
+    return:
+      type: Lucid.Easing.EaseStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Easing.EaseStyle.ExpoEaseOut
+  commentId: F:Lucid.Easing.EaseStyle.ExpoEaseOut
+  id: ExpoEaseOut
+  parent: Lucid.Easing.EaseStyle
+  langs:
+  - csharp
+  - vb
+  name: ExpoEaseOut
+  nameWithType: EaseStyle.ExpoEaseOut
+  fullName: Lucid.Easing.EaseStyle.ExpoEaseOut
+  type: Field
+  source:
+    id: ExpoEaseOut
+    path: ''
+    startLine: 21256
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: ExpoEaseOut = 20
+    return:
+      type: Lucid.Easing.EaseStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Easing.EaseStyle.ExpoEaseInOut
+  commentId: F:Lucid.Easing.EaseStyle.ExpoEaseInOut
+  id: ExpoEaseInOut
+  parent: Lucid.Easing.EaseStyle
+  langs:
+  - csharp
+  - vb
+  name: ExpoEaseInOut
+  nameWithType: EaseStyle.ExpoEaseInOut
+  fullName: Lucid.Easing.EaseStyle.ExpoEaseInOut
+  type: Field
+  source:
+    id: ExpoEaseInOut
+    path: ''
+    startLine: 21257
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: ExpoEaseInOut = 21
+    return:
+      type: Lucid.Easing.EaseStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Easing.EaseStyle.QuadEaseIn
+  commentId: F:Lucid.Easing.EaseStyle.QuadEaseIn
+  id: QuadEaseIn
+  parent: Lucid.Easing.EaseStyle
+  langs:
+  - csharp
+  - vb
+  name: QuadEaseIn
+  nameWithType: EaseStyle.QuadEaseIn
+  fullName: Lucid.Easing.EaseStyle.QuadEaseIn
+  type: Field
+  source:
+    id: QuadEaseIn
+    path: ''
+    startLine: 21258
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: QuadEaseIn = 22
+    return:
+      type: Lucid.Easing.EaseStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Easing.EaseStyle.QuadEaseOut
+  commentId: F:Lucid.Easing.EaseStyle.QuadEaseOut
+  id: QuadEaseOut
+  parent: Lucid.Easing.EaseStyle
+  langs:
+  - csharp
+  - vb
+  name: QuadEaseOut
+  nameWithType: EaseStyle.QuadEaseOut
+  fullName: Lucid.Easing.EaseStyle.QuadEaseOut
+  type: Field
+  source:
+    id: QuadEaseOut
+    path: ''
+    startLine: 21259
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: QuadEaseOut = 23
+    return:
+      type: Lucid.Easing.EaseStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Easing.EaseStyle.QuadEaseInOut
+  commentId: F:Lucid.Easing.EaseStyle.QuadEaseInOut
+  id: QuadEaseInOut
+  parent: Lucid.Easing.EaseStyle
+  langs:
+  - csharp
+  - vb
+  name: QuadEaseInOut
+  nameWithType: EaseStyle.QuadEaseInOut
+  fullName: Lucid.Easing.EaseStyle.QuadEaseInOut
+  type: Field
+  source:
+    id: QuadEaseInOut
+    path: ''
+    startLine: 21260
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: QuadEaseInOut = 24
+    return:
+      type: Lucid.Easing.EaseStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Easing.EaseStyle.QuartEaseIn
+  commentId: F:Lucid.Easing.EaseStyle.QuartEaseIn
+  id: QuartEaseIn
+  parent: Lucid.Easing.EaseStyle
+  langs:
+  - csharp
+  - vb
+  name: QuartEaseIn
+  nameWithType: EaseStyle.QuartEaseIn
+  fullName: Lucid.Easing.EaseStyle.QuartEaseIn
+  type: Field
+  source:
+    id: QuartEaseIn
+    path: ''
+    startLine: 21261
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: QuartEaseIn = 25
+    return:
+      type: Lucid.Easing.EaseStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Easing.EaseStyle.QuartEaseOut
+  commentId: F:Lucid.Easing.EaseStyle.QuartEaseOut
+  id: QuartEaseOut
+  parent: Lucid.Easing.EaseStyle
+  langs:
+  - csharp
+  - vb
+  name: QuartEaseOut
+  nameWithType: EaseStyle.QuartEaseOut
+  fullName: Lucid.Easing.EaseStyle.QuartEaseOut
+  type: Field
+  source:
+    id: QuartEaseOut
+    path: ''
+    startLine: 21262
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: QuartEaseOut = 26
+    return:
+      type: Lucid.Easing.EaseStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Easing.EaseStyle.QuartEaseInOut
+  commentId: F:Lucid.Easing.EaseStyle.QuartEaseInOut
+  id: QuartEaseInOut
+  parent: Lucid.Easing.EaseStyle
+  langs:
+  - csharp
+  - vb
+  name: QuartEaseInOut
+  nameWithType: EaseStyle.QuartEaseInOut
+  fullName: Lucid.Easing.EaseStyle.QuartEaseInOut
+  type: Field
+  source:
+    id: QuartEaseInOut
+    path: ''
+    startLine: 21263
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: QuartEaseInOut = 27
+    return:
+      type: Lucid.Easing.EaseStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Easing.EaseStyle.QuintEaseIn
+  commentId: F:Lucid.Easing.EaseStyle.QuintEaseIn
+  id: QuintEaseIn
+  parent: Lucid.Easing.EaseStyle
+  langs:
+  - csharp
+  - vb
+  name: QuintEaseIn
+  nameWithType: EaseStyle.QuintEaseIn
+  fullName: Lucid.Easing.EaseStyle.QuintEaseIn
+  type: Field
+  source:
+    id: QuintEaseIn
+    path: ''
+    startLine: 21264
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: QuintEaseIn = 28
+    return:
+      type: Lucid.Easing.EaseStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Easing.EaseStyle.QuintEaseOut
+  commentId: F:Lucid.Easing.EaseStyle.QuintEaseOut
+  id: QuintEaseOut
+  parent: Lucid.Easing.EaseStyle
+  langs:
+  - csharp
+  - vb
+  name: QuintEaseOut
+  nameWithType: EaseStyle.QuintEaseOut
+  fullName: Lucid.Easing.EaseStyle.QuintEaseOut
+  type: Field
+  source:
+    id: QuintEaseOut
+    path: ''
+    startLine: 21265
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: QuintEaseOut = 29
+    return:
+      type: Lucid.Easing.EaseStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Easing.EaseStyle.QuintEaseInOut
+  commentId: F:Lucid.Easing.EaseStyle.QuintEaseInOut
+  id: QuintEaseInOut
+  parent: Lucid.Easing.EaseStyle
+  langs:
+  - csharp
+  - vb
+  name: QuintEaseInOut
+  nameWithType: EaseStyle.QuintEaseInOut
+  fullName: Lucid.Easing.EaseStyle.QuintEaseInOut
+  type: Field
+  source:
+    id: QuintEaseInOut
+    path: ''
+    startLine: 21266
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: QuintEaseInOut = 30
+    return:
+      type: Lucid.Easing.EaseStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Easing.EaseStyle.SineEaseIn
+  commentId: F:Lucid.Easing.EaseStyle.SineEaseIn
+  id: SineEaseIn
+  parent: Lucid.Easing.EaseStyle
+  langs:
+  - csharp
+  - vb
+  name: SineEaseIn
+  nameWithType: EaseStyle.SineEaseIn
+  fullName: Lucid.Easing.EaseStyle.SineEaseIn
+  type: Field
+  source:
+    id: SineEaseIn
+    path: ''
+    startLine: 21267
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: SineEaseIn = 31
+    return:
+      type: Lucid.Easing.EaseStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Easing.EaseStyle.SineEaseOut
+  commentId: F:Lucid.Easing.EaseStyle.SineEaseOut
+  id: SineEaseOut
+  parent: Lucid.Easing.EaseStyle
+  langs:
+  - csharp
+  - vb
+  name: SineEaseOut
+  nameWithType: EaseStyle.SineEaseOut
+  fullName: Lucid.Easing.EaseStyle.SineEaseOut
+  type: Field
+  source:
+    id: SineEaseOut
+    path: ''
+    startLine: 21268
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: SineEaseOut = 32
+    return:
+      type: Lucid.Easing.EaseStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Easing.EaseStyle.SineEaseInOut
+  commentId: F:Lucid.Easing.EaseStyle.SineEaseInOut
+  id: SineEaseInOut
+  parent: Lucid.Easing.EaseStyle
+  langs:
+  - csharp
+  - vb
+  name: SineEaseInOut
+  nameWithType: EaseStyle.SineEaseInOut
+  fullName: Lucid.Easing.EaseStyle.SineEaseInOut
+  type: Field
+  source:
+    id: SineEaseInOut
+    path: ''
+    startLine: 21269
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: SineEaseInOut = 33
+    return:
+      type: Lucid.Easing.EaseStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Easing.EaseStyle.StrongEaseIn
+  commentId: F:Lucid.Easing.EaseStyle.StrongEaseIn
+  id: StrongEaseIn
+  parent: Lucid.Easing.EaseStyle
+  langs:
+  - csharp
+  - vb
+  name: StrongEaseIn
+  nameWithType: EaseStyle.StrongEaseIn
+  fullName: Lucid.Easing.EaseStyle.StrongEaseIn
+  type: Field
+  source:
+    id: StrongEaseIn
+    path: ''
+    startLine: 21270
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: StrongEaseIn = 34
+    return:
+      type: Lucid.Easing.EaseStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Easing.EaseStyle.StrongEaseOut
+  commentId: F:Lucid.Easing.EaseStyle.StrongEaseOut
+  id: StrongEaseOut
+  parent: Lucid.Easing.EaseStyle
+  langs:
+  - csharp
+  - vb
+  name: StrongEaseOut
+  nameWithType: EaseStyle.StrongEaseOut
+  fullName: Lucid.Easing.EaseStyle.StrongEaseOut
+  type: Field
+  source:
+    id: StrongEaseOut
+    path: ''
+    startLine: 21271
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: StrongEaseOut = 35
+    return:
+      type: Lucid.Easing.EaseStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Easing.EaseStyle.StrongEaseInOut
+  commentId: F:Lucid.Easing.EaseStyle.StrongEaseInOut
+  id: StrongEaseInOut
+  parent: Lucid.Easing.EaseStyle
+  langs:
+  - csharp
+  - vb
+  name: StrongEaseInOut
+  nameWithType: EaseStyle.StrongEaseInOut
+  fullName: Lucid.Easing.EaseStyle.StrongEaseInOut
+  type: Field
+  source:
+    id: StrongEaseInOut
+    path: ''
+    startLine: 21272
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  syntax:
+    content: StrongEaseInOut = 36
+    return:
+      type: Lucid.Easing.EaseStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Lucid.Easing
+  commentId: N:Lucid.Easing
+  name: Lucid.Easing
+  nameWithType: Lucid.Easing
+  fullName: Lucid.Easing
+- uid: Lucid.Easing.EaseStyle
+  commentId: T:Lucid.Easing.EaseStyle
+  parent: Lucid.Easing
+  name: EaseStyle
+  nameWithType: EaseStyle
+  fullName: Lucid.Easing.EaseStyle

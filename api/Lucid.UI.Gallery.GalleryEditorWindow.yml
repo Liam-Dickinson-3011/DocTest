@@ -1,0 +1,293 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.UI.Gallery.GalleryEditorWindow
+  commentId: T:Lucid.UI.Gallery.GalleryEditorWindow
+  id: GalleryEditorWindow
+  parent: Lucid.UI.Gallery
+  children:
+  - Lucid.UI.Gallery.GalleryEditorWindow._newGalleryAssetName
+  - Lucid.UI.Gallery.GalleryEditorWindow.galleryContent
+  - Lucid.UI.Gallery.GalleryEditorWindow.windowIcon
+  - Lucid.UI.Gallery.GalleryEditorWindow.windowName
+  - Lucid.UI.Gallery.GalleryEditorWindow.windowOrder
+  langs:
+  - csharp
+  - vb
+  name: GalleryEditorWindow
+  nameWithType: GalleryEditorWindow
+  fullName: Lucid.UI.Gallery.GalleryEditorWindow
+  type: Class
+  source:
+    id: GalleryEditorWindow
+    path: ''
+    startLine: 10860
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: 'public class GalleryEditorWindow : BaseEditorWindow'
+    content.vb: >-
+      Public Class GalleryEditorWindow
+          Inherits BaseEditorWindow
+  inheritance:
+  - System.Object
+  - Lucid.BaseEditorWindow
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.UI.Gallery.GalleryEditorWindow.windowName
+  commentId: P:Lucid.UI.Gallery.GalleryEditorWindow.windowName
+  id: windowName
+  parent: Lucid.UI.Gallery.GalleryEditorWindow
+  langs:
+  - csharp
+  - vb
+  name: windowName
+  nameWithType: GalleryEditorWindow.windowName
+  fullName: Lucid.UI.Gallery.GalleryEditorWindow.windowName
+  type: Property
+  source:
+    id: windowName
+    path: ''
+    startLine: 10862
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public override string windowName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overrides ReadOnly Property windowName As String
+  overridden: Lucid.BaseEditorWindow.windowName
+  overload: Lucid.UI.Gallery.GalleryEditorWindow.windowName*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: Lucid.UI.Gallery.GalleryEditorWindow.windowIcon
+  commentId: P:Lucid.UI.Gallery.GalleryEditorWindow.windowIcon
+  id: windowIcon
+  parent: Lucid.UI.Gallery.GalleryEditorWindow
+  langs:
+  - csharp
+  - vb
+  name: windowIcon
+  nameWithType: GalleryEditorWindow.windowIcon
+  fullName: Lucid.UI.Gallery.GalleryEditorWindow.windowIcon
+  type: Property
+  source:
+    id: windowIcon
+    path: ''
+    startLine: 10863
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public override EditorIcon windowIcon { get; }
+    parameters: []
+    return:
+      type: Global.EditorIcon
+    content.vb: Public Overrides ReadOnly Property windowIcon As EditorIcon
+  overridden: Lucid.BaseEditorWindow.windowIcon
+  overload: Lucid.UI.Gallery.GalleryEditorWindow.windowIcon*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: Lucid.UI.Gallery.GalleryEditorWindow.windowOrder
+  commentId: P:Lucid.UI.Gallery.GalleryEditorWindow.windowOrder
+  id: windowOrder
+  parent: Lucid.UI.Gallery.GalleryEditorWindow
+  langs:
+  - csharp
+  - vb
+  name: windowOrder
+  nameWithType: GalleryEditorWindow.windowOrder
+  fullName: Lucid.UI.Gallery.GalleryEditorWindow.windowOrder
+  type: Property
+  source:
+    id: windowOrder
+    path: ''
+    startLine: 10864
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public override int windowOrder { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overrides ReadOnly Property windowOrder As Integer
+  overridden: Lucid.BaseEditorWindow.windowOrder
+  overload: Lucid.UI.Gallery.GalleryEditorWindow.windowOrder*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: Lucid.UI.Gallery.GalleryEditorWindow.galleryContent
+  commentId: P:Lucid.UI.Gallery.GalleryEditorWindow.galleryContent
+  id: galleryContent
+  parent: Lucid.UI.Gallery.GalleryEditorWindow
+  langs:
+  - csharp
+  - vb
+  name: galleryContent
+  nameWithType: GalleryEditorWindow.galleryContent
+  fullName: Lucid.UI.Gallery.GalleryEditorWindow.galleryContent
+  type: Property
+  source:
+    id: galleryContent
+    path: ''
+    startLine: 10870
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public GalleryContent galleryContent { get; set; }
+    parameters: []
+    return:
+      type: Lucid.UI.Gallery.GalleryContent
+    content.vb: Public Property galleryContent As GalleryContent
+  overload: Lucid.UI.Gallery.GalleryEditorWindow.galleryContent*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.GalleryEditorWindow._newGalleryAssetName
+  commentId: F:Lucid.UI.Gallery.GalleryEditorWindow._newGalleryAssetName
+  id: _newGalleryAssetName
+  parent: Lucid.UI.Gallery.GalleryEditorWindow
+  langs:
+  - csharp
+  - vb
+  name: _newGalleryAssetName
+  nameWithType: GalleryEditorWindow._newGalleryAssetName
+  fullName: Lucid.UI.Gallery.GalleryEditorWindow._newGalleryAssetName
+  type: Field
+  source:
+    id: _newGalleryAssetName
+    path: ''
+    startLine: 10883
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public string _newGalleryAssetName
+    return:
+      type: System.String
+    content.vb: Public _newGalleryAssetName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.UI.Gallery
+  commentId: N:Lucid.UI.Gallery
+  name: Lucid.UI.Gallery
+  nameWithType: Lucid.UI.Gallery
+  fullName: Lucid.UI.Gallery
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Lucid.BaseEditorWindow
+  commentId: T:Lucid.BaseEditorWindow
+  parent: Lucid
+  name: BaseEditorWindow
+  nameWithType: BaseEditorWindow
+  fullName: Lucid.BaseEditorWindow
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid
+  commentId: N:Lucid
+  name: Lucid
+  nameWithType: Lucid
+  fullName: Lucid
+- uid: Lucid.BaseEditorWindow.windowName
+  commentId: P:Lucid.BaseEditorWindow.windowName
+  parent: Lucid.BaseEditorWindow
+  name: windowName
+  nameWithType: BaseEditorWindow.windowName
+  fullName: Lucid.BaseEditorWindow.windowName
+- uid: Lucid.UI.Gallery.GalleryEditorWindow.windowName*
+  commentId: Overload:Lucid.UI.Gallery.GalleryEditorWindow.windowName
+  name: windowName
+  nameWithType: GalleryEditorWindow.windowName
+  fullName: Lucid.UI.Gallery.GalleryEditorWindow.windowName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Lucid.BaseEditorWindow.windowIcon
+  commentId: P:Lucid.BaseEditorWindow.windowIcon
+  parent: Lucid.BaseEditorWindow
+  name: windowIcon
+  nameWithType: BaseEditorWindow.windowIcon
+  fullName: Lucid.BaseEditorWindow.windowIcon
+- uid: Lucid.UI.Gallery.GalleryEditorWindow.windowIcon*
+  commentId: Overload:Lucid.UI.Gallery.GalleryEditorWindow.windowIcon
+  name: windowIcon
+  nameWithType: GalleryEditorWindow.windowIcon
+  fullName: Lucid.UI.Gallery.GalleryEditorWindow.windowIcon
+- uid: Global.EditorIcon
+  isExternal: true
+  name: EditorIcon
+  nameWithType: EditorIcon
+  fullName: EditorIcon
+- uid: Lucid.BaseEditorWindow.windowOrder
+  commentId: P:Lucid.BaseEditorWindow.windowOrder
+  parent: Lucid.BaseEditorWindow
+  name: windowOrder
+  nameWithType: BaseEditorWindow.windowOrder
+  fullName: Lucid.BaseEditorWindow.windowOrder
+- uid: Lucid.UI.Gallery.GalleryEditorWindow.windowOrder*
+  commentId: Overload:Lucid.UI.Gallery.GalleryEditorWindow.windowOrder
+  name: windowOrder
+  nameWithType: GalleryEditorWindow.windowOrder
+  fullName: Lucid.UI.Gallery.GalleryEditorWindow.windowOrder
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Lucid.UI.Gallery.GalleryEditorWindow.galleryContent*
+  commentId: Overload:Lucid.UI.Gallery.GalleryEditorWindow.galleryContent
+  name: galleryContent
+  nameWithType: GalleryEditorWindow.galleryContent
+  fullName: Lucid.UI.Gallery.GalleryEditorWindow.galleryContent
+- uid: Lucid.UI.Gallery.GalleryContent
+  commentId: T:Lucid.UI.Gallery.GalleryContent
+  parent: Lucid.UI.Gallery
+  name: GalleryContent
+  nameWithType: GalleryContent
+  fullName: Lucid.UI.Gallery.GalleryContent

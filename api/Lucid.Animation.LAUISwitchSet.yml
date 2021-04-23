@@ -1,0 +1,271 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Animation.LAUISwitchSet
+  commentId: T:Lucid.Animation.LAUISwitchSet
+  id: LAUISwitchSet
+  parent: Lucid.Animation
+  children:
+  - Lucid.Animation.LAUISwitchSet.allowSwitchOff
+  - Lucid.Animation.LAUISwitchSet.initialIndex
+  - Lucid.Animation.LAUISwitchSet.onNoneSelected
+  - Lucid.Animation.LAUISwitchSet.onOneSelected
+  - Lucid.Animation.LAUISwitchSet.switches
+  - Lucid.Animation.LAUISwitchSet.SwitchToIndex(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: LAUISwitchSet
+  nameWithType: LAUISwitchSet
+  fullName: Lucid.Animation.LAUISwitchSet
+  type: Class
+  source:
+    id: LAUISwitchSet
+    path: ''
+    startLine: 26415
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: 'public class LAUISwitchSet : MonoBehaviour'
+    content.vb: >-
+      Public Class LAUISwitchSet
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Animation.LAUISwitchSet.allowSwitchOff
+  commentId: F:Lucid.Animation.LAUISwitchSet.allowSwitchOff
+  id: allowSwitchOff
+  parent: Lucid.Animation.LAUISwitchSet
+  langs:
+  - csharp
+  - vb
+  name: allowSwitchOff
+  nameWithType: LAUISwitchSet.allowSwitchOff
+  fullName: Lucid.Animation.LAUISwitchSet.allowSwitchOff
+  type: Field
+  source:
+    id: allowSwitchOff
+    path: ''
+    startLine: 26419
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public bool allowSwitchOff
+    return:
+      type: System.Boolean
+    content.vb: Public allowSwitchOff As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUISwitchSet.initialIndex
+  commentId: F:Lucid.Animation.LAUISwitchSet.initialIndex
+  id: initialIndex
+  parent: Lucid.Animation.LAUISwitchSet
+  langs:
+  - csharp
+  - vb
+  name: initialIndex
+  nameWithType: LAUISwitchSet.initialIndex
+  fullName: Lucid.Animation.LAUISwitchSet.initialIndex
+  type: Field
+  source:
+    id: initialIndex
+    path: ''
+    startLine: 26423
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public int initialIndex
+    return:
+      type: System.Int32
+    content.vb: Public initialIndex As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUISwitchSet.switches
+  commentId: F:Lucid.Animation.LAUISwitchSet.switches
+  id: switches
+  parent: Lucid.Animation.LAUISwitchSet
+  langs:
+  - csharp
+  - vb
+  name: switches
+  nameWithType: LAUISwitchSet.switches
+  fullName: Lucid.Animation.LAUISwitchSet.switches
+  type: Field
+  source:
+    id: switches
+    path: ''
+    startLine: 26426
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAUISwitch[] switches
+    return:
+      type: Lucid.Animation.LAUISwitch[]
+    content.vb: Public switches As LAUISwitch()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUISwitchSet.onNoneSelected
+  commentId: F:Lucid.Animation.LAUISwitchSet.onNoneSelected
+  id: onNoneSelected
+  parent: Lucid.Animation.LAUISwitchSet
+  langs:
+  - csharp
+  - vb
+  name: onNoneSelected
+  nameWithType: LAUISwitchSet.onNoneSelected
+  fullName: Lucid.Animation.LAUISwitchSet.onNoneSelected
+  type: Field
+  source:
+    id: onNoneSelected
+    path: ''
+    startLine: 26430
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public UnityEvent onNoneSelected
+    return:
+      type: Global.UnityEvent
+    content.vb: Public onNoneSelected As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUISwitchSet.onOneSelected
+  commentId: F:Lucid.Animation.LAUISwitchSet.onOneSelected
+  id: onOneSelected
+  parent: Lucid.Animation.LAUISwitchSet
+  langs:
+  - csharp
+  - vb
+  name: onOneSelected
+  nameWithType: LAUISwitchSet.onOneSelected
+  fullName: Lucid.Animation.LAUISwitchSet.onOneSelected
+  type: Field
+  source:
+    id: onOneSelected
+    path: ''
+    startLine: 26432
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public UnityEvent onOneSelected
+    return:
+      type: Global.UnityEvent
+    content.vb: Public onOneSelected As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAUISwitchSet.SwitchToIndex(System.Int32)
+  commentId: M:Lucid.Animation.LAUISwitchSet.SwitchToIndex(System.Int32)
+  id: SwitchToIndex(System.Int32)
+  parent: Lucid.Animation.LAUISwitchSet
+  langs:
+  - csharp
+  - vb
+  name: SwitchToIndex(Int32)
+  nameWithType: LAUISwitchSet.SwitchToIndex(Int32)
+  fullName: Lucid.Animation.LAUISwitchSet.SwitchToIndex(System.Int32)
+  type: Method
+  source:
+    id: SwitchToIndex
+    path: ''
+    startLine: 26473
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public void SwitchToIndex(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    content.vb: Public Sub SwitchToIndex(index As Integer)
+  overload: Lucid.Animation.LAUISwitchSet.SwitchToIndex*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Animation
+  commentId: N:Lucid.Animation
+  name: Lucid.Animation
+  nameWithType: Lucid.Animation
+  fullName: Lucid.Animation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Lucid.Animation.LAUISwitch[]
+  isExternal: true
+  name: LAUISwitch[]
+  nameWithType: LAUISwitch[]
+  fullName: Lucid.Animation.LAUISwitch[]
+  nameWithType.vb: LAUISwitch()
+  fullName.vb: Lucid.Animation.LAUISwitch()
+  name.vb: LAUISwitch()
+  spec.csharp:
+  - uid: Lucid.Animation.LAUISwitch
+    name: LAUISwitch
+    nameWithType: LAUISwitch
+    fullName: Lucid.Animation.LAUISwitch
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Lucid.Animation.LAUISwitch
+    name: LAUISwitch
+    nameWithType: LAUISwitch
+    fullName: Lucid.Animation.LAUISwitch
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.UnityEvent
+  isExternal: true
+  name: UnityEvent
+  nameWithType: UnityEvent
+  fullName: UnityEvent
+- uid: Lucid.Animation.LAUISwitchSet.SwitchToIndex*
+  commentId: Overload:Lucid.Animation.LAUISwitchSet.SwitchToIndex
+  name: SwitchToIndex
+  nameWithType: LAUISwitchSet.SwitchToIndex
+  fullName: Lucid.Animation.LAUISwitchSet.SwitchToIndex

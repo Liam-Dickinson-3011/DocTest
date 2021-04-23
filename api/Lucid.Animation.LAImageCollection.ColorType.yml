@@ -1,0 +1,110 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Animation.LAImageCollection.ColorType
+  commentId: T:Lucid.Animation.LAImageCollection.ColorType
+  id: LAImageCollection.ColorType
+  parent: Lucid.Animation
+  children:
+  - Lucid.Animation.LAImageCollection.ColorType.color
+  - Lucid.Animation.LAImageCollection.ColorType.gradient
+  langs:
+  - csharp
+  - vb
+  name: LAImageCollection.ColorType
+  nameWithType: LAImageCollection.ColorType
+  fullName: Lucid.Animation.LAImageCollection.ColorType
+  type: Enum
+  source:
+    id: ColorType
+    path: ''
+    startLine: 23479
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: >-
+      [Serializable]
+
+      public enum ColorType
+    content.vb: >-
+      <Serializable>
+
+      Public Enum ColorType
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Lucid.Animation.LAImageCollection.ColorType.color
+  commentId: F:Lucid.Animation.LAImageCollection.ColorType.color
+  id: color
+  parent: Lucid.Animation.LAImageCollection.ColorType
+  langs:
+  - csharp
+  - vb
+  name: color
+  nameWithType: LAImageCollection.ColorType.color
+  fullName: Lucid.Animation.LAImageCollection.ColorType.color
+  type: Field
+  source:
+    id: color
+    path: ''
+    startLine: 23480
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: color = 0
+    return:
+      type: Lucid.Animation.LAImageCollection.ColorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Animation.LAImageCollection.ColorType.gradient
+  commentId: F:Lucid.Animation.LAImageCollection.ColorType.gradient
+  id: gradient
+  parent: Lucid.Animation.LAImageCollection.ColorType
+  langs:
+  - csharp
+  - vb
+  name: gradient
+  nameWithType: LAImageCollection.ColorType.gradient
+  fullName: Lucid.Animation.LAImageCollection.ColorType.gradient
+  type: Field
+  source:
+    id: gradient
+    path: ''
+    startLine: 23480
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: gradient = 1
+    return:
+      type: Lucid.Animation.LAImageCollection.ColorType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Lucid.Animation
+  commentId: N:Lucid.Animation
+  name: Lucid.Animation
+  nameWithType: Lucid.Animation
+  fullName: Lucid.Animation
+- uid: Lucid.Animation.LAImageCollection.ColorType
+  commentId: T:Lucid.Animation.LAImageCollection.ColorType
+  parent: Lucid.Animation
+  name: LAImageCollection.ColorType
+  nameWithType: LAImageCollection.ColorType
+  fullName: Lucid.Animation.LAImageCollection.ColorType

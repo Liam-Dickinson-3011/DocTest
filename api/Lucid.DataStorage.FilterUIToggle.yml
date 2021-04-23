@@ -1,0 +1,163 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.DataStorage.FilterUIToggle
+  commentId: T:Lucid.DataStorage.FilterUIToggle
+  id: FilterUIToggle
+  parent: Lucid.DataStorage
+  children:
+  - Lucid.DataStorage.FilterUIToggle.dataStoreFilter
+  - Lucid.DataStorage.FilterUIToggle.toggle
+  - Lucid.DataStorage.FilterUIToggle.toggleType
+  langs:
+  - csharp
+  - vb
+  name: FilterUIToggle
+  nameWithType: FilterUIToggle
+  fullName: Lucid.DataStorage.FilterUIToggle
+  type: Class
+  source:
+    id: FilterUIToggle
+    path: ''
+    startLine: 15163
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: 'public class FilterUIToggle : SerializedMonoBehaviour'
+    content.vb: >-
+      Public Class FilterUIToggle
+          Inherits SerializedMonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.DataStorage.FilterUIToggle.toggle
+  commentId: P:Lucid.DataStorage.FilterUIToggle.toggle
+  id: toggle
+  parent: Lucid.DataStorage.FilterUIToggle
+  langs:
+  - csharp
+  - vb
+  name: toggle
+  nameWithType: FilterUIToggle.toggle
+  fullName: Lucid.DataStorage.FilterUIToggle.toggle
+  type: Property
+  source:
+    id: toggle
+    path: ''
+    startLine: 15167
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public Toggle toggle { get; }
+    parameters: []
+    return:
+      type: Global.Toggle
+    content.vb: Public ReadOnly Property toggle As Toggle
+  overload: Lucid.DataStorage.FilterUIToggle.toggle*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Lucid.DataStorage.FilterUIToggle.dataStoreFilter
+  commentId: F:Lucid.DataStorage.FilterUIToggle.dataStoreFilter
+  id: dataStoreFilter
+  parent: Lucid.DataStorage.FilterUIToggle
+  langs:
+  - csharp
+  - vb
+  name: dataStoreFilter
+  nameWithType: FilterUIToggle.dataStoreFilter
+  fullName: Lucid.DataStorage.FilterUIToggle.dataStoreFilter
+  type: Field
+  source:
+    id: dataStoreFilter
+    path: ''
+    startLine: 15175
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public IDataStoreFilter dataStoreFilter
+    return:
+      type: Lucid.DataStorage.IDataStoreFilter
+    content.vb: Public dataStoreFilter As IDataStoreFilter
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.DataStorage.FilterUIToggle.toggleType
+  commentId: F:Lucid.DataStorage.FilterUIToggle.toggleType
+  id: toggleType
+  parent: Lucid.DataStorage.FilterUIToggle
+  langs:
+  - csharp
+  - vb
+  name: toggleType
+  nameWithType: FilterUIToggle.toggleType
+  fullName: Lucid.DataStorage.FilterUIToggle.toggleType
+  type: Field
+  source:
+    id: toggleType
+    path: ''
+    startLine: 15182
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public FilterUIToggle.ToggleType toggleType
+    return:
+      type: Lucid.DataStorage.FilterUIToggle.ToggleType
+    content.vb: Public toggleType As FilterUIToggle.ToggleType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.DataStorage
+  commentId: N:Lucid.DataStorage
+  name: Lucid.DataStorage
+  nameWithType: Lucid.DataStorage
+  fullName: Lucid.DataStorage
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.DataStorage.FilterUIToggle.toggle*
+  commentId: Overload:Lucid.DataStorage.FilterUIToggle.toggle
+  name: toggle
+  nameWithType: FilterUIToggle.toggle
+  fullName: Lucid.DataStorage.FilterUIToggle.toggle
+- uid: Global.Toggle
+  isExternal: true
+  name: Toggle
+  nameWithType: Toggle
+  fullName: Toggle
+- uid: Lucid.DataStorage.IDataStoreFilter
+  commentId: T:Lucid.DataStorage.IDataStoreFilter
+  parent: Lucid.DataStorage
+  name: IDataStoreFilter
+  nameWithType: IDataStoreFilter
+  fullName: Lucid.DataStorage.IDataStoreFilter
+- uid: Lucid.DataStorage.FilterUIToggle.ToggleType
+  commentId: T:Lucid.DataStorage.FilterUIToggle.ToggleType
+  parent: Lucid.DataStorage
+  name: FilterUIToggle.ToggleType
+  nameWithType: FilterUIToggle.ToggleType
+  fullName: Lucid.DataStorage.FilterUIToggle.ToggleType

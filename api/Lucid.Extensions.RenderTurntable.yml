@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Extensions.RenderTurntable
+  commentId: N:Lucid.Extensions.RenderTurntable
+  id: Lucid.Extensions.RenderTurntable
+  children:
+  - Lucid.Extensions.RenderTurntable.RenderTurntableCamera
+  - Lucid.Extensions.RenderTurntable.RenderTurntableImage
+  langs:
+  - csharp
+  - vb
+  name: Lucid.Extensions.RenderTurntable
+  nameWithType: Lucid.Extensions.RenderTurntable
+  fullName: Lucid.Extensions.RenderTurntable
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableCamera
+  commentId: T:Lucid.Extensions.RenderTurntable.RenderTurntableCamera
+  parent: Lucid.Extensions.RenderTurntable
+  name: RenderTurntableCamera
+  nameWithType: RenderTurntableCamera
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableCamera
+- uid: Lucid.Extensions.RenderTurntable.RenderTurntableImage
+  commentId: T:Lucid.Extensions.RenderTurntable.RenderTurntableImage
+  name: RenderTurntableImage
+  nameWithType: RenderTurntableImage
+  fullName: Lucid.Extensions.RenderTurntable.RenderTurntableImage
+- uid: Lucid.Extensions.RenderTurntable
+  commentId: N:Lucid.Extensions.RenderTurntable
+  name: Lucid.Extensions.RenderTurntable
+  nameWithType: Lucid.Extensions.RenderTurntable
+  fullName: Lucid.Extensions.RenderTurntable

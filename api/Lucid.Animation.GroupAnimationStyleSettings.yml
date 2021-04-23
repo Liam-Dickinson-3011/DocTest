@@ -1,0 +1,278 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Animation.GroupAnimationStyleSettings
+  commentId: T:Lucid.Animation.GroupAnimationStyleSettings
+  id: GroupAnimationStyleSettings
+  parent: Lucid.Animation
+  children:
+  - Lucid.Animation.GroupAnimationStyleSettings.GetAllStyleNames
+  - Lucid.Animation.GroupAnimationStyleSettings.groupAnimStyles
+  - Lucid.Animation.GroupAnimationStyleSettings.LoadAllColorStyleAssets
+  langs:
+  - csharp
+  - vb
+  name: GroupAnimationStyleSettings
+  nameWithType: GroupAnimationStyleSettings
+  fullName: Lucid.Animation.GroupAnimationStyleSettings
+  type: Class
+  source:
+    id: GroupAnimationStyleSettings
+    path: ''
+    startLine: 25527
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: 'public class GroupAnimationStyleSettings : SingletonScriptableObject<GroupAnimationStyleSettings>'
+    content.vb: >-
+      Public Class GroupAnimationStyleSettings
+          Inherits SingletonScriptableObject(Of GroupAnimationStyleSettings)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Animation.GroupAnimationStyleSettings.groupAnimStyles
+  commentId: P:Lucid.Animation.GroupAnimationStyleSettings.groupAnimStyles
+  id: groupAnimStyles
+  parent: Lucid.Animation.GroupAnimationStyleSettings
+  langs:
+  - csharp
+  - vb
+  name: groupAnimStyles
+  nameWithType: GroupAnimationStyleSettings.groupAnimStyles
+  fullName: Lucid.Animation.GroupAnimationStyleSettings.groupAnimStyles
+  type: Property
+  source:
+    id: groupAnimStyles
+    path: ''
+    startLine: 25533
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public List<GroupAnimationStyle> groupAnimStyles { get; set; }
+    parameters: []
+    return:
+      type: Global.List{Lucid.Animation.GroupAnimationStyle}
+    content.vb: Public Property groupAnimStyles As List(Of GroupAnimationStyle)
+  overload: Lucid.Animation.GroupAnimationStyleSettings.groupAnimStyles*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.GroupAnimationStyleSettings.LoadAllColorStyleAssets
+  commentId: M:Lucid.Animation.GroupAnimationStyleSettings.LoadAllColorStyleAssets
+  id: LoadAllColorStyleAssets
+  parent: Lucid.Animation.GroupAnimationStyleSettings
+  langs:
+  - csharp
+  - vb
+  name: LoadAllColorStyleAssets()
+  nameWithType: GroupAnimationStyleSettings.LoadAllColorStyleAssets()
+  fullName: Lucid.Animation.GroupAnimationStyleSettings.LoadAllColorStyleAssets()
+  type: Method
+  source:
+    id: LoadAllColorStyleAssets
+    path: ''
+    startLine: 25566
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public void LoadAllColorStyleAssets()
+    content.vb: Public Sub LoadAllColorStyleAssets
+  overload: Lucid.Animation.GroupAnimationStyleSettings.LoadAllColorStyleAssets*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.GroupAnimationStyleSettings.GetAllStyleNames
+  commentId: M:Lucid.Animation.GroupAnimationStyleSettings.GetAllStyleNames
+  id: GetAllStyleNames
+  parent: Lucid.Animation.GroupAnimationStyleSettings
+  langs:
+  - csharp
+  - vb
+  name: GetAllStyleNames()
+  nameWithType: GroupAnimationStyleSettings.GetAllStyleNames()
+  fullName: Lucid.Animation.GroupAnimationStyleSettings.GetAllStyleNames()
+  type: Method
+  source:
+    id: GetAllStyleNames
+    path: ''
+    startLine: 25574
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public List<string> GetAllStyleNames()
+    return:
+      type: Global.List{System.String}
+    content.vb: Public Function GetAllStyleNames As List(Of String)
+  overload: Lucid.Animation.GroupAnimationStyleSettings.GetAllStyleNames*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Animation
+  commentId: N:Lucid.Animation
+  name: Lucid.Animation
+  nameWithType: Lucid.Animation
+  fullName: Lucid.Animation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.Animation.GroupAnimationStyleSettings.groupAnimStyles*
+  commentId: Overload:Lucid.Animation.GroupAnimationStyleSettings.groupAnimStyles
+  name: groupAnimStyles
+  nameWithType: GroupAnimationStyleSettings.groupAnimStyles
+  fullName: Lucid.Animation.GroupAnimationStyleSettings.groupAnimStyles
+- uid: Global.List{Lucid.Animation.GroupAnimationStyle}
+  commentId: '!:Global.List{Lucid.Animation.GroupAnimationStyle}'
+  definition: Global.List`1
+  name: List<GroupAnimationStyle>
+  nameWithType: List<GroupAnimationStyle>
+  fullName: List<Lucid.Animation.GroupAnimationStyle>
+  nameWithType.vb: List(Of GroupAnimationStyle)
+  fullName.vb: List(Of Lucid.Animation.GroupAnimationStyle)
+  name.vb: List(Of GroupAnimationStyle)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Lucid.Animation.GroupAnimationStyle
+    name: GroupAnimationStyle
+    nameWithType: GroupAnimationStyle
+    fullName: Lucid.Animation.GroupAnimationStyle
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Lucid.Animation.GroupAnimationStyle
+    name: GroupAnimationStyle
+    nameWithType: GroupAnimationStyle
+    fullName: Lucid.Animation.GroupAnimationStyle
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.Animation.GroupAnimationStyleSettings.LoadAllColorStyleAssets*
+  commentId: Overload:Lucid.Animation.GroupAnimationStyleSettings.LoadAllColorStyleAssets
+  name: LoadAllColorStyleAssets
+  nameWithType: GroupAnimationStyleSettings.LoadAllColorStyleAssets
+  fullName: Lucid.Animation.GroupAnimationStyleSettings.LoadAllColorStyleAssets
+- uid: Lucid.Animation.GroupAnimationStyleSettings.GetAllStyleNames*
+  commentId: Overload:Lucid.Animation.GroupAnimationStyleSettings.GetAllStyleNames
+  name: GetAllStyleNames
+  nameWithType: GroupAnimationStyleSettings.GetAllStyleNames
+  fullName: Lucid.Animation.GroupAnimationStyleSettings.GetAllStyleNames
+- uid: Global.List{System.String}
+  commentId: '!:Global.List{System.String}'
+  definition: Global.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

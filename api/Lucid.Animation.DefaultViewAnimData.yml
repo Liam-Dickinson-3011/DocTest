@@ -1,0 +1,233 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Animation.DefaultViewAnimData
+  commentId: T:Lucid.Animation.DefaultViewAnimData
+  id: DefaultViewAnimData
+  parent: Lucid.Animation
+  children:
+  - Lucid.Animation.DefaultViewAnimData.aaCanvasGroup
+  - Lucid.Animation.DefaultViewAnimData.aaRT
+  - Lucid.Animation.DefaultViewAnimData.doCanvasGroup
+  - Lucid.Animation.DefaultViewAnimData.doRT
+  - Lucid.Animation.DefaultViewAnimData.GetFullAnimationDuration
+  langs:
+  - csharp
+  - vb
+  name: DefaultViewAnimData
+  nameWithType: DefaultViewAnimData
+  fullName: Lucid.Animation.DefaultViewAnimData
+  type: Class
+  source:
+    id: DefaultViewAnimData
+    path: ''
+    startLine: 24940
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class DefaultViewAnimData
+    content.vb: >-
+      <Serializable>
+
+      Public Class DefaultViewAnimData
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Animation.DefaultViewAnimData.doCanvasGroup
+  commentId: F:Lucid.Animation.DefaultViewAnimData.doCanvasGroup
+  id: doCanvasGroup
+  parent: Lucid.Animation.DefaultViewAnimData
+  langs:
+  - csharp
+  - vb
+  name: doCanvasGroup
+  nameWithType: DefaultViewAnimData.doCanvasGroup
+  fullName: Lucid.Animation.DefaultViewAnimData.doCanvasGroup
+  type: Field
+  source:
+    id: doCanvasGroup
+    path: ''
+    startLine: 24945
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public bool doCanvasGroup
+    return:
+      type: System.Boolean
+    content.vb: Public doCanvasGroup As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.DefaultViewAnimData.doRT
+  commentId: F:Lucid.Animation.DefaultViewAnimData.doRT
+  id: doRT
+  parent: Lucid.Animation.DefaultViewAnimData
+  langs:
+  - csharp
+  - vb
+  name: doRT
+  nameWithType: DefaultViewAnimData.doRT
+  fullName: Lucid.Animation.DefaultViewAnimData.doRT
+  type: Field
+  source:
+    id: doRT
+    path: ''
+    startLine: 24949
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public bool doRT
+    return:
+      type: System.Boolean
+    content.vb: Public doRT As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.DefaultViewAnimData.aaCanvasGroup
+  commentId: F:Lucid.Animation.DefaultViewAnimData.aaCanvasGroup
+  id: aaCanvasGroup
+  parent: Lucid.Animation.DefaultViewAnimData
+  langs:
+  - csharp
+  - vb
+  name: aaCanvasGroup
+  nameWithType: DefaultViewAnimData.aaCanvasGroup
+  fullName: Lucid.Animation.DefaultViewAnimData.aaCanvasGroup
+  type: Field
+  source:
+    id: aaCanvasGroup
+    path: ''
+    startLine: 24953
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LACanvasGroup aaCanvasGroup
+    return:
+      type: Lucid.Animation.LACanvasGroup
+    content.vb: Public aaCanvasGroup As LACanvasGroup
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.DefaultViewAnimData.aaRT
+  commentId: F:Lucid.Animation.DefaultViewAnimData.aaRT
+  id: aaRT
+  parent: Lucid.Animation.DefaultViewAnimData
+  langs:
+  - csharp
+  - vb
+  name: aaRT
+  nameWithType: DefaultViewAnimData.aaRT
+  fullName: Lucid.Animation.DefaultViewAnimData.aaRT
+  type: Field
+  source:
+    id: aaRT
+    path: ''
+    startLine: 24957
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LARectTransform aaRT
+    return:
+      type: Lucid.Animation.LARectTransform
+    content.vb: Public aaRT As LARectTransform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.DefaultViewAnimData.GetFullAnimationDuration
+  commentId: M:Lucid.Animation.DefaultViewAnimData.GetFullAnimationDuration
+  id: GetFullAnimationDuration
+  parent: Lucid.Animation.DefaultViewAnimData
+  langs:
+  - csharp
+  - vb
+  name: GetFullAnimationDuration()
+  nameWithType: DefaultViewAnimData.GetFullAnimationDuration()
+  fullName: Lucid.Animation.DefaultViewAnimData.GetFullAnimationDuration()
+  type: Method
+  source:
+    id: GetFullAnimationDuration
+    path: ''
+    startLine: 24959
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public float GetFullAnimationDuration()
+    return:
+      type: System.Single
+    content.vb: Public Function GetFullAnimationDuration As Single
+  overload: Lucid.Animation.DefaultViewAnimData.GetFullAnimationDuration*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Animation
+  commentId: N:Lucid.Animation
+  name: Lucid.Animation
+  nameWithType: Lucid.Animation
+  fullName: Lucid.Animation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Lucid.Animation.LACanvasGroup
+  commentId: T:Lucid.Animation.LACanvasGroup
+  parent: Lucid.Animation
+  name: LACanvasGroup
+  nameWithType: LACanvasGroup
+  fullName: Lucid.Animation.LACanvasGroup
+- uid: Lucid.Animation.LARectTransform
+  commentId: T:Lucid.Animation.LARectTransform
+  parent: Lucid.Animation
+  name: LARectTransform
+  nameWithType: LARectTransform
+  fullName: Lucid.Animation.LARectTransform
+- uid: Lucid.Animation.DefaultViewAnimData.GetFullAnimationDuration*
+  commentId: Overload:Lucid.Animation.DefaultViewAnimData.GetFullAnimationDuration
+  name: GetFullAnimationDuration
+  nameWithType: DefaultViewAnimData.GetFullAnimationDuration
+  fullName: Lucid.Animation.DefaultViewAnimData.GetFullAnimationDuration
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

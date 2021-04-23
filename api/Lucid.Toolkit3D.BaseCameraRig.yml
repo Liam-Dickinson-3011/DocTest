@@ -1,0 +1,390 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Toolkit3D.BaseCameraRig
+  commentId: T:Lucid.Toolkit3D.BaseCameraRig
+  id: BaseCameraRig
+  parent: Lucid.Toolkit3D
+  children:
+  - Lucid.Toolkit3D.BaseCameraRig.allowInput
+  - Lucid.Toolkit3D.BaseCameraRig.deadZoneMax
+  - Lucid.Toolkit3D.BaseCameraRig.deadZoneMin
+  - Lucid.Toolkit3D.BaseCameraRig.DisableCamera
+  - Lucid.Toolkit3D.BaseCameraRig.EnableCamera
+  - Lucid.Toolkit3D.BaseCameraRig.isEnabled
+  - Lucid.Toolkit3D.BaseCameraRig.onDisabled
+  - Lucid.Toolkit3D.BaseCameraRig.onEnabled
+  - Lucid.Toolkit3D.BaseCameraRig.showGizmos
+  - Lucid.Toolkit3D.BaseCameraRig.virtualCamera
+  langs:
+  - csharp
+  - vb
+  name: BaseCameraRig
+  nameWithType: BaseCameraRig
+  fullName: Lucid.Toolkit3D.BaseCameraRig
+  type: Class
+  source:
+    id: BaseCameraRig
+    path: ''
+    startLine: 19605
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: 'public abstract class BaseCameraRig : SerializedMonoBehaviour'
+    content.vb: >-
+      Public MustInherit Class BaseCameraRig
+          Inherits SerializedMonoBehaviour
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Lucid.Toolkit3D.FirstPersonCamera
+  - Lucid.Toolkit3D.OrbitCamera
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Lucid.Toolkit3D.BaseCameraRig.virtualCamera
+  commentId: P:Lucid.Toolkit3D.BaseCameraRig.virtualCamera
+  id: virtualCamera
+  parent: Lucid.Toolkit3D.BaseCameraRig
+  langs:
+  - csharp
+  - vb
+  name: virtualCamera
+  nameWithType: BaseCameraRig.virtualCamera
+  fullName: Lucid.Toolkit3D.BaseCameraRig.virtualCamera
+  type: Property
+  source:
+    id: virtualCamera
+    path: ''
+    startLine: 19609
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public CinemachineVirtualCamera virtualCamera { get; set; }
+    parameters: []
+    return:
+      type: Global.CinemachineVirtualCamera
+    content.vb: Public Property virtualCamera As CinemachineVirtualCamera
+  overload: Lucid.Toolkit3D.BaseCameraRig.virtualCamera*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.BaseCameraRig.isEnabled
+  commentId: P:Lucid.Toolkit3D.BaseCameraRig.isEnabled
+  id: isEnabled
+  parent: Lucid.Toolkit3D.BaseCameraRig
+  langs:
+  - csharp
+  - vb
+  name: isEnabled
+  nameWithType: BaseCameraRig.isEnabled
+  fullName: Lucid.Toolkit3D.BaseCameraRig.isEnabled
+  type: Property
+  source:
+    id: isEnabled
+    path: ''
+    startLine: 19620
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public bool isEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property isEnabled As Boolean
+  overload: Lucid.Toolkit3D.BaseCameraRig.isEnabled*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.BaseCameraRig.allowInput
+  commentId: F:Lucid.Toolkit3D.BaseCameraRig.allowInput
+  id: allowInput
+  parent: Lucid.Toolkit3D.BaseCameraRig
+  langs:
+  - csharp
+  - vb
+  name: allowInput
+  nameWithType: BaseCameraRig.allowInput
+  fullName: Lucid.Toolkit3D.BaseCameraRig.allowInput
+  type: Field
+  source:
+    id: allowInput
+    path: ''
+    startLine: 19634
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public bool allowInput
+    return:
+      type: System.Boolean
+    content.vb: Public allowInput As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.BaseCameraRig.deadZoneMin
+  commentId: F:Lucid.Toolkit3D.BaseCameraRig.deadZoneMin
+  id: deadZoneMin
+  parent: Lucid.Toolkit3D.BaseCameraRig
+  langs:
+  - csharp
+  - vb
+  name: deadZoneMin
+  nameWithType: BaseCameraRig.deadZoneMin
+  fullName: Lucid.Toolkit3D.BaseCameraRig.deadZoneMin
+  type: Field
+  source:
+    id: deadZoneMin
+    path: ''
+    startLine: 19637
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public Vector2 deadZoneMin
+    return:
+      type: Global.Vector2
+    content.vb: Public deadZoneMin As Vector2
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.BaseCameraRig.deadZoneMax
+  commentId: F:Lucid.Toolkit3D.BaseCameraRig.deadZoneMax
+  id: deadZoneMax
+  parent: Lucid.Toolkit3D.BaseCameraRig
+  langs:
+  - csharp
+  - vb
+  name: deadZoneMax
+  nameWithType: BaseCameraRig.deadZoneMax
+  fullName: Lucid.Toolkit3D.BaseCameraRig.deadZoneMax
+  type: Field
+  source:
+    id: deadZoneMax
+    path: ''
+    startLine: 19639
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public Vector2 deadZoneMax
+    return:
+      type: Global.Vector2
+    content.vb: Public deadZoneMax As Vector2
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.BaseCameraRig.onEnabled
+  commentId: F:Lucid.Toolkit3D.BaseCameraRig.onEnabled
+  id: onEnabled
+  parent: Lucid.Toolkit3D.BaseCameraRig
+  langs:
+  - csharp
+  - vb
+  name: onEnabled
+  nameWithType: BaseCameraRig.onEnabled
+  fullName: Lucid.Toolkit3D.BaseCameraRig.onEnabled
+  type: Field
+  source:
+    id: onEnabled
+    path: ''
+    startLine: 19642
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public UnityEvent onEnabled
+    return:
+      type: Global.UnityEvent
+    content.vb: Public onEnabled As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.BaseCameraRig.onDisabled
+  commentId: F:Lucid.Toolkit3D.BaseCameraRig.onDisabled
+  id: onDisabled
+  parent: Lucid.Toolkit3D.BaseCameraRig
+  langs:
+  - csharp
+  - vb
+  name: onDisabled
+  nameWithType: BaseCameraRig.onDisabled
+  fullName: Lucid.Toolkit3D.BaseCameraRig.onDisabled
+  type: Field
+  source:
+    id: onDisabled
+    path: ''
+    startLine: 19644
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public UnityEvent onDisabled
+    return:
+      type: Global.UnityEvent
+    content.vb: Public onDisabled As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.BaseCameraRig.showGizmos
+  commentId: F:Lucid.Toolkit3D.BaseCameraRig.showGizmos
+  id: showGizmos
+  parent: Lucid.Toolkit3D.BaseCameraRig
+  langs:
+  - csharp
+  - vb
+  name: showGizmos
+  nameWithType: BaseCameraRig.showGizmos
+  fullName: Lucid.Toolkit3D.BaseCameraRig.showGizmos
+  type: Field
+  source:
+    id: showGizmos
+    path: ''
+    startLine: 19647
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public bool showGizmos
+    return:
+      type: System.Boolean
+    content.vb: Public showGizmos As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.BaseCameraRig.DisableCamera
+  commentId: M:Lucid.Toolkit3D.BaseCameraRig.DisableCamera
+  id: DisableCamera
+  parent: Lucid.Toolkit3D.BaseCameraRig
+  langs:
+  - csharp
+  - vb
+  name: DisableCamera()
+  nameWithType: BaseCameraRig.DisableCamera()
+  fullName: Lucid.Toolkit3D.BaseCameraRig.DisableCamera()
+  type: Method
+  source:
+    id: DisableCamera
+    path: ''
+    startLine: 19649
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public virtual void DisableCamera()
+    content.vb: Public Overridable Sub DisableCamera
+  overload: Lucid.Toolkit3D.BaseCameraRig.DisableCamera*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Lucid.Toolkit3D.BaseCameraRig.EnableCamera
+  commentId: M:Lucid.Toolkit3D.BaseCameraRig.EnableCamera
+  id: EnableCamera
+  parent: Lucid.Toolkit3D.BaseCameraRig
+  langs:
+  - csharp
+  - vb
+  name: EnableCamera()
+  nameWithType: BaseCameraRig.EnableCamera()
+  fullName: Lucid.Toolkit3D.BaseCameraRig.EnableCamera()
+  type: Method
+  source:
+    id: EnableCamera
+    path: ''
+    startLine: 19663
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public virtual void EnableCamera()
+    content.vb: Public Overridable Sub EnableCamera
+  overload: Lucid.Toolkit3D.BaseCameraRig.EnableCamera*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: Lucid.Toolkit3D
+  commentId: N:Lucid.Toolkit3D
+  name: Lucid.Toolkit3D
+  nameWithType: Lucid.Toolkit3D
+  fullName: Lucid.Toolkit3D
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.Toolkit3D.BaseCameraRig.virtualCamera*
+  commentId: Overload:Lucid.Toolkit3D.BaseCameraRig.virtualCamera
+  name: virtualCamera
+  nameWithType: BaseCameraRig.virtualCamera
+  fullName: Lucid.Toolkit3D.BaseCameraRig.virtualCamera
+- uid: Global.CinemachineVirtualCamera
+  isExternal: true
+  name: CinemachineVirtualCamera
+  nameWithType: CinemachineVirtualCamera
+  fullName: CinemachineVirtualCamera
+- uid: Lucid.Toolkit3D.BaseCameraRig.isEnabled*
+  commentId: Overload:Lucid.Toolkit3D.BaseCameraRig.isEnabled
+  name: isEnabled
+  nameWithType: BaseCameraRig.isEnabled
+  fullName: Lucid.Toolkit3D.BaseCameraRig.isEnabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: Global.UnityEvent
+  isExternal: true
+  name: UnityEvent
+  nameWithType: UnityEvent
+  fullName: UnityEvent
+- uid: Lucid.Toolkit3D.BaseCameraRig.DisableCamera*
+  commentId: Overload:Lucid.Toolkit3D.BaseCameraRig.DisableCamera
+  name: DisableCamera
+  nameWithType: BaseCameraRig.DisableCamera
+  fullName: Lucid.Toolkit3D.BaseCameraRig.DisableCamera
+- uid: Lucid.Toolkit3D.BaseCameraRig.EnableCamera*
+  commentId: Overload:Lucid.Toolkit3D.BaseCameraRig.EnableCamera
+  name: EnableCamera
+  nameWithType: BaseCameraRig.EnableCamera
+  fullName: Lucid.Toolkit3D.BaseCameraRig.EnableCamera

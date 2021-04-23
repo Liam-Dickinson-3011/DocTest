@@ -1,0 +1,158 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.DataStorage.DataStoreStringFilter.EqualityType
+  commentId: T:Lucid.DataStorage.DataStoreStringFilter.EqualityType
+  id: DataStoreStringFilter.EqualityType
+  parent: Lucid.DataStorage
+  children:
+  - Lucid.DataStorage.DataStoreStringFilter.EqualityType.Contains
+  - Lucid.DataStorage.DataStoreStringFilter.EqualityType.DoesntContain
+  - Lucid.DataStorage.DataStoreStringFilter.EqualityType.Equal
+  - Lucid.DataStorage.DataStoreStringFilter.EqualityType.NotEqual
+  langs:
+  - csharp
+  - vb
+  name: DataStoreStringFilter.EqualityType
+  nameWithType: DataStoreStringFilter.EqualityType
+  fullName: Lucid.DataStorage.DataStoreStringFilter.EqualityType
+  type: Enum
+  source:
+    id: EqualityType
+    path: ''
+    startLine: 15271
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public enum EqualityType
+    content.vb: Public Enum EqualityType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Lucid.DataStorage.DataStoreStringFilter.EqualityType.Equal
+  commentId: F:Lucid.DataStorage.DataStoreStringFilter.EqualityType.Equal
+  id: Equal
+  parent: Lucid.DataStorage.DataStoreStringFilter.EqualityType
+  langs:
+  - csharp
+  - vb
+  name: Equal
+  nameWithType: DataStoreStringFilter.EqualityType.Equal
+  fullName: Lucid.DataStorage.DataStoreStringFilter.EqualityType.Equal
+  type: Field
+  source:
+    id: Equal
+    path: ''
+    startLine: 15273
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: Equal = 0
+    return:
+      type: Lucid.DataStorage.DataStoreStringFilter.EqualityType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.DataStorage.DataStoreStringFilter.EqualityType.NotEqual
+  commentId: F:Lucid.DataStorage.DataStoreStringFilter.EqualityType.NotEqual
+  id: NotEqual
+  parent: Lucid.DataStorage.DataStoreStringFilter.EqualityType
+  langs:
+  - csharp
+  - vb
+  name: NotEqual
+  nameWithType: DataStoreStringFilter.EqualityType.NotEqual
+  fullName: Lucid.DataStorage.DataStoreStringFilter.EqualityType.NotEqual
+  type: Field
+  source:
+    id: NotEqual
+    path: ''
+    startLine: 15274
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: NotEqual = 1
+    return:
+      type: Lucid.DataStorage.DataStoreStringFilter.EqualityType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.DataStorage.DataStoreStringFilter.EqualityType.Contains
+  commentId: F:Lucid.DataStorage.DataStoreStringFilter.EqualityType.Contains
+  id: Contains
+  parent: Lucid.DataStorage.DataStoreStringFilter.EqualityType
+  langs:
+  - csharp
+  - vb
+  name: Contains
+  nameWithType: DataStoreStringFilter.EqualityType.Contains
+  fullName: Lucid.DataStorage.DataStoreStringFilter.EqualityType.Contains
+  type: Field
+  source:
+    id: Contains
+    path: ''
+    startLine: 15275
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: Contains = 2
+    return:
+      type: Lucid.DataStorage.DataStoreStringFilter.EqualityType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.DataStorage.DataStoreStringFilter.EqualityType.DoesntContain
+  commentId: F:Lucid.DataStorage.DataStoreStringFilter.EqualityType.DoesntContain
+  id: DoesntContain
+  parent: Lucid.DataStorage.DataStoreStringFilter.EqualityType
+  langs:
+  - csharp
+  - vb
+  name: DoesntContain
+  nameWithType: DataStoreStringFilter.EqualityType.DoesntContain
+  fullName: Lucid.DataStorage.DataStoreStringFilter.EqualityType.DoesntContain
+  type: Field
+  source:
+    id: DoesntContain
+    path: ''
+    startLine: 15276
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: DoesntContain = 3
+    return:
+      type: Lucid.DataStorage.DataStoreStringFilter.EqualityType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Lucid.DataStorage
+  commentId: N:Lucid.DataStorage
+  name: Lucid.DataStorage
+  nameWithType: Lucid.DataStorage
+  fullName: Lucid.DataStorage
+- uid: Lucid.DataStorage.DataStoreStringFilter.EqualityType
+  commentId: T:Lucid.DataStorage.DataStoreStringFilter.EqualityType
+  parent: Lucid.DataStorage
+  name: DataStoreStringFilter.EqualityType
+  nameWithType: DataStoreStringFilter.EqualityType
+  fullName: Lucid.DataStorage.DataStoreStringFilter.EqualityType

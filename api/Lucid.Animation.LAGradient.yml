@@ -1,0 +1,207 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Animation.LAGradient
+  commentId: T:Lucid.Animation.LAGradient
+  id: LAGradient
+  parent: Lucid.Animation
+  children:
+  - Lucid.Animation.LAGradient.#ctor
+  - Lucid.Animation.LAGradient.#ctor(Lucid.Animation.LAGradient)
+  - Lucid.Animation.LAGradient.gradient
+  langs:
+  - csharp
+  - vb
+  name: LAGradient
+  nameWithType: LAGradient
+  fullName: Lucid.Animation.LAGradient
+  type: Class
+  source:
+    id: LAGradient
+    path: ''
+    startLine: 24395
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class LAGradient : LucidAnim
+    content.vb: >-
+      <Serializable>
+
+      Public Class LAGradient
+          Inherits LucidAnim
+  inheritance:
+  - System.Object
+  - Lucid.Animation.LucidAnim
+  inheritedMembers:
+  - Lucid.Animation.LucidAnim.startDelay
+  - Lucid.Animation.LucidAnim.duration
+  - Lucid.Animation.LucidAnim.speedBased
+  - Lucid.Animation.LucidAnim.ease
+  - Lucid.Animation.LucidAnim.inCollection
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Animation.LAGradient.gradient
+  commentId: F:Lucid.Animation.LAGradient.gradient
+  id: gradient
+  parent: Lucid.Animation.LAGradient
+  langs:
+  - csharp
+  - vb
+  name: gradient
+  nameWithType: LAGradient.gradient
+  fullName: Lucid.Animation.LAGradient.gradient
+  type: Field
+  source:
+    id: gradient
+    path: ''
+    startLine: 24401
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public Gradient gradient
+    return:
+      type: Global.Gradient
+    content.vb: Public gradient As Gradient
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAGradient.#ctor
+  commentId: M:Lucid.Animation.LAGradient.#ctor
+  id: '#ctor'
+  parent: Lucid.Animation.LAGradient
+  langs:
+  - csharp
+  - vb
+  name: LAGradient()
+  nameWithType: LAGradient.LAGradient()
+  fullName: Lucid.Animation.LAGradient.LAGradient()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 24403
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAGradient()
+    content.vb: Public Sub New
+  overload: Lucid.Animation.LAGradient.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAGradient.#ctor(Lucid.Animation.LAGradient)
+  commentId: M:Lucid.Animation.LAGradient.#ctor(Lucid.Animation.LAGradient)
+  id: '#ctor(Lucid.Animation.LAGradient)'
+  parent: Lucid.Animation.LAGradient
+  langs:
+  - csharp
+  - vb
+  name: LAGradient(LAGradient)
+  nameWithType: LAGradient.LAGradient(LAGradient)
+  fullName: Lucid.Animation.LAGradient.LAGradient(Lucid.Animation.LAGradient)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 24408
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAGradient(LAGradient copy)
+    parameters:
+    - id: copy
+      type: Lucid.Animation.LAGradient
+    content.vb: Public Sub New(copy As LAGradient)
+  overload: Lucid.Animation.LAGradient.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Animation
+  commentId: N:Lucid.Animation
+  name: Lucid.Animation
+  nameWithType: Lucid.Animation
+  fullName: Lucid.Animation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Lucid.Animation.LucidAnim
+  commentId: T:Lucid.Animation.LucidAnim
+  parent: Lucid.Animation
+  name: LucidAnim
+  nameWithType: LucidAnim
+  fullName: Lucid.Animation.LucidAnim
+- uid: Lucid.Animation.LucidAnim.startDelay
+  commentId: F:Lucid.Animation.LucidAnim.startDelay
+  parent: Lucid.Animation.LucidAnim
+  name: startDelay
+  nameWithType: LucidAnim.startDelay
+  fullName: Lucid.Animation.LucidAnim.startDelay
+- uid: Lucid.Animation.LucidAnim.duration
+  commentId: F:Lucid.Animation.LucidAnim.duration
+  parent: Lucid.Animation.LucidAnim
+  name: duration
+  nameWithType: LucidAnim.duration
+  fullName: Lucid.Animation.LucidAnim.duration
+- uid: Lucid.Animation.LucidAnim.speedBased
+  commentId: F:Lucid.Animation.LucidAnim.speedBased
+  parent: Lucid.Animation.LucidAnim
+  name: speedBased
+  nameWithType: LucidAnim.speedBased
+  fullName: Lucid.Animation.LucidAnim.speedBased
+- uid: Lucid.Animation.LucidAnim.ease
+  commentId: F:Lucid.Animation.LucidAnim.ease
+  parent: Lucid.Animation.LucidAnim
+  name: ease
+  nameWithType: LucidAnim.ease
+  fullName: Lucid.Animation.LucidAnim.ease
+- uid: Lucid.Animation.LucidAnim.inCollection
+  commentId: F:Lucid.Animation.LucidAnim.inCollection
+  parent: Lucid.Animation.LucidAnim
+  name: inCollection
+  nameWithType: LucidAnim.inCollection
+  fullName: Lucid.Animation.LucidAnim.inCollection
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Gradient
+  commentId: '!:Global.Gradient'
+  isExternal: true
+  name: Gradient
+  nameWithType: Gradient
+  fullName: Gradient
+- uid: Lucid.Animation.LAGradient.#ctor*
+  commentId: Overload:Lucid.Animation.LAGradient.#ctor
+  name: LAGradient
+  nameWithType: LAGradient.LAGradient
+  fullName: Lucid.Animation.LAGradient.LAGradient
+- uid: Lucid.Animation.LAGradient
+  commentId: T:Lucid.Animation.LAGradient
+  parent: Lucid.Animation
+  name: LAGradient
+  nameWithType: LAGradient
+  fullName: Lucid.Animation.LAGradient

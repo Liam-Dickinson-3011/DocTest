@@ -1,0 +1,188 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Extensions.ImageSequences.ImageSequenceInitialiser
+  commentId: T:Lucid.Extensions.ImageSequences.ImageSequenceInitialiser
+  id: ImageSequenceInitialiser
+  parent: Lucid.Extensions.ImageSequences
+  children:
+  - Lucid.Extensions.ImageSequences.ImageSequenceInitialiser.assetsFolderPath
+  - Lucid.Extensions.ImageSequences.ImageSequenceInitialiser.AutoInitialise
+  - Lucid.Extensions.ImageSequences.ImageSequenceInitialiser.Initialise
+  - Lucid.Extensions.ImageSequences.ImageSequenceInitialiser.scriptingDefine
+  langs:
+  - csharp
+  - vb
+  name: ImageSequenceInitialiser
+  nameWithType: ImageSequenceInitialiser
+  fullName: Lucid.Extensions.ImageSequences.ImageSequenceInitialiser
+  type: Class
+  source:
+    id: ImageSequenceInitialiser
+    path: ''
+    startLine: 4440
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: 'public class ImageSequenceInitialiser : Editor'
+    content.vb: >-
+      Public Class ImageSequenceInitialiser
+          Inherits Editor
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Extensions.ImageSequences.ImageSequenceInitialiser.assetsFolderPath
+  commentId: F:Lucid.Extensions.ImageSequences.ImageSequenceInitialiser.assetsFolderPath
+  id: assetsFolderPath
+  parent: Lucid.Extensions.ImageSequences.ImageSequenceInitialiser
+  langs:
+  - csharp
+  - vb
+  name: assetsFolderPath
+  nameWithType: ImageSequenceInitialiser.assetsFolderPath
+  fullName: Lucid.Extensions.ImageSequences.ImageSequenceInitialiser.assetsFolderPath
+  type: Field
+  source:
+    id: assetsFolderPath
+    path: ''
+    startLine: 4442
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public const string assetsFolderPath = "Lucid_Extensions/ImageSequences"
+    return:
+      type: System.String
+    content.vb: Public Const assetsFolderPath As String = "Lucid_Extensions/ImageSequences"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Extensions.ImageSequences.ImageSequenceInitialiser.scriptingDefine
+  commentId: F:Lucid.Extensions.ImageSequences.ImageSequenceInitialiser.scriptingDefine
+  id: scriptingDefine
+  parent: Lucid.Extensions.ImageSequences.ImageSequenceInitialiser
+  langs:
+  - csharp
+  - vb
+  name: scriptingDefine
+  nameWithType: ImageSequenceInitialiser.scriptingDefine
+  fullName: Lucid.Extensions.ImageSequences.ImageSequenceInitialiser.scriptingDefine
+  type: Field
+  source:
+    id: scriptingDefine
+    path: ''
+    startLine: 4443
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public const string scriptingDefine = "LUCID_EXTENSION_IMAGESEQUENCES"
+    return:
+      type: System.String
+    content.vb: Public Const scriptingDefine As String = "LUCID_EXTENSION_IMAGESEQUENCES"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Extensions.ImageSequences.ImageSequenceInitialiser.AutoInitialise
+  commentId: M:Lucid.Extensions.ImageSequences.ImageSequenceInitialiser.AutoInitialise
+  id: AutoInitialise
+  parent: Lucid.Extensions.ImageSequences.ImageSequenceInitialiser
+  langs:
+  - csharp
+  - vb
+  name: AutoInitialise()
+  nameWithType: ImageSequenceInitialiser.AutoInitialise()
+  fullName: Lucid.Extensions.ImageSequences.ImageSequenceInitialiser.AutoInitialise()
+  type: Method
+  source:
+    id: AutoInitialise
+    path: ''
+    startLine: 4445
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public static void AutoInitialise()
+    content.vb: Public Shared Sub AutoInitialise
+  overload: Lucid.Extensions.ImageSequences.ImageSequenceInitialiser.AutoInitialise*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Lucid.Extensions.ImageSequences.ImageSequenceInitialiser.Initialise
+  commentId: M:Lucid.Extensions.ImageSequences.ImageSequenceInitialiser.Initialise
+  id: Initialise
+  parent: Lucid.Extensions.ImageSequences.ImageSequenceInitialiser
+  langs:
+  - csharp
+  - vb
+  name: Initialise()
+  nameWithType: ImageSequenceInitialiser.Initialise()
+  fullName: Lucid.Extensions.ImageSequences.ImageSequenceInitialiser.Initialise()
+  type: Method
+  source:
+    id: Initialise
+    path: ''
+    startLine: 4454
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public static void Initialise()
+    content.vb: Public Shared Sub Initialise
+  overload: Lucid.Extensions.ImageSequences.ImageSequenceInitialiser.Initialise*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Lucid.Extensions.ImageSequences
+  commentId: N:Lucid.Extensions.ImageSequences
+  name: Lucid.Extensions.ImageSequences
+  nameWithType: Lucid.Extensions.ImageSequences
+  fullName: Lucid.Extensions.ImageSequences
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Lucid.Extensions.ImageSequences.ImageSequenceInitialiser.AutoInitialise*
+  commentId: Overload:Lucid.Extensions.ImageSequences.ImageSequenceInitialiser.AutoInitialise
+  name: AutoInitialise
+  nameWithType: ImageSequenceInitialiser.AutoInitialise
+  fullName: Lucid.Extensions.ImageSequences.ImageSequenceInitialiser.AutoInitialise
+- uid: Lucid.Extensions.ImageSequences.ImageSequenceInitialiser.Initialise*
+  commentId: Overload:Lucid.Extensions.ImageSequences.ImageSequenceInitialiser.Initialise
+  name: Initialise
+  nameWithType: ImageSequenceInitialiser.Initialise
+  fullName: Lucid.Extensions.ImageSequences.ImageSequenceInitialiser.Initialise

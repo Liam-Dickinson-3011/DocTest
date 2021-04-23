@@ -1,0 +1,139 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Core.TransitionStyle
+  commentId: T:Lucid.Core.TransitionStyle
+  id: TransitionStyle
+  parent: Lucid.Core
+  children:
+  - Lucid.Core.TransitionStyle.offThenOn
+  - Lucid.Core.TransitionStyle.onAndOff
+  - Lucid.Core.TransitionStyle.onThenOff
+  langs:
+  - csharp
+  - vb
+  name: TransitionStyle
+  nameWithType: TransitionStyle
+  fullName: Lucid.Core.TransitionStyle
+  type: Enum
+  source:
+    id: TransitionStyle
+    path: ''
+    startLine: 5735
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: >-
+      [Serializable]
+
+      public enum TransitionStyle
+    content.vb: >-
+      <Serializable>
+
+      Public Enum TransitionStyle
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Lucid.Core.TransitionStyle.onAndOff
+  commentId: F:Lucid.Core.TransitionStyle.onAndOff
+  id: onAndOff
+  parent: Lucid.Core.TransitionStyle
+  langs:
+  - csharp
+  - vb
+  name: onAndOff
+  nameWithType: TransitionStyle.onAndOff
+  fullName: Lucid.Core.TransitionStyle.onAndOff
+  type: Field
+  source:
+    id: onAndOff
+    path: ''
+    startLine: 5736
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: onAndOff = 0
+    return:
+      type: Lucid.Core.TransitionStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Core.TransitionStyle.onThenOff
+  commentId: F:Lucid.Core.TransitionStyle.onThenOff
+  id: onThenOff
+  parent: Lucid.Core.TransitionStyle
+  langs:
+  - csharp
+  - vb
+  name: onThenOff
+  nameWithType: TransitionStyle.onThenOff
+  fullName: Lucid.Core.TransitionStyle.onThenOff
+  type: Field
+  source:
+    id: onThenOff
+    path: ''
+    startLine: 5736
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: onThenOff = 1
+    return:
+      type: Lucid.Core.TransitionStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Core.TransitionStyle.offThenOn
+  commentId: F:Lucid.Core.TransitionStyle.offThenOn
+  id: offThenOn
+  parent: Lucid.Core.TransitionStyle
+  langs:
+  - csharp
+  - vb
+  name: offThenOn
+  nameWithType: TransitionStyle.offThenOn
+  fullName: Lucid.Core.TransitionStyle.offThenOn
+  type: Field
+  source:
+    id: offThenOn
+    path: ''
+    startLine: 5736
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Core
+  syntax:
+    content: offThenOn = 2
+    return:
+      type: Lucid.Core.TransitionStyle
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Lucid.Core
+  commentId: N:Lucid.Core
+  name: Lucid.Core
+  nameWithType: Lucid.Core
+  fullName: Lucid.Core
+- uid: Lucid.Core.TransitionStyle
+  commentId: T:Lucid.Core.TransitionStyle
+  parent: Lucid.Core
+  name: TransitionStyle
+  nameWithType: TransitionStyle
+  fullName: Lucid.Core.TransitionStyle

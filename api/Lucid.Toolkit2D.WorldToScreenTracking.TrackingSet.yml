@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Toolkit2D.WorldToScreenTracking.TrackingSet
+  commentId: T:Lucid.Toolkit2D.WorldToScreenTracking.TrackingSet
+  id: WorldToScreenTracking.TrackingSet
+  parent: Lucid.Toolkit2D
+  children:
+  - Lucid.Toolkit2D.WorldToScreenTracking.TrackingSet.screenSpaceObj
+  - Lucid.Toolkit2D.WorldToScreenTracking.TrackingSet.worldSpaceObj
+  langs:
+  - csharp
+  - vb
+  name: WorldToScreenTracking.TrackingSet
+  nameWithType: WorldToScreenTracking.TrackingSet
+  fullName: Lucid.Toolkit2D.WorldToScreenTracking.TrackingSet
+  type: Class
+  source:
+    id: TrackingSet
+    path: ''
+    startLine: 21083
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class TrackingSet
+    content.vb: >-
+      <Serializable>
+
+      Public Class TrackingSet
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Toolkit2D.WorldToScreenTracking.TrackingSet.worldSpaceObj
+  commentId: F:Lucid.Toolkit2D.WorldToScreenTracking.TrackingSet.worldSpaceObj
+  id: worldSpaceObj
+  parent: Lucid.Toolkit2D.WorldToScreenTracking.TrackingSet
+  langs:
+  - csharp
+  - vb
+  name: worldSpaceObj
+  nameWithType: WorldToScreenTracking.TrackingSet.worldSpaceObj
+  fullName: Lucid.Toolkit2D.WorldToScreenTracking.TrackingSet.worldSpaceObj
+  type: Field
+  source:
+    id: worldSpaceObj
+    path: ''
+    startLine: 21086
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public Transform worldSpaceObj
+    return:
+      type: Global.Transform
+    content.vb: Public worldSpaceObj As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.WorldToScreenTracking.TrackingSet.screenSpaceObj
+  commentId: F:Lucid.Toolkit2D.WorldToScreenTracking.TrackingSet.screenSpaceObj
+  id: screenSpaceObj
+  parent: Lucid.Toolkit2D.WorldToScreenTracking.TrackingSet
+  langs:
+  - csharp
+  - vb
+  name: screenSpaceObj
+  nameWithType: WorldToScreenTracking.TrackingSet.screenSpaceObj
+  fullName: Lucid.Toolkit2D.WorldToScreenTracking.TrackingSet.screenSpaceObj
+  type: Field
+  source:
+    id: screenSpaceObj
+    path: ''
+    startLine: 21087
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public RectTransform screenSpaceObj
+    return:
+      type: Global.RectTransform
+    content.vb: Public screenSpaceObj As RectTransform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Toolkit2D
+  commentId: N:Lucid.Toolkit2D
+  name: Lucid.Toolkit2D
+  nameWithType: Lucid.Toolkit2D
+  fullName: Lucid.Toolkit2D
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: Global.RectTransform
+  isExternal: true
+  name: RectTransform
+  nameWithType: RectTransform
+  fullName: RectTransform

@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Animation.LAIntCollection
+  commentId: T:Lucid.Animation.LAIntCollection
+  id: LAIntCollection
+  parent: Lucid.Animation
+  children:
+  - Lucid.Animation.LAIntCollection.#ctor
+  - Lucid.Animation.LAIntCollection.#ctor(Lucid.Animation.LAIntCollection)
+  - Lucid.Animation.LAIntCollection.OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  langs:
+  - csharp
+  - vb
+  name: LAIntCollection
+  nameWithType: LAIntCollection
+  fullName: Lucid.Animation.LAIntCollection
+  type: Class
+  source:
+    id: LAIntCollection
+    path: ''
+    startLine: 24092
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class LAIntCollection : ObservableCollection<LAInt>, INotifyCollectionChanged, INotifyPropertyChanged
+    content.vb: >-
+      <Serializable>
+
+      Public Class LAIntCollection
+          Inherits ObservableCollection(Of LAInt)
+          Implements INotifyCollectionChanged, INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Animation.LAIntCollection.#ctor
+  commentId: M:Lucid.Animation.LAIntCollection.#ctor
+  id: '#ctor'
+  parent: Lucid.Animation.LAIntCollection
+  langs:
+  - csharp
+  - vb
+  name: LAIntCollection()
+  nameWithType: LAIntCollection.LAIntCollection()
+  fullName: Lucid.Animation.LAIntCollection.LAIntCollection()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 24095
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAIntCollection()
+    content.vb: Public Sub New
+  overload: Lucid.Animation.LAIntCollection.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAIntCollection.#ctor(Lucid.Animation.LAIntCollection)
+  commentId: M:Lucid.Animation.LAIntCollection.#ctor(Lucid.Animation.LAIntCollection)
+  id: '#ctor(Lucid.Animation.LAIntCollection)'
+  parent: Lucid.Animation.LAIntCollection
+  langs:
+  - csharp
+  - vb
+  name: LAIntCollection(LAIntCollection)
+  nameWithType: LAIntCollection.LAIntCollection(LAIntCollection)
+  fullName: Lucid.Animation.LAIntCollection.LAIntCollection(Lucid.Animation.LAIntCollection)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 24097
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAIntCollection(LAIntCollection copy)
+    parameters:
+    - id: copy
+      type: Lucid.Animation.LAIntCollection
+    content.vb: Public Sub New(copy As LAIntCollection)
+  overload: Lucid.Animation.LAIntCollection.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAIntCollection.OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  commentId: M:Lucid.Animation.LAIntCollection.OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  id: OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  parent: Lucid.Animation.LAIntCollection
+  langs:
+  - csharp
+  - vb
+  name: OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  nameWithType: LAIntCollection.OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  fullName: Lucid.Animation.LAIntCollection.OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  type: Method
+  source:
+    id: OnCollectionChanged
+    path: ''
+    startLine: 24105
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: protected override void OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+    parameters:
+    - id: e
+      type: Global.NotifyCollectionChangedEventArgs
+    content.vb: Protected Overrides Sub OnCollectionChanged(e As NotifyCollectionChangedEventArgs)
+  overload: Lucid.Animation.LAIntCollection.OnCollectionChanged*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Lucid.Animation
+  commentId: N:Lucid.Animation
+  name: Lucid.Animation
+  nameWithType: Lucid.Animation
+  fullName: Lucid.Animation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.Animation.LAIntCollection.#ctor*
+  commentId: Overload:Lucid.Animation.LAIntCollection.#ctor
+  name: LAIntCollection
+  nameWithType: LAIntCollection.LAIntCollection
+  fullName: Lucid.Animation.LAIntCollection.LAIntCollection
+- uid: Lucid.Animation.LAIntCollection
+  commentId: T:Lucid.Animation.LAIntCollection
+  parent: Lucid.Animation
+  name: LAIntCollection
+  nameWithType: LAIntCollection
+  fullName: Lucid.Animation.LAIntCollection
+- uid: Lucid.Animation.LAIntCollection.OnCollectionChanged*
+  commentId: Overload:Lucid.Animation.LAIntCollection.OnCollectionChanged
+  name: OnCollectionChanged
+  nameWithType: LAIntCollection.OnCollectionChanged
+  fullName: Lucid.Animation.LAIntCollection.OnCollectionChanged
+- uid: Global.NotifyCollectionChangedEventArgs
+  isExternal: true
+  name: NotifyCollectionChangedEventArgs
+  nameWithType: NotifyCollectionChangedEventArgs
+  fullName: NotifyCollectionChangedEventArgs

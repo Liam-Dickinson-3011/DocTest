@@ -1,0 +1,239 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Branding.Color.ColorStyle
+  commentId: T:Lucid.Branding.Color.ColorStyle
+  id: ColorStyle
+  parent: Lucid.Branding.Color
+  children:
+  - Lucid.Branding.Color.ColorStyle._color
+  - Lucid.Branding.Color.ColorStyle.a
+  - Lucid.Branding.Color.ColorStyle.color
+  - Lucid.Branding.Color.ColorStyle.hex
+  - Lucid.Branding.Color.ColorStyle.styleName
+  langs:
+  - csharp
+  - vb
+  name: ColorStyle
+  nameWithType: ColorStyle
+  fullName: Lucid.Branding.Color.ColorStyle
+  type: Class
+  source:
+    id: ColorStyle
+    path: ''
+    startLine: 9300
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Color
+  syntax:
+    content: 'public class ColorStyle : ScriptableObject'
+    content.vb: >-
+      Public Class ColorStyle
+          Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Branding.Color.ColorStyle.styleName
+  commentId: F:Lucid.Branding.Color.ColorStyle.styleName
+  id: styleName
+  parent: Lucid.Branding.Color.ColorStyle
+  langs:
+  - csharp
+  - vb
+  name: styleName
+  nameWithType: ColorStyle.styleName
+  fullName: Lucid.Branding.Color.ColorStyle.styleName
+  type: Field
+  source:
+    id: styleName
+    path: ''
+    startLine: 9305
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Color
+  syntax:
+    content: public string styleName
+    return:
+      type: System.String
+    content.vb: Public styleName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Color.ColorStyle._color
+  commentId: F:Lucid.Branding.Color.ColorStyle._color
+  id: _color
+  parent: Lucid.Branding.Color.ColorStyle
+  langs:
+  - csharp
+  - vb
+  name: _color
+  nameWithType: ColorStyle._color
+  fullName: Lucid.Branding.Color.ColorStyle._color
+  type: Field
+  source:
+    id: _color
+    path: ''
+    startLine: 9308
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Color
+  syntax:
+    content: protected UnityEngine.Color _color
+    return:
+      type: Global.UnityEngine.Color
+    content.vb: Protected _color As UnityEngine.Color
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Lucid.Branding.Color.ColorStyle.color
+  commentId: P:Lucid.Branding.Color.ColorStyle.color
+  id: color
+  parent: Lucid.Branding.Color.ColorStyle
+  langs:
+  - csharp
+  - vb
+  name: color
+  nameWithType: ColorStyle.color
+  fullName: Lucid.Branding.Color.ColorStyle.color
+  type: Property
+  source:
+    id: color
+    path: ''
+    startLine: 9310
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Color
+  syntax:
+    content: public UnityEngine.Color color { get; set; }
+    parameters: []
+    return:
+      type: Global.UnityEngine.Color
+    content.vb: Public Property color As UnityEngine.Color
+  overload: Lucid.Branding.Color.ColorStyle.color*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.Branding.Color.ColorStyle.hex
+  commentId: P:Lucid.Branding.Color.ColorStyle.hex
+  id: hex
+  parent: Lucid.Branding.Color.ColorStyle
+  langs:
+  - csharp
+  - vb
+  name: hex
+  nameWithType: ColorStyle.hex
+  fullName: Lucid.Branding.Color.ColorStyle.hex
+  type: Property
+  source:
+    id: hex
+    path: ''
+    startLine: 9319
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Color
+  syntax:
+    content: public string hex { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property hex As String
+  overload: Lucid.Branding.Color.ColorStyle.hex*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Lucid.Branding.Color.ColorStyle.a
+  commentId: P:Lucid.Branding.Color.ColorStyle.a
+  id: a
+  parent: Lucid.Branding.Color.ColorStyle
+  langs:
+  - csharp
+  - vb
+  name: a
+  nameWithType: ColorStyle.a
+  fullName: Lucid.Branding.Color.ColorStyle.a
+  type: Property
+  source:
+    id: a
+    path: ''
+    startLine: 9323
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Branding.Color
+  syntax:
+    content: public float a { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property a As Single
+  overload: Lucid.Branding.Color.ColorStyle.a*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: Lucid.Branding.Color
+  commentId: N:Lucid.Branding.Color
+  name: Lucid.Branding.Color
+  nameWithType: Lucid.Branding.Color
+  fullName: Lucid.Branding.Color
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.UnityEngine.Color
+  isExternal: true
+  name: UnityEngine.Color
+  nameWithType: UnityEngine.Color
+  fullName: UnityEngine.Color
+- uid: Lucid.Branding.Color.ColorStyle.color*
+  commentId: Overload:Lucid.Branding.Color.ColorStyle.color
+  name: color
+  nameWithType: ColorStyle.color
+  fullName: Lucid.Branding.Color.ColorStyle.color
+- uid: Lucid.Branding.Color.ColorStyle.hex*
+  commentId: Overload:Lucid.Branding.Color.ColorStyle.hex
+  name: hex
+  nameWithType: ColorStyle.hex
+  fullName: Lucid.Branding.Color.ColorStyle.hex
+- uid: Lucid.Branding.Color.ColorStyle.a*
+  commentId: Overload:Lucid.Branding.Color.ColorStyle.a
+  name: a
+  nameWithType: ColorStyle.a
+  fullName: Lucid.Branding.Color.ColorStyle.a
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

@@ -1,0 +1,372 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Animation.LA3DProgressingAnimation
+  commentId: T:Lucid.Animation.LA3DProgressingAnimation
+  id: LA3DProgressingAnimation
+  parent: Lucid.Animation
+  children:
+  - Lucid.Animation.LA3DProgressingAnimation.#ctor
+  - Lucid.Animation.LA3DProgressingAnimation.#ctor(Lucid.Animation.LA3DProgressingAnimation)
+  - Lucid.Animation.LA3DProgressingAnimation.CutToNormalisedPos(System.Single)
+  - Lucid.Animation.LA3DProgressingAnimation.doTrans
+  - Lucid.Animation.LA3DProgressingAnimation.GoToNormalisedPos(System.Single)
+  - Lucid.Animation.LA3DProgressingAnimation.Initialise(System.Single,System.Boolean)
+  - Lucid.Animation.LA3DProgressingAnimation.laTrans
+  - Lucid.Animation.LA3DProgressingAnimation.Seq
+  langs:
+  - csharp
+  - vb
+  name: LA3DProgressingAnimation
+  nameWithType: LA3DProgressingAnimation
+  fullName: Lucid.Animation.LA3DProgressingAnimation
+  type: Class
+  source:
+    id: LA3DProgressingAnimation
+    path: ''
+    startLine: 25242
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class LA3DProgressingAnimation
+    content.vb: >-
+      <Serializable>
+
+      Public Class LA3DProgressingAnimation
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Animation.LA3DProgressingAnimation.#ctor
+  commentId: M:Lucid.Animation.LA3DProgressingAnimation.#ctor
+  id: '#ctor'
+  parent: Lucid.Animation.LA3DProgressingAnimation
+  langs:
+  - csharp
+  - vb
+  name: LA3DProgressingAnimation()
+  nameWithType: LA3DProgressingAnimation.LA3DProgressingAnimation()
+  fullName: Lucid.Animation.LA3DProgressingAnimation.LA3DProgressingAnimation()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 25245
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LA3DProgressingAnimation()
+    content.vb: Public Sub New
+  overload: Lucid.Animation.LA3DProgressingAnimation.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LA3DProgressingAnimation.#ctor(Lucid.Animation.LA3DProgressingAnimation)
+  commentId: M:Lucid.Animation.LA3DProgressingAnimation.#ctor(Lucid.Animation.LA3DProgressingAnimation)
+  id: '#ctor(Lucid.Animation.LA3DProgressingAnimation)'
+  parent: Lucid.Animation.LA3DProgressingAnimation
+  langs:
+  - csharp
+  - vb
+  name: LA3DProgressingAnimation(LA3DProgressingAnimation)
+  nameWithType: LA3DProgressingAnimation.LA3DProgressingAnimation(LA3DProgressingAnimation)
+  fullName: Lucid.Animation.LA3DProgressingAnimation.LA3DProgressingAnimation(Lucid.Animation.LA3DProgressingAnimation)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 25247
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LA3DProgressingAnimation(LA3DProgressingAnimation copy)
+    parameters:
+    - id: copy
+      type: Lucid.Animation.LA3DProgressingAnimation
+    content.vb: Public Sub New(copy As LA3DProgressingAnimation)
+  overload: Lucid.Animation.LA3DProgressingAnimation.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LA3DProgressingAnimation.doTrans
+  commentId: F:Lucid.Animation.LA3DProgressingAnimation.doTrans
+  id: doTrans
+  parent: Lucid.Animation.LA3DProgressingAnimation
+  langs:
+  - csharp
+  - vb
+  name: doTrans
+  nameWithType: LA3DProgressingAnimation.doTrans
+  fullName: Lucid.Animation.LA3DProgressingAnimation.doTrans
+  type: Field
+  source:
+    id: doTrans
+    path: ''
+    startLine: 25254
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public bool doTrans
+    return:
+      type: System.Boolean
+    content.vb: Public doTrans As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LA3DProgressingAnimation.laTrans
+  commentId: F:Lucid.Animation.LA3DProgressingAnimation.laTrans
+  id: laTrans
+  parent: Lucid.Animation.LA3DProgressingAnimation
+  langs:
+  - csharp
+  - vb
+  name: laTrans
+  nameWithType: LA3DProgressingAnimation.laTrans
+  fullName: Lucid.Animation.LA3DProgressingAnimation.laTrans
+  type: Field
+  source:
+    id: laTrans
+    path: ''
+    startLine: 25258
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LATransformCollection[] laTrans
+    return:
+      type: Lucid.Animation.LATransformCollection[]
+    content.vb: Public laTrans As LATransformCollection()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LA3DProgressingAnimation.Seq
+  commentId: P:Lucid.Animation.LA3DProgressingAnimation.Seq
+  id: Seq
+  parent: Lucid.Animation.LA3DProgressingAnimation
+  langs:
+  - csharp
+  - vb
+  name: Seq
+  nameWithType: LA3DProgressingAnimation.Seq
+  fullName: Lucid.Animation.LA3DProgressingAnimation.Seq
+  type: Property
+  source:
+    id: Seq
+    path: ''
+    startLine: 25261
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public Sequence Seq { get; }
+    parameters: []
+    return:
+      type: Global.Sequence
+    content.vb: Public ReadOnly Property Seq As Sequence
+  overload: Lucid.Animation.LA3DProgressingAnimation.Seq*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Lucid.Animation.LA3DProgressingAnimation.Initialise(System.Single,System.Boolean)
+  commentId: M:Lucid.Animation.LA3DProgressingAnimation.Initialise(System.Single,System.Boolean)
+  id: Initialise(System.Single,System.Boolean)
+  parent: Lucid.Animation.LA3DProgressingAnimation
+  langs:
+  - csharp
+  - vb
+  name: Initialise(Single, Boolean)
+  nameWithType: LA3DProgressingAnimation.Initialise(Single, Boolean)
+  fullName: Lucid.Animation.LA3DProgressingAnimation.Initialise(System.Single, System.Boolean)
+  type: Method
+  source:
+    id: Initialise
+    path: ''
+    startLine: 25266
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public void Initialise(float startingNormPos, bool autoPlay = false)
+    parameters:
+    - id: startingNormPos
+      type: System.Single
+    - id: autoPlay
+      type: System.Boolean
+    content.vb: Public Sub Initialise(startingNormPos As Single, autoPlay As Boolean = False)
+  overload: Lucid.Animation.LA3DProgressingAnimation.Initialise*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LA3DProgressingAnimation.GoToNormalisedPos(System.Single)
+  commentId: M:Lucid.Animation.LA3DProgressingAnimation.GoToNormalisedPos(System.Single)
+  id: GoToNormalisedPos(System.Single)
+  parent: Lucid.Animation.LA3DProgressingAnimation
+  langs:
+  - csharp
+  - vb
+  name: GoToNormalisedPos(Single)
+  nameWithType: LA3DProgressingAnimation.GoToNormalisedPos(Single)
+  fullName: Lucid.Animation.LA3DProgressingAnimation.GoToNormalisedPos(System.Single)
+  type: Method
+  source:
+    id: GoToNormalisedPos
+    path: ''
+    startLine: 25285
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public void GoToNormalisedPos(float normPos)
+    parameters:
+    - id: normPos
+      type: System.Single
+    content.vb: Public Sub GoToNormalisedPos(normPos As Single)
+  overload: Lucid.Animation.LA3DProgressingAnimation.GoToNormalisedPos*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LA3DProgressingAnimation.CutToNormalisedPos(System.Single)
+  commentId: M:Lucid.Animation.LA3DProgressingAnimation.CutToNormalisedPos(System.Single)
+  id: CutToNormalisedPos(System.Single)
+  parent: Lucid.Animation.LA3DProgressingAnimation
+  langs:
+  - csharp
+  - vb
+  name: CutToNormalisedPos(Single)
+  nameWithType: LA3DProgressingAnimation.CutToNormalisedPos(Single)
+  fullName: Lucid.Animation.LA3DProgressingAnimation.CutToNormalisedPos(System.Single)
+  type: Method
+  source:
+    id: CutToNormalisedPos
+    path: ''
+    startLine: 25346
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public void CutToNormalisedPos(float val)
+    parameters:
+    - id: val
+      type: System.Single
+    content.vb: Public Sub CutToNormalisedPos(val As Single)
+  overload: Lucid.Animation.LA3DProgressingAnimation.CutToNormalisedPos*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Animation
+  commentId: N:Lucid.Animation
+  name: Lucid.Animation
+  nameWithType: Lucid.Animation
+  fullName: Lucid.Animation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.Animation.LA3DProgressingAnimation.#ctor*
+  commentId: Overload:Lucid.Animation.LA3DProgressingAnimation.#ctor
+  name: LA3DProgressingAnimation
+  nameWithType: LA3DProgressingAnimation.LA3DProgressingAnimation
+  fullName: Lucid.Animation.LA3DProgressingAnimation.LA3DProgressingAnimation
+- uid: Lucid.Animation.LA3DProgressingAnimation
+  commentId: T:Lucid.Animation.LA3DProgressingAnimation
+  parent: Lucid.Animation
+  name: LA3DProgressingAnimation
+  nameWithType: LA3DProgressingAnimation
+  fullName: Lucid.Animation.LA3DProgressingAnimation
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Lucid.Animation.LATransformCollection[]
+  isExternal: true
+  name: LATransformCollection[]
+  nameWithType: LATransformCollection[]
+  fullName: Lucid.Animation.LATransformCollection[]
+  nameWithType.vb: LATransformCollection()
+  fullName.vb: Lucid.Animation.LATransformCollection()
+  name.vb: LATransformCollection()
+  spec.csharp:
+  - uid: Lucid.Animation.LATransformCollection
+    name: LATransformCollection
+    nameWithType: LATransformCollection
+    fullName: Lucid.Animation.LATransformCollection
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Lucid.Animation.LATransformCollection
+    name: LATransformCollection
+    nameWithType: LATransformCollection
+    fullName: Lucid.Animation.LATransformCollection
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Lucid.Animation.LA3DProgressingAnimation.Seq*
+  commentId: Overload:Lucid.Animation.LA3DProgressingAnimation.Seq
+  name: Seq
+  nameWithType: LA3DProgressingAnimation.Seq
+  fullName: Lucid.Animation.LA3DProgressingAnimation.Seq
+- uid: Global.Sequence
+  isExternal: true
+  name: Sequence
+  nameWithType: Sequence
+  fullName: Sequence
+- uid: Lucid.Animation.LA3DProgressingAnimation.Initialise*
+  commentId: Overload:Lucid.Animation.LA3DProgressingAnimation.Initialise
+  name: Initialise
+  nameWithType: LA3DProgressingAnimation.Initialise
+  fullName: Lucid.Animation.LA3DProgressingAnimation.Initialise
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Lucid.Animation.LA3DProgressingAnimation.GoToNormalisedPos*
+  commentId: Overload:Lucid.Animation.LA3DProgressingAnimation.GoToNormalisedPos
+  name: GoToNormalisedPos
+  nameWithType: LA3DProgressingAnimation.GoToNormalisedPos
+  fullName: Lucid.Animation.LA3DProgressingAnimation.GoToNormalisedPos
+- uid: Lucid.Animation.LA3DProgressingAnimation.CutToNormalisedPos*
+  commentId: Overload:Lucid.Animation.LA3DProgressingAnimation.CutToNormalisedPos
+  name: CutToNormalisedPos
+  nameWithType: LA3DProgressingAnimation.CutToNormalisedPos
+  fullName: Lucid.Animation.LA3DProgressingAnimation.CutToNormalisedPos

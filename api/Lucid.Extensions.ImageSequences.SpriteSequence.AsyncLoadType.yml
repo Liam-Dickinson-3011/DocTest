@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.AsyncLoadType
+  commentId: T:Lucid.Extensions.ImageSequences.SpriteSequence.AsyncLoadType
+  id: SpriteSequence.AsyncLoadType
+  parent: Lucid.Extensions.ImageSequences
+  children:
+  - Lucid.Extensions.ImageSequences.SpriteSequence.AsyncLoadType.All
+  - Lucid.Extensions.ImageSequences.SpriteSequence.AsyncLoadType.BufferOnly
+  - Lucid.Extensions.ImageSequences.SpriteSequence.AsyncLoadType.None
+  langs:
+  - csharp
+  - vb
+  name: SpriteSequence.AsyncLoadType
+  nameWithType: SpriteSequence.AsyncLoadType
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.AsyncLoadType
+  type: Enum
+  source:
+    id: AsyncLoadType
+    path: ''
+    startLine: 3971
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: public enum AsyncLoadType
+    content.vb: Public Enum AsyncLoadType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.AsyncLoadType.None
+  commentId: F:Lucid.Extensions.ImageSequences.SpriteSequence.AsyncLoadType.None
+  id: None
+  parent: Lucid.Extensions.ImageSequences.SpriteSequence.AsyncLoadType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: SpriteSequence.AsyncLoadType.None
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.AsyncLoadType.None
+  type: Field
+  source:
+    id: None
+    path: ''
+    startLine: 3971
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: None = 0
+    return:
+      type: Lucid.Extensions.ImageSequences.SpriteSequence.AsyncLoadType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.AsyncLoadType.BufferOnly
+  commentId: F:Lucid.Extensions.ImageSequences.SpriteSequence.AsyncLoadType.BufferOnly
+  id: BufferOnly
+  parent: Lucid.Extensions.ImageSequences.SpriteSequence.AsyncLoadType
+  langs:
+  - csharp
+  - vb
+  name: BufferOnly
+  nameWithType: SpriteSequence.AsyncLoadType.BufferOnly
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.AsyncLoadType.BufferOnly
+  type: Field
+  source:
+    id: BufferOnly
+    path: ''
+    startLine: 3971
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: BufferOnly = 1
+    return:
+      type: Lucid.Extensions.ImageSequences.SpriteSequence.AsyncLoadType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.AsyncLoadType.All
+  commentId: F:Lucid.Extensions.ImageSequences.SpriteSequence.AsyncLoadType.All
+  id: All
+  parent: Lucid.Extensions.ImageSequences.SpriteSequence.AsyncLoadType
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: SpriteSequence.AsyncLoadType.All
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.AsyncLoadType.All
+  type: Field
+  source:
+    id: All
+    path: ''
+    startLine: 3971
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.ImageSequences
+  syntax:
+    content: All = 2
+    return:
+      type: Lucid.Extensions.ImageSequences.SpriteSequence.AsyncLoadType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Lucid.Extensions.ImageSequences
+  commentId: N:Lucid.Extensions.ImageSequences
+  name: Lucid.Extensions.ImageSequences
+  nameWithType: Lucid.Extensions.ImageSequences
+  fullName: Lucid.Extensions.ImageSequences
+- uid: Lucid.Extensions.ImageSequences.SpriteSequence.AsyncLoadType
+  commentId: T:Lucid.Extensions.ImageSequences.SpriteSequence.AsyncLoadType
+  parent: Lucid.Extensions.ImageSequences
+  name: SpriteSequence.AsyncLoadType
+  nameWithType: SpriteSequence.AsyncLoadType
+  fullName: Lucid.Extensions.ImageSequences.SpriteSequence.AsyncLoadType

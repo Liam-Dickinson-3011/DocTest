@@ -1,0 +1,454 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.UI.Gallery.Gallery360Image
+  commentId: T:Lucid.UI.Gallery.Gallery360Image
+  id: Gallery360Image
+  parent: Lucid.UI.Gallery
+  children:
+  - Lucid.UI.Gallery.Gallery360Image.image360RenderTexture
+  - Lucid.UI.Gallery.Gallery360Image.PopulateFromItemData(Lucid.UI.Gallery.GalleryItemData)
+  langs:
+  - csharp
+  - vb
+  name: Gallery360Image
+  nameWithType: Gallery360Image
+  fullName: Lucid.UI.Gallery.Gallery360Image
+  type: Class
+  source:
+    id: Gallery360Image
+    path: ''
+    startLine: 10645
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: 'public class Gallery360Image : GalleryItem'
+    content.vb: >-
+      Public Class Gallery360Image
+          Inherits GalleryItem
+  inheritance:
+  - System.Object
+  - Lucid.UI.Gallery.GalleryItem
+  inheritedMembers:
+  - Lucid.UI.Gallery.GalleryItem.rectTrans
+  - Lucid.UI.Gallery.GalleryItem.itemCanvas
+  - Lucid.UI.Gallery.GalleryItem.galleryView
+  - Lucid.UI.Gallery.GalleryItem.itemTag
+  - Lucid.UI.Gallery.GalleryItem.onShowAnimation
+  - Lucid.UI.Gallery.GalleryItem.onHideAnimation
+  - Lucid.UI.Gallery.GalleryItem.onHiddenAnimation
+  - Lucid.UI.Gallery.GalleryItem.hideBeforeShow
+  - Lucid.UI.Gallery.GalleryItem.onShowBegin
+  - Lucid.UI.Gallery.GalleryItem.onShowComplete
+  - Lucid.UI.Gallery.GalleryItem.onHideBegin
+  - Lucid.UI.Gallery.GalleryItem.onHideComplete
+  - Lucid.UI.Gallery.GalleryItem.Show(System.Boolean)
+  - Lucid.UI.Gallery.GalleryItem.BeginShow
+  - Lucid.UI.Gallery.GalleryItem.CompleteShow
+  - Lucid.UI.Gallery.GalleryItem.Hide(System.Boolean)
+  - Lucid.UI.Gallery.GalleryItem.BeginHide
+  - Lucid.UI.Gallery.GalleryItem.CompleteHide
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.UI.Gallery.Gallery360Image.image360RenderTexture
+  commentId: F:Lucid.UI.Gallery.Gallery360Image.image360RenderTexture
+  id: image360RenderTexture
+  parent: Lucid.UI.Gallery.Gallery360Image
+  langs:
+  - csharp
+  - vb
+  name: image360RenderTexture
+  nameWithType: Gallery360Image.image360RenderTexture
+  fullName: Lucid.UI.Gallery.Gallery360Image.image360RenderTexture
+  type: Field
+  source:
+    id: image360RenderTexture
+    path: ''
+    startLine: 10647
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public RenderTexture image360RenderTexture
+    return:
+      type: Global.RenderTexture
+    content.vb: Public image360RenderTexture As RenderTexture
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.Gallery.Gallery360Image.PopulateFromItemData(Lucid.UI.Gallery.GalleryItemData)
+  commentId: M:Lucid.UI.Gallery.Gallery360Image.PopulateFromItemData(Lucid.UI.Gallery.GalleryItemData)
+  id: PopulateFromItemData(Lucid.UI.Gallery.GalleryItemData)
+  parent: Lucid.UI.Gallery.Gallery360Image
+  langs:
+  - csharp
+  - vb
+  name: PopulateFromItemData(GalleryItemData)
+  nameWithType: Gallery360Image.PopulateFromItemData(GalleryItemData)
+  fullName: Lucid.UI.Gallery.Gallery360Image.PopulateFromItemData(Lucid.UI.Gallery.GalleryItemData)
+  type: Method
+  source:
+    id: PopulateFromItemData
+    path: ''
+    startLine: 10649
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public override void PopulateFromItemData(GalleryItemData itemData)
+    parameters:
+    - id: itemData
+      type: Lucid.UI.Gallery.GalleryItemData
+    content.vb: Public Overrides Sub PopulateFromItemData(itemData As GalleryItemData)
+  overridden: Lucid.UI.Gallery.GalleryItem.PopulateFromItemData(Lucid.UI.Gallery.GalleryItemData)
+  overload: Lucid.UI.Gallery.Gallery360Image.PopulateFromItemData*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Lucid.UI.Gallery
+  commentId: N:Lucid.UI.Gallery
+  name: Lucid.UI.Gallery
+  nameWithType: Lucid.UI.Gallery
+  fullName: Lucid.UI.Gallery
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Lucid.UI.Gallery.GalleryItem
+  commentId: T:Lucid.UI.Gallery.GalleryItem
+  parent: Lucid.UI.Gallery
+  name: GalleryItem
+  nameWithType: GalleryItem
+  fullName: Lucid.UI.Gallery.GalleryItem
+- uid: Lucid.UI.Gallery.GalleryItem.rectTrans
+  commentId: P:Lucid.UI.Gallery.GalleryItem.rectTrans
+  parent: Lucid.UI.Gallery.GalleryItem
+  name: rectTrans
+  nameWithType: GalleryItem.rectTrans
+  fullName: Lucid.UI.Gallery.GalleryItem.rectTrans
+- uid: Lucid.UI.Gallery.GalleryItem.itemCanvas
+  commentId: P:Lucid.UI.Gallery.GalleryItem.itemCanvas
+  parent: Lucid.UI.Gallery.GalleryItem
+  name: itemCanvas
+  nameWithType: GalleryItem.itemCanvas
+  fullName: Lucid.UI.Gallery.GalleryItem.itemCanvas
+- uid: Lucid.UI.Gallery.GalleryItem.galleryView
+  commentId: P:Lucid.UI.Gallery.GalleryItem.galleryView
+  parent: Lucid.UI.Gallery.GalleryItem
+  name: galleryView
+  nameWithType: GalleryItem.galleryView
+  fullName: Lucid.UI.Gallery.GalleryItem.galleryView
+- uid: Lucid.UI.Gallery.GalleryItem.itemTag
+  commentId: F:Lucid.UI.Gallery.GalleryItem.itemTag
+  parent: Lucid.UI.Gallery.GalleryItem
+  name: itemTag
+  nameWithType: GalleryItem.itemTag
+  fullName: Lucid.UI.Gallery.GalleryItem.itemTag
+- uid: Lucid.UI.Gallery.GalleryItem.onShowAnimation
+  commentId: F:Lucid.UI.Gallery.GalleryItem.onShowAnimation
+  parent: Lucid.UI.Gallery.GalleryItem
+  name: onShowAnimation
+  nameWithType: GalleryItem.onShowAnimation
+  fullName: Lucid.UI.Gallery.GalleryItem.onShowAnimation
+- uid: Lucid.UI.Gallery.GalleryItem.onHideAnimation
+  commentId: F:Lucid.UI.Gallery.GalleryItem.onHideAnimation
+  parent: Lucid.UI.Gallery.GalleryItem
+  name: onHideAnimation
+  nameWithType: GalleryItem.onHideAnimation
+  fullName: Lucid.UI.Gallery.GalleryItem.onHideAnimation
+- uid: Lucid.UI.Gallery.GalleryItem.onHiddenAnimation
+  commentId: F:Lucid.UI.Gallery.GalleryItem.onHiddenAnimation
+  parent: Lucid.UI.Gallery.GalleryItem
+  name: onHiddenAnimation
+  nameWithType: GalleryItem.onHiddenAnimation
+  fullName: Lucid.UI.Gallery.GalleryItem.onHiddenAnimation
+- uid: Lucid.UI.Gallery.GalleryItem.hideBeforeShow
+  commentId: F:Lucid.UI.Gallery.GalleryItem.hideBeforeShow
+  parent: Lucid.UI.Gallery.GalleryItem
+  name: hideBeforeShow
+  nameWithType: GalleryItem.hideBeforeShow
+  fullName: Lucid.UI.Gallery.GalleryItem.hideBeforeShow
+- uid: Lucid.UI.Gallery.GalleryItem.onShowBegin
+  commentId: F:Lucid.UI.Gallery.GalleryItem.onShowBegin
+  parent: Lucid.UI.Gallery.GalleryItem
+  name: onShowBegin
+  nameWithType: GalleryItem.onShowBegin
+  fullName: Lucid.UI.Gallery.GalleryItem.onShowBegin
+- uid: Lucid.UI.Gallery.GalleryItem.onShowComplete
+  commentId: F:Lucid.UI.Gallery.GalleryItem.onShowComplete
+  parent: Lucid.UI.Gallery.GalleryItem
+  name: onShowComplete
+  nameWithType: GalleryItem.onShowComplete
+  fullName: Lucid.UI.Gallery.GalleryItem.onShowComplete
+- uid: Lucid.UI.Gallery.GalleryItem.onHideBegin
+  commentId: F:Lucid.UI.Gallery.GalleryItem.onHideBegin
+  parent: Lucid.UI.Gallery.GalleryItem
+  name: onHideBegin
+  nameWithType: GalleryItem.onHideBegin
+  fullName: Lucid.UI.Gallery.GalleryItem.onHideBegin
+- uid: Lucid.UI.Gallery.GalleryItem.onHideComplete
+  commentId: F:Lucid.UI.Gallery.GalleryItem.onHideComplete
+  parent: Lucid.UI.Gallery.GalleryItem
+  name: onHideComplete
+  nameWithType: GalleryItem.onHideComplete
+  fullName: Lucid.UI.Gallery.GalleryItem.onHideComplete
+- uid: Lucid.UI.Gallery.GalleryItem.Show(System.Boolean)
+  commentId: M:Lucid.UI.Gallery.GalleryItem.Show(System.Boolean)
+  parent: Lucid.UI.Gallery.GalleryItem
+  isExternal: true
+  name: Show(Boolean)
+  nameWithType: GalleryItem.Show(Boolean)
+  fullName: Lucid.UI.Gallery.GalleryItem.Show(System.Boolean)
+  spec.csharp:
+  - uid: Lucid.UI.Gallery.GalleryItem.Show(System.Boolean)
+    name: Show
+    nameWithType: GalleryItem.Show
+    fullName: Lucid.UI.Gallery.GalleryItem.Show
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.UI.Gallery.GalleryItem.Show(System.Boolean)
+    name: Show
+    nameWithType: GalleryItem.Show
+    fullName: Lucid.UI.Gallery.GalleryItem.Show
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.UI.Gallery.GalleryItem.BeginShow
+  commentId: M:Lucid.UI.Gallery.GalleryItem.BeginShow
+  parent: Lucid.UI.Gallery.GalleryItem
+  name: BeginShow()
+  nameWithType: GalleryItem.BeginShow()
+  fullName: Lucid.UI.Gallery.GalleryItem.BeginShow()
+  spec.csharp:
+  - uid: Lucid.UI.Gallery.GalleryItem.BeginShow
+    name: BeginShow
+    nameWithType: GalleryItem.BeginShow
+    fullName: Lucid.UI.Gallery.GalleryItem.BeginShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.UI.Gallery.GalleryItem.BeginShow
+    name: BeginShow
+    nameWithType: GalleryItem.BeginShow
+    fullName: Lucid.UI.Gallery.GalleryItem.BeginShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.UI.Gallery.GalleryItem.CompleteShow
+  commentId: M:Lucid.UI.Gallery.GalleryItem.CompleteShow
+  parent: Lucid.UI.Gallery.GalleryItem
+  name: CompleteShow()
+  nameWithType: GalleryItem.CompleteShow()
+  fullName: Lucid.UI.Gallery.GalleryItem.CompleteShow()
+  spec.csharp:
+  - uid: Lucid.UI.Gallery.GalleryItem.CompleteShow
+    name: CompleteShow
+    nameWithType: GalleryItem.CompleteShow
+    fullName: Lucid.UI.Gallery.GalleryItem.CompleteShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.UI.Gallery.GalleryItem.CompleteShow
+    name: CompleteShow
+    nameWithType: GalleryItem.CompleteShow
+    fullName: Lucid.UI.Gallery.GalleryItem.CompleteShow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.UI.Gallery.GalleryItem.Hide(System.Boolean)
+  commentId: M:Lucid.UI.Gallery.GalleryItem.Hide(System.Boolean)
+  parent: Lucid.UI.Gallery.GalleryItem
+  isExternal: true
+  name: Hide(Boolean)
+  nameWithType: GalleryItem.Hide(Boolean)
+  fullName: Lucid.UI.Gallery.GalleryItem.Hide(System.Boolean)
+  spec.csharp:
+  - uid: Lucid.UI.Gallery.GalleryItem.Hide(System.Boolean)
+    name: Hide
+    nameWithType: GalleryItem.Hide
+    fullName: Lucid.UI.Gallery.GalleryItem.Hide
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.UI.Gallery.GalleryItem.Hide(System.Boolean)
+    name: Hide
+    nameWithType: GalleryItem.Hide
+    fullName: Lucid.UI.Gallery.GalleryItem.Hide
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.UI.Gallery.GalleryItem.BeginHide
+  commentId: M:Lucid.UI.Gallery.GalleryItem.BeginHide
+  parent: Lucid.UI.Gallery.GalleryItem
+  name: BeginHide()
+  nameWithType: GalleryItem.BeginHide()
+  fullName: Lucid.UI.Gallery.GalleryItem.BeginHide()
+  spec.csharp:
+  - uid: Lucid.UI.Gallery.GalleryItem.BeginHide
+    name: BeginHide
+    nameWithType: GalleryItem.BeginHide
+    fullName: Lucid.UI.Gallery.GalleryItem.BeginHide
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.UI.Gallery.GalleryItem.BeginHide
+    name: BeginHide
+    nameWithType: GalleryItem.BeginHide
+    fullName: Lucid.UI.Gallery.GalleryItem.BeginHide
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.UI.Gallery.GalleryItem.CompleteHide
+  commentId: M:Lucid.UI.Gallery.GalleryItem.CompleteHide
+  parent: Lucid.UI.Gallery.GalleryItem
+  name: CompleteHide()
+  nameWithType: GalleryItem.CompleteHide()
+  fullName: Lucid.UI.Gallery.GalleryItem.CompleteHide()
+  spec.csharp:
+  - uid: Lucid.UI.Gallery.GalleryItem.CompleteHide
+    name: CompleteHide
+    nameWithType: GalleryItem.CompleteHide
+    fullName: Lucid.UI.Gallery.GalleryItem.CompleteHide
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.UI.Gallery.GalleryItem.CompleteHide
+    name: CompleteHide
+    nameWithType: GalleryItem.CompleteHide
+    fullName: Lucid.UI.Gallery.GalleryItem.CompleteHide
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.RenderTexture
+  isExternal: true
+  name: RenderTexture
+  nameWithType: RenderTexture
+  fullName: RenderTexture
+- uid: Lucid.UI.Gallery.GalleryItem.PopulateFromItemData(Lucid.UI.Gallery.GalleryItemData)
+  commentId: M:Lucid.UI.Gallery.GalleryItem.PopulateFromItemData(Lucid.UI.Gallery.GalleryItemData)
+  parent: Lucid.UI.Gallery.GalleryItem
+  name: PopulateFromItemData(GalleryItemData)
+  nameWithType: GalleryItem.PopulateFromItemData(GalleryItemData)
+  fullName: Lucid.UI.Gallery.GalleryItem.PopulateFromItemData(Lucid.UI.Gallery.GalleryItemData)
+  spec.csharp:
+  - uid: Lucid.UI.Gallery.GalleryItem.PopulateFromItemData(Lucid.UI.Gallery.GalleryItemData)
+    name: PopulateFromItemData
+    nameWithType: GalleryItem.PopulateFromItemData
+    fullName: Lucid.UI.Gallery.GalleryItem.PopulateFromItemData
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Lucid.UI.Gallery.GalleryItemData
+    name: GalleryItemData
+    nameWithType: GalleryItemData
+    fullName: Lucid.UI.Gallery.GalleryItemData
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.UI.Gallery.GalleryItem.PopulateFromItemData(Lucid.UI.Gallery.GalleryItemData)
+    name: PopulateFromItemData
+    nameWithType: GalleryItem.PopulateFromItemData
+    fullName: Lucid.UI.Gallery.GalleryItem.PopulateFromItemData
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Lucid.UI.Gallery.GalleryItemData
+    name: GalleryItemData
+    nameWithType: GalleryItemData
+    fullName: Lucid.UI.Gallery.GalleryItemData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.UI.Gallery.Gallery360Image.PopulateFromItemData*
+  commentId: Overload:Lucid.UI.Gallery.Gallery360Image.PopulateFromItemData
+  name: PopulateFromItemData
+  nameWithType: Gallery360Image.PopulateFromItemData
+  fullName: Lucid.UI.Gallery.Gallery360Image.PopulateFromItemData
+- uid: Lucid.UI.Gallery.GalleryItemData
+  commentId: T:Lucid.UI.Gallery.GalleryItemData
+  parent: Lucid.UI.Gallery
+  name: GalleryItemData
+  nameWithType: GalleryItemData
+  fullName: Lucid.UI.Gallery.GalleryItemData

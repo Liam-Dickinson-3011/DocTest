@@ -1,0 +1,382 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.UI.MenuInteractable
+  commentId: T:Lucid.UI.MenuInteractable
+  id: MenuInteractable
+  parent: Lucid.UI
+  children:
+  - Lucid.UI.MenuInteractable.Awake
+  - Lucid.UI.MenuInteractable.baseImage
+  - Lucid.UI.MenuInteractable.baseRT
+  - Lucid.UI.MenuInteractable.label
+  - Lucid.UI.MenuInteractable.Reset
+  - Lucid.UI.MenuInteractable.UpdateBaseImageColor(Color)
+  - Lucid.UI.MenuInteractable.UpdateLabel(System.String)
+  - Lucid.UI.MenuInteractable.UpdateLabelColor(Color)
+  - Lucid.UI.MenuInteractable.UpdateLabelFontSize(System.Single)
+  langs:
+  - csharp
+  - vb
+  name: MenuInteractable
+  nameWithType: MenuInteractable
+  fullName: Lucid.UI.MenuInteractable
+  type: Class
+  source:
+    id: MenuInteractable
+    path: ''
+    startLine: 6084
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: 'public class MenuInteractable : MonoBehaviour'
+    content.vb: >-
+      Public Class MenuInteractable
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Lucid.UI.MenuButton
+  - Lucid.UI.MenuToggle
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.UI.MenuInteractable.baseRT
+  commentId: F:Lucid.UI.MenuInteractable.baseRT
+  id: baseRT
+  parent: Lucid.UI.MenuInteractable
+  langs:
+  - csharp
+  - vb
+  name: baseRT
+  nameWithType: MenuInteractable.baseRT
+  fullName: Lucid.UI.MenuInteractable.baseRT
+  type: Field
+  source:
+    id: baseRT
+    path: ''
+    startLine: 6087
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public RectTransform baseRT
+    return:
+      type: Global.RectTransform
+    content.vb: Public baseRT As RectTransform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.MenuInteractable.baseImage
+  commentId: F:Lucid.UI.MenuInteractable.baseImage
+  id: baseImage
+  parent: Lucid.UI.MenuInteractable
+  langs:
+  - csharp
+  - vb
+  name: baseImage
+  nameWithType: MenuInteractable.baseImage
+  fullName: Lucid.UI.MenuInteractable.baseImage
+  type: Field
+  source:
+    id: baseImage
+    path: ''
+    startLine: 6089
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public Image baseImage
+    return:
+      type: Global.Image
+    content.vb: Public baseImage As Image
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.MenuInteractable.label
+  commentId: F:Lucid.UI.MenuInteractable.label
+  id: label
+  parent: Lucid.UI.MenuInteractable
+  langs:
+  - csharp
+  - vb
+  name: label
+  nameWithType: MenuInteractable.label
+  fullName: Lucid.UI.MenuInteractable.label
+  type: Field
+  source:
+    id: label
+    path: ''
+    startLine: 6091
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public TextMeshProUGUI label
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public label As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.MenuInteractable.Reset
+  commentId: M:Lucid.UI.MenuInteractable.Reset
+  id: Reset
+  parent: Lucid.UI.MenuInteractable
+  langs:
+  - csharp
+  - vb
+  name: Reset()
+  nameWithType: MenuInteractable.Reset()
+  fullName: Lucid.UI.MenuInteractable.Reset()
+  type: Method
+  source:
+    id: Reset
+    path: ''
+    startLine: 6093
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: protected virtual void Reset()
+    content.vb: Protected Overridable Sub Reset
+  overload: Lucid.UI.MenuInteractable.Reset*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: Lucid.UI.MenuInteractable.Awake
+  commentId: M:Lucid.UI.MenuInteractable.Awake
+  id: Awake
+  parent: Lucid.UI.MenuInteractable
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: MenuInteractable.Awake()
+  fullName: Lucid.UI.MenuInteractable.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 6100
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: protected virtual void Awake()
+    content.vb: Protected Overridable Sub Awake
+  overload: Lucid.UI.MenuInteractable.Awake*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: Lucid.UI.MenuInteractable.UpdateLabel(System.String)
+  commentId: M:Lucid.UI.MenuInteractable.UpdateLabel(System.String)
+  id: UpdateLabel(System.String)
+  parent: Lucid.UI.MenuInteractable
+  langs:
+  - csharp
+  - vb
+  name: UpdateLabel(String)
+  nameWithType: MenuInteractable.UpdateLabel(String)
+  fullName: Lucid.UI.MenuInteractable.UpdateLabel(System.String)
+  type: Method
+  source:
+    id: UpdateLabel
+    path: ''
+    startLine: 6105
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public void UpdateLabel(string str)
+    parameters:
+    - id: str
+      type: System.String
+    content.vb: Public Sub UpdateLabel(str As String)
+  overload: Lucid.UI.MenuInteractable.UpdateLabel*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.MenuInteractable.UpdateLabelFontSize(System.Single)
+  commentId: M:Lucid.UI.MenuInteractable.UpdateLabelFontSize(System.Single)
+  id: UpdateLabelFontSize(System.Single)
+  parent: Lucid.UI.MenuInteractable
+  langs:
+  - csharp
+  - vb
+  name: UpdateLabelFontSize(Single)
+  nameWithType: MenuInteractable.UpdateLabelFontSize(Single)
+  fullName: Lucid.UI.MenuInteractable.UpdateLabelFontSize(System.Single)
+  type: Method
+  source:
+    id: UpdateLabelFontSize
+    path: ''
+    startLine: 6117
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public void UpdateLabelFontSize(float f)
+    parameters:
+    - id: f
+      type: System.Single
+    content.vb: Public Sub UpdateLabelFontSize(f As Single)
+  overload: Lucid.UI.MenuInteractable.UpdateLabelFontSize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.MenuInteractable.UpdateLabelColor(Color)
+  commentId: M:Lucid.UI.MenuInteractable.UpdateLabelColor(Color)
+  id: UpdateLabelColor(Color)
+  parent: Lucid.UI.MenuInteractable
+  langs:
+  - csharp
+  - vb
+  name: UpdateLabelColor(Color)
+  nameWithType: MenuInteractable.UpdateLabelColor(Color)
+  fullName: Lucid.UI.MenuInteractable.UpdateLabelColor(Color)
+  type: Method
+  source:
+    id: UpdateLabelColor
+    path: ''
+    startLine: 6129
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public void UpdateLabelColor(Color c)
+    parameters:
+    - id: c
+      type: Global.Color
+    content.vb: Public Sub UpdateLabelColor(c As Color)
+  overload: Lucid.UI.MenuInteractable.UpdateLabelColor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.MenuInteractable.UpdateBaseImageColor(Color)
+  commentId: M:Lucid.UI.MenuInteractable.UpdateBaseImageColor(Color)
+  id: UpdateBaseImageColor(Color)
+  parent: Lucid.UI.MenuInteractable
+  langs:
+  - csharp
+  - vb
+  name: UpdateBaseImageColor(Color)
+  nameWithType: MenuInteractable.UpdateBaseImageColor(Color)
+  fullName: Lucid.UI.MenuInteractable.UpdateBaseImageColor(Color)
+  type: Method
+  source:
+    id: UpdateBaseImageColor
+    path: ''
+    startLine: 6141
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public void UpdateBaseImageColor(Color c)
+    parameters:
+    - id: c
+      type: Global.Color
+    content.vb: Public Sub UpdateBaseImageColor(c As Color)
+  overload: Lucid.UI.MenuInteractable.UpdateBaseImageColor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.UI
+  commentId: N:Lucid.UI
+  name: Lucid.UI
+  nameWithType: Lucid.UI
+  fullName: Lucid.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.RectTransform
+  isExternal: true
+  name: RectTransform
+  nameWithType: RectTransform
+  fullName: RectTransform
+- uid: Global.Image
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: Image
+- uid: Global.TextMeshProUGUI
+  isExternal: true
+  name: TextMeshProUGUI
+  nameWithType: TextMeshProUGUI
+  fullName: TextMeshProUGUI
+- uid: Lucid.UI.MenuInteractable.Reset*
+  commentId: Overload:Lucid.UI.MenuInteractable.Reset
+  name: Reset
+  nameWithType: MenuInteractable.Reset
+  fullName: Lucid.UI.MenuInteractable.Reset
+- uid: Lucid.UI.MenuInteractable.Awake*
+  commentId: Overload:Lucid.UI.MenuInteractable.Awake
+  name: Awake
+  nameWithType: MenuInteractable.Awake
+  fullName: Lucid.UI.MenuInteractable.Awake
+- uid: Lucid.UI.MenuInteractable.UpdateLabel*
+  commentId: Overload:Lucid.UI.MenuInteractable.UpdateLabel
+  name: UpdateLabel
+  nameWithType: MenuInteractable.UpdateLabel
+  fullName: Lucid.UI.MenuInteractable.UpdateLabel
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Lucid.UI.MenuInteractable.UpdateLabelFontSize*
+  commentId: Overload:Lucid.UI.MenuInteractable.UpdateLabelFontSize
+  name: UpdateLabelFontSize
+  nameWithType: MenuInteractable.UpdateLabelFontSize
+  fullName: Lucid.UI.MenuInteractable.UpdateLabelFontSize
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Lucid.UI.MenuInteractable.UpdateLabelColor*
+  commentId: Overload:Lucid.UI.MenuInteractable.UpdateLabelColor
+  name: UpdateLabelColor
+  nameWithType: MenuInteractable.UpdateLabelColor
+  fullName: Lucid.UI.MenuInteractable.UpdateLabelColor
+- uid: Global.Color
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: Color
+- uid: Lucid.UI.MenuInteractable.UpdateBaseImageColor*
+  commentId: Overload:Lucid.UI.MenuInteractable.UpdateBaseImageColor
+  name: UpdateBaseImageColor
+  nameWithType: MenuInteractable.UpdateBaseImageColor
+  fullName: Lucid.UI.MenuInteractable.UpdateBaseImageColor

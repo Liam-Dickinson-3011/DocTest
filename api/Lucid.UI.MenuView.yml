@@ -1,0 +1,912 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.UI.MenuView
+  commentId: T:Lucid.UI.MenuView
+  id: MenuView
+  parent: Lucid.UI
+  children:
+  - Lucid.UI.MenuView.buttonPrefab
+  - Lucid.UI.MenuView.groupTogs
+  - Lucid.UI.MenuView.header
+  - Lucid.UI.MenuView.headerImage
+  - Lucid.UI.MenuView.headerLabel
+  - Lucid.UI.MenuView.headerMargin
+  - Lucid.UI.MenuView.headerMenuButton
+  - Lucid.UI.MenuView.headerRT
+  - Lucid.UI.MenuView.headerSprite
+  - Lucid.UI.MenuView.headerThickness
+  - Lucid.UI.MenuView.headerTmp
+  - Lucid.UI.MenuView.headerType
+  - Lucid.UI.MenuView.hGroup
+  - Lucid.UI.MenuView.itemDatas
+  - Lucid.UI.MenuView.layout
+  - Lucid.UI.MenuView.menuRT
+  - Lucid.UI.MenuView.panelImage
+  - Lucid.UI.MenuView.panelMargin
+  - Lucid.UI.MenuView.panelRT
+  - Lucid.UI.MenuView.panelThickness
+  - Lucid.UI.MenuView.spawnedItems
+  - Lucid.UI.MenuView.togglePrefab
+  - Lucid.UI.MenuView.togGroup
+  - Lucid.UI.MenuView.vGroup
+  langs:
+  - csharp
+  - vb
+  name: MenuView
+  nameWithType: MenuView
+  fullName: Lucid.UI.MenuView
+  type: Class
+  source:
+    id: MenuView
+    path: ''
+    startLine: 8214
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: 'public class MenuView : MonoBehaviour'
+    content.vb: >-
+      Public Class MenuView
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.UI.MenuView.panelRT
+  commentId: F:Lucid.UI.MenuView.panelRT
+  id: panelRT
+  parent: Lucid.UI.MenuView
+  langs:
+  - csharp
+  - vb
+  name: panelRT
+  nameWithType: MenuView.panelRT
+  fullName: Lucid.UI.MenuView.panelRT
+  type: Field
+  source:
+    id: panelRT
+    path: ''
+    startLine: 8337
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public RectTransform panelRT
+    return:
+      type: Global.RectTransform
+    content.vb: Public panelRT As RectTransform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.MenuView.menuRT
+  commentId: F:Lucid.UI.MenuView.menuRT
+  id: menuRT
+  parent: Lucid.UI.MenuView
+  langs:
+  - csharp
+  - vb
+  name: menuRT
+  nameWithType: MenuView.menuRT
+  fullName: Lucid.UI.MenuView.menuRT
+  type: Field
+  source:
+    id: menuRT
+    path: ''
+    startLine: 8340
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public RectTransform menuRT
+    return:
+      type: Global.RectTransform
+    content.vb: Public menuRT As RectTransform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.MenuView.headerRT
+  commentId: F:Lucid.UI.MenuView.headerRT
+  id: headerRT
+  parent: Lucid.UI.MenuView
+  langs:
+  - csharp
+  - vb
+  name: headerRT
+  nameWithType: MenuView.headerRT
+  fullName: Lucid.UI.MenuView.headerRT
+  type: Field
+  source:
+    id: headerRT
+    path: ''
+    startLine: 8344
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public RectTransform headerRT
+    return:
+      type: Global.RectTransform
+    content.vb: Public headerRT As RectTransform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.MenuView.panelImage
+  commentId: F:Lucid.UI.MenuView.panelImage
+  id: panelImage
+  parent: Lucid.UI.MenuView
+  langs:
+  - csharp
+  - vb
+  name: panelImage
+  nameWithType: MenuView.panelImage
+  fullName: Lucid.UI.MenuView.panelImage
+  type: Field
+  source:
+    id: panelImage
+    path: ''
+    startLine: 8347
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public Image panelImage
+    return:
+      type: Global.Image
+    content.vb: Public panelImage As Image
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.MenuView.togGroup
+  commentId: F:Lucid.UI.MenuView.togGroup
+  id: togGroup
+  parent: Lucid.UI.MenuView
+  langs:
+  - csharp
+  - vb
+  name: togGroup
+  nameWithType: MenuView.togGroup
+  fullName: Lucid.UI.MenuView.togGroup
+  type: Field
+  source:
+    id: togGroup
+    path: ''
+    startLine: 8350
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public ToggleGroup togGroup
+    return:
+      type: Global.ToggleGroup
+    content.vb: Public togGroup As ToggleGroup
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.MenuView.hGroup
+  commentId: F:Lucid.UI.MenuView.hGroup
+  id: hGroup
+  parent: Lucid.UI.MenuView
+  langs:
+  - csharp
+  - vb
+  name: hGroup
+  nameWithType: MenuView.hGroup
+  fullName: Lucid.UI.MenuView.hGroup
+  type: Field
+  source:
+    id: hGroup
+    path: ''
+    startLine: 8355
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public HorizontalLayoutGroup hGroup
+    return:
+      type: Global.HorizontalLayoutGroup
+    content.vb: Public hGroup As HorizontalLayoutGroup
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.MenuView.vGroup
+  commentId: F:Lucid.UI.MenuView.vGroup
+  id: vGroup
+  parent: Lucid.UI.MenuView
+  langs:
+  - csharp
+  - vb
+  name: vGroup
+  nameWithType: MenuView.vGroup
+  fullName: Lucid.UI.MenuView.vGroup
+  type: Field
+  source:
+    id: vGroup
+    path: ''
+    startLine: 8360
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public VerticalLayoutGroup vGroup
+    return:
+      type: Global.VerticalLayoutGroup
+    content.vb: Public vGroup As VerticalLayoutGroup
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.MenuView.header
+  commentId: F:Lucid.UI.MenuView.header
+  id: header
+  parent: Lucid.UI.MenuView
+  langs:
+  - csharp
+  - vb
+  name: header
+  nameWithType: MenuView.header
+  fullName: Lucid.UI.MenuView.header
+  type: Field
+  source:
+    id: header
+    path: ''
+    startLine: 8363
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public GameObject header
+    return:
+      type: Global.GameObject
+    content.vb: Public header As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.MenuView.headerTmp
+  commentId: F:Lucid.UI.MenuView.headerTmp
+  id: headerTmp
+  parent: Lucid.UI.MenuView
+  langs:
+  - csharp
+  - vb
+  name: headerTmp
+  nameWithType: MenuView.headerTmp
+  fullName: Lucid.UI.MenuView.headerTmp
+  type: Field
+  source:
+    id: headerTmp
+    path: ''
+    startLine: 8365
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public TextMeshProUGUI headerTmp
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public headerTmp As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.MenuView.headerImage
+  commentId: F:Lucid.UI.MenuView.headerImage
+  id: headerImage
+  parent: Lucid.UI.MenuView
+  langs:
+  - csharp
+  - vb
+  name: headerImage
+  nameWithType: MenuView.headerImage
+  fullName: Lucid.UI.MenuView.headerImage
+  type: Field
+  source:
+    id: headerImage
+    path: ''
+    startLine: 8367
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public Image headerImage
+    return:
+      type: Global.Image
+    content.vb: Public headerImage As Image
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.MenuView.headerMenuButton
+  commentId: F:Lucid.UI.MenuView.headerMenuButton
+  id: headerMenuButton
+  parent: Lucid.UI.MenuView
+  langs:
+  - csharp
+  - vb
+  name: headerMenuButton
+  nameWithType: MenuView.headerMenuButton
+  fullName: Lucid.UI.MenuView.headerMenuButton
+  type: Field
+  source:
+    id: headerMenuButton
+    path: ''
+    startLine: 8369
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public MenuButton headerMenuButton
+    return:
+      type: Lucid.UI.MenuButton
+    content.vb: Public headerMenuButton As MenuButton
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.MenuView.layout
+  commentId: F:Lucid.UI.MenuView.layout
+  id: layout
+  parent: Lucid.UI.MenuView
+  langs:
+  - csharp
+  - vb
+  name: layout
+  nameWithType: MenuView.layout
+  fullName: Lucid.UI.MenuView.layout
+  type: Field
+  source:
+    id: layout
+    path: ''
+    startLine: 8373
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public MenuLayout layout
+    return:
+      type: Global.MenuLayout
+    content.vb: Public layout As MenuLayout
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.MenuView.panelThickness
+  commentId: F:Lucid.UI.MenuView.panelThickness
+  id: panelThickness
+  parent: Lucid.UI.MenuView
+  langs:
+  - csharp
+  - vb
+  name: panelThickness
+  nameWithType: MenuView.panelThickness
+  fullName: Lucid.UI.MenuView.panelThickness
+  type: Field
+  source:
+    id: panelThickness
+    path: ''
+    startLine: 8377
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public float panelThickness
+    return:
+      type: System.Single
+    content.vb: Public panelThickness As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.MenuView.panelMargin
+  commentId: F:Lucid.UI.MenuView.panelMargin
+  id: panelMargin
+  parent: Lucid.UI.MenuView
+  langs:
+  - csharp
+  - vb
+  name: panelMargin
+  nameWithType: MenuView.panelMargin
+  fullName: Lucid.UI.MenuView.panelMargin
+  type: Field
+  source:
+    id: panelMargin
+    path: ''
+    startLine: 8381
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public float panelMargin
+    return:
+      type: System.Single
+    content.vb: Public panelMargin As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.MenuView.headerType
+  commentId: F:Lucid.UI.MenuView.headerType
+  id: headerType
+  parent: Lucid.UI.MenuView
+  langs:
+  - csharp
+  - vb
+  name: headerType
+  nameWithType: MenuView.headerType
+  fullName: Lucid.UI.MenuView.headerType
+  type: Field
+  source:
+    id: headerType
+    path: ''
+    startLine: 8385
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public HeaderType headerType
+    return:
+      type: Global.HeaderType
+    content.vb: Public headerType As HeaderType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.MenuView.headerThickness
+  commentId: F:Lucid.UI.MenuView.headerThickness
+  id: headerThickness
+  parent: Lucid.UI.MenuView
+  langs:
+  - csharp
+  - vb
+  name: headerThickness
+  nameWithType: MenuView.headerThickness
+  fullName: Lucid.UI.MenuView.headerThickness
+  type: Field
+  source:
+    id: headerThickness
+    path: ''
+    startLine: 8565
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public float headerThickness
+    return:
+      type: System.Single
+    content.vb: Public headerThickness As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.MenuView.headerMargin
+  commentId: F:Lucid.UI.MenuView.headerMargin
+  id: headerMargin
+  parent: Lucid.UI.MenuView
+  langs:
+  - csharp
+  - vb
+  name: headerMargin
+  nameWithType: MenuView.headerMargin
+  fullName: Lucid.UI.MenuView.headerMargin
+  type: Field
+  source:
+    id: headerMargin
+    path: ''
+    startLine: 8569
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public float headerMargin
+    return:
+      type: System.Single
+    content.vb: Public headerMargin As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.MenuView.headerLabel
+  commentId: F:Lucid.UI.MenuView.headerLabel
+  id: headerLabel
+  parent: Lucid.UI.MenuView
+  langs:
+  - csharp
+  - vb
+  name: headerLabel
+  nameWithType: MenuView.headerLabel
+  fullName: Lucid.UI.MenuView.headerLabel
+  type: Field
+  source:
+    id: headerLabel
+    path: ''
+    startLine: 8574
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public string headerLabel
+    return:
+      type: System.String
+    content.vb: Public headerLabel As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.MenuView.headerSprite
+  commentId: F:Lucid.UI.MenuView.headerSprite
+  id: headerSprite
+  parent: Lucid.UI.MenuView
+  langs:
+  - csharp
+  - vb
+  name: headerSprite
+  nameWithType: MenuView.headerSprite
+  fullName: Lucid.UI.MenuView.headerSprite
+  type: Field
+  source:
+    id: headerSprite
+    path: ''
+    startLine: 8578
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public Sprite headerSprite
+    return:
+      type: Global.Sprite
+    content.vb: Public headerSprite As Sprite
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.MenuView.buttonPrefab
+  commentId: F:Lucid.UI.MenuView.buttonPrefab
+  id: buttonPrefab
+  parent: Lucid.UI.MenuView
+  langs:
+  - csharp
+  - vb
+  name: buttonPrefab
+  nameWithType: MenuView.buttonPrefab
+  fullName: Lucid.UI.MenuView.buttonPrefab
+  type: Field
+  source:
+    id: buttonPrefab
+    path: ''
+    startLine: 8582
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public GameObject buttonPrefab
+    return:
+      type: Global.GameObject
+    content.vb: Public buttonPrefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.MenuView.togglePrefab
+  commentId: F:Lucid.UI.MenuView.togglePrefab
+  id: togglePrefab
+  parent: Lucid.UI.MenuView
+  langs:
+  - csharp
+  - vb
+  name: togglePrefab
+  nameWithType: MenuView.togglePrefab
+  fullName: Lucid.UI.MenuView.togglePrefab
+  type: Field
+  source:
+    id: togglePrefab
+    path: ''
+    startLine: 8586
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public GameObject togglePrefab
+    return:
+      type: Global.GameObject
+    content.vb: Public togglePrefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.MenuView.groupTogs
+  commentId: F:Lucid.UI.MenuView.groupTogs
+  id: groupTogs
+  parent: Lucid.UI.MenuView
+  langs:
+  - csharp
+  - vb
+  name: groupTogs
+  nameWithType: MenuView.groupTogs
+  fullName: Lucid.UI.MenuView.groupTogs
+  type: Field
+  source:
+    id: groupTogs
+    path: ''
+    startLine: 8590
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public bool groupTogs
+    return:
+      type: System.Boolean
+    content.vb: Public groupTogs As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.MenuView.itemDatas
+  commentId: F:Lucid.UI.MenuView.itemDatas
+  id: itemDatas
+  parent: Lucid.UI.MenuView
+  langs:
+  - csharp
+  - vb
+  name: itemDatas
+  nameWithType: MenuView.itemDatas
+  fullName: Lucid.UI.MenuView.itemDatas
+  type: Field
+  source:
+    id: itemDatas
+    path: ''
+    startLine: 8593
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public MenuItemData[] itemDatas
+    return:
+      type: Global.MenuItemData[]
+    content.vb: Public itemDatas As MenuItemData()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.UI.MenuView.spawnedItems
+  commentId: F:Lucid.UI.MenuView.spawnedItems
+  id: spawnedItems
+  parent: Lucid.UI.MenuView
+  langs:
+  - csharp
+  - vb
+  name: spawnedItems
+  nameWithType: MenuView.spawnedItems
+  fullName: Lucid.UI.MenuView.spawnedItems
+  type: Field
+  source:
+    id: spawnedItems
+    path: ''
+    startLine: 8596
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI
+  syntax:
+    content: public List<MenuInteractable> spawnedItems
+    return:
+      type: Global.List{Lucid.UI.MenuInteractable}
+    content.vb: Public spawnedItems As List(Of MenuInteractable)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.UI
+  commentId: N:Lucid.UI
+  name: Lucid.UI
+  nameWithType: Lucid.UI
+  fullName: Lucid.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.RectTransform
+  isExternal: true
+  name: RectTransform
+  nameWithType: RectTransform
+  fullName: RectTransform
+- uid: Global.Image
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: Image
+- uid: Global.ToggleGroup
+  commentId: '!:Global.ToggleGroup'
+  isExternal: true
+  name: ToggleGroup
+  nameWithType: ToggleGroup
+  fullName: ToggleGroup
+- uid: Global.HorizontalLayoutGroup
+  commentId: '!:Global.HorizontalLayoutGroup'
+  isExternal: true
+  name: HorizontalLayoutGroup
+  nameWithType: HorizontalLayoutGroup
+  fullName: HorizontalLayoutGroup
+- uid: Global.VerticalLayoutGroup
+  commentId: '!:Global.VerticalLayoutGroup'
+  isExternal: true
+  name: VerticalLayoutGroup
+  nameWithType: VerticalLayoutGroup
+  fullName: VerticalLayoutGroup
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.TextMeshProUGUI
+  isExternal: true
+  name: TextMeshProUGUI
+  nameWithType: TextMeshProUGUI
+  fullName: TextMeshProUGUI
+- uid: Lucid.UI.MenuButton
+  commentId: T:Lucid.UI.MenuButton
+  parent: Lucid.UI
+  name: MenuButton
+  nameWithType: MenuButton
+  fullName: Lucid.UI.MenuButton
+- uid: Global.MenuLayout
+  commentId: '!:Global.MenuLayout'
+  isExternal: true
+  name: MenuLayout
+  nameWithType: MenuLayout
+  fullName: MenuLayout
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.HeaderType
+  commentId: '!:Global.HeaderType'
+  isExternal: true
+  name: HeaderType
+  nameWithType: HeaderType
+  fullName: HeaderType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.Sprite
+  isExternal: true
+  name: Sprite
+  nameWithType: Sprite
+  fullName: Sprite
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.MenuItemData[]
+  isExternal: true
+  name: MenuItemData[]
+  nameWithType: MenuItemData[]
+  fullName: MenuItemData[]
+  nameWithType.vb: MenuItemData()
+  fullName.vb: MenuItemData()
+  name.vb: MenuItemData()
+  spec.csharp:
+  - uid: Global.MenuItemData
+    name: MenuItemData
+    nameWithType: MenuItemData
+    fullName: MenuItemData
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.MenuItemData
+    name: MenuItemData
+    nameWithType: MenuItemData
+    fullName: MenuItemData
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.List{Lucid.UI.MenuInteractable}
+  commentId: '!:Global.List{Lucid.UI.MenuInteractable}'
+  definition: Global.List`1
+  name: List<MenuInteractable>
+  nameWithType: List<MenuInteractable>
+  fullName: List<Lucid.UI.MenuInteractable>
+  nameWithType.vb: List(Of MenuInteractable)
+  fullName.vb: List(Of Lucid.UI.MenuInteractable)
+  name.vb: List(Of MenuInteractable)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Lucid.UI.MenuInteractable
+    name: MenuInteractable
+    nameWithType: MenuInteractable
+    fullName: Lucid.UI.MenuInteractable
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Lucid.UI.MenuInteractable
+    name: MenuInteractable
+    nameWithType: MenuInteractable
+    fullName: Lucid.UI.MenuInteractable
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

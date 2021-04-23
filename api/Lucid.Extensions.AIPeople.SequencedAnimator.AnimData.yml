@@ -1,0 +1,191 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Extensions.AIPeople.SequencedAnimator.AnimData
+  commentId: T:Lucid.Extensions.AIPeople.SequencedAnimator.AnimData
+  id: SequencedAnimator.AnimData
+  parent: Lucid.Extensions.AIPeople
+  children:
+  - Lucid.Extensions.AIPeople.SequencedAnimator.AnimData.#ctor
+  - Lucid.Extensions.AIPeople.SequencedAnimator.AnimData.maxWait
+  - Lucid.Extensions.AIPeople.SequencedAnimator.AnimData.minWait
+  - Lucid.Extensions.AIPeople.SequencedAnimator.AnimData.triggerID
+  langs:
+  - csharp
+  - vb
+  name: SequencedAnimator.AnimData
+  nameWithType: SequencedAnimator.AnimData
+  fullName: Lucid.Extensions.AIPeople.SequencedAnimator.AnimData
+  type: Class
+  source:
+    id: AnimData
+    path: ''
+    startLine: 5400
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class AnimData
+    content.vb: >-
+      <Serializable>
+
+      Public Class AnimData
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Extensions.AIPeople.SequencedAnimator.AnimData.triggerID
+  commentId: F:Lucid.Extensions.AIPeople.SequencedAnimator.AnimData.triggerID
+  id: triggerID
+  parent: Lucid.Extensions.AIPeople.SequencedAnimator.AnimData
+  langs:
+  - csharp
+  - vb
+  name: triggerID
+  nameWithType: SequencedAnimator.AnimData.triggerID
+  fullName: Lucid.Extensions.AIPeople.SequencedAnimator.AnimData.triggerID
+  type: Field
+  source:
+    id: triggerID
+    path: ''
+    startLine: 5403
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: public string triggerID
+    return:
+      type: System.String
+    content.vb: Public triggerID As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.AIPeople.SequencedAnimator.AnimData.minWait
+  commentId: F:Lucid.Extensions.AIPeople.SequencedAnimator.AnimData.minWait
+  id: minWait
+  parent: Lucid.Extensions.AIPeople.SequencedAnimator.AnimData
+  langs:
+  - csharp
+  - vb
+  name: minWait
+  nameWithType: SequencedAnimator.AnimData.minWait
+  fullName: Lucid.Extensions.AIPeople.SequencedAnimator.AnimData.minWait
+  type: Field
+  source:
+    id: minWait
+    path: ''
+    startLine: 5404
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: public float minWait
+    return:
+      type: System.Single
+    content.vb: Public minWait As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.AIPeople.SequencedAnimator.AnimData.maxWait
+  commentId: F:Lucid.Extensions.AIPeople.SequencedAnimator.AnimData.maxWait
+  id: maxWait
+  parent: Lucid.Extensions.AIPeople.SequencedAnimator.AnimData
+  langs:
+  - csharp
+  - vb
+  name: maxWait
+  nameWithType: SequencedAnimator.AnimData.maxWait
+  fullName: Lucid.Extensions.AIPeople.SequencedAnimator.AnimData.maxWait
+  type: Field
+  source:
+    id: maxWait
+    path: ''
+    startLine: 5405
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: public float maxWait
+    return:
+      type: System.Single
+    content.vb: Public maxWait As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Extensions.AIPeople.SequencedAnimator.AnimData.#ctor
+  commentId: M:Lucid.Extensions.AIPeople.SequencedAnimator.AnimData.#ctor
+  id: '#ctor'
+  parent: Lucid.Extensions.AIPeople.SequencedAnimator.AnimData
+  langs:
+  - csharp
+  - vb
+  name: AnimData()
+  nameWithType: SequencedAnimator.AnimData.AnimData()
+  fullName: Lucid.Extensions.AIPeople.SequencedAnimator.AnimData.AnimData()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 5407
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: public AnimData()
+    content.vb: Public Sub New
+  overload: Lucid.Extensions.AIPeople.SequencedAnimator.AnimData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Extensions.AIPeople
+  commentId: N:Lucid.Extensions.AIPeople
+  name: Lucid.Extensions.AIPeople
+  nameWithType: Lucid.Extensions.AIPeople
+  fullName: Lucid.Extensions.AIPeople
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Lucid.Extensions.AIPeople.SequencedAnimator.AnimData.#ctor*
+  commentId: Overload:Lucid.Extensions.AIPeople.SequencedAnimator.AnimData.#ctor
+  name: AnimData
+  nameWithType: SequencedAnimator.AnimData.AnimData
+  fullName: Lucid.Extensions.AIPeople.SequencedAnimator.AnimData.AnimData

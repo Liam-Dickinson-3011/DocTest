@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Extensions.AIPeople.SequencedWaypointWalker
+  commentId: T:Lucid.Extensions.AIPeople.SequencedWaypointWalker
+  id: SequencedWaypointWalker
+  parent: Lucid.Extensions.AIPeople
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: SequencedWaypointWalker
+  nameWithType: SequencedWaypointWalker
+  fullName: Lucid.Extensions.AIPeople.SequencedWaypointWalker
+  type: Class
+  source:
+    id: SequencedWaypointWalker
+    path: ''
+    startLine: 5129
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Extensions.AIPeople
+  syntax:
+    content: 'public class SequencedWaypointWalker : MonoBehaviour'
+    content.vb: >-
+      Public Class SequencedWaypointWalker
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Lucid.Extensions.AIPeople
+  commentId: N:Lucid.Extensions.AIPeople
+  name: Lucid.Extensions.AIPeople
+  nameWithType: Lucid.Extensions.AIPeople
+  fullName: Lucid.Extensions.AIPeople
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

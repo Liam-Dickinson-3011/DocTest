@@ -1,0 +1,463 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.DataStorage.DataStore
+  commentId: T:Lucid.DataStorage.DataStore
+  id: DataStore
+  parent: Lucid.DataStorage
+  children:
+  - Lucid.DataStorage.DataStore.data
+  - Lucid.DataStorage.DataStore.dataType
+  - Lucid.DataStorage.DataStore.GetDataKeys(System.String)
+  - Lucid.DataStorage.DataStore.GetDataStores
+  - Lucid.DataStorage.DataStore.GetValue``1(System.String)
+  - Lucid.DataStorage.DataStore.GetValueRaw(System.String)
+  - Lucid.DataStorage.DataStore.Populate
+  langs:
+  - csharp
+  - vb
+  name: DataStore
+  nameWithType: DataStore
+  fullName: Lucid.DataStorage.DataStore
+  type: Class
+  source:
+    id: DataStore
+    path: ''
+    startLine: 14415
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: 'public abstract class DataStore : SerializedScriptableObject'
+    content.vb: >-
+      Public MustInherit Class DataStore
+          Inherits SerializedScriptableObject
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Lucid.DataStorage.CSVDataStore
+  - Lucid.DataStorage.GoogleSheetsDataStore
+  - Lucid.DataStorage.JSONDataStore
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Lucid.DataStorage.DataStore.data
+  commentId: F:Lucid.DataStorage.DataStore.data
+  id: data
+  parent: Lucid.DataStorage.DataStore
+  langs:
+  - csharp
+  - vb
+  name: data
+  nameWithType: DataStore.data
+  fullName: Lucid.DataStorage.DataStore.data
+  type: Field
+  source:
+    id: data
+    path: ''
+    startLine: 14420
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public Node data
+    return:
+      type: Lucid.DataStorage.Node
+    content.vb: Public data As Node
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.DataStorage.DataStore.dataType
+  commentId: P:Lucid.DataStorage.DataStore.dataType
+  id: dataType
+  parent: Lucid.DataStorage.DataStore
+  langs:
+  - csharp
+  - vb
+  name: dataType
+  nameWithType: DataStore.dataType
+  fullName: Lucid.DataStorage.DataStore.dataType
+  type: Property
+  source:
+    id: dataType
+    path: ''
+    startLine: 14424
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public abstract DataStore.DataType dataType { get; }
+    parameters: []
+    return:
+      type: Lucid.DataStorage.DataStore.DataType
+    content.vb: Public MustOverride ReadOnly Property dataType As DataStore.DataType
+  overload: Lucid.DataStorage.DataStore.dataType*
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  modifiers.vb:
+  - Public
+  - MustOverride
+  - ReadOnly
+- uid: Lucid.DataStorage.DataStore.Populate
+  commentId: M:Lucid.DataStorage.DataStore.Populate
+  id: Populate
+  parent: Lucid.DataStorage.DataStore
+  langs:
+  - csharp
+  - vb
+  name: Populate()
+  nameWithType: DataStore.Populate()
+  fullName: Lucid.DataStorage.DataStore.Populate()
+  type: Method
+  source:
+    id: Populate
+    path: ''
+    startLine: 14426
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public abstract void Populate()
+    content.vb: Public MustOverride Sub Populate
+  overload: Lucid.DataStorage.DataStore.Populate*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: Lucid.DataStorage.DataStore.GetValueRaw(System.String)
+  commentId: M:Lucid.DataStorage.DataStore.GetValueRaw(System.String)
+  id: GetValueRaw(System.String)
+  parent: Lucid.DataStorage.DataStore
+  langs:
+  - csharp
+  - vb
+  name: GetValueRaw(String)
+  nameWithType: DataStore.GetValueRaw(String)
+  fullName: Lucid.DataStorage.DataStore.GetValueRaw(System.String)
+  type: Method
+  source:
+    id: GetValueRaw
+    path: ''
+    startLine: 14429
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public object GetValueRaw(string searchKey)
+    parameters:
+    - id: searchKey
+      type: System.String
+    return:
+      type: System.Object
+    content.vb: Public Function GetValueRaw(searchKey As String) As Object
+  overload: Lucid.DataStorage.DataStore.GetValueRaw*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.DataStorage.DataStore.GetValue``1(System.String)
+  commentId: M:Lucid.DataStorage.DataStore.GetValue``1(System.String)
+  id: GetValue``1(System.String)
+  parent: Lucid.DataStorage.DataStore
+  langs:
+  - csharp
+  - vb
+  name: GetValue<T>(String)
+  nameWithType: DataStore.GetValue<T>(String)
+  fullName: Lucid.DataStorage.DataStore.GetValue<T>(System.String)
+  type: Method
+  source:
+    id: GetValue
+    path: ''
+    startLine: 14450
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public T GetValue<T>(string searchKey)
+    parameters:
+    - id: searchKey
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function GetValue(Of T)(searchKey As String) As T
+  overload: Lucid.DataStorage.DataStore.GetValue*
+  nameWithType.vb: DataStore.GetValue(Of T)(String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Lucid.DataStorage.DataStore.GetValue(Of T)(System.String)
+  name.vb: GetValue(Of T)(String)
+- uid: Lucid.DataStorage.DataStore.GetDataKeys(System.String)
+  commentId: M:Lucid.DataStorage.DataStore.GetDataKeys(System.String)
+  id: GetDataKeys(System.String)
+  parent: Lucid.DataStorage.DataStore
+  langs:
+  - csharp
+  - vb
+  name: GetDataKeys(String)
+  nameWithType: DataStore.GetDataKeys(String)
+  fullName: Lucid.DataStorage.DataStore.GetDataKeys(System.String)
+  type: Method
+  source:
+    id: GetDataKeys
+    path: ''
+    startLine: 14469
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public List<string> GetDataKeys(string searchPrefix = null)
+    parameters:
+    - id: searchPrefix
+      type: System.String
+    return:
+      type: Global.List{System.String}
+    content.vb: Public Function GetDataKeys(searchPrefix As String = Nothing) As List(Of String)
+  overload: Lucid.DataStorage.DataStore.GetDataKeys*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.DataStorage.DataStore.GetDataStores
+  commentId: M:Lucid.DataStorage.DataStore.GetDataStores
+  id: GetDataStores
+  parent: Lucid.DataStorage.DataStore
+  langs:
+  - csharp
+  - vb
+  name: GetDataStores()
+  nameWithType: DataStore.GetDataStores()
+  fullName: Lucid.DataStorage.DataStore.GetDataStores()
+  type: Method
+  source:
+    id: GetDataStores
+    path: ''
+    startLine: 14488
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public static List<DataStore> GetDataStores()
+    return:
+      type: Global.List{Lucid.DataStorage.DataStore}
+    content.vb: Public Shared Function GetDataStores As List(Of DataStore)
+  overload: Lucid.DataStorage.DataStore.GetDataStores*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Lucid.DataStorage
+  commentId: N:Lucid.DataStorage
+  name: Lucid.DataStorage
+  nameWithType: Lucid.DataStorage
+  fullName: Lucid.DataStorage
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.DataStorage.Node
+  commentId: T:Lucid.DataStorage.Node
+  parent: Lucid.DataStorage
+  name: Node
+  nameWithType: Node
+  fullName: Lucid.DataStorage.Node
+- uid: Lucid.DataStorage.DataStore.dataType*
+  commentId: Overload:Lucid.DataStorage.DataStore.dataType
+  name: dataType
+  nameWithType: DataStore.dataType
+  fullName: Lucid.DataStorage.DataStore.dataType
+- uid: Lucid.DataStorage.DataStore.DataType
+  commentId: T:Lucid.DataStorage.DataStore.DataType
+  parent: Lucid.DataStorage
+  name: DataStore.DataType
+  nameWithType: DataStore.DataType
+  fullName: Lucid.DataStorage.DataStore.DataType
+- uid: Lucid.DataStorage.DataStore.Populate*
+  commentId: Overload:Lucid.DataStorage.DataStore.Populate
+  name: Populate
+  nameWithType: DataStore.Populate
+  fullName: Lucid.DataStorage.DataStore.Populate
+- uid: Lucid.DataStorage.DataStore.GetValueRaw*
+  commentId: Overload:Lucid.DataStorage.DataStore.GetValueRaw
+  name: GetValueRaw
+  nameWithType: DataStore.GetValueRaw
+  fullName: Lucid.DataStorage.DataStore.GetValueRaw
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Lucid.DataStorage.DataStore.GetValue*
+  commentId: Overload:Lucid.DataStorage.DataStore.GetValue
+  name: GetValue
+  nameWithType: DataStore.GetValue
+  fullName: Lucid.DataStorage.DataStore.GetValue
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Lucid.DataStorage.DataStore.GetDataKeys*
+  commentId: Overload:Lucid.DataStorage.DataStore.GetDataKeys
+  name: GetDataKeys
+  nameWithType: DataStore.GetDataKeys
+  fullName: Lucid.DataStorage.DataStore.GetDataKeys
+- uid: Global.List{System.String}
+  commentId: '!:Global.List{System.String}'
+  definition: Global.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.DataStorage.DataStore.GetDataStores*
+  commentId: Overload:Lucid.DataStorage.DataStore.GetDataStores
+  name: GetDataStores
+  nameWithType: DataStore.GetDataStores
+  fullName: Lucid.DataStorage.DataStore.GetDataStores
+- uid: Global.List{Lucid.DataStorage.DataStore}
+  commentId: '!:Global.List{Lucid.DataStorage.DataStore}'
+  definition: Global.List`1
+  name: List<DataStore>
+  nameWithType: List<DataStore>
+  fullName: List<Lucid.DataStorage.DataStore>
+  nameWithType.vb: List(Of DataStore)
+  fullName.vb: List(Of Lucid.DataStorage.DataStore)
+  name.vb: List(Of DataStore)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Lucid.DataStorage.DataStore
+    name: DataStore
+    nameWithType: DataStore
+    fullName: Lucid.DataStorage.DataStore
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Lucid.DataStorage.DataStore
+    name: DataStore
+    nameWithType: DataStore
+    fullName: Lucid.DataStorage.DataStore
+  - name: )
+    nameWithType: )
+    fullName: )

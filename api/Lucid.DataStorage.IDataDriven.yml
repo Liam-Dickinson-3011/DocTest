@@ -1,0 +1,330 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.DataStorage.IDataDriven
+  commentId: T:Lucid.DataStorage.IDataDriven
+  id: IDataDriven
+  parent: Lucid.DataStorage
+  children:
+  - Lucid.DataStorage.IDataDriven.dataKey
+  - Lucid.DataStorage.IDataDriven.dataStore
+  - Lucid.DataStorage.IDataDriven.dataValue
+  - Lucid.DataStorage.IDataDriven.GetValue
+  - Lucid.DataStorage.IDataDriven.key
+  - Lucid.DataStorage.IDataDriven.keyPrefix
+  - Lucid.DataStorage.IDataDriven.UpdateComponent
+  - Lucid.DataStorage.IDataDriven.useKeyPrefix
+  langs:
+  - csharp
+  - vb
+  name: IDataDriven
+  nameWithType: IDataDriven
+  fullName: Lucid.DataStorage.IDataDriven
+  type: Interface
+  source:
+    id: IDataDriven
+    path: ''
+    startLine: 14057
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public interface IDataDriven
+    content.vb: Public Interface IDataDriven
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Lucid.DataStorage.IDataDriven.dataStore
+  commentId: P:Lucid.DataStorage.IDataDriven.dataStore
+  id: dataStore
+  parent: Lucid.DataStorage.IDataDriven
+  langs:
+  - csharp
+  - vb
+  name: dataStore
+  nameWithType: IDataDriven.dataStore
+  fullName: Lucid.DataStorage.IDataDriven.dataStore
+  type: Property
+  source:
+    id: dataStore
+    path: ''
+    startLine: 14059
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: DataStore dataStore { get; set; }
+    parameters: []
+    return:
+      type: Lucid.DataStorage.DataStore
+    content.vb: Property dataStore As DataStore
+  overload: Lucid.DataStorage.IDataDriven.dataStore*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Lucid.DataStorage.IDataDriven.useKeyPrefix
+  commentId: P:Lucid.DataStorage.IDataDriven.useKeyPrefix
+  id: useKeyPrefix
+  parent: Lucid.DataStorage.IDataDriven
+  langs:
+  - csharp
+  - vb
+  name: useKeyPrefix
+  nameWithType: IDataDriven.useKeyPrefix
+  fullName: Lucid.DataStorage.IDataDriven.useKeyPrefix
+  type: Property
+  source:
+    id: useKeyPrefix
+    path: ''
+    startLine: 14061
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: bool useKeyPrefix { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property useKeyPrefix As Boolean
+  overload: Lucid.DataStorage.IDataDriven.useKeyPrefix*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Lucid.DataStorage.IDataDriven.keyPrefix
+  commentId: P:Lucid.DataStorage.IDataDriven.keyPrefix
+  id: keyPrefix
+  parent: Lucid.DataStorage.IDataDriven
+  langs:
+  - csharp
+  - vb
+  name: keyPrefix
+  nameWithType: IDataDriven.keyPrefix
+  fullName: Lucid.DataStorage.IDataDriven.keyPrefix
+  type: Property
+  source:
+    id: keyPrefix
+    path: ''
+    startLine: 14063
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: string keyPrefix { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property keyPrefix As String
+  overload: Lucid.DataStorage.IDataDriven.keyPrefix*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Lucid.DataStorage.IDataDriven.key
+  commentId: P:Lucid.DataStorage.IDataDriven.key
+  id: key
+  parent: Lucid.DataStorage.IDataDriven
+  langs:
+  - csharp
+  - vb
+  name: key
+  nameWithType: IDataDriven.key
+  fullName: Lucid.DataStorage.IDataDriven.key
+  type: Property
+  source:
+    id: key
+    path: ''
+    startLine: 14065
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: string key { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property key As String
+  overload: Lucid.DataStorage.IDataDriven.key*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Lucid.DataStorage.IDataDriven.dataKey
+  commentId: P:Lucid.DataStorage.IDataDriven.dataKey
+  id: dataKey
+  parent: Lucid.DataStorage.IDataDriven
+  langs:
+  - csharp
+  - vb
+  name: dataKey
+  nameWithType: IDataDriven.dataKey
+  fullName: Lucid.DataStorage.IDataDriven.dataKey
+  type: Property
+  source:
+    id: dataKey
+    path: ''
+    startLine: 14067
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: string dataKey { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property dataKey As String
+  overload: Lucid.DataStorage.IDataDriven.dataKey*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Lucid.DataStorage.IDataDriven.dataValue
+  commentId: P:Lucid.DataStorage.IDataDriven.dataValue
+  id: dataValue
+  parent: Lucid.DataStorage.IDataDriven
+  langs:
+  - csharp
+  - vb
+  name: dataValue
+  nameWithType: IDataDriven.dataValue
+  fullName: Lucid.DataStorage.IDataDriven.dataValue
+  type: Property
+  source:
+    id: dataValue
+    path: ''
+    startLine: 14069
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: object dataValue { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Property dataValue As Object
+  overload: Lucid.DataStorage.IDataDriven.dataValue*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Lucid.DataStorage.IDataDriven.GetValue
+  commentId: M:Lucid.DataStorage.IDataDriven.GetValue
+  id: GetValue
+  parent: Lucid.DataStorage.IDataDriven
+  langs:
+  - csharp
+  - vb
+  name: GetValue()
+  nameWithType: IDataDriven.GetValue()
+  fullName: Lucid.DataStorage.IDataDriven.GetValue()
+  type: Method
+  source:
+    id: GetValue
+    path: ''
+    startLine: 14071
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: void GetValue()
+    content.vb: Sub GetValue
+  overload: Lucid.DataStorage.IDataDriven.GetValue*
+- uid: Lucid.DataStorage.IDataDriven.UpdateComponent
+  commentId: M:Lucid.DataStorage.IDataDriven.UpdateComponent
+  id: UpdateComponent
+  parent: Lucid.DataStorage.IDataDriven
+  langs:
+  - csharp
+  - vb
+  name: UpdateComponent()
+  nameWithType: IDataDriven.UpdateComponent()
+  fullName: Lucid.DataStorage.IDataDriven.UpdateComponent()
+  type: Method
+  source:
+    id: UpdateComponent
+    path: ''
+    startLine: 14073
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: void UpdateComponent()
+    content.vb: Sub UpdateComponent
+  overload: Lucid.DataStorage.IDataDriven.UpdateComponent*
+references:
+- uid: Lucid.DataStorage
+  commentId: N:Lucid.DataStorage
+  name: Lucid.DataStorage
+  nameWithType: Lucid.DataStorage
+  fullName: Lucid.DataStorage
+- uid: Lucid.DataStorage.IDataDriven.dataStore*
+  commentId: Overload:Lucid.DataStorage.IDataDriven.dataStore
+  name: dataStore
+  nameWithType: IDataDriven.dataStore
+  fullName: Lucid.DataStorage.IDataDriven.dataStore
+- uid: Lucid.DataStorage.DataStore
+  commentId: T:Lucid.DataStorage.DataStore
+  parent: Lucid.DataStorage
+  name: DataStore
+  nameWithType: DataStore
+  fullName: Lucid.DataStorage.DataStore
+- uid: Lucid.DataStorage.IDataDriven.useKeyPrefix*
+  commentId: Overload:Lucid.DataStorage.IDataDriven.useKeyPrefix
+  name: useKeyPrefix
+  nameWithType: IDataDriven.useKeyPrefix
+  fullName: Lucid.DataStorage.IDataDriven.useKeyPrefix
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.DataStorage.IDataDriven.keyPrefix*
+  commentId: Overload:Lucid.DataStorage.IDataDriven.keyPrefix
+  name: keyPrefix
+  nameWithType: IDataDriven.keyPrefix
+  fullName: Lucid.DataStorage.IDataDriven.keyPrefix
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Lucid.DataStorage.IDataDriven.key*
+  commentId: Overload:Lucid.DataStorage.IDataDriven.key
+  name: key
+  nameWithType: IDataDriven.key
+  fullName: Lucid.DataStorage.IDataDriven.key
+- uid: Lucid.DataStorage.IDataDriven.dataKey*
+  commentId: Overload:Lucid.DataStorage.IDataDriven.dataKey
+  name: dataKey
+  nameWithType: IDataDriven.dataKey
+  fullName: Lucid.DataStorage.IDataDriven.dataKey
+- uid: Lucid.DataStorage.IDataDriven.dataValue*
+  commentId: Overload:Lucid.DataStorage.IDataDriven.dataValue
+  name: dataValue
+  nameWithType: IDataDriven.dataValue
+  fullName: Lucid.DataStorage.IDataDriven.dataValue
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Lucid.DataStorage.IDataDriven.GetValue*
+  commentId: Overload:Lucid.DataStorage.IDataDriven.GetValue
+  name: GetValue
+  nameWithType: IDataDriven.GetValue
+  fullName: Lucid.DataStorage.IDataDriven.GetValue
+- uid: Lucid.DataStorage.IDataDriven.UpdateComponent*
+  commentId: Overload:Lucid.DataStorage.IDataDriven.UpdateComponent
+  name: UpdateComponent
+  nameWithType: IDataDriven.UpdateComponent
+  fullName: Lucid.DataStorage.IDataDriven.UpdateComponent

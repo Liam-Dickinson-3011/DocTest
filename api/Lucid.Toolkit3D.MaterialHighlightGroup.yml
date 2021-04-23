@@ -1,0 +1,478 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Toolkit3D.MaterialHighlightGroup
+  commentId: T:Lucid.Toolkit3D.MaterialHighlightGroup
+  id: MaterialHighlightGroup
+  parent: Lucid.Toolkit3D
+  children:
+  - Lucid.Toolkit3D.MaterialHighlightGroup.allowClick
+  - Lucid.Toolkit3D.MaterialHighlightGroup.CutColor(System.Boolean)
+  - Lucid.Toolkit3D.MaterialHighlightGroup.isOn
+  - Lucid.Toolkit3D.MaterialHighlightGroup.objects
+  - Lucid.Toolkit3D.MaterialHighlightGroup.offColor
+  - Lucid.Toolkit3D.MaterialHighlightGroup.offEmissiveColor
+  - Lucid.Toolkit3D.MaterialHighlightGroup.onColor
+  - Lucid.Toolkit3D.MaterialHighlightGroup.onEmissiveColor
+  - Lucid.Toolkit3D.MaterialHighlightGroup.raycastCamera
+  - Lucid.Toolkit3D.MaterialHighlightGroup.renderers
+  - Lucid.Toolkit3D.MaterialHighlightGroup.SetColor(System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: MaterialHighlightGroup
+  nameWithType: MaterialHighlightGroup
+  fullName: Lucid.Toolkit3D.MaterialHighlightGroup
+  type: Class
+  source:
+    id: MaterialHighlightGroup
+    path: ''
+    startLine: 20296
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: 'public class MaterialHighlightGroup : MonoBehaviour'
+    content.vb: >-
+      Public Class MaterialHighlightGroup
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Toolkit3D.MaterialHighlightGroup.renderers
+  commentId: F:Lucid.Toolkit3D.MaterialHighlightGroup.renderers
+  id: renderers
+  parent: Lucid.Toolkit3D.MaterialHighlightGroup
+  langs:
+  - csharp
+  - vb
+  name: renderers
+  nameWithType: MaterialHighlightGroup.renderers
+  fullName: Lucid.Toolkit3D.MaterialHighlightGroup.renderers
+  type: Field
+  source:
+    id: renderers
+    path: ''
+    startLine: 20298
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public List<Renderer> renderers
+    return:
+      type: Global.List{Renderer}
+    content.vb: Public renderers As List(Of Renderer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.MaterialHighlightGroup.offColor
+  commentId: F:Lucid.Toolkit3D.MaterialHighlightGroup.offColor
+  id: offColor
+  parent: Lucid.Toolkit3D.MaterialHighlightGroup
+  langs:
+  - csharp
+  - vb
+  name: offColor
+  nameWithType: MaterialHighlightGroup.offColor
+  fullName: Lucid.Toolkit3D.MaterialHighlightGroup.offColor
+  type: Field
+  source:
+    id: offColor
+    path: ''
+    startLine: 20301
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public Color offColor
+    return:
+      type: Global.Color
+    content.vb: Public offColor As Color
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.MaterialHighlightGroup.onColor
+  commentId: F:Lucid.Toolkit3D.MaterialHighlightGroup.onColor
+  id: onColor
+  parent: Lucid.Toolkit3D.MaterialHighlightGroup
+  langs:
+  - csharp
+  - vb
+  name: onColor
+  nameWithType: MaterialHighlightGroup.onColor
+  fullName: Lucid.Toolkit3D.MaterialHighlightGroup.onColor
+  type: Field
+  source:
+    id: onColor
+    path: ''
+    startLine: 20302
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public Color onColor
+    return:
+      type: Global.Color
+    content.vb: Public onColor As Color
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.MaterialHighlightGroup.objects
+  commentId: F:Lucid.Toolkit3D.MaterialHighlightGroup.objects
+  id: objects
+  parent: Lucid.Toolkit3D.MaterialHighlightGroup
+  langs:
+  - csharp
+  - vb
+  name: objects
+  nameWithType: MaterialHighlightGroup.objects
+  fullName: Lucid.Toolkit3D.MaterialHighlightGroup.objects
+  type: Field
+  source:
+    id: objects
+    path: ''
+    startLine: 20303
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public GameObject objects
+    return:
+      type: Global.GameObject
+    content.vb: Public objects As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.MaterialHighlightGroup.offEmissiveColor
+  commentId: F:Lucid.Toolkit3D.MaterialHighlightGroup.offEmissiveColor
+  id: offEmissiveColor
+  parent: Lucid.Toolkit3D.MaterialHighlightGroup
+  langs:
+  - csharp
+  - vb
+  name: offEmissiveColor
+  nameWithType: MaterialHighlightGroup.offEmissiveColor
+  fullName: Lucid.Toolkit3D.MaterialHighlightGroup.offEmissiveColor
+  type: Field
+  source:
+    id: offEmissiveColor
+    path: ''
+    startLine: 20307
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public Color offEmissiveColor
+    return:
+      type: Global.Color
+    content.vb: Public offEmissiveColor As Color
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.MaterialHighlightGroup.onEmissiveColor
+  commentId: F:Lucid.Toolkit3D.MaterialHighlightGroup.onEmissiveColor
+  id: onEmissiveColor
+  parent: Lucid.Toolkit3D.MaterialHighlightGroup
+  langs:
+  - csharp
+  - vb
+  name: onEmissiveColor
+  nameWithType: MaterialHighlightGroup.onEmissiveColor
+  fullName: Lucid.Toolkit3D.MaterialHighlightGroup.onEmissiveColor
+  type: Field
+  source:
+    id: onEmissiveColor
+    path: ''
+    startLine: 20309
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public Color onEmissiveColor
+    return:
+      type: Global.Color
+    content.vb: Public onEmissiveColor As Color
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.MaterialHighlightGroup.isOn
+  commentId: F:Lucid.Toolkit3D.MaterialHighlightGroup.isOn
+  id: isOn
+  parent: Lucid.Toolkit3D.MaterialHighlightGroup
+  langs:
+  - csharp
+  - vb
+  name: isOn
+  nameWithType: MaterialHighlightGroup.isOn
+  fullName: Lucid.Toolkit3D.MaterialHighlightGroup.isOn
+  type: Field
+  source:
+    id: isOn
+    path: ''
+    startLine: 20312
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public bool isOn
+    return:
+      type: System.Boolean
+    content.vb: Public isOn As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.MaterialHighlightGroup.raycastCamera
+  commentId: F:Lucid.Toolkit3D.MaterialHighlightGroup.raycastCamera
+  id: raycastCamera
+  parent: Lucid.Toolkit3D.MaterialHighlightGroup
+  langs:
+  - csharp
+  - vb
+  name: raycastCamera
+  nameWithType: MaterialHighlightGroup.raycastCamera
+  fullName: Lucid.Toolkit3D.MaterialHighlightGroup.raycastCamera
+  type: Field
+  source:
+    id: raycastCamera
+    path: ''
+    startLine: 20315
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public Camera raycastCamera
+    return:
+      type: Global.Camera
+    content.vb: Public raycastCamera As Camera
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.MaterialHighlightGroup.allowClick
+  commentId: F:Lucid.Toolkit3D.MaterialHighlightGroup.allowClick
+  id: allowClick
+  parent: Lucid.Toolkit3D.MaterialHighlightGroup
+  langs:
+  - csharp
+  - vb
+  name: allowClick
+  nameWithType: MaterialHighlightGroup.allowClick
+  fullName: Lucid.Toolkit3D.MaterialHighlightGroup.allowClick
+  type: Field
+  source:
+    id: allowClick
+    path: ''
+    startLine: 20317
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public bool allowClick
+    return:
+      type: System.Boolean
+    content.vb: Public allowClick As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.MaterialHighlightGroup.SetColor(System.Boolean)
+  commentId: M:Lucid.Toolkit3D.MaterialHighlightGroup.SetColor(System.Boolean)
+  id: SetColor(System.Boolean)
+  parent: Lucid.Toolkit3D.MaterialHighlightGroup
+  langs:
+  - csharp
+  - vb
+  name: SetColor(Boolean)
+  nameWithType: MaterialHighlightGroup.SetColor(Boolean)
+  fullName: Lucid.Toolkit3D.MaterialHighlightGroup.SetColor(System.Boolean)
+  type: Method
+  source:
+    id: SetColor
+    path: ''
+    startLine: 20329
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public void SetColor(bool isOn)
+    parameters:
+    - id: isOn
+      type: System.Boolean
+    content.vb: Public Sub SetColor(isOn As Boolean)
+  overload: Lucid.Toolkit3D.MaterialHighlightGroup.SetColor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.MaterialHighlightGroup.CutColor(System.Boolean)
+  commentId: M:Lucid.Toolkit3D.MaterialHighlightGroup.CutColor(System.Boolean)
+  id: CutColor(System.Boolean)
+  parent: Lucid.Toolkit3D.MaterialHighlightGroup
+  langs:
+  - csharp
+  - vb
+  name: CutColor(Boolean)
+  nameWithType: MaterialHighlightGroup.CutColor(Boolean)
+  fullName: Lucid.Toolkit3D.MaterialHighlightGroup.CutColor(System.Boolean)
+  type: Method
+  source:
+    id: CutColor
+    path: ''
+    startLine: 20344
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public void CutColor(bool isOn)
+    parameters:
+    - id: isOn
+      type: System.Boolean
+    content.vb: Public Sub CutColor(isOn As Boolean)
+  overload: Lucid.Toolkit3D.MaterialHighlightGroup.CutColor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Toolkit3D
+  commentId: N:Lucid.Toolkit3D
+  name: Lucid.Toolkit3D
+  nameWithType: Lucid.Toolkit3D
+  fullName: Lucid.Toolkit3D
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.List{Renderer}
+  commentId: '!:Global.List{Renderer}'
+  definition: Global.List`1
+  name: List<Renderer>
+  nameWithType: List<Renderer>
+  fullName: List<Renderer>
+  nameWithType.vb: List(Of Renderer)
+  fullName.vb: List(Of Renderer)
+  name.vb: List(Of Renderer)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Renderer
+    name: Renderer
+    nameWithType: Renderer
+    fullName: Renderer
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Renderer
+    name: Renderer
+    nameWithType: Renderer
+    fullName: Renderer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Color
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: Color
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.Camera
+  isExternal: true
+  name: Camera
+  nameWithType: Camera
+  fullName: Camera
+- uid: Lucid.Toolkit3D.MaterialHighlightGroup.SetColor*
+  commentId: Overload:Lucid.Toolkit3D.MaterialHighlightGroup.SetColor
+  name: SetColor
+  nameWithType: MaterialHighlightGroup.SetColor
+  fullName: Lucid.Toolkit3D.MaterialHighlightGroup.SetColor
+- uid: Lucid.Toolkit3D.MaterialHighlightGroup.CutColor*
+  commentId: Overload:Lucid.Toolkit3D.MaterialHighlightGroup.CutColor
+  name: CutColor
+  nameWithType: MaterialHighlightGroup.CutColor
+  fullName: Lucid.Toolkit3D.MaterialHighlightGroup.CutColor

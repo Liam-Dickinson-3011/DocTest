@@ -1,0 +1,277 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Toolkit3D.GizmoDrawer
+  commentId: T:Lucid.Toolkit3D.GizmoDrawer
+  id: GizmoDrawer
+  parent: Lucid.Toolkit3D
+  children:
+  - Lucid.Toolkit3D.GizmoDrawer.center
+  - Lucid.Toolkit3D.GizmoDrawer.color
+  - Lucid.Toolkit3D.GizmoDrawer.pointA
+  - Lucid.Toolkit3D.GizmoDrawer.pointB
+  - Lucid.Toolkit3D.GizmoDrawer.radius
+  - Lucid.Toolkit3D.GizmoDrawer.size
+  - Lucid.Toolkit3D.GizmoDrawer.type
+  langs:
+  - csharp
+  - vb
+  name: GizmoDrawer
+  nameWithType: GizmoDrawer
+  fullName: Lucid.Toolkit3D.GizmoDrawer
+  type: Class
+  source:
+    id: GizmoDrawer
+    path: ''
+    startLine: 19304
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: 'public class GizmoDrawer : MonoBehaviour'
+    content.vb: >-
+      Public Class GizmoDrawer
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Toolkit3D.GizmoDrawer.type
+  commentId: F:Lucid.Toolkit3D.GizmoDrawer.type
+  id: type
+  parent: Lucid.Toolkit3D.GizmoDrawer
+  langs:
+  - csharp
+  - vb
+  name: type
+  nameWithType: GizmoDrawer.type
+  fullName: Lucid.Toolkit3D.GizmoDrawer.type
+  type: Field
+  source:
+    id: type
+    path: ''
+    startLine: 19309
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public GizmoDrawer.GizmoType type
+    return:
+      type: Lucid.Toolkit3D.GizmoDrawer.GizmoType
+    content.vb: Public type As GizmoDrawer.GizmoType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.GizmoDrawer.color
+  commentId: F:Lucid.Toolkit3D.GizmoDrawer.color
+  id: color
+  parent: Lucid.Toolkit3D.GizmoDrawer
+  langs:
+  - csharp
+  - vb
+  name: color
+  nameWithType: GizmoDrawer.color
+  fullName: Lucid.Toolkit3D.GizmoDrawer.color
+  type: Field
+  source:
+    id: color
+    path: ''
+    startLine: 19311
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public Color color
+    return:
+      type: Global.Color
+    content.vb: Public color As Color
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.GizmoDrawer.pointA
+  commentId: F:Lucid.Toolkit3D.GizmoDrawer.pointA
+  id: pointA
+  parent: Lucid.Toolkit3D.GizmoDrawer
+  langs:
+  - csharp
+  - vb
+  name: pointA
+  nameWithType: GizmoDrawer.pointA
+  fullName: Lucid.Toolkit3D.GizmoDrawer.pointA
+  type: Field
+  source:
+    id: pointA
+    path: ''
+    startLine: 19314
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public Transform pointA
+    return:
+      type: Global.Transform
+    content.vb: Public pointA As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.GizmoDrawer.pointB
+  commentId: F:Lucid.Toolkit3D.GizmoDrawer.pointB
+  id: pointB
+  parent: Lucid.Toolkit3D.GizmoDrawer
+  langs:
+  - csharp
+  - vb
+  name: pointB
+  nameWithType: GizmoDrawer.pointB
+  fullName: Lucid.Toolkit3D.GizmoDrawer.pointB
+  type: Field
+  source:
+    id: pointB
+    path: ''
+    startLine: 19316
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public Transform pointB
+    return:
+      type: Global.Transform
+    content.vb: Public pointB As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.GizmoDrawer.center
+  commentId: F:Lucid.Toolkit3D.GizmoDrawer.center
+  id: center
+  parent: Lucid.Toolkit3D.GizmoDrawer
+  langs:
+  - csharp
+  - vb
+  name: center
+  nameWithType: GizmoDrawer.center
+  fullName: Lucid.Toolkit3D.GizmoDrawer.center
+  type: Field
+  source:
+    id: center
+    path: ''
+    startLine: 19319
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public Transform center
+    return:
+      type: Global.Transform
+    content.vb: Public center As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.GizmoDrawer.size
+  commentId: F:Lucid.Toolkit3D.GizmoDrawer.size
+  id: size
+  parent: Lucid.Toolkit3D.GizmoDrawer
+  langs:
+  - csharp
+  - vb
+  name: size
+  nameWithType: GizmoDrawer.size
+  fullName: Lucid.Toolkit3D.GizmoDrawer.size
+  type: Field
+  source:
+    id: size
+    path: ''
+    startLine: 19322
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public Vector3 size
+    return:
+      type: Global.Vector3
+    content.vb: Public size As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.GizmoDrawer.radius
+  commentId: F:Lucid.Toolkit3D.GizmoDrawer.radius
+  id: radius
+  parent: Lucid.Toolkit3D.GizmoDrawer
+  langs:
+  - csharp
+  - vb
+  name: radius
+  nameWithType: GizmoDrawer.radius
+  fullName: Lucid.Toolkit3D.GizmoDrawer.radius
+  type: Field
+  source:
+    id: radius
+    path: ''
+    startLine: 19325
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public float radius
+    return:
+      type: System.Single
+    content.vb: Public radius As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Toolkit3D
+  commentId: N:Lucid.Toolkit3D
+  name: Lucid.Toolkit3D
+  nameWithType: Lucid.Toolkit3D
+  fullName: Lucid.Toolkit3D
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.Toolkit3D.GizmoDrawer.GizmoType
+  commentId: T:Lucid.Toolkit3D.GizmoDrawer.GizmoType
+  parent: Lucid.Toolkit3D
+  name: GizmoDrawer.GizmoType
+  nameWithType: GizmoDrawer.GizmoType
+  fullName: Lucid.Toolkit3D.GizmoDrawer.GizmoType
+- uid: Global.Color
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: Color
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

@@ -1,0 +1,472 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.DataStorage.CSVDataStore
+  commentId: T:Lucid.DataStorage.CSVDataStore
+  id: CSVDataStore
+  parent: Lucid.DataStorage
+  children:
+  - Lucid.DataStorage.CSVDataStore.dataType
+  - Lucid.DataStorage.CSVDataStore.delimiter
+  - Lucid.DataStorage.CSVDataStore.filePath
+  - Lucid.DataStorage.CSVDataStore.Import(System.String,System.Char,System.String)
+  - Lucid.DataStorage.CSVDataStore.Populate
+  - Lucid.DataStorage.CSVDataStore.primaryKey
+  langs:
+  - csharp
+  - vb
+  name: CSVDataStore
+  nameWithType: CSVDataStore
+  fullName: Lucid.DataStorage.CSVDataStore
+  type: Class
+  source:
+    id: CSVDataStore
+    path: ''
+    startLine: 14264
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: 'public class CSVDataStore : DataStore'
+    content.vb: >-
+      Public Class CSVDataStore
+          Inherits DataStore
+  inheritance:
+  - System.Object
+  - Lucid.DataStorage.DataStore
+  inheritedMembers:
+  - Lucid.DataStorage.DataStore.data
+  - Lucid.DataStorage.DataStore.GetValueRaw(System.String)
+  - Lucid.DataStorage.DataStore.GetValue``1(System.String)
+  - Lucid.DataStorage.DataStore.GetDataKeys(System.String)
+  - Lucid.DataStorage.DataStore.GetDataStores
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.DataStorage.CSVDataStore.filePath
+  commentId: F:Lucid.DataStorage.CSVDataStore.filePath
+  id: filePath
+  parent: Lucid.DataStorage.CSVDataStore
+  langs:
+  - csharp
+  - vb
+  name: filePath
+  nameWithType: CSVDataStore.filePath
+  fullName: Lucid.DataStorage.CSVDataStore.filePath
+  type: Field
+  source:
+    id: filePath
+    path: ''
+    startLine: 14268
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public string filePath
+    return:
+      type: System.String
+    content.vb: Public filePath As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.DataStorage.CSVDataStore.delimiter
+  commentId: F:Lucid.DataStorage.CSVDataStore.delimiter
+  id: delimiter
+  parent: Lucid.DataStorage.CSVDataStore
+  langs:
+  - csharp
+  - vb
+  name: delimiter
+  nameWithType: CSVDataStore.delimiter
+  fullName: Lucid.DataStorage.CSVDataStore.delimiter
+  type: Field
+  source:
+    id: delimiter
+    path: ''
+    startLine: 14270
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public char delimiter
+    return:
+      type: System.Char
+    content.vb: Public delimiter As Char
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.DataStorage.CSVDataStore.primaryKey
+  commentId: F:Lucid.DataStorage.CSVDataStore.primaryKey
+  id: primaryKey
+  parent: Lucid.DataStorage.CSVDataStore
+  langs:
+  - csharp
+  - vb
+  name: primaryKey
+  nameWithType: CSVDataStore.primaryKey
+  fullName: Lucid.DataStorage.CSVDataStore.primaryKey
+  type: Field
+  source:
+    id: primaryKey
+    path: ''
+    startLine: 14272
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public string primaryKey
+    return:
+      type: System.String
+    content.vb: Public primaryKey As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.DataStorage.CSVDataStore.dataType
+  commentId: P:Lucid.DataStorage.CSVDataStore.dataType
+  id: dataType
+  parent: Lucid.DataStorage.CSVDataStore
+  langs:
+  - csharp
+  - vb
+  name: dataType
+  nameWithType: CSVDataStore.dataType
+  fullName: Lucid.DataStorage.CSVDataStore.dataType
+  type: Property
+  source:
+    id: dataType
+    path: ''
+    startLine: 14274
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public override DataStore.DataType dataType { get; }
+    parameters: []
+    return:
+      type: Lucid.DataStorage.DataStore.DataType
+    content.vb: Public Overrides ReadOnly Property dataType As DataStore.DataType
+  overridden: Lucid.DataStorage.DataStore.dataType
+  overload: Lucid.DataStorage.CSVDataStore.dataType*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: Lucid.DataStorage.CSVDataStore.Populate
+  commentId: M:Lucid.DataStorage.CSVDataStore.Populate
+  id: Populate
+  parent: Lucid.DataStorage.CSVDataStore
+  langs:
+  - csharp
+  - vb
+  name: Populate()
+  nameWithType: CSVDataStore.Populate()
+  fullName: Lucid.DataStorage.CSVDataStore.Populate()
+  type: Method
+  source:
+    id: Populate
+    path: ''
+    startLine: 14276
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public override void Populate()
+    content.vb: Public Overrides Sub Populate
+  overridden: Lucid.DataStorage.DataStore.Populate
+  overload: Lucid.DataStorage.CSVDataStore.Populate*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Lucid.DataStorage.CSVDataStore.Import(System.String,System.Char,System.String)
+  commentId: M:Lucid.DataStorage.CSVDataStore.Import(System.String,System.Char,System.String)
+  id: Import(System.String,System.Char,System.String)
+  parent: Lucid.DataStorage.CSVDataStore
+  langs:
+  - csharp
+  - vb
+  name: Import(String, Char, String)
+  nameWithType: CSVDataStore.Import(String, Char, String)
+  fullName: Lucid.DataStorage.CSVDataStore.Import(System.String, System.Char, System.String)
+  type: Method
+  source:
+    id: Import
+    path: ''
+    startLine: 14284
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public void Import(string filePath, char delimiter, string primaryKey)
+    parameters:
+    - id: filePath
+      type: System.String
+    - id: delimiter
+      type: System.Char
+    - id: primaryKey
+      type: System.String
+    content.vb: Public Sub Import(filePath As String, delimiter As Char, primaryKey As String)
+  overload: Lucid.DataStorage.CSVDataStore.Import*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.DataStorage
+  commentId: N:Lucid.DataStorage
+  name: Lucid.DataStorage
+  nameWithType: Lucid.DataStorage
+  fullName: Lucid.DataStorage
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Lucid.DataStorage.DataStore
+  commentId: T:Lucid.DataStorage.DataStore
+  parent: Lucid.DataStorage
+  name: DataStore
+  nameWithType: DataStore
+  fullName: Lucid.DataStorage.DataStore
+- uid: Lucid.DataStorage.DataStore.data
+  commentId: F:Lucid.DataStorage.DataStore.data
+  parent: Lucid.DataStorage.DataStore
+  name: data
+  nameWithType: DataStore.data
+  fullName: Lucid.DataStorage.DataStore.data
+- uid: Lucid.DataStorage.DataStore.GetValueRaw(System.String)
+  commentId: M:Lucid.DataStorage.DataStore.GetValueRaw(System.String)
+  parent: Lucid.DataStorage.DataStore
+  isExternal: true
+  name: GetValueRaw(String)
+  nameWithType: DataStore.GetValueRaw(String)
+  fullName: Lucid.DataStorage.DataStore.GetValueRaw(System.String)
+  spec.csharp:
+  - uid: Lucid.DataStorage.DataStore.GetValueRaw(System.String)
+    name: GetValueRaw
+    nameWithType: DataStore.GetValueRaw
+    fullName: Lucid.DataStorage.DataStore.GetValueRaw
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.DataStorage.DataStore.GetValueRaw(System.String)
+    name: GetValueRaw
+    nameWithType: DataStore.GetValueRaw
+    fullName: Lucid.DataStorage.DataStore.GetValueRaw
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.DataStorage.DataStore.GetValue``1(System.String)
+  commentId: M:Lucid.DataStorage.DataStore.GetValue``1(System.String)
+  parent: Lucid.DataStorage.DataStore
+  isExternal: true
+  name: GetValue<T>(String)
+  nameWithType: DataStore.GetValue<T>(String)
+  fullName: Lucid.DataStorage.DataStore.GetValue<T>(System.String)
+  nameWithType.vb: DataStore.GetValue(Of T)(String)
+  fullName.vb: Lucid.DataStorage.DataStore.GetValue(Of T)(System.String)
+  name.vb: GetValue(Of T)(String)
+  spec.csharp:
+  - uid: Lucid.DataStorage.DataStore.GetValue``1(System.String)
+    name: GetValue<T>
+    nameWithType: DataStore.GetValue<T>
+    fullName: Lucid.DataStorage.DataStore.GetValue<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.DataStorage.DataStore.GetValue``1(System.String)
+    name: GetValue(Of T)
+    nameWithType: DataStore.GetValue(Of T)
+    fullName: Lucid.DataStorage.DataStore.GetValue(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.DataStorage.DataStore.GetDataKeys(System.String)
+  commentId: M:Lucid.DataStorage.DataStore.GetDataKeys(System.String)
+  parent: Lucid.DataStorage.DataStore
+  isExternal: true
+  name: GetDataKeys(String)
+  nameWithType: DataStore.GetDataKeys(String)
+  fullName: Lucid.DataStorage.DataStore.GetDataKeys(System.String)
+  spec.csharp:
+  - uid: Lucid.DataStorage.DataStore.GetDataKeys(System.String)
+    name: GetDataKeys
+    nameWithType: DataStore.GetDataKeys
+    fullName: Lucid.DataStorage.DataStore.GetDataKeys
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.DataStorage.DataStore.GetDataKeys(System.String)
+    name: GetDataKeys
+    nameWithType: DataStore.GetDataKeys
+    fullName: Lucid.DataStorage.DataStore.GetDataKeys
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.DataStorage.DataStore.GetDataStores
+  commentId: M:Lucid.DataStorage.DataStore.GetDataStores
+  parent: Lucid.DataStorage.DataStore
+  name: GetDataStores()
+  nameWithType: DataStore.GetDataStores()
+  fullName: Lucid.DataStorage.DataStore.GetDataStores()
+  spec.csharp:
+  - uid: Lucid.DataStorage.DataStore.GetDataStores
+    name: GetDataStores
+    nameWithType: DataStore.GetDataStores
+    fullName: Lucid.DataStorage.DataStore.GetDataStores
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.DataStorage.DataStore.GetDataStores
+    name: GetDataStores
+    nameWithType: DataStore.GetDataStores
+    fullName: Lucid.DataStorage.DataStore.GetDataStores
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Char
+  commentId: T:System.Char
+  parent: System
+  isExternal: true
+  name: Char
+  nameWithType: Char
+  fullName: System.Char
+- uid: Lucid.DataStorage.DataStore.dataType
+  commentId: P:Lucid.DataStorage.DataStore.dataType
+  parent: Lucid.DataStorage.DataStore
+  name: dataType
+  nameWithType: DataStore.dataType
+  fullName: Lucid.DataStorage.DataStore.dataType
+- uid: Lucid.DataStorage.CSVDataStore.dataType*
+  commentId: Overload:Lucid.DataStorage.CSVDataStore.dataType
+  name: dataType
+  nameWithType: CSVDataStore.dataType
+  fullName: Lucid.DataStorage.CSVDataStore.dataType
+- uid: Lucid.DataStorage.DataStore.DataType
+  commentId: T:Lucid.DataStorage.DataStore.DataType
+  parent: Lucid.DataStorage
+  name: DataStore.DataType
+  nameWithType: DataStore.DataType
+  fullName: Lucid.DataStorage.DataStore.DataType
+- uid: Lucid.DataStorage.DataStore.Populate
+  commentId: M:Lucid.DataStorage.DataStore.Populate
+  parent: Lucid.DataStorage.DataStore
+  name: Populate()
+  nameWithType: DataStore.Populate()
+  fullName: Lucid.DataStorage.DataStore.Populate()
+  spec.csharp:
+  - uid: Lucid.DataStorage.DataStore.Populate
+    name: Populate
+    nameWithType: DataStore.Populate
+    fullName: Lucid.DataStorage.DataStore.Populate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.DataStorage.DataStore.Populate
+    name: Populate
+    nameWithType: DataStore.Populate
+    fullName: Lucid.DataStorage.DataStore.Populate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.DataStorage.CSVDataStore.Populate*
+  commentId: Overload:Lucid.DataStorage.CSVDataStore.Populate
+  name: Populate
+  nameWithType: CSVDataStore.Populate
+  fullName: Lucid.DataStorage.CSVDataStore.Populate
+- uid: Lucid.DataStorage.CSVDataStore.Import*
+  commentId: Overload:Lucid.DataStorage.CSVDataStore.Import
+  name: Import
+  nameWithType: CSVDataStore.Import
+  fullName: Lucid.DataStorage.CSVDataStore.Import

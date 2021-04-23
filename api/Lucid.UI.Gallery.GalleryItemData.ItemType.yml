@@ -1,0 +1,158 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.UI.Gallery.GalleryItemData.ItemType
+  commentId: T:Lucid.UI.Gallery.GalleryItemData.ItemType
+  id: GalleryItemData.ItemType
+  parent: Lucid.UI.Gallery
+  children:
+  - Lucid.UI.Gallery.GalleryItemData.ItemType.DataDriven
+  - Lucid.UI.Gallery.GalleryItemData.ItemType.Image360
+  - Lucid.UI.Gallery.GalleryItemData.ItemType.Sprite
+  - Lucid.UI.Gallery.GalleryItemData.ItemType.Video
+  langs:
+  - csharp
+  - vb
+  name: GalleryItemData.ItemType
+  nameWithType: GalleryItemData.ItemType
+  fullName: Lucid.UI.Gallery.GalleryItemData.ItemType
+  type: Enum
+  source:
+    id: ItemType
+    path: ''
+    startLine: 10343
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: public enum ItemType
+    content.vb: Public Enum ItemType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Lucid.UI.Gallery.GalleryItemData.ItemType.Sprite
+  commentId: F:Lucid.UI.Gallery.GalleryItemData.ItemType.Sprite
+  id: Sprite
+  parent: Lucid.UI.Gallery.GalleryItemData.ItemType
+  langs:
+  - csharp
+  - vb
+  name: Sprite
+  nameWithType: GalleryItemData.ItemType.Sprite
+  fullName: Lucid.UI.Gallery.GalleryItemData.ItemType.Sprite
+  type: Field
+  source:
+    id: Sprite
+    path: ''
+    startLine: 10343
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: Sprite = 0
+    return:
+      type: Lucid.UI.Gallery.GalleryItemData.ItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.UI.Gallery.GalleryItemData.ItemType.Video
+  commentId: F:Lucid.UI.Gallery.GalleryItemData.ItemType.Video
+  id: Video
+  parent: Lucid.UI.Gallery.GalleryItemData.ItemType
+  langs:
+  - csharp
+  - vb
+  name: Video
+  nameWithType: GalleryItemData.ItemType.Video
+  fullName: Lucid.UI.Gallery.GalleryItemData.ItemType.Video
+  type: Field
+  source:
+    id: Video
+    path: ''
+    startLine: 10343
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: Video = 1
+    return:
+      type: Lucid.UI.Gallery.GalleryItemData.ItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.UI.Gallery.GalleryItemData.ItemType.Image360
+  commentId: F:Lucid.UI.Gallery.GalleryItemData.ItemType.Image360
+  id: Image360
+  parent: Lucid.UI.Gallery.GalleryItemData.ItemType
+  langs:
+  - csharp
+  - vb
+  name: Image360
+  nameWithType: GalleryItemData.ItemType.Image360
+  fullName: Lucid.UI.Gallery.GalleryItemData.ItemType.Image360
+  type: Field
+  source:
+    id: Image360
+    path: ''
+    startLine: 10343
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: Image360 = 2
+    return:
+      type: Lucid.UI.Gallery.GalleryItemData.ItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.UI.Gallery.GalleryItemData.ItemType.DataDriven
+  commentId: F:Lucid.UI.Gallery.GalleryItemData.ItemType.DataDriven
+  id: DataDriven
+  parent: Lucid.UI.Gallery.GalleryItemData.ItemType
+  langs:
+  - csharp
+  - vb
+  name: DataDriven
+  nameWithType: GalleryItemData.ItemType.DataDriven
+  fullName: Lucid.UI.Gallery.GalleryItemData.ItemType.DataDriven
+  type: Field
+  source:
+    id: DataDriven
+    path: ''
+    startLine: 10343
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.UI.Gallery
+  syntax:
+    content: DataDriven = 3
+    return:
+      type: Lucid.UI.Gallery.GalleryItemData.ItemType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Lucid.UI.Gallery
+  commentId: N:Lucid.UI.Gallery
+  name: Lucid.UI.Gallery
+  nameWithType: Lucid.UI.Gallery
+  fullName: Lucid.UI.Gallery
+- uid: Lucid.UI.Gallery.GalleryItemData.ItemType
+  commentId: T:Lucid.UI.Gallery.GalleryItemData.ItemType
+  parent: Lucid.UI.Gallery
+  name: GalleryItemData.ItemType
+  nameWithType: GalleryItemData.ItemType
+  fullName: Lucid.UI.Gallery.GalleryItemData.ItemType

@@ -1,0 +1,47 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Easing
+  commentId: N:Lucid.Easing
+  id: Lucid.Easing
+  children:
+  - Lucid.Easing.ConcreteEaseMethods
+  - Lucid.Easing.Ease
+  - Lucid.Easing.EaseMethods
+  - Lucid.Easing.EaseStyle
+  langs:
+  - csharp
+  - vb
+  name: Lucid.Easing
+  nameWithType: Lucid.Easing
+  fullName: Lucid.Easing
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Lucid.Easing.Ease
+  commentId: T:Lucid.Easing.Ease
+  parent: Lucid.Easing
+  name: Ease
+  nameWithType: Ease
+  fullName: Lucid.Easing.Ease
+- uid: Lucid.Easing.EaseStyle
+  commentId: T:Lucid.Easing.EaseStyle
+  parent: Lucid.Easing
+  name: EaseStyle
+  nameWithType: EaseStyle
+  fullName: Lucid.Easing.EaseStyle
+- uid: Lucid.Easing.ConcreteEaseMethods
+  commentId: T:Lucid.Easing.ConcreteEaseMethods
+  name: ConcreteEaseMethods
+  nameWithType: ConcreteEaseMethods
+  fullName: Lucid.Easing.ConcreteEaseMethods
+- uid: Lucid.Easing.EaseMethods
+  commentId: T:Lucid.Easing.EaseMethods
+  name: EaseMethods
+  nameWithType: EaseMethods
+  fullName: Lucid.Easing.EaseMethods
+- uid: Lucid.Easing
+  commentId: N:Lucid.Easing
+  name: Lucid.Easing
+  nameWithType: Lucid.Easing
+  fullName: Lucid.Easing

@@ -1,0 +1,208 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Animation.LAFloat
+  commentId: T:Lucid.Animation.LAFloat
+  id: LAFloat
+  parent: Lucid.Animation
+  children:
+  - Lucid.Animation.LAFloat.#ctor
+  - Lucid.Animation.LAFloat.#ctor(Lucid.Animation.LAFloat)
+  - Lucid.Animation.LAFloat.value
+  langs:
+  - csharp
+  - vb
+  name: LAFloat
+  nameWithType: LAFloat
+  fullName: Lucid.Animation.LAFloat
+  type: Class
+  source:
+    id: LAFloat
+    path: ''
+    startLine: 24115
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class LAFloat : LucidAnim
+    content.vb: >-
+      <Serializable>
+
+      Public Class LAFloat
+          Inherits LucidAnim
+  inheritance:
+  - System.Object
+  - Lucid.Animation.LucidAnim
+  inheritedMembers:
+  - Lucid.Animation.LucidAnim.startDelay
+  - Lucid.Animation.LucidAnim.duration
+  - Lucid.Animation.LucidAnim.speedBased
+  - Lucid.Animation.LucidAnim.ease
+  - Lucid.Animation.LucidAnim.inCollection
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Animation.LAFloat.value
+  commentId: F:Lucid.Animation.LAFloat.value
+  id: value
+  parent: Lucid.Animation.LAFloat
+  langs:
+  - csharp
+  - vb
+  name: value
+  nameWithType: LAFloat.value
+  fullName: Lucid.Animation.LAFloat.value
+  type: Field
+  source:
+    id: value
+    path: ''
+    startLine: 24122
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public float value
+    return:
+      type: System.Single
+    content.vb: Public value As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAFloat.#ctor
+  commentId: M:Lucid.Animation.LAFloat.#ctor
+  id: '#ctor'
+  parent: Lucid.Animation.LAFloat
+  langs:
+  - csharp
+  - vb
+  name: LAFloat()
+  nameWithType: LAFloat.LAFloat()
+  fullName: Lucid.Animation.LAFloat.LAFloat()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 24124
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAFloat()
+    content.vb: Public Sub New
+  overload: Lucid.Animation.LAFloat.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAFloat.#ctor(Lucid.Animation.LAFloat)
+  commentId: M:Lucid.Animation.LAFloat.#ctor(Lucid.Animation.LAFloat)
+  id: '#ctor(Lucid.Animation.LAFloat)'
+  parent: Lucid.Animation.LAFloat
+  langs:
+  - csharp
+  - vb
+  name: LAFloat(LAFloat)
+  nameWithType: LAFloat.LAFloat(LAFloat)
+  fullName: Lucid.Animation.LAFloat.LAFloat(Lucid.Animation.LAFloat)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 24129
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAFloat(LAFloat copy)
+    parameters:
+    - id: copy
+      type: Lucid.Animation.LAFloat
+    content.vb: Public Sub New(copy As LAFloat)
+  overload: Lucid.Animation.LAFloat.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Animation
+  commentId: N:Lucid.Animation
+  name: Lucid.Animation
+  nameWithType: Lucid.Animation
+  fullName: Lucid.Animation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Lucid.Animation.LucidAnim
+  commentId: T:Lucid.Animation.LucidAnim
+  parent: Lucid.Animation
+  name: LucidAnim
+  nameWithType: LucidAnim
+  fullName: Lucid.Animation.LucidAnim
+- uid: Lucid.Animation.LucidAnim.startDelay
+  commentId: F:Lucid.Animation.LucidAnim.startDelay
+  parent: Lucid.Animation.LucidAnim
+  name: startDelay
+  nameWithType: LucidAnim.startDelay
+  fullName: Lucid.Animation.LucidAnim.startDelay
+- uid: Lucid.Animation.LucidAnim.duration
+  commentId: F:Lucid.Animation.LucidAnim.duration
+  parent: Lucid.Animation.LucidAnim
+  name: duration
+  nameWithType: LucidAnim.duration
+  fullName: Lucid.Animation.LucidAnim.duration
+- uid: Lucid.Animation.LucidAnim.speedBased
+  commentId: F:Lucid.Animation.LucidAnim.speedBased
+  parent: Lucid.Animation.LucidAnim
+  name: speedBased
+  nameWithType: LucidAnim.speedBased
+  fullName: Lucid.Animation.LucidAnim.speedBased
+- uid: Lucid.Animation.LucidAnim.ease
+  commentId: F:Lucid.Animation.LucidAnim.ease
+  parent: Lucid.Animation.LucidAnim
+  name: ease
+  nameWithType: LucidAnim.ease
+  fullName: Lucid.Animation.LucidAnim.ease
+- uid: Lucid.Animation.LucidAnim.inCollection
+  commentId: F:Lucid.Animation.LucidAnim.inCollection
+  parent: Lucid.Animation.LucidAnim
+  name: inCollection
+  nameWithType: LucidAnim.inCollection
+  fullName: Lucid.Animation.LucidAnim.inCollection
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Lucid.Animation.LAFloat.#ctor*
+  commentId: Overload:Lucid.Animation.LAFloat.#ctor
+  name: LAFloat
+  nameWithType: LAFloat.LAFloat
+  fullName: Lucid.Animation.LAFloat.LAFloat
+- uid: Lucid.Animation.LAFloat
+  commentId: T:Lucid.Animation.LAFloat
+  parent: Lucid.Animation
+  name: LAFloat
+  nameWithType: LAFloat
+  fullName: Lucid.Animation.LAFloat

@@ -1,0 +1,736 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.SceneManagement.SceneManager
+  commentId: T:Lucid.SceneManagement.SceneManager
+  id: SceneManager
+  parent: Lucid.SceneManagement
+  children:
+  - Lucid.SceneManagement.SceneManager.allScenes
+  - Lucid.SceneManagement.SceneManager.currentLoadedScenes
+  - Lucid.SceneManagement.SceneManager.LoadScene(Lucid.SceneManagement.Scene,Action)
+  - Lucid.SceneManagement.SceneManager.LoadScene(System.String,Action)
+  - Lucid.SceneManagement.SceneManager.LoadScenes(IEnumerable{Lucid.SceneManagement.Scene})
+  - Lucid.SceneManagement.SceneManager.LoadScenes(IEnumerable{System.String})
+  - Lucid.SceneManagement.SceneManager.sceneDatabase
+  - Lucid.SceneManagement.SceneManager.TestLoadAll
+  - Lucid.SceneManagement.SceneManager.TestUnloadAll
+  - Lucid.SceneManagement.SceneManager.UnloadScene(Lucid.SceneManagement.Scene,Action)
+  - Lucid.SceneManagement.SceneManager.UnloadScene(System.String,Action)
+  - Lucid.SceneManagement.SceneManager.UnloadScenes(IEnumerable{Lucid.SceneManagement.Scene})
+  - Lucid.SceneManagement.SceneManager.UnloadScenes(IEnumerable{System.String})
+  langs:
+  - csharp
+  - vb
+  name: SceneManager
+  nameWithType: SceneManager
+  fullName: Lucid.SceneManagement.SceneManager
+  type: Class
+  source:
+    id: SceneManager
+    path: ''
+    startLine: 13817
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.SceneManagement
+  syntax:
+    content: 'public class SceneManager : SingletonMonoBehaviour<SceneManager>'
+    content.vb: >-
+      Public Class SceneManager
+          Inherits SingletonMonoBehaviour(Of SceneManager)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.SceneManagement.SceneManager.sceneDatabase
+  commentId: F:Lucid.SceneManagement.SceneManager.sceneDatabase
+  id: sceneDatabase
+  parent: Lucid.SceneManagement.SceneManager
+  langs:
+  - csharp
+  - vb
+  name: sceneDatabase
+  nameWithType: SceneManager.sceneDatabase
+  fullName: Lucid.SceneManagement.SceneManager.sceneDatabase
+  type: Field
+  source:
+    id: sceneDatabase
+    path: ''
+    startLine: 13820
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.SceneManagement
+  syntax:
+    content: public SceneDatabase sceneDatabase
+    return:
+      type: Lucid.SceneManagement.SceneDatabase
+    content.vb: Public sceneDatabase As SceneDatabase
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.SceneManagement.SceneManager.allScenes
+  commentId: F:Lucid.SceneManagement.SceneManager.allScenes
+  id: allScenes
+  parent: Lucid.SceneManagement.SceneManager
+  langs:
+  - csharp
+  - vb
+  name: allScenes
+  nameWithType: SceneManager.allScenes
+  fullName: Lucid.SceneManagement.SceneManager.allScenes
+  type: Field
+  source:
+    id: allScenes
+    path: ''
+    startLine: 13821
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.SceneManagement
+  syntax:
+    content: public List<Scene> allScenes
+    return:
+      type: Global.List{Lucid.SceneManagement.Scene}
+    content.vb: Public allScenes As List(Of Scene)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.SceneManagement.SceneManager.currentLoadedScenes
+  commentId: P:Lucid.SceneManagement.SceneManager.currentLoadedScenes
+  id: currentLoadedScenes
+  parent: Lucid.SceneManagement.SceneManager
+  langs:
+  - csharp
+  - vb
+  name: currentLoadedScenes
+  nameWithType: SceneManager.currentLoadedScenes
+  fullName: Lucid.SceneManagement.SceneManager.currentLoadedScenes
+  type: Property
+  source:
+    id: currentLoadedScenes
+    path: ''
+    startLine: 13824
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.SceneManagement
+  syntax:
+    content: public List<Scene> currentLoadedScenes { get; set; }
+    parameters: []
+    return:
+      type: Global.List{Lucid.SceneManagement.Scene}
+    content.vb: Public Property currentLoadedScenes As List(Of Scene)
+  overload: Lucid.SceneManagement.SceneManager.currentLoadedScenes*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.SceneManagement.SceneManager.LoadScene(System.String,Action)
+  commentId: M:Lucid.SceneManagement.SceneManager.LoadScene(System.String,Action)
+  id: LoadScene(System.String,Action)
+  parent: Lucid.SceneManagement.SceneManager
+  langs:
+  - csharp
+  - vb
+  name: LoadScene(String, Action)
+  nameWithType: SceneManager.LoadScene(String, Action)
+  fullName: Lucid.SceneManagement.SceneManager.LoadScene(System.String, Action)
+  type: Method
+  source:
+    id: LoadScene
+    path: ''
+    startLine: 13842
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.SceneManagement
+  syntax:
+    content: public IEnumerator LoadScene(string databaseKey, Action onComplete = null)
+    parameters:
+    - id: databaseKey
+      type: System.String
+    - id: onComplete
+      type: Global.Action
+    return:
+      type: Global.IEnumerator
+    content.vb: Public Function LoadScene(databaseKey As String, onComplete As Action = Nothing) As IEnumerator
+  overload: Lucid.SceneManagement.SceneManager.LoadScene*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.SceneManagement.SceneManager.LoadScene(Lucid.SceneManagement.Scene,Action)
+  commentId: M:Lucid.SceneManagement.SceneManager.LoadScene(Lucid.SceneManagement.Scene,Action)
+  id: LoadScene(Lucid.SceneManagement.Scene,Action)
+  parent: Lucid.SceneManagement.SceneManager
+  langs:
+  - csharp
+  - vb
+  name: LoadScene(Scene, Action)
+  nameWithType: SceneManager.LoadScene(Scene, Action)
+  fullName: Lucid.SceneManagement.SceneManager.LoadScene(Lucid.SceneManagement.Scene, Action)
+  type: Method
+  source:
+    id: LoadScene
+    path: ''
+    startLine: 13856
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.SceneManagement
+  syntax:
+    content: public IEnumerator LoadScene(Scene scene, Action onComplete = null)
+    parameters:
+    - id: scene
+      type: Lucid.SceneManagement.Scene
+    - id: onComplete
+      type: Global.Action
+    return:
+      type: Global.IEnumerator
+    content.vb: Public Function LoadScene(scene As Scene, onComplete As Action = Nothing) As IEnumerator
+  overload: Lucid.SceneManagement.SceneManager.LoadScene*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.SceneManagement.SceneManager.LoadScenes(IEnumerable{System.String})
+  commentId: M:Lucid.SceneManagement.SceneManager.LoadScenes(IEnumerable{System.String})
+  id: LoadScenes(IEnumerable{System.String})
+  parent: Lucid.SceneManagement.SceneManager
+  langs:
+  - csharp
+  - vb
+  name: LoadScenes(IEnumerable<String>)
+  nameWithType: SceneManager.LoadScenes(IEnumerable<String>)
+  fullName: Lucid.SceneManagement.SceneManager.LoadScenes(IEnumerable<System.String>)
+  type: Method
+  source:
+    id: LoadScenes
+    path: ''
+    startLine: 13870
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.SceneManagement
+  syntax:
+    content: public IEnumerator LoadScenes(IEnumerable<string> databaseKeys)
+    parameters:
+    - id: databaseKeys
+      type: Global.IEnumerable{System.String}
+    return:
+      type: Global.IEnumerator
+    content.vb: Public Function LoadScenes(databaseKeys As IEnumerable(Of String)) As IEnumerator
+  overload: Lucid.SceneManagement.SceneManager.LoadScenes*
+  nameWithType.vb: SceneManager.LoadScenes(IEnumerable(Of String))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Lucid.SceneManagement.SceneManager.LoadScenes(IEnumerable(Of System.String))
+  name.vb: LoadScenes(IEnumerable(Of String))
+- uid: Lucid.SceneManagement.SceneManager.LoadScenes(IEnumerable{Lucid.SceneManagement.Scene})
+  commentId: M:Lucid.SceneManagement.SceneManager.LoadScenes(IEnumerable{Lucid.SceneManagement.Scene})
+  id: LoadScenes(IEnumerable{Lucid.SceneManagement.Scene})
+  parent: Lucid.SceneManagement.SceneManager
+  langs:
+  - csharp
+  - vb
+  name: LoadScenes(IEnumerable<Scene>)
+  nameWithType: SceneManager.LoadScenes(IEnumerable<Scene>)
+  fullName: Lucid.SceneManagement.SceneManager.LoadScenes(IEnumerable<Lucid.SceneManagement.Scene>)
+  type: Method
+  source:
+    id: LoadScenes
+    path: ''
+    startLine: 13882
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.SceneManagement
+  syntax:
+    content: public IEnumerator LoadScenes(IEnumerable<Scene> scenes)
+    parameters:
+    - id: scenes
+      type: Global.IEnumerable{Lucid.SceneManagement.Scene}
+    return:
+      type: Global.IEnumerator
+    content.vb: Public Function LoadScenes(scenes As IEnumerable(Of Scene)) As IEnumerator
+  overload: Lucid.SceneManagement.SceneManager.LoadScenes*
+  nameWithType.vb: SceneManager.LoadScenes(IEnumerable(Of Scene))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Lucid.SceneManagement.SceneManager.LoadScenes(IEnumerable(Of Lucid.SceneManagement.Scene))
+  name.vb: LoadScenes(IEnumerable(Of Scene))
+- uid: Lucid.SceneManagement.SceneManager.UnloadScene(System.String,Action)
+  commentId: M:Lucid.SceneManagement.SceneManager.UnloadScene(System.String,Action)
+  id: UnloadScene(System.String,Action)
+  parent: Lucid.SceneManagement.SceneManager
+  langs:
+  - csharp
+  - vb
+  name: UnloadScene(String, Action)
+  nameWithType: SceneManager.UnloadScene(String, Action)
+  fullName: Lucid.SceneManagement.SceneManager.UnloadScene(System.String, Action)
+  type: Method
+  source:
+    id: UnloadScene
+    path: ''
+    startLine: 13898
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.SceneManagement
+  syntax:
+    content: public IEnumerator UnloadScene(string databaseKey, Action onComplete = null)
+    parameters:
+    - id: databaseKey
+      type: System.String
+    - id: onComplete
+      type: Global.Action
+    return:
+      type: Global.IEnumerator
+    content.vb: Public Function UnloadScene(databaseKey As String, onComplete As Action = Nothing) As IEnumerator
+  overload: Lucid.SceneManagement.SceneManager.UnloadScene*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.SceneManagement.SceneManager.UnloadScene(Lucid.SceneManagement.Scene,Action)
+  commentId: M:Lucid.SceneManagement.SceneManager.UnloadScene(Lucid.SceneManagement.Scene,Action)
+  id: UnloadScene(Lucid.SceneManagement.Scene,Action)
+  parent: Lucid.SceneManagement.SceneManager
+  langs:
+  - csharp
+  - vb
+  name: UnloadScene(Scene, Action)
+  nameWithType: SceneManager.UnloadScene(Scene, Action)
+  fullName: Lucid.SceneManagement.SceneManager.UnloadScene(Lucid.SceneManagement.Scene, Action)
+  type: Method
+  source:
+    id: UnloadScene
+    path: ''
+    startLine: 13912
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.SceneManagement
+  syntax:
+    content: public IEnumerator UnloadScene(Scene scene, Action onComplete = null)
+    parameters:
+    - id: scene
+      type: Lucid.SceneManagement.Scene
+    - id: onComplete
+      type: Global.Action
+    return:
+      type: Global.IEnumerator
+    content.vb: Public Function UnloadScene(scene As Scene, onComplete As Action = Nothing) As IEnumerator
+  overload: Lucid.SceneManagement.SceneManager.UnloadScene*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.SceneManagement.SceneManager.UnloadScenes(IEnumerable{System.String})
+  commentId: M:Lucid.SceneManagement.SceneManager.UnloadScenes(IEnumerable{System.String})
+  id: UnloadScenes(IEnumerable{System.String})
+  parent: Lucid.SceneManagement.SceneManager
+  langs:
+  - csharp
+  - vb
+  name: UnloadScenes(IEnumerable<String>)
+  nameWithType: SceneManager.UnloadScenes(IEnumerable<String>)
+  fullName: Lucid.SceneManagement.SceneManager.UnloadScenes(IEnumerable<System.String>)
+  type: Method
+  source:
+    id: UnloadScenes
+    path: ''
+    startLine: 13926
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.SceneManagement
+  syntax:
+    content: public IEnumerator UnloadScenes(IEnumerable<string> databaseKeys)
+    parameters:
+    - id: databaseKeys
+      type: Global.IEnumerable{System.String}
+    return:
+      type: Global.IEnumerator
+    content.vb: Public Function UnloadScenes(databaseKeys As IEnumerable(Of String)) As IEnumerator
+  overload: Lucid.SceneManagement.SceneManager.UnloadScenes*
+  nameWithType.vb: SceneManager.UnloadScenes(IEnumerable(Of String))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Lucid.SceneManagement.SceneManager.UnloadScenes(IEnumerable(Of System.String))
+  name.vb: UnloadScenes(IEnumerable(Of String))
+- uid: Lucid.SceneManagement.SceneManager.UnloadScenes(IEnumerable{Lucid.SceneManagement.Scene})
+  commentId: M:Lucid.SceneManagement.SceneManager.UnloadScenes(IEnumerable{Lucid.SceneManagement.Scene})
+  id: UnloadScenes(IEnumerable{Lucid.SceneManagement.Scene})
+  parent: Lucid.SceneManagement.SceneManager
+  langs:
+  - csharp
+  - vb
+  name: UnloadScenes(IEnumerable<Scene>)
+  nameWithType: SceneManager.UnloadScenes(IEnumerable<Scene>)
+  fullName: Lucid.SceneManagement.SceneManager.UnloadScenes(IEnumerable<Lucid.SceneManagement.Scene>)
+  type: Method
+  source:
+    id: UnloadScenes
+    path: ''
+    startLine: 13938
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.SceneManagement
+  syntax:
+    content: public IEnumerator UnloadScenes(IEnumerable<Scene> scenes)
+    parameters:
+    - id: scenes
+      type: Global.IEnumerable{Lucid.SceneManagement.Scene}
+    return:
+      type: Global.IEnumerator
+    content.vb: Public Function UnloadScenes(scenes As IEnumerable(Of Scene)) As IEnumerator
+  overload: Lucid.SceneManagement.SceneManager.UnloadScenes*
+  nameWithType.vb: SceneManager.UnloadScenes(IEnumerable(Of Scene))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Lucid.SceneManagement.SceneManager.UnloadScenes(IEnumerable(Of Lucid.SceneManagement.Scene))
+  name.vb: UnloadScenes(IEnumerable(Of Scene))
+- uid: Lucid.SceneManagement.SceneManager.TestLoadAll
+  commentId: M:Lucid.SceneManagement.SceneManager.TestLoadAll
+  id: TestLoadAll
+  parent: Lucid.SceneManagement.SceneManager
+  langs:
+  - csharp
+  - vb
+  name: TestLoadAll()
+  nameWithType: SceneManager.TestLoadAll()
+  fullName: Lucid.SceneManagement.SceneManager.TestLoadAll()
+  type: Method
+  source:
+    id: TestLoadAll
+    path: ''
+    startLine: 13965
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.SceneManagement
+  syntax:
+    content: public void TestLoadAll()
+    content.vb: Public Sub TestLoadAll
+  overload: Lucid.SceneManagement.SceneManager.TestLoadAll*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.SceneManagement.SceneManager.TestUnloadAll
+  commentId: M:Lucid.SceneManagement.SceneManager.TestUnloadAll
+  id: TestUnloadAll
+  parent: Lucid.SceneManagement.SceneManager
+  langs:
+  - csharp
+  - vb
+  name: TestUnloadAll()
+  nameWithType: SceneManager.TestUnloadAll()
+  fullName: Lucid.SceneManagement.SceneManager.TestUnloadAll()
+  type: Method
+  source:
+    id: TestUnloadAll
+    path: ''
+    startLine: 13971
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.SceneManagement
+  syntax:
+    content: public void TestUnloadAll()
+    content.vb: Public Sub TestUnloadAll
+  overload: Lucid.SceneManagement.SceneManager.TestUnloadAll*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.SceneManagement
+  commentId: N:Lucid.SceneManagement
+  name: Lucid.SceneManagement
+  nameWithType: Lucid.SceneManagement
+  fullName: Lucid.SceneManagement
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.SceneManagement.SceneDatabase
+  commentId: T:Lucid.SceneManagement.SceneDatabase
+  parent: Lucid.SceneManagement
+  name: SceneDatabase
+  nameWithType: SceneDatabase
+  fullName: Lucid.SceneManagement.SceneDatabase
+- uid: Global.List{Lucid.SceneManagement.Scene}
+  commentId: '!:Global.List{Lucid.SceneManagement.Scene}'
+  definition: Global.List`1
+  name: List<Scene>
+  nameWithType: List<Scene>
+  fullName: List<Lucid.SceneManagement.Scene>
+  nameWithType.vb: List(Of Scene)
+  fullName.vb: List(Of Lucid.SceneManagement.Scene)
+  name.vb: List(Of Scene)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Lucid.SceneManagement.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: Lucid.SceneManagement.Scene
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Lucid.SceneManagement.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: Lucid.SceneManagement.Scene
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.SceneManagement.SceneManager.currentLoadedScenes*
+  commentId: Overload:Lucid.SceneManagement.SceneManager.currentLoadedScenes
+  name: currentLoadedScenes
+  nameWithType: SceneManager.currentLoadedScenes
+  fullName: Lucid.SceneManagement.SceneManager.currentLoadedScenes
+- uid: Lucid.SceneManagement.SceneManager.LoadScene*
+  commentId: Overload:Lucid.SceneManagement.SceneManager.LoadScene
+  name: LoadScene
+  nameWithType: SceneManager.LoadScene
+  fullName: Lucid.SceneManagement.SceneManager.LoadScene
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.Action
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: Action
+- uid: Global.IEnumerator
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: IEnumerator
+- uid: Lucid.SceneManagement.Scene
+  commentId: T:Lucid.SceneManagement.Scene
+  parent: Lucid.SceneManagement
+  name: Scene
+  nameWithType: Scene
+  fullName: Lucid.SceneManagement.Scene
+- uid: Lucid.SceneManagement.SceneManager.LoadScenes*
+  commentId: Overload:Lucid.SceneManagement.SceneManager.LoadScenes
+  name: LoadScenes
+  nameWithType: SceneManager.LoadScenes
+  fullName: Lucid.SceneManagement.SceneManager.LoadScenes
+- uid: Global.IEnumerable{System.String}
+  commentId: '!:Global.IEnumerable{System.String}'
+  definition: Global.IEnumerable`1
+  name: IEnumerable<String>
+  nameWithType: IEnumerable<String>
+  fullName: IEnumerable<System.String>
+  nameWithType.vb: IEnumerable(Of String)
+  fullName.vb: IEnumerable(Of System.String)
+  name.vb: IEnumerable(Of String)
+  spec.csharp:
+  - uid: Global.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: Global.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.IEnumerable{Lucid.SceneManagement.Scene}
+  commentId: '!:Global.IEnumerable{Lucid.SceneManagement.Scene}'
+  definition: Global.IEnumerable`1
+  name: IEnumerable<Scene>
+  nameWithType: IEnumerable<Scene>
+  fullName: IEnumerable<Lucid.SceneManagement.Scene>
+  nameWithType.vb: IEnumerable(Of Scene)
+  fullName.vb: IEnumerable(Of Lucid.SceneManagement.Scene)
+  name.vb: IEnumerable(Of Scene)
+  spec.csharp:
+  - uid: Global.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Lucid.SceneManagement.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: Lucid.SceneManagement.Scene
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Lucid.SceneManagement.Scene
+    name: Scene
+    nameWithType: Scene
+    fullName: Lucid.SceneManagement.Scene
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.SceneManagement.SceneManager.UnloadScene*
+  commentId: Overload:Lucid.SceneManagement.SceneManager.UnloadScene
+  name: UnloadScene
+  nameWithType: SceneManager.UnloadScene
+  fullName: Lucid.SceneManagement.SceneManager.UnloadScene
+- uid: Lucid.SceneManagement.SceneManager.UnloadScenes*
+  commentId: Overload:Lucid.SceneManagement.SceneManager.UnloadScenes
+  name: UnloadScenes
+  nameWithType: SceneManager.UnloadScenes
+  fullName: Lucid.SceneManagement.SceneManager.UnloadScenes
+- uid: Lucid.SceneManagement.SceneManager.TestLoadAll*
+  commentId: Overload:Lucid.SceneManagement.SceneManager.TestLoadAll
+  name: TestLoadAll
+  nameWithType: SceneManager.TestLoadAll
+  fullName: Lucid.SceneManagement.SceneManager.TestLoadAll
+- uid: Lucid.SceneManagement.SceneManager.TestUnloadAll*
+  commentId: Overload:Lucid.SceneManagement.SceneManager.TestUnloadAll
+  name: TestUnloadAll
+  nameWithType: SceneManager.TestUnloadAll
+  fullName: Lucid.SceneManagement.SceneManager.TestUnloadAll

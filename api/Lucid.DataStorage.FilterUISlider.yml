@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.DataStorage.FilterUISlider
+  commentId: T:Lucid.DataStorage.FilterUISlider
+  id: FilterUISlider
+  parent: Lucid.DataStorage
+  children:
+  - Lucid.DataStorage.FilterUISlider.dataStoreFilter
+  - Lucid.DataStorage.FilterUISlider.slider
+  langs:
+  - csharp
+  - vb
+  name: FilterUISlider
+  nameWithType: FilterUISlider
+  fullName: Lucid.DataStorage.FilterUISlider
+  type: Class
+  source:
+    id: FilterUISlider
+    path: ''
+    startLine: 14828
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: 'public class FilterUISlider : SerializedMonoBehaviour'
+    content.vb: >-
+      Public Class FilterUISlider
+          Inherits SerializedMonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.DataStorage.FilterUISlider.slider
+  commentId: P:Lucid.DataStorage.FilterUISlider.slider
+  id: slider
+  parent: Lucid.DataStorage.FilterUISlider
+  langs:
+  - csharp
+  - vb
+  name: slider
+  nameWithType: FilterUISlider.slider
+  fullName: Lucid.DataStorage.FilterUISlider.slider
+  type: Property
+  source:
+    id: slider
+    path: ''
+    startLine: 14832
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public Slider slider { get; }
+    parameters: []
+    return:
+      type: Global.Slider
+    content.vb: Public ReadOnly Property slider As Slider
+  overload: Lucid.DataStorage.FilterUISlider.slider*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Lucid.DataStorage.FilterUISlider.dataStoreFilter
+  commentId: F:Lucid.DataStorage.FilterUISlider.dataStoreFilter
+  id: dataStoreFilter
+  parent: Lucid.DataStorage.FilterUISlider
+  langs:
+  - csharp
+  - vb
+  name: dataStoreFilter
+  nameWithType: FilterUISlider.dataStoreFilter
+  fullName: Lucid.DataStorage.FilterUISlider.dataStoreFilter
+  type: Field
+  source:
+    id: dataStoreFilter
+    path: ''
+    startLine: 14840
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.DataStorage
+  syntax:
+    content: public IDataStoreFilter dataStoreFilter
+    return:
+      type: Lucid.DataStorage.IDataStoreFilter
+    content.vb: Public dataStoreFilter As IDataStoreFilter
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.DataStorage
+  commentId: N:Lucid.DataStorage
+  name: Lucid.DataStorage
+  nameWithType: Lucid.DataStorage
+  fullName: Lucid.DataStorage
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.DataStorage.FilterUISlider.slider*
+  commentId: Overload:Lucid.DataStorage.FilterUISlider.slider
+  name: slider
+  nameWithType: FilterUISlider.slider
+  fullName: Lucid.DataStorage.FilterUISlider.slider
+- uid: Global.Slider
+  isExternal: true
+  name: Slider
+  nameWithType: Slider
+  fullName: Slider
+- uid: Lucid.DataStorage.IDataStoreFilter
+  commentId: T:Lucid.DataStorage.IDataStoreFilter
+  parent: Lucid.DataStorage
+  name: IDataStoreFilter
+  nameWithType: IDataStoreFilter
+  fullName: Lucid.DataStorage.IDataStoreFilter

@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Animation.LAFloatCollection
+  commentId: T:Lucid.Animation.LAFloatCollection
+  id: LAFloatCollection
+  parent: Lucid.Animation
+  children:
+  - Lucid.Animation.LAFloatCollection.#ctor
+  - Lucid.Animation.LAFloatCollection.#ctor(Lucid.Animation.LAFloatCollection)
+  - Lucid.Animation.LAFloatCollection.OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  langs:
+  - csharp
+  - vb
+  name: LAFloatCollection
+  nameWithType: LAFloatCollection
+  fullName: Lucid.Animation.LAFloatCollection
+  type: Class
+  source:
+    id: LAFloatCollection
+    path: ''
+    startLine: 24139
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class LAFloatCollection : ObservableCollection<LAFloat>, INotifyCollectionChanged, INotifyPropertyChanged
+    content.vb: >-
+      <Serializable>
+
+      Public Class LAFloatCollection
+          Inherits ObservableCollection(Of LAFloat)
+          Implements INotifyCollectionChanged, INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Animation.LAFloatCollection.#ctor
+  commentId: M:Lucid.Animation.LAFloatCollection.#ctor
+  id: '#ctor'
+  parent: Lucid.Animation.LAFloatCollection
+  langs:
+  - csharp
+  - vb
+  name: LAFloatCollection()
+  nameWithType: LAFloatCollection.LAFloatCollection()
+  fullName: Lucid.Animation.LAFloatCollection.LAFloatCollection()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 24142
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAFloatCollection()
+    content.vb: Public Sub New
+  overload: Lucid.Animation.LAFloatCollection.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAFloatCollection.#ctor(Lucid.Animation.LAFloatCollection)
+  commentId: M:Lucid.Animation.LAFloatCollection.#ctor(Lucid.Animation.LAFloatCollection)
+  id: '#ctor(Lucid.Animation.LAFloatCollection)'
+  parent: Lucid.Animation.LAFloatCollection
+  langs:
+  - csharp
+  - vb
+  name: LAFloatCollection(LAFloatCollection)
+  nameWithType: LAFloatCollection.LAFloatCollection(LAFloatCollection)
+  fullName: Lucid.Animation.LAFloatCollection.LAFloatCollection(Lucid.Animation.LAFloatCollection)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 24143
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LAFloatCollection(LAFloatCollection copy)
+    parameters:
+    - id: copy
+      type: Lucid.Animation.LAFloatCollection
+    content.vb: Public Sub New(copy As LAFloatCollection)
+  overload: Lucid.Animation.LAFloatCollection.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LAFloatCollection.OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  commentId: M:Lucid.Animation.LAFloatCollection.OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  id: OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  parent: Lucid.Animation.LAFloatCollection
+  langs:
+  - csharp
+  - vb
+  name: OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  nameWithType: LAFloatCollection.OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  fullName: Lucid.Animation.LAFloatCollection.OnCollectionChanged(NotifyCollectionChangedEventArgs)
+  type: Method
+  source:
+    id: OnCollectionChanged
+    path: ''
+    startLine: 24151
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: protected override void OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+    parameters:
+    - id: e
+      type: Global.NotifyCollectionChangedEventArgs
+    content.vb: Protected Overrides Sub OnCollectionChanged(e As NotifyCollectionChangedEventArgs)
+  overload: Lucid.Animation.LAFloatCollection.OnCollectionChanged*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Lucid.Animation
+  commentId: N:Lucid.Animation
+  name: Lucid.Animation
+  nameWithType: Lucid.Animation
+  fullName: Lucid.Animation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.Animation.LAFloatCollection.#ctor*
+  commentId: Overload:Lucid.Animation.LAFloatCollection.#ctor
+  name: LAFloatCollection
+  nameWithType: LAFloatCollection.LAFloatCollection
+  fullName: Lucid.Animation.LAFloatCollection.LAFloatCollection
+- uid: Lucid.Animation.LAFloatCollection
+  commentId: T:Lucid.Animation.LAFloatCollection
+  parent: Lucid.Animation
+  name: LAFloatCollection
+  nameWithType: LAFloatCollection
+  fullName: Lucid.Animation.LAFloatCollection
+- uid: Lucid.Animation.LAFloatCollection.OnCollectionChanged*
+  commentId: Overload:Lucid.Animation.LAFloatCollection.OnCollectionChanged
+  name: OnCollectionChanged
+  nameWithType: LAFloatCollection.OnCollectionChanged
+  fullName: Lucid.Animation.LAFloatCollection.OnCollectionChanged
+- uid: Global.NotifyCollectionChangedEventArgs
+  isExternal: true
+  name: NotifyCollectionChangedEventArgs
+  nameWithType: NotifyCollectionChangedEventArgs
+  fullName: NotifyCollectionChangedEventArgs

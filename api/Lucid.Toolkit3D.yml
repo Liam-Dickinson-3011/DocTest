@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Toolkit3D
+  commentId: N:Lucid.Toolkit3D
+  id: Lucid.Toolkit3D
+  children:
+  - Lucid.Toolkit3D.BaseCameraRig
+  - Lucid.Toolkit3D.CameraRigManager
+  - Lucid.Toolkit3D.FakeScrollingArray
+  - Lucid.Toolkit3D.FirstPersonCamera
+  - Lucid.Toolkit3D.GizmoDrawer
+  - Lucid.Toolkit3D.GizmoDrawer.GizmoType
+  - Lucid.Toolkit3D.MaterialHighlightGroup
+  - Lucid.Toolkit3D.OrbitCamera
+  - Lucid.Toolkit3D.TransformRandomizer
+  langs:
+  - csharp
+  - vb
+  name: Lucid.Toolkit3D
+  nameWithType: Lucid.Toolkit3D
+  fullName: Lucid.Toolkit3D
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Lucid.Toolkit3D.FakeScrollingArray
+  commentId: T:Lucid.Toolkit3D.FakeScrollingArray
+  name: FakeScrollingArray
+  nameWithType: FakeScrollingArray
+  fullName: Lucid.Toolkit3D.FakeScrollingArray
+- uid: Lucid.Toolkit3D.TransformRandomizer
+  commentId: T:Lucid.Toolkit3D.TransformRandomizer
+  name: TransformRandomizer
+  nameWithType: TransformRandomizer
+  fullName: Lucid.Toolkit3D.TransformRandomizer
+- uid: Lucid.Toolkit3D.GizmoDrawer
+  commentId: T:Lucid.Toolkit3D.GizmoDrawer
+  name: GizmoDrawer
+  nameWithType: GizmoDrawer
+  fullName: Lucid.Toolkit3D.GizmoDrawer
+- uid: Lucid.Toolkit3D.GizmoDrawer.GizmoType
+  commentId: T:Lucid.Toolkit3D.GizmoDrawer.GizmoType
+  parent: Lucid.Toolkit3D
+  name: GizmoDrawer.GizmoType
+  nameWithType: GizmoDrawer.GizmoType
+  fullName: Lucid.Toolkit3D.GizmoDrawer.GizmoType
+- uid: Lucid.Toolkit3D.FirstPersonCamera
+  commentId: T:Lucid.Toolkit3D.FirstPersonCamera
+  name: FirstPersonCamera
+  nameWithType: FirstPersonCamera
+  fullName: Lucid.Toolkit3D.FirstPersonCamera
+- uid: Lucid.Toolkit3D.BaseCameraRig
+  commentId: T:Lucid.Toolkit3D.BaseCameraRig
+  parent: Lucid.Toolkit3D
+  name: BaseCameraRig
+  nameWithType: BaseCameraRig
+  fullName: Lucid.Toolkit3D.BaseCameraRig
+- uid: Lucid.Toolkit3D.CameraRigManager
+  commentId: T:Lucid.Toolkit3D.CameraRigManager
+  name: CameraRigManager
+  nameWithType: CameraRigManager
+  fullName: Lucid.Toolkit3D.CameraRigManager
+- uid: Lucid.Toolkit3D.OrbitCamera
+  commentId: T:Lucid.Toolkit3D.OrbitCamera
+  name: OrbitCamera
+  nameWithType: OrbitCamera
+  fullName: Lucid.Toolkit3D.OrbitCamera
+- uid: Lucid.Toolkit3D.MaterialHighlightGroup
+  commentId: T:Lucid.Toolkit3D.MaterialHighlightGroup
+  name: MaterialHighlightGroup
+  nameWithType: MaterialHighlightGroup
+  fullName: Lucid.Toolkit3D.MaterialHighlightGroup
+- uid: Lucid.Toolkit3D
+  commentId: N:Lucid.Toolkit3D
+  name: Lucid.Toolkit3D
+  nameWithType: Lucid.Toolkit3D
+  fullName: Lucid.Toolkit3D

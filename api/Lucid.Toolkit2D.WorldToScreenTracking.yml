@@ -1,0 +1,301 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Toolkit2D.WorldToScreenTracking
+  commentId: T:Lucid.Toolkit2D.WorldToScreenTracking
+  id: WorldToScreenTracking
+  parent: Lucid.Toolkit2D
+  children:
+  - Lucid.Toolkit2D.WorldToScreenTracking.cam
+  - Lucid.Toolkit2D.WorldToScreenTracking.cScale
+  - Lucid.Toolkit2D.WorldToScreenTracking.maxRenderPos
+  - Lucid.Toolkit2D.WorldToScreenTracking.minRenderPos
+  - Lucid.Toolkit2D.WorldToScreenTracking.offScreenPos
+  - Lucid.Toolkit2D.WorldToScreenTracking.renderNearPlane
+  - Lucid.Toolkit2D.WorldToScreenTracking.trackingSets
+  langs:
+  - csharp
+  - vb
+  name: WorldToScreenTracking
+  nameWithType: WorldToScreenTracking
+  fullName: Lucid.Toolkit2D.WorldToScreenTracking
+  type: Class
+  source:
+    id: WorldToScreenTracking
+    path: ''
+    startLine: 21081
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: 'public class WorldToScreenTracking : MonoBehaviour'
+    content.vb: >-
+      Public Class WorldToScreenTracking
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Toolkit2D.WorldToScreenTracking.trackingSets
+  commentId: F:Lucid.Toolkit2D.WorldToScreenTracking.trackingSets
+  id: trackingSets
+  parent: Lucid.Toolkit2D.WorldToScreenTracking
+  langs:
+  - csharp
+  - vb
+  name: trackingSets
+  nameWithType: WorldToScreenTracking.trackingSets
+  fullName: Lucid.Toolkit2D.WorldToScreenTracking.trackingSets
+  type: Field
+  source:
+    id: trackingSets
+    path: ''
+    startLine: 21092
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public WorldToScreenTracking.TrackingSet[] trackingSets
+    return:
+      type: Lucid.Toolkit2D.WorldToScreenTracking.TrackingSet[]
+    content.vb: Public trackingSets As WorldToScreenTracking.TrackingSet()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.WorldToScreenTracking.offScreenPos
+  commentId: F:Lucid.Toolkit2D.WorldToScreenTracking.offScreenPos
+  id: offScreenPos
+  parent: Lucid.Toolkit2D.WorldToScreenTracking
+  langs:
+  - csharp
+  - vb
+  name: offScreenPos
+  nameWithType: WorldToScreenTracking.offScreenPos
+  fullName: Lucid.Toolkit2D.WorldToScreenTracking.offScreenPos
+  type: Field
+  source:
+    id: offScreenPos
+    path: ''
+    startLine: 21095
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public Vector3 offScreenPos
+    return:
+      type: Global.Vector3
+    content.vb: Public offScreenPos As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.WorldToScreenTracking.minRenderPos
+  commentId: F:Lucid.Toolkit2D.WorldToScreenTracking.minRenderPos
+  id: minRenderPos
+  parent: Lucid.Toolkit2D.WorldToScreenTracking
+  langs:
+  - csharp
+  - vb
+  name: minRenderPos
+  nameWithType: WorldToScreenTracking.minRenderPos
+  fullName: Lucid.Toolkit2D.WorldToScreenTracking.minRenderPos
+  type: Field
+  source:
+    id: minRenderPos
+    path: ''
+    startLine: 21096
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public Vector2 minRenderPos
+    return:
+      type: Global.Vector2
+    content.vb: Public minRenderPos As Vector2
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.WorldToScreenTracking.maxRenderPos
+  commentId: F:Lucid.Toolkit2D.WorldToScreenTracking.maxRenderPos
+  id: maxRenderPos
+  parent: Lucid.Toolkit2D.WorldToScreenTracking
+  langs:
+  - csharp
+  - vb
+  name: maxRenderPos
+  nameWithType: WorldToScreenTracking.maxRenderPos
+  fullName: Lucid.Toolkit2D.WorldToScreenTracking.maxRenderPos
+  type: Field
+  source:
+    id: maxRenderPos
+    path: ''
+    startLine: 21097
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public Vector2 maxRenderPos
+    return:
+      type: Global.Vector2
+    content.vb: Public maxRenderPos As Vector2
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.WorldToScreenTracking.renderNearPlane
+  commentId: F:Lucid.Toolkit2D.WorldToScreenTracking.renderNearPlane
+  id: renderNearPlane
+  parent: Lucid.Toolkit2D.WorldToScreenTracking
+  langs:
+  - csharp
+  - vb
+  name: renderNearPlane
+  nameWithType: WorldToScreenTracking.renderNearPlane
+  fullName: Lucid.Toolkit2D.WorldToScreenTracking.renderNearPlane
+  type: Field
+  source:
+    id: renderNearPlane
+    path: ''
+    startLine: 21098
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public float renderNearPlane
+    return:
+      type: System.Single
+    content.vb: Public renderNearPlane As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.WorldToScreenTracking.cam
+  commentId: F:Lucid.Toolkit2D.WorldToScreenTracking.cam
+  id: cam
+  parent: Lucid.Toolkit2D.WorldToScreenTracking
+  langs:
+  - csharp
+  - vb
+  name: cam
+  nameWithType: WorldToScreenTracking.cam
+  fullName: Lucid.Toolkit2D.WorldToScreenTracking.cam
+  type: Field
+  source:
+    id: cam
+    path: ''
+    startLine: 21101
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public Camera cam
+    return:
+      type: Global.Camera
+    content.vb: Public cam As Camera
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.WorldToScreenTracking.cScale
+  commentId: F:Lucid.Toolkit2D.WorldToScreenTracking.cScale
+  id: cScale
+  parent: Lucid.Toolkit2D.WorldToScreenTracking
+  langs:
+  - csharp
+  - vb
+  name: cScale
+  nameWithType: WorldToScreenTracking.cScale
+  fullName: Lucid.Toolkit2D.WorldToScreenTracking.cScale
+  type: Field
+  source:
+    id: cScale
+    path: ''
+    startLine: 21103
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public CanvasScaler cScale
+    return:
+      type: Global.CanvasScaler
+    content.vb: Public cScale As CanvasScaler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Toolkit2D
+  commentId: N:Lucid.Toolkit2D
+  name: Lucid.Toolkit2D
+  nameWithType: Lucid.Toolkit2D
+  fullName: Lucid.Toolkit2D
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lucid.Toolkit2D.WorldToScreenTracking.TrackingSet[]
+  isExternal: true
+  name: WorldToScreenTracking.TrackingSet[]
+  nameWithType: WorldToScreenTracking.TrackingSet[]
+  fullName: Lucid.Toolkit2D.WorldToScreenTracking.TrackingSet[]
+  nameWithType.vb: WorldToScreenTracking.TrackingSet()
+  fullName.vb: Lucid.Toolkit2D.WorldToScreenTracking.TrackingSet()
+  name.vb: WorldToScreenTracking.TrackingSet()
+  spec.csharp:
+  - uid: Lucid.Toolkit2D.WorldToScreenTracking.TrackingSet
+    name: WorldToScreenTracking.TrackingSet
+    nameWithType: WorldToScreenTracking.TrackingSet
+    fullName: Lucid.Toolkit2D.WorldToScreenTracking.TrackingSet
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Lucid.Toolkit2D.WorldToScreenTracking.TrackingSet
+    name: WorldToScreenTracking.TrackingSet
+    nameWithType: WorldToScreenTracking.TrackingSet
+    fullName: Lucid.Toolkit2D.WorldToScreenTracking.TrackingSet
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.Camera
+  isExternal: true
+  name: Camera
+  nameWithType: Camera
+  fullName: Camera
+- uid: Global.CanvasScaler
+  commentId: '!:Global.CanvasScaler'
+  isExternal: true
+  name: CanvasScaler
+  nameWithType: CanvasScaler
+  fullName: CanvasScaler

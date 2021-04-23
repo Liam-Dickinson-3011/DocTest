@@ -1,0 +1,67 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Easing.Ease
+  commentId: T:Lucid.Easing.Ease
+  id: Ease
+  parent: Lucid.Easing
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Ease
+  nameWithType: Ease
+  fullName: Lucid.Easing.Ease
+  type: Delegate
+  source:
+    id: Ease
+    path: ''
+    startLine: 21232
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Easing
+  summary: "\nRepresents an eased interpolation w/ respect to time.\n\nfloat t, float b, float c, float d\n"
+  example: []
+  syntax:
+    content: public delegate float Ease(float current, float initialValue, float totalChange, float duration);
+    parameters:
+    - id: current
+      type: System.Single
+      description: how long into the ease are we
+    - id: initialValue
+      type: System.Single
+      description: starting value if current were 0
+    - id: totalChange
+      type: System.Single
+      description: total change in the value (not the end value, but the end - start)
+    - id: duration
+      type: System.Single
+      description: the total amount of time (when current == duration, the returned value will == initial + totalChange)
+    return:
+      type: System.Single
+      description: ''
+    content.vb: Public Delegate Function Ease(current As Single, initialValue As Single, totalChange As Single, duration As Single) As Single
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Lucid.Easing
+  commentId: N:Lucid.Easing
+  name: Lucid.Easing
+  nameWithType: Lucid.Easing
+  fullName: Lucid.Easing
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

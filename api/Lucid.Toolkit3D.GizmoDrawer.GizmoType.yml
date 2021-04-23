@@ -1,0 +1,139 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Toolkit3D.GizmoDrawer.GizmoType
+  commentId: T:Lucid.Toolkit3D.GizmoDrawer.GizmoType
+  id: GizmoDrawer.GizmoType
+  parent: Lucid.Toolkit3D
+  children:
+  - Lucid.Toolkit3D.GizmoDrawer.GizmoType.line
+  - Lucid.Toolkit3D.GizmoDrawer.GizmoType.wireCube
+  - Lucid.Toolkit3D.GizmoDrawer.GizmoType.wireSphere
+  langs:
+  - csharp
+  - vb
+  name: GizmoDrawer.GizmoType
+  nameWithType: GizmoDrawer.GizmoType
+  fullName: Lucid.Toolkit3D.GizmoDrawer.GizmoType
+  type: Enum
+  source:
+    id: GizmoType
+    path: ''
+    startLine: 19306
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: >-
+      [Serializable]
+
+      public enum GizmoType
+    content.vb: >-
+      <Serializable>
+
+      Public Enum GizmoType
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Lucid.Toolkit3D.GizmoDrawer.GizmoType.wireCube
+  commentId: F:Lucid.Toolkit3D.GizmoDrawer.GizmoType.wireCube
+  id: wireCube
+  parent: Lucid.Toolkit3D.GizmoDrawer.GizmoType
+  langs:
+  - csharp
+  - vb
+  name: wireCube
+  nameWithType: GizmoDrawer.GizmoType.wireCube
+  fullName: Lucid.Toolkit3D.GizmoDrawer.GizmoType.wireCube
+  type: Field
+  source:
+    id: wireCube
+    path: ''
+    startLine: 19307
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: wireCube = 0
+    return:
+      type: Lucid.Toolkit3D.GizmoDrawer.GizmoType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Toolkit3D.GizmoDrawer.GizmoType.wireSphere
+  commentId: F:Lucid.Toolkit3D.GizmoDrawer.GizmoType.wireSphere
+  id: wireSphere
+  parent: Lucid.Toolkit3D.GizmoDrawer.GizmoType
+  langs:
+  - csharp
+  - vb
+  name: wireSphere
+  nameWithType: GizmoDrawer.GizmoType.wireSphere
+  fullName: Lucid.Toolkit3D.GizmoDrawer.GizmoType.wireSphere
+  type: Field
+  source:
+    id: wireSphere
+    path: ''
+    startLine: 19307
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: wireSphere = 1
+    return:
+      type: Lucid.Toolkit3D.GizmoDrawer.GizmoType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Lucid.Toolkit3D.GizmoDrawer.GizmoType.line
+  commentId: F:Lucid.Toolkit3D.GizmoDrawer.GizmoType.line
+  id: line
+  parent: Lucid.Toolkit3D.GizmoDrawer.GizmoType
+  langs:
+  - csharp
+  - vb
+  name: line
+  nameWithType: GizmoDrawer.GizmoType.line
+  fullName: Lucid.Toolkit3D.GizmoDrawer.GizmoType.line
+  type: Field
+  source:
+    id: line
+    path: ''
+    startLine: 19307
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: line = 2
+    return:
+      type: Lucid.Toolkit3D.GizmoDrawer.GizmoType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Lucid.Toolkit3D
+  commentId: N:Lucid.Toolkit3D
+  name: Lucid.Toolkit3D
+  nameWithType: Lucid.Toolkit3D
+  fullName: Lucid.Toolkit3D
+- uid: Lucid.Toolkit3D.GizmoDrawer.GizmoType
+  commentId: T:Lucid.Toolkit3D.GizmoDrawer.GizmoType
+  parent: Lucid.Toolkit3D
+  name: GizmoDrawer.GizmoType
+  nameWithType: GizmoDrawer.GizmoType
+  fullName: Lucid.Toolkit3D.GizmoDrawer.GizmoType

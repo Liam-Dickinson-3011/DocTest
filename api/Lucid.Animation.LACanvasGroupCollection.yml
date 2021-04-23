@@ -1,0 +1,704 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Animation.LACanvasGroupCollection
+  commentId: T:Lucid.Animation.LACanvasGroupCollection
+  id: LACanvasGroupCollection
+  parent: Lucid.Animation
+  children:
+  - Lucid.Animation.LACanvasGroupCollection.#ctor
+  - Lucid.Animation.LACanvasGroupCollection.#ctor(Lucid.Animation.LACanvasGroupCollection)
+  - Lucid.Animation.LACanvasGroupCollection.AddToSequence(Sequence,System.Boolean)
+  - Lucid.Animation.LACanvasGroupCollection.blocksRaycastsAtEnd
+  - Lucid.Animation.LACanvasGroupCollection.blocksRaycastsAtStart
+  - Lucid.Animation.LACanvasGroupCollection.doFade
+  - Lucid.Animation.LACanvasGroupCollection.doTogs
+  - Lucid.Animation.LACanvasGroupCollection.fades
+  - Lucid.Animation.LACanvasGroupCollection.GetSequenceDuration
+  - Lucid.Animation.LACanvasGroupCollection.interactableAtEnd
+  - Lucid.Animation.LACanvasGroupCollection.interactableAtStart
+  - Lucid.Animation.LACanvasGroupCollection.SetBlocksRaycasts(System.Boolean)
+  - Lucid.Animation.LACanvasGroupCollection.SetInteractable(System.Boolean)
+  - Lucid.Animation.LACanvasGroupCollection.target
+  langs:
+  - csharp
+  - vb
+  name: LACanvasGroupCollection
+  nameWithType: LACanvasGroupCollection
+  fullName: Lucid.Animation.LACanvasGroupCollection
+  type: Class
+  source:
+    id: LACanvasGroupCollection
+    path: ''
+    startLine: 23885
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class LACanvasGroupCollection : LAComponentCollection
+    content.vb: >-
+      <Serializable>
+
+      Public Class LACanvasGroupCollection
+          Inherits LAComponentCollection
+  inheritance:
+  - System.Object
+  - Lucid.Animation.LAComponentCollection
+  inheritedMembers:
+  - Lucid.Animation.LAComponentCollection.onSequenceComplete
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Animation.LACanvasGroupCollection.doFade
+  commentId: F:Lucid.Animation.LACanvasGroupCollection.doFade
+  id: doFade
+  parent: Lucid.Animation.LACanvasGroupCollection
+  langs:
+  - csharp
+  - vb
+  name: doFade
+  nameWithType: LACanvasGroupCollection.doFade
+  fullName: Lucid.Animation.LACanvasGroupCollection.doFade
+  type: Field
+  source:
+    id: doFade
+    path: ''
+    startLine: 23892
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public bool doFade
+    return:
+      type: System.Boolean
+    content.vb: Public doFade As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LACanvasGroupCollection.doTogs
+  commentId: F:Lucid.Animation.LACanvasGroupCollection.doTogs
+  id: doTogs
+  parent: Lucid.Animation.LACanvasGroupCollection
+  langs:
+  - csharp
+  - vb
+  name: doTogs
+  nameWithType: LACanvasGroupCollection.doTogs
+  fullName: Lucid.Animation.LACanvasGroupCollection.doTogs
+  type: Field
+  source:
+    id: doTogs
+    path: ''
+    startLine: 23897
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public bool doTogs
+    return:
+      type: System.Boolean
+    content.vb: Public doTogs As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LACanvasGroupCollection.target
+  commentId: F:Lucid.Animation.LACanvasGroupCollection.target
+  id: target
+  parent: Lucid.Animation.LACanvasGroupCollection
+  langs:
+  - csharp
+  - vb
+  name: target
+  nameWithType: LACanvasGroupCollection.target
+  fullName: Lucid.Animation.LACanvasGroupCollection.target
+  type: Field
+  source:
+    id: target
+    path: ''
+    startLine: 23902
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public CanvasGroup target
+    return:
+      type: Global.CanvasGroup
+    content.vb: Public target As CanvasGroup
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LACanvasGroupCollection.fades
+  commentId: F:Lucid.Animation.LACanvasGroupCollection.fades
+  id: fades
+  parent: Lucid.Animation.LACanvasGroupCollection
+  langs:
+  - csharp
+  - vb
+  name: fades
+  nameWithType: LACanvasGroupCollection.fades
+  fullName: Lucid.Animation.LACanvasGroupCollection.fades
+  type: Field
+  source:
+    id: fades
+    path: ''
+    startLine: 23910
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public List<LANormalisedFloat> fades
+    return:
+      type: Global.List{Lucid.Animation.LANormalisedFloat}
+    content.vb: Public fades As List(Of LANormalisedFloat)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LACanvasGroupCollection.interactableAtStart
+  commentId: F:Lucid.Animation.LACanvasGroupCollection.interactableAtStart
+  id: interactableAtStart
+  parent: Lucid.Animation.LACanvasGroupCollection
+  langs:
+  - csharp
+  - vb
+  name: interactableAtStart
+  nameWithType: LACanvasGroupCollection.interactableAtStart
+  fullName: Lucid.Animation.LACanvasGroupCollection.interactableAtStart
+  type: Field
+  source:
+    id: interactableAtStart
+    path: ''
+    startLine: 23916
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public bool interactableAtStart
+    return:
+      type: System.Boolean
+    content.vb: Public interactableAtStart As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LACanvasGroupCollection.interactableAtEnd
+  commentId: F:Lucid.Animation.LACanvasGroupCollection.interactableAtEnd
+  id: interactableAtEnd
+  parent: Lucid.Animation.LACanvasGroupCollection
+  langs:
+  - csharp
+  - vb
+  name: interactableAtEnd
+  nameWithType: LACanvasGroupCollection.interactableAtEnd
+  fullName: Lucid.Animation.LACanvasGroupCollection.interactableAtEnd
+  type: Field
+  source:
+    id: interactableAtEnd
+    path: ''
+    startLine: 23920
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public bool interactableAtEnd
+    return:
+      type: System.Boolean
+    content.vb: Public interactableAtEnd As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LACanvasGroupCollection.blocksRaycastsAtStart
+  commentId: F:Lucid.Animation.LACanvasGroupCollection.blocksRaycastsAtStart
+  id: blocksRaycastsAtStart
+  parent: Lucid.Animation.LACanvasGroupCollection
+  langs:
+  - csharp
+  - vb
+  name: blocksRaycastsAtStart
+  nameWithType: LACanvasGroupCollection.blocksRaycastsAtStart
+  fullName: Lucid.Animation.LACanvasGroupCollection.blocksRaycastsAtStart
+  type: Field
+  source:
+    id: blocksRaycastsAtStart
+    path: ''
+    startLine: 23924
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public bool blocksRaycastsAtStart
+    return:
+      type: System.Boolean
+    content.vb: Public blocksRaycastsAtStart As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LACanvasGroupCollection.blocksRaycastsAtEnd
+  commentId: F:Lucid.Animation.LACanvasGroupCollection.blocksRaycastsAtEnd
+  id: blocksRaycastsAtEnd
+  parent: Lucid.Animation.LACanvasGroupCollection
+  langs:
+  - csharp
+  - vb
+  name: blocksRaycastsAtEnd
+  nameWithType: LACanvasGroupCollection.blocksRaycastsAtEnd
+  fullName: Lucid.Animation.LACanvasGroupCollection.blocksRaycastsAtEnd
+  type: Field
+  source:
+    id: blocksRaycastsAtEnd
+    path: ''
+    startLine: 23928
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public bool blocksRaycastsAtEnd
+    return:
+      type: System.Boolean
+    content.vb: Public blocksRaycastsAtEnd As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LACanvasGroupCollection.#ctor
+  commentId: M:Lucid.Animation.LACanvasGroupCollection.#ctor
+  id: '#ctor'
+  parent: Lucid.Animation.LACanvasGroupCollection
+  langs:
+  - csharp
+  - vb
+  name: LACanvasGroupCollection()
+  nameWithType: LACanvasGroupCollection.LACanvasGroupCollection()
+  fullName: Lucid.Animation.LACanvasGroupCollection.LACanvasGroupCollection()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 23930
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LACanvasGroupCollection()
+    content.vb: Public Sub New
+  overload: Lucid.Animation.LACanvasGroupCollection.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LACanvasGroupCollection.#ctor(Lucid.Animation.LACanvasGroupCollection)
+  commentId: M:Lucid.Animation.LACanvasGroupCollection.#ctor(Lucid.Animation.LACanvasGroupCollection)
+  id: '#ctor(Lucid.Animation.LACanvasGroupCollection)'
+  parent: Lucid.Animation.LACanvasGroupCollection
+  langs:
+  - csharp
+  - vb
+  name: LACanvasGroupCollection(LACanvasGroupCollection)
+  nameWithType: LACanvasGroupCollection.LACanvasGroupCollection(LACanvasGroupCollection)
+  fullName: Lucid.Animation.LACanvasGroupCollection.LACanvasGroupCollection(Lucid.Animation.LACanvasGroupCollection)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 23935
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public LACanvasGroupCollection(LACanvasGroupCollection copy)
+    parameters:
+    - id: copy
+      type: Lucid.Animation.LACanvasGroupCollection
+    content.vb: Public Sub New(copy As LACanvasGroupCollection)
+  overload: Lucid.Animation.LACanvasGroupCollection.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LACanvasGroupCollection.AddToSequence(Sequence,System.Boolean)
+  commentId: M:Lucid.Animation.LACanvasGroupCollection.AddToSequence(Sequence,System.Boolean)
+  id: AddToSequence(Sequence,System.Boolean)
+  parent: Lucid.Animation.LACanvasGroupCollection
+  langs:
+  - csharp
+  - vb
+  name: AddToSequence(Sequence, Boolean)
+  nameWithType: LACanvasGroupCollection.AddToSequence(Sequence, Boolean)
+  fullName: Lucid.Animation.LACanvasGroupCollection.AddToSequence(Sequence, System.Boolean)
+  type: Method
+  source:
+    id: AddToSequence
+    path: ''
+    startLine: 23964
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public override Sequence AddToSequence(Sequence seq, bool ignoreTimescale = false)
+    parameters:
+    - id: seq
+      type: Global.Sequence
+    - id: ignoreTimescale
+      type: System.Boolean
+    return:
+      type: Global.Sequence
+    content.vb: Public Overrides Function AddToSequence(seq As Sequence, ignoreTimescale As Boolean = False) As Sequence
+  overridden: Lucid.Animation.LAComponentCollection.AddToSequence(Sequence,System.Boolean)
+  overload: Lucid.Animation.LACanvasGroupCollection.AddToSequence*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Lucid.Animation.LACanvasGroupCollection.SetInteractable(System.Boolean)
+  commentId: M:Lucid.Animation.LACanvasGroupCollection.SetInteractable(System.Boolean)
+  id: SetInteractable(System.Boolean)
+  parent: Lucid.Animation.LACanvasGroupCollection
+  langs:
+  - csharp
+  - vb
+  name: SetInteractable(Boolean)
+  nameWithType: LACanvasGroupCollection.SetInteractable(Boolean)
+  fullName: Lucid.Animation.LACanvasGroupCollection.SetInteractable(System.Boolean)
+  type: Method
+  source:
+    id: SetInteractable
+    path: ''
+    startLine: 23988
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public void SetInteractable(bool tf)
+    parameters:
+    - id: tf
+      type: System.Boolean
+    content.vb: Public Sub SetInteractable(tf As Boolean)
+  overload: Lucid.Animation.LACanvasGroupCollection.SetInteractable*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LACanvasGroupCollection.SetBlocksRaycasts(System.Boolean)
+  commentId: M:Lucid.Animation.LACanvasGroupCollection.SetBlocksRaycasts(System.Boolean)
+  id: SetBlocksRaycasts(System.Boolean)
+  parent: Lucid.Animation.LACanvasGroupCollection
+  langs:
+  - csharp
+  - vb
+  name: SetBlocksRaycasts(Boolean)
+  nameWithType: LACanvasGroupCollection.SetBlocksRaycasts(Boolean)
+  fullName: Lucid.Animation.LACanvasGroupCollection.SetBlocksRaycasts(System.Boolean)
+  type: Method
+  source:
+    id: SetBlocksRaycasts
+    path: ''
+    startLine: 23993
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public void SetBlocksRaycasts(bool tf)
+    parameters:
+    - id: tf
+      type: System.Boolean
+    content.vb: Public Sub SetBlocksRaycasts(tf As Boolean)
+  overload: Lucid.Animation.LACanvasGroupCollection.SetBlocksRaycasts*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Animation.LACanvasGroupCollection.GetSequenceDuration
+  commentId: M:Lucid.Animation.LACanvasGroupCollection.GetSequenceDuration
+  id: GetSequenceDuration
+  parent: Lucid.Animation.LACanvasGroupCollection
+  langs:
+  - csharp
+  - vb
+  name: GetSequenceDuration()
+  nameWithType: LACanvasGroupCollection.GetSequenceDuration()
+  fullName: Lucid.Animation.LACanvasGroupCollection.GetSequenceDuration()
+  type: Method
+  source:
+    id: GetSequenceDuration
+    path: ''
+    startLine: 23998
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Animation
+  syntax:
+    content: public override float GetSequenceDuration()
+    return:
+      type: System.Single
+    content.vb: Public Overrides Function GetSequenceDuration As Single
+  overridden: Lucid.Animation.LAComponentCollection.GetSequenceDuration
+  overload: Lucid.Animation.LACanvasGroupCollection.GetSequenceDuration*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Lucid.Animation
+  commentId: N:Lucid.Animation
+  name: Lucid.Animation
+  nameWithType: Lucid.Animation
+  fullName: Lucid.Animation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Lucid.Animation.LAComponentCollection
+  commentId: T:Lucid.Animation.LAComponentCollection
+  parent: Lucid.Animation
+  name: LAComponentCollection
+  nameWithType: LAComponentCollection
+  fullName: Lucid.Animation.LAComponentCollection
+- uid: Lucid.Animation.LAComponentCollection.onSequenceComplete
+  commentId: F:Lucid.Animation.LAComponentCollection.onSequenceComplete
+  parent: Lucid.Animation.LAComponentCollection
+  name: onSequenceComplete
+  nameWithType: LAComponentCollection.onSequenceComplete
+  fullName: Lucid.Animation.LAComponentCollection.onSequenceComplete
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.CanvasGroup
+  isExternal: true
+  name: CanvasGroup
+  nameWithType: CanvasGroup
+  fullName: CanvasGroup
+- uid: Global.List{Lucid.Animation.LANormalisedFloat}
+  commentId: '!:Global.List{Lucid.Animation.LANormalisedFloat}'
+  definition: Global.List`1
+  name: List<LANormalisedFloat>
+  nameWithType: List<LANormalisedFloat>
+  fullName: List<Lucid.Animation.LANormalisedFloat>
+  nameWithType.vb: List(Of LANormalisedFloat)
+  fullName.vb: List(Of Lucid.Animation.LANormalisedFloat)
+  name.vb: List(Of LANormalisedFloat)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Lucid.Animation.LANormalisedFloat
+    name: LANormalisedFloat
+    nameWithType: LANormalisedFloat
+    fullName: Lucid.Animation.LANormalisedFloat
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Lucid.Animation.LANormalisedFloat
+    name: LANormalisedFloat
+    nameWithType: LANormalisedFloat
+    fullName: Lucid.Animation.LANormalisedFloat
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.Animation.LACanvasGroupCollection.#ctor*
+  commentId: Overload:Lucid.Animation.LACanvasGroupCollection.#ctor
+  name: LACanvasGroupCollection
+  nameWithType: LACanvasGroupCollection.LACanvasGroupCollection
+  fullName: Lucid.Animation.LACanvasGroupCollection.LACanvasGroupCollection
+- uid: Lucid.Animation.LACanvasGroupCollection
+  commentId: T:Lucid.Animation.LACanvasGroupCollection
+  parent: Lucid.Animation
+  name: LACanvasGroupCollection
+  nameWithType: LACanvasGroupCollection
+  fullName: Lucid.Animation.LACanvasGroupCollection
+- uid: Lucid.Animation.LAComponentCollection.AddToSequence(Sequence,System.Boolean)
+  commentId: M:Lucid.Animation.LAComponentCollection.AddToSequence(Sequence,System.Boolean)
+  parent: Lucid.Animation.LAComponentCollection
+  isExternal: true
+  name: AddToSequence(Sequence, Boolean)
+  nameWithType: LAComponentCollection.AddToSequence(Sequence, Boolean)
+  fullName: Lucid.Animation.LAComponentCollection.AddToSequence(Sequence, System.Boolean)
+  spec.csharp:
+  - uid: Lucid.Animation.LAComponentCollection.AddToSequence(Sequence,System.Boolean)
+    name: AddToSequence
+    nameWithType: LAComponentCollection.AddToSequence
+    fullName: Lucid.Animation.LAComponentCollection.AddToSequence
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Sequence
+    name: Sequence
+    nameWithType: Sequence
+    fullName: Sequence
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.Animation.LAComponentCollection.AddToSequence(Sequence,System.Boolean)
+    name: AddToSequence
+    nameWithType: LAComponentCollection.AddToSequence
+    fullName: Lucid.Animation.LAComponentCollection.AddToSequence
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Sequence
+    name: Sequence
+    nameWithType: Sequence
+    fullName: Sequence
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.Animation.LACanvasGroupCollection.AddToSequence*
+  commentId: Overload:Lucid.Animation.LACanvasGroupCollection.AddToSequence
+  name: AddToSequence
+  nameWithType: LACanvasGroupCollection.AddToSequence
+  fullName: Lucid.Animation.LACanvasGroupCollection.AddToSequence
+- uid: Global.Sequence
+  isExternal: true
+  name: Sequence
+  nameWithType: Sequence
+  fullName: Sequence
+- uid: Lucid.Animation.LACanvasGroupCollection.SetInteractable*
+  commentId: Overload:Lucid.Animation.LACanvasGroupCollection.SetInteractable
+  name: SetInteractable
+  nameWithType: LACanvasGroupCollection.SetInteractable
+  fullName: Lucid.Animation.LACanvasGroupCollection.SetInteractable
+- uid: Lucid.Animation.LACanvasGroupCollection.SetBlocksRaycasts*
+  commentId: Overload:Lucid.Animation.LACanvasGroupCollection.SetBlocksRaycasts
+  name: SetBlocksRaycasts
+  nameWithType: LACanvasGroupCollection.SetBlocksRaycasts
+  fullName: Lucid.Animation.LACanvasGroupCollection.SetBlocksRaycasts
+- uid: Lucid.Animation.LAComponentCollection.GetSequenceDuration
+  commentId: M:Lucid.Animation.LAComponentCollection.GetSequenceDuration
+  parent: Lucid.Animation.LAComponentCollection
+  name: GetSequenceDuration()
+  nameWithType: LAComponentCollection.GetSequenceDuration()
+  fullName: Lucid.Animation.LAComponentCollection.GetSequenceDuration()
+  spec.csharp:
+  - uid: Lucid.Animation.LAComponentCollection.GetSequenceDuration
+    name: GetSequenceDuration
+    nameWithType: LAComponentCollection.GetSequenceDuration
+    fullName: Lucid.Animation.LAComponentCollection.GetSequenceDuration
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Lucid.Animation.LAComponentCollection.GetSequenceDuration
+    name: GetSequenceDuration
+    nameWithType: LAComponentCollection.GetSequenceDuration
+    fullName: Lucid.Animation.LAComponentCollection.GetSequenceDuration
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Lucid.Animation.LACanvasGroupCollection.GetSequenceDuration*
+  commentId: Overload:Lucid.Animation.LACanvasGroupCollection.GetSequenceDuration
+  name: GetSequenceDuration
+  nameWithType: LACanvasGroupCollection.GetSequenceDuration
+  fullName: Lucid.Animation.LACanvasGroupCollection.GetSequenceDuration
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
