@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.DefaultViewAnimData.html",
-          "hash": "AESX5MNFo9ab+xHLcY3/fw=="
+          "hash": "xHjbh2jNeiUHosnsBF3u1Q=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.GroupAnimationStyle.html",
-          "hash": "P8bkmDJ8nc/5Gz/zVvsemg=="
+          "hash": "ShAJvlCNZNT0FIf3KNI/Ow=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.GroupAnimationStyleSettings.html",
-          "hash": "IJhTWYjUAXI02SwvX3a0Ew=="
+          "hash": "jiPUivzTwjfusuaufxPHwg=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.ItemAnimationStyle.html",
-          "hash": "j8X3YwAmT7oS5vD5uNNvPw=="
+          "hash": "mmEQH/i6e9Lmelkjo1r9Ew=="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.ItemAnimationStyleSettings.html",
-          "hash": "y6N3peS8uyN5hTVLu/tgMg=="
+          "hash": "ttet2iQhqtzj5l3m1NJP5Q=="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LA3DItemAnimation.html",
-          "hash": "tH+Aquofr5IBD1BjVKxASQ=="
+          "hash": "Ule9yctQQGz5ysjHmi1tPw=="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LA3DProgressingAnimation.html",
-          "hash": "nvKW3WrhpUzggicDmSwvBw=="
+          "hash": "dvJucedWfs5cxrsqye74Yg=="
         }
       },
       "is_incremental": false,
@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LA3DProgressor.html",
-          "hash": "k9t5BMVFisKx64Hlnt/f4Q=="
+          "hash": "JTAQu3Td2RkPbLYfVy0KQQ=="
         }
       },
       "is_incremental": false,
@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LACanvasGroup.html",
-          "hash": "1mgR7zH/YL4vlN8oqSkTlg=="
+          "hash": "2ED226LophzORjiswHh3Fg=="
         }
       },
       "is_incremental": false,
@@ -126,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LACanvasGroupCollection.html",
-          "hash": "4BSN4JPy6FjVCV0fBwORAw=="
+          "hash": "p2ilJaqKI4PzyY6fpV7ZBw=="
         }
       },
       "is_incremental": false,
@@ -138,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LAColor.html",
-          "hash": "t++oGjEjPp7ojpHQtSjb/Q=="
+          "hash": "ybhfJXadDcMjnFa66o4tDg=="
         }
       },
       "is_incremental": false,
@@ -150,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LAColorCollection.html",
-          "hash": "74ImZaKyKKw2wZdsuJpQ0A=="
+          "hash": "hH/oGL+vF9uRt50t/hG5Bg=="
         }
       },
       "is_incremental": false,
@@ -162,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LAComponent.html",
-          "hash": "pMMS6ucLq2FeTqsnhnWQdw=="
+          "hash": "VKuqAZyVVudZiN0C6Ng0qg=="
         }
       },
       "is_incremental": false,
@@ -174,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LAComponentCollection.html",
-          "hash": "cvadnPrLXksyxOHwfi5DHg=="
+          "hash": "N+kz+IWXVBIiwFHTrkbxxw=="
         }
       },
       "is_incremental": false,
@@ -186,7 +186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LAEulerAngles.html",
-          "hash": "vwH/MMbvou4PguKemQXDZQ=="
+          "hash": "02heW/r2Yxk1TJoOl6Hbnw=="
         }
       },
       "is_incremental": false,
@@ -198,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LAEulerAnglesCollection.html",
-          "hash": "tGYEl45bNfy+OMQoqGDzZQ=="
+          "hash": "VRDZPVx1DWEn3LsXE7mfsg=="
         }
       },
       "is_incremental": false,
@@ -210,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LAFloat.html",
-          "hash": "3/l5T9ajGbipoUdvSixcqA=="
+          "hash": "7xIGdonFgXjp2iOk6D9Giw=="
         }
       },
       "is_incremental": false,
@@ -222,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LAFloatCollection.html",
-          "hash": "83pa1Uct0xrb4sDTRumc/w=="
+          "hash": "EvAMMCX83RxHV10UShEOZQ=="
         }
       },
       "is_incremental": false,
@@ -234,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LAGradient.html",
-          "hash": "7B8V/XvE7nW78YUIUG1kpQ=="
+          "hash": "cUtTppkGQ6vQxVH7oqx1Qw=="
         }
       },
       "is_incremental": false,
@@ -246,7 +246,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LAGradientCollection.html",
-          "hash": "Sllv6jl2oO9GwQwG+aHzMA=="
+          "hash": "uZSYWco3LtZhHgh+DmnfPw=="
         }
       },
       "is_incremental": false,
@@ -258,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LAImage.ColorType.html",
-          "hash": "hZjLb/VdSDT5PVmVZ67OLw=="
+          "hash": "5JxGI3+UW2ywjB7ZKY6ytQ=="
         }
       },
       "is_incremental": false,
@@ -270,7 +270,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LAImage.html",
-          "hash": "kOhZUyCJaLQhl1ZyW7qgJQ=="
+          "hash": "31PFbNJRoWKbkwZ/g+NccA=="
         }
       },
       "is_incremental": false,
@@ -282,7 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LAImageCollection.ColorType.html",
-          "hash": "66boFcvrQ3etU3iFiD4klw=="
+          "hash": "8dSDqUttUQ8LmTA0T7kABA=="
         }
       },
       "is_incremental": false,
@@ -294,7 +294,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LAImageCollection.html",
-          "hash": "uKnfbvgLbaBynM8W9/WX8w=="
+          "hash": "Xije0DpaW5U++iRIJ277NQ=="
         }
       },
       "is_incremental": false,
@@ -306,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LAInt.html",
-          "hash": "7jjv9k9o7o/T2CGXqIhX2A=="
+          "hash": "HGbWYx21o4LM2LbQOYn3sQ=="
         }
       },
       "is_incremental": false,
@@ -318,7 +318,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LAIntCollection.html",
-          "hash": "OSqzKZScFqYtZN2g5+e+uQ=="
+          "hash": "UDlvJH+qIwrwupsK5d+JWw=="
         }
       },
       "is_incremental": false,
@@ -330,7 +330,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LAMaterial.html",
-          "hash": "/RH/1U69KIzbvLIzWgo1lA=="
+          "hash": "xfnn/tfB9HGj6qGY+Qv4TA=="
         }
       },
       "is_incremental": false,
@@ -342,7 +342,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LANormalisedFloat.html",
-          "hash": "XxiDkfYG13wbdm07ghIfPQ=="
+          "hash": "GiySqeOJYnEoU4EFvH9f1w=="
         }
       },
       "is_incremental": false,
@@ -354,7 +354,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LANormalisedFloatCollection.html",
-          "hash": "qTnTaQKd6zZ0TNlYD1Upcg=="
+          "hash": "n3pYlYnOjV6qwAFE+hRC9A=="
         }
       },
       "is_incremental": false,
@@ -366,7 +366,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LARectTransform.html",
-          "hash": "LYkE443JDkf4b8Kfrf6SKg=="
+          "hash": "4q49Awqke4guTTFlpxnlbA=="
         }
       },
       "is_incremental": false,
@@ -378,7 +378,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LARectTransformCollection.html",
-          "hash": "v5PHPuKk3FZzPyIn3LfeEw=="
+          "hash": "1qRFg797KZ/03dGXdJvX/g=="
         }
       },
       "is_incremental": false,
@@ -390,7 +390,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LASelectable.html",
-          "hash": "BFHpiJIhyL7OrV6Xbnpuqw=="
+          "hash": "2U/oQYk2WAMb2QRqTOlnzw=="
         }
       },
       "is_incremental": false,
@@ -402,7 +402,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LATextMeshProUGUI.html",
-          "hash": "7omH9I+iY9MDw2nHvvcqZA=="
+          "hash": "7gYkKI6lC5/rsZizu3MWsw=="
         }
       },
       "is_incremental": false,
@@ -414,7 +414,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LATextMeshProUGUICollection.html",
-          "hash": "laZfxW2KsetmWyXGBt/JXA=="
+          "hash": "u9j1FO2EMs6maLrqeLZRWg=="
         }
       },
       "is_incremental": false,
@@ -426,7 +426,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LATransform.html",
-          "hash": "O+vDNJ2y8UH18aNlUmtt1Q=="
+          "hash": "ubz50qRNhym33NHn+Imnvw=="
         }
       },
       "is_incremental": false,
@@ -438,7 +438,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LATransformCollection.html",
-          "hash": "UgJrQipcdAP3dzz+hC0Akw=="
+          "hash": "T7hNPyOwufor0TsVeM8Vhw=="
         }
       },
       "is_incremental": false,
@@ -450,7 +450,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LAUIGroupAnimation.html",
-          "hash": "McaOGLLeSY4e2nVrTzQGPw=="
+          "hash": "yCQGgOx6nMNC0ZzDzFcPuA=="
         }
       },
       "is_incremental": false,
@@ -462,7 +462,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LAUIItemAnimation.html",
-          "hash": "A0yt02n78kG1K8wstIPZtw=="
+          "hash": "9QNIIfdfUVN2I/I+WS/6Cg=="
         }
       },
       "is_incremental": false,
@@ -474,7 +474,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LAUIProgressingAnimation.html",
-          "hash": "alur14ZOCfbfJibHkxjY+A=="
+          "hash": "JW3JEaZxUfy3MvyU3qT9Dw=="
         }
       },
       "is_incremental": false,
@@ -486,7 +486,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LAUISwitch.html",
-          "hash": "CwgaOObTYslNs39P9DmVgQ=="
+          "hash": "cjtAP4wlR85jB3fN5gncsg=="
         }
       },
       "is_incremental": false,
@@ -498,7 +498,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LAUISwitchResponder.html",
-          "hash": "yWgqhIrvYN+6Vf6jFdE45w=="
+          "hash": "OCU+G3suGMgYIK1fMB1p8w=="
         }
       },
       "is_incremental": false,
@@ -510,7 +510,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LAUISwitchSet.html",
-          "hash": "NYZKcc6pFwhaGyWBnfbW/Q=="
+          "hash": "C/r4S6YnbGbplx5CTO3RXg=="
         }
       },
       "is_incremental": false,
@@ -522,7 +522,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LAVector2.html",
-          "hash": "vgqix4j4iA1KCF7KGSqPNg=="
+          "hash": "wh+zt9a+Txex6HNgQcM9Vw=="
         }
       },
       "is_incremental": false,
@@ -534,7 +534,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LAVector2Collection.html",
-          "hash": "l+7jJbBJ/7eQC9W4x1lY4A=="
+          "hash": "WHBl65JVWrMyV7TYDeajRA=="
         }
       },
       "is_incremental": false,
@@ -546,7 +546,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LAVector3.html",
-          "hash": "+/t8PGhywAZ9W93rOmOAiA=="
+          "hash": "VYnyiG9lKTltv7sh/7nr8w=="
         }
       },
       "is_incremental": false,
@@ -558,7 +558,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LAVector3Collection.html",
-          "hash": "xnt/3SnovPYsDFApxBj2SA=="
+          "hash": "a0DL1jOu+TKepBWRbf76uw=="
         }
       },
       "is_incremental": false,
@@ -570,7 +570,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.LucidAnim.html",
-          "hash": "G8wPIpCwDZvib9w9iIYdlw=="
+          "hash": "PXeFfQ1Opvg0CeEbXK2DCw=="
         }
       },
       "is_incremental": false,
@@ -582,7 +582,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.TestLAProgressor.html",
-          "hash": "7+jmVZAv5dYJ4etmMG8iFA=="
+          "hash": "TKtXnMTeVIhqdOr5IyigTA=="
         }
       },
       "is_incremental": false,
@@ -594,7 +594,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.html",
-          "hash": "lxDVPJiCSSKQElz+JuTfQQ=="
+          "hash": "sRjVFDy0GjxcaWBLnYcYaQ=="
         }
       },
       "is_incremental": false,
@@ -606,7 +606,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.BaseEditorWindow.html",
-          "hash": "leOCC9ijWO5dwjbSDzlhVg=="
+          "hash": "0MmiqMBgyHfCjWG6GjWe+A=="
         }
       },
       "is_incremental": false,
@@ -618,7 +618,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Branding.BaseStyleHandler.html",
-          "hash": "QzUc/WXvJVIFty8mxgfvHQ=="
+          "hash": "pXb3VzpihxmwpYf/OUd47A=="
         }
       },
       "is_incremental": false,
@@ -630,7 +630,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Branding.Color.ColorStyle.html",
-          "hash": "SSRqjVHsE3JtpNM8H7cBtg=="
+          "hash": "ELBCiHzFfSh5PPLJx0pBYQ=="
         }
       },
       "is_incremental": false,
@@ -642,7 +642,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Branding.Color.ColorStyleHandler.html",
-          "hash": "ZIdmrlmxHdTrvN9YC8FjTg=="
+          "hash": "/IufbOlmFbNIH1paQIQqPA=="
         }
       },
       "is_incremental": false,
@@ -654,7 +654,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Branding.Color.ColorStyleSettings.html",
-          "hash": "bvaTDOveiU7O7sT3p1Z/OQ=="
+          "hash": "yNte6j2hyMxbqcwvhNHYTw=="
         }
       },
       "is_incremental": false,
@@ -666,7 +666,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Branding.Color.html",
-          "hash": "QVy7VzzGdyJABKDuWx4PeA=="
+          "hash": "koQHNLFLNzEt6Yqa12XH3Q=="
         }
       },
       "is_incremental": false,
@@ -678,7 +678,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Branding.Text.TextStyle.html",
-          "hash": "ANIt6Puhh5kTqwJ8uIO8pA=="
+          "hash": "vD/SqTvunFOWKGIw763wJw=="
         }
       },
       "is_incremental": false,
@@ -690,7 +690,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Branding.Text.TextStyleHandler.html",
-          "hash": "JMzKPKthl8FL38l4ov5fCg=="
+          "hash": "rdNMQBSiPbADFMj7/VjGVw=="
         }
       },
       "is_incremental": false,
@@ -702,7 +702,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Branding.Text.TextStyleSettings.html",
-          "hash": "kwESvNdRG4EpDAmjG3wRqw=="
+          "hash": "yTSMLXditVLImeLZgRVQpA=="
         }
       },
       "is_incremental": false,
@@ -714,7 +714,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Branding.Text.html",
-          "hash": "GdD4cTIuU3RPMPWmqdpTfQ=="
+          "hash": "wqfYNbGwKigVNMRAmo2QSg=="
         }
       },
       "is_incremental": false,
@@ -726,7 +726,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Branding.html",
-          "hash": "sBGma/6C2h6E/xGo5nyIPQ=="
+          "hash": "aJw7iBj+thT1Al15Bs78Nw=="
         }
       },
       "is_incremental": false,
@@ -738,7 +738,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Core.AppManager.html",
-          "hash": "FHu7/ZSBO8EkrwHizKSR8Q=="
+          "hash": "B+t7qtyo17FLrMZSFOKzlQ=="
         }
       },
       "is_incremental": false,
@@ -750,7 +750,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Core.GalleryViewData.html",
-          "hash": "A637HK5wRLMJlBfDYEycEw=="
+          "hash": "WetWFUUdrCeTV9bVh8YzWA=="
         }
       },
       "is_incremental": false,
@@ -762,7 +762,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Core.GenerationSettingsSO.html",
-          "hash": "uYkqutEoa8f4M+JNeBRKZQ=="
+          "hash": "4Emc/Ya+vNuFHuSkFSfjew=="
         }
       },
       "is_incremental": false,
@@ -774,7 +774,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Core.HeaderType.html",
-          "hash": "JpUk3OTNuBW5WHocA4fDFw=="
+          "hash": "yQdeg36SE1BkgQxKehI5IA=="
         }
       },
       "is_incremental": false,
@@ -786,7 +786,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Core.LayeredGraphicData.html",
-          "hash": "Qk01pIDIBInnpA5k0SLfNQ=="
+          "hash": "I5Zs89Dd/FKSMzlooG9U/A=="
         }
       },
       "is_incremental": false,
@@ -798,7 +798,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Core.MenuItemData.html",
-          "hash": "5pPKym2b5DqW4o1mTlTIgw=="
+          "hash": "VJ5+8TV3jMp2QxGWVpyq5g=="
         }
       },
       "is_incremental": false,
@@ -810,7 +810,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Core.MenuItemGenData.html",
-          "hash": "svaQmZmyfx9pSsokeDTltA=="
+          "hash": "yBvGSvVgDDApOR82IXM1Gw=="
         }
       },
       "is_incremental": false,
@@ -822,7 +822,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Core.MenuItemType.html",
-          "hash": "TSj+OQprYzoVjm6DzpcEjg=="
+          "hash": "qjon19SNWn+iHSarcA8eFg=="
         }
       },
       "is_incremental": false,
@@ -834,7 +834,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Core.MenuLayout.html",
-          "hash": "ztnxwsdNN8LtA++Ad5XFHg=="
+          "hash": "JodGYhpveiqdUFnQ7Z/0tg=="
         }
       },
       "is_incremental": false,
@@ -846,7 +846,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Core.MenuType.html",
-          "hash": "yBOXL7htQ9VOb/xyS0EbXQ=="
+          "hash": "i2YZbx/YAzGWPVFpXnDctg=="
         }
       },
       "is_incremental": false,
@@ -858,7 +858,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Core.MenuViewData.html",
-          "hash": "IW/x4dLd8kSGrnyGrUlK/w=="
+          "hash": "YAXXlqsc+HazWXtzi0FJKA=="
         }
       },
       "is_incremental": false,
@@ -870,7 +870,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Core.StaticViewData.html",
-          "hash": "w6clPHjE4rBtCaWRmJR3Vw=="
+          "hash": "IiBZ1C0N3iDrB3z94+QV+g=="
         }
       },
       "is_incremental": false,
@@ -882,7 +882,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Core.TransitionStyle.html",
-          "hash": "j7CUyVj59GeddnQC1XP7xA=="
+          "hash": "/UpmFoyeOSA8mkUcFGj1rw=="
         }
       },
       "is_incremental": false,
@@ -894,7 +894,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Core.ViewData.html",
-          "hash": "9/9Jzwpg0OTZSY5/pKvBgw=="
+          "hash": "rERUS3Vv/XlqcNePQ7ddkA=="
         }
       },
       "is_incremental": false,
@@ -906,7 +906,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Core.ViewDataSO.html",
-          "hash": "CzfCudaHe3lhCxRJMIBy/g=="
+          "hash": "ETTZ9bn14ozT2lOkEcPsWg=="
         }
       },
       "is_incremental": false,
@@ -918,7 +918,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Core.ViewState.html",
-          "hash": "V/Xp37Mi9M7h/paTnLTSNQ=="
+          "hash": "YrCyLxMH+pg1a3Ors2Mh6Q=="
         }
       },
       "is_incremental": false,
@@ -930,7 +930,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Core.ViewType.html",
-          "hash": "IcVXzrY3YgqQ67SR1QKMEw=="
+          "hash": "bkAcPvnvydZ+rzHZBBryAA=="
         }
       },
       "is_incremental": false,
@@ -942,7 +942,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Core.html",
-          "hash": "wbWsCOrSKIvOGpfiFHDsEg=="
+          "hash": "O0N47wW94E9bPGiSVt7f7A=="
         }
       },
       "is_incremental": false,
@@ -954,7 +954,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.DataStorage.CSVDataStore.html",
-          "hash": "FXPsa0gQhis0s7cfYoyL/A=="
+          "hash": "jRMywdFcUAD8xZe20lQu6w=="
         }
       },
       "is_incremental": false,
@@ -966,7 +966,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.DataStorage.DataDrivenComponent.html",
-          "hash": "CLjGL17MLDZ5/+908+sWCw=="
+          "hash": "uD7b2D65EbwLRgXnXo7xoQ=="
         }
       },
       "is_incremental": false,
@@ -978,7 +978,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.DataStorage.DataDrivenImage.html",
-          "hash": "STm27ef+KHGPIh00n77o8g=="
+          "hash": "aZjCY3mHMV8zGlvTIf0v7Q=="
         }
       },
       "is_incremental": false,
@@ -990,7 +990,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.DataStorage.DataDrivenTextMeshPro.html",
-          "hash": "fQ5JzbB0P1lzSOfggO2yBg=="
+          "hash": "6v6Hlfd+AIf5MoTm8VcJIQ=="
         }
       },
       "is_incremental": false,
@@ -1002,7 +1002,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.DataStorage.DataStore.DataType.html",
-          "hash": "/XlEyfuPsLlGbEo9pljVDA=="
+          "hash": "teMbjs4zVkEMrHQ3y6xkdw=="
         }
       },
       "is_incremental": false,
@@ -1014,7 +1014,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.DataStorage.DataStore.html",
-          "hash": "IzAX812FlgAlRXIzNxetxw=="
+          "hash": "TNWPJDIXniYC2ftnsjLzmQ=="
         }
       },
       "is_incremental": false,
@@ -1026,7 +1026,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.DataStorage.DataStoreBoolFilter.EqualityType.html",
-          "hash": "BPeb9yf8UuUvBExnrN+fvg=="
+          "hash": "j4LC4IMdw3ARjJAmwhUbgA=="
         }
       },
       "is_incremental": false,
@@ -1038,7 +1038,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.DataStorage.DataStoreBoolFilter.html",
-          "hash": "bMRRTV1UhSj8KkC3v+GyrQ=="
+          "hash": "+PiqpzzfHmdpwNUhlYKqWQ=="
         }
       },
       "is_incremental": false,
@@ -1050,7 +1050,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.DataStorage.DataStoreFloatFilter.EqualityType.html",
-          "hash": "+HDesUcacelt+/kkPrTIqw=="
+          "hash": "pX1XEjMYlyF4CuU6B/chNQ=="
         }
       },
       "is_incremental": false,
@@ -1062,7 +1062,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.DataStorage.DataStoreFloatFilter.html",
-          "hash": "vufHxht9zBct0me/zTQrTA=="
+          "hash": "4liKP10IhAo/QulfDe9dMQ=="
         }
       },
       "is_incremental": false,
@@ -1074,7 +1074,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.DataStorage.DataStoreFloatRangeFilter.EqualityType.html",
-          "hash": "puzhCDFo9BqC2fmCUekHSA=="
+          "hash": "2ra2q54Lwhzp5qVcrkLejw=="
         }
       },
       "is_incremental": false,
@@ -1086,7 +1086,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.DataStorage.DataStoreFloatRangeFilter.html",
-          "hash": "Ti7z8orsuENwkUsxPix72Q=="
+          "hash": "yX6hUFfhXpXX2BJwxERKcQ=="
         }
       },
       "is_incremental": false,
@@ -1098,7 +1098,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.DataStorage.DataStoreIntFilter.EqualityType.html",
-          "hash": "I64F5AoF4Xw8rT3vkL6RiA=="
+          "hash": "Y6Ax8H8YVJu2SNxKZ4dTeQ=="
         }
       },
       "is_incremental": false,
@@ -1110,7 +1110,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.DataStorage.DataStoreIntFilter.html",
-          "hash": "T/NvUn0TDY6lxitBtyCIKQ=="
+          "hash": "RWFtnH6sAV5Mri5WFhtQFg=="
         }
       },
       "is_incremental": false,
@@ -1122,7 +1122,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.DataStorage.DataStoreIntRangeFilter.EqualityType.html",
-          "hash": "V1rAezUx35OTEboLFQW1+g=="
+          "hash": "LVWfWyxCrdG9s6PMKWORyw=="
         }
       },
       "is_incremental": false,
@@ -1134,7 +1134,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.DataStorage.DataStoreIntRangeFilter.html",
-          "hash": "ZSkvej7nYbOrqfcFoT8hnQ=="
+          "hash": "MQ87S7bvgbrPAz0ULp1lJQ=="
         }
       },
       "is_incremental": false,
@@ -1146,7 +1146,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.DataStorage.DataStoreStringFilter.EqualityType.html",
-          "hash": "OxQEIgQnHB5qVkiJJiiwfg=="
+          "hash": "aMVFY9rYZW2zTZiegW44RQ=="
         }
       },
       "is_incremental": false,
@@ -1158,7 +1158,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.DataStorage.DataStoreStringFilter.html",
-          "hash": "QUOXm7NmlHMKOo24ByBwPg=="
+          "hash": "bnQ7MyBbfUv8206GsVVQxA=="
         }
       },
       "is_incremental": false,
@@ -1170,7 +1170,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.DataStorage.FilterUISlider.html",
-          "hash": "IkZHedn92N9QFG0Ve5VSiQ=="
+          "hash": "Ts3VoywtD1Yb9UF+AHLKuw=="
         }
       },
       "is_incremental": false,
@@ -1182,7 +1182,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.DataStorage.FilterUIToggle.ToggleType.html",
-          "hash": "HUkbODVD81JRJrwtPo6sTw=="
+          "hash": "26Q0cddfH8iXbjPEjdUvcw=="
         }
       },
       "is_incremental": false,
@@ -1194,7 +1194,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.DataStorage.FilterUIToggle.html",
-          "hash": "wNu0dfhKfX4VGy6K1PdF4A=="
+          "hash": "5n/gQG4WbgFQ4OPm/SoS8g=="
         }
       },
       "is_incremental": false,
@@ -1206,7 +1206,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.DataStorage.FilteredDataStore.FiltersUpdated.html",
-          "hash": "7udP8fdU/uikls3sro2A4g=="
+          "hash": "C3yFeIqlJanlClp6ZU9SLg=="
         }
       },
       "is_incremental": false,
@@ -1218,7 +1218,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.DataStorage.FilteredDataStore.NoneFiltered.html",
-          "hash": "+3Z4LHmgY66vIf9CqUkUxQ=="
+          "hash": "fERnyEjSRH+9Xw8nCR+5zw=="
         }
       },
       "is_incremental": false,
@@ -1230,7 +1230,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.DataStorage.FilteredDataStore.html",
-          "hash": "Nk3O3CdP/htADGWb6koBFQ=="
+          "hash": "yu/Op3xgmnJf011dziw49w=="
         }
       },
       "is_incremental": false,
@@ -1242,7 +1242,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.DataStorage.GoogleSheetsDataStore.SpreadSheetLoaded_Del.html",
-          "hash": "B75Hi4yxaiENQ/qWOGhU+w=="
+          "hash": "UV49/AAcNuX6rTOo66nD0w=="
         }
       },
       "is_incremental": false,
@@ -1254,7 +1254,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.DataStorage.GoogleSheetsDataStore.html",
-          "hash": "4zEIJroJEZ+JnmrBrrC2BQ=="
+          "hash": "S+UwWtW7TtXzl/tQx4BrnQ=="
         }
       },
       "is_incremental": false,
@@ -1266,7 +1266,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.DataStorage.IDataDriven.html",
-          "hash": "rjCPC7KojLMR829gJRa3Xg=="
+          "hash": "GiMqIMmuLxgnZEhoExOGuQ=="
         }
       },
       "is_incremental": false,
@@ -1278,7 +1278,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.DataStorage.IDataStoreFilter.html",
-          "hash": "atCllas9FgsM4kzqsvENJQ=="
+          "hash": "+zRHjoMhS6qiqJqVYOatiQ=="
         }
       },
       "is_incremental": false,
@@ -1290,7 +1290,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.DataStorage.JSONDataStore.html",
-          "hash": "+hKuXxyk5fcV1xZELgbs2Q=="
+          "hash": "IAbXCR6oHUclZDmqTcWXww=="
         }
       },
       "is_incremental": false,
@@ -1302,7 +1302,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.DataStorage.Node.html",
-          "hash": "09yuViEHAjus0DtdEXtUEw=="
+          "hash": "ZRJRzfXr53vUzy5IdXoTjQ=="
         }
       },
       "is_incremental": false,
@@ -1314,7 +1314,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.DataStorage.html",
-          "hash": "WCZQuoqKaw69oBMzQrPmKg=="
+          "hash": "DPArxH2Lmp5gZaV0k+D+Hw=="
         }
       },
       "is_incremental": false,
@@ -1326,7 +1326,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Easing.ConcreteEaseMethods.html",
-          "hash": "PbyqOLvLru0GPaEtRh5QAw=="
+          "hash": "Lk4/78z6bmPEDvbhCLuZ2Q=="
         }
       },
       "is_incremental": false,
@@ -1338,7 +1338,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Easing.Ease.html",
-          "hash": "NDmFeS2v0E+xlJX7+bhqvg=="
+          "hash": "A91LVAqxhUmNO84aOkrK4w=="
         }
       },
       "is_incremental": false,
@@ -1350,7 +1350,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Easing.EaseMethods.html",
-          "hash": "0iUtY5bWhkSRihyw/z9MXg=="
+          "hash": "UqJ06a6gLoQRzRGICQjSqQ=="
         }
       },
       "is_incremental": false,
@@ -1362,7 +1362,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Easing.EaseStyle.html",
-          "hash": "DpEb4BozqvqMuh9a+efMlA=="
+          "hash": "57IEL+QiYuU61IwC/F94DQ=="
         }
       },
       "is_incremental": false,
@@ -1374,7 +1374,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Easing.html",
-          "hash": "3Ml/7yeZPzJzZCc1IrFwaQ=="
+          "hash": "5D1/zxrXFTOWy48keokrKg=="
         }
       },
       "is_incremental": false,
@@ -1386,7 +1386,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Extensions.AIPeople.AIWaypoint.html",
-          "hash": "oA4+OrHA5DkxTQm+fSfPHg=="
+          "hash": "EQCv4PMGpgMHSvIx/vg8+Q=="
         }
       },
       "is_incremental": false,
@@ -1398,7 +1398,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Extensions.AIPeople.AIWaypointGroup.html",
-          "hash": "7ZxynAtj8aC5HlCmx2vM+g=="
+          "hash": "EimI9DNER06ediaFwkYhQQ=="
         }
       },
       "is_incremental": false,
@@ -1410,7 +1410,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Extensions.AIPeople.RandomWaypointWalker.html",
-          "hash": "QeAbt7/00YBQy7nK6fubxQ=="
+          "hash": "GMfEw876cnYw90zUu8UHww=="
         }
       },
       "is_incremental": false,
@@ -1422,7 +1422,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Extensions.AIPeople.RoamerAI.LoopStyle.html",
-          "hash": "Fb3Musk2mbz6zHRdVIIqMA=="
+          "hash": "ZLXqnIpudAbN83GkLO2kpQ=="
         }
       },
       "is_incremental": false,
@@ -1434,7 +1434,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Extensions.AIPeople.RoamerAI.RoamData.html",
-          "hash": "ub5LxPvOAhma5M2q2GaPCQ=="
+          "hash": "0AmNCX0L6R1Fs9Ur0hU5Rg=="
         }
       },
       "is_incremental": false,
@@ -1446,7 +1446,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Extensions.AIPeople.RoamerAI.html",
-          "hash": "cN1/HFM2m6LjMbI0mhUo+g=="
+          "hash": "ocJpgnMTGGNzo3UDXK/sGA=="
         }
       },
       "is_incremental": false,
@@ -1458,7 +1458,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Extensions.AIPeople.SequencedAnimator.AnimData.html",
-          "hash": "V9XNimDEjmw5CJmivcZGkA=="
+          "hash": "fjAN2biSDSUIe7ZbiVNPFw=="
         }
       },
       "is_incremental": false,
@@ -1470,7 +1470,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Extensions.AIPeople.SequencedAnimator.html",
-          "hash": "w/90tuaWyikDT+th+sxmpg=="
+          "hash": "KZ3RaAaxsAUsIl67LT82BQ=="
         }
       },
       "is_incremental": false,
@@ -1482,7 +1482,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Extensions.AIPeople.SequencedWaypointWalker.html",
-          "hash": "rfPBytvILACjP8PK39vKDQ=="
+          "hash": "o0XWtQTZsXCuYMbiey5qMw=="
         }
       },
       "is_incremental": false,
@@ -1494,7 +1494,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Extensions.AIPeople.SittingTalkingAI.AnimData.html",
-          "hash": "5PZi5AY8ETIVFaF0yJ/2Sw=="
+          "hash": "VXG+wYmQG0tY+ECdrAezdA=="
         }
       },
       "is_incremental": false,
@@ -1506,7 +1506,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Extensions.AIPeople.SittingTalkingAI.html",
-          "hash": "wtNJ8HTWgTxD9L3B6MeHiQ=="
+          "hash": "YU4WZK9jtEtBYns3N9rbfQ=="
         }
       },
       "is_incremental": false,
@@ -1518,7 +1518,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Extensions.AIPeople.html",
-          "hash": "/CoApoult72xGcO1Wn1SOw=="
+          "hash": "tX1wu5AOhObVKYUODJjBWg=="
         }
       },
       "is_incremental": false,
@@ -1530,7 +1530,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Extensions.Email.EmailClient.html",
-          "hash": "VdKg5lTtZHEjeBKIwDAV1w=="
+          "hash": "bDMZf9G5UQW7CWmhLdh0DQ=="
         }
       },
       "is_incremental": false,
@@ -1542,7 +1542,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Extensions.Email.EmailTemplate.html",
-          "hash": "gACC/nIP7DKOkf6Il2FJ+A=="
+          "hash": "h4V/3su1IByEuQozFYCr5w=="
         }
       },
       "is_incremental": false,
@@ -1554,7 +1554,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Extensions.Email.html",
-          "hash": "Lt/2HRgMTUhe0lwx95UzWA=="
+          "hash": "MFHfA/MZv8tq3Vl8uu+t6g=="
         }
       },
       "is_incremental": false,
@@ -1566,7 +1566,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Extensions.ImageSequences.BaseSpriteSequenceHandler.html",
-          "hash": "HT8nXCQuIdyKUfjW9/H0Vw=="
+          "hash": "5HCymGkmS0DerXOck9lwfw=="
         }
       },
       "is_incremental": false,
@@ -1578,7 +1578,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Extensions.ImageSequences.IImageSequence.html",
-          "hash": "WWXD/1KEsG2Zg6FVnXl4dg=="
+          "hash": "vBZ2B2/CMhgzLVM15KcZzQ=="
         }
       },
       "is_incremental": false,
@@ -1590,7 +1590,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Extensions.ImageSequences.ImageSequenceCameraRig.html",
-          "hash": "arxMMa4xZfmjSMD7ri0VCw=="
+          "hash": "fqPvOE1/plfdGyxO7/nJgA=="
         }
       },
       "is_incremental": false,
@@ -1602,7 +1602,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Extensions.ImageSequences.ImageSequenceInitialiser.html",
-          "hash": "ZTZwvtuXerefz43L9kuS+A=="
+          "hash": "Sf2aWcOUo3EEIUV68lMDyg=="
         }
       },
       "is_incremental": false,
@@ -1614,7 +1614,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Extensions.ImageSequences.ImageSequencesEditorWindow.html",
-          "hash": "s8y7AJax39P/EjQIM0is5A=="
+          "hash": "zdgT9OjsihBUuRJRWlb43w=="
         }
       },
       "is_incremental": false,
@@ -1626,7 +1626,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Extensions.ImageSequences.SpriteAssetBundle.html",
-          "hash": "XWoFJY6J/pkpton9PCHzMQ=="
+          "hash": "FQI+4y++wyndYihxKSMDig=="
         }
       },
       "is_incremental": false,
@@ -1638,7 +1638,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Extensions.ImageSequences.SpriteSequence.AsyncLoadType.html",
-          "hash": "nUBJvCEt/BGY0robFH9Ndw=="
+          "hash": "X/s9kp97b3L1ruUiJXxOiw=="
         }
       },
       "is_incremental": false,
@@ -1650,7 +1650,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Extensions.ImageSequences.SpriteSequence.CurrentSpriteChanged_Del.html",
-          "hash": "7FVjIplAGp6iGFuyapdh+Q=="
+          "hash": "VB5q6ASeZIcNKCJj0F71UQ=="
         }
       },
       "is_incremental": false,
@@ -1662,7 +1662,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Extensions.ImageSequences.SpriteSequence.SpriteAssetBundleLoaded_Del.html",
-          "hash": "+ArxD5yP23+rJgcqoBY/Vw=="
+          "hash": "WdNnyVTcxtd3cVOsb71ACQ=="
         }
       },
       "is_incremental": false,
@@ -1674,7 +1674,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Extensions.ImageSequences.SpriteSequence.SpriteAssetBundleUnloaded_Del.html",
-          "hash": "bnKta9CuatGwO3EJ9LTY0g=="
+          "hash": "YaI06vjEYS+N/L8Q9VovPA=="
         }
       },
       "is_incremental": false,
@@ -1686,7 +1686,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Extensions.ImageSequences.SpriteSequence.html",
-          "hash": "iqBOC0qXdqgXC4ben2WjeA=="
+          "hash": "oVZ/GcTDJvFiDx6N0aw43w=="
         }
       },
       "is_incremental": false,
@@ -1698,7 +1698,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Extensions.ImageSequences.SpriteSequenceImage.html",
-          "hash": "Q5VnVhsppVrw9nnMUundng=="
+          "hash": "vHmYDac10eg+vyPrDG81vg=="
         }
       },
       "is_incremental": false,
@@ -1710,7 +1710,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Extensions.ImageSequences.html",
-          "hash": "d9WbLSOjs4SoINpQ83a2Cw=="
+          "hash": "GY/fTZa9Qouqc9UUpP/BVg=="
         }
       },
       "is_incremental": false,
@@ -1722,7 +1722,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Extensions.RenderTurntable.RenderTurntableCamera.html",
-          "hash": "n53fWY5F4sgsBQUV+RF4nA=="
+          "hash": "dd1LOEEQOl6jUL/ID3kRKg=="
         }
       },
       "is_incremental": false,
@@ -1734,7 +1734,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Extensions.RenderTurntable.RenderTurntableImage.html",
-          "hash": "BphDj8bXcBzhTv+/zVqq4Q=="
+          "hash": "Ig2j4Zu2mZokBU9nmTUivw=="
         }
       },
       "is_incremental": false,
@@ -1746,7 +1746,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Extensions.RenderTurntable.html",
-          "hash": "TWw+ENuQ3dht7pG86xjm/g=="
+          "hash": "DQlwijnRplrRf/qcReVoTw=="
         }
       },
       "is_incremental": false,
@@ -1758,7 +1758,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.LO_360TouchCam.html",
-          "hash": "ELIaUkZWFltZwQ7565Syyw=="
+          "hash": "ZdmcEyt+tIO4JkvBY4/Kiw=="
         }
       },
       "is_incremental": false,
@@ -1770,7 +1770,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.SceneManagement.Scene.SceneLoadType.html",
-          "hash": "rQtZMbuY42IQUllfgno2iw=="
+          "hash": "6XpJR9D8INbw6nCOeFUcEQ=="
         }
       },
       "is_incremental": false,
@@ -1782,7 +1782,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.SceneManagement.Scene.html",
-          "hash": "UYh+UHw7at1hBfxMuNj/qg=="
+          "hash": "BAG4MP+qr+S2CzZcI+1e+g=="
         }
       },
       "is_incremental": false,
@@ -1794,7 +1794,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.SceneManagement.SceneDatabase.html",
-          "hash": "4oLXcPdXYCcGwA66yYl4nw=="
+          "hash": "A98nMDJGruMBe3n5PyIquQ=="
         }
       },
       "is_incremental": false,
@@ -1806,7 +1806,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.SceneManagement.SceneManager.html",
-          "hash": "m1QcH4vwe9mzItCzLDH72Q=="
+          "hash": "mZInav/RU8hS6XVC1QuZiw=="
         }
       },
       "is_incremental": false,
@@ -1818,7 +1818,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.SceneManagement.html",
-          "hash": "i2CwCumiYgfHnRdDSe195w=="
+          "hash": "pcwzgt2al7idOwBJGTIseA=="
         }
       },
       "is_incremental": false,
@@ -1830,7 +1830,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Singletons.SingletonMonoBehaviour-1.html",
-          "hash": "X0Zhl9eo7QT6W7bGXVfj7g=="
+          "hash": "d4D0jdOHgV8RaFO54exBAA=="
         }
       },
       "is_incremental": false,
@@ -1842,7 +1842,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Singletons.SingletonScriptableObject-1.html",
-          "hash": "cBk0C4P4lze0qtsJQyNEHg=="
+          "hash": "PFZc+mqC4y9g100lTBv7sQ=="
         }
       },
       "is_incremental": false,
@@ -1854,7 +1854,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Singletons.html",
-          "hash": "I1WDjIbV8UO9lEfW7aimMA=="
+          "hash": "bE6AsHFkOUKoWWDSbO00eA=="
         }
       },
       "is_incremental": false,
@@ -1866,7 +1866,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Toolkit2D.AutoAspectFitter.html",
-          "hash": "iafIzIgO1ryoWYUEWLcfUQ=="
+          "hash": "qCJsgMD0/siye2UWgEoJAw=="
         }
       },
       "is_incremental": false,
@@ -1878,7 +1878,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Toolkit2D.SwipeDetection.DragDistanceType.html",
-          "hash": "BdMzudAA0a2PlzJwWUfYUw=="
+          "hash": "RXlLNxpzkgGA8Vpb9lEf/w=="
         }
       },
       "is_incremental": false,
@@ -1890,7 +1890,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Toolkit2D.SwipeDetection.DraggedDirection.html",
-          "hash": "M4KkfYqvxJjxWTPJQl7TVA=="
+          "hash": "IiNhZPLVzsA/hpSNWDiggQ=="
         }
       },
       "is_incremental": false,
@@ -1902,7 +1902,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Toolkit2D.SwipeDetection.html",
-          "hash": "i0C2anWdVOqdKStw924fHg=="
+          "hash": "wIadrVSInQPULgXVI72Xag=="
         }
       },
       "is_incremental": false,
@@ -1914,7 +1914,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Toolkit2D.ToggleGroupEvents.html",
-          "hash": "UG1ENM/LcgrGmrV6IaO3BA=="
+          "hash": "EG3Qg/8AC26YlR6rhSWLKA=="
         }
       },
       "is_incremental": false,
@@ -1926,7 +1926,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Toolkit2D.WorldToScreenTracking.TrackingSet.html",
-          "hash": "RlT78J/GlHzrqJUaBMuPVA=="
+          "hash": "ecllAimUJ4ij5mWohO3wzw=="
         }
       },
       "is_incremental": false,
@@ -1938,7 +1938,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Toolkit2D.WorldToScreenTracking.html",
-          "hash": "hoXqjpLKfrQ8jIc9bxWxQA=="
+          "hash": "t2CvE0GjHsC5yseFPJWB1g=="
         }
       },
       "is_incremental": false,
@@ -1950,7 +1950,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Toolkit2D.html",
-          "hash": "oj1r4dmupr6UkncYAvwmiA=="
+          "hash": "Ge+cSufbm3+dnAL26kbg/w=="
         }
       },
       "is_incremental": false,
@@ -1962,7 +1962,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Toolkit3D.BaseCameraRig.html",
-          "hash": "00LJSlAavks7+0hNw9G9lQ=="
+          "hash": "6V9mSAOMDEhr70/7+1uCjg=="
         }
       },
       "is_incremental": false,
@@ -1974,7 +1974,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Toolkit3D.CameraRigManager.html",
-          "hash": "ErjvuoQRhViYB9IYtmTUHA=="
+          "hash": "228UjAFW9ZU+ZlR44HUvCA=="
         }
       },
       "is_incremental": false,
@@ -1986,7 +1986,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Toolkit3D.FakeScrollingArray.html",
-          "hash": "xkRKMzO3FuBnmrJwZLaMjw=="
+          "hash": "3aGigmzeSVCvazBel+dbyQ=="
         }
       },
       "is_incremental": false,
@@ -1998,7 +1998,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Toolkit3D.FirstPersonCamera.html",
-          "hash": "9tGsoS7n+40MlJKDXy/4fQ=="
+          "hash": "jTHIvzcwx9BWanq/Xf667A=="
         }
       },
       "is_incremental": false,
@@ -2010,7 +2010,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Toolkit3D.GizmoDrawer.GizmoType.html",
-          "hash": "rjxgaiA9pUDTyAj9CExhPQ=="
+          "hash": "3yLFUHcUsqEeEdRCV5sXtw=="
         }
       },
       "is_incremental": false,
@@ -2022,7 +2022,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Toolkit3D.GizmoDrawer.html",
-          "hash": "sUK3hih/PGaIUNmR86OKGw=="
+          "hash": "yFwpCPx5Sr3yfC9cfVZlKA=="
         }
       },
       "is_incremental": false,
@@ -2034,7 +2034,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Toolkit3D.MaterialHighlightGroup.html",
-          "hash": "pPp4EgETFP8Eke3ZAQEicw=="
+          "hash": "leaAR9U5NZ3oG/I1AZ05HA=="
         }
       },
       "is_incremental": false,
@@ -2046,7 +2046,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Toolkit3D.OrbitCamera.html",
-          "hash": "5aU+7vMuPmDbWGz2bpOxPw=="
+          "hash": "U+FXaSnj+SJSdHftfzT6Ow=="
         }
       },
       "is_incremental": false,
@@ -2058,7 +2058,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Toolkit3D.TransformRandomizer.html",
-          "hash": "sddaD/Kqcz2Oa9KDQUNJJw=="
+          "hash": "4O2Geqlrq6VoHs4T/kDXLQ=="
         }
       },
       "is_incremental": false,
@@ -2070,7 +2070,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Toolkit3D.html",
-          "hash": "+gqXv6HfkZmE8B9Nj63NpA=="
+          "hash": "cnbgJRm+QS+hnwuBCYdVDA=="
         }
       },
       "is_incremental": false,
@@ -2082,7 +2082,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.UI.Gallery.Gallery360Image.html",
-          "hash": "W/0ZLSiLoXxKUD0w75Bc6Q=="
+          "hash": "VuoOlsndRMwXN4yLcpBuig=="
         }
       },
       "is_incremental": false,
@@ -2094,7 +2094,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.UI.Gallery.GalleryContent.html",
-          "hash": "9Ws/Bv76IlEOOmaYeNz+6A=="
+          "hash": "uwf9LHDR5/2QlLRsIh2MOg=="
         }
       },
       "is_incremental": false,
@@ -2106,7 +2106,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.UI.Gallery.GalleryDataDriven.html",
-          "hash": "YDuq8A/INLKaS6lqqtlUYA=="
+          "hash": "xLhAR2sUjznJ9gevXYcFOw=="
         }
       },
       "is_incremental": false,
@@ -2118,7 +2118,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.UI.Gallery.GalleryEditorWindow.html",
-          "hash": "XDiHe1ej4ptfkeAN/ual9Q=="
+          "hash": "Nd3K9Xre+Q4ElDBUowG8vg=="
         }
       },
       "is_incremental": false,
@@ -2130,7 +2130,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.UI.Gallery.GalleryItem.html",
-          "hash": "Gr2UUtbapjODSp1XwcaMLQ=="
+          "hash": "f3SL/Lwrt7t1vuufNssFLw=="
         }
       },
       "is_incremental": false,
@@ -2142,7 +2142,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.UI.Gallery.GalleryItemData.ItemType.html",
-          "hash": "7rsskMmdxTWLX8VUb6tMxA=="
+          "hash": "1ZozlvqpmRagVxLRdwHXoQ=="
         }
       },
       "is_incremental": false,
@@ -2154,7 +2154,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.UI.Gallery.GalleryItemData.html",
-          "hash": "kdQiAKzI7S5ZQRihz+2yuA=="
+          "hash": "Ztr05UQVUOi3aQj0ZDhBdg=="
         }
       },
       "is_incremental": false,
@@ -2166,7 +2166,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.UI.Gallery.GallerySprite.html",
-          "hash": "KtaCVi1M2VKrh41cCWR3pQ=="
+          "hash": "qZpbPIowGRbZQHk+/mHyPQ=="
         }
       },
       "is_incremental": false,
@@ -2178,7 +2178,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.UI.Gallery.GalleryThumbnail.html",
-          "hash": "9gEOGHl0DEVqy6MM7EWqBQ=="
+          "hash": "wNpmmqq1a+gk1c7XxMe99Q=="
         }
       },
       "is_incremental": false,
@@ -2190,7 +2190,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.UI.Gallery.GalleryVideo.html",
-          "hash": "RwchDExQ0SP60/4hNNmpHQ=="
+          "hash": "GxZO/TP5Cc42ouJgmVgPpA=="
         }
       },
       "is_incremental": false,
@@ -2202,7 +2202,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.UI.Gallery.GalleryView.html",
-          "hash": "ho7+QYFDmuiUKtoIKtEqwA=="
+          "hash": "eg7IJBK40r227IEXcI/GbQ=="
         }
       },
       "is_incremental": false,
@@ -2214,7 +2214,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.UI.Gallery.html",
-          "hash": "OMboNwCwTfRVCRuo4IWZuw=="
+          "hash": "rFqs5Ie83SbIqzG97zHAcg=="
         }
       },
       "is_incremental": false,
@@ -2226,7 +2226,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.UI.LayeredGraphicView.html",
-          "hash": "ZuA1vFMnBwAh6PrUtVZgPg=="
+          "hash": "a20tUIpO3sfNRd+93OioMQ=="
         }
       },
       "is_incremental": false,
@@ -2238,7 +2238,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.UI.MenuButton.html",
-          "hash": "k+O+lnfmHJwYXY7KDhIdvA=="
+          "hash": "xiGgVlxxY8EtcvcaTFob3g=="
         }
       },
       "is_incremental": false,
@@ -2250,7 +2250,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.UI.MenuInteractable.html",
-          "hash": "LLFxcxF+BLDK1TLHUl2vDg=="
+          "hash": "cXl39s1cnsAGaLgeyIvQQw=="
         }
       },
       "is_incremental": false,
@@ -2262,7 +2262,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.UI.MenuToggle.html",
-          "hash": "IGQ3USg3KNjxPzkb3UK92w=="
+          "hash": "uDOdlhQr8DpMw3bxhADIRw=="
         }
       },
       "is_incremental": false,
@@ -2274,7 +2274,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.UI.MenuView.html",
-          "hash": "f9/6q57ZbU0DpY77lCZbiA=="
+          "hash": "NLtSGSIZ74osjemUvcjseQ=="
         }
       },
       "is_incremental": false,
@@ -2286,7 +2286,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.UI.MultiSceneViewHandler.html",
-          "hash": "dr+zVKM4DRXE41MOIDQpOw=="
+          "hash": "NPycF2fiXQ0MfCu7bF2vOQ=="
         }
       },
       "is_incremental": false,
@@ -2298,7 +2298,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.UI.StaticPageView.html",
-          "hash": "L+EH0Qi4pknI3bJOIgPTaQ=="
+          "hash": "ad3XwFo7SmqqE/MdfYg9oA=="
         }
       },
       "is_incremental": false,
@@ -2310,7 +2310,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.UI.UIManager.SceneHandlerPair.html",
-          "hash": "7OwXjc6o8TQZ2qxKx9v+VA=="
+          "hash": "fchI5KNyCcNxyTHa4V3hUA=="
         }
       },
       "is_incremental": false,
@@ -2322,7 +2322,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.UI.UIManager.html",
-          "hash": "nx89xcvUE2xPe3/WtKQU+w=="
+          "hash": "zVoPLIXyrdt1QtkQ9eOl2Q=="
         }
       },
       "is_incremental": false,
@@ -2334,7 +2334,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.UI.UIView.html",
-          "hash": "NxfYK+kFgD5g7tZcGHyTog=="
+          "hash": "WDAxHh5/2cE4CYEfH14VOw=="
         }
       },
       "is_incremental": false,
@@ -2346,7 +2346,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.UI.html",
-          "hash": "fpcbNSWkjL83tfSAb8ecmQ=="
+          "hash": "FkX/MS1GgSl+pjnI5YYJlw=="
         }
       },
       "is_incremental": false,
@@ -2358,7 +2358,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.html",
-          "hash": "FoL6qYjBM0OWIfsLLDRtWw=="
+          "hash": "7sUmQIIpMTtt0568ZaoLaQ=="
         }
       },
       "is_incremental": false,
@@ -2382,7 +2382,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/coniunctis.html",
-          "hash": "jKsf/E6iTi6jzKkEfpGlFg=="
+          "hash": "3jvhSe/r2KcXj6c/IQaqeQ=="
         }
       },
       "is_incremental": false,
@@ -2394,7 +2394,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/etiam.html",
-          "hash": "W+QQnpQuS/T0NVHYVoNf3g=="
+          "hash": "ubx1yOli0L2L/Dt73w/hzQ=="
         }
       },
       "is_incremental": false,

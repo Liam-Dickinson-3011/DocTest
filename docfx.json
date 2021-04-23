@@ -20,7 +20,7 @@
     "build": {
         "template": [
             "default",
-            "templates/unity"
+            "templates/darkfx"
         ],
         "globalMetadata": {
             "_appTitle": "Lucid Framework Documentation",
