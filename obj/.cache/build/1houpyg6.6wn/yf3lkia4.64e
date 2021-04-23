@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Namespace Global
+   | Lucid Framework Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Namespace Global
+   | Lucid Framework Documentation ">
+    <meta name="generator" content="docfx 2.52.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Global">
+  
+  <h1 id="Global" data-uid="Global" class="text-break">Namespace Global
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+  </h3>
+      <h4><a class="xref" href="Global.AccordionToggle.html">AccordionToggle</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.AdaptiveLayout.html">AdaptiveLayout</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.AutomatedAppPlayer.html">AutomatedAppPlayer</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.AxoCamera.html">AxoCamera</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.AxoCamera.CamAndButton.html">AxoCamera.CamAndButton</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.AxoFloor.html">AxoFloor</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.AxoGenerator.html">AxoGenerator</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.AxoGeneratorEditor.html">AxoGeneratorEditor</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.AxoLabel.html">AxoLabel</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.AxoSearch.html">AxoSearch</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.AxoStack.html">AxoStack</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.AxoStack.FloorData.html">AxoStack.FloorData</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.AxoUnit.html">AxoUnit</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.AxoUnitSelector.html">AxoUnitSelector</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.AxoUnitSlave.html">AxoUnitSlave</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.AxoUnitSlaveEditor.html">AxoUnitSlaveEditor</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.BetterEventDrawer.html">BetterEventDrawer</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.BetterEventEntry.html">BetterEventEntry</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.BetterEventListDrawer.html">BetterEventListDrawer</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.BetterEventProcessor.html">BetterEventProcessor</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.BuildingRoomDataSOEditor.html">BuildingRoomDataSOEditor</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.BuildingRoomsDataSO.html">BuildingRoomsDataSO</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.ButtonPressEvent.html">ButtonPressEvent</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.DependencyImporter.html">DependencyImporter</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.EmailGenerator.html">EmailGenerator</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.ExampleJob.html">ExampleJob</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.ExampleMonoBehaviour.html">ExampleMonoBehaviour</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.FirstPersonController.html">FirstPersonController</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.FixedAspectRatio.html">FixedAspectRatio</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.FloatExtensions.html">FloatExtensions</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.FPSModeManager.html">FPSModeManager</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.FPSTeleporter.html">FPSTeleporter</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.ImageDisplay.html">ImageDisplay</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.ImageSequenceBuilder.html">ImageSequenceBuilder</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.ImageSequencePlayer.html">ImageSequencePlayer</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.ImageSequenceSlider.html">ImageSequenceSlider</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.LayoutGroupAutoRebuild.html">LayoutGroupAutoRebuild</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.MailJob.html">MailJob</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.MethodSelector.html">MethodSelector</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.MouseLook.html">MouseLook</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.MultiCoroutineTest.html">MultiCoroutineTest</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.MultiUIManagerTest.html">MultiUIManagerTest</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.OrbitCamAutomatedMoveTest.html">OrbitCamAutomatedMoveTest</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.OrbitCameraMoveEvent.html">OrbitCameraMoveEvent</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.PieChart2D.html">PieChart2D</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.PieChart2D.PieSectionData.html">PieChart2D.PieSectionData</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.PieChart2DEditor.html">PieChart2DEditor</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.PieChart2DSection.html">PieChart2DSection</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.PlaybackSpeedTest.html">PlaybackSpeedTest</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.QuitButton.html">QuitButton</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.SceneManagementEditor.html">SceneManagementEditor</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.SceneManagementInitialiser.html">SceneManagementInitialiser</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.ScrollRectExtended.html">ScrollRectExtended</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.StringCipher.html">StringCipher</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.TestLucidAnim.html">TestLucidAnim</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.TestOdinGraphicGUI.html">TestOdinGraphicGUI</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.TestOdinGraphicGUI.ViewPreset.html">TestOdinGraphicGUI.ViewPreset</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.TextDisplay.html">TextDisplay</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.ThreadedJob.html">ThreadedJob</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.TimelineControl.html">TimelineControl</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.UnitDataDisplay.html">UnitDataDisplay</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.VideoController.html">VideoController</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.VideoSlider.html">VideoSlider</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.VideoSwapper.html">VideoSwapper</a></h4>
+      <section></section>
+    <h3 id="structs">Structs
+  </h3>
+      <h4><a class="xref" href="Global.AxoUnitSlave.LabelData.html">AxoUnitSlave.LabelData</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.BetterEvent.html">BetterEvent</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.DelegateInfo.html">DelegateInfo</a></h4>
+      <section></section>
+    <h3 id="interfaces">Interfaces
+  </h3>
+      <h4><a class="xref" href="Global.IAxoHighlightable.html">IAxoHighlightable</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.IAxoLockable.html">IAxoLockable</a></h4>
+      <section></section>
+    <h3 id="enums">Enums
+  </h3>
+      <h4><a class="xref" href="Global.AxoMovementMode.html">AxoMovementMode</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.AxoMovementStyle.html">AxoMovementStyle</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.Direction.html">Direction</a></h4>
+      <section></section>
+    <h3 id="delegates">Delegates
+  </h3>
+      <h4><a class="xref" href="Global.OnSpreedSheetLoaded.html">OnSpreedSheetLoaded</a></h4>
+      <section></section>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Lucid Framework Documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

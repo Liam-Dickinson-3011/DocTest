@@ -1,0 +1,10 @@
+apiRules:
+- include:
+    uidRegex: ^Lucid
+    type: Namespace
+- include:
+    uidRegex: ^Lucid\.Extensions
+    type: Namespace
+- exclude:
+    uidRegex: .*
+    type: Namespace
