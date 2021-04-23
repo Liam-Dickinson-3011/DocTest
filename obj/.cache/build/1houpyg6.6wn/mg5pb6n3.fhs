@@ -1,0 +1,1597 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class EaseMethods
+   | Lucid Framework Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class EaseMethods
+   | Lucid Framework Documentation ">
+    <meta name="generator" content="docfx 2.52.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Lucid.Easing.EaseMethods">
+  
+  
+  <h1 id="Lucid_Easing_EaseMethods" data-uid="Lucid.Easing.EaseMethods" class="text-break">Class EaseMethods
+  </h1>
+  <div class="markdown level0 summary"><p sourcefile="api/Lucid.Easing.EaseMethods.yml" sourcestartlinenumber="2" sourceendlinenumber="2">References to Ease delegates for use, this avoids the garbage of the ease delegate.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">EaseMethods</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Lucid.Easing.html">Lucid.Easing</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="Lucid_Easing_EaseMethods_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class EaseMethods</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_BackEaseIn_" data-uid="Lucid.Easing.EaseMethods.BackEaseIn*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_BackEaseIn" data-uid="Lucid.Easing.EaseMethods.BackEaseIn">BackEaseIn</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease BackEaseIn { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_BackEaseInOut_" data-uid="Lucid.Easing.EaseMethods.BackEaseInOut*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_BackEaseInOut" data-uid="Lucid.Easing.EaseMethods.BackEaseInOut">BackEaseInOut</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease BackEaseInOut { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_BackEaseOut_" data-uid="Lucid.Easing.EaseMethods.BackEaseOut*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_BackEaseOut" data-uid="Lucid.Easing.EaseMethods.BackEaseOut">BackEaseOut</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease BackEaseOut { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_BounceEaseIn_" data-uid="Lucid.Easing.EaseMethods.BounceEaseIn*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_BounceEaseIn" data-uid="Lucid.Easing.EaseMethods.BounceEaseIn">BounceEaseIn</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease BounceEaseIn { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_BounceEaseInOut_" data-uid="Lucid.Easing.EaseMethods.BounceEaseInOut*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_BounceEaseInOut" data-uid="Lucid.Easing.EaseMethods.BounceEaseInOut">BounceEaseInOut</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease BounceEaseInOut { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_BounceEaseOut_" data-uid="Lucid.Easing.EaseMethods.BounceEaseOut*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_BounceEaseOut" data-uid="Lucid.Easing.EaseMethods.BounceEaseOut">BounceEaseOut</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease BounceEaseOut { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_CircleEaseIn_" data-uid="Lucid.Easing.EaseMethods.CircleEaseIn*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_CircleEaseIn" data-uid="Lucid.Easing.EaseMethods.CircleEaseIn">CircleEaseIn</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease CircleEaseIn { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_CircleEaseInOut_" data-uid="Lucid.Easing.EaseMethods.CircleEaseInOut*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_CircleEaseInOut" data-uid="Lucid.Easing.EaseMethods.CircleEaseInOut">CircleEaseInOut</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease CircleEaseInOut { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_CircleEaseOut_" data-uid="Lucid.Easing.EaseMethods.CircleEaseOut*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_CircleEaseOut" data-uid="Lucid.Easing.EaseMethods.CircleEaseOut">CircleEaseOut</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease CircleEaseOut { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_CubicEaseIn_" data-uid="Lucid.Easing.EaseMethods.CubicEaseIn*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_CubicEaseIn" data-uid="Lucid.Easing.EaseMethods.CubicEaseIn">CubicEaseIn</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease CubicEaseIn { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_CubicEaseInOut_" data-uid="Lucid.Easing.EaseMethods.CubicEaseInOut*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_CubicEaseInOut" data-uid="Lucid.Easing.EaseMethods.CubicEaseInOut">CubicEaseInOut</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease CubicEaseInOut { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_CubicEaseOut_" data-uid="Lucid.Easing.EaseMethods.CubicEaseOut*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_CubicEaseOut" data-uid="Lucid.Easing.EaseMethods.CubicEaseOut">CubicEaseOut</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease CubicEaseOut { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_ElasticEaseIn_" data-uid="Lucid.Easing.EaseMethods.ElasticEaseIn*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_ElasticEaseIn" data-uid="Lucid.Easing.EaseMethods.ElasticEaseIn">ElasticEaseIn</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease ElasticEaseIn { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_ElasticEaseInOut_" data-uid="Lucid.Easing.EaseMethods.ElasticEaseInOut*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_ElasticEaseInOut" data-uid="Lucid.Easing.EaseMethods.ElasticEaseInOut">ElasticEaseInOut</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease ElasticEaseInOut { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_ElasticEaseOut_" data-uid="Lucid.Easing.EaseMethods.ElasticEaseOut*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_ElasticEaseOut" data-uid="Lucid.Easing.EaseMethods.ElasticEaseOut">ElasticEaseOut</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease ElasticEaseOut { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_ExpoEaseIn_" data-uid="Lucid.Easing.EaseMethods.ExpoEaseIn*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_ExpoEaseIn" data-uid="Lucid.Easing.EaseMethods.ExpoEaseIn">ExpoEaseIn</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease ExpoEaseIn { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_ExpoEaseInOut_" data-uid="Lucid.Easing.EaseMethods.ExpoEaseInOut*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_ExpoEaseInOut" data-uid="Lucid.Easing.EaseMethods.ExpoEaseInOut">ExpoEaseInOut</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease ExpoEaseInOut { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_ExpoEaseOut_" data-uid="Lucid.Easing.EaseMethods.ExpoEaseOut*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_ExpoEaseOut" data-uid="Lucid.Easing.EaseMethods.ExpoEaseOut">ExpoEaseOut</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease ExpoEaseOut { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_LinearEaseIn_" data-uid="Lucid.Easing.EaseMethods.LinearEaseIn*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_LinearEaseIn" data-uid="Lucid.Easing.EaseMethods.LinearEaseIn">LinearEaseIn</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease LinearEaseIn { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_LinearEaseInOut_" data-uid="Lucid.Easing.EaseMethods.LinearEaseInOut*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_LinearEaseInOut" data-uid="Lucid.Easing.EaseMethods.LinearEaseInOut">LinearEaseInOut</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease LinearEaseInOut { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_LinearEaseNone_" data-uid="Lucid.Easing.EaseMethods.LinearEaseNone*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_LinearEaseNone" data-uid="Lucid.Easing.EaseMethods.LinearEaseNone">LinearEaseNone</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease LinearEaseNone { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_LinearEaseOut_" data-uid="Lucid.Easing.EaseMethods.LinearEaseOut*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_LinearEaseOut" data-uid="Lucid.Easing.EaseMethods.LinearEaseOut">LinearEaseOut</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease LinearEaseOut { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_QuadEaseIn_" data-uid="Lucid.Easing.EaseMethods.QuadEaseIn*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_QuadEaseIn" data-uid="Lucid.Easing.EaseMethods.QuadEaseIn">QuadEaseIn</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease QuadEaseIn { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_QuadEaseInOut_" data-uid="Lucid.Easing.EaseMethods.QuadEaseInOut*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_QuadEaseInOut" data-uid="Lucid.Easing.EaseMethods.QuadEaseInOut">QuadEaseInOut</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease QuadEaseInOut { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_QuadEaseOut_" data-uid="Lucid.Easing.EaseMethods.QuadEaseOut*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_QuadEaseOut" data-uid="Lucid.Easing.EaseMethods.QuadEaseOut">QuadEaseOut</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease QuadEaseOut { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_QuartEaseIn_" data-uid="Lucid.Easing.EaseMethods.QuartEaseIn*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_QuartEaseIn" data-uid="Lucid.Easing.EaseMethods.QuartEaseIn">QuartEaseIn</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease QuartEaseIn { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_QuartEaseInOut_" data-uid="Lucid.Easing.EaseMethods.QuartEaseInOut*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_QuartEaseInOut" data-uid="Lucid.Easing.EaseMethods.QuartEaseInOut">QuartEaseInOut</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease QuartEaseInOut { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_QuartEaseOut_" data-uid="Lucid.Easing.EaseMethods.QuartEaseOut*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_QuartEaseOut" data-uid="Lucid.Easing.EaseMethods.QuartEaseOut">QuartEaseOut</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease QuartEaseOut { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_QuintEaseIn_" data-uid="Lucid.Easing.EaseMethods.QuintEaseIn*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_QuintEaseIn" data-uid="Lucid.Easing.EaseMethods.QuintEaseIn">QuintEaseIn</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease QuintEaseIn { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_QuintEaseInOut_" data-uid="Lucid.Easing.EaseMethods.QuintEaseInOut*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_QuintEaseInOut" data-uid="Lucid.Easing.EaseMethods.QuintEaseInOut">QuintEaseInOut</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease QuintEaseInOut { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_QuintEaseOut_" data-uid="Lucid.Easing.EaseMethods.QuintEaseOut*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_QuintEaseOut" data-uid="Lucid.Easing.EaseMethods.QuintEaseOut">QuintEaseOut</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease QuintEaseOut { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_SineEaseIn_" data-uid="Lucid.Easing.EaseMethods.SineEaseIn*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_SineEaseIn" data-uid="Lucid.Easing.EaseMethods.SineEaseIn">SineEaseIn</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease SineEaseIn { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_SineEaseInOut_" data-uid="Lucid.Easing.EaseMethods.SineEaseInOut*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_SineEaseInOut" data-uid="Lucid.Easing.EaseMethods.SineEaseInOut">SineEaseInOut</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease SineEaseInOut { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_SineEaseOut_" data-uid="Lucid.Easing.EaseMethods.SineEaseOut*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_SineEaseOut" data-uid="Lucid.Easing.EaseMethods.SineEaseOut">SineEaseOut</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease SineEaseOut { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_StrongEaseIn_" data-uid="Lucid.Easing.EaseMethods.StrongEaseIn*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_StrongEaseIn" data-uid="Lucid.Easing.EaseMethods.StrongEaseIn">StrongEaseIn</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease StrongEaseIn { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_StrongEaseInOut_" data-uid="Lucid.Easing.EaseMethods.StrongEaseInOut*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_StrongEaseInOut" data-uid="Lucid.Easing.EaseMethods.StrongEaseInOut">StrongEaseInOut</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease StrongEaseInOut { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_StrongEaseOut_" data-uid="Lucid.Easing.EaseMethods.StrongEaseOut*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_StrongEaseOut" data-uid="Lucid.Easing.EaseMethods.StrongEaseOut">StrongEaseOut</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease StrongEaseOut { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_CubicBezier_" data-uid="Lucid.Easing.EaseMethods.CubicBezier*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_CubicBezier_System_Single_System_Single_System_Single_System_Single_" data-uid="Lucid.Easing.EaseMethods.CubicBezier(System.Single,System.Single,System.Single,System.Single)">CubicBezier(Single, Single, Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease CubicBezier(float p0, float p1, float p2, float p3)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">p0</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">p1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">p2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">p3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_EasedLerp_" data-uid="Lucid.Easing.EaseMethods.EasedLerp*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_EasedLerp_Lucid_Easing_Ease_System_Single_System_Single_System_Single_" data-uid="Lucid.Easing.EaseMethods.EasedLerp(Lucid.Easing.Ease,System.Single,System.Single,System.Single)">EasedLerp(Ease, Single, Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float EasedLerp(Ease ease, float from, float to, float t)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td><span class="parametername">ease</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">from</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">to</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">t</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_EaseQuaternion_" data-uid="Lucid.Easing.EaseMethods.EaseQuaternion*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_EaseQuaternion_Lucid_Easing_Ease_Quaternion_Quaternion_System_Single_System_Single_" data-uid="Lucid.Easing.EaseMethods.EaseQuaternion(Lucid.Easing.Ease,Quaternion,Quaternion,System.Single,System.Single)">EaseQuaternion(Ease, Quaternion, Quaternion, Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Quaternion EaseQuaternion(Ease ease, Quaternion start, Quaternion end, float t, float dur)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td><span class="parametername">ease</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Quaternion</span></td>
+        <td><span class="parametername">start</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Quaternion</span></td>
+        <td><span class="parametername">end</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">t</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">dur</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Quaternion</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_EaseVector2_" data-uid="Lucid.Easing.EaseMethods.EaseVector2*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_EaseVector2_Lucid_Easing_Ease_Vector2_Vector2_System_Single_System_Single_" data-uid="Lucid.Easing.EaseMethods.EaseVector2(Lucid.Easing.Ease,Vector2,Vector2,System.Single,System.Single)">EaseVector2(Ease, Vector2, Vector2, Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 EaseVector2(Ease ease, Vector2 start, Vector2 end, float t, float dur)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td><span class="parametername">ease</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">start</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td><span class="parametername">end</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">t</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">dur</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_EaseVector3_" data-uid="Lucid.Easing.EaseMethods.EaseVector3*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_EaseVector3_Lucid_Easing_Ease_Vector3_Vector3_System_Single_System_Single_" data-uid="Lucid.Easing.EaseMethods.EaseVector3(Lucid.Easing.Ease,Vector3,Vector3,System.Single,System.Single)">EaseVector3(Ease, Vector3, Vector3, Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 EaseVector3(Ease ease, Vector3 start, Vector3 end, float t, float dur)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td><span class="parametername">ease</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">start</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td><span class="parametername">end</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">t</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">dur</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_EaseVector4_" data-uid="Lucid.Easing.EaseMethods.EaseVector4*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_EaseVector4_Lucid_Easing_Ease_Vector4_Vector4_System_Single_System_Single_" data-uid="Lucid.Easing.EaseMethods.EaseVector4(Lucid.Easing.Ease,Vector4,Vector4,System.Single,System.Single)">EaseVector4(Ease, Vector4, Vector4, Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector4 EaseVector4(Ease ease, Vector4 start, Vector4 end, float t, float dur)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td><span class="parametername">ease</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector4</span></td>
+        <td><span class="parametername">start</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Vector4</span></td>
+        <td><span class="parametername">end</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">t</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">dur</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector4</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_FromAnimationCurve_" data-uid="Lucid.Easing.EaseMethods.FromAnimationCurve*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_FromAnimationCurve_AnimationCurve_" data-uid="Lucid.Easing.EaseMethods.FromAnimationCurve(AnimationCurve)">FromAnimationCurve(AnimationCurve)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Lucid.Easing.EaseMethods.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Returns an Ease method that ignores start and end. Instead just returning the value in the curve for &apos;c&apos;, as if you called Evaluate(c).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease FromAnimationCurve(AnimationCurve curve)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AnimationCurve</span></td>
+        <td><span class="parametername">curve</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_FromScalingAnimationCurve_" data-uid="Lucid.Easing.EaseMethods.FromScalingAnimationCurve*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_FromScalingAnimationCurve_AnimationCurve_" data-uid="Lucid.Easing.EaseMethods.FromScalingAnimationCurve(AnimationCurve)">FromScalingAnimationCurve(AnimationCurve)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Lucid.Easing.EaseMethods.yml" sourcestartlinenumber="2" sourceendlinenumber="2">This treats the curve as if it&apos;s a scaling factor. The vertical from 0-&gt;1 is the value s-&gt;e. And the horizontal from 0-&gt;1 is the time from c-&gt;d.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease FromScalingAnimationCurve(AnimationCurve curve)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AnimationCurve</span></td>
+        <td><span class="parametername">curve</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_FromVerticalScalingAnimationCurve_" data-uid="Lucid.Easing.EaseMethods.FromVerticalScalingAnimationCurve*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_FromVerticalScalingAnimationCurve_AnimationCurve_" data-uid="Lucid.Easing.EaseMethods.FromVerticalScalingAnimationCurve(AnimationCurve)">FromVerticalScalingAnimationCurve(AnimationCurve)</h4>
+  <div class="markdown level1 summary"><p sourcefile="api/Lucid.Easing.EaseMethods.yml" sourcestartlinenumber="2" sourceendlinenumber="2">This treats the curve as if it&apos;s a scaling factor. The vertical from 0-&gt;1 is the value s-&gt;e. And the horizontal is just &apos;c&apos;. &apos;d&apos; is ignored in favor of the duration of the curve.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease FromVerticalScalingAnimationCurve(AnimationCurve curve)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AnimationCurve</span></td>
+        <td><span class="parametername">curve</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Easing_EaseMethods_GetEase_" data-uid="Lucid.Easing.EaseMethods.GetEase*"></a>
+  <h4 id="Lucid_Easing_EaseMethods_GetEase_Lucid_Easing_EaseStyle_" data-uid="Lucid.Easing.EaseMethods.GetEase(Lucid.Easing.EaseStyle)">GetEase(EaseStyle)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ease GetEase(EaseStyle style)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.EaseStyle.html">EaseStyle</a></td>
+        <td><span class="parametername">style</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lucid.Easing.Ease.html">Ease</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Lucid Framework Documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

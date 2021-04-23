@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class TextStyle
+   | Lucid Framework Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class TextStyle
+   | Lucid Framework Documentation ">
+    <meta name="generator" content="docfx 2.52.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Lucid.Branding.Text.TextStyle">
+  
+  
+  <h1 id="Lucid_Branding_Text_TextStyle" data-uid="Lucid.Branding.Text.TextStyle" class="text-break">Class TextStyle
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">TextStyle</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Lucid.Branding.Text.html">Lucid.Branding.Text</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="Lucid_Branding_Text_TextStyle_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class TextStyle : ScriptableObject</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Lucid_Branding_Text_TextStyle_characterSpacing" data-uid="Lucid.Branding.Text.TextStyle.characterSpacing">characterSpacing</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float characterSpacing</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Lucid_Branding_Text_TextStyle_font" data-uid="Lucid.Branding.Text.TextStyle.font">font</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TMP_FontAsset font</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TMP_FontAsset</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Lucid_Branding_Text_TextStyle_fontSize" data-uid="Lucid.Branding.Text.TextStyle.fontSize">fontSize</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float fontSize</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Lucid_Branding_Text_TextStyle_lineSpacing" data-uid="Lucid.Branding.Text.TextStyle.lineSpacing">lineSpacing</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float lineSpacing</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Lucid_Branding_Text_TextStyle_paragraphSpacing" data-uid="Lucid.Branding.Text.TextStyle.paragraphSpacing">paragraphSpacing</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float paragraphSpacing</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Lucid_Branding_Text_TextStyle_styleName" data-uid="Lucid.Branding.Text.TextStyle.styleName">styleName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string styleName</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Lucid_Branding_Text_TextStyle_wordSpacing" data-uid="Lucid.Branding.Text.TextStyle.wordSpacing">wordSpacing</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float wordSpacing</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Lucid_Branding_Text_TextStyle_fontStyle_" data-uid="Lucid.Branding.Text.TextStyle.fontStyle*"></a>
+  <h4 id="Lucid_Branding_Text_TextStyle_fontStyle" data-uid="Lucid.Branding.Text.TextStyle.fontStyle">fontStyle</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FontStyles fontStyle { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">FontStyles</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Branding_Text_TextStyle_horizontalAlignment_" data-uid="Lucid.Branding.Text.TextStyle.horizontalAlignment*"></a>
+  <h4 id="Lucid_Branding_Text_TextStyle_horizontalAlignment" data-uid="Lucid.Branding.Text.TextStyle.horizontalAlignment">horizontalAlignment</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HorizontalAlignmentOptions horizontalAlignment { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">HorizontalAlignmentOptions</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lucid_Branding_Text_TextStyle_verticalAlignment_" data-uid="Lucid.Branding.Text.TextStyle.verticalAlignment*"></a>
+  <h4 id="Lucid_Branding_Text_TextStyle_verticalAlignment" data-uid="Lucid.Branding.Text.TextStyle.verticalAlignment">verticalAlignment</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VerticalAlignmentOptions verticalAlignment { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">VerticalAlignmentOptions</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Lucid_Branding_Text_TextStyle_BaselineAlign_" data-uid="Lucid.Branding.Text.TextStyle.BaselineAlign*"></a>
+  <h4 id="Lucid_Branding_Text_TextStyle_BaselineAlign" data-uid="Lucid.Branding.Text.TextStyle.BaselineAlign">BaselineAlign()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void BaselineAlign()</code></pre>
+  </div>
+  
+  
+  <a id="Lucid_Branding_Text_TextStyle_BottomAlign_" data-uid="Lucid.Branding.Text.TextStyle.BottomAlign*"></a>
+  <h4 id="Lucid_Branding_Text_TextStyle_BottomAlign" data-uid="Lucid.Branding.Text.TextStyle.BottomAlign">BottomAlign()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void BottomAlign()</code></pre>
+  </div>
+  
+  
+  <a id="Lucid_Branding_Text_TextStyle_CaplineAlign_" data-uid="Lucid.Branding.Text.TextStyle.CaplineAlign*"></a>
+  <h4 id="Lucid_Branding_Text_TextStyle_CaplineAlign" data-uid="Lucid.Branding.Text.TextStyle.CaplineAlign">CaplineAlign()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CaplineAlign()</code></pre>
+  </div>
+  
+  
+  <a id="Lucid_Branding_Text_TextStyle_CenterAlign_" data-uid="Lucid.Branding.Text.TextStyle.CenterAlign*"></a>
+  <h4 id="Lucid_Branding_Text_TextStyle_CenterAlign" data-uid="Lucid.Branding.Text.TextStyle.CenterAlign">CenterAlign()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CenterAlign()</code></pre>
+  </div>
+  
+  
+  <a id="Lucid_Branding_Text_TextStyle_FlushAlign_" data-uid="Lucid.Branding.Text.TextStyle.FlushAlign*"></a>
+  <h4 id="Lucid_Branding_Text_TextStyle_FlushAlign" data-uid="Lucid.Branding.Text.TextStyle.FlushAlign">FlushAlign()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FlushAlign()</code></pre>
+  </div>
+  
+  
+  <a id="Lucid_Branding_Text_TextStyle_GeometryAlign_" data-uid="Lucid.Branding.Text.TextStyle.GeometryAlign*"></a>
+  <h4 id="Lucid_Branding_Text_TextStyle_GeometryAlign" data-uid="Lucid.Branding.Text.TextStyle.GeometryAlign">GeometryAlign()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GeometryAlign()</code></pre>
+  </div>
+  
+  
+  <a id="Lucid_Branding_Text_TextStyle_JustifiedAlign_" data-uid="Lucid.Branding.Text.TextStyle.JustifiedAlign*"></a>
+  <h4 id="Lucid_Branding_Text_TextStyle_JustifiedAlign" data-uid="Lucid.Branding.Text.TextStyle.JustifiedAlign">JustifiedAlign()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void JustifiedAlign()</code></pre>
+  </div>
+  
+  
+  <a id="Lucid_Branding_Text_TextStyle_LeftAlign_" data-uid="Lucid.Branding.Text.TextStyle.LeftAlign*"></a>
+  <h4 id="Lucid_Branding_Text_TextStyle_LeftAlign" data-uid="Lucid.Branding.Text.TextStyle.LeftAlign">LeftAlign()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LeftAlign()</code></pre>
+  </div>
+  
+  
+  <a id="Lucid_Branding_Text_TextStyle_MiddleAlign_" data-uid="Lucid.Branding.Text.TextStyle.MiddleAlign*"></a>
+  <h4 id="Lucid_Branding_Text_TextStyle_MiddleAlign" data-uid="Lucid.Branding.Text.TextStyle.MiddleAlign">MiddleAlign()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MiddleAlign()</code></pre>
+  </div>
+  
+  
+  <a id="Lucid_Branding_Text_TextStyle_MidlineAlign_" data-uid="Lucid.Branding.Text.TextStyle.MidlineAlign*"></a>
+  <h4 id="Lucid_Branding_Text_TextStyle_MidlineAlign" data-uid="Lucid.Branding.Text.TextStyle.MidlineAlign">MidlineAlign()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MidlineAlign()</code></pre>
+  </div>
+  
+  
+  <a id="Lucid_Branding_Text_TextStyle_RightAlign_" data-uid="Lucid.Branding.Text.TextStyle.RightAlign*"></a>
+  <h4 id="Lucid_Branding_Text_TextStyle_RightAlign" data-uid="Lucid.Branding.Text.TextStyle.RightAlign">RightAlign()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RightAlign()</code></pre>
+  </div>
+  
+  
+  <a id="Lucid_Branding_Text_TextStyle_ToggleBold_" data-uid="Lucid.Branding.Text.TextStyle.ToggleBold*"></a>
+  <h4 id="Lucid_Branding_Text_TextStyle_ToggleBold" data-uid="Lucid.Branding.Text.TextStyle.ToggleBold">ToggleBold()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ToggleBold()</code></pre>
+  </div>
+  
+  
+  <a id="Lucid_Branding_Text_TextStyle_ToggleItalic_" data-uid="Lucid.Branding.Text.TextStyle.ToggleItalic*"></a>
+  <h4 id="Lucid_Branding_Text_TextStyle_ToggleItalic" data-uid="Lucid.Branding.Text.TextStyle.ToggleItalic">ToggleItalic()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ToggleItalic()</code></pre>
+  </div>
+  
+  
+  <a id="Lucid_Branding_Text_TextStyle_ToggleLowerCase_" data-uid="Lucid.Branding.Text.TextStyle.ToggleLowerCase*"></a>
+  <h4 id="Lucid_Branding_Text_TextStyle_ToggleLowerCase" data-uid="Lucid.Branding.Text.TextStyle.ToggleLowerCase">ToggleLowerCase()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ToggleLowerCase()</code></pre>
+  </div>
+  
+  
+  <a id="Lucid_Branding_Text_TextStyle_ToggleSmallCaps_" data-uid="Lucid.Branding.Text.TextStyle.ToggleSmallCaps*"></a>
+  <h4 id="Lucid_Branding_Text_TextStyle_ToggleSmallCaps" data-uid="Lucid.Branding.Text.TextStyle.ToggleSmallCaps">ToggleSmallCaps()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ToggleSmallCaps()</code></pre>
+  </div>
+  
+  
+  <a id="Lucid_Branding_Text_TextStyle_ToggleStrikeThrough_" data-uid="Lucid.Branding.Text.TextStyle.ToggleStrikeThrough*"></a>
+  <h4 id="Lucid_Branding_Text_TextStyle_ToggleStrikeThrough" data-uid="Lucid.Branding.Text.TextStyle.ToggleStrikeThrough">ToggleStrikeThrough()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ToggleStrikeThrough()</code></pre>
+  </div>
+  
+  
+  <a id="Lucid_Branding_Text_TextStyle_ToggleUnderline_" data-uid="Lucid.Branding.Text.TextStyle.ToggleUnderline*"></a>
+  <h4 id="Lucid_Branding_Text_TextStyle_ToggleUnderline" data-uid="Lucid.Branding.Text.TextStyle.ToggleUnderline">ToggleUnderline()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ToggleUnderline()</code></pre>
+  </div>
+  
+  
+  <a id="Lucid_Branding_Text_TextStyle_ToggleUpperCase_" data-uid="Lucid.Branding.Text.TextStyle.ToggleUpperCase*"></a>
+  <h4 id="Lucid_Branding_Text_TextStyle_ToggleUpperCase" data-uid="Lucid.Branding.Text.TextStyle.ToggleUpperCase">ToggleUpperCase()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ToggleUpperCase()</code></pre>
+  </div>
+  
+  
+  <a id="Lucid_Branding_Text_TextStyle_TopAlign_" data-uid="Lucid.Branding.Text.TextStyle.TopAlign*"></a>
+  <h4 id="Lucid_Branding_Text_TextStyle_TopAlign" data-uid="Lucid.Branding.Text.TextStyle.TopAlign">TopAlign()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void TopAlign()</code></pre>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Lucid Framework Documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

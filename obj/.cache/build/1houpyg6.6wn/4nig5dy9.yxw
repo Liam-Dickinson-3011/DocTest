@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Namespace Lucid.Animation
+   | Lucid Framework Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Namespace Lucid.Animation
+   | Lucid Framework Documentation ">
+    <meta name="generator" content="docfx 2.52.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Lucid.Animation">
+  
+  <h1 id="Lucid_Animation" data-uid="Lucid.Animation" class="text-break">Namespace Lucid.Animation
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+  </h3>
+      <h4><a class="xref" href="Lucid.Animation.DefaultViewAnimData.html">DefaultViewAnimData</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.GroupAnimationStyle.html">GroupAnimationStyle</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.GroupAnimationStyleSettings.html">GroupAnimationStyleSettings</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.ItemAnimationStyle.html">ItemAnimationStyle</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.ItemAnimationStyleSettings.html">ItemAnimationStyleSettings</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LA3DItemAnimation.html">LA3DItemAnimation</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LA3DProgressingAnimation.html">LA3DProgressingAnimation</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LA3DProgressor.html">LA3DProgressor</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LACanvasGroup.html">LACanvasGroup</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LACanvasGroupCollection.html">LACanvasGroupCollection</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LAColor.html">LAColor</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LAColorCollection.html">LAColorCollection</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LAComponent.html">LAComponent</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LAComponentCollection.html">LAComponentCollection</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LAEulerAngles.html">LAEulerAngles</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LAEulerAnglesCollection.html">LAEulerAnglesCollection</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LAFloat.html">LAFloat</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LAFloatCollection.html">LAFloatCollection</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LAGradient.html">LAGradient</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LAGradientCollection.html">LAGradientCollection</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LAImage.html">LAImage</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LAImageCollection.html">LAImageCollection</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LAInt.html">LAInt</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LAIntCollection.html">LAIntCollection</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LAMaterial.html">LAMaterial</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LANormalisedFloat.html">LANormalisedFloat</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LANormalisedFloatCollection.html">LANormalisedFloatCollection</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LARectTransform.html">LARectTransform</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LARectTransformCollection.html">LARectTransformCollection</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LASelectable.html">LASelectable</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LATextMeshProUGUI.html">LATextMeshProUGUI</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LATextMeshProUGUICollection.html">LATextMeshProUGUICollection</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LATransform.html">LATransform</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LATransformCollection.html">LATransformCollection</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LAUIGroupAnimation.html">LAUIGroupAnimation</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LAUIItemAnimation.html">LAUIItemAnimation</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LAUIProgressingAnimation.html">LAUIProgressingAnimation</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LAUISwitch.html">LAUISwitch</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LAUISwitchResponder.html">LAUISwitchResponder</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LAUISwitchSet.html">LAUISwitchSet</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LAVector2.html">LAVector2</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LAVector2Collection.html">LAVector2Collection</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LAVector3.html">LAVector3</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LAVector3Collection.html">LAVector3Collection</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LucidAnim.html">LucidAnim</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.TestLAProgressor.html">TestLAProgressor</a></h4>
+      <section></section>
+    <h3 id="enums">Enums
+  </h3>
+      <h4><a class="xref" href="Lucid.Animation.LAImage.ColorType.html">LAImage.ColorType</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Lucid.Animation.LAImageCollection.ColorType.html">LAImageCollection.ColorType</a></h4>
+      <section></section>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Lucid Framework Documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

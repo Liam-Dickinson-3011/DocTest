@@ -18,6 +18,10 @@
         }
     ],
     "build": {
+        "template": [
+            "default",
+            "templates/unity"
+        ],
         "globalMetadata": {
             "_appTitle": "Lucid Framework Documentation",
             "_appFooter": "Lucid Framework Documentation",
