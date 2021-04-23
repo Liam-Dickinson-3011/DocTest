@@ -17,10 +17,12 @@ items:
   source:
     id: GroupAnimationStyle
     path: ''
-    startLine: 25426
+    startLine: 25528
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
+  summary: "\nScriptable object that contains a single animation preset for an Animatable Group\n"
+  example: []
   syntax:
     content: 'public class GroupAnimationStyle : ScriptableObject'
     content.vb: >-
@@ -48,7 +50,7 @@ items:
   source:
     id: styleName
     path: ''
-    startLine: 25430
+    startLine: 25532
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -75,7 +77,7 @@ items:
   source:
     id: anim
     path: ''
-    startLine: 25432
+    startLine: 25534
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation

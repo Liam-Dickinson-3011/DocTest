@@ -62,7 +62,7 @@ items:
   source:
     id: EaseMethods
     path: ''
-    startLine: 21550
+    startLine: 21643
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -94,7 +94,7 @@ items:
   source:
     id: GetEase
     path: ''
-    startLine: 21553
+    startLine: 21646
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -127,7 +127,7 @@ items:
   source:
     id: EasedLerp
     path: ''
-    startLine: 21610
+    startLine: 21703
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -166,7 +166,7 @@ items:
   source:
     id: BackEaseIn
     path: ''
-    startLine: 21620
+    startLine: 21713
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -199,7 +199,7 @@ items:
   source:
     id: BackEaseOut
     path: ''
-    startLine: 21630
+    startLine: 21723
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -232,7 +232,7 @@ items:
   source:
     id: BackEaseInOut
     path: ''
-    startLine: 21640
+    startLine: 21733
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -265,7 +265,7 @@ items:
   source:
     id: BounceEaseIn
     path: ''
-    startLine: 21654
+    startLine: 21747
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -298,7 +298,7 @@ items:
   source:
     id: BounceEaseOut
     path: ''
-    startLine: 21664
+    startLine: 21757
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -331,7 +331,7 @@ items:
   source:
     id: BounceEaseInOut
     path: ''
-    startLine: 21674
+    startLine: 21767
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -364,7 +364,7 @@ items:
   source:
     id: CircleEaseIn
     path: ''
-    startLine: 21688
+    startLine: 21781
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -397,7 +397,7 @@ items:
   source:
     id: CircleEaseOut
     path: ''
-    startLine: 21698
+    startLine: 21791
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -430,7 +430,7 @@ items:
   source:
     id: CircleEaseInOut
     path: ''
-    startLine: 21708
+    startLine: 21801
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -463,7 +463,7 @@ items:
   source:
     id: CubicEaseIn
     path: ''
-    startLine: 21722
+    startLine: 21815
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -496,7 +496,7 @@ items:
   source:
     id: CubicEaseOut
     path: ''
-    startLine: 21732
+    startLine: 21825
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -529,7 +529,7 @@ items:
   source:
     id: CubicEaseInOut
     path: ''
-    startLine: 21742
+    startLine: 21835
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -562,7 +562,7 @@ items:
   source:
     id: ElasticEaseIn
     path: ''
-    startLine: 21756
+    startLine: 21849
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -595,7 +595,7 @@ items:
   source:
     id: ElasticEaseOut
     path: ''
-    startLine: 21766
+    startLine: 21859
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -628,7 +628,7 @@ items:
   source:
     id: ElasticEaseInOut
     path: ''
-    startLine: 21776
+    startLine: 21869
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -661,7 +661,7 @@ items:
   source:
     id: ExpoEaseIn
     path: ''
-    startLine: 21790
+    startLine: 21883
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -694,7 +694,7 @@ items:
   source:
     id: ExpoEaseOut
     path: ''
-    startLine: 21800
+    startLine: 21893
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -727,7 +727,7 @@ items:
   source:
     id: ExpoEaseInOut
     path: ''
-    startLine: 21810
+    startLine: 21903
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -760,7 +760,7 @@ items:
   source:
     id: LinearEaseNone
     path: ''
-    startLine: 21824
+    startLine: 21917
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -793,7 +793,7 @@ items:
   source:
     id: LinearEaseIn
     path: ''
-    startLine: 21834
+    startLine: 21927
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -826,7 +826,7 @@ items:
   source:
     id: LinearEaseOut
     path: ''
-    startLine: 21844
+    startLine: 21937
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -859,7 +859,7 @@ items:
   source:
     id: LinearEaseInOut
     path: ''
-    startLine: 21854
+    startLine: 21947
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -892,7 +892,7 @@ items:
   source:
     id: QuadEaseIn
     path: ''
-    startLine: 21868
+    startLine: 21961
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -925,7 +925,7 @@ items:
   source:
     id: QuadEaseOut
     path: ''
-    startLine: 21878
+    startLine: 21971
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -958,7 +958,7 @@ items:
   source:
     id: QuadEaseInOut
     path: ''
-    startLine: 21888
+    startLine: 21981
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -991,7 +991,7 @@ items:
   source:
     id: QuartEaseIn
     path: ''
-    startLine: 21902
+    startLine: 21995
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -1024,7 +1024,7 @@ items:
   source:
     id: QuartEaseOut
     path: ''
-    startLine: 21912
+    startLine: 22005
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -1057,7 +1057,7 @@ items:
   source:
     id: QuartEaseInOut
     path: ''
-    startLine: 21922
+    startLine: 22015
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -1090,7 +1090,7 @@ items:
   source:
     id: QuintEaseIn
     path: ''
-    startLine: 21936
+    startLine: 22029
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -1123,7 +1123,7 @@ items:
   source:
     id: QuintEaseOut
     path: ''
-    startLine: 21946
+    startLine: 22039
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -1156,7 +1156,7 @@ items:
   source:
     id: QuintEaseInOut
     path: ''
-    startLine: 21956
+    startLine: 22049
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -1189,7 +1189,7 @@ items:
   source:
     id: SineEaseIn
     path: ''
-    startLine: 21970
+    startLine: 22063
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -1222,7 +1222,7 @@ items:
   source:
     id: SineEaseOut
     path: ''
-    startLine: 21980
+    startLine: 22073
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -1255,7 +1255,7 @@ items:
   source:
     id: SineEaseInOut
     path: ''
-    startLine: 21990
+    startLine: 22083
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -1288,7 +1288,7 @@ items:
   source:
     id: StrongEaseIn
     path: ''
-    startLine: 22004
+    startLine: 22097
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -1321,7 +1321,7 @@ items:
   source:
     id: StrongEaseOut
     path: ''
-    startLine: 22014
+    startLine: 22107
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -1354,7 +1354,7 @@ items:
   source:
     id: StrongEaseInOut
     path: ''
-    startLine: 22024
+    startLine: 22117
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -1387,7 +1387,7 @@ items:
   source:
     id: FromAnimationCurve
     path: ''
-    startLine: 22042
+    startLine: 22135
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -1424,7 +1424,7 @@ items:
   source:
     id: FromVerticalScalingAnimationCurve
     path: ''
-    startLine: 22055
+    startLine: 22148
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -1461,7 +1461,7 @@ items:
   source:
     id: FromScalingAnimationCurve
     path: ''
-    startLine: 22069
+    startLine: 22162
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -1498,7 +1498,7 @@ items:
   source:
     id: CubicBezier
     path: ''
-    startLine: 22082
+    startLine: 22175
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -1537,7 +1537,7 @@ items:
   source:
     id: EaseVector2
     path: ''
-    startLine: 22105
+    startLine: 22198
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -1578,7 +1578,7 @@ items:
   source:
     id: EaseVector3
     path: ''
-    startLine: 22112
+    startLine: 22205
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -1619,7 +1619,7 @@ items:
   source:
     id: EaseVector4
     path: ''
-    startLine: 22119
+    startLine: 22212
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing
@@ -1660,7 +1660,7 @@ items:
   source:
     id: EaseQuaternion
     path: ''
-    startLine: 22126
+    startLine: 22219
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing

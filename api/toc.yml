@@ -330,6 +330,10 @@
   items:
   - uid: Lucid.Toolkit2D.AutoAspectFitter
     name: AutoAspectFitter
+  - uid: Lucid.Toolkit2D.LayoutGroupAutoRebuild
+    name: LayoutGroupAutoRebuild
+  - uid: Lucid.Toolkit2D.ScrollRectExtended
+    name: ScrollRectExtended
   - uid: Lucid.Toolkit2D.SwipeDetection
     name: SwipeDetection
   - uid: Lucid.Toolkit2D.SwipeDetection.DragDistanceType

@@ -18,7 +18,7 @@ items:
   source:
     id: LAInt
     path: ''
-    startLine: 24068
+    startLine: 24161
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -65,7 +65,7 @@ items:
   source:
     id: value
     path: ''
-    startLine: 24075
+    startLine: 24168
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -92,7 +92,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 24077
+    startLine: 24170
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -118,7 +118,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 24082
+    startLine: 24175
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation

@@ -32,7 +32,7 @@ items:
   source:
     id: LATextMeshProUGUICollection
     path: ''
-    startLine: 23633
+    startLine: 23726
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -75,7 +75,7 @@ items:
   source:
     id: doMainColor
     path: ''
-    startLine: 23640
+    startLine: 23733
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -102,7 +102,7 @@ items:
   source:
     id: doOutlineColor
     path: ''
-    startLine: 23644
+    startLine: 23737
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -129,7 +129,7 @@ items:
   source:
     id: doGlowColor
     path: ''
-    startLine: 23648
+    startLine: 23741
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -156,7 +156,7 @@ items:
   source:
     id: doFade
     path: ''
-    startLine: 23652
+    startLine: 23745
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -183,7 +183,7 @@ items:
   source:
     id: doFontSize
     path: ''
-    startLine: 23656
+    startLine: 23749
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -210,7 +210,7 @@ items:
   source:
     id: doMaxVisChars
     path: ''
-    startLine: 23660
+    startLine: 23753
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -237,7 +237,7 @@ items:
   source:
     id: target
     path: ''
-    startLine: 23665
+    startLine: 23758
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -264,7 +264,7 @@ items:
   source:
     id: mainColors
     path: ''
-    startLine: 23673
+    startLine: 23766
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -291,7 +291,7 @@ items:
   source:
     id: outlineColors
     path: ''
-    startLine: 23681
+    startLine: 23774
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -318,7 +318,7 @@ items:
   source:
     id: glowColors
     path: ''
-    startLine: 23689
+    startLine: 23782
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -345,7 +345,7 @@ items:
   source:
     id: fades
     path: ''
-    startLine: 23697
+    startLine: 23790
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -372,7 +372,7 @@ items:
   source:
     id: fontSizes
     path: ''
-    startLine: 23705
+    startLine: 23798
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -399,7 +399,7 @@ items:
   source:
     id: maxVisibleChars
     path: ''
-    startLine: 23713
+    startLine: 23806
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -426,7 +426,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 23715
+    startLine: 23808
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -452,7 +452,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 23725
+    startLine: 23818
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -481,7 +481,7 @@ items:
   source:
     id: AddToSequence
     path: ''
-    startLine: 23809
+    startLine: 23902
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -517,7 +517,7 @@ items:
   source:
     id: GetSequenceDuration
     path: ''
-    startLine: 23871
+    startLine: 23964
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation

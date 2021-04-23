@@ -25,10 +25,12 @@ items:
   source:
     id: BaseCameraRig
     path: ''
-    startLine: 19605
+    startLine: 19689
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
+  summary: "\nbase class for all camera rigs used as part of the camera rig manager - if making new camera classes, inherit from this\n"
+  example: []
   syntax:
     content: 'public abstract class BaseCameraRig : SerializedMonoBehaviour'
     content.vb: >-
@@ -61,7 +63,7 @@ items:
   source:
     id: virtualCamera
     path: ''
-    startLine: 19609
+    startLine: 19693
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -92,7 +94,7 @@ items:
   source:
     id: isEnabled
     path: ''
-    startLine: 19620
+    startLine: 19704
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -123,7 +125,7 @@ items:
   source:
     id: allowInput
     path: ''
-    startLine: 19634
+    startLine: 19718
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -150,7 +152,7 @@ items:
   source:
     id: deadZoneMin
     path: ''
-    startLine: 19637
+    startLine: 19721
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -177,7 +179,7 @@ items:
   source:
     id: deadZoneMax
     path: ''
-    startLine: 19639
+    startLine: 19723
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -204,7 +206,7 @@ items:
   source:
     id: onEnabled
     path: ''
-    startLine: 19642
+    startLine: 19726
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -231,7 +233,7 @@ items:
   source:
     id: onDisabled
     path: ''
-    startLine: 19644
+    startLine: 19728
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -258,7 +260,7 @@ items:
   source:
     id: showGizmos
     path: ''
-    startLine: 19647
+    startLine: 19731
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -285,7 +287,7 @@ items:
   source:
     id: DisableCamera
     path: ''
-    startLine: 19649
+    startLine: 19733
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -313,7 +315,7 @@ items:
   source:
     id: EnableCamera
     path: ''
-    startLine: 19663
+    startLine: 19746
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D

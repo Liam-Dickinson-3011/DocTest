@@ -26,7 +26,7 @@ items:
   source:
     id: MaterialHighlightGroup
     path: ''
-    startLine: 20296
+    startLine: 27637
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -57,7 +57,7 @@ items:
   source:
     id: renderers
     path: ''
-    startLine: 20298
+    startLine: 27639
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -84,7 +84,7 @@ items:
   source:
     id: offColor
     path: ''
-    startLine: 20301
+    startLine: 27642
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -111,7 +111,7 @@ items:
   source:
     id: onColor
     path: ''
-    startLine: 20302
+    startLine: 27643
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -138,7 +138,7 @@ items:
   source:
     id: objects
     path: ''
-    startLine: 20303
+    startLine: 27644
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -165,7 +165,7 @@ items:
   source:
     id: offEmissiveColor
     path: ''
-    startLine: 20307
+    startLine: 27648
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -192,7 +192,7 @@ items:
   source:
     id: onEmissiveColor
     path: ''
-    startLine: 20309
+    startLine: 27650
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -219,7 +219,7 @@ items:
   source:
     id: isOn
     path: ''
-    startLine: 20312
+    startLine: 27653
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -246,7 +246,7 @@ items:
   source:
     id: raycastCamera
     path: ''
-    startLine: 20315
+    startLine: 27656
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -273,7 +273,7 @@ items:
   source:
     id: allowClick
     path: ''
-    startLine: 20317
+    startLine: 27658
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -300,7 +300,7 @@ items:
   source:
     id: SetColor
     path: ''
-    startLine: 20329
+    startLine: 27670
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -329,7 +329,7 @@ items:
   source:
     id: CutColor
     path: ''
-    startLine: 20344
+    startLine: 27685
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D

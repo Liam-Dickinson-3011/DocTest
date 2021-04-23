@@ -31,7 +31,7 @@ items:
   source:
     id: RenderTurntableImage
     path: ''
-    startLine: 29233
+    startLine: 29410
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Extensions.RenderTurntable
@@ -62,7 +62,7 @@ items:
   source:
     id: turntableCamera
     path: ''
-    startLine: 29236
+    startLine: 29413
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Extensions.RenderTurntable
@@ -89,7 +89,7 @@ items:
   source:
     id: targetImage
     path: ''
-    startLine: 29239
+    startLine: 29416
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Extensions.RenderTurntable
@@ -116,7 +116,7 @@ items:
   source:
     id: streamingAssetsFolderPath
     path: ''
-    startLine: 29244
+    startLine: 29421
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Extensions.RenderTurntable
@@ -143,7 +143,7 @@ items:
   source:
     id: assetBundlePrefix
     path: ''
-    startLine: 29247
+    startLine: 29424
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Extensions.RenderTurntable
@@ -170,7 +170,7 @@ items:
   source:
     id: fileNameFormat
     path: ''
-    startLine: 29250
+    startLine: 29427
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Extensions.RenderTurntable
@@ -197,7 +197,7 @@ items:
   source:
     id: imageIndexesReversed
     path: ''
-    startLine: 29253
+    startLine: 29430
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Extensions.RenderTurntable
@@ -224,7 +224,7 @@ items:
   source:
     id: numberOfBundles
     path: ''
-    startLine: 29256
+    startLine: 29433
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Extensions.RenderTurntable
@@ -251,7 +251,7 @@ items:
   source:
     id: imagesPerBundle
     path: ''
-    startLine: 29259
+    startLine: 29436
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Extensions.RenderTurntable
@@ -278,7 +278,7 @@ items:
   source:
     id: totalImages
     path: ''
-    startLine: 29261
+    startLine: 29438
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Extensions.RenderTurntable
@@ -309,7 +309,7 @@ items:
   source:
     id: loadedBundles
     path: ''
-    startLine: 29264
+    startLine: 29441
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Extensions.RenderTurntable
@@ -336,7 +336,7 @@ items:
   source:
     id: previousBundle
     path: ''
-    startLine: 29267
+    startLine: 29444
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Extensions.RenderTurntable
@@ -363,7 +363,7 @@ items:
   source:
     id: previousBundlePath
     path: ''
-    startLine: 29269
+    startLine: 29446
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Extensions.RenderTurntable
@@ -394,7 +394,7 @@ items:
   source:
     id: currentBundle
     path: ''
-    startLine: 29278
+    startLine: 29455
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Extensions.RenderTurntable
@@ -421,7 +421,7 @@ items:
   source:
     id: currentBundlePath
     path: ''
-    startLine: 29280
+    startLine: 29457
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Extensions.RenderTurntable
@@ -452,7 +452,7 @@ items:
   source:
     id: nextBundle
     path: ''
-    startLine: 29289
+    startLine: 29466
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Extensions.RenderTurntable
@@ -479,7 +479,7 @@ items:
   source:
     id: nextBundlePath
     path: ''
-    startLine: 29291
+    startLine: 29468
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Extensions.RenderTurntable

@@ -18,7 +18,7 @@ items:
   source:
     id: LANormalisedFloat
     path: ''
-    startLine: 24161
+    startLine: 24254
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -65,7 +65,7 @@ items:
   source:
     id: value
     path: ''
-    startLine: 24169
+    startLine: 24262
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -92,7 +92,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 24171
+    startLine: 24264
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -118,7 +118,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 24176
+    startLine: 24269
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation

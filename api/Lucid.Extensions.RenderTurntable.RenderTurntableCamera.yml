@@ -36,7 +36,7 @@ items:
   source:
     id: RenderTurntableCamera
     path: ''
-    startLine: 28773
+    startLine: 28950
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Extensions.RenderTurntable
@@ -67,7 +67,7 @@ items:
   source:
     id: resetOnEnable
     path: ''
-    startLine: 28776
+    startLine: 28953
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Extensions.RenderTurntable
@@ -94,7 +94,7 @@ items:
   source:
     id: allowRotation
     path: ''
-    startLine: 28781
+    startLine: 28958
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Extensions.RenderTurntable
@@ -121,7 +121,7 @@ items:
   source:
     id: unclampedRotationTransform
     path: ''
-    startLine: 28784
+    startLine: 28961
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Extensions.RenderTurntable
@@ -148,7 +148,7 @@ items:
   source:
     id: clampedRotationTransform
     path: ''
-    startLine: 28786
+    startLine: 28963
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Extensions.RenderTurntable
@@ -175,7 +175,7 @@ items:
   source:
     id: framesPerDegree
     path: ''
-    startLine: 28788
+    startLine: 28965
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Extensions.RenderTurntable
@@ -202,7 +202,7 @@ items:
   source:
     id: rotationMultiplier
     path: ''
-    startLine: 28791
+    startLine: 28968
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Extensions.RenderTurntable
@@ -229,7 +229,7 @@ items:
   source:
     id: startRotation
     path: ''
-    startLine: 28794
+    startLine: 28971
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Extensions.RenderTurntable
@@ -256,7 +256,7 @@ items:
   source:
     id: minRotation
     path: ''
-    startLine: 28796
+    startLine: 28973
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Extensions.RenderTurntable
@@ -283,7 +283,7 @@ items:
   source:
     id: maxRotation
     path: ''
-    startLine: 28798
+    startLine: 28975
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Extensions.RenderTurntable
@@ -310,7 +310,7 @@ items:
   source:
     id: currentUnclampedRotation
     path: ''
-    startLine: 28800
+    startLine: 28977
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Extensions.RenderTurntable
@@ -341,7 +341,7 @@ items:
   source:
     id: normalizedUnclampedRotation
     path: ''
-    startLine: 28807
+    startLine: 28984
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Extensions.RenderTurntable
@@ -372,7 +372,7 @@ items:
   source:
     id: currentClampedRotation
     path: ''
-    startLine: 28814
+    startLine: 28991
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Extensions.RenderTurntable
@@ -403,7 +403,7 @@ items:
   source:
     id: normalizedClampedRotation
     path: ''
-    startLine: 28821
+    startLine: 28998
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Extensions.RenderTurntable
@@ -434,7 +434,7 @@ items:
   source:
     id: invertRotation
     path: ''
-    startLine: 28829
+    startLine: 29006
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Extensions.RenderTurntable
@@ -461,7 +461,7 @@ items:
   source:
     id: rotationDecelCurve
     path: ''
-    startLine: 28832
+    startLine: 29009
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Extensions.RenderTurntable
@@ -488,7 +488,7 @@ items:
   source:
     id: cameraTransform
     path: ''
-    startLine: 28841
+    startLine: 29018
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Extensions.RenderTurntable
@@ -515,7 +515,7 @@ items:
   source:
     id: cameraTarget
     path: ''
-    startLine: 28844
+    startLine: 29021
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Extensions.RenderTurntable
@@ -542,7 +542,7 @@ items:
   source:
     id: cameraOffset
     path: ''
-    startLine: 28848
+    startLine: 29025
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Extensions.RenderTurntable
@@ -573,7 +573,7 @@ items:
   source:
     id: EnableCamera
     path: ''
-    startLine: 28868
+    startLine: 29045
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Extensions.RenderTurntable
@@ -601,7 +601,7 @@ items:
   source:
     id: ResetOrientation
     path: ''
-    startLine: 28879
+    startLine: 29056
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Extensions.RenderTurntable
@@ -627,7 +627,7 @@ items:
   source:
     id: SetRotation
     path: ''
-    startLine: 28955
+    startLine: 29132
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Extensions.RenderTurntable

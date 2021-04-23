@@ -10,6 +10,7 @@ items:
   - Lucid.Toolkit3D.CameraRigManager.cameraRigs
   - Lucid.Toolkit3D.CameraRigManager.DisableCamera(Lucid.Toolkit3D.BaseCameraRig)
   - Lucid.Toolkit3D.CameraRigManager.DisableCamera(System.Int32)
+  - Lucid.Toolkit3D.CameraRigManager.DisableCamera(System.String)
   - Lucid.Toolkit3D.CameraRigManager.EnableCamera(Lucid.Toolkit3D.BaseCameraRig)
   - Lucid.Toolkit3D.CameraRigManager.EnableCamera(System.Int32)
   - Lucid.Toolkit3D.CameraRigManager.EnableCamera(System.String)
@@ -24,10 +25,12 @@ items:
   source:
     id: CameraRigManager
     path: ''
-    startLine: 19693
+    startLine: 19778
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
+  summary: "\nManager component for swapping between different camera rigs - using cinemachine\n"
+  example: []
   syntax:
     content: 'public class CameraRigManager : MonoBehaviour'
     content.vb: >-
@@ -55,7 +58,7 @@ items:
   source:
     id: cameraRigs
     path: ''
-    startLine: 19697
+    startLine: 19782
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -86,7 +89,7 @@ items:
   source:
     id: activeCameraRig
     path: ''
-    startLine: 19713
+    startLine: 19798
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -117,7 +120,7 @@ items:
   source:
     id: allowInput
     path: ''
-    startLine: 19723
+    startLine: 19808
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -148,7 +151,7 @@ items:
   source:
     id: GetCameraRigs
     path: ''
-    startLine: 19740
+    startLine: 19825
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -174,7 +177,7 @@ items:
   source:
     id: EnableCamera
     path: ''
-    startLine: 19743
+    startLine: 19828
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -203,7 +206,7 @@ items:
   source:
     id: EnableCamera
     path: ''
-    startLine: 19745
+    startLine: 19830
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -232,7 +235,7 @@ items:
   source:
     id: EnableCamera
     path: ''
-    startLine: 19747
+    startLine: 19832
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -261,7 +264,7 @@ items:
   source:
     id: DisableCamera
     path: ''
-    startLine: 19758
+    startLine: 19843
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -271,6 +274,35 @@ items:
     - id: index
       type: System.Int32
     content.vb: Public Sub DisableCamera(index As Integer)
+  overload: Lucid.Toolkit3D.CameraRigManager.DisableCamera*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.CameraRigManager.DisableCamera(System.String)
+  commentId: M:Lucid.Toolkit3D.CameraRigManager.DisableCamera(System.String)
+  id: DisableCamera(System.String)
+  parent: Lucid.Toolkit3D.CameraRigManager
+  langs:
+  - csharp
+  - vb
+  name: DisableCamera(String)
+  nameWithType: CameraRigManager.DisableCamera(String)
+  fullName: Lucid.Toolkit3D.CameraRigManager.DisableCamera(System.String)
+  type: Method
+  source:
+    id: DisableCamera
+    path: ''
+    startLine: 19845
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public void DisableCamera(string name)
+    parameters:
+    - id: name
+      type: System.String
+    content.vb: Public Sub DisableCamera(name As String)
   overload: Lucid.Toolkit3D.CameraRigManager.DisableCamera*
   modifiers.csharp:
   - public
@@ -290,7 +322,7 @@ items:
   source:
     id: DisableCamera
     path: ''
-    startLine: 19760
+    startLine: 19847
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D

@@ -38,7 +38,7 @@ items:
   source:
     id: FirstPersonCamera
     path: ''
-    startLine: 19362
+    startLine: 19443
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -81,7 +81,7 @@ items:
   source:
     id: resetOnEnabled
     path: ''
-    startLine: 19365
+    startLine: 19446
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -108,7 +108,7 @@ items:
   source:
     id: allowRotation
     path: ''
-    startLine: 19370
+    startLine: 19451
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -135,7 +135,7 @@ items:
   source:
     id: refocusOnNoInput
     path: ''
-    startLine: 19372
+    startLine: 19453
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -162,7 +162,7 @@ items:
   source:
     id: delayBeforeRefocus
     path: ''
-    startLine: 19374
+    startLine: 19455
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -189,7 +189,7 @@ items:
   source:
     id: refocusDuration
     path: ''
-    startLine: 19376
+    startLine: 19457
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -216,7 +216,7 @@ items:
   source:
     id: rotationTransform
     path: ''
-    startLine: 19378
+    startLine: 19459
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -243,7 +243,7 @@ items:
   source:
     id: rotationSpeed
     path: ''
-    startLine: 19380
+    startLine: 19461
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -270,7 +270,7 @@ items:
   source:
     id: minimumTilt
     path: ''
-    startLine: 19382
+    startLine: 19463
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -297,7 +297,7 @@ items:
   source:
     id: maximumTilt
     path: ''
-    startLine: 19384
+    startLine: 19465
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -324,7 +324,7 @@ items:
   source:
     id: invertY
     path: ''
-    startLine: 19386
+    startLine: 19467
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -351,7 +351,7 @@ items:
   source:
     id: invertX
     path: ''
-    startLine: 19388
+    startLine: 19469
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -378,7 +378,7 @@ items:
   source:
     id: touchSensitivity
     path: ''
-    startLine: 19391
+    startLine: 19472
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -405,7 +405,7 @@ items:
   source:
     id: canZoom
     path: ''
-    startLine: 19402
+    startLine: 19483
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -432,7 +432,7 @@ items:
   source:
     id: zoomSpeed
     path: ''
-    startLine: 19404
+    startLine: 19485
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -459,7 +459,7 @@ items:
   source:
     id: maxFOV
     path: ''
-    startLine: 19406
+    startLine: 19487
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -486,7 +486,7 @@ items:
   source:
     id: minFOV
     path: ''
-    startLine: 19408
+    startLine: 19489
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -513,7 +513,7 @@ items:
   source:
     id: minPinchSpeed
     path: ''
-    startLine: 19410
+    startLine: 19491
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -540,7 +540,7 @@ items:
   source:
     id: minPinchDistance
     path: ''
-    startLine: 19412
+    startLine: 19493
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -567,7 +567,7 @@ items:
   source:
     id: decelCurve
     path: ''
-    startLine: 19417
+    startLine: 19498
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -594,7 +594,7 @@ items:
   source:
     id: theCamera
     path: ''
-    startLine: 19420
+    startLine: 19501
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -621,7 +621,7 @@ items:
   source:
     id: targetTrans
     path: ''
-    startLine: 19422
+    startLine: 19503
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -648,7 +648,7 @@ items:
   source:
     id: ToggleRefocusOnNoInput
     path: ''
-    startLine: 19445
+    startLine: 19526
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -677,7 +677,7 @@ items:
   source:
     id: ResetRotation
     path: ''
-    startLine: 19546
+    startLine: 19627
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D

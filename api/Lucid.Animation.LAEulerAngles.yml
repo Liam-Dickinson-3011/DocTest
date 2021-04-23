@@ -19,7 +19,7 @@ items:
   source:
     id: LAEulerAngles
     path: ''
-    startLine: 24298
+    startLine: 24391
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -66,7 +66,7 @@ items:
   source:
     id: vector
     path: ''
-    startLine: 24304
+    startLine: 24397
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -93,7 +93,7 @@ items:
   source:
     id: mode
     path: ''
-    startLine: 24309
+    startLine: 24402
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -120,7 +120,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 24311
+    startLine: 24404
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -146,7 +146,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 24317
+    startLine: 24410
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation

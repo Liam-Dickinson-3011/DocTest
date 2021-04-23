@@ -18,10 +18,12 @@ items:
   source:
     id: GroupAnimationStyleSettings
     path: ''
-    startLine: 25527
+    startLine: 25635
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
+  summary: "\nScriptable object that contains all Group Animation Styles. This is used in the Lucid Editor Window\n"
+  example: []
   syntax:
     content: 'public class GroupAnimationStyleSettings : SingletonScriptableObject<GroupAnimationStyleSettings>'
     content.vb: >-
@@ -49,7 +51,7 @@ items:
   source:
     id: groupAnimStyles
     path: ''
-    startLine: 25533
+    startLine: 25641
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -80,7 +82,7 @@ items:
   source:
     id: LoadAllColorStyleAssets
     path: ''
-    startLine: 25566
+    startLine: 25674
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -106,7 +108,7 @@ items:
   source:
     id: GetAllStyleNames
     path: ''
-    startLine: 25574
+    startLine: 25682
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation

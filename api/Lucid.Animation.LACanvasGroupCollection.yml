@@ -29,7 +29,7 @@ items:
   source:
     id: LACanvasGroupCollection
     path: ''
-    startLine: 23885
+    startLine: 23978
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -72,7 +72,7 @@ items:
   source:
     id: doFade
     path: ''
-    startLine: 23892
+    startLine: 23985
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -99,7 +99,7 @@ items:
   source:
     id: doTogs
     path: ''
-    startLine: 23897
+    startLine: 23990
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -126,7 +126,7 @@ items:
   source:
     id: target
     path: ''
-    startLine: 23902
+    startLine: 23995
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -153,7 +153,7 @@ items:
   source:
     id: fades
     path: ''
-    startLine: 23910
+    startLine: 24003
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -180,7 +180,7 @@ items:
   source:
     id: interactableAtStart
     path: ''
-    startLine: 23916
+    startLine: 24009
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -207,7 +207,7 @@ items:
   source:
     id: interactableAtEnd
     path: ''
-    startLine: 23920
+    startLine: 24013
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -234,7 +234,7 @@ items:
   source:
     id: blocksRaycastsAtStart
     path: ''
-    startLine: 23924
+    startLine: 24017
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -261,7 +261,7 @@ items:
   source:
     id: blocksRaycastsAtEnd
     path: ''
-    startLine: 23928
+    startLine: 24021
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -288,7 +288,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 23930
+    startLine: 24023
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -314,7 +314,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 23935
+    startLine: 24028
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -343,7 +343,7 @@ items:
   source:
     id: AddToSequence
     path: ''
-    startLine: 23964
+    startLine: 24057
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -379,7 +379,7 @@ items:
   source:
     id: SetInteractable
     path: ''
-    startLine: 23988
+    startLine: 24081
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -408,7 +408,7 @@ items:
   source:
     id: SetBlocksRaycasts
     path: ''
-    startLine: 23993
+    startLine: 24086
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -437,7 +437,7 @@ items:
   source:
     id: GetSequenceDuration
     path: ''
-    startLine: 23998
+    startLine: 24091
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation

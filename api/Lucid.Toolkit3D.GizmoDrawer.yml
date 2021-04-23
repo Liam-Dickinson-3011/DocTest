@@ -22,10 +22,12 @@ items:
   source:
     id: GizmoDrawer
     path: ''
-    startLine: 19304
+    startLine: 19382
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
+  summary: "\nAllows you to visualise empty game objects in the editor and draw lines between 2 game objects\n"
+  example: []
   syntax:
     content: 'public class GizmoDrawer : MonoBehaviour'
     content.vb: >-
@@ -53,7 +55,7 @@ items:
   source:
     id: type
     path: ''
-    startLine: 19309
+    startLine: 19387
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -80,7 +82,7 @@ items:
   source:
     id: color
     path: ''
-    startLine: 19311
+    startLine: 19389
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -107,7 +109,7 @@ items:
   source:
     id: pointA
     path: ''
-    startLine: 19314
+    startLine: 19392
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -134,7 +136,7 @@ items:
   source:
     id: pointB
     path: ''
-    startLine: 19316
+    startLine: 19394
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -161,7 +163,7 @@ items:
   source:
     id: center
     path: ''
-    startLine: 19319
+    startLine: 19397
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -188,7 +190,7 @@ items:
   source:
     id: size
     path: ''
-    startLine: 19322
+    startLine: 19400
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -215,7 +217,7 @@ items:
   source:
     id: radius
     path: ''
-    startLine: 19325
+    startLine: 19403
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D

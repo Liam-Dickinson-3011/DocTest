@@ -1,0 +1,225 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Toolkit2D.LayoutGroupAutoRebuild
+  commentId: T:Lucid.Toolkit2D.LayoutGroupAutoRebuild
+  id: LayoutGroupAutoRebuild
+  parent: Lucid.Toolkit2D
+  children:
+  - Lucid.Toolkit2D.LayoutGroupAutoRebuild.Awake
+  - Lucid.Toolkit2D.LayoutGroupAutoRebuild.forceInstantRebuild
+  - Lucid.Toolkit2D.LayoutGroupAutoRebuild.layoutRoot
+  - Lucid.Toolkit2D.LayoutGroupAutoRebuild.OnRectTransformDimensionsChange
+  - Lucid.Toolkit2D.LayoutGroupAutoRebuild.Reset
+  langs:
+  - csharp
+  - vb
+  name: LayoutGroupAutoRebuild
+  nameWithType: LayoutGroupAutoRebuild
+  fullName: Lucid.Toolkit2D.LayoutGroupAutoRebuild
+  type: Class
+  source:
+    id: LayoutGroupAutoRebuild
+    path: ''
+    startLine: 20451
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  summary: "\nRebuilds any layout group when the layout groups root container changes size. Rebuild can be immediately forced or marked\n"
+  example: []
+  syntax:
+    content: 'public class LayoutGroupAutoRebuild : UIBehaviour'
+    content.vb: >-
+      Public Class LayoutGroupAutoRebuild
+          Inherits UIBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Toolkit2D.LayoutGroupAutoRebuild.layoutRoot
+  commentId: F:Lucid.Toolkit2D.LayoutGroupAutoRebuild.layoutRoot
+  id: layoutRoot
+  parent: Lucid.Toolkit2D.LayoutGroupAutoRebuild
+  langs:
+  - csharp
+  - vb
+  name: layoutRoot
+  nameWithType: LayoutGroupAutoRebuild.layoutRoot
+  fullName: Lucid.Toolkit2D.LayoutGroupAutoRebuild.layoutRoot
+  type: Field
+  source:
+    id: layoutRoot
+    path: ''
+    startLine: 20453
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public RectTransform layoutRoot
+    return:
+      type: Global.RectTransform
+    content.vb: Public layoutRoot As RectTransform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.LayoutGroupAutoRebuild.forceInstantRebuild
+  commentId: F:Lucid.Toolkit2D.LayoutGroupAutoRebuild.forceInstantRebuild
+  id: forceInstantRebuild
+  parent: Lucid.Toolkit2D.LayoutGroupAutoRebuild
+  langs:
+  - csharp
+  - vb
+  name: forceInstantRebuild
+  nameWithType: LayoutGroupAutoRebuild.forceInstantRebuild
+  fullName: Lucid.Toolkit2D.LayoutGroupAutoRebuild.forceInstantRebuild
+  type: Field
+  source:
+    id: forceInstantRebuild
+    path: ''
+    startLine: 20455
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public bool forceInstantRebuild
+    return:
+      type: System.Boolean
+    content.vb: Public forceInstantRebuild As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.LayoutGroupAutoRebuild.OnRectTransformDimensionsChange
+  commentId: M:Lucid.Toolkit2D.LayoutGroupAutoRebuild.OnRectTransformDimensionsChange
+  id: OnRectTransformDimensionsChange
+  parent: Lucid.Toolkit2D.LayoutGroupAutoRebuild
+  langs:
+  - csharp
+  - vb
+  name: OnRectTransformDimensionsChange()
+  nameWithType: LayoutGroupAutoRebuild.OnRectTransformDimensionsChange()
+  fullName: Lucid.Toolkit2D.LayoutGroupAutoRebuild.OnRectTransformDimensionsChange()
+  type: Method
+  source:
+    id: OnRectTransformDimensionsChange
+    path: ''
+    startLine: 20457
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: protected override void OnRectTransformDimensionsChange()
+    content.vb: Protected Overrides Sub OnRectTransformDimensionsChange
+  overload: Lucid.Toolkit2D.LayoutGroupAutoRebuild.OnRectTransformDimensionsChange*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Lucid.Toolkit2D.LayoutGroupAutoRebuild.Reset
+  commentId: M:Lucid.Toolkit2D.LayoutGroupAutoRebuild.Reset
+  id: Reset
+  parent: Lucid.Toolkit2D.LayoutGroupAutoRebuild
+  langs:
+  - csharp
+  - vb
+  name: Reset()
+  nameWithType: LayoutGroupAutoRebuild.Reset()
+  fullName: Lucid.Toolkit2D.LayoutGroupAutoRebuild.Reset()
+  type: Method
+  source:
+    id: Reset
+    path: ''
+    startLine: 20471
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: protected override void Reset()
+    content.vb: Protected Overrides Sub Reset
+  overload: Lucid.Toolkit2D.LayoutGroupAutoRebuild.Reset*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Lucid.Toolkit2D.LayoutGroupAutoRebuild.Awake
+  commentId: M:Lucid.Toolkit2D.LayoutGroupAutoRebuild.Awake
+  id: Awake
+  parent: Lucid.Toolkit2D.LayoutGroupAutoRebuild
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: LayoutGroupAutoRebuild.Awake()
+  fullName: Lucid.Toolkit2D.LayoutGroupAutoRebuild.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 20476
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: protected override void Awake()
+    content.vb: Protected Overrides Sub Awake
+  overload: Lucid.Toolkit2D.LayoutGroupAutoRebuild.Awake*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Lucid.Toolkit2D
+  commentId: N:Lucid.Toolkit2D
+  name: Lucid.Toolkit2D
+  nameWithType: Lucid.Toolkit2D
+  fullName: Lucid.Toolkit2D
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.RectTransform
+  isExternal: true
+  name: RectTransform
+  nameWithType: RectTransform
+  fullName: RectTransform
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Lucid.Toolkit2D.LayoutGroupAutoRebuild.OnRectTransformDimensionsChange*
+  commentId: Overload:Lucid.Toolkit2D.LayoutGroupAutoRebuild.OnRectTransformDimensionsChange
+  name: OnRectTransformDimensionsChange
+  nameWithType: LayoutGroupAutoRebuild.OnRectTransformDimensionsChange
+  fullName: Lucid.Toolkit2D.LayoutGroupAutoRebuild.OnRectTransformDimensionsChange
+- uid: Lucid.Toolkit2D.LayoutGroupAutoRebuild.Reset*
+  commentId: Overload:Lucid.Toolkit2D.LayoutGroupAutoRebuild.Reset
+  name: Reset
+  nameWithType: LayoutGroupAutoRebuild.Reset
+  fullName: Lucid.Toolkit2D.LayoutGroupAutoRebuild.Reset
+- uid: Lucid.Toolkit2D.LayoutGroupAutoRebuild.Awake*
+  commentId: Overload:Lucid.Toolkit2D.LayoutGroupAutoRebuild.Awake
+  name: Awake
+  nameWithType: LayoutGroupAutoRebuild.Awake
+  fullName: Lucid.Toolkit2D.LayoutGroupAutoRebuild.Awake

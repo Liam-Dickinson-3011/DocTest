@@ -20,10 +20,12 @@ items:
   source:
     id: ToggleGroupEvents
     path: ''
-    startLine: 20444
+    startLine: 20496
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit2D
+  summary: "\nProvides events for groups of toggles - OnNoneSelected, OnOneSelected, OnAllSelected\n"
+  example: []
   syntax:
     content: 'public class ToggleGroupEvents : MonoBehaviour'
     content.vb: >-
@@ -51,7 +53,7 @@ items:
   source:
     id: toggles
     path: ''
-    startLine: 20446
+    startLine: 20498
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit2D
@@ -78,7 +80,7 @@ items:
   source:
     id: onNoneSelected
     path: ''
-    startLine: 20449
+    startLine: 20501
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit2D
@@ -105,7 +107,7 @@ items:
   source:
     id: onOneSelected
     path: ''
-    startLine: 20451
+    startLine: 20503
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit2D
@@ -132,7 +134,7 @@ items:
   source:
     id: onAllSelected
     path: ''
-    startLine: 20453
+    startLine: 20505
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit2D
@@ -159,7 +161,7 @@ items:
   source:
     id: CheckToggles
     path: ''
-    startLine: 20464
+    startLine: 20515
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit2D

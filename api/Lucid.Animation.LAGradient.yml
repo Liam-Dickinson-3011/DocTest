@@ -18,7 +18,7 @@ items:
   source:
     id: LAGradient
     path: ''
-    startLine: 24395
+    startLine: 24488
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -65,7 +65,7 @@ items:
   source:
     id: gradient
     path: ''
-    startLine: 24401
+    startLine: 24494
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -92,7 +92,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 24403
+    startLine: 24496
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -118,7 +118,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 24408
+    startLine: 24501
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation

@@ -20,7 +20,7 @@ items:
   source:
     id: DefaultViewAnimData
     path: ''
-    startLine: 24940
+    startLine: 25033
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -59,7 +59,7 @@ items:
   source:
     id: doCanvasGroup
     path: ''
-    startLine: 24945
+    startLine: 25038
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -86,7 +86,7 @@ items:
   source:
     id: doRT
     path: ''
-    startLine: 24949
+    startLine: 25042
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -113,7 +113,7 @@ items:
   source:
     id: aaCanvasGroup
     path: ''
-    startLine: 24953
+    startLine: 25046
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -140,7 +140,7 @@ items:
   source:
     id: aaRT
     path: ''
-    startLine: 24957
+    startLine: 25050
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -167,7 +167,7 @@ items:
   source:
     id: GetFullAnimationDuration
     path: ''
-    startLine: 24959
+    startLine: 25052
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation

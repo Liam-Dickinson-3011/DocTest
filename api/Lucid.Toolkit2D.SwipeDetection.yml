@@ -6,6 +6,10 @@ items:
   parent: Lucid.Toolkit2D
   children:
   - Lucid.Toolkit2D.SwipeDetection.dragDistanceType
+  - Lucid.Toolkit2D.SwipeDetection.DragDownLog
+  - Lucid.Toolkit2D.SwipeDetection.DragLeftLog
+  - Lucid.Toolkit2D.SwipeDetection.DragRightLog
+  - Lucid.Toolkit2D.SwipeDetection.DragUpLog
   - Lucid.Toolkit2D.SwipeDetection.minDragInches
   - Lucid.Toolkit2D.SwipeDetection.minDragPercentage
   - Lucid.Toolkit2D.SwipeDetection.minDragPixels
@@ -29,10 +33,12 @@ items:
   source:
     id: SwipeDetection
     path: ''
-    startLine: 20935
+    startLine: 21001
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit2D
+  summary: "\nGives events for swipe left/right/up/down and at the beginning and end of a swipe, and allows you to set swipe settings (distance, etc.)\n"
+  example: []
   syntax:
     content: 'public class SwipeDetection : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler'
     content.vb: >-
@@ -61,7 +67,7 @@ items:
   source:
     id: raycastImage
     path: ''
-    startLine: 20940
+    startLine: 21005
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit2D
@@ -92,7 +98,7 @@ items:
   source:
     id: dragDistanceType
     path: ''
-    startLine: 20945
+    startLine: 21010
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit2D
@@ -119,7 +125,7 @@ items:
   source:
     id: minDragPixels
     path: ''
-    startLine: 20948
+    startLine: 21013
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit2D
@@ -146,7 +152,7 @@ items:
   source:
     id: minDragPercentage
     path: ''
-    startLine: 20950
+    startLine: 21015
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit2D
@@ -173,7 +179,7 @@ items:
   source:
     id: minDragInches
     path: ''
-    startLine: 20952
+    startLine: 21017
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit2D
@@ -200,7 +206,7 @@ items:
   source:
     id: onBeginDrag
     path: ''
-    startLine: 20964
+    startLine: 21029
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit2D
@@ -227,7 +233,7 @@ items:
   source:
     id: onEndDrag
     path: ''
-    startLine: 20966
+    startLine: 21031
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit2D
@@ -254,7 +260,7 @@ items:
   source:
     id: onDragUp
     path: ''
-    startLine: 20969
+    startLine: 21034
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit2D
@@ -281,7 +287,7 @@ items:
   source:
     id: onDragDown
     path: ''
-    startLine: 20971
+    startLine: 21036
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit2D
@@ -308,7 +314,7 @@ items:
   source:
     id: onDragLeft
     path: ''
-    startLine: 20973
+    startLine: 21038
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit2D
@@ -335,7 +341,7 @@ items:
   source:
     id: onDragRight
     path: ''
-    startLine: 20975
+    startLine: 21040
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit2D
@@ -362,7 +368,7 @@ items:
   source:
     id: OnBeginDrag
     path: ''
-    startLine: 21001
+    startLine: 21070
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit2D
@@ -391,7 +397,7 @@ items:
   source:
     id: OnDrag
     path: ''
-    startLine: 21008
+    startLine: 21077
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit2D
@@ -420,7 +426,7 @@ items:
   source:
     id: OnEndDrag
     path: ''
-    startLine: 21013
+    startLine: 21082
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit2D
@@ -431,6 +437,110 @@ items:
       type: Global.PointerEventData
     content.vb: Public Sub OnEndDrag(eventData As PointerEventData)
   overload: Lucid.Toolkit2D.SwipeDetection.OnEndDrag*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.SwipeDetection.DragLeftLog
+  commentId: M:Lucid.Toolkit2D.SwipeDetection.DragLeftLog
+  id: DragLeftLog
+  parent: Lucid.Toolkit2D.SwipeDetection
+  langs:
+  - csharp
+  - vb
+  name: DragLeftLog()
+  nameWithType: SwipeDetection.DragLeftLog()
+  fullName: Lucid.Toolkit2D.SwipeDetection.DragLeftLog()
+  type: Method
+  source:
+    id: DragLeftLog
+    path: ''
+    startLine: 21140
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public void DragLeftLog()
+    content.vb: Public Sub DragLeftLog
+  overload: Lucid.Toolkit2D.SwipeDetection.DragLeftLog*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.SwipeDetection.DragRightLog
+  commentId: M:Lucid.Toolkit2D.SwipeDetection.DragRightLog
+  id: DragRightLog
+  parent: Lucid.Toolkit2D.SwipeDetection
+  langs:
+  - csharp
+  - vb
+  name: DragRightLog()
+  nameWithType: SwipeDetection.DragRightLog()
+  fullName: Lucid.Toolkit2D.SwipeDetection.DragRightLog()
+  type: Method
+  source:
+    id: DragRightLog
+    path: ''
+    startLine: 21145
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public void DragRightLog()
+    content.vb: Public Sub DragRightLog
+  overload: Lucid.Toolkit2D.SwipeDetection.DragRightLog*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.SwipeDetection.DragUpLog
+  commentId: M:Lucid.Toolkit2D.SwipeDetection.DragUpLog
+  id: DragUpLog
+  parent: Lucid.Toolkit2D.SwipeDetection
+  langs:
+  - csharp
+  - vb
+  name: DragUpLog()
+  nameWithType: SwipeDetection.DragUpLog()
+  fullName: Lucid.Toolkit2D.SwipeDetection.DragUpLog()
+  type: Method
+  source:
+    id: DragUpLog
+    path: ''
+    startLine: 21150
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public void DragUpLog()
+    content.vb: Public Sub DragUpLog
+  overload: Lucid.Toolkit2D.SwipeDetection.DragUpLog*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.SwipeDetection.DragDownLog
+  commentId: M:Lucid.Toolkit2D.SwipeDetection.DragDownLog
+  id: DragDownLog
+  parent: Lucid.Toolkit2D.SwipeDetection
+  langs:
+  - csharp
+  - vb
+  name: DragDownLog()
+  nameWithType: SwipeDetection.DragDownLog()
+  fullName: Lucid.Toolkit2D.SwipeDetection.DragDownLog()
+  type: Method
+  source:
+    id: DragDownLog
+    path: ''
+    startLine: 21155
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public void DragDownLog()
+    content.vb: Public Sub DragDownLog
+  overload: Lucid.Toolkit2D.SwipeDetection.DragDownLog*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -502,3 +612,23 @@ references:
   name: OnEndDrag
   nameWithType: SwipeDetection.OnEndDrag
   fullName: Lucid.Toolkit2D.SwipeDetection.OnEndDrag
+- uid: Lucid.Toolkit2D.SwipeDetection.DragLeftLog*
+  commentId: Overload:Lucid.Toolkit2D.SwipeDetection.DragLeftLog
+  name: DragLeftLog
+  nameWithType: SwipeDetection.DragLeftLog
+  fullName: Lucid.Toolkit2D.SwipeDetection.DragLeftLog
+- uid: Lucid.Toolkit2D.SwipeDetection.DragRightLog*
+  commentId: Overload:Lucid.Toolkit2D.SwipeDetection.DragRightLog
+  name: DragRightLog
+  nameWithType: SwipeDetection.DragRightLog
+  fullName: Lucid.Toolkit2D.SwipeDetection.DragRightLog
+- uid: Lucid.Toolkit2D.SwipeDetection.DragUpLog*
+  commentId: Overload:Lucid.Toolkit2D.SwipeDetection.DragUpLog
+  name: DragUpLog
+  nameWithType: SwipeDetection.DragUpLog
+  fullName: Lucid.Toolkit2D.SwipeDetection.DragUpLog
+- uid: Lucid.Toolkit2D.SwipeDetection.DragDownLog*
+  commentId: Overload:Lucid.Toolkit2D.SwipeDetection.DragDownLog
+  name: DragDownLog
+  nameWithType: SwipeDetection.DragDownLog
+  fullName: Lucid.Toolkit2D.SwipeDetection.DragDownLog

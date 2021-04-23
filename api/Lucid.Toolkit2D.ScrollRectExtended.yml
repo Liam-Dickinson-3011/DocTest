@@ -1,0 +1,711 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lucid.Toolkit2D.ScrollRectExtended
+  commentId: T:Lucid.Toolkit2D.ScrollRectExtended
+  id: ScrollRectExtended
+  parent: Lucid.Toolkit2D
+  children:
+  - Lucid.Toolkit2D.ScrollRectExtended.autoScrollEnabled
+  - Lucid.Toolkit2D.ScrollRectExtended.autoScrollSpeed1
+  - Lucid.Toolkit2D.ScrollRectExtended.autoScrollSpeed2
+  - Lucid.Toolkit2D.ScrollRectExtended.CalculateInfiniteScroll(Vector2)
+  - Lucid.Toolkit2D.ScrollRectExtended.containerRect
+  - Lucid.Toolkit2D.ScrollRectExtended.CurrentIndex
+  - Lucid.Toolkit2D.ScrollRectExtended.indexSlider
+  - Lucid.Toolkit2D.ScrollRectExtended.infiniteScrollEnabled
+  - Lucid.Toolkit2D.ScrollRectExtended.InitInfiniteScroll
+  - Lucid.Toolkit2D.ScrollRectExtended.itemCount
+  - Lucid.Toolkit2D.ScrollRectExtended.itemLockingEnabled
+  - Lucid.Toolkit2D.ScrollRectExtended.itemWidth
+  - Lucid.Toolkit2D.ScrollRectExtended.OnBeginDrag(PointerEventData)
+  - Lucid.Toolkit2D.ScrollRectExtended.OnDrag(PointerEventData)
+  - Lucid.Toolkit2D.ScrollRectExtended.OnEndDrag(PointerEventData)
+  - Lucid.Toolkit2D.ScrollRectExtended.pingPongWait
+  - Lucid.Toolkit2D.ScrollRectExtended.scrollRect
+  - Lucid.Toolkit2D.ScrollRectExtended.tweenToLockDuration
+  - Lucid.Toolkit2D.ScrollRectExtended.UpdateTabHighlight(Vector2)
+  - Lucid.Toolkit2D.ScrollRectExtended.waitBeforeAutoScroll
+  langs:
+  - csharp
+  - vb
+  name: ScrollRectExtended
+  nameWithType: ScrollRectExtended
+  fullName: Lucid.Toolkit2D.ScrollRectExtended
+  type: Class
+  source:
+    id: ScrollRectExtended
+    path: ''
+    startLine: 20594
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  summary: "\nAllows for infinite scrolling, locking onto objects when releasing a scroll and auto scrolling\n"
+  example: []
+  syntax:
+    content: 'public class ScrollRectExtended : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler'
+    content.vb: >-
+      Public Class ScrollRectExtended
+          Inherits MonoBehaviour
+          Implements IBeginDragHandler, IDragHandler, IEndDragHandler
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Lucid.Toolkit2D.ScrollRectExtended.infiniteScrollEnabled
+  commentId: F:Lucid.Toolkit2D.ScrollRectExtended.infiniteScrollEnabled
+  id: infiniteScrollEnabled
+  parent: Lucid.Toolkit2D.ScrollRectExtended
+  langs:
+  - csharp
+  - vb
+  name: infiniteScrollEnabled
+  nameWithType: ScrollRectExtended.infiniteScrollEnabled
+  fullName: Lucid.Toolkit2D.ScrollRectExtended.infiniteScrollEnabled
+  type: Field
+  source:
+    id: infiniteScrollEnabled
+    path: ''
+    startLine: 20597
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public bool infiniteScrollEnabled
+    return:
+      type: System.Boolean
+    content.vb: Public infiniteScrollEnabled As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.ScrollRectExtended.autoScrollEnabled
+  commentId: F:Lucid.Toolkit2D.ScrollRectExtended.autoScrollEnabled
+  id: autoScrollEnabled
+  parent: Lucid.Toolkit2D.ScrollRectExtended
+  langs:
+  - csharp
+  - vb
+  name: autoScrollEnabled
+  nameWithType: ScrollRectExtended.autoScrollEnabled
+  fullName: Lucid.Toolkit2D.ScrollRectExtended.autoScrollEnabled
+  type: Field
+  source:
+    id: autoScrollEnabled
+    path: ''
+    startLine: 20600
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public bool autoScrollEnabled
+    return:
+      type: System.Boolean
+    content.vb: Public autoScrollEnabled As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.ScrollRectExtended.waitBeforeAutoScroll
+  commentId: F:Lucid.Toolkit2D.ScrollRectExtended.waitBeforeAutoScroll
+  id: waitBeforeAutoScroll
+  parent: Lucid.Toolkit2D.ScrollRectExtended
+  langs:
+  - csharp
+  - vb
+  name: waitBeforeAutoScroll
+  nameWithType: ScrollRectExtended.waitBeforeAutoScroll
+  fullName: Lucid.Toolkit2D.ScrollRectExtended.waitBeforeAutoScroll
+  type: Field
+  source:
+    id: waitBeforeAutoScroll
+    path: ''
+    startLine: 20601
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public float waitBeforeAutoScroll
+    return:
+      type: System.Single
+    content.vb: Public waitBeforeAutoScroll As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.ScrollRectExtended.autoScrollSpeed1
+  commentId: F:Lucid.Toolkit2D.ScrollRectExtended.autoScrollSpeed1
+  id: autoScrollSpeed1
+  parent: Lucid.Toolkit2D.ScrollRectExtended
+  langs:
+  - csharp
+  - vb
+  name: autoScrollSpeed1
+  nameWithType: ScrollRectExtended.autoScrollSpeed1
+  fullName: Lucid.Toolkit2D.ScrollRectExtended.autoScrollSpeed1
+  type: Field
+  source:
+    id: autoScrollSpeed1
+    path: ''
+    startLine: 20603
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public float autoScrollSpeed1
+    return:
+      type: System.Single
+    content.vb: Public autoScrollSpeed1 As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.ScrollRectExtended.pingPongWait
+  commentId: F:Lucid.Toolkit2D.ScrollRectExtended.pingPongWait
+  id: pingPongWait
+  parent: Lucid.Toolkit2D.ScrollRectExtended
+  langs:
+  - csharp
+  - vb
+  name: pingPongWait
+  nameWithType: ScrollRectExtended.pingPongWait
+  fullName: Lucid.Toolkit2D.ScrollRectExtended.pingPongWait
+  type: Field
+  source:
+    id: pingPongWait
+    path: ''
+    startLine: 20604
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public float pingPongWait
+    return:
+      type: System.Single
+    content.vb: Public pingPongWait As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.ScrollRectExtended.autoScrollSpeed2
+  commentId: F:Lucid.Toolkit2D.ScrollRectExtended.autoScrollSpeed2
+  id: autoScrollSpeed2
+  parent: Lucid.Toolkit2D.ScrollRectExtended
+  langs:
+  - csharp
+  - vb
+  name: autoScrollSpeed2
+  nameWithType: ScrollRectExtended.autoScrollSpeed2
+  fullName: Lucid.Toolkit2D.ScrollRectExtended.autoScrollSpeed2
+  type: Field
+  source:
+    id: autoScrollSpeed2
+    path: ''
+    startLine: 20606
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public float autoScrollSpeed2
+    return:
+      type: System.Single
+    content.vb: Public autoScrollSpeed2 As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.ScrollRectExtended.itemLockingEnabled
+  commentId: F:Lucid.Toolkit2D.ScrollRectExtended.itemLockingEnabled
+  id: itemLockingEnabled
+  parent: Lucid.Toolkit2D.ScrollRectExtended
+  langs:
+  - csharp
+  - vb
+  name: itemLockingEnabled
+  nameWithType: ScrollRectExtended.itemLockingEnabled
+  fullName: Lucid.Toolkit2D.ScrollRectExtended.itemLockingEnabled
+  type: Field
+  source:
+    id: itemLockingEnabled
+    path: ''
+    startLine: 20609
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public bool itemLockingEnabled
+    return:
+      type: System.Boolean
+    content.vb: Public itemLockingEnabled As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.ScrollRectExtended.itemCount
+  commentId: F:Lucid.Toolkit2D.ScrollRectExtended.itemCount
+  id: itemCount
+  parent: Lucid.Toolkit2D.ScrollRectExtended
+  langs:
+  - csharp
+  - vb
+  name: itemCount
+  nameWithType: ScrollRectExtended.itemCount
+  fullName: Lucid.Toolkit2D.ScrollRectExtended.itemCount
+  type: Field
+  source:
+    id: itemCount
+    path: ''
+    startLine: 20610
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public int itemCount
+    return:
+      type: System.Int32
+    content.vb: Public itemCount As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.ScrollRectExtended.itemWidth
+  commentId: F:Lucid.Toolkit2D.ScrollRectExtended.itemWidth
+  id: itemWidth
+  parent: Lucid.Toolkit2D.ScrollRectExtended
+  langs:
+  - csharp
+  - vb
+  name: itemWidth
+  nameWithType: ScrollRectExtended.itemWidth
+  fullName: Lucid.Toolkit2D.ScrollRectExtended.itemWidth
+  type: Field
+  source:
+    id: itemWidth
+    path: ''
+    startLine: 20611
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public float itemWidth
+    return:
+      type: System.Single
+    content.vb: Public itemWidth As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.ScrollRectExtended.tweenToLockDuration
+  commentId: F:Lucid.Toolkit2D.ScrollRectExtended.tweenToLockDuration
+  id: tweenToLockDuration
+  parent: Lucid.Toolkit2D.ScrollRectExtended
+  langs:
+  - csharp
+  - vb
+  name: tweenToLockDuration
+  nameWithType: ScrollRectExtended.tweenToLockDuration
+  fullName: Lucid.Toolkit2D.ScrollRectExtended.tweenToLockDuration
+  type: Field
+  source:
+    id: tweenToLockDuration
+    path: ''
+    startLine: 20612
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public float tweenToLockDuration
+    return:
+      type: System.Single
+    content.vb: Public tweenToLockDuration As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.ScrollRectExtended.scrollRect
+  commentId: F:Lucid.Toolkit2D.ScrollRectExtended.scrollRect
+  id: scrollRect
+  parent: Lucid.Toolkit2D.ScrollRectExtended
+  langs:
+  - csharp
+  - vb
+  name: scrollRect
+  nameWithType: ScrollRectExtended.scrollRect
+  fullName: Lucid.Toolkit2D.ScrollRectExtended.scrollRect
+  type: Field
+  source:
+    id: scrollRect
+    path: ''
+    startLine: 20615
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public ScrollRect scrollRect
+    return:
+      type: Global.ScrollRect
+    content.vb: Public scrollRect As ScrollRect
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.ScrollRectExtended.containerRect
+  commentId: F:Lucid.Toolkit2D.ScrollRectExtended.containerRect
+  id: containerRect
+  parent: Lucid.Toolkit2D.ScrollRectExtended
+  langs:
+  - csharp
+  - vb
+  name: containerRect
+  nameWithType: ScrollRectExtended.containerRect
+  fullName: Lucid.Toolkit2D.ScrollRectExtended.containerRect
+  type: Field
+  source:
+    id: containerRect
+    path: ''
+    startLine: 20618
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public RectTransform containerRect
+    return:
+      type: Global.RectTransform
+    content.vb: Public containerRect As RectTransform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.ScrollRectExtended.indexSlider
+  commentId: F:Lucid.Toolkit2D.ScrollRectExtended.indexSlider
+  id: indexSlider
+  parent: Lucid.Toolkit2D.ScrollRectExtended
+  langs:
+  - csharp
+  - vb
+  name: indexSlider
+  nameWithType: ScrollRectExtended.indexSlider
+  fullName: Lucid.Toolkit2D.ScrollRectExtended.indexSlider
+  type: Field
+  source:
+    id: indexSlider
+    path: ''
+    startLine: 20619
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public Slider indexSlider
+    return:
+      type: Global.Slider
+    content.vb: Public indexSlider As Slider
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.ScrollRectExtended.CurrentIndex
+  commentId: P:Lucid.Toolkit2D.ScrollRectExtended.CurrentIndex
+  id: CurrentIndex
+  parent: Lucid.Toolkit2D.ScrollRectExtended
+  langs:
+  - csharp
+  - vb
+  name: CurrentIndex
+  nameWithType: ScrollRectExtended.CurrentIndex
+  fullName: Lucid.Toolkit2D.ScrollRectExtended.CurrentIndex
+  type: Property
+  source:
+    id: CurrentIndex
+    path: ''
+    startLine: 20621
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public int CurrentIndex { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CurrentIndex As Integer
+  overload: Lucid.Toolkit2D.ScrollRectExtended.CurrentIndex*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.ScrollRectExtended.OnBeginDrag(PointerEventData)
+  commentId: M:Lucid.Toolkit2D.ScrollRectExtended.OnBeginDrag(PointerEventData)
+  id: OnBeginDrag(PointerEventData)
+  parent: Lucid.Toolkit2D.ScrollRectExtended
+  langs:
+  - csharp
+  - vb
+  name: OnBeginDrag(PointerEventData)
+  nameWithType: ScrollRectExtended.OnBeginDrag(PointerEventData)
+  fullName: Lucid.Toolkit2D.ScrollRectExtended.OnBeginDrag(PointerEventData)
+  type: Method
+  source:
+    id: OnBeginDrag
+    path: ''
+    startLine: 20715
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public void OnBeginDrag(PointerEventData eventData)
+    parameters:
+    - id: eventData
+      type: Global.PointerEventData
+    content.vb: Public Sub OnBeginDrag(eventData As PointerEventData)
+  overload: Lucid.Toolkit2D.ScrollRectExtended.OnBeginDrag*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.ScrollRectExtended.OnDrag(PointerEventData)
+  commentId: M:Lucid.Toolkit2D.ScrollRectExtended.OnDrag(PointerEventData)
+  id: OnDrag(PointerEventData)
+  parent: Lucid.Toolkit2D.ScrollRectExtended
+  langs:
+  - csharp
+  - vb
+  name: OnDrag(PointerEventData)
+  nameWithType: ScrollRectExtended.OnDrag(PointerEventData)
+  fullName: Lucid.Toolkit2D.ScrollRectExtended.OnDrag(PointerEventData)
+  type: Method
+  source:
+    id: OnDrag
+    path: ''
+    startLine: 20730
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public void OnDrag(PointerEventData eventData)
+    parameters:
+    - id: eventData
+      type: Global.PointerEventData
+    content.vb: Public Sub OnDrag(eventData As PointerEventData)
+  overload: Lucid.Toolkit2D.ScrollRectExtended.OnDrag*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.ScrollRectExtended.OnEndDrag(PointerEventData)
+  commentId: M:Lucid.Toolkit2D.ScrollRectExtended.OnEndDrag(PointerEventData)
+  id: OnEndDrag(PointerEventData)
+  parent: Lucid.Toolkit2D.ScrollRectExtended
+  langs:
+  - csharp
+  - vb
+  name: OnEndDrag(PointerEventData)
+  nameWithType: ScrollRectExtended.OnEndDrag(PointerEventData)
+  fullName: Lucid.Toolkit2D.ScrollRectExtended.OnEndDrag(PointerEventData)
+  type: Method
+  source:
+    id: OnEndDrag
+    path: ''
+    startLine: 20735
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public void OnEndDrag(PointerEventData eventData)
+    parameters:
+    - id: eventData
+      type: Global.PointerEventData
+    content.vb: Public Sub OnEndDrag(eventData As PointerEventData)
+  overload: Lucid.Toolkit2D.ScrollRectExtended.OnEndDrag*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.ScrollRectExtended.UpdateTabHighlight(Vector2)
+  commentId: M:Lucid.Toolkit2D.ScrollRectExtended.UpdateTabHighlight(Vector2)
+  id: UpdateTabHighlight(Vector2)
+  parent: Lucid.Toolkit2D.ScrollRectExtended
+  langs:
+  - csharp
+  - vb
+  name: UpdateTabHighlight(Vector2)
+  nameWithType: ScrollRectExtended.UpdateTabHighlight(Vector2)
+  fullName: Lucid.Toolkit2D.ScrollRectExtended.UpdateTabHighlight(Vector2)
+  type: Method
+  source:
+    id: UpdateTabHighlight
+    path: ''
+    startLine: 20812
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public void UpdateTabHighlight(Vector2 call)
+    parameters:
+    - id: call
+      type: Global.Vector2
+    content.vb: Public Sub UpdateTabHighlight(call As Vector2)
+  overload: Lucid.Toolkit2D.ScrollRectExtended.UpdateTabHighlight*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.ScrollRectExtended.InitInfiniteScroll
+  commentId: M:Lucid.Toolkit2D.ScrollRectExtended.InitInfiniteScroll
+  id: InitInfiniteScroll
+  parent: Lucid.Toolkit2D.ScrollRectExtended
+  langs:
+  - csharp
+  - vb
+  name: InitInfiniteScroll()
+  nameWithType: ScrollRectExtended.InitInfiniteScroll()
+  fullName: Lucid.Toolkit2D.ScrollRectExtended.InitInfiniteScroll()
+  type: Method
+  source:
+    id: InitInfiniteScroll
+    path: ''
+    startLine: 20862
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public void InitInfiniteScroll()
+    content.vb: Public Sub InitInfiniteScroll
+  overload: Lucid.Toolkit2D.ScrollRectExtended.InitInfiniteScroll*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit2D.ScrollRectExtended.CalculateInfiniteScroll(Vector2)
+  commentId: M:Lucid.Toolkit2D.ScrollRectExtended.CalculateInfiniteScroll(Vector2)
+  id: CalculateInfiniteScroll(Vector2)
+  parent: Lucid.Toolkit2D.ScrollRectExtended
+  langs:
+  - csharp
+  - vb
+  name: CalculateInfiniteScroll(Vector2)
+  nameWithType: ScrollRectExtended.CalculateInfiniteScroll(Vector2)
+  fullName: Lucid.Toolkit2D.ScrollRectExtended.CalculateInfiniteScroll(Vector2)
+  type: Method
+  source:
+    id: CalculateInfiniteScroll
+    path: ''
+    startLine: 20938
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit2D
+  syntax:
+    content: public void CalculateInfiniteScroll(Vector2 pos)
+    parameters:
+    - id: pos
+      type: Global.Vector2
+    content.vb: Public Sub CalculateInfiniteScroll(pos As Vector2)
+  overload: Lucid.Toolkit2D.ScrollRectExtended.CalculateInfiniteScroll*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Lucid.Toolkit2D
+  commentId: N:Lucid.Toolkit2D
+  name: Lucid.Toolkit2D
+  nameWithType: Lucid.Toolkit2D
+  fullName: Lucid.Toolkit2D
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.ScrollRect
+  commentId: '!:Global.ScrollRect'
+  isExternal: true
+  name: ScrollRect
+  nameWithType: ScrollRect
+  fullName: ScrollRect
+- uid: Global.RectTransform
+  isExternal: true
+  name: RectTransform
+  nameWithType: RectTransform
+  fullName: RectTransform
+- uid: Global.Slider
+  isExternal: true
+  name: Slider
+  nameWithType: Slider
+  fullName: Slider
+- uid: Lucid.Toolkit2D.ScrollRectExtended.CurrentIndex*
+  commentId: Overload:Lucid.Toolkit2D.ScrollRectExtended.CurrentIndex
+  name: CurrentIndex
+  nameWithType: ScrollRectExtended.CurrentIndex
+  fullName: Lucid.Toolkit2D.ScrollRectExtended.CurrentIndex
+- uid: Lucid.Toolkit2D.ScrollRectExtended.OnBeginDrag*
+  commentId: Overload:Lucid.Toolkit2D.ScrollRectExtended.OnBeginDrag
+  name: OnBeginDrag
+  nameWithType: ScrollRectExtended.OnBeginDrag
+  fullName: Lucid.Toolkit2D.ScrollRectExtended.OnBeginDrag
+- uid: Global.PointerEventData
+  isExternal: true
+  name: PointerEventData
+  nameWithType: PointerEventData
+  fullName: PointerEventData
+- uid: Lucid.Toolkit2D.ScrollRectExtended.OnDrag*
+  commentId: Overload:Lucid.Toolkit2D.ScrollRectExtended.OnDrag
+  name: OnDrag
+  nameWithType: ScrollRectExtended.OnDrag
+  fullName: Lucid.Toolkit2D.ScrollRectExtended.OnDrag
+- uid: Lucid.Toolkit2D.ScrollRectExtended.OnEndDrag*
+  commentId: Overload:Lucid.Toolkit2D.ScrollRectExtended.OnEndDrag
+  name: OnEndDrag
+  nameWithType: ScrollRectExtended.OnEndDrag
+  fullName: Lucid.Toolkit2D.ScrollRectExtended.OnEndDrag
+- uid: Lucid.Toolkit2D.ScrollRectExtended.UpdateTabHighlight*
+  commentId: Overload:Lucid.Toolkit2D.ScrollRectExtended.UpdateTabHighlight
+  name: UpdateTabHighlight
+  nameWithType: ScrollRectExtended.UpdateTabHighlight
+  fullName: Lucid.Toolkit2D.ScrollRectExtended.UpdateTabHighlight
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: Lucid.Toolkit2D.ScrollRectExtended.InitInfiniteScroll*
+  commentId: Overload:Lucid.Toolkit2D.ScrollRectExtended.InitInfiniteScroll
+  name: InitInfiniteScroll
+  nameWithType: ScrollRectExtended.InitInfiniteScroll
+  fullName: Lucid.Toolkit2D.ScrollRectExtended.InitInfiniteScroll
+- uid: Lucid.Toolkit2D.ScrollRectExtended.CalculateInfiniteScroll*
+  commentId: Overload:Lucid.Toolkit2D.ScrollRectExtended.CalculateInfiniteScroll
+  name: CalculateInfiniteScroll
+  nameWithType: ScrollRectExtended.CalculateInfiniteScroll
+  fullName: Lucid.Toolkit2D.ScrollRectExtended.CalculateInfiniteScroll

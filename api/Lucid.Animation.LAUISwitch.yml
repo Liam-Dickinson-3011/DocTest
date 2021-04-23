@@ -28,7 +28,7 @@ items:
   source:
     id: LAUISwitch
     path: ''
-    startLine: 25607
+    startLine: 25715
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -59,7 +59,7 @@ items:
   source:
     id: selectedPresetName
     path: ''
-    startLine: 25615
+    startLine: 25723
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -86,7 +86,7 @@ items:
   source:
     id: on
     path: ''
-    startLine: 25634
+    startLine: 25742
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -113,7 +113,7 @@ items:
   source:
     id: offPresetName
     path: ''
-    startLine: 25642
+    startLine: 25750
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -140,7 +140,7 @@ items:
   source:
     id: off
     path: ''
-    startLine: 25661
+    startLine: 25769
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -167,7 +167,7 @@ items:
   source:
     id: AutoFillTargets
     path: ''
-    startLine: 25664
+    startLine: 25772
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -193,7 +193,7 @@ items:
   source:
     id: responders
     path: ''
-    startLine: 25737
+    startLine: 25845
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -220,7 +220,7 @@ items:
   source:
     id: IsOn
     path: ''
-    startLine: 25739
+    startLine: 25847
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -251,7 +251,7 @@ items:
   source:
     id: GetAllStyleNames
     path: ''
-    startLine: 25741
+    startLine: 25849
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -279,7 +279,7 @@ items:
   source:
     id: ToggleSwitch
     path: ''
-    startLine: 25766
+    startLine: 25874
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -308,7 +308,7 @@ items:
   source:
     id: SetOn
     path: ''
-    startLine: 25797
+    startLine: 25905
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -334,7 +334,7 @@ items:
   source:
     id: CutOn
     path: ''
-    startLine: 25814
+    startLine: 25922
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -360,7 +360,7 @@ items:
   source:
     id: SetOff
     path: ''
-    startLine: 25826
+    startLine: 25934
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -386,7 +386,7 @@ items:
   source:
     id: CutOff
     path: ''
-    startLine: 25843
+    startLine: 25951
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation

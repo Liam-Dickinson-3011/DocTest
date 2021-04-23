@@ -23,7 +23,7 @@ items:
   source:
     id: LA3DProgressingAnimation
     path: ''
-    startLine: 25242
+    startLine: 25335
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -62,7 +62,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 25245
+    startLine: 25338
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -88,7 +88,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 25247
+    startLine: 25340
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -117,7 +117,7 @@ items:
   source:
     id: doTrans
     path: ''
-    startLine: 25254
+    startLine: 25347
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -144,7 +144,7 @@ items:
   source:
     id: laTrans
     path: ''
-    startLine: 25258
+    startLine: 25351
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -171,7 +171,7 @@ items:
   source:
     id: Seq
     path: ''
-    startLine: 25261
+    startLine: 25354
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -202,7 +202,7 @@ items:
   source:
     id: Initialise
     path: ''
-    startLine: 25266
+    startLine: 25359
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -233,7 +233,7 @@ items:
   source:
     id: GoToNormalisedPos
     path: ''
-    startLine: 25285
+    startLine: 25378
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -262,7 +262,7 @@ items:
   source:
     id: CutToNormalisedPos
     path: ''
-    startLine: 25346
+    startLine: 25439
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation

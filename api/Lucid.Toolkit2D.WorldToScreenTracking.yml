@@ -22,10 +22,12 @@ items:
   source:
     id: WorldToScreenTracking
     path: ''
-    startLine: 21081
+    startLine: 21174
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit2D
+  summary: "\nAllows you to make ui elements move to stay alligned to objects in world space. can set min and max render positions, the near plane rendering limit \nand the off position for elements whose world space counterpart is not visible in the camera\n"
+  example: []
   syntax:
     content: 'public class WorldToScreenTracking : MonoBehaviour'
     content.vb: >-
@@ -53,7 +55,7 @@ items:
   source:
     id: trackingSets
     path: ''
-    startLine: 21092
+    startLine: 21185
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit2D
@@ -80,7 +82,7 @@ items:
   source:
     id: offScreenPos
     path: ''
-    startLine: 21095
+    startLine: 21188
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit2D
@@ -107,7 +109,7 @@ items:
   source:
     id: minRenderPos
     path: ''
-    startLine: 21096
+    startLine: 21189
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit2D
@@ -134,7 +136,7 @@ items:
   source:
     id: maxRenderPos
     path: ''
-    startLine: 21097
+    startLine: 21190
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit2D
@@ -161,7 +163,7 @@ items:
   source:
     id: renderNearPlane
     path: ''
-    startLine: 21098
+    startLine: 21191
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit2D
@@ -188,7 +190,7 @@ items:
   source:
     id: cam
     path: ''
-    startLine: 21101
+    startLine: 21194
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit2D
@@ -215,7 +217,7 @@ items:
   source:
     id: cScale
     path: ''
-    startLine: 21103
+    startLine: 21196
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit2D

@@ -22,7 +22,7 @@ items:
   source:
     id: LO_360TouchCam
     path: ''
-    startLine: 26699
+    startLine: 26807
   assemblies:
   - cs.temp.dll
   namespace: Lucid
@@ -53,7 +53,7 @@ items:
   source:
     id: rotationSpeed
     path: ''
-    startLine: 26702
+    startLine: 26810
   assemblies:
   - cs.temp.dll
   namespace: Lucid
@@ -80,7 +80,7 @@ items:
   source:
     id: lerpSpeed
     path: ''
-    startLine: 26703
+    startLine: 26811
   assemblies:
   - cs.temp.dll
   namespace: Lucid
@@ -107,7 +107,7 @@ items:
   source:
     id: minimumTilt
     path: ''
-    startLine: 26704
+    startLine: 26812
   assemblies:
   - cs.temp.dll
   namespace: Lucid
@@ -134,7 +134,7 @@ items:
   source:
     id: maximumTilt
     path: ''
-    startLine: 26705
+    startLine: 26813
   assemblies:
   - cs.temp.dll
   namespace: Lucid
@@ -161,7 +161,7 @@ items:
   source:
     id: zoomSpeed
     path: ''
-    startLine: 26710
+    startLine: 26818
   assemblies:
   - cs.temp.dll
   namespace: Lucid
@@ -188,7 +188,7 @@ items:
   source:
     id: maxFOV
     path: ''
-    startLine: 26711
+    startLine: 26819
   assemblies:
   - cs.temp.dll
   namespace: Lucid
@@ -215,7 +215,7 @@ items:
   source:
     id: minFOV
     path: ''
-    startLine: 26712
+    startLine: 26820
   assemblies:
   - cs.temp.dll
   namespace: Lucid

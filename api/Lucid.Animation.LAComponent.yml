@@ -19,7 +19,7 @@ items:
   source:
     id: LAComponent
     path: ''
-    startLine: 22241
+    startLine: 22334
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -64,7 +64,7 @@ items:
   source:
     id: onSequenceComplete
     path: ''
-    startLine: 22246
+    startLine: 22339
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -91,7 +91,7 @@ items:
   source:
     id: AddToSequence
     path: ''
-    startLine: 22248
+    startLine: 22341
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -128,7 +128,7 @@ items:
   source:
     id: CutToValues
     path: ''
-    startLine: 22258
+    startLine: 22351
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -156,7 +156,7 @@ items:
   source:
     id: GetSequenceDuration
     path: ''
-    startLine: 22263
+    startLine: 22356
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation

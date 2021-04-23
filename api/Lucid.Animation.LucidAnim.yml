@@ -21,7 +21,7 @@ items:
   source:
     id: LucidAnim
     path: ''
-    startLine: 24035
+    startLine: 24128
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -69,7 +69,7 @@ items:
   source:
     id: startDelay
     path: ''
-    startLine: 24043
+    startLine: 24136
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -96,7 +96,7 @@ items:
   source:
     id: duration
     path: ''
-    startLine: 24046
+    startLine: 24139
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -123,7 +123,7 @@ items:
   source:
     id: speedBased
     path: ''
-    startLine: 24049
+    startLine: 24142
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -150,7 +150,7 @@ items:
   source:
     id: ease
     path: ''
-    startLine: 24052
+    startLine: 24145
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -177,7 +177,7 @@ items:
   source:
     id: inCollection
     path: ''
-    startLine: 24055
+    startLine: 24148
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -204,7 +204,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 24057
+    startLine: 24150
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation

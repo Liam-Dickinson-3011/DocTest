@@ -18,10 +18,12 @@ items:
   source:
     id: ItemAnimationStyleSettings
     path: ''
-    startLine: 25449
+    startLine: 25554
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
+  summary: "\nScriptable object that contains all Item Animation Styles. This is used in the Lucid Editor Window\n"
+  example: []
   syntax:
     content: 'public class ItemAnimationStyleSettings : SingletonScriptableObject<ItemAnimationStyleSettings>'
     content.vb: >-
@@ -49,7 +51,7 @@ items:
   source:
     id: itemAnimStyles
     path: ''
-    startLine: 25455
+    startLine: 25560
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -80,7 +82,7 @@ items:
   source:
     id: LoadAllColorStyleAssets
     path: ''
-    startLine: 25488
+    startLine: 25593
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -106,7 +108,7 @@ items:
   source:
     id: GetAllStyleNames
     path: ''
-    startLine: 25496
+    startLine: 25601
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation

@@ -27,7 +27,7 @@ items:
   source:
     id: LAImage
     path: ''
-    startLine: 22624
+    startLine: 22717
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -70,7 +70,7 @@ items:
   source:
     id: doColor
     path: ''
-    startLine: 22634
+    startLine: 22727
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -97,7 +97,7 @@ items:
   source:
     id: doFade
     path: ''
-    startLine: 22639
+    startLine: 22732
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -124,7 +124,7 @@ items:
   source:
     id: colorType
     path: ''
-    startLine: 22644
+    startLine: 22737
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -151,7 +151,7 @@ items:
   source:
     id: target
     path: ''
-    startLine: 22649
+    startLine: 22742
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -178,7 +178,7 @@ items:
   source:
     id: targetColor
     path: ''
-    startLine: 22656
+    startLine: 22749
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -205,7 +205,7 @@ items:
   source:
     id: targetGradient
     path: ''
-    startLine: 22662
+    startLine: 22755
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -232,7 +232,7 @@ items:
   source:
     id: targetFade
     path: ''
-    startLine: 22668
+    startLine: 22761
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -259,7 +259,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 22670
+    startLine: 22763
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -285,7 +285,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 22672
+    startLine: 22765
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -314,7 +314,7 @@ items:
   source:
     id: AddToSequence
     path: ''
-    startLine: 22683
+    startLine: 22776
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -352,7 +352,7 @@ items:
   source:
     id: CutToValues
     path: ''
-    startLine: 22742
+    startLine: 22835
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -381,7 +381,7 @@ items:
   source:
     id: GetSequenceDuration
     path: ''
-    startLine: 22764
+    startLine: 22857
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation

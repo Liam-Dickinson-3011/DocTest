@@ -5,6 +5,8 @@ items:
   id: Lucid.Toolkit2D
   children:
   - Lucid.Toolkit2D.AutoAspectFitter
+  - Lucid.Toolkit2D.LayoutGroupAutoRebuild
+  - Lucid.Toolkit2D.ScrollRectExtended
   - Lucid.Toolkit2D.SwipeDetection
   - Lucid.Toolkit2D.SwipeDetection.DragDistanceType
   - Lucid.Toolkit2D.SwipeDetection.DraggedDirection
@@ -21,6 +23,11 @@ items:
   assemblies:
   - cs.temp.dll
 references:
+- uid: Lucid.Toolkit2D.LayoutGroupAutoRebuild
+  commentId: T:Lucid.Toolkit2D.LayoutGroupAutoRebuild
+  name: LayoutGroupAutoRebuild
+  nameWithType: LayoutGroupAutoRebuild
+  fullName: Lucid.Toolkit2D.LayoutGroupAutoRebuild
 - uid: Lucid.Toolkit2D.ToggleGroupEvents
   commentId: T:Lucid.Toolkit2D.ToggleGroupEvents
   name: ToggleGroupEvents
@@ -31,6 +38,11 @@ references:
   name: AutoAspectFitter
   nameWithType: AutoAspectFitter
   fullName: Lucid.Toolkit2D.AutoAspectFitter
+- uid: Lucid.Toolkit2D.ScrollRectExtended
+  commentId: T:Lucid.Toolkit2D.ScrollRectExtended
+  name: ScrollRectExtended
+  nameWithType: ScrollRectExtended
+  fullName: Lucid.Toolkit2D.ScrollRectExtended
 - uid: Lucid.Toolkit2D.SwipeDetection
   commentId: T:Lucid.Toolkit2D.SwipeDetection
   name: SwipeDetection

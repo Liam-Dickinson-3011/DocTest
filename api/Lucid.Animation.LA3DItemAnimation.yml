@@ -24,7 +24,7 @@ items:
   source:
     id: LA3DItemAnimation
     path: ''
-    startLine: 24978
+    startLine: 25071
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -63,7 +63,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 24981
+    startLine: 25074
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -89,7 +89,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 24982
+    startLine: 25075
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -118,7 +118,7 @@ items:
   source:
     id: doTrans
     path: ''
-    startLine: 24995
+    startLine: 25088
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -145,7 +145,7 @@ items:
   source:
     id: laTrans
     path: ''
-    startLine: 24999
+    startLine: 25092
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -172,7 +172,7 @@ items:
   source:
     id: TransSeq
     path: ''
-    startLine: 25003
+    startLine: 25096
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -203,7 +203,7 @@ items:
   source:
     id: DoAnimation
     path: ''
-    startLine: 25005
+    startLine: 25098
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -229,7 +229,7 @@ items:
   source:
     id: DoCut
     path: ''
-    startLine: 25019
+    startLine: 25112
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -255,7 +255,7 @@ items:
   source:
     id: GetLongestSequence
     path: ''
-    startLine: 25033
+    startLine: 25126
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -283,7 +283,7 @@ items:
   source:
     id: GetFullAnimationDuration
     path: ''
-    startLine: 25048
+    startLine: 25141
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation

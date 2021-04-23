@@ -5,9 +5,14 @@ items:
   id: TransformRandomizer
   parent: Lucid.Toolkit3D
   children:
-  - Lucid.Toolkit3D.TransformRandomizer.maxRotation
+  - Lucid.Toolkit3D.TransformRandomizer.boundsMaximum
+  - Lucid.Toolkit3D.TransformRandomizer.boundsMinimum
+  - Lucid.Toolkit3D.TransformRandomizer.doPosition
+  - Lucid.Toolkit3D.TransformRandomizer.doRotation
+  - Lucid.Toolkit3D.TransformRandomizer.doScale
+  - Lucid.Toolkit3D.TransformRandomizer.maxLocalRotation
   - Lucid.Toolkit3D.TransformRandomizer.maxScale
-  - Lucid.Toolkit3D.TransformRandomizer.minRotation
+  - Lucid.Toolkit3D.TransformRandomizer.minLocalRotation
   - Lucid.Toolkit3D.TransformRandomizer.minScale
   - Lucid.Toolkit3D.TransformRandomizer.RandomizeTransforms
   - Lucid.Toolkit3D.TransformRandomizer.transforms
@@ -21,10 +26,12 @@ items:
   source:
     id: TransformRandomizer
     path: ''
-    startLine: 19263
+    startLine: 19266
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
+  summary: "\nAllows you to randomise the position within a bounding box, the rotation and scale of an object or set of objects\n"
+  example: []
   syntax:
     content: 'public class TransformRandomizer : MonoBehaviour'
     content.vb: >-
@@ -52,7 +59,7 @@ items:
   source:
     id: transforms
     path: ''
-    startLine: 19265
+    startLine: 19268
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -65,56 +72,191 @@ items:
   - public
   modifiers.vb:
   - Public
-- uid: Lucid.Toolkit3D.TransformRandomizer.minRotation
-  commentId: F:Lucid.Toolkit3D.TransformRandomizer.minRotation
-  id: minRotation
+- uid: Lucid.Toolkit3D.TransformRandomizer.doPosition
+  commentId: F:Lucid.Toolkit3D.TransformRandomizer.doPosition
+  id: doPosition
   parent: Lucid.Toolkit3D.TransformRandomizer
   langs:
   - csharp
   - vb
-  name: minRotation
-  nameWithType: TransformRandomizer.minRotation
-  fullName: Lucid.Toolkit3D.TransformRandomizer.minRotation
+  name: doPosition
+  nameWithType: TransformRandomizer.doPosition
+  fullName: Lucid.Toolkit3D.TransformRandomizer.doPosition
   type: Field
   source:
-    id: minRotation
+    id: doPosition
     path: ''
-    startLine: 19269
+    startLine: 19274
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
   syntax:
-    content: public Vector3 minRotation
+    content: public bool doPosition
     return:
-      type: Global.Vector3
-    content.vb: Public minRotation As Vector3
+      type: System.Boolean
+    content.vb: Public doPosition As Boolean
   modifiers.csharp:
   - public
   modifiers.vb:
   - Public
-- uid: Lucid.Toolkit3D.TransformRandomizer.maxRotation
-  commentId: F:Lucid.Toolkit3D.TransformRandomizer.maxRotation
-  id: maxRotation
+- uid: Lucid.Toolkit3D.TransformRandomizer.boundsMinimum
+  commentId: F:Lucid.Toolkit3D.TransformRandomizer.boundsMinimum
+  id: boundsMinimum
   parent: Lucid.Toolkit3D.TransformRandomizer
   langs:
   - csharp
   - vb
-  name: maxRotation
-  nameWithType: TransformRandomizer.maxRotation
-  fullName: Lucid.Toolkit3D.TransformRandomizer.maxRotation
+  name: boundsMinimum
+  nameWithType: TransformRandomizer.boundsMinimum
+  fullName: Lucid.Toolkit3D.TransformRandomizer.boundsMinimum
   type: Field
   source:
-    id: maxRotation
+    id: boundsMinimum
     path: ''
-    startLine: 19271
+    startLine: 19276
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
   syntax:
-    content: public Vector3 maxRotation
+    content: public Transform boundsMinimum
+    return:
+      type: Global.Transform
+    content.vb: Public boundsMinimum As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.TransformRandomizer.boundsMaximum
+  commentId: F:Lucid.Toolkit3D.TransformRandomizer.boundsMaximum
+  id: boundsMaximum
+  parent: Lucid.Toolkit3D.TransformRandomizer
+  langs:
+  - csharp
+  - vb
+  name: boundsMaximum
+  nameWithType: TransformRandomizer.boundsMaximum
+  fullName: Lucid.Toolkit3D.TransformRandomizer.boundsMaximum
+  type: Field
+  source:
+    id: boundsMaximum
+    path: ''
+    startLine: 19278
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public Transform boundsMaximum
+    return:
+      type: Global.Transform
+    content.vb: Public boundsMaximum As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.TransformRandomizer.doRotation
+  commentId: F:Lucid.Toolkit3D.TransformRandomizer.doRotation
+  id: doRotation
+  parent: Lucid.Toolkit3D.TransformRandomizer
+  langs:
+  - csharp
+  - vb
+  name: doRotation
+  nameWithType: TransformRandomizer.doRotation
+  fullName: Lucid.Toolkit3D.TransformRandomizer.doRotation
+  type: Field
+  source:
+    id: doRotation
+    path: ''
+    startLine: 19281
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public bool doRotation
+    return:
+      type: System.Boolean
+    content.vb: Public doRotation As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.TransformRandomizer.minLocalRotation
+  commentId: F:Lucid.Toolkit3D.TransformRandomizer.minLocalRotation
+  id: minLocalRotation
+  parent: Lucid.Toolkit3D.TransformRandomizer
+  langs:
+  - csharp
+  - vb
+  name: minLocalRotation
+  nameWithType: TransformRandomizer.minLocalRotation
+  fullName: Lucid.Toolkit3D.TransformRandomizer.minLocalRotation
+  type: Field
+  source:
+    id: minLocalRotation
+    path: ''
+    startLine: 19283
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public Vector3 minLocalRotation
     return:
       type: Global.Vector3
-    content.vb: Public maxRotation As Vector3
+    content.vb: Public minLocalRotation As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.TransformRandomizer.maxLocalRotation
+  commentId: F:Lucid.Toolkit3D.TransformRandomizer.maxLocalRotation
+  id: maxLocalRotation
+  parent: Lucid.Toolkit3D.TransformRandomizer
+  langs:
+  - csharp
+  - vb
+  name: maxLocalRotation
+  nameWithType: TransformRandomizer.maxLocalRotation
+  fullName: Lucid.Toolkit3D.TransformRandomizer.maxLocalRotation
+  type: Field
+  source:
+    id: maxLocalRotation
+    path: ''
+    startLine: 19285
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public Vector3 maxLocalRotation
+    return:
+      type: Global.Vector3
+    content.vb: Public maxLocalRotation As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Lucid.Toolkit3D.TransformRandomizer.doScale
+  commentId: F:Lucid.Toolkit3D.TransformRandomizer.doScale
+  id: doScale
+  parent: Lucid.Toolkit3D.TransformRandomizer
+  langs:
+  - csharp
+  - vb
+  name: doScale
+  nameWithType: TransformRandomizer.doScale
+  fullName: Lucid.Toolkit3D.TransformRandomizer.doScale
+  type: Field
+  source:
+    id: doScale
+    path: ''
+    startLine: 19287
+  assemblies:
+  - cs.temp.dll
+  namespace: Lucid.Toolkit3D
+  syntax:
+    content: public bool doScale
+    return:
+      type: System.Boolean
+    content.vb: Public doScale As Boolean
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -133,7 +275,7 @@ items:
   source:
     id: minScale
     path: ''
-    startLine: 19273
+    startLine: 19289
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -160,7 +302,7 @@ items:
   source:
     id: maxScale
     path: ''
-    startLine: 19275
+    startLine: 19291
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -187,7 +329,7 @@ items:
   source:
     id: RandomizeTransforms
     path: ''
-    startLine: 19277
+    startLine: 19337
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Toolkit3D
@@ -244,6 +386,18 @@ references:
   - name: ()
     nameWithType: ()
     fullName: ()
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
 - uid: Global.Vector3
   isExternal: true
   name: Vector3

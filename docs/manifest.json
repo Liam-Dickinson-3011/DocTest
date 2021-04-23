@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.GroupAnimationStyle.html",
-          "hash": "ShAJvlCNZNT0FIf3KNI/Ow=="
+          "hash": "3eiXWvrC5vCfurifvE4OVw=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.GroupAnimationStyleSettings.html",
-          "hash": "jiPUivzTwjfusuaufxPHwg=="
+          "hash": "oYw59mbjJ/kTrHFtYKM7+A=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.ItemAnimationStyle.html",
-          "hash": "mmEQH/i6e9Lmelkjo1r9Ew=="
+          "hash": "u2DGAAmctUrX2x675w0f4A=="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.ItemAnimationStyleSettings.html",
-          "hash": "ttet2iQhqtzj5l3m1NJP5Q=="
+          "hash": "pKflxZTZiBkqAiFpf7+ofw=="
         }
       },
       "is_incremental": false,
@@ -594,7 +594,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Animation.html",
-          "hash": "sRjVFDy0GjxcaWBLnYcYaQ=="
+          "hash": "Xip35TuoIeHwbddDqS8hxw=="
         }
       },
       "is_incremental": false,
@@ -1866,7 +1866,31 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Toolkit2D.AutoAspectFitter.html",
-          "hash": "qCJsgMD0/siye2UWgEoJAw=="
+          "hash": "tyzU/9I6ngFvoDlBH0S8gw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lucid.Toolkit2D.LayoutGroupAutoRebuild.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lucid.Toolkit2D.LayoutGroupAutoRebuild.html",
+          "hash": "AA+QY5H9WRFS9ewNL0WACg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lucid.Toolkit2D.ScrollRectExtended.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lucid.Toolkit2D.ScrollRectExtended.html",
+          "hash": "gBH+WcIx19adFvSe5nIOyw=="
         }
       },
       "is_incremental": false,
@@ -1902,7 +1926,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Toolkit2D.SwipeDetection.html",
-          "hash": "wIadrVSInQPULgXVI72Xag=="
+          "hash": "BWx+hqeU8Rc9d2EKxhY8FQ=="
         }
       },
       "is_incremental": false,
@@ -1914,7 +1938,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Toolkit2D.ToggleGroupEvents.html",
-          "hash": "EG3Qg/8AC26YlR6rhSWLKA=="
+          "hash": "nIz6UHL1Khw9TwfjI976gg=="
         }
       },
       "is_incremental": false,
@@ -1938,7 +1962,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Toolkit2D.WorldToScreenTracking.html",
-          "hash": "t2CvE0GjHsC5yseFPJWB1g=="
+          "hash": "QRO0zumSq7BrdBv2JXJvjw=="
         }
       },
       "is_incremental": false,
@@ -1950,7 +1974,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Toolkit2D.html",
-          "hash": "Ge+cSufbm3+dnAL26kbg/w=="
+          "hash": "tbSJKD/h5BhOV+ddDwB8DQ=="
         }
       },
       "is_incremental": false,
@@ -1962,7 +1986,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Toolkit3D.BaseCameraRig.html",
-          "hash": "6V9mSAOMDEhr70/7+1uCjg=="
+          "hash": "uRmRs4DJtUOu5OF0IpCn/g=="
         }
       },
       "is_incremental": false,
@@ -1974,7 +1998,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Toolkit3D.CameraRigManager.html",
-          "hash": "228UjAFW9ZU+ZlR44HUvCA=="
+          "hash": "6q+zXmPaLP70JNKkfrLmvQ=="
         }
       },
       "is_incremental": false,
@@ -2022,7 +2046,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Toolkit3D.GizmoDrawer.html",
-          "hash": "yFwpCPx5Sr3yfC9cfVZlKA=="
+          "hash": "MwIjS6SW1RJ0hzS9PJVAGw=="
         }
       },
       "is_incremental": false,
@@ -2046,7 +2070,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Toolkit3D.OrbitCamera.html",
-          "hash": "U+FXaSnj+SJSdHftfzT6Ow=="
+          "hash": "mWcbc2dr3ITP8033tsKHIw=="
         }
       },
       "is_incremental": false,
@@ -2058,7 +2082,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Toolkit3D.TransformRandomizer.html",
-          "hash": "4O2Geqlrq6VoHs4T/kDXLQ=="
+          "hash": "KkHqT/M6C+os4ektKl8yLQ=="
         }
       },
       "is_incremental": false,
@@ -2070,7 +2094,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Lucid.Toolkit3D.html",
-          "hash": "cnbgJRm+QS+hnwuBCYdVDA=="
+          "hash": "3tyUroXVqZHorT6zN2aIxg=="
         }
       },
       "is_incremental": false,
@@ -2370,7 +2394,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "KmTJOQ7m5dZrpjtl6xmaUA=="
+          "hash": "hNmNxDBWiuIYFK9m9I/p8w=="
         }
       },
       "is_incremental": false,
@@ -2465,8 +2489,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 196,
-          "skipped_file_count": 196
+          "total_file_count": 198,
+          "skipped_file_count": 198
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

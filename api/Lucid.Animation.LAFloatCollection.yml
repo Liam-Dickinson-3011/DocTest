@@ -18,7 +18,7 @@ items:
   source:
     id: LAFloatCollection
     path: ''
-    startLine: 24139
+    startLine: 24232
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -59,7 +59,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 24142
+    startLine: 24235
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -85,7 +85,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 24143
+    startLine: 24236
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -114,7 +114,7 @@ items:
   source:
     id: OnCollectionChanged
     path: ''
-    startLine: 24151
+    startLine: 24244
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation

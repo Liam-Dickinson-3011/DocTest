@@ -15,7 +15,7 @@ items:
   source:
     id: Ease
     path: ''
-    startLine: 21232
+    startLine: 21325
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Easing

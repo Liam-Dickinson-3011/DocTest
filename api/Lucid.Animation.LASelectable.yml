@@ -27,7 +27,7 @@ items:
   source:
     id: LASelectable
     path: ''
-    startLine: 25872
+    startLine: 25980
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -59,7 +59,7 @@ items:
   source:
     id: selectedPresetName
     path: ''
-    startLine: 25880
+    startLine: 25988
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -86,7 +86,7 @@ items:
   source:
     id: onSelected
     path: ''
-    startLine: 25899
+    startLine: 26007
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -113,7 +113,7 @@ items:
   source:
     id: deselectedPresetName
     path: ''
-    startLine: 25906
+    startLine: 26014
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -140,7 +140,7 @@ items:
   source:
     id: onDeselected
     path: ''
-    startLine: 25925
+    startLine: 26033
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -167,7 +167,7 @@ items:
   source:
     id: submitPresetName
     path: ''
-    startLine: 25932
+    startLine: 26040
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -194,7 +194,7 @@ items:
   source:
     id: onSubmit
     path: ''
-    startLine: 25951
+    startLine: 26059
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -221,7 +221,7 @@ items:
   source:
     id: AutoFillTargets
     path: ''
-    startLine: 25954
+    startLine: 26062
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -247,7 +247,7 @@ items:
   source:
     id: GetAllStyleNames
     path: ''
-    startLine: 26053
+    startLine: 26161
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -275,7 +275,7 @@ items:
   source:
     id: OnPointerEnter
     path: ''
-    startLine: 26076
+    startLine: 26184
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -304,7 +304,7 @@ items:
   source:
     id: OnPointerExit
     path: ''
-    startLine: 26083
+    startLine: 26191
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -333,7 +333,7 @@ items:
   source:
     id: OnPointerUp
     path: ''
-    startLine: 26095
+    startLine: 26203
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -362,7 +362,7 @@ items:
   source:
     id: OnPointerDown
     path: ''
-    startLine: 26109
+    startLine: 26217
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation

@@ -17,7 +17,7 @@ items:
   source:
     id: ColorType
     path: ''
-    startLine: 22628
+    startLine: 22721
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -54,7 +54,7 @@ items:
   source:
     id: color
     path: ''
-    startLine: 22629
+    startLine: 22722
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -82,7 +82,7 @@ items:
   source:
     id: gradient
     path: ''
-    startLine: 22629
+    startLine: 22722
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation

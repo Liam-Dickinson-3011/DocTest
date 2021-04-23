@@ -18,7 +18,7 @@ items:
   source:
     id: LA3DProgressor
     path: ''
-    startLine: 26522
+    startLine: 26630
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -49,7 +49,7 @@ items:
   source:
     id: transCollection
     path: ''
-    startLine: 26527
+    startLine: 26635
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -76,7 +76,7 @@ items:
   source:
     id: slider
     path: ''
-    startLine: 26530
+    startLine: 26638
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -103,7 +103,7 @@ items:
   source:
     id: GoToPosNormalised
     path: ''
-    startLine: 26542
+    startLine: 26650
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation

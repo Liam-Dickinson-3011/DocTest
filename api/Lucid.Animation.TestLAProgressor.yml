@@ -24,7 +24,7 @@ items:
   source:
     id: TestLAProgressor
     path: ''
-    startLine: 22148
+    startLine: 22241
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -55,7 +55,7 @@ items:
   source:
     id: transCollection
     path: ''
-    startLine: 22153
+    startLine: 22246
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -82,7 +82,7 @@ items:
   source:
     id: transCollection2
     path: ''
-    startLine: 22158
+    startLine: 22251
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -109,7 +109,7 @@ items:
   source:
     id: prePos
     path: ''
-    startLine: 22162
+    startLine: 22255
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -136,7 +136,7 @@ items:
   source:
     id: onPos
     path: ''
-    startLine: 22165
+    startLine: 22258
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -163,7 +163,7 @@ items:
   source:
     id: postPos
     path: ''
-    startLine: 22168
+    startLine: 22261
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -190,7 +190,7 @@ items:
   source:
     id: normSlider
     path: ''
-    startLine: 22171
+    startLine: 22264
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -217,7 +217,7 @@ items:
   source:
     id: PrePos
     path: ''
-    startLine: 22187
+    startLine: 22280
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -243,7 +243,7 @@ items:
   source:
     id: OnPos
     path: ''
-    startLine: 22194
+    startLine: 22287
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -269,7 +269,7 @@ items:
   source:
     id: PostPos
     path: ''
-    startLine: 22201
+    startLine: 22294
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation

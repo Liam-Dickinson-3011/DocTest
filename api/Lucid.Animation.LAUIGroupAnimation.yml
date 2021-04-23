@@ -33,7 +33,7 @@ items:
   source:
     id: LAUIGroupAnimation
     path: ''
-    startLine: 24469
+    startLine: 24562
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -72,7 +72,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 24472
+    startLine: 24565
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -98,7 +98,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 24474
+    startLine: 24567
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -127,7 +127,7 @@ items:
   source:
     id: doCanvasGroup
     path: ''
-    startLine: 24508
+    startLine: 24601
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -154,7 +154,7 @@ items:
   source:
     id: doRT
     path: ''
-    startLine: 24512
+    startLine: 24605
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -181,7 +181,7 @@ items:
   source:
     id: doImage
     path: ''
-    startLine: 24516
+    startLine: 24609
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -208,7 +208,7 @@ items:
   source:
     id: doTMPro
     path: ''
-    startLine: 24520
+    startLine: 24613
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -235,7 +235,7 @@ items:
   source:
     id: laCanvasGroup
     path: ''
-    startLine: 24524
+    startLine: 24617
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -262,7 +262,7 @@ items:
   source:
     id: laRT
     path: ''
-    startLine: 24528
+    startLine: 24621
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -289,7 +289,7 @@ items:
   source:
     id: laImage
     path: ''
-    startLine: 24532
+    startLine: 24625
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -316,7 +316,7 @@ items:
   source:
     id: laTmp
     path: ''
-    startLine: 24536
+    startLine: 24629
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -343,7 +343,7 @@ items:
   source:
     id: CGSeq
     path: ''
-    startLine: 24543
+    startLine: 24636
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -374,7 +374,7 @@ items:
   source:
     id: RTSeq
     path: ''
-    startLine: 24544
+    startLine: 24637
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -405,7 +405,7 @@ items:
   source:
     id: ImageSeq
     path: ''
-    startLine: 24545
+    startLine: 24638
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -436,7 +436,7 @@ items:
   source:
     id: TMPSeq
     path: ''
-    startLine: 24546
+    startLine: 24639
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -467,7 +467,7 @@ items:
   source:
     id: DoAnimation
     path: ''
-    startLine: 24548
+    startLine: 24641
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -493,7 +493,7 @@ items:
   source:
     id: DoCut
     path: ''
-    startLine: 24593
+    startLine: 24686
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -519,7 +519,7 @@ items:
   source:
     id: GetLongestSequence
     path: ''
-    startLine: 24637
+    startLine: 24730
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -547,7 +547,7 @@ items:
   source:
     id: GetFullAnimationDuration
     path: ''
-    startLine: 24694
+    startLine: 24787
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation

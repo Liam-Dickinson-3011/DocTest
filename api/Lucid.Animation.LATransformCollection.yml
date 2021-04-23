@@ -26,7 +26,7 @@ items:
   source:
     id: LATransformCollection
     path: ''
-    startLine: 23157
+    startLine: 23250
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -69,7 +69,7 @@ items:
   source:
     id: doPos
     path: ''
-    startLine: 23164
+    startLine: 23257
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -96,7 +96,7 @@ items:
   source:
     id: doRot
     path: ''
-    startLine: 23168
+    startLine: 23261
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -123,7 +123,7 @@ items:
   source:
     id: doScale
     path: ''
-    startLine: 23172
+    startLine: 23265
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -150,7 +150,7 @@ items:
   source:
     id: target
     path: ''
-    startLine: 23177
+    startLine: 23270
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -177,7 +177,7 @@ items:
   source:
     id: targetPositions
     path: ''
-    startLine: 23185
+    startLine: 23278
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -204,7 +204,7 @@ items:
   source:
     id: targetEulerRots
     path: ''
-    startLine: 23193
+    startLine: 23286
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -231,7 +231,7 @@ items:
   source:
     id: targetScales
     path: ''
-    startLine: 23201
+    startLine: 23294
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -258,7 +258,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 23224
+    startLine: 23317
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -284,7 +284,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 23231
+    startLine: 23324
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -313,7 +313,7 @@ items:
   source:
     id: AddToSequence
     path: ''
-    startLine: 23257
+    startLine: 23350
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
@@ -349,7 +349,7 @@ items:
   source:
     id: GetSequenceDuration
     path: ''
-    startLine: 23292
+    startLine: 23385
   assemblies:
   - cs.temp.dll
   namespace: Lucid.Animation
